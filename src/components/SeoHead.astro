@@ -1,0 +1,90 @@
+---
+/**
+ * Everything inside <head>: title, canonical, Open Graph, Twitter, fonts,
+ * icons, JSON-LD, search-engine verification, GA4 and the site's theme vars.
+ */
+import type { SiteConfig } from '../types.ts';
+import { getSite } from '../network.ts';
+import { themeCss } from '../theme.ts';
+import { absoluteUrl, organizationJsonLd } from '../jsonld.ts';
+
+export interface Props {
+  site: SiteConfig;
+  title: string;
+  description: string;
+  canonicalPath: string;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  noindex?: boolean;
+  /** Emit the Organization node. Defaults to true on the home page only. */
+  organizationJsonLd?: boolean;
+}
+
+const {
+  site,
+  title,
+  description,
+  canonicalPath,
+  ogImage = site.defaultOgImage,
+  ogType = 'website',
+  jsonLd,
+  noindex = false,
+  organizationJsonLd: withOrg = canonicalPath === '/',
+} = Astro.props;
+
+const me = getSite(site.key);
+const canonical = absoluteUrl(canonicalPath, me.url);
+const ogImageUrl = absoluteUrl(ogImage, me.url);
+const fullTitle = title.includes(me.name) ? title : `${title} | ${me.name}`;
+const ld = [
+  ...(withOrg ? [organizationJsonLd(site)] : []),
+  ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
+];
+const gaId = site.analytics?.gaId;
+---
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content={Astro.generator} />
+<meta name="theme-color" content={site.theme.themeColor ?? site.theme.bg} />
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+<meta property="og:site_name" content={me.name} />
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImageUrl} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageUrl} />
+{site.fontsHref && (
+  <>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href={site.fontsHref} rel="stylesheet" />
+  </>
+)}
+<link rel="icon" type={site.favicon.type} href={site.favicon.href} />
+{site.appleTouchIcon && <link rel="apple-touch-icon" href={site.appleTouchIcon} />}
+<link rel="sitemap" href="/sitemap-index.xml" />
+<style is:inline set:html={themeCss(site.theme, site.fonts)}></style>
+{ld.map((entry) => <script type="application/ld+json" set:html={JSON.stringify(entry)} />)}
+{site.verification?.google && <meta name="google-site-verification" content={site.verification.google} />}
+{site.verification?.bing && <meta name="msvalidate.01" content={site.verification.bing} />}
+{site.verification?.pinterest && <meta name="p:domain_verify" content={site.verification.pinterest} />}
+{gaId && (
+  <>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+    <script is:inline define:vars={{ gaId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', gaId);
+    </script>
+  </>
+)}
+<slot />

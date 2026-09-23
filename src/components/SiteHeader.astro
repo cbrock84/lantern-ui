@@ -1,0 +1,54 @@
+---
+import type { SiteConfig } from '../types.ts';
+import { getSite } from '../network.ts';
+
+export interface Props {
+  site: SiteConfig;
+  /** Current path, used to mark the active nav link. */
+  currentPath?: string;
+}
+
+const { site, currentPath } = Astro.props;
+const me = getSite(site.key);
+// Layouts always forward the "logo" slot, and a forwarded empty slot would
+// suppress <slot> fallback content, so render it and fall back explicitly.
+const logoHtml = Astro.slots.has('logo') ? (await Astro.slots.render('logo')).trim() : '';
+const norm = (p: string) => (p.length > 1 ? p.replace(/\/$/, '') : p);
+const isActive = (href: string) =>
+  currentPath !== undefined && !/^https?:/.test(href) &&
+  (href === '/' ? norm(currentPath) === '/' : norm(currentPath).startsWith(norm(href)));
+---
+<header class="border-b border-site-border bg-site-surface/80 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-8 gap-y-3 px-4 py-4 sm:px-6">
+    <a href="/" class="block flex-shrink-0 hover:opacity-90" aria-label={`${me.name} home`}>
+      {logoHtml ? <Fragment set:html={logoHtml} /> : site.logo ? (
+          <img
+            src={site.logo.src}
+            alt={site.logo.alt}
+            width={site.logo.width}
+            height={site.logo.height}
+            class="h-10 w-auto object-contain md:h-14"
+            loading="eager"
+          />
+        ) : (
+          <span class="font-site-display text-2xl font-bold text-site-heading">{me.name}</span>
+        )}
+    </a>
+    <nav aria-label="Main" class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold text-site-text">
+      {site.nav.map((l) =>
+        l.cta ? (
+          <a
+            href={l.href}
+            class="rounded-md border border-site-accent/40 bg-site-accent/10 px-3 py-1.5 text-site-accent transition hover:bg-site-accent hover:text-site-surface"
+          >{l.label}</a>
+        ) : (
+          <a
+            href={l.href}
+            class="transition hover:text-site-accent aria-[current=page]:text-site-accent"
+            aria-current={isActive(l.href) ? 'page' : undefined}
+          >{l.label}</a>
+        ),
+      )}
+    </nav>
+  </div>
+</header>

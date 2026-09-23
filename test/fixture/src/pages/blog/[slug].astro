@@ -1,0 +1,15 @@
+---
+import ArticleLayout from '@lanternlearn/ui/layouts/ArticleLayout.astro';
+import { publishedArticles, readingMinutes } from '@lanternlearn/ui';
+import { getCollection } from 'astro:content';
+import { site } from '../../site.ts';
+
+export async function getStaticPaths() {
+  return publishedArticles(await getCollection('blog')).map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<ArticleLayout site={site} article={post.data} canonicalPath={`/blog/${post.slug}`} readingMinutes={readingMinutes(post.body)}>
+  <Content />
+</ArticleLayout>

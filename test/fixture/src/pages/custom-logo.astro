@@ -1,0 +1,8 @@
+---
+import SiteLayout from '@lanternlearn/ui/layouts/SiteLayout.astro';
+import { site } from '../site.ts';
+---
+<SiteLayout site={site} title="Custom" description="Custom logo slot" canonicalPath="/custom-logo">
+  <span slot="logo" id="custom-wordmark">Holly <em>&amp;</em> Hare</span>
+  <p>custom</p>
+</SiteLayout>

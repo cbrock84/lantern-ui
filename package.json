@@ -1,0 +1,36 @@
+{
+  "name": "@lanternlearn/ui",
+  "version": "0.1.0",
+  "description": "Shared layout, SEO, family-of-sites navigation and article/blog components for the Lantern Learn sites.",
+  "type": "module",
+  "keywords": [
+    "astro-component"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./components/*": "./src/components/*",
+    "./layouts/*": "./src/layouts/*",
+    "./tailwind-preset": "./tailwind-preset.mjs"
+  },
+  "files": [
+    "src",
+    "tailwind-preset.mjs"
+  ],
+  "scripts": {
+    "test": "node --test 'test/unit/**/*.test.mjs'",
+    "test:fixture": "rm -f test/fixture/*.tgz && npm pack --pack-destination test/fixture && cd test/fixture && npm install --no-audit --no-fund ./lanternlearn-ui-*.tgz && npx astro build && cd ../.. && node --test test/fixture.test.mjs"
+  },
+  "peerDependencies": {
+    "astro": "^5.0.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.15"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "zod": "^3.24.0"
+  }
+}

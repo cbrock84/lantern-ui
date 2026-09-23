@@ -1,0 +1,89 @@
+---
+/**
+ * A blog / guide / expertise article: byline, hero, body, tags, cited
+ * sources, related family sites, and BlogPosting + BreadcrumbList JSON-LD.
+ */
+import type { SiteConfig } from '../types.ts';
+import type { ArticleData } from '../content.ts';
+import { articleJsonLd, breadcrumbJsonLd } from '../jsonld.ts';
+import SiteLayout from './SiteLayout.astro';
+import SourceList from '../components/SourceList.astro';
+import FamilyLinks from '../components/FamilyLinks.astro';
+
+export interface Props {
+  site: SiteConfig;
+  article: ArticleData;
+  canonicalPath: string;
+  /** Index page the article belongs to, for the back link and breadcrumb. */
+  section?: { name: string; path: string };
+  readingMinutes?: number;
+}
+
+const { site, article, canonicalPath, section = { name: 'Blog', path: '/blog' }, readingMinutes } = Astro.props;
+const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const description = article.metaDescription ?? article.description;
+const jsonLd = [
+  articleJsonLd(site, article, canonicalPath, article.heroImage),
+  breadcrumbJsonLd(site, [
+    { name: 'Home', path: '/' },
+    { name: section.name, path: section.path },
+    { name: article.title, path: canonicalPath },
+  ]),
+];
+---
+<SiteLayout
+  site={site}
+  title={article.title}
+  description={description}
+  canonicalPath={canonicalPath}
+  ogImage={article.heroImage}
+  ogType="article"
+  jsonLd={jsonLd}
+>
+  <slot name="logo" slot="logo" />
+  <slot name="brand" slot="brand" />
+  <article>
+    <header class="border-b border-site-border bg-site-surface">
+      <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+        <p class="text-xs font-bold uppercase tracking-widest text-site-accent">
+          <a href={section.path} class="hover:underline">← {section.name}</a>
+        </p>
+        <h1 class="mt-4 font-site-display text-4xl font-bold leading-tight text-site-heading md:text-5xl">{article.title}</h1>
+        <p class="mt-4 text-lg text-site-muted">{article.description}</p>
+        <p class="mt-6 text-sm text-site-muted">
+          <span>By {article.author}</span>
+          {article.reviewedBy && <span> · Reviewed by {article.reviewedBy}</span>}
+          <span aria-hidden="true" class="mx-2">·</span>
+          <time datetime={article.pubDate.toISOString()}>{fmt(article.pubDate)}</time>
+          {article.updatedDate && (
+            <span> (updated <time datetime={article.updatedDate.toISOString()}>{fmt(article.updatedDate)}</time>)</span>
+          )}
+          {readingMinutes && <><span aria-hidden="true" class="mx-2">·</span><span>{readingMinutes} min read</span></>}
+          {article.sources.length > 0 && (
+            <><span aria-hidden="true" class="mx-2">·</span><a href="#sources" class="underline hover:no-underline">{article.sources.length} {article.sources.length === 1 ? 'source' : 'sources'}</a></>
+          )}
+        </p>
+      </div>
+      {article.heroImage && (
+        <div class="mx-auto max-w-3xl px-4 pb-10 sm:px-6">
+          <img src={article.heroImage} alt={article.heroAlt ?? ''} class="w-full rounded-xl" width="1200" height="600" loading="eager" />
+        </div>
+      )}
+    </header>
+    <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+      <div class="prose prose-lg prose-site max-w-none">
+        <slot />
+      </div>
+      {article.tags.length > 0 && (
+        <ul class="mt-10 flex flex-wrap gap-2 border-t border-site-border pt-6" aria-label="Tags">
+          {article.tags.map((t) => <li class="rounded-full bg-site-accent/10 px-3 py-1 text-xs font-semibold text-site-accent">#{t}</li>)}
+        </ul>
+      )}
+      <SourceList sources={article.sources} />
+      <slot name="after" />
+      {article.relatedSites.length > 0 && (
+        <FamilyLinks current={site.key} only={article.relatedSites} variant="card" heading="More from the Lantern Learn family" />
+      )}
+    </div>
+  </article>
+</SiteLayout>

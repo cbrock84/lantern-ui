@@ -1,0 +1,28 @@
+---
+/** Numbered list of the sources an article cites, each linking out to the original. */
+import type { ArticleSource } from '../content.ts';
+
+export interface Props {
+  sources: ArticleSource[];
+  heading?: string;
+}
+
+const { sources, heading = 'Sources' } = Astro.props;
+const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+{sources.length > 0 && (
+  <section id="sources" class="mt-10 border-t border-site-border pt-6" aria-labelledby="sources-heading">
+    <h2 id="sources-heading" class="font-site-display text-lg font-semibold text-site-heading">{heading}</h2>
+    <ol class="mt-4 list-decimal space-y-3 pl-5 text-sm text-site-text">
+      {sources.map((s) => (
+        <li>
+          <a href={s.url} rel="noopener" class="font-semibold text-site-accent underline-offset-2 hover:underline">{s.title}</a>
+          {s.publisher && <span class="text-site-muted">. {s.publisher}</span>}
+          {s.published && <span class="text-site-muted">, <time datetime={s.published.toISOString().slice(0, 10)}>{fmt(s.published)}</time></span>}
+          {s.accessed && <span class="text-site-muted">. Accessed {fmt(s.accessed)}</span>}
+          {s.note && <p class="mt-1 text-site-muted">{s.note}</p>}
+        </li>
+      ))}
+    </ol>
+  </section>
+)}

@@ -1,0 +1,11 @@
+---
+import SiteLayout from '@lanternlearn/ui/layouts/SiteLayout.astro';
+import ArticleCard from '@lanternlearn/ui/components/ArticleCard.astro';
+import { publishedArticles } from '@lanternlearn/ui';
+import { getCollection } from 'astro:content';
+import { site } from '../../site.ts';
+const posts = publishedArticles(await getCollection('blog'));
+---
+<SiteLayout site={site} title="Blog" description="Fixture blog" canonicalPath="/blog">
+  {posts.map((p) => <ArticleCard article={p.data} href={`/blog/${p.slug}`} />)}
+</SiteLayout>

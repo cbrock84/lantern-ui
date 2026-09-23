@@ -1,0 +1,46 @@
+---
+/**
+ * The shared page shell: <head>, header, main, footer. Pages pass their SEO
+ * props plus the site's SiteConfig. Named slots let a site keep a custom
+ * wordmark ("logo"), footer brand line ("brand") or extra <head> tags ("head").
+ */
+import type { SiteConfig } from '../types.ts';
+import SeoHead from '../components/SeoHead.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+export interface Props {
+  site: SiteConfig;
+  title: string;
+  description: string;
+  canonicalPath: string;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  noindex?: boolean;
+  organizationJsonLd?: boolean;
+  bodyClass?: string;
+}
+
+const { site, bodyClass = '', ...seo } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <SeoHead site={site} {...seo}>
+      <slot name="head" />
+    </SeoHead>
+  </head>
+  <body class={`min-h-screen bg-site-bg font-site-body text-site-text antialiased ${bodyClass}`.trim()}>
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-site-surface focus:px-3 focus:py-2">Skip to content</a>
+    <SiteHeader site={site} currentPath={Astro.url.pathname}>
+      <slot name="logo" slot="logo" />
+    </SiteHeader>
+    <main id="main">
+      <slot />
+    </main>
+    <SiteFooter site={site}>
+      <slot name="brand" slot="brand" />
+    </SiteFooter>
+  </body>
+</html>

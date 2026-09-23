@@ -1,0 +1,49 @@
+---
+/**
+ * The other Lantern Learn sites, read from the shared network registry.
+ * `variant="footer"` is the compact footer column; `variant="card"` is the
+ * block shown at the end of articles.
+ */
+import { familyExcept, getSite, type SiteKey } from '../network.ts';
+
+export interface Props {
+  current: SiteKey;
+  /** Limit to these sites (in this order). Defaults to every other family site. */
+  only?: SiteKey[];
+  variant?: 'footer' | 'card';
+  heading?: string;
+}
+
+const { current, only, variant = 'footer', heading = 'The Lantern Learn family' } = Astro.props;
+const sites = only?.length ? only.filter((k) => k !== current).map(getSite) : familyExcept(current);
+---
+{sites.length > 0 && (variant === 'footer' ? (
+  <div>
+    <p class="font-site-display text-base font-semibold">{heading}</p>
+    <ul class="mt-2 space-y-2">
+      {sites.map((s) => (
+        <li>
+          <a href={s.url} class="font-semibold hover:text-site-footer-accent">{s.name}</a>
+          {s.links?.map((l) => (
+            <>
+              <span aria-hidden="true" class="mx-1 opacity-60">·</span>
+              <a href={l.href} class="opacity-80 hover:text-site-footer-accent">{l.label}</a>
+            </>
+          ))}
+        </li>
+      ))}
+    </ul>
+  </div>
+) : (
+  <aside class="mt-10 rounded-xl border border-site-border bg-site-surface p-6" aria-label={heading}>
+    <p class="font-site-display text-lg font-semibold text-site-heading">{heading}</p>
+    <ul class="mt-4 grid gap-4 sm:grid-cols-2">
+      {sites.map((s) => (
+        <li>
+          <a href={s.url} class="font-semibold text-site-accent hover:underline">{s.name}</a>
+          <p class="mt-1 text-sm text-site-muted">{s.tagline}</p>
+        </li>
+      ))}
+    </ul>
+  </aside>
+))}

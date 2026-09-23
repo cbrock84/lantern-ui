@@ -110,7 +110,7 @@ Every entry has these fields:
 - **Question:** Where should the decision log, content standards and imprint bibles live?
 - **Options:** lantern-ui repo / lanternlearn-site repo / each imprint's own repo.
 - **Choice:** lantern-ui repo, with a pointer in every other repo's `CLAUDE.md`.
-- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Done.
 - **Links:** lantern-ui #3 and the pointer PRs in D25.
 
 ### D13: Address of the shared learning platform
@@ -144,19 +144,40 @@ Every entry has these fields:
 - **Question:** Who writes the privacy-policy wording for parent feedback?
 - **Options:** Claude drafts for review / owner writes it.
 - **Choice:** Claude drafts a short factual paragraph (what is collected, why, how long, how to delete) in a PR for the owner to approve.
-- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
-- **Progress:** In progress.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Done.
+- **Progress:** Drafted in rocket-and-raven-press #41; approved in D26.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/41.
 
 ### D18: Nike swoosh on the character art
 - **Question:** The character art shows a Nike swoosh on both kids' sneakers, which the bible forbids. How should it be fixed?
 - **Options:** Owner re-exports / Claude tries an AI edit for approval / leave for now.
-- **Choice:** Claude tries an AI edit that removes the swoosh from the character PNGs and sends them for approval before replacing anything.
+- **Choice:** Claude tries an AI edit that removes the swoosh from the character PNGs and sends them for approval before replacing anything. The owner approved all three edits (Rocket, Raven, crew).
 - **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Edits made and sent to the owner for approval; nothing replaced yet.
+- **Progress:** PNGs replaced and Code Crew G1 lesson art regenerated in a rocket-and-raven-press PR (follows #41).
 
 ### D25: Merge the rules PRs
 - **Question:** Merge lantern-ui #3 and the `CLAUDE.md` pointer PRs?
 - **Options:** Merge all now / lantern-ui #3 only / review first.
 - **Choice:** Merge all now.
-- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Done.
 - **Links:** lantern-ui #3, lanternlearn-site #4, foxandfernbooks-site #4, hollyandhare-site #5, rocketandraven-site #11.
+
+### D26: Privacy wording for parent feedback
+- **Question:** Merge the drafted "Course feedback" privacy-policy section (D17)?
+- **Options:** Merge as written / change wording first.
+- **Choice:** Merge as written.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/41.
+
+### D27: Code Crew G2 direction
+- **Question:** Build Code Crew G2 weeks 2 to 12 in the direction of the week-1 sample?
+- **Options:** Build weeks 2 to 12 / revise week 1 first / pause G2.
+- **Choice:** Build weeks 2 to 12 on the G1 generator, opened as an unpublished PR for review.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Week 1 sample built; weeks 2 to 12 not started.
+
+### D28: Code Crew G2 page design
+- **Question:** Light pages with big type (as G1) or a dark page design for G2?
+- **Options:** Light, big type / dark page.
+- **Choice:** Light, big type, matching G1.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.

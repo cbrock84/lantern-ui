@@ -11,9 +11,6 @@ default, owner may revisit), **Done** (decided and fully implemented),
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D16 | Merge rocket-and-raven-press PR #40 (feedback, narration, Character Bible, dashboard fix)? | Merge now / Review first / Split into separate PRs | CI green. Blocks pushing the Code Crew G2 sample (only one push branch). https://github.com/cbrock84/rocket-and-raven-press/pull/40 |
-| D17 | Privacy policy wording for parent feedback | Owner writes it / Claude drafts for review | Facts: rating, note, course/week and account email, kept until account deletion. |
-| D18 | Re-export the four character images without the Nike swoosh on the sneakers | Owner re-exports / Claude generates cleaned versions for approval | Bible forbids real-world corporate logos. Published lesson crops do not show the shoes; raw files in `public/assets/brand/characters/` do. |
 | D19 | Tag lantern-ui `v0.1.0` | Owner creates the tag / leave sites pinned to commit `7add6fe` | Claude cannot push tags. https://github.com/cbrock84/lantern-ui/releases/new (Tag `v0.1.0`, Target `7add6fe`). |
 | D20 | How reading level is set and checked per grade band | Grade-level vocabulary lists / sentence-length caps / a formal readability measure | `standards/content-standards.md` section 2. |
 | D21 | Narration voice per imprint | Same "Sparkles for Kids" voice everywhere / one voice per imprint (owner picks in ElevenLabs) | Rocket & Raven uses Sparkles today. |
@@ -88,3 +85,23 @@ default, owner may revisit), **Done** (decided and fully implemented),
 - **Options:** Keep the shared style / restore the old look.
 - **Choice:** Keep the shared style (white header, green bullets).
 - **Date:** 2026-09-23. **Decided by:** owner. **Status:** Done.
+
+### D16: Merge rocket-and-raven-press PR #40
+- **Options:** Merge now / Review first / Split into separate PRs.
+- **Choice:** Merge now.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided (https://github.com/cbrock84/rocket-and-raven-press/pull/40).
+
+### D17: Privacy policy wording for parent feedback
+- **Options:** Claude drafts for review / owner writes it.
+- **Choice:** Claude drafts a short factual paragraph (what is collected, why, how long, how to delete) in a PR for the owner to approve.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided, in progress.
+
+### D18: Nike swoosh on the character art
+- **Options:** Owner re-exports / Claude tries an AI edit for approval / leave for now.
+- **Choice:** Claude tries an AI edit that removes the swoosh from the four character PNGs and sends them for approval before replacing anything.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided, in progress.
+
+### D25: Merge the rules PRs
+- **Options:** Merge all now / lantern-ui #3 only / review first.
+- **Choice:** Merge all now: lantern-ui #3 and the CLAUDE.md pointer PRs (lanternlearn-site #4, foxandfernbooks-site #4, hollyandhare-site #5, rocketandraven-site #11).
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.

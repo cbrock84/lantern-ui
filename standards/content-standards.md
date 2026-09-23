@@ -153,8 +153,12 @@ highlighted as it is spoken).
 - [ ] Standards codes are real and match the activities.
 - [ ] Facts are checked, and sources are recorded or cited, with URLs opened.
 - [ ] Read-aloud check done: narration reads cleanly.
-- [ ] Art is reviewed, with alt text and no logos or text in the images.
-- [ ] Nothing asks a child for personal information. No external links on kid
-      pages.
+- [ ] Art has alt text and contains no logos or text.
+- [ ] (Proposed, section 7) A person has reviewed any AI-generated art.
+- [ ] Nothing asks a child for personal information.
+- [ ] (Proposed, section 5) No external links on kid pages.
 - [ ] PDF prints legibly in black and white, with the answer key included.
 - [ ] Owner sign-off, recorded in `decisions.md` when it involved a choice.
+
+Items marked (Proposed) become required only once the owner approves the
+matching rule; until then they are recommended, not blocking.

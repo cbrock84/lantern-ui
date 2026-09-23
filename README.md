@@ -23,10 +23,10 @@ same everywhere.
 
 ## Using it in a site
 
-1. Install from this repo at a tag:
+1. Install from this repo, pinned to a tag or a commit on `main`:
 
    ```sh
-   npm install github:cbrock84/lantern-ui#v0.1.0
+   npm install github:cbrock84/lantern-ui#7add6fe468d080d118a10e197fb23b2e30958eb3   # v0.1.0
    ```
 
 2. Tailwind (`tailwind.config.mjs`): add the preset and scan the package.
@@ -84,8 +84,8 @@ same everywhere.
 
 ## Changing the family
 
-Add or edit an entry in `src/network.ts`, tag a release, and bump the tag in
-each site's `package.json`. Every footer and article card picks it up on the
+Add or edit an entry in `src/network.ts`, merge it, and bump the pinned
+tag or commit in each site's `package.json`. Every footer and article card picks it up on the
 next build.
 
 ## Development

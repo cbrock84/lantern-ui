@@ -248,5 +248,20 @@ Every entry has these fields:
 - **Question:** When new or changed lessons go live, what records automatically?
 - **Options:** Exercise lines only / exercise lines and stories.
 - **Choice:** Exercise lines (Workers AI) and story narration (ElevenLabs). Only missing lines and changed story text are recorded.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Done.
+- **Progress:** Live. The first automatic run after the merge started by itself and found nothing missing. Next: D13, the move to learn.lanternlearn.com (owner, 2026-09-24).
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/50.
+
+### D35: Auto-play on lesson pages
+- **Question:** How should auto-play work on the lesson pages?
+- **Options:** Auto-play on with a switch to turn it off / auto-play off with a switch to turn it on / no auto-play.
+- **Choice:** On by default. After the kid's first tap, an activity's question plays when it scrolls into view and each new round's question when it comes up. An "Auto-play" switch turns it off; the device remembers it. "Hear again" became a Play/Pause button.
 - **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Being built in rocket-and-raven-press. Next after this: D13, the move to learn.lanternlearn.com (owner, 2026-09-24).
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/51.
+
+### D36: Answer feedback while a question is being read
+- **Question:** Clips now always finish. When the kid answers while a question is still being read, what happens?
+- **Options:** Feedback waits / feedback cuts in.
+- **Choice:** Feedback waits for the question to finish; only the latest waiting line plays.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/51.

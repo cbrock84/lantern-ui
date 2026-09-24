@@ -102,8 +102,9 @@ highlighted as it is spoken).
 - Don't rely on formatting to carry meaning in narrated passages. Bold and
   italics are not spoken.
 - Dialogue attribution is clear: say who is speaking.
-- Every imprint uses the "Sparkles for Kids" ElevenLabs voice for narration
-  (D21).
+- Every imprint uses the "Sparkles for Kids" ElevenLabs voice for story
+  narration (D21). Exercise lines (instructions, questions, feedback) use
+  Cloudflare Workers AI, Deepgram Aura-2 (D33).
 
 ## 7. Visual and art standards
 

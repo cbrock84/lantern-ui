@@ -231,9 +231,9 @@ Every entry has these fields:
 - **Links:** `standards/content-standards.md` section 2.
 
 ### D21: Narration voice per imprint
-- **Question:** Which narration voice does each imprint use?
+- **Question:** Which story narration voice does each imprint use?
 - **Options:** "Sparkles for Kids" everywhere / one voice per imprint.
-- **Choice:** "Sparkles for Kids" for every imprint.
+- **Choice:** "Sparkles for Kids" for story narration in every imprint. Exercise lines stay on Workers AI (D33).
 - **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
 - **Links:** `standards/content-standards.md` section 6.
 

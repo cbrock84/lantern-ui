@@ -188,8 +188,8 @@ Every entry has these fields:
 - **Question:** Code Crew G2 (all 12 weeks) is green. What next?
 - **Options:** Merge and keep unpublished, then preview / review in the PR first / merge and publish now.
 - **Choice:** Merge and publish now.
-- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Publish changes pushed to PR #44; merges when CI is green.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Done.
+- **Progress:** Live on courses.rocketandraven.com; the marketing page was corrected in rocketandraven-site #12.
 - **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/44.
 
 ### D30: CCSS SL.2.1 on Code Crew G2
@@ -212,3 +212,10 @@ Every entry has these fields:
 - **Choice:** Inside the job `check height`, the line `if steps over 4` reads the wrong box; the fix is `if height over 4`. Clues: Week 4 (the drop comes when `steps` reaches 5) and Week 8 (the drop is inside `check height`).
 - **Date:** 2026-09-23. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** `scripts/code-crew-g2-gen/PLAN.md` in rocket-and-raven-press.
+
+### D33: Voice service for exercise audio
+- **Question:** Which text-to-speech service records the exercise lines (instructions, questions, feedback) for Code Crew K, G1 and G2, about 5,800 lines and 690,000 characters?
+- **Options:** ElevenLabs, same voice as the stories / Google Chirp 3 HD / OpenAI gpt-4o-mini-tts / Cloudflare Workers AI.
+- **Choice:** Cloudflare Workers AI, Deepgram Aura-2 (about $0.03 per 1,000 characters, roughly $21 for the three courses). The story narration stays on ElevenLabs. Default speaker `luna` (Claude default); the owner can audition and change the speaker in the admin area.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/45.

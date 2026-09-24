@@ -152,8 +152,9 @@ Every entry has these fields:
 - **Question:** The character art shows a Nike swoosh on both kids' sneakers, which the bible forbids. How should it be fixed?
 - **Options:** Owner re-exports / Claude tries an AI edit for approval / leave for now.
 - **Choice:** Claude tries an AI edit that removes the swoosh from the character PNGs and sends them for approval before replacing anything. The owner approved all three edits (Rocket, Raven, crew).
-- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
-- **Progress:** PNGs replaced and Code Crew G1 lesson art regenerated in a rocket-and-raven-press PR (follows #41).
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Done.
+- **Progress:** PNGs replaced and Code Crew G1 lesson art regenerated; the owner confirmed the result.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/42.
 
 ### D25: Merge the rules PRs
 - **Question:** Merge lantern-ui #3 and the `CLAUDE.md` pointer PRs?
@@ -166,7 +167,7 @@ Every entry has these fields:
 - **Question:** Merge the drafted "Course feedback" privacy-policy section (D17)?
 - **Options:** Merge as written / change wording first.
 - **Choice:** Merge as written.
-- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Done.
 - **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/41.
 
 ### D27: Code Crew G2 direction
@@ -174,10 +175,40 @@ Every entry has these fields:
 - **Options:** Build weeks 2 to 12 / revise week 1 first / pause G2.
 - **Choice:** Build weeks 2 to 12 on the G1 generator, opened as an unpublished PR for review.
 - **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Week 1 sample built; weeks 2 to 12 not started.
+- **Progress:** All 12 weeks built; publishing decided in D29.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/44.
 
 ### D28: Code Crew G2 page design
 - **Question:** Light pages with big type (as G1) or a dark page design for G2?
 - **Options:** Light, big type / dark page.
 - **Choice:** Light, big type, matching G1.
 - **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
+
+### D29: Code Crew G2 release
+- **Question:** Code Crew G2 (all 12 weeks) is green. What next?
+- **Options:** Merge and keep unpublished, then preview / review in the PR first / merge and publish now.
+- **Choice:** Merge and publish now.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Publish changes pushed to PR #44; merges when CI is green.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/44.
+
+### D30: CCSS SL.2.1 on Code Crew G2
+- **Question:** Weeks 9 to 12 cited CCSS SL.2.1 for the Saturday talk with a grown-up, a loose match. Keep it?
+- **Options:** Drop it / keep it.
+- **Choice:** Drop it; cite only standards that clearly match the activity.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Done.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/44.
+
+### D31: No text mode in Code Crew G2
+- **Question:** The old G2 description promised an optional text mode. Build one?
+- **Options:** Tap-only, as G1 / add a typed text mode.
+- **Choice:** Tap-only; kids never type. The course description was corrected.
+- **Date:** 2026-09-23. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/44.
+
+### D32: The Code Crew G2 auto-pilot bug
+- **Question:** What exactly is the bug the G2 mystery builds toward?
+- **Options:** Not recorded as a multiple-choice question.
+- **Choice:** Inside the job `check height`, the line `if steps over 4` reads the wrong box; the fix is `if height over 4`. Clues: Week 4 (the drop comes when `steps` reaches 5) and Week 8 (the drop is inside `check height`).
+- **Date:** 2026-09-23. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** `scripts/code-crew-g2-gen/PLAN.md` in rocket-and-raven-press.

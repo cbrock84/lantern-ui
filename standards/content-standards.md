@@ -94,8 +94,8 @@ Existing platform behavior, which remains a hard rule:
 
 ## 6. Writing for read-aloud
 
-All kid-facing text may be narrated (ElevenLabs "Read to me", with each word
-highlighted as it is spoken).
+All kid-facing text may be spoken aloud: stories through "Read to me", with
+each word highlighted as it is spoken, and exercise lines as recorded clips.
 
 - Short sentences. Spell out symbols that read badly aloud: write "3 plus 4",
   not "3+4", in narrated text.

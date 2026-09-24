@@ -23,12 +23,8 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D19 | Tag lantern-ui `v0.1.0` | Owner creates the tag / leave sites pinned to commit `7add6fe` | Claude cannot push tags. https://github.com/cbrock84/lantern-ui/releases/new (Tag `v0.1.0`, Target `7add6fe`). |
-| D20 | How reading level is set and checked per grade band | Grade-level vocabulary lists / sentence-length caps / a formal readability measure | `standards/content-standards.md` section 2. |
-| D21 | Narration voice per imprint | Same "Sparkles for Kids" voice everywhere / one voice per imprint (owner picks in ElevenLabs) | Rocket & Raven uses Sparkles today. |
-| D22 | Paper size for printable PDFs | US Letter only / US Letter and A4 | Content standards section 8. |
-| D23 | Short-story length and structure per grade band | Owner sets targets / Claude proposes a table for approval | Content standards section 8. |
-| D24 | Fox & Fern character cast | Owner describes the cast / Claude proposes options built around the logo fox / no cast | `bibles/fox-and-fern.md`. |
+| D23 | Short-story length and structure per grade band | Claude proposes a table / owner sets targets | Owner chose: Claude proposes. Table not yet drafted; includes D20's sentence-length caps. |
+| D24 | Fox & Fern character cast | Owner describes the cast / Claude proposes options / no cast | Owner is providing the cast they started. |
 
 ## Log
 
@@ -219,3 +215,38 @@ Every entry has these fields:
 - **Choice:** Cloudflare Workers AI, Deepgram Aura-2 (about $0.03 per 1,000 characters, roughly $21 for the three courses). The story narration stays on ElevenLabs. Default speaker `luna` (Claude default); the owner can audition and change the speaker in the admin area.
 - **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
 - **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/45.
+
+### D19: Tag lantern-ui `v0.1.0`
+- **Question:** Tag lantern-ui `v0.1.0` so the sites point at a named release?
+- **Options:** Owner creates the tag / leave sites pinned to commit `7add6fe`.
+- **Choice:** Leave the sites pinned to commit `7add6fe`.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Done.
+
+### D20: Reading level per grade band
+- **Question:** How is reading level set and checked per grade band?
+- **Options:** Sentence-length caps / grade vocabulary lists / a formal readability score.
+- **Choice:** Sentence-length caps per grade band, enforced by an automated test.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Caps to be proposed with the D23 table; test not built.
+- **Links:** `standards/content-standards.md` section 2.
+
+### D21: Narration voice per imprint
+- **Question:** Which narration voice does each imprint use?
+- **Options:** "Sparkles for Kids" everywhere / one voice per imprint.
+- **Choice:** "Sparkles for Kids" for every imprint.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
+- **Links:** `standards/content-standards.md` section 6.
+
+### D22: Paper size for printable PDFs
+- **Question:** Which paper sizes do the printable PDFs support?
+- **Options:** US Letter only / US Letter and A4.
+- **Choice:** US Letter only.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
+- **Links:** `standards/content-standards.md` section 8.
+
+### D34: Auto-record lesson audio on publish
+- **Question:** When new or changed lessons go live, what records automatically?
+- **Options:** Exercise lines only / exercise lines and stories.
+- **Choice:** Exercise lines (Workers AI) and story narration (ElevenLabs). Only missing lines and changed story text are recorded.
+- **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Being built in rocket-and-raven-press. Next after this: D13, the move to learn.lanternlearn.com (owner, 2026-09-24).

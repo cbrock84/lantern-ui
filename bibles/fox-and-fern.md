@@ -53,7 +53,7 @@ summer and at-home practice.
 
 ## Characters
 
-**To define (D24).** Whether Fox & Fern has a recurring cast, and who they are.
+**To define (D24).** Fox & Fern has a recurring cast; the owner is providing it.
 Things to settle:
 - Is the fox from the logo a character (name, personality, role in lessons)?
 - Are there companions: a fern, woodland friends, children?

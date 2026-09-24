@@ -33,11 +33,11 @@ imprints' published positioning.
 | Fox & Fern Books | Pre-K through Grade 5, ages 4 to 10 (Tomorrow Trail) | Warm, playful, everyday practice |
 | Holly & Hare | Grades 3 to 5, ages 8 to 11 (Gifted & Talented Puzzle Prep) | Quiet, rigorous, grown-up |
 
-**Reading level (To define, D20).** Choose one method for setting and checking
-text difficulty per grade band. Options include grade-level vocabulary lists,
-sentence-length caps, or a formal readability measure. Until then, text must use
-vocabulary expected at the band's lower grade and keep instructions to one
-action per sentence.
+**Reading level (D20).** Each grade band has a maximum sentence length in
+words, checked by an automated test on every lesson and story. The caps per
+band are being proposed with the story-length table (D23). Until they are set,
+text must use vocabulary expected at the band's lower grade and keep
+instructions to one action per sentence.
 
 ## 3. Curriculum standards alignment
 
@@ -102,8 +102,8 @@ highlighted as it is spoken).
 - Don't rely on formatting to carry meaning in narrated passages. Bold and
   italics are not spoken.
 - Dialogue attribution is clear: say who is speaking.
-- **To define (D21).** A narration voice per imprint. Rocket & Raven uses the
-  "Sparkles for Kids" ElevenLabs voice today.
+- Every imprint uses the "Sparkles for Kids" ElevenLabs voice for narration
+  (D21).
 
 ## 7. Visual and art standards
 
@@ -131,13 +131,14 @@ highlighted as it is spoken).
 
 - Free download. Prints in black and white without losing meaning.
 - Includes an answer key for parents at the back.
-- **To define (D22).** Paper size. US Letter only, or US Letter and A4?
+- US Letter only (D22).
 
 ### Short stories (new)
 
 - Read on a tablet or phone, with optional narration and word highlighting.
 - **To define (D23).** Length and structure per grade band: word count, pages
-  or screens, and illustrations per story.
+  or screens, and illustrations per story. Claude proposes a table for the
+  owner's approval.
 - Stories follow the imprint bible's cast and voice, and sections 1, 5 and 6
   above.
 

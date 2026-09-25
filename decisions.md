@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D23 | Short-story length and structure per grade band | Claude proposes a table / owner sets targets | Owner chose: Claude proposes. Table not yet drafted; includes D20's sentence-length caps. |
 
 ## Log
 
@@ -226,7 +225,7 @@ Every entry has these fields:
 - **Options:** Sentence-length caps / grade vocabulary lists / a formal readability score.
 - **Choice:** Sentence-length caps per grade band, enforced by an automated test.
 - **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Caps to be proposed with the D23 table; test not built.
+- **Progress:** Caps set with D23 (6 words for Pre-K up to 22 for Grade 6+). Test for day stories in rocket-and-raven-press #54; exercise lines next.
 - **Links:** `standards/content-standards.md` section 2.
 
 ### D21: Narration voice per imprint
@@ -291,3 +290,11 @@ Every entry has these fields:
 - **Choice:** Grade-banded time (10 to 15 minutes for Pre-K→K and K→1, 15 to 20 for 1→2 to 4→5); answers checked as the child works, with the full key in the parent area and the optional PDF; no page-count target. The site keeps describing the printed books until the digital version launches.
 - **Date:** 2026-09-25. **Decided by:** Claude (default, at the owner's request). **Status:** Decided.
 - **Links:** `bibles/fox-and-fern.md`.
+
+### D23: Short-story length and structure per grade band
+- **Question:** How long should stories be, and how are they built, in each grade band?
+- **Options:** Claude proposes a table / owner sets targets.
+- **Choice:** The owner asked Claude to propose. The table in content standards section 2 sets, per band, a sentence cap (D20), a length for the short story that opens each lesson day, a length for standalone short stories and a structure; a second table sets words per screen, screens per story and illustrations. It is based on the live Code Crew stories: every K, G1 and G2 day story already fits; one Code Crew G3 sentence (16 words) was over the Grade 3 cap of 15.
+- **Date:** 2026-09-25. **Decided by:** Claude (default, at the owner's request). **Status:** Decided.
+- **Progress:** Table written. The D20 test for day stories and the G3 fix: rocket-and-raven-press #54. Exercise lines are not checked yet.
+- **Links:** `standards/content-standards.md` section 2.

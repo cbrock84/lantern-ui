@@ -271,3 +271,23 @@ Every entry has these fields:
 - **Choice:** The owner's cast: the twelve Tomorrow Trail characters led by Ferris the Fox (Hazel, Rosie, Lizzy, Bruce, Oliver, Donnie, Riley, Samantha, Benny, Chris the Coyote as narrator, Freddy).
 - **Date:** 2026-09-25. **Decided by:** owner. **Status:** Done.
 - **Links:** `bibles/fox-and-fern.md`; source `KDP/01 - Fox & Fern/Tomorrow Trail/02-CHARACTER-BIBLE.md` in the owner's OneDrive.
+
+### D37: Home of the Tomorrow Trail companion pages
+- **Question:** Where do the companion pages behind each trail stop's QR code live?
+- **Options:** learn.lanternlearn.com / a separate trailtotomorrow.com site.
+- **Choice:** learn.lanternlearn.com, on the shared platform (D13).
+- **Date:** 2026-09-25. **Decided by:** owner. **Status:** Decided.
+
+### D38: Reach of the Tomorrow Trail cast
+- **Question:** Does the Tomorrow Trail cast cover every Fox & Fern line or only Tomorrow Trail?
+- **Options:** All Fox & Fern / Tomorrow Trail only.
+- **Choice:** All Fox & Fern, the new short stories included.
+- **Date:** 2026-09-25. **Decided by:** owner. **Status:** Done.
+- **Links:** `bibles/fox-and-fern.md`.
+
+### D39: Tomorrow Trail daily time, answer keys and page count
+- **Question:** The site copy and the owner's series documents disagree (15 to 20 or 10 to 15 minutes a day; answer keys in the back or online; 158 pages). Which is right?
+- **Options:** The documents / the site. The owner asked Claude to weigh both and pick the more accurate, educational and realistic, and dropped page-count targets for the digital-first version.
+- **Choice:** Grade-banded time (10 to 15 minutes for Pre-K→K and K→1, 15 to 20 for 1→2 to 4→5); answers checked as the child works, with the full key in the parent area and the optional PDF; no page-count target. The site keeps describing the printed books until the digital version launches.
+- **Date:** 2026-09-25. **Decided by:** Claude (default, at the owner's request). **Status:** Decided.
+- **Links:** `bibles/fox-and-fern.md`.

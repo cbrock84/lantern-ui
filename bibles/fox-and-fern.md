@@ -73,9 +73,10 @@ character under `Tomorrow Trail/images/`.
 | Chris the Coyote | Storyteller and trail narrator | Links the story across trail stops, previews what is next | Coyote, feather in his hat, storyteller's satchel | Warm, vivid, narrative |
 | Freddy the Frog | Games and weekly review host | Friday fun pages, review games | Small green frog, vest or bow tie, lily pad | Cheerful, gentle jokes |
 
+The cast belongs to every Fox & Fern line, the new short stories included
+(D38).
+
 **To define.**
-- Whether this cast belongs to Tomorrow Trail only or to every Fox & Fern
-  line (the new short stories included).
 - Favorite sayings and signature lines per character.
 
 ## Series
@@ -100,10 +101,21 @@ character under `Tomorrow Trail/images/`.
   has a QR code to a companion page with answer keys, read-aloud stories,
   coloring pages, mini-games and badges.
 
+**Settled for the digital-first version (D39).**
+- Daily time by grade band: 10 to 15 minutes for Pre-K→K and K→1, 15 to 20
+  minutes for 1→2 through 4→5. Short focused sessions suit the youngest
+  children; the older bands carry longer reading and multi-step math.
+- Answers are checked as the child works, as in the Rocket & Raven
+  workbooks. The full answer key is in the parent area, and in the back of the
+  optional printable PDF.
+- No page-count target: a trail stop is a week of short daily activities, not
+  11 printed pages.
+- Companion pages (the QR code at each trail stop) live on the shared
+  platform at learn.lanternlearn.com (D37).
+- foxandfernbooks.com keeps describing the printed books as they are (15 to
+  20 minutes, answer keys in the back) until the digital version launches.
+
 **To define.**
-- Where the site copy and the series documents differ: 15 to 20 minutes a day
-  (site) or 10 to 15 (documents); answer keys in the back (site) or online
-  (documents); page count (158 in the documents).
 - How the 11-page trail stop maps onto the online workbook's days.
 
 ### Short stories (new, D10)

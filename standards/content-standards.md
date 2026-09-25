@@ -36,8 +36,9 @@ imprints' published positioning.
 **Reading level (D20) and story length (D23).** Every story and lesson line
 is held to its grade band's sentence cap, checked by an automated test. A
 sentence is counted in words, split on spaces, ending at `.`, `!` or `?`.
-Quoted speech counts as part of its sentence. A list of items in parentheses
-still counts.
+Quoted speech counts as part of its sentence, with its speaker tag ("Wait!"
+Rocket calls.). A list in parentheses counts; items set out with `·` count
+one by one.
 
 | Band | Sentence cap (words) | Day story (words) | Short story (words) | Structure |
 | --- | --- | --- | --- | --- |

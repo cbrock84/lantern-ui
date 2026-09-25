@@ -111,8 +111,9 @@ Every entry has these fields:
 - **Question:** Where should the shared learning platform (workbooks, stories, narration for all imprints) live?
 - **Options:** learn.lanternlearn.com / stay at courses.rocketandraven.com / one subdomain per imprint.
 - **Choice:** learn.lanternlearn.com, with redirects from courses.rocketandraven.com.
-- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Not started.
+- **Date:** 2026-09-23. **Decided by:** owner. **Status:** Done.
+- **Progress:** Live on 2026-09-25. Every page on courses.rocketandraven.com answers with a 301 to the same path on learn.lanternlearn.com, sign-in links included; payment webhooks and the other APIs are served on both hosts. Canonical tags, the sitemap and the public catalog feed use the new host, and the marketing site links there.
+- **Links:** rocket-and-raven-press #52, #53 and #54; rocketandraven-site #13.
 
 ### D14: Holly & Hare characters
 - **Question:** Should Holly & Hare get a character cast?
@@ -276,6 +277,7 @@ Every entry has these fields:
 - **Options:** learn.lanternlearn.com / a separate trailtotomorrow.com site.
 - **Choice:** learn.lanternlearn.com, on the shared platform (D13).
 - **Date:** 2026-09-25. **Decided by:** owner. **Status:** Decided.
+- **Progress:** The platform is live at learn.lanternlearn.com (D13). The Tomorrow Trail pages are not built yet.
 
 ### D38: Reach of the Tomorrow Trail cast
 - **Question:** Does the Tomorrow Trail cast cover every Fox & Fern line or only Tomorrow Trail?

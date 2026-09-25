@@ -24,7 +24,6 @@ Every entry has these fields:
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
 | D23 | Short-story length and structure per grade band | Claude proposes a table / owner sets targets | Owner chose: Claude proposes. Table not yet drafted; includes D20's sentence-length caps. |
-| D24 | Fox & Fern character cast | Owner describes the cast / Claude proposes options / no cast | Owner is providing the cast they started. |
 
 ## Log
 
@@ -265,3 +264,10 @@ Every entry has these fields:
 - **Choice:** Feedback waits for the question to finish; only the latest waiting line plays.
 - **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
 - **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/51.
+
+### D24: Fox & Fern character cast
+- **Question:** Does Fox & Fern have a character cast, and who is in it?
+- **Options:** Owner describes the cast / Claude proposes options / no cast.
+- **Choice:** The owner's cast: the twelve Tomorrow Trail characters led by Ferris the Fox (Hazel, Rosie, Lizzy, Bruce, Oliver, Donnie, Riley, Samantha, Benny, Chris the Coyote as narrator, Freddy).
+- **Date:** 2026-09-25. **Decided by:** owner. **Status:** Done.
+- **Links:** `bibles/fox-and-fern.md`; source `KDP/01 - Fox & Fern/Tomorrow Trail/02-CHARACTER-BIBLE.md` in the owner's OneDrive.

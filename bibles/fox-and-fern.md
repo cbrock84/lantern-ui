@@ -1,6 +1,6 @@
 # Fox & Fern Books bible
 
-**Status:** Skeleton v0.1 (2026-09-23).
+**Status:** v0.2 (2026-09-25): cast and Tomorrow Trail structure added from the owner's documents.
 - **Established:** taken from the published site (foxandfernbooks.com) and its
   code. These are facts about what already exists.
 - **To define:** needs the owner. Leave these sections empty rather than
@@ -53,21 +53,30 @@ summer and at-home practice.
 
 ## Characters
 
-**To define (D24).** Fox & Fern has a recurring cast; the owner is providing it.
-Things to settle:
-- Is the fox from the logo a character (name, personality, role in lessons)?
-- Are there companions: a fern, woodland friends, children?
-- For each character:
-  - role and personality;
-  - favorite sayings;
-  - strengths and weaknesses;
-  - appearance;
-  - signature items;
-  - lesson role;
-  - reference art.
+**Established (D24).** From the owner's Tomorrow Trail series documents
+(`KDP/01 - Fox & Fern/Tomorrow Trail/02-CHARACTER-BIBLE.md` in the owner's
+OneDrive, 2026-06-02), with color, black-and-white and line art for each
+character under `Tomorrow Trail/images/`.
 
-Known from older data (confirm or discard): the retired ops seed lists a "Story
-Time" line with a "Pinecone Mystery" book whose art was pending.
+| Character | Role | Lesson area | Look | Voice |
+| --- | --- | --- | --- | --- |
+| Ferris the Fox | Reading leader and trail guide | Reading, phonics, sight words | Reddish-brown fox, bushy tail, green backpack; holds a book or map | Warm, encouraging, asks open questions |
+| Hazel the Hedgehog | Writing and creativity mentor | Letter formation, tracing, simple sentences | Small hedgehog, cosy scarf, pencil behind her ear | Gentle, patient |
+| Rosie the Rabbit | Encouragement and confidence | Praise on progress pages | Grey rabbit, long ears, colourful bandana; clapping or jumping | Upbeat, exclamation points |
+| Lizzy the Lizard | Science and discovery | Living/nonliving, habitats, weather, plants, senses, day/night | Green lizard, magnifying glass, sun hat, notebook | Inquisitive, factual |
+| Bruce the Bear | Math and problem solving | Counting, addition, subtraction, number bonds, ten frames, word problems | Big brown bear in overalls or a vest, basket of apples or stones | Calm, clear steps |
+| Oliver the Owl | Critical thinking and logic | Patterns, sorting, mazes, logic puzzles | Small owl, glasses, pocket watch | Thoughtful, slightly formal |
+| Donnie the Deer | Nature and observation | Noticing details, nature appreciation | Young spotted deer, simple satchel | Soft, slow |
+| Riley the Raccoon | Puzzles and curiosity | Puzzle pages, scavenger hunts, hidden pictures | Striped tail, bandit mask, bag of puzzle pieces or a lantern | Playful; hints, not answers |
+| Samantha the Squirrel | Fun facts and energy | Trivia, high-energy games | Reddish-brown squirrel, bushy tail, acorn stash | Fast, lively |
+| Benny the Bobcat | Challenge coordinator | Optional "Try This!" extension pages | Small bobcat, tufted ears, headband | Encouraging, a little competitive |
+| Chris the Coyote | Storyteller and trail narrator | Links the story across trail stops, previews what is next | Coyote, feather in his hat, storyteller's satchel | Warm, vivid, narrative |
+| Freddy the Frog | Games and weekly review host | Friday fun pages, review games | Small green frog, vest or bow tie, lily pad | Cheerful, gentle jokes |
+
+**To define.**
+- Whether this cast belongs to Tomorrow Trail only or to every Fox & Fern
+  line (the new short stories included).
+- Favorite sayings and signature lines per character.
 
 ## Series
 
@@ -81,11 +90,21 @@ Time" line with a "Pinecone Mystery" book whose art was pending.
 - Answer keys are in the back. Free 4-page sample PDFs are available on most
   books.
 - Moving online as free digital workbooks with an optional free PDF (D10).
+- The owner's series documents (`Tomorrow Trail/00` to `06`, 2026-06-02)
+  define the full system: 12 "trail stops" named along a woodland trail (K→1:
+  Forest Gate to Tomorrow Peak), 11 pages per stop in a fixed order (Chris the
+  Coyote's introduction, reading and phonics, a reading activity, writing,
+  two math pages, critical thinking, a comprehension story, a discovery page,
+  a weekly review, and Freddy's fun page with a stop badge), a 75/25 review to
+  next-grade ratio, 12 stop badges, a certificate and a trail map. Each stop
+  has a QR code to a companion page with answer keys, read-aloud stories,
+  coloring pages, mini-games and badges.
 
 **To define.**
-- A day template (what a typical day contains, in order).
-- Recurring page types.
-- Whether characters appear in the workbook pages.
+- Where the site copy and the series documents differ: 15 to 20 minutes a day
+  (site) or 10 to 15 (documents); answer keys in the back (site) or online
+  (documents); page count (158 in the documents).
+- How the 11-page trail stop maps onto the online workbook's days.
 
 ### Short stories (new, D10)
 

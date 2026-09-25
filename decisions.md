@@ -294,7 +294,7 @@ Every entry has these fields:
 ### D23: Short-story length and structure per grade band
 - **Question:** How long should stories be, and how are they built, in each grade band?
 - **Options:** Claude proposes a table / owner sets targets.
-- **Choice:** The owner asked Claude to propose. The table in content standards section 2 sets, per band, a sentence cap (D20), a length for the short story that opens each lesson day, a length for standalone short stories, and a structure. It is based on the live Code Crew stories: every K, G1 and G2 day story already fits; one Code Crew G3 sentence (16 words) was over the Grade 3 cap of 15.
+- **Choice:** The owner asked Claude to propose. The table in content standards section 2 sets, per band, a sentence cap (D20), a length for the short story that opens each lesson day, a length for standalone short stories and a structure; a second table sets words per screen, screens per story and illustrations. It is based on the live Code Crew stories: every K, G1 and G2 day story already fits; one Code Crew G3 sentence (16 words) was over the Grade 3 cap of 15.
 - **Date:** 2026-09-25. **Decided by:** Claude (default, at the owner's request). **Status:** Decided.
 - **Progress:** Table written. The D20 test for day stories and the G3 fix: rocket-and-raven-press #54. Exercise lines are not checked yet.
 - **Links:** `standards/content-standards.md` section 2.

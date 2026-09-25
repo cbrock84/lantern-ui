@@ -58,6 +58,18 @@ still counts.
 - Vocabulary is the band's lower grade. A new word is introduced in the
   story, used again in the lesson, and appears in the glossary.
 
+Short stories are read one screen at a time:
+
+| Band | Words per screen | Screens per short story | Illustrations |
+| --- | --- | --- | --- |
+| Pre-K | 25 to 35 | 6 to 10 | One per screen, and a cover |
+| K | 25 to 40 | 8 to 12 | One per screen, and a cover |
+| Grade 1 | 30 to 45 | 8 to 14 | One per screen, and a cover |
+| Grade 2 | 40 to 60 | 10 to 16 | One per screen, and a cover |
+| Grade 3 | 60 to 80 | 10 to 16 | One every other screen, and a cover |
+| Grades 4 to 5 | 80 to 100 | 10 to 16, in chapters of up to 5 screens | One per chapter or every three screens, and a cover |
+| Grade 6+ | 100 to 120 | 10 to 18 | One every four screens, and a cover |
+
 ## 3. Curriculum standards alignment
 
 - Each unit or week lists the standards it practices. The frameworks already
@@ -156,9 +168,8 @@ each word highlighted as it is spoken, and exercise lines as recorded clips.
 ### Short stories (new)
 
 - Read on a tablet or phone, with optional narration and word highlighting.
-- **To define (D23).** Length and structure per grade band: word count, pages
-  or screens, and illustrations per story. Claude proposes a table for the
-  owner's approval.
+- Length, structure, screens and illustrations per grade band: section 2
+  (D23).
 - Stories follow the imprint bible's cast and voice, and sections 1, 5 and 6
   above.
 

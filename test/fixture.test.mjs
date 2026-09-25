@@ -38,7 +38,7 @@ test('header: text wordmark fallback, custom logo slot, CTA and active link', ()
 
 test('footer: every other family site, never the current one, plus the imprint line', () => {
   const footer = home.slice(home.indexOf('<footer'));
-  for (const url of ['https://lanternlearn.com', 'https://foxandfernbooks.com', 'https://rocketandraven.com', 'https://courses.rocketandraven.com']) {
+  for (const url of ['https://lanternlearn.com', 'https://foxandfernbooks.com', 'https://rocketandraven.com', 'https://learn.lanternlearn.com']) {
     assert.ok(footer.includes(`href="${url}"`), url);
   }
   assert.ok(!footer.includes('href="https://hollyandhare.com"'));

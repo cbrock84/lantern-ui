@@ -45,7 +45,7 @@ export const FAMILY: Record<SiteKey, FamilySite> = {
     url: 'https://rocketandraven.com',
     role: 'imprint',
     tagline: 'STEM workbooks and online courses for kids.',
-    links: [{ label: 'Online courses', href: 'https://courses.rocketandraven.com' }],
+    links: [{ label: 'Online courses', href: 'https://learn.lanternlearn.com' }],
   },
 };
 

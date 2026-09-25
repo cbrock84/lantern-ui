@@ -33,11 +33,30 @@ imprints' published positioning.
 | Fox & Fern Books | Pre-K through Grade 5, ages 4 to 10 (Tomorrow Trail) | Warm, playful, everyday practice |
 | Holly & Hare | Grades 3 to 5, ages 8 to 11 (Gifted & Talented Puzzle Prep) | Quiet, rigorous, grown-up |
 
-**Reading level (D20).** Each grade band has a maximum sentence length in
-words, checked by an automated test on every lesson and story. The caps per
-band are being proposed with the story-length table (D23). Until they are set,
-text must use vocabulary expected at the band's lower grade and keep
-instructions to one action per sentence.
+**Reading level (D20) and story length (D23).** Every story and lesson line
+is held to its grade band's sentence cap, checked by an automated test. A
+sentence is counted in words, split on spaces, ending at `.`, `!` or `?`.
+Quoted speech counts as part of its sentence. A list of items in parentheses
+still counts.
+
+| Band | Sentence cap (words) | Day story (words) | Short story (words) | Structure |
+| --- | --- | --- | --- | --- |
+| Pre-K | 6 | 10 to 20 | 150 to 300 | One character, one small problem, solved in one try. Repeated line the child can say along. |
+| K | 8 | 12 to 25 | 200 to 400 | Two or three short paragraphs: who and where, the problem, the fix. One new word at most. |
+| Grade 1 | 10 | 15 to 30 | 300 to 500 | Beginning, middle, end. One try that fails before the one that works. |
+| Grade 2 | 12 | 30 to 60 | 400 to 700 | Three or four paragraphs. A clue or choice the lesson picks up. Dialogue allowed. |
+| Grade 3 | 15 | 40 to 80 | 600 to 1,000 | A problem with two steps. Dialogue carries part of the story. |
+| Grades 4 to 5 | 18 | 60 to 120 | 800 to 1,500 | A subplot or a second viewpoint is allowed. Chapters of up to 500 words. |
+| Grade 6+ | 22 | 80 to 150 | 1,000 to 2,000 | Adult-length paragraphs; still one idea per sentence in instructions. |
+
+- **Day story**: the short scene that opens a lesson day and is narrated with
+  word highlighting.
+- **Short story**: a standalone story (for example the Fox & Fern short
+  stories). At narration pace (about 110 words a minute) the top of each
+  range is roughly 3 minutes for Pre-K and 18 minutes for Grade 6+.
+- Instructions follow the same caps and keep one action per sentence.
+- Vocabulary is the band's lower grade. A new word is introduced in the
+  story, used again in the lesson, and appears in the glossary.
 
 ## 3. Curriculum standards alignment
 

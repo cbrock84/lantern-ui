@@ -318,6 +318,8 @@ Every entry has these fields:
 - **Options:** Tomorrow Trail on the platform / Holly & Hare workbooks / Code Crew G3 polish.
 - **Choice:** Tomorrow Trail on the platform (D37, D38).
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+- **Progress:** K→1 Stop 1 is live, unlisted for the owner's review, at https://learn.lanternlearn.com/courses/tomorrow-trail-k1 with every line recorded. Stops 2 to 12 are next.
+- **Links:** rocket-and-raven-press #55.
 
 ### D43: First Tomorrow Trail grade band online
 - **Question:** Which grade band goes online first?
@@ -329,7 +331,9 @@ Every entry has these fields:
 - **Question:** How big is the first slice?
 - **Options:** Stop 1 end to end / all 12 stops at once / companion pages only.
 - **Choice:** Stop 1 end to end: its week of online activities and its companion page (read-aloud story, answer key in the parent area, coloring page, badge), published unlisted for the owner's review. The other 11 stops follow.
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
+- **Progress:** Stop 1 live and unlisted; answer key at /account/answers/tomorrow-trail-k1/01; QR link /trail/k1/stop-1. Two simplifications from the outline: the Friday maze became a listen-and-find game, and name tracing became writing on a drawing pad (the engine has no tracing activity yet).
+- **Links:** rocket-and-raven-press #55.
 
 ### D45: Trail stop pages across online days
 - **Question:** How do a trail stop's 11 pages split across online days?
@@ -347,4 +351,6 @@ Every entry has these fields:
 - **Question:** The platform still wears Rocket & Raven's header and footer everywhere, so a Fox & Fern course page looks like a Rocket & Raven page. What should its outer look be?
 - **Options:** Lantern Learn header and footer, with each course page in its imprint's look / imprint look per course only, keeping the Rocket & Raven shell as the default / leave as is for now.
 - **Choice:** A neutral Lantern Learn header and footer for the platform, which hosts every imprint (D13). Each course page takes its imprint's logo and colours (Fox & Fern orange and green, Rocket & Raven dark).
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
+- **Progress:** Live. The home page's copy still describes Rocket & Raven; rewriting it for Lantern Learn is content work not yet done.
+- **Links:** rocket-and-raven-press #56.

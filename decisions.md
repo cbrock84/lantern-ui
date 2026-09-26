@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D40 | Move the four sites' lantern-ui pin from `7add6fe` to the current main, so the footer's "Online courses" link shows learn.lanternlearn.com? | Move the pin in all four sites (recommended) / leave pinned (D19) | The redirect keeps the old link working meanwhile. Since `7add6fe` the only code change in lantern-ui is this link; the rest is docs. |
 
 ## Log
 
@@ -227,7 +226,7 @@ Every entry has these fields:
 - **Options:** Sentence-length caps / grade vocabulary lists / a formal readability score.
 - **Choice:** Sentence-length caps per grade band, enforced by an automated test.
 - **Date:** 2026-09-24. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Caps set with D23 (6 words for Pre-K up to 22 for Grade 6+). Test for day stories in rocket-and-raven-press #54; exercise lines next.
+- **Progress:** Caps set with D23 (6 words for Pre-K up to 22 for Grade 6+). Test for day stories in rocket-and-raven-press #54. Exercise lines are deferred (D41).
 - **Links:** `standards/content-standards.md` section 2.
 
 ### D21: Narration voice per imprint
@@ -298,6 +297,48 @@ Every entry has these fields:
 - **Question:** How long should stories be, and how are they built, in each grade band?
 - **Options:** Claude proposes a table / owner sets targets.
 - **Choice:** The owner asked Claude to propose. The table in content standards section 2 sets, per band, a sentence cap (D20), a length for the short story that opens each lesson day, a length for standalone short stories and a structure; a second table sets words per screen, screens per story and illustrations. It is based on the live Code Crew stories: every K, G1 and G2 day story already fits; one Code Crew G3 sentence (16 words) was over the Grade 3 cap of 15.
-- **Date:** 2026-09-25. **Decided by:** Claude (default, at the owner's request). **Status:** Decided.
+- **Date:** 2026-09-26. **Decided by:** owner (approved the table Claude proposed on 2026-09-25 at the owner's request). **Status:** Decided.
 - **Progress:** Table written. The D20 test for day stories and the G3 fix: rocket-and-raven-press #54. Exercise lines are not checked yet.
 - **Links:** `standards/content-standards.md` section 2.
+
+### D40: Move the sites' lantern-ui pin
+- **Question:** Move the four sites' lantern-ui pin from `7add6fe` to current main, so the shared footer's "Online courses" link shows learn.lanternlearn.com?
+- **Options:** Move the pin in all four sites / leave pinned (D19).
+- **Choice:** Move the pin. Supersedes D19's pin for these sites.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D41: Reading level of exercise lines
+- **Question:** Exercise lines (instructions, questions, feedback) are often over the D23 sentence caps (about 450 lines in K, 1,360 in G1, 800 in G2, 12 in G3), and some are grown-up text. What happens to them?
+- **Options:** Sort kid-facing from grown-up lines, then rewrite the kid-facing ones / report only / leave for now.
+- **Choice:** Leave for now. Only day stories are checked (rocket-and-raven-press #54).
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
+
+### D42: Next build
+- **Question:** What to build next?
+- **Options:** Tomorrow Trail on the platform / Holly & Hare workbooks / Code Crew G3 polish.
+- **Choice:** Tomorrow Trail on the platform (D37, D38).
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D43: First Tomorrow Trail grade band online
+- **Question:** Which grade band goes online first?
+- **Options:** K→1 (the only band with a curriculum map and page outline) / Pre-K→K.
+- **Choice:** K→1, built from the owner's `grades/k-1/CURRICULUM-MAP.md` and `PAGE-BY-PAGE-OUTLINE.md`.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D44: Size of the first Tomorrow Trail slice
+- **Question:** How big is the first slice?
+- **Options:** Stop 1 end to end / all 12 stops at once / companion pages only.
+- **Choice:** Stop 1 end to end: its week of online activities and its companion page (read-aloud story, answer key in the parent area, coloring page, badge), published unlisted for the owner's review. The other 11 stops follow.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D45: Trail stop pages across online days
+- **Question:** How do a trail stop's 11 pages split across online days?
+- **Options:** 5 days / 4 days / every page its own day.
+- **Choice:** 5 days. Mon: Chris's introduction, reading and phonics. Tue: reading activity, writing. Wed: two math pages. Thu: critical thinking, comprehension story. Fri: discovery, weekly review, Freddy's fun page and the stop badge.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D46: Tomorrow Trail addresses
+- **Question:** Where do the Tomorrow Trail pages live on learn.lanternlearn.com?
+- **Options:** `/courses/tomorrow-trail-k1` on the course engine / its own `/tomorrow-trail/k1/stop-1` section.
+- **Choice:** `/courses/tomorrow-trail-k1`, the same engine and URLs as Code Crew. QR codes use a short `/trail/k1/stop-1` that redirects to the stop.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.

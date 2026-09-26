@@ -374,3 +374,21 @@ Every entry has these fields:
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
 - **Progress:** The owner then pointed to Canva, which already holds all twelve characters (color, line and pencil), all twelve badges, 41 icons and group scenes. That art replaces generated art wherever it exists, including the four characters and Stop 2's badge, helpers and tools. The rest (ten stop scenes, 38 icons, two coloring pages, a certificate border) is generated and awaits the owner's review. Stops 2 to 12 are written.
 - **Links:** rocket-and-raven-press #58.
+
+### D51: How the character intro videos are made
+- **Question:** How should the 30 to 45 second intro videos of each Tomorrow Trail character be made?
+- **Options:** hybrid (HyperFrames motion graphics from the owner's art, plus two or three short AI-animated shots per character) / full AI video of each character talking / HyperFrames only.
+- **Choice:** Hybrid. HyperFrames builds each video from the owner's Canva art (camera moves, name card, word-by-word captions, end card); Higgsfield animates a few short shots per character.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+
+### D52: Who speaks in the character intros
+- **Question:** Who speaks in each intro?
+- **Options:** each character introduces themself in their own ElevenLabs voice / Chris the Coyote narrates every intro.
+- **Choice:** Each character introduces themself, in twelve distinct ElevenLabs voices matched to the bible's voice notes. The owner approves short auditions before the videos are made.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+
+### D53: Shapes of the character intro videos
+- **Question:** Which shapes should the videos be?
+- **Options:** both 16:9 and 9:16 / 16:9 only / 9:16 only.
+- **Choice:** Both: 16:9 for course pages and the website, 9:16 for Reels, Shorts and TikTok, rendered from one HyperFrames composition.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.

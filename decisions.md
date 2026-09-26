@@ -342,3 +342,9 @@ Every entry has these fields:
 - **Options:** `/courses/tomorrow-trail-k1` on the course engine / its own `/tomorrow-trail/k1/stop-1` section.
 - **Choice:** `/courses/tomorrow-trail-k1`, the same engine and URLs as Code Crew. QR codes use a short `/trail/k1/stop-1` that redirects to the stop.
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D47: Outer look of learn.lanternlearn.com
+- **Question:** The platform still wears Rocket & Raven's header and footer everywhere, so a Fox & Fern course page looks like a Rocket & Raven page. What should its outer look be?
+- **Options:** Lantern Learn header and footer, with each course page in its imprint's look / imprint look per course only, keeping the Rocket & Raven shell as the default / leave as is for now.
+- **Choice:** A neutral Lantern Learn header and footer for the platform, which hosts every imprint (D13). Each course page takes its imprint's logo and colours (Fox & Fern orange and green, Rocket & Raven dark).
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.

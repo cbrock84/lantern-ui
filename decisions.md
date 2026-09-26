@@ -372,3 +372,5 @@ Every entry has these fields:
 - **Options:** generate them, owner reviews / use characters that already have art until the owner supplies it / hold Stops 6 to 9 for the owner's art.
 - **Choice:** Same as D49 for every remaining stop. The four characters are generated from their bible descriptions in the existing cast's style, then used as references for their stops. Nothing goes live until the owner has reviewed it.
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+- **Progress:** The owner then pointed to Canva, which already holds all twelve characters (color, line and pencil), all twelve badges, 41 icons and group scenes. That art replaces generated art wherever it exists, including the four characters and Stop 2's badge, helpers and tools. The rest (ten stop scenes, 38 icons, two coloring pages, a certificate border) is generated and awaits the owner's review. Stops 2 to 12 are written.
+- **Links:** rocket-and-raven-press #58.

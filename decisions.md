@@ -354,3 +354,9 @@ Every entry has these fields:
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
 - **Progress:** Live. The home page's copy still describes Rocket & Raven; rewriting it for Lantern Learn is content work not yet done.
 - **Links:** rocket-and-raven-press #56.
+
+### D48: Next piece of work after Stop 1
+- **Question:** With Stop 1 live and its audio fixed (rocket-and-raven-press #57), what comes next?
+- **Options:** Tomorrow Trail Stop 2 / Lantern Learn home page copy / small fixes (tag contrast, failing login-email test) / all three.
+- **Choice:** Tomorrow Trail Stop 2, built end to end like Stop 1 and unlisted for the owner's review.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.

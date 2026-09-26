@@ -115,8 +115,12 @@ The cast belongs to every Fox & Fern line, the new short stories included
 - foxandfernbooks.com keeps describing the printed books as they are (15 to
   20 minutes, answer keys in the back) until the digital version launches.
 
-**To define.**
-- How the 11-page trail stop maps onto the online workbook's days.
+- A trail stop is five online days (D45): Mon, Chris's introduction, reading
+  and phonics; Tue, reading activity and writing; Wed, two math pages; Thu,
+  critical thinking and the comprehension story; Fri, discovery, weekly
+  review, Freddy's fun page and the stop badge.
+- Online at `learn.lanternlearn.com/courses/tomorrow-trail-k1`; QR codes use
+  `/trail/k1/stop-1` (D46). K→1 goes first, starting with Stop 1 (D43, D44).
 
 ### Short stories (new, D10)
 

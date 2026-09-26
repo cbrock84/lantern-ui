@@ -318,3 +318,27 @@ Every entry has these fields:
 - **Options:** Tomorrow Trail on the platform / Holly & Hare workbooks / Code Crew G3 polish.
 - **Choice:** Tomorrow Trail on the platform (D37, D38).
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D43: First Tomorrow Trail grade band online
+- **Question:** Which grade band goes online first?
+- **Options:** K→1 (the only band with a curriculum map and page outline) / Pre-K→K.
+- **Choice:** K→1, built from the owner's `grades/k-1/CURRICULUM-MAP.md` and `PAGE-BY-PAGE-OUTLINE.md`.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D44: Size of the first Tomorrow Trail slice
+- **Question:** How big is the first slice?
+- **Options:** Stop 1 end to end / all 12 stops at once / companion pages only.
+- **Choice:** Stop 1 end to end: its week of online activities and its companion page (read-aloud story, answer key in the parent area, coloring page, badge), published unlisted for the owner's review. The other 11 stops follow.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D45: Trail stop pages across online days
+- **Question:** How do a trail stop's 11 pages split across online days?
+- **Options:** 5 days / 4 days / every page its own day.
+- **Choice:** 5 days. Mon: Chris's introduction, reading and phonics. Tue: reading activity, writing. Wed: two math pages. Thu: critical thinking, comprehension story. Fri: discovery, weekly review, Freddy's fun page and the stop badge.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D46: Tomorrow Trail addresses
+- **Question:** Where do the Tomorrow Trail pages live on learn.lanternlearn.com?
+- **Options:** `/courses/tomorrow-trail-k1` on the course engine / its own `/tomorrow-trail/k1/stop-1` section.
+- **Choice:** `/courses/tomorrow-trail-k1`, the same engine and URLs as Code Crew. QR codes use a short `/trail/k1/stop-1` that redirects to the stop.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.

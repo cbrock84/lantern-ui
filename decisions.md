@@ -366,3 +366,9 @@ Every entry has these fields:
 - **Options:** simple flat drawings made by Claude, replaced later by the owner's art / AI-generated art, reviewed by the owner before Stop 2 goes live / hold publishing until the owner adds Stop 2 art.
 - **Choice:** AI-generated art, matched to the character reference art, with no text, letters or logos (content standards section 7). The owner reviews it before Stop 2 goes live.
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+
+### D50: Art and new characters for Tomorrow Trail Stops 3 to 12
+- **Question:** Stops 6 to 9 are hosted by Donnie the Deer, Riley the Raccoon, Samantha the Squirrel and Benny the Bobcat, who are in the character bible (D24) but have no art. How are they, and the other new art for Stops 3 to 12, handled?
+- **Options:** generate them, owner reviews / use characters that already have art until the owner supplies it / hold Stops 6 to 9 for the owner's art.
+- **Choice:** Same as D49 for every remaining stop. The four characters are generated from their bible descriptions in the existing cast's style, then used as references for their stops. Nothing goes live until the owner has reviewed it.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.

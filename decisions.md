@@ -360,3 +360,9 @@ Every entry has these fields:
 - **Options:** Tomorrow Trail Stop 2 / Lantern Learn home page copy / small fixes (tag contrast, failing login-email test) / all three.
 - **Choice:** Tomorrow Trail Stop 2, built end to end like Stop 1 and unlisted for the owner's review.
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+
+### D49: Art for Tomorrow Trail Stop 2
+- **Question:** Stop 2 needs art the owner's image folder does not have: the stop scene, the Pinecone Pathfinder badge, a Rosie coloring page, rhyme pictures, community helpers and their tools, and a car for "which one doesn't belong". How is it sourced?
+- **Options:** simple flat drawings made by Claude, replaced later by the owner's art / AI-generated art, reviewed by the owner before Stop 2 goes live / hold publishing until the owner adds Stop 2 art.
+- **Choice:** AI-generated art, matched to the character reference art, with no text, letters or logos (content standards section 7). The owner reviews it before Stop 2 goes live.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.

@@ -359,7 +359,7 @@ Every entry has these fields:
 - **Question:** With Stop 1 live and its audio fixed (rocket-and-raven-press #57), what comes next?
 - **Options:** Tomorrow Trail Stop 2 / Lantern Learn home page copy / small fixes (tag contrast, failing login-email test) / all three.
 - **Choice:** Tomorrow Trail Stop 2, built end to end like Stop 1 and unlisted for the owner's review.
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done. Stop 2 shipped after the owner's art review, and Stops 3 to 12 followed; all 12 stops are live.
 
 ### D49: Art for Tomorrow Trail Stop 2
 - **Question:** Stop 2 needs art the owner's image folder does not have: the stop scene, the Pinecone Pathfinder badge, a Rosie coloring page, rhyme pictures, community helpers and their tools, and a car for "which one doesn't belong". How is it sourced?
@@ -380,13 +380,13 @@ Every entry has these fields:
 - **Question:** How should the 30 to 45 second intro videos of each Tomorrow Trail character be made?
 - **Options:** hybrid (HyperFrames motion graphics from the owner's art, plus two or three short AI-animated shots per character) / full AI video of each character talking / HyperFrames only.
 - **Choice:** Hybrid. HyperFrames builds each video from the owner's Canva art (camera moves, name card, word-by-word captions, end card); Higgsfield animates a few short shots per character.
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done. All 13 intros (the twelve characters plus Lucy, D54) are made and play on the Tomorrow Trail course page.
 
 ### D52: Who speaks in the character intros
 - **Question:** Who speaks in each intro?
 - **Options:** each character introduces themself in their own ElevenLabs voice / Chris the Coyote narrates every intro.
 - **Choice:** Each character introduces themself, in twelve distinct ElevenLabs voices matched to the bible's voice notes. The owner approves short auditions before the videos are made.
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done. All 13 intros use the owner's picks (Lucy speaks as Luna, D54).
 - **Progress:** The owner picked from three auditions per character (2026-09-27): Ferris Benji, Hazel Daisy, Rosie Zoe, Lizzy Evie, Bruce Bram, Oliver Alistair, Donnie Alden, Riley Quinn, Samantha Gracie, Benny Landon, Chris Gideon, Freddy Evan. Voice ids are in rocket-and-raven-press `video/character-intros/scripts.json`.
 
 ### D53: Shapes of the character intro videos
@@ -406,7 +406,7 @@ Every entry has these fields:
 - **Question:** A 5-second Higgsfield shot costs 35 credits at 720p. After the Ferris pilot (two shots), how many shots do the other twelve intros get?
 - **Options:** one shot each, about 420 credits / two shots each, about 840 credits.
 - **Choice:** One shot each, to use fewer credits. The rest of each video is the owner's still art with slow camera moves. Ferris keeps his two pilot shots.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. The twelve other intros have one animated shot each; Ferris has two.
 
 ### D56: Where the character intro videos are hosted
 - **Question:** Where should the 26 intro videos (about 500 MB, too large for git) live so the site can show them?
@@ -447,3 +447,45 @@ Every entry has these fields:
 - **Choice:** List it now: tomorrow-trail-k1 appears in the platform catalog, the sitemap and the public catalog feed, and the course page is indexable. Supersedes the "unlisted" part of D44.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Tomorrow Trail is in the live catalog, sitemap and feed (16 courses).
 - **Links:** rocket-and-raven-press #61.
+
+### D62: Where the Blog link goes
+- **Question:** lanternlearn.com, rocketandraven.com and hollyandhare.com have blogs but no Blog link in the menu or footer. Where should Blog go?
+- **Options:** menu / footer only / both.
+- **Choice:** In each site's short menu, matching Fox & Fern and the D59 plan.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D63: Phone menu
+- **Question:** On phones the site menus wrap onto two or three lines. How should the phone menu work?
+- **Options:** a menu button / one sideways-scrolling row / leave as is.
+- **Choice:** A tap-to-open menu button under 768px, built once in lantern-ui and used by the four sites and the learning platform.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D64: Holly & Hare's Courses link
+- **Question:** Holly & Hare has no courses on the platform yet, so its Courses link opens an empty list. What should the link do?
+- **Options:** the full catalog for now / hide Courses / keep the empty list with a "coming soon" state.
+- **Choice:** Link to the full catalog until a Holly & Hare course exists, then switch to the filtered list automatically.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D65: learn.lanternlearn.com home page hero
+- **Question:** The learning platform's home page hero still speaks as Rocket & Raven. Rewrite it?
+- **Options:** Lantern Learn voice / keep Rocket & Raven / make it a slim sign-in and catalog page.
+- **Choice:** Rewrite it in the Lantern Learn voice, introducing all imprints, with the skinned imprint cards below.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D66: Imprint logos
+- **Question:** Rocket & Raven has no image logo, and the Fox & Fern logo sits on a white box. How should the logos be fixed?
+- **Options:** Claude prepares, the owner approves / the owner supplies files / styled text wordmarks.
+- **Choice:** Claude cuts the Fox & Fern logo to a transparent background and drafts two or three Rocket & Raven logo options; the owner picks before anything ships.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D67: Family bar on kids' play pages
+- **Question:** Workbook and lesson pages (the play layer) have no family bar. Should they?
+- **Options:** no bar, one small exit link / the full family bar / leave as is.
+- **Choice:** No family bar on kids' pages; add one small "Back to course" link for grown-ups.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D68: Close finished decisions
+- **Question:** D48, D51, D52 and D55 were still In progress although the work had shipped. Mark them Done?
+- **Options:** mark Done after checking what is live / leave them.
+- **Choice:** Mark Done. Checked on 2026-09-27: all 12 Tomorrow Trail stops and all 13 intro videos are live on learn.lanternlearn.com.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done.

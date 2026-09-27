@@ -386,9 +386,16 @@ Every entry has these fields:
 - **Options:** each character introduces themself in their own ElevenLabs voice / Chris the Coyote narrates every intro.
 - **Choice:** Each character introduces themself, in twelve distinct ElevenLabs voices matched to the bible's voice notes. The owner approves short auditions before the videos are made.
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+- **Progress:** The owner picked from three auditions per character (2026-09-27): Ferris Benji, Hazel Daisy, Rosie Zoe, Lizzy Evie, Bruce Bram, Oliver Alistair, Donnie Alden, Riley Quinn, Samantha Gracie, Benny Landon, Chris Gideon, Freddy Evan. Voice ids are in rocket-and-raven-press `video/character-intros/scripts.json`.
 
 ### D53: Shapes of the character intro videos
 - **Question:** Which shapes should the videos be?
 - **Options:** both 16:9 and 9:16 / 16:9 only / 9:16 only.
 - **Choice:** Both: 16:9 for course pages and the website, 9:16 for Reels, Shorts and TikTok, rendered from one HyperFrames composition.
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+
+### D54: Lucy the Ladybug joins the cast
+- **Question:** The owner asked for a new character, a ladybug named Lucy. What is her role, and which art and voice does she use?
+- **Options:** art: holding a daisy / waving from a big daisy / heart spot and leaf scarf. Voice: Annie / Luna / Isla.
+- **Choice:** Lucy is the kindness and feelings friend (naming feelings, calm-down breathing, sharing, taking turns); her seven spots double as a counting helper. Art: waving from a big daisy (generated in the cast's style). Voice: Luna (ElevenLabs). She gets an intro video like the other twelve.
+- **Date:** 2026-09-27. **Decided by:** owner (role proposed by Claude, open to change). **Status:** Decided.

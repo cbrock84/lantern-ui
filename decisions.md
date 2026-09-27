@@ -521,3 +521,22 @@ Every entry has these fields:
 - **Options:** keep hello@rocketandraven.com for now / switch to hello@lanternlearn.com.
 - **Choice:** hello@lanternlearn.com. lanternlearn.com has mail (MX to Microsoft 365, checked 2026-09-27).
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. The platform shows hello@lanternlearn.com, and SUPPORT_EMAIL in wrangler.toml is set to it (rocket-and-raven-press #63, live 2026-09-27).
+
+### D74: Social media plan
+- **Question:** Only Pinterest exists for Lantern Learn (1 follower, no pins, connected in Metricool). What should the social plan be?
+- **Options:** Pinterest now, others later / Pinterest plus the owner creates Instagram, Facebook and TikTok now / hold social.
+- **Choice:** Pinterest now, and the owner creates Instagram, Facebook and TikTok accounts now from Claude's sign-up steps and profile copy; once they are connected in Metricool, Claude schedules there too.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Progress:** Board creation through Make is blocked: both Make Pinterest connections for Lantern Learn (the standard and the full-scope one) return 401 and need re-authorizing by the owner.
+
+### D75: Pinterest boards
+- **Question:** How should the Pinterest boards be organized?
+- **Options:** by what parents look for / one board per imprint.
+- **Choice:** By what parents look for: Free Printables and Coloring Pages for Kids; Kindergarten Summer Practice; Coding for Kids (K to Grade 3); Parent Guides: Learning at Home. Pins link to the matching course or post.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D76: Next build on the websites and courses
+- **Question:** What should the next build be?
+- **Options:** fill the empty blogs / Code Crew Grade 4 / Tomorrow Trail's next grade / the first Holly & Hare course.
+- **Choice:** Fill the empty blogs: three sourced parent guides each on lanternlearn.com, rocketandraven.com and hollyandhare.com.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.

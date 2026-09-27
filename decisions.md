@@ -412,5 +412,5 @@ Every entry has these fields:
 - **Question:** Where should the 26 intro videos (about 500 MB, too large for git) live so the site can show them?
 - **Options:** Cloudflare R2 / Cloudflare Stream / YouTube (unlisted) / files only for now.
 - **Choice:** Cloudflare R2, in the existing public media bucket (`rocket-and-raven-media`), served by the site's `/api/media` route with byte-range support. They play on the Tomorrow Trail pages.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. All 26 videos are in R2, and all 13 play on the Tomorrow Trail course page ("Meet the trail friends").
 - **Links:** rocket-and-raven-press #60.

@@ -438,5 +438,11 @@ Every entry has these fields:
 - **Options:** the learning platform first / the marketing sites first / everything in one pass.
 - **Choice:** Everything in one pass: lantern-ui, learn.lanternlearn.com and the four marketing sites together.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
-- **Progress:** lantern-ui v0.2.0 adds the base, the imprint skins and the family bar.
+- **Progress:** lantern-ui v0.2.0 adds the base, the imprint skins and the family bar. The learning platform and the four marketing sites use it in rocket-and-raven-press #61, lanternlearn-site #7, rocketandraven-site #15, foxandfernbooks-site #7 and hollyandhare-site #8.
 
+### D61: List Tomorrow Trail in the catalog
+- **Question:** Tomorrow Trail is unlisted (D44), so the new Fox & Fern "Courses" links open an empty catalog. List it now?
+- **Options:** list it now / keep it unlisted until all 12 stops are reviewed / list it on the Fox & Fern site only.
+- **Choice:** List it now: tomorrow-trail-k1 appears in the platform catalog, the sitemap and the public catalog feed, and the course page is indexable. Supersedes the "unlisted" part of D44.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Links:** rocket-and-raven-press #61.

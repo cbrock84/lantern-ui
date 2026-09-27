@@ -75,7 +75,9 @@ character under `Tomorrow Trail/images/`.
 | Lucy the Ladybug | Kindness and feelings friend | Naming feelings, calm-down breathing, sharing, taking turns; her seven spots help with counting | Small red ladybug, seven black spots, curly antennae, tiny green backpack; waves from a big daisy | Soft, sweet, steady; names feelings out loud |
 
 Lucy the Ladybug joined the cast on 2026-09-27 (D54). Her art is generated in the
-cast's style rather than taken from the owner's folder, and is not yet in Canva.
+cast's style rather than taken from the owner's folder. Her color and line art are
+in the owner's Canva design "Fox & Fern Books - Animal Characters - Solo" (pages 13
+and 26); she has no pencil page yet.
 
 The cast belongs to every Fox & Fern line, the new short stories included
 (D38).

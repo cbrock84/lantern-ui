@@ -51,6 +51,20 @@ test('header: text wordmark fallback, custom logo slot, CTA and active link', ()
   assert.doesNotMatch(home, /<a href="\/blog"[^>]*aria-current="page"/);
 });
 
+test('header: phone menu button controls the main nav (D63)', () => {
+  const btn = home.match(/<button[^>]*data-ll-menu-button[^>]*>/)?.[0];
+  assert.ok(btn, 'menu button present');
+  assert.match(btn, /type="button"/);
+  assert.match(btn, /aria-expanded="false"/);
+  assert.match(btn, /aria-label="Menu"/);
+  const id = btn.match(/aria-controls="([^"]+)"/)[1];
+  assert.match(home, new RegExp(`<nav id="${id}"[^>]*aria-label="Main"`));
+  assert.ok(home.indexOf(btn) < home.indexOf(`<nav id="${id}"`), 'button precedes the nav');
+  const script = home.slice(home.indexOf(`<nav id="${id}"`), home.indexOf('</header>'));
+  assert.match(script, /<script data-astro-rerun>\(function initMenu\([\s\S]*document\.currentScript\.parentElement\);<\/script>/);
+  assert.doesNotMatch(home, /<header[^>]*data-menu=/, 'no JS: header is not collapsible');
+});
+
 test('footer: every other family site, never the current one, plus the imprint line', () => {
   const footer = home.slice(home.indexOf('<footer'));
   for (const url of ['https://lanternlearn.com', 'https://foxandfernbooks.com', 'https://rocketandraven.com', 'https://learn.lanternlearn.com']) {

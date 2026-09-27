@@ -476,7 +476,8 @@ Every entry has these fields:
 - **Question:** Rocket & Raven has no image logo, and the Fox & Fern logo sits on a white box. How should the logos be fixed?
 - **Options:** Claude prepares, the owner approves / the owner supplies files / styled text wordmarks.
 - **Choice:** Claude cuts the Fox & Fern logo to a transparent background and drafts two or three Rocket & Raven logo options; the owner picks before anything ships.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Progress:** The owner picked option B for Rocket & Raven (the two kid characters in a starry navy badge, with an Orbitron "ROCKET & RAVEN" wordmark) over A (a rocket and a raven bird) and C (a flat rocket-raven mark), and approved the transparent Fox & Fern logo (2026-09-27).
 
 ### D67: Family bar on kids' play pages
 - **Question:** Workbook and lesson pages (the play layer) have no family bar. Should they?
@@ -489,3 +490,9 @@ Every entry has these fields:
 - **Options:** mark Done after checking what is live / leave them.
 - **Choice:** Mark Done. Checked on 2026-09-27: all 12 Tomorrow Trail stops and all 13 intro videos are live on learn.lanternlearn.com.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done.
+
+### D69: Blog link on sites with no posts yet
+- **Question:** Correction to D62: the blogs on lanternlearn.com, rocketandraven.com and hollyandhare.com have no posts yet (only Fox & Fern has posts), so a Blog link opens an empty page. What now?
+- **Options:** show the link only once a site has a post / ship the link now / drop D62.
+- **Choice:** Ship the link now on all three sites, empty pages included.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.

@@ -1,14 +1,17 @@
 ---
 import type { SiteConfig } from '../types.ts';
 import { getSite } from '../network.ts';
+import { menuScript } from '../menu.ts';
 
 export interface Props {
   site: SiteConfig;
   /** Current path, used to mark the active nav link. */
   currentPath?: string;
+  /** Id of the main nav, for the menu button's aria-controls. Set it if a page has two headers. */
+  navId?: string;
 }
 
-const { site, currentPath } = Astro.props;
+const { site, currentPath, navId = 'site-nav' } = Astro.props;
 const me = getSite(site.key);
 // Layouts always forward the "logo" slot, and a forwarded empty slot would
 // suppress <slot> fallback content, so render it and fall back explicitly.
@@ -18,7 +21,7 @@ const isActive = (href: string) =>
   currentPath !== undefined && !/^https?:/.test(href) &&
   (href === '/' ? norm(currentPath) === '/' : norm(currentPath).startsWith(norm(href)));
 ---
-<header class="border-b border-base-border bg-base-surface font-base text-base-text">
+<header class="ll-header border-b border-base-border bg-base-surface font-base text-base-text">
   <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-8 gap-y-3 px-4 py-4 sm:px-6">
     <a href="/" class="block flex-shrink-0 hover:opacity-90" aria-label={`${me.name} home`}>
       {logoHtml ? <Fragment set:html={logoHtml} /> : site.logo ? (
@@ -34,12 +37,17 @@ const isActive = (href: string) =>
           <span class="font-site-display text-2xl font-bold text-base-heading">{me.name}</span>
         )}
     </a>
-    <nav aria-label="Main" class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold text-base-text">
+    <button type="button" class="ll-menu-btn" data-ll-menu-button aria-expanded="false" aria-controls={navId} aria-label="Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+    <nav id={navId} data-ll-nav aria-label="Main" class="ll-nav flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold text-base-text">
       {site.nav.map((l) =>
         l.cta ? (
           <a
             href={l.href}
-            class="rounded-md border border-base-accent bg-base-accent px-3 py-1.5 text-white transition hover:bg-base-heading hover:border-base-heading"
+            class="ll-nav-cta rounded-md border border-base-accent bg-base-accent px-3 py-1.5 text-white transition hover:bg-base-heading hover:border-base-heading"
           >{l.label}</a>
         ) : (
           <a
@@ -51,4 +59,22 @@ const isActive = (href: string) =>
       )}
     </nav>
   </div>
+  <script is:inline set:html={menuScript} />
 </header>
+
+<style>
+  /* Phone menu (D63): only once the inline script has marked the header, so without JS the nav stays visible. */
+  .ll-menu-btn { display: none; }
+  @media (max-width: 767.98px) {
+    .ll-header[data-menu] .ll-menu-btn {
+      display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px;
+      border: 1px solid rgb(var(--ll-base-border)); border-radius: 6px; background: transparent;
+      color: rgb(var(--ll-base-heading)); cursor: pointer;
+    }
+    .ll-menu-btn:focus-visible { outline: 2px solid rgb(var(--ll-base-accent)); outline-offset: 2px; }
+    .ll-header[data-menu='closed'] .ll-nav { display: none; }
+    .ll-header[data-menu='open'] .ll-nav { flex-basis: 100%; flex-direction: column; align-items: stretch; gap: 0; }
+    .ll-header[data-menu='open'] .ll-nav a:not(.ll-nav-cta) { display: block; padding: 12px 4px; border-top: 1px solid rgb(var(--ll-base-border)); }
+    .ll-header[data-menu='open'] .ll-nav .ll-nav-cta { display: block; margin-top: 12px; padding: 12px; text-align: center; }
+  }
+</style>

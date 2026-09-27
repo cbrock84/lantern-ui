@@ -15,7 +15,7 @@ same everywhere.
 | `layouts/SiteLayout.astro` | Page shell: head, header, `<main>`, footer. |
 | `layouts/ArticleLayout.astro` | Blog / guide article: byline, reviewer, reading time, body, tags, sources, related family sites, BlogPosting + BreadcrumbList JSON-LD. |
 | `components/SeoHead.astro` | Title, canonical, Open Graph, Twitter, fonts, icons, JSON-LD, GA4, verification, theme CSS variables. |
-| `components/SiteHeader.astro`, `SiteFooter.astro` | Header with active-link state and optional CTA; footer with the family column and imprint line. |
+| `components/SiteHeader.astro`, `SiteFooter.astro` | Header with active-link state, optional CTA and a phone menu button (D63); footer with the family column and imprint line. |
 | `components/FamilyLinks.astro` | Other family sites, as a footer column or an end-of-article card. |
 | `components/SourceList.astro`, `ArticleCard.astro` | Numbered, linked source list; article card for index pages. |
 | `articleSchema(z, opts)` (`src/content.ts`) | Shared content-collection frontmatter, including `sources` and `relatedSites`. |
@@ -40,6 +40,17 @@ One Lantern Learn system, with a small skin per imprint:
   `scopedSkinsCss()` gives `[data-skin="<key>"]` blocks for pages that mix brands.
 
 A site's own `theme` still colors its page content.
+
+## Phone menu (D63)
+
+Under 768px (Tailwind `md`) `SiteHeader` collapses the menu behind a "Menu"
+button (44px, `aria-expanded`, `aria-controls` pointing at the nav). Opened,
+the links and the CTA stack full width on the base surface; Escape or a link
+click closes it. A small inline script (`initMenu` in `src/menu.ts`) turns
+this on per header, so without JS the menu stays visible as a wrapped row. The
+collapse rules are a scoped `<style>` in the component, so they work whatever
+a site's Tailwind `content` scans. At `md` and up the header is unchanged.
+If a page renders two headers, give each a distinct `navId`.
 
 ## Using it in a site
 

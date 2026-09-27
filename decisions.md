@@ -414,3 +414,15 @@ Every entry has these fields:
 - **Choice:** Cloudflare R2, in the existing public media bucket (`rocket-and-raven-media`), served by the site's `/api/media` route with byte-range support. They play on the Tomorrow Trail pages.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. All 26 videos are in R2, and all 13 play on the Tomorrow Trail course page ("Meet the trail friends").
 - **Links:** rocket-and-raven-press #60.
+
+### D57: Brand model across Lantern Learn, the imprints and the series
+- **Question:** The sites and the learning platform mix Rocket & Raven, Lantern Learn, Fox & Fern and Tomorrow Trail looks. Should each imprint have its own branding, or should there be one universal look?
+- **Options:** one Lantern Learn design system with a small fixed brand skin per imprint / one universal Lantern Learn look / fully separate imprint brands.
+- **Choice:** One Lantern Learn design system with imprint skins. Lantern Learn owns structure: navigation, type scale, spacing, components, account, checkout and dashboard. Each imprint supplies a fixed, small skin: logo, display font, two or three colors, illustration style and corner shape, applied on its marketing site and its course pages. Series (Tomorrow Trail, Code Crew) inherit their imprint's skin and add only a series logo and hero art. Children's activity pages get a play layer (large targets, one readable font per age band) themed by the imprint. Extends D6 and D47.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D58: Base look of the Lantern Learn system
+- **Question:** What should the shared base (header, account, checkout, dashboard) look like?
+- **Options:** warm light, from lanternlearn.com / neutral white / dark, as the learning platform is now.
+- **Choice:** Warm light, from lanternlearn.com: cream background, deep navy text, lantern-amber accent. The learning platform's dark Rocket & Raven base is retired as the default; Rocket & Raven keeps its dark look inside its own brand areas.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.

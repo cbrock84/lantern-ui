@@ -497,3 +497,27 @@ Every entry has these fields:
 - **Options:** show the link only once a site has a post / ship the link now / drop D62.
 - **Choice:** Ship the link now on all three sites, empty pages included.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Shipped with D62.
+
+### D70: How completion certificates are branded
+- **Question:** Every completion certificate says "a Rocket & Raven course", including Tomorrow Trail (a Fox & Fern course). How should certificates be branded?
+- **Options:** name the course's imprint with Lantern Learn as issuer / "a Lantern Learn course" for all / keep Rocket & Raven.
+- **Choice:** Name the course's imprint ("a Fox & Fern Books course", "a Rocket & Raven course"), with Lantern Learn as the issuer. Existing verify links keep working.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D71: Email sender name
+- **Question:** Emails go out with the sender in the RESEND_FROM setting, currently a Rocket & Raven sender. What sender name should parents see?
+- **Options:** "Lantern Learn" with the current address / keep Rocket & Raven.
+- **Choice:** Display name "Lantern Learn", keeping the current sending address so deliverability is unaffected. Email body copy uses Lantern Learn too.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D72: Operator line in Terms and Privacy
+- **Question:** Terms and Privacy say the platform is "operated by Chris Brock LLC dba Rocket & Raven, an imprint of Lantern Learn". What should they say?
+- **Options:** keep the operator line and only retitle the pages / "Chris Brock LLC dba Lantern Learn".
+- **Choice:** "Chris Brock LLC dba Lantern Learn". Claude flagged that a dba is a legal registration; the owner chose this option.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D73: Support address on the learning platform
+- **Question:** The platform tells parents to email hello@rocketandraven.com for support, refunds and data requests. Which address should it show?
+- **Options:** keep hello@rocketandraven.com for now / switch to hello@lanternlearn.com.
+- **Choice:** hello@lanternlearn.com. lanternlearn.com has mail (MX to Microsoft 365, checked 2026-09-27).
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.

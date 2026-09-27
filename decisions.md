@@ -431,18 +431,19 @@ Every entry has these fields:
 - **Question:** How should navigation work across lanternlearn.com, learn.lanternlearn.com and the imprint sites?
 - **Options:** a shared family bar plus each site's short menu / shared menus only, no bar / one identical menu everywhere.
 - **Choice:** A thin Lantern Learn family bar on every property (Lantern Learn, the three imprints, Courses, Sign in), then each site's short menu. lanternlearn.com: Imprints, Courses, For parents, About. learn.lanternlearn.com: Courses (filtered by imprint and grade), Help, and when signed in Dashboard, Reports, Account. Imprint sites: Books, Courses (the catalog filtered to that imprint), series pages, Blog, About.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. The family bar and short menus are live on all five properties, and each imprint site's Courses link opens the catalog filtered to that imprint. Blog links are in the footer, not the menu, on lanternlearn.com, rocketandraven.com and hollyandhare.com.
+- **Links:** rocket-and-raven-press #61, lanternlearn-site #7, rocketandraven-site #15, foxandfernbooks-site #7, hollyandhare-site #8.
 
 ### D60: Order of the design system build
 - **Question:** Where should the design system build start?
 - **Options:** the learning platform first / the marketing sites first / everything in one pass.
 - **Choice:** Everything in one pass: lantern-ui, learn.lanternlearn.com and the four marketing sites together.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. All six repos merged and live on 2026-09-27.
 - **Progress:** lantern-ui v0.2.0 adds the base, the imprint skins and the family bar. The learning platform and the four marketing sites use it in rocket-and-raven-press #61, lanternlearn-site #7, rocketandraven-site #15, foxandfernbooks-site #7 and hollyandhare-site #8.
 
 ### D61: List Tomorrow Trail in the catalog
 - **Question:** Tomorrow Trail is unlisted (D44), so the new Fox & Fern "Courses" links open an empty catalog. List it now?
 - **Options:** list it now / keep it unlisted until all 12 stops are reviewed / list it on the Fox & Fern site only.
 - **Choice:** List it now: tomorrow-trail-k1 appears in the platform catalog, the sitemap and the public catalog feed, and the course page is indexable. Supersedes the "unlisted" part of D44.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Tomorrow Trail is in the live catalog, sitemap and feed (16 courses).
 - **Links:** rocket-and-raven-press #61.

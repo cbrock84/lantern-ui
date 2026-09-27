@@ -431,7 +431,7 @@ Every entry has these fields:
 - **Question:** How should navigation work across lanternlearn.com, learn.lanternlearn.com and the imprint sites?
 - **Options:** a shared family bar plus each site's short menu / shared menus only, no bar / one identical menu everywhere.
 - **Choice:** A thin Lantern Learn family bar on every property (Lantern Learn, the three imprints, Courses, Sign in), then each site's short menu. lanternlearn.com: Imprints, Courses, For parents, About. learn.lanternlearn.com: Courses (filtered by imprint and grade), Help, and when signed in Dashboard, Reports, Account. Imprint sites: Books, Courses (the catalog filtered to that imprint), series pages, Blog, About.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. The family bar and short menus are live on all five properties, and each imprint site's Courses link opens the catalog filtered to that imprint. Not done yet: lanternlearn.com, rocketandraven.com and hollyandhare.com have no Blog link in the menu or the footer.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress. The family bar and short menus are live on all five properties, and each imprint site's Courses link opens the catalog filtered to that imprint. Not done yet: lanternlearn.com, rocketandraven.com and hollyandhare.com have no Blog link in the menu or the footer.
 - **Links:** rocket-and-raven-press #61, lanternlearn-site #7, rocketandraven-site #15, foxandfernbooks-site #7, hollyandhare-site #8.
 
 ### D60: Order of the design system build

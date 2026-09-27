@@ -6,6 +6,7 @@
 import type { SiteConfig } from '../types.ts';
 import { getSite } from '../network.ts';
 import { themeCss } from '../theme.ts';
+import { BASE_FONTS, SKINS, baseDecls, skinDecls } from '../brand.ts';
 import { absoluteUrl, organizationJsonLd } from '../jsonld.ts';
 
 export interface Props {
@@ -61,17 +62,15 @@ const gaId = site.analytics?.gaId;
 <meta name="twitter:title" content={fullTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImageUrl} />
-{site.fontsHref && (
-  <>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href={site.fontsHref} rel="stylesheet" />
-  </>
-)}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href={BASE_FONTS.href} rel="stylesheet" />
+{site.fontsHref && <link href={site.fontsHref} rel="stylesheet" />}
 <link rel="icon" type={site.favicon.type} href={site.favicon.href} />
 {site.appleTouchIcon && <link rel="apple-touch-icon" href={site.appleTouchIcon} />}
 <link rel="sitemap" href="/sitemap-index.xml" />
 <style is:inline set:html={themeCss(site.theme, site.fonts)}></style>
+<style is:inline set:html={`:root{${baseDecls()}${skinDecls(SKINS[site.key])}}`}></style>
 {ld.map((entry) => <script type="application/ld+json" set:html={JSON.stringify(entry)} />)}
 {site.verification?.google && <meta name="google-site-verification" content={site.verification.google} />}
 {site.verification?.bing && <meta name="msvalidate.01" content={site.verification.bing} />}

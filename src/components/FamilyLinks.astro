@@ -19,15 +19,15 @@ const sites = only?.length ? only.filter((k) => k !== current).map(getSite) : fa
 ---
 {sites.length > 0 && (variant === 'footer' ? (
   <div>
-    <p class="font-site-display text-base font-semibold">{heading}</p>
+    <p class="font-base text-base font-semibold">{heading}</p>
     <ul class="mt-2 space-y-2">
       {sites.map((s) => (
         <li>
-          <a href={s.url} class="font-semibold hover:text-site-footer-accent">{s.name}</a>
+          <a href={s.url} class="font-semibold hover:text-base-footer-accent">{s.name}</a>
           {s.links?.map((l) => (
             <>
               <span aria-hidden="true" class="mx-1 opacity-60">·</span>
-              <a href={l.href} class="opacity-80 hover:text-site-footer-accent">{l.label}</a>
+              <a href={l.href} class="opacity-80 hover:text-base-footer-accent">{l.label}</a>
             </>
           ))}
         </li>

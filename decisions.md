@@ -426,3 +426,17 @@ Every entry has these fields:
 - **Options:** warm light, from lanternlearn.com / neutral white / dark, as the learning platform is now.
 - **Choice:** Warm light, from lanternlearn.com: cream background, deep navy text, lantern-amber accent. The learning platform's dark Rocket & Raven base is retired as the default; Rocket & Raven keeps its dark look inside its own brand areas.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+
+### D59: Navigation across the sites
+- **Question:** How should navigation work across lanternlearn.com, learn.lanternlearn.com and the imprint sites?
+- **Options:** a shared family bar plus each site's short menu / shared menus only, no bar / one identical menu everywhere.
+- **Choice:** A thin Lantern Learn family bar on every property (Lantern Learn, the three imprints, Courses, Sign in), then each site's short menu. lanternlearn.com: Imprints, Courses, For parents, About. learn.lanternlearn.com: Courses (filtered by imprint and grade), Help, and when signed in Dashboard, Reports, Account. Imprint sites: Books, Courses (the catalog filtered to that imprint), series pages, Blog, About.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+
+### D60: Order of the design system build
+- **Question:** Where should the design system build start?
+- **Options:** the learning platform first / the marketing sites first / everything in one pass.
+- **Choice:** Everything in one pass: lantern-ui, learn.lanternlearn.com and the four marketing sites together.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Progress:** lantern-ui v0.2.0 adds the base, the imprint skins and the family bar.
+

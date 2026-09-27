@@ -20,6 +20,21 @@ test('head: title, canonical, theme vars, analytics and verification', () => {
   assert.match(home, /<meta name="theme-color" content="#f1eee2">/);
 });
 
+test('design system: base frame and imprint skin vars, family bar (D57-D59)', () => {
+  assert.match(home, /--ll-base-bg:250 246 233;/);
+  assert.match(home, /--ll-skin-display:"Cardo", Georgia, serif;/);
+  assert.match(home, /--ll-radius:4px;/);
+  const bar = home.slice(home.indexOf('<nav class="ll-family-bar'), home.indexOf('</nav>', home.indexOf('<nav class="ll-family-bar')));
+  assert.ok(bar.length > 0, 'family bar present');
+  for (const url of ['https://lanternlearn.com', 'https://rocketandraven.com', 'https://foxandfernbooks.com', 'https://hollyandhare.com', 'https://learn.lanternlearn.com/courses', 'https://learn.lanternlearn.com/login']) {
+    assert.ok(bar.includes(`href="${url}"`), url);
+  }
+  assert.match(bar, /href="https:\/\/hollyandhare.com"[^>]*aria-current="page"/);
+  assert.ok(home.indexOf('ll-family-bar') < home.indexOf('<header'), 'bar sits above the header');
+  assert.match(home, /<header class="[^"]*bg-base-surface/);
+  assert.match(home, /<footer class="[^"]*bg-base-footer-bg/);
+});
+
 test('home page carries Organization JSON-LD pointing at the umbrella; other pages do not', () => {
   const org = ldBlocks(home).find((n) => n['@type'] === 'Organization');
   assert.equal(org.parentOrganization.url, 'https://lanternlearn.com');
@@ -31,7 +46,7 @@ test('header: text wordmark fallback, custom logo slot, CTA and active link', ()
   const custom = page('custom-logo/index.html');
   assert.match(custom, /id="custom-wordmark"/);
   assert.doesNotMatch(custom, /font-site-display text-2xl/);
-  assert.match(home, /<a href="\/start"[^>]*bg-site-accent\/10[^>]*>Get started<\/a>/);
+  assert.match(home, /<a href="\/start"[^>]*bg-base-accent[^>]*>Get started<\/a>/);
   assert.match(post, /<a href="\/blog"[^>]*aria-current="page"/);
   assert.doesNotMatch(home, /<a href="\/blog"[^>]*aria-current="page"/);
 });
@@ -69,7 +84,7 @@ test('blog index lists the article with its source count', () => {
 test('Tailwind emitted the preset utilities backed by --ll-* variables', () => {
   const cssDir = new URL('_astro/', dist);
   const css = readdirSync(cssDir).filter((f) => f.endsWith('.css')).map((f) => readFileSync(new URL(f, cssDir), 'utf8')).join('');
-  for (const rule of ['.bg-site-bg{', '.text-site-accent{', '.bg-site-footer-bg{', '.font-site-display{', '.prose-site{']) {
+  for (const rule of ['.bg-site-bg{', '.text-site-accent{', '.bg-base-footer-bg{', '.bg-base-surface{', '.font-base{', '.font-site-display{', '.prose-site{']) {
     assert.ok(css.includes(rule), rule);
   }
   assert.match(css, /rgb\(var\(--ll-bg\) \/ var\(--tw-bg-opacity/);

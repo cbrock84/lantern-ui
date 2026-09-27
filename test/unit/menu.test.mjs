@@ -13,8 +13,13 @@ class El {
   }
   setAttribute(k, v) { this.attrs[k] = String(v); }
   getAttribute(k) { return k in this.attrs ? this.attrs[k] : null; }
-  addEventListener(type, fn) { (this.listeners[type] ||= []).push(fn); }
-  dispatch(type, e = {}) { for (const fn of this.listeners[type] || []) fn({ target: this, ...e }); }
+  addEventListener(type, fn, opts) { (this.listeners[type] ||= []).push({ fn, opts }); }
+  dispatch(type, e = {}) {
+    const all = this.listeners[type] || [];
+    this.listeners[type] = all.filter((l) => !(l.opts && l.opts.once));
+    for (const { fn, opts } of all) if (!(opts && opts.signal && opts.signal.aborted)) fn({ target: this, ...e });
+  }
+  count(type) { return (this.listeners[type] || []).filter((l) => !(l.opts && l.opts.signal && l.opts.signal.aborted)).length; }
   closest(tag) { return this.tag === tag ? this : this.parent && this.parent.closest(tag); }
   focus() { this.focused = true; }
 }
@@ -74,6 +79,27 @@ test('Escape closes an open menu and returns focus to the button', () => {
   assert.equal(header.getAttribute('data-menu'), 'closed');
   assert.equal(btn.getAttribute('aria-expanded'), 'false');
   assert.equal(btn.focused, true);
+});
+
+test('running initMenu again on the same header adds no listeners', () => {
+  const { doc, header, btn } = makeHeader();
+  initMenu(header);
+  initMenu(header);
+  assert.equal(doc.count('keydown'), 1);
+  btn.dispatch('click');
+  assert.equal(header.getAttribute('data-menu'), 'open', 'one toggle per click, not two');
+});
+
+test('a ClientRouter page swap drops the header\'s Escape listener', () => {
+  const { doc, header } = makeHeader();
+  initMenu(header);
+  assert.equal(doc.count('keydown'), 1);
+  doc.dispatch('astro:before-swap');
+  assert.equal(doc.count('keydown'), 0);
+  const next = makeHeader();
+  next.header.ownerDocument = doc;
+  initMenu(next.header);
+  assert.equal(doc.count('keydown'), 1, 'only the new header listens');
 });
 
 test('initMenu leaves a header without a button or nav untouched', () => {

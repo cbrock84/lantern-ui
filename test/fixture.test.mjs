@@ -61,7 +61,7 @@ test('header: phone menu button controls the main nav (D63)', () => {
   assert.match(home, new RegExp(`<nav id="${id}"[^>]*aria-label="Main"`));
   assert.ok(home.indexOf(btn) < home.indexOf(`<nav id="${id}"`), 'button precedes the nav');
   const script = home.slice(home.indexOf(`<nav id="${id}"`), home.indexOf('</header>'));
-  assert.match(script, /<script>\(function initMenu\([\s\S]*document\.currentScript\.parentElement\);<\/script>/);
+  assert.match(script, /<script data-astro-rerun>\(function initMenu\([\s\S]*document\.currentScript\.parentElement\);<\/script>/);
   assert.doesNotMatch(home, /<header[^>]*data-menu=/, 'no JS: header is not collapsible');
 });
 

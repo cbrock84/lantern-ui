@@ -365,14 +365,15 @@ Every entry has these fields:
 - **Question:** Stop 2 needs art the owner's image folder does not have: the stop scene, the Pinecone Pathfinder badge, a Rosie coloring page, rhyme pictures, community helpers and their tools, and a car for "which one doesn't belong". How is it sourced?
 - **Options:** simple flat drawings made by Claude, replaced later by the owner's art / AI-generated art, reviewed by the owner before Stop 2 goes live / hold publishing until the owner adds Stop 2 art.
 - **Choice:** AI-generated art, matched to the character reference art, with no text, letters or logos (content standards section 7). The owner reviews it before Stop 2 goes live.
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done. The owner approved the art on 2026-09-27 (see D50).
 
 ### D50: Art and new characters for Tomorrow Trail Stops 3 to 12
 - **Question:** Stops 6 to 9 are hosted by Donnie the Deer, Riley the Raccoon, Samantha the Squirrel and Benny the Bobcat, who are in the character bible (D24) but have no art. How are they, and the other new art for Stops 3 to 12, handled?
 - **Options:** generate them, owner reviews / use characters that already have art until the owner supplies it / hold Stops 6 to 9 for the owner's art.
 - **Choice:** Same as D49 for every remaining stop. The four characters are generated from their bible descriptions in the existing cast's style, then used as references for their stops. Nothing goes live until the owner has reviewed it.
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
 - **Progress:** The owner then pointed to Canva, which already holds all twelve characters (color, line and pencil), all twelve badges, 41 icons and group scenes. That art replaces generated art wherever it exists, including the four characters and Stop 2's badge, helpers and tools. The rest (ten stop scenes, 38 icons, two coloring pages, a certificate border) is generated and awaits the owner's review. Stops 2 to 12 are written.
+- **Review:** On 2026-09-27 the owner approved all 52 generated pictures (11 stop scenes, 38 activity pictures, 3 printables) with no redos, and Stops 2 to 12 went live.
 - **Links:** rocket-and-raven-press #58.
 
 ### D51: How the character intro videos are made

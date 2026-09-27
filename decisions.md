@@ -399,3 +399,9 @@ Every entry has these fields:
 - **Options:** art: holding a daisy / waving from a big daisy / heart spot and leaf scarf. Voice: Annie / Luna / Isla.
 - **Choice:** Lucy is the kindness and feelings friend (naming feelings, calm-down breathing, sharing, taking turns); her seven spots double as a counting helper. Art: waving from a big daisy (generated in the cast's style). Voice: Luna (ElevenLabs). She gets an intro video like the other twelve.
 - **Date:** 2026-09-27. **Decided by:** owner (role proposed by Claude, open to change). **Status:** Decided.
+
+### D55: How many animated shots per character intro
+- **Question:** A 5-second Higgsfield shot costs 35 credits at 720p. After the Ferris pilot (two shots), how many shots do the other twelve intros get?
+- **Options:** one shot each, about 420 credits / two shots each, about 840 credits.
+- **Choice:** One shot each, to use fewer credits. The rest of each video is the owner's still art with slow camera moves. Ferris keeps his two pilot shots.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.

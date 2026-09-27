@@ -431,7 +431,7 @@ Every entry has these fields:
 - **Question:** How should navigation work across lanternlearn.com, learn.lanternlearn.com and the imprint sites?
 - **Options:** a shared family bar plus each site's short menu / shared menus only, no bar / one identical menu everywhere.
 - **Choice:** A thin Lantern Learn family bar on every property (Lantern Learn, the three imprints, Courses, Sign in), then each site's short menu. lanternlearn.com: Imprints, Courses, For parents, About (Blog added by D62). learn.lanternlearn.com: Courses (filtered by imprint and grade), Help, and when signed in Dashboard, Reports, Account. Imprint sites: Books, Courses (the catalog filtered to that imprint), series pages, Blog, About.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress. The family bar and short menus are live on all five properties, and each imprint site's Courses link opens the catalog filtered to that imprint. Not done yet: lanternlearn.com, rocketandraven.com and hollyandhare.com have no Blog link in the menu or the footer.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. The family bar and short menus are live on all five properties, with Blog in every imprint menu (D62).
 - **Links:** rocket-and-raven-press #61, lanternlearn-site #7, rocketandraven-site #15, foxandfernbooks-site #7, hollyandhare-site #8.
 
 ### D60: Order of the design system build
@@ -452,38 +452,39 @@ Every entry has these fields:
 - **Question:** lanternlearn.com, rocketandraven.com and hollyandhare.com have blogs but no Blog link in the menu or footer. Where should Blog go?
 - **Options:** menu / footer only / both.
 - **Choice:** In each site's short menu, as on Fox & Fern. For rocketandraven.com and hollyandhare.com this carries out D59; for lanternlearn.com it supersedes D59's menu (Imprints, Courses, For parents, About), which becomes Imprints, Courses, For parents, Blog, About.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Blog is in the menus of lanternlearn.com, rocketandraven.com and hollyandhare.com (live 2026-09-27; empty blogs shipped per D69).
+- **Links:** lanternlearn-site #8, rocketandraven-site #16, hollyandhare-site #9.
 
 ### D63: Phone menu
 - **Question:** On phones the site menus wrap onto two or three lines. How should the phone menu work?
 - **Options:** a menu button / one sideways-scrolling row / leave as is.
 - **Choice:** A tap-to-open menu button under 768px, built once in lantern-ui and used by the four sites and the learning platform.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. The four sites (lantern-ui 0.2.1, #33) and learn.lanternlearn.com (rocket-and-raven-press #62) have the phone menu, live 2026-09-27.
 
 ### D64: Holly & Hare's Courses link
 - **Question:** Holly & Hare has no courses on the platform yet, so its Courses link opens an empty list. What should the link do?
 - **Options:** the full catalog for now / hide Courses / keep the empty list with a "coming soon" state.
 - **Choice:** Link to the full catalog until a Holly & Hare course exists, then switch to the filtered list automatically.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. /courses?imprint=holly-and-hare shows the full catalog with an "on the way" note until a Holly & Hare course is listed (rocket-and-raven-press #62).
 
 ### D65: learn.lanternlearn.com home page hero
 - **Question:** The learning platform's home page hero still speaks as Rocket & Raven. Rewrite it?
 - **Options:** Lantern Learn voice / keep Rocket & Raven / make it a slim sign-in and catalog page.
 - **Choice:** Rewrite it in the Lantern Learn voice, introducing all imprints, with the skinned imprint cards below.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. The learn.lanternlearn.com hero now reads "Playful online courses for curious kids." and introduces the three imprints, each in its own skin (rocket-and-raven-press #62). The copy can be changed at /admin/home.
 
 ### D66: Imprint logos
 - **Question:** Rocket & Raven has no image logo, and the Fox & Fern logo sits on a white box. How should the logos be fixed?
 - **Options:** Claude prepares, the owner approves / the owner supplies files / styled text wordmarks.
 - **Choice:** Claude cuts the Fox & Fern logo to a transparent background and drafts two or three Rocket & Raven logo options; the owner picks before anything ships.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. rocketandraven.com shows the option B badge beside its wordmark (rocketandraven-site #16); foxandfernbooks.com shows the transparent logo (foxandfernbooks-site #8).
 - **Progress:** The owner picked option B for Rocket & Raven (the two kid characters in a starry navy badge, with an Orbitron "ROCKET & RAVEN" wordmark) over A (a rocket and a raven bird) and C (a flat rocket-raven mark), and approved the transparent Fox & Fern logo (2026-09-27).
 
 ### D67: Family bar on kids' play pages
 - **Question:** Workbook and lesson pages (the play layer) have no family bar. Should they?
 - **Options:** no bar, one small exit link / the full family bar / leave as is.
 - **Choice:** No family bar on kids' pages; add one small "Back to course" link for grown-ups.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Workbook pages have a small "Back to course" link and no family bar (rocket-and-raven-press #62).
 
 ### D68: Close finished decisions
 - **Question:** D48, D51, D52 and D55 were still In progress although the work had shipped. Mark them Done?
@@ -495,4 +496,4 @@ Every entry has these fields:
 - **Question:** Correction to D62: the blogs on lanternlearn.com, rocketandraven.com and hollyandhare.com have no posts yet (only Fox & Fern has posts), so a Blog link opens an empty page. What now?
 - **Options:** show the link only once a site has a post / ship the link now / drop D62.
 - **Choice:** Ship the link now on all three sites, empty pages included.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Shipped with D62.

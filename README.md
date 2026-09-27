@@ -21,6 +21,26 @@ same everywhere.
 | `articleSchema(z, opts)` (`src/content.ts`) | Shared content-collection frontmatter, including `sources` and `relatedSites`. |
 | `tailwind-preset.mjs` | `site-*` colors and fonts backed by the `--ll-*` variables, plus a `prose-site` typography theme. |
 
+## Design system (D57, D58, D59)
+
+One Lantern Learn system, with a small skin per imprint:
+
+- **Base** (`BASE` in `src/brand.ts`) is the Lantern Learn frame: warm light,
+  navy text, lantern amber. The family bar, header and footer always use it
+  (`base-*` Tailwind colors, `font-base`), so every property navigates the same way.
+- **Skins** (`SKINS`) are each brand's display font, a few colors and a corner
+  radius. SeoHead writes the current site's skin as `--ll-skin-*` and
+  `--ll-radius` (`skin-*` colors, `font-skin-display`, `rounded-skin`). Series
+  such as Tomorrow Trail use their imprint's skin.
+- **Family bar** (`components/FamilyBar.astro`) sits above the header on every
+  property: Lantern Learn, the three imprints, Courses and Sign in. Plain CSS,
+  so the learning platform can use it without Tailwind. Turn it off with
+  `familyBar: false` in `SiteConfig`.
+- `coursesFor(key)` links to the platform catalog filtered to an imprint;
+  `scopedSkinsCss()` gives `[data-skin="<key>"]` blocks for pages that mix brands.
+
+A site's own `theme` still colors its page content.
+
 ## Using it in a site
 
 1. Install from this repo, pinned to a tag or a commit on `main`:

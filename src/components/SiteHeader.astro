@@ -18,7 +18,7 @@ const isActive = (href: string) =>
   currentPath !== undefined && !/^https?:/.test(href) &&
   (href === '/' ? norm(currentPath) === '/' : norm(currentPath).startsWith(norm(href)));
 ---
-<header class="border-b border-site-border bg-site-surface/80 backdrop-blur">
+<header class="border-b border-base-border bg-base-surface font-base text-base-text">
   <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-8 gap-y-3 px-4 py-4 sm:px-6">
     <a href="/" class="block flex-shrink-0 hover:opacity-90" aria-label={`${me.name} home`}>
       {logoHtml ? <Fragment set:html={logoHtml} /> : site.logo ? (
@@ -31,20 +31,20 @@ const isActive = (href: string) =>
             loading="eager"
           />
         ) : (
-          <span class="font-site-display text-2xl font-bold text-site-heading">{me.name}</span>
+          <span class="font-site-display text-2xl font-bold text-base-heading">{me.name}</span>
         )}
     </a>
-    <nav aria-label="Main" class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold text-site-text">
+    <nav aria-label="Main" class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold text-base-text">
       {site.nav.map((l) =>
         l.cta ? (
           <a
             href={l.href}
-            class="rounded-md border border-site-accent/40 bg-site-accent/10 px-3 py-1.5 text-site-accent transition hover:bg-site-accent hover:text-site-surface"
+            class="rounded-md border border-base-accent bg-base-accent px-3 py-1.5 text-white transition hover:bg-base-heading hover:border-base-heading"
           >{l.label}</a>
         ) : (
           <a
             href={l.href}
-            class="transition hover:text-site-accent aria-[current=page]:text-site-accent"
+            class="transition hover:text-base-accent aria-[current=page]:text-base-accent aria-[current=page]:underline aria-[current=page]:underline-offset-4"
             aria-current={isActive(l.href) ? 'page' : undefined}
           >{l.label}</a>
         ),

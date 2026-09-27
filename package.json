@@ -1,6 +1,6 @@
 {
   "name": "@lanternlearn/ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shared layout, SEO, family-of-sites navigation and article/blog components for the Lantern Learn sites.",
   "type": "module",
   "keywords": [

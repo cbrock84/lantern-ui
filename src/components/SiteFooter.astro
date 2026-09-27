@@ -14,7 +14,7 @@ const year = new Date().getFullYear();
 // See SiteHeader: forwarded empty slots suppress fallback content.
 const brandHtml = Astro.slots.has('brand') ? (await Astro.slots.render('brand')).trim() : '';
 ---
-<footer class="mt-24 border-t border-site-border bg-site-footer-bg text-site-footer-text">
+<footer class="mt-24 border-t border-base-border bg-base-footer-bg text-base-footer-text font-base">
   <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 text-sm sm:px-6 md:grid-cols-2 lg:grid-cols-4">
     <div>
       {brandHtml ? <Fragment set:html={brandHtml} /> : <p class="font-site-display text-xl font-bold">{me.name}</p>}
@@ -22,10 +22,10 @@ const brandHtml = Astro.slots.has('brand') ? (await Astro.slots.render('brand'))
     </div>
     {site.footerLinks.length > 0 && (
       <div>
-        <p class="font-site-display text-base font-semibold">Explore</p>
+        <p class="font-base text-base font-semibold">Explore</p>
         <ul class="mt-2 space-y-1">
           {site.footerLinks.map((l) => (
-            <li><a href={l.href} class="hover:text-site-footer-accent">{l.label}</a></li>
+            <li><a href={l.href} class="hover:text-base-footer-accent">{l.label}</a></li>
           ))}
         </ul>
       </div>
@@ -33,23 +33,23 @@ const brandHtml = Astro.slots.has('brand') ? (await Astro.slots.render('brand'))
     <FamilyLinks current={site.key} />
     {(site.contactEmail || site.social?.length) && (
       <div>
-        <p class="font-site-display text-base font-semibold">Stay in touch</p>
+        <p class="font-base text-base font-semibold">Stay in touch</p>
         {site.contactEmail && (
           <p class="mt-2 opacity-80">
-            <a href={`mailto:${site.contactEmail}`} class="underline hover:text-site-footer-accent">{site.contactEmail}</a>
+            <a href={`mailto:${site.contactEmail}`} class="underline hover:text-base-footer-accent">{site.contactEmail}</a>
           </p>
         )}
         {site.social?.length ? (
           <ul class="mt-3 flex flex-wrap gap-3">
             {site.social.map((s) => (
-              <li><a href={s.href} rel="noopener noreferrer me" class="opacity-80 hover:text-site-footer-accent">{s.label}</a></li>
+              <li><a href={s.href} rel="noopener noreferrer me" class="opacity-80 hover:text-base-footer-accent">{s.label}</a></li>
             ))}
           </ul>
         ) : null}
       </div>
     )}
   </div>
-  <div class="border-t border-site-footer-text/15">
+  <div class="border-t border-base-footer-text/15">
     <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-4 text-xs opacity-80 sm:px-6">
       <p>
         © {year} {me.name}. All rights reserved.
@@ -61,7 +61,7 @@ const brandHtml = Astro.slots.has('brand') ? (await Astro.slots.render('brand'))
         )}
       </p>
       <p class="flex flex-wrap gap-3">
-        {site.legalLinks.map((l) => <a href={l.href} class="hover:text-site-footer-accent">{l.label}</a>)}
+        {site.legalLinks.map((l) => <a href={l.href} class="hover:text-base-footer-accent">{l.label}</a>)}
       </p>
     </div>
   </div>

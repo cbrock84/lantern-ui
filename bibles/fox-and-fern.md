@@ -72,6 +72,10 @@ character under `Tomorrow Trail/images/`.
 | Benny the Bobcat | Challenge coordinator | Optional "Try This!" extension pages | Small bobcat, tufted ears, headband | Encouraging, a little competitive |
 | Chris the Coyote | Storyteller and trail narrator | Links the story across trail stops, previews what is next | Coyote, feather in his hat, storyteller's satchel | Warm, vivid, narrative |
 | Freddy the Frog | Games and weekly review host | Friday fun pages, review games | Small green frog, vest or bow tie, lily pad | Cheerful, gentle jokes |
+| Lucy the Ladybug | Kindness and feelings friend | Naming feelings, calm-down breathing, sharing, taking turns; her seven spots help with counting | Small red ladybug, seven black spots, curly antennae, tiny green backpack; waves from a big daisy | Soft, sweet, steady; names feelings out loud |
+
+Lucy the Ladybug joined the cast on 2026-09-27 (D54). Her art is generated in the
+cast's style rather than taken from the owner's folder, and is not yet in Canva.
 
 The cast belongs to every Fox & Fern line, the new short stories included
 (D38).

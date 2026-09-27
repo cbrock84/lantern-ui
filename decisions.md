@@ -400,9 +400,17 @@ Every entry has these fields:
 - **Options:** art: holding a daisy / waving from a big daisy / heart spot and leaf scarf. Voice: Annie / Luna / Isla.
 - **Choice:** Lucy is the kindness and feelings friend (naming feelings, calm-down breathing, sharing, taking turns); her seven spots double as a counting helper. Art: waving from a big daisy (generated in the cast's style). Voice: Luna (ElevenLabs). She gets an intro video like the other twelve.
 - **Date:** 2026-09-27. **Decided by:** owner (role proposed by Claude, open to change). **Status:** Decided.
+- **Progress:** Lucy's color and line art are saved in the owner's Canva design "Fox & Fern Books - Animal Characters - Solo" (pages 13 and 26), and her intro video is made.
 
 ### D55: How many animated shots per character intro
 - **Question:** A 5-second Higgsfield shot costs 35 credits at 720p. After the Ferris pilot (two shots), how many shots do the other twelve intros get?
 - **Options:** one shot each, about 420 credits / two shots each, about 840 credits.
 - **Choice:** One shot each, to use fewer credits. The rest of each video is the owner's still art with slow camera moves. Ferris keeps his two pilot shots.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+
+### D56: Where the character intro videos are hosted
+- **Question:** Where should the 26 intro videos (about 500 MB, too large for git) live so the site can show them?
+- **Options:** Cloudflare R2 / Cloudflare Stream / YouTube (unlisted) / files only for now.
+- **Choice:** Cloudflare R2, in the existing public media bucket (`rocket-and-raven-media`), served by the site's `/api/media` route with byte-range support. They play on the Tomorrow Trail pages.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Links:** rocket-and-raven-press #60.

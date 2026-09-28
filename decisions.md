@@ -539,4 +539,4 @@ Every entry has these fields:
 - **Question:** What should the next build be?
 - **Options:** fill the empty blogs / Code Crew Grade 4 / Tomorrow Trail's next grade / the first Holly & Hare course.
 - **Choice:** Fill the empty blogs: three sourced parent guides each on lanternlearn.com, rocketandraven.com and hollyandhare.com.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Nine sourced parent guides are live (2026-09-28): three each on lanternlearn.com (lanternlearn-site #9), rocketandraven.com (rocketandraven-site #17) and hollyandhare.com (hollyandhare-site #10). The Holly & Hare posts are written for grades 3 to 5, per its bible.

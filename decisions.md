@@ -663,3 +663,15 @@ Every entry has these fields:
 - **Options:** Tomorrow Trail art hosted in the repo / keep them.
 - **Choice:** Current Tomorrow Trail art, hosted in the site repo.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D96: Jacket patches on the kids
+- **Question:** The canonical reference art has small "R" and rocket patches on Rocket's and Raven's jackets and sleeves, and generated art copies them, while the art prompts ban logos on clothing.
+- **Options:** allowed as a character detail / remove them everywhere.
+- **Choice:** Allowed: they are part of the canonical outfit, not a brand logo. Noted in the art prompts.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Done.
+
+### D97: Editing the owner's Tomorrow Trail art with Higgsfield
+- **Question:** Adding the bible's props to the 12 Tomorrow Trail characters (D88) means sending the owner's own Canva art to Higgsfield for editing.
+- **Options:** use Higgsfield / the owner edits in Canva.
+- **Choice:** Use Higgsfield. The owner approves the result sheet before anything ships. The Rocket & Raven art sheets (cutouts, 9 poses, 6 animals, hint icon, share image, 30 covers and heroes) were approved the same day.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.

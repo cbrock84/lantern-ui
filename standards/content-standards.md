@@ -141,6 +141,10 @@ each word highlighted as it is spoken, and exercise lines as recorded clips.
 ## 7. Visual and art standards
 
 - Characters match their bible's reference art and appearance notes.
+- Characters are never drawn by assembling primitive shapes (circles, ellipses,
+  rectangles or paths composed into a figure). Every character image comes
+  from the bible's reference art or art generated from it and reviewed by a
+  person. Plain icons and objects may still be drawn as shapes. (Owner rule, D80.)
 - Generated art contains no text, letters, logos, or brand marks, including on
   clothing and shoes.
 - Every image has alt text that describes what matters for the lesson.

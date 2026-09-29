@@ -64,12 +64,12 @@ character under `Tomorrow Trail/images/`.
 | Hazel the Hedgehog | Writing and creativity mentor | Letter formation, tracing, simple sentences | Small hedgehog, cosy scarf, pencil behind her ear | Gentle, patient |
 | Rosie the Rabbit | Encouragement and confidence | Praise on progress pages | Grey rabbit, long ears, colourful bandana; clapping or jumping | Upbeat, exclamation points |
 | Lizzy the Lizard | Science and discovery | Living/nonliving, habitats, weather, plants, senses, day/night | Green lizard, magnifying glass, sun hat, notebook | Inquisitive, factual |
-| Bruce the Bear | Math and problem solving | Counting, addition, subtraction, number bonds, ten frames, word problems | Big brown bear in overalls or a vest, basket of apples or stones | Calm, clear steps |
+| Bennie the Bear | Math and problem solving | Counting, addition, subtraction, number bonds, ten frames, word problems | Big brown bear in overalls or a vest, basket of apples or stones | Calm, clear steps |
 | Oliver the Owl | Critical thinking and logic | Patterns, sorting, mazes, logic puzzles | Small owl, glasses, pocket watch | Thoughtful, slightly formal |
 | Donnie the Deer | Nature and observation | Noticing details, nature appreciation | Young spotted deer, simple satchel | Soft, slow |
 | Riley the Raccoon | Puzzles and curiosity | Puzzle pages, scavenger hunts, hidden pictures | Striped tail, bandit mask, bag of puzzle pieces or a lantern | Playful; hints, not answers |
 | Samantha the Squirrel | Fun facts and energy | Trivia, high-energy games | Reddish-brown squirrel, bushy tail, acorn stash | Fast, lively |
-| Benny the Bobcat | Challenge coordinator | Optional "Try This!" extension pages | Small bobcat, tufted ears, headband | Encouraging, a little competitive |
+| Bruce the Bobcat | Challenge coordinator | Optional "Try This!" extension pages | Small bobcat, tufted ears, headband | Encouraging, a little competitive |
 | Chris the Coyote | Storyteller and trail narrator | Links the story across trail stops, previews what is next | Coyote, feather in his hat, storyteller's satchel | Warm, vivid, narrative |
 | Freddy the Frog | Games and weekly review host | Friday fun pages, review games | Small green frog, vest or bow tie, lily pad | Cheerful, gentle jokes |
 | Lucy the Ladybug | Kindness and feelings friend | Naming feelings, calm-down breathing, sharing, taking turns; her seven spots help with counting | Small red ladybug, seven black spots, curly antennae, tiny green backpack; waves from a big daisy | Soft, sweet, steady; names feelings out loud |

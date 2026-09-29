@@ -540,3 +540,28 @@ Every entry has these fields:
 - **Options:** fill the empty blogs / Code Crew Grade 4 / Tomorrow Trail's next grade / the first Holly & Hare course.
 - **Choice:** Fill the empty blogs: three sourced parent guides each on lanternlearn.com, rocketandraven.com and hollyandhare.com.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Nine sourced parent guides are live (2026-09-28): three each on lanternlearn.com (lanternlearn-site #9), rocketandraven.com (rocketandraven-site #17) and hollyandhare.com (hollyandhare-site #10). The Holly & Hare posts are written for grades 3 to 5, per its bible.
+
+### D77: Swapping the bear's and bobcat's names on Tomorrow Trail
+- **Question:** The owner asked to swap two characters' names: Bruce the Bear becomes Bennie the Bear, and Benny the Bobcat becomes Bruce the Bobcat. The bobcat's name was spelled "Benny"; the owner wrote "Bennie". How is the bear's new name spelled?
+- **Options:** Bennie / Benny.
+- **Choice:** Bennie. The bear is now Bennie the Bear and the bobcat is Bruce the Bobcat. The animals keep their art, roles and traits; only the names swap. Every line, caption, name card and the Fox & Fern bible change.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+
+### D78: Voices after the name swap
+- **Question:** When the names swap, do the voices follow the animal or the name? The bear speaks as Bram and the bobcat as Landon.
+- **Options:** voices stay with the animal / voices follow the name.
+- **Choice:** Voices stay with the animal: Bennie the Bear keeps Bram, Bruce the Bobcat keeps Landon. Lines that say either name are re-recorded, and both intro videos get new narration and name cards.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+
+### D79: Letter-sound wording in Tomorrow Trail exercises
+- **Question:** The exercise voice reads spelled-out sounds literally ("B says buh", "Buh, buh, book"). How should letter-sound exercises be worded?
+- **Options:** whole words only / keep the sounds but force pronunciation with tags.
+- **Choice:** Whole words only ("B is for book. Which one starts with B?"). No spelled-out sounds or stuttered word beginnings anywhere; real words and rhyme sounds such as "hoot, hoot" stay. Every affected line is re-recorded.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+
+### D80: Rocket & Raven exercise art
+- **Question:** The Code Crew exercise graphics do not match the Rocket & Raven bible, and some characters are built from shapes. How should the new art be made?
+- **Options:** bible art plus new poses generated from it, owner approves / only the four existing images / the owner supplies art.
+- **Choice:** The bible's reference images (Rocket, Raven, Nova, the crew) plus any new poses generated from them as references; the owner approves an art sheet before anything ships. Shape-built characters are removed everywhere, including the K diploma. Standing rule, now in the content standards section 7: never build characters from primitive shapes.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+

@@ -3,8 +3,9 @@
 Version 1.0
 
 > Source: `RR-Character-Bible-v1.docx`, supplied by the owner. This Markdown
-> copy keeps the wording unchanged; only headings and list formatting were
-> added. Canonical reference art: `public/assets/brand/characters/` in cbrock84/rocket-and-raven-press
+> copy keeps the wording unchanged apart from the amendments listed here;
+> headings and list formatting were added. Amendments: one em-dash replaced
+> with a semicolon (repository style rule); the Nova pronoun note (D86). Canonical reference art: `public/assets/brand/characters/` in cbrock84/rocket-and-raven-press
 > (`rocket-v1.png`, `raven-v1.png`, `nova-v1.png`, `crew-v1.png`). Prompt text
 > for image generation derived from this document: [`rocket-and-raven-art-prompts.md`](./rocket-and-raven-art-prompts.md).
 

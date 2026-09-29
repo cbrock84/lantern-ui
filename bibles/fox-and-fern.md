@@ -99,8 +99,8 @@ The cast belongs to every Fox & Fern line, the new short stories included
 - Moving online as free digital workbooks with an optional free PDF (D10).
 - The owner's series documents (`Tomorrow Trail/00` to `06`, 2026-06-02)
   define the full system: 12 "trail stops" named along a woodland trail (K→1:
-  Forest Gate to Tomorrow Peak), 11 pages per stop in a fixed order (Chris the
-  Coyote's introduction, reading and phonics, a reading activity, writing,
+  Forest Gate to Tomorrow Peak), 11 pages per stop in a fixed order (an
+  introduction, Chris the Coyote's in the printed books, reading and phonics, a reading activity, writing,
   two math pages, critical thinking, a comprehension story, a discovery page,
   a weekly review, and Freddy's fun page with a stop badge), a 75/25 review to
   next-grade ratio, 12 stop badges, a certificate and a trail map. Each stop
@@ -121,8 +121,8 @@ The cast belongs to every Fox & Fern line, the new short stories included
 - foxandfernbooks.com keeps describing the printed books as they are (15 to
   20 minutes, answer keys in the back) until the digital version launches.
 
-- A trail stop is five online days (D45): Mon, Chris's introduction, reading
-  and phonics; Tue, reading activity and writing; Wed, two math pages; Thu,
+- A trail stop is five online days (D45): Mon, the stop host's introduction
+  (Chris opens the trail at Stop 1, D92), reading and phonics; Tue, reading activity and writing; Wed, two math pages; Thu,
   critical thinking and the comprehension story; Fri, discovery, weekly
   review, Freddy's fun page and the stop badge.
 - Online at `learn.lanternlearn.com/courses/tomorrow-trail-k1`; QR codes use

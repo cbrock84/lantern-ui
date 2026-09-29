@@ -219,6 +219,8 @@ Orange remains the primary accent color while introducing subtle teal technology
 
 ### Nova
 
+Pronouns: she/her (D86). Nova is an AI companion drone: never "a robot" and never a literal bird. She appears in every grade.
+
 #### Role
 
 - AI Companion

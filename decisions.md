@@ -675,3 +675,9 @@ Every entry has these fields:
 - **Options:** use Higgsfield / the owner edits in Canva.
 - **Choice:** Use Higgsfield. The owner approves the result sheet before anything ships. The Rocket & Raven art sheets (cutouts, 9 poses, 6 animals, hint icon, share image, 30 covers and heroes) were approved the same day.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D98: Tomorrow Trail story scenes match the cast
+- **Question:** After the character cards gained their bible props (D88), the Stop 1 to 12 story scenes and the course hero still showed the old look, and Lucy, Freddy, Lizzy, Samantha and Bruce appeared in few or no scenes.
+- **Options:** update all scenes / only the hero and Stop 1 / leave them.
+- **Choice:** Update all scenes: every friend shows their bible props (only Ferris and Lucy keep a backpack), no baked text, and all 13 friends appear at least twice across Stops 1 to 11 plus all together at Stop 12, with Lucy in the group scenes (Stops 2, 9, 11, 12, the group coloring page, the cover and the Fox & Fern blog banner). Each stop keeps its host and story cast.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided. Approved art is in rocket-and-raven-press #66 and foxandfernbooks-site #9.

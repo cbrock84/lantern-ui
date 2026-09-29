@@ -570,7 +570,7 @@ Every entry has these fields:
 - **Options:** bible art plus new poses generated from it, owner approves / only the four existing images / the owner supplies art.
 - **Choice:** The bible's reference images (Rocket, Raven, Nova, the crew) plus any new poses generated from them as references; the owner approves an art sheet before anything ships. Shape-built characters are removed everywhere, including the K diploma. Standing rule, now in the content standards section 7: never build characters from primitive shapes.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Art audit under way; the art sheet goes to the owner before anything ships.
+- **Progress:** Art sheets approved (D97); integrated in rocket-and-raven-press #67.
 
 
 ### D81: Animals in the Code Crew exercise cards
@@ -578,7 +578,7 @@ Every entry has these fields:
 - **Options:** yes, replace them with generated art in the bible's style / no, keep the shape icons for non-cast animals.
 - **Choice:** Yes. Six animal images are generated in the Rocket & Raven style and go on the same art sheet for owner approval.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Art being generated.
+- **Progress:** Approved; integrated in rocket-and-raven-press #67.
 
 ### D82: The Kindergarten "robot"
 - **Question:** Code Crew K weeks 3, 4 and 10 use a generic box robot as the program runner, plus a robot dance. What should it be?
@@ -679,5 +679,23 @@ Every entry has these fields:
 ### D98: Tomorrow Trail story scenes match the cast
 - **Question:** After the character cards gained their bible props (D88), the Stop 1 to 12 story scenes and the course hero still showed the old look, and Lucy, Freddy, Lizzy, Samantha and Bruce appeared in few or no scenes.
 - **Options:** update all scenes / only the hero and Stop 1 / leave them.
-- **Choice:** Update all scenes: every friend shows their bible props (only Ferris and Lucy keep a backpack), no baked text, and all 13 friends appear at least twice across Stops 1 to 11 plus all together at Stop 12, with Lucy in the group scenes (Stops 2, 9, 11, 12, the group coloring page, the cover and the Fox & Fern blog banner). Each stop keeps its host and story cast.
+- **Choice:** Update all scenes: every friend shows their bible props (only Ferris and Lucy keep a backpack), no baked text, and all 13 friends appear at least twice across Stops 1 to 11 plus all together at Stop 12, with Lucy in the group scenes, the group coloring page, the cover, the course banner and the Fox & Fern blog banner. The owner then asked for the Stop 1 to 11 casts to be randomized (three friends each, every friend at least twice; Lucy at Stops 5 and 10), and the course banner to be a wide version of the cover.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided. Approved art is in rocket-and-raven-press #66 and foxandfernbooks-site #9.
+
+### D99: Which Kindergarten robots become Nova
+- **Question:** D82 named weeks 3, 4 and 10, but the same generic robot also runs programs in week 5 (reads a traffic light), week 7 (press start) and week 12 (a garden robot planting seeds).
+- **Options:** Nova everywhere / Nova except the week 12 garden robot / only weeks 3, 4 and 10.
+- **Choice:** Nova everywhere, weeks 3, 4, 5, 7, 10 and 12, with she/her pronouns (D86); the week 12 garden robot becomes Nova planting seeds. Changed lines are re-recorded.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided. In rocket-and-raven-press #67.
+
+### D100: Character art in Grades 1 and 2
+- **Question:** G1 and G2 already show the bible art of Rocket, Raven and Nova as waist-up crops on white. The approved sheet also has full-body transparent cutouts.
+- **Options:** keep the crops / use the cutouts (taller headers on every page).
+- **Choice:** Keep the crops.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D101: The Kindergarten "Rocket" cards
+- **Question:** Two K cards (the Day 5 sky show and the Day 46 path goal) used a red rocket-ship icon labelled "Rocket", the same name as the boy.
+- **Options:** show Rocket the boy / keep a rocket ship.
+- **Choice:** Rocket the boy: flying on his rocket pack in the sky show, standing at the path goal.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided. In rocket-and-raven-press #67.

@@ -21,7 +21,7 @@ Rocket & Raven's is "I can figure this out."
 
 ## Audience
 
-**Established.** Pre-K through Grade 5, ages 4 to 10, parents buying for
+**Established.** Pre-K through Grade 6, ages 4 to 11 (D91), parents buying for
 summer and at-home practice.
 
 ## Voice and tone
@@ -69,8 +69,8 @@ character under `Tomorrow Trail/images/`.
 | Donnie the Deer | Nature and observation | Noticing details, nature appreciation | Young spotted deer, simple satchel | Soft, slow |
 | Riley the Raccoon | Puzzles and curiosity | Puzzle pages, scavenger hunts, hidden pictures | Striped tail, bandit mask, bag of puzzle pieces or a lantern | Playful; hints, not answers |
 | Samantha the Squirrel | Fun facts and energy | Trivia, high-energy games | Reddish-brown squirrel, bushy tail, acorn stash | Fast, lively |
-| Bruce the Bobcat | Challenge coordinator | Optional "Try This!" extension pages | Small bobcat, tufted ears, headband | Encouraging, a little competitive |
-| Chris the Coyote | Storyteller and trail narrator | Links the story across trail stops, previews what is next | Coyote, feather in his hat, storyteller's satchel | Warm, vivid, narrative |
+| Bruce the Bobcat | Challenge coordinator | Hosts challenge stops and stretch items (Tomorrow Trail K-1: Stop 9, skip counting and graphs) | Small bobcat, tufted ears, headband | Encouraging, a little competitive |
+| Chris the Coyote | Storyteller and trail narrator | Links the story across trail stops, previews what is next; opens the trail and tells the Thursday stories, while each stop's host opens its own Monday (D92) | Coyote, feather in his hat, storyteller's satchel | Warm, vivid, narrative |
 | Freddy the Frog | Games and weekly review host | Friday fun pages, review games | Small green frog, vest or bow tie, lily pad | Cheerful, gentle jokes |
 | Lucy the Ladybug | Kindness and feelings friend | Naming feelings, calm-down breathing, sharing, taking turns; her seven spots help with counting | Small red ladybug, seven black spots, curly antennae, tiny green backpack; waves from a big daisy | Soft, sweet, steady; names feelings out loud |
 
@@ -90,7 +90,7 @@ The cast belongs to every Fox & Fern line, the new short stories included
 ### Tomorrow Trail Activity Workbooks
 
 **Established.**
-- Six grade-band books: Pre-K→K, K→1, 1→2, 2→3, 3→4 and 4→5.
+- Seven grade-band books: Pre-K→K, K→1, 1→2, 2→3, 3→4, 4→5 and 5→6 (D91).
 - 12 weeks of daily practice, 15 to 20 minutes a day.
 - Covers math, reading, writing and hands-on activities.
 - Difficulty is progressive, to bridge the summer slide.
@@ -99,8 +99,8 @@ The cast belongs to every Fox & Fern line, the new short stories included
 - Moving online as free digital workbooks with an optional free PDF (D10).
 - The owner's series documents (`Tomorrow Trail/00` to `06`, 2026-06-02)
   define the full system: 12 "trail stops" named along a woodland trail (K→1:
-  Forest Gate to Tomorrow Peak), 11 pages per stop in a fixed order (Chris the
-  Coyote's introduction, reading and phonics, a reading activity, writing,
+  Forest Gate to Tomorrow Peak), 11 pages per stop in a fixed order (an
+  introduction, Chris the Coyote's in the printed books, reading and phonics, a reading activity, writing,
   two math pages, critical thinking, a comprehension story, a discovery page,
   a weekly review, and Freddy's fun page with a stop badge), a 75/25 review to
   next-grade ratio, 12 stop badges, a certificate and a trail map. Each stop
@@ -109,7 +109,7 @@ The cast belongs to every Fox & Fern line, the new short stories included
 
 **Settled for the digital-first version (D39).**
 - Daily time by grade band: 10 to 15 minutes for Pre-K→K and K→1, 15 to 20
-  minutes for 1→2 through 4→5. Short focused sessions suit the youngest
+  minutes for 1→2 through 5→6. Short focused sessions suit the youngest
   children; the older bands carry longer reading and multi-step math.
 - Answers are checked as the child works, as in the Rocket & Raven
   workbooks. The full answer key is in the parent area, and in the back of the
@@ -121,8 +121,8 @@ The cast belongs to every Fox & Fern line, the new short stories included
 - foxandfernbooks.com keeps describing the printed books as they are (15 to
   20 minutes, answer keys in the back) until the digital version launches.
 
-- A trail stop is five online days (D45): Mon, Chris's introduction, reading
-  and phonics; Tue, reading activity and writing; Wed, two math pages; Thu,
+- A trail stop is five online days (D45): Mon, the stop host's introduction
+  (Chris opens the trail at Stop 1, D92), reading and phonics; Tue, reading activity and writing; Wed, two math pages; Thu,
   critical thinking and the comprehension story; Fri, discovery, weekly
   review, Freddy's fun page and the stop badge.
 - Online at `learn.lanternlearn.com/courses/tomorrow-trail-k1`; QR codes use

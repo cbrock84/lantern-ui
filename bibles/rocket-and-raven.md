@@ -3,8 +3,9 @@
 Version 1.0
 
 > Source: `RR-Character-Bible-v1.docx`, supplied by the owner. This Markdown
-> copy keeps the wording unchanged; only headings and list formatting were
-> added. Canonical reference art: `public/assets/brand/characters/` in cbrock84/rocket-and-raven-press
+> copy keeps the wording unchanged apart from the amendments listed here;
+> headings and list formatting were added. Amendments: one em-dash replaced
+> with a semicolon (repository style rule); the Nova pronoun note (D86). Canonical reference art: `public/assets/brand/characters/` in cbrock84/rocket-and-raven-press
 > (`rocket-v1.png`, `raven-v1.png`, `nova-v1.png`, `crew-v1.png`). Prompt text
 > for image generation derived from this document: [`rocket-and-raven-art-prompts.md`](./rocket-and-raven-art-prompts.md).
 
@@ -15,7 +16,7 @@ Version 1.0
 
 Rocket & Raven exists to make technology approachable, creative, and exciting for children.
 
-Our stories teach that great programmers aren’t born—they learn through curiosity, experimentation, teamwork, perseverance, and problem solving.
+Our stories teach that great programmers aren’t born; they learn through curiosity, experimentation, teamwork, perseverance, and problem solving.
 
 Every adventure should leave children believing:
 
@@ -218,6 +219,8 @@ Orange remains the primary accent color while introducing subtle teal technology
 - She models scientific thinking and computational reasoning.
 
 ### Nova
+
+Pronouns: she/her (D86). Nova is an AI companion drone: never "a robot" and never a literal bird. She appears in every grade.
 
 #### Role
 

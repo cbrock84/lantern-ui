@@ -266,6 +266,7 @@ Every entry has these fields:
 - **Links:** https://github.com/cbrock84/rocket-and-raven-press/pull/51.
 
 ### D24: Fox & Fern character cast
+- **Note (2026-09-29):** names in this entry predate D77, which renamed the bear Bennie and the bobcat Bruce.
 - **Question:** Does Fox & Fern have a character cast, and who is in it?
 - **Options:** Owner describes the cast / Claude proposes options / no cast.
 - **Choice:** The owner's cast: the twelve Tomorrow Trail characters led by Ferris the Fox (Hazel, Rosie, Lizzy, Bruce, Oliver, Donnie, Riley, Samantha, Benny, Chris the Coyote as narrator, Freddy).
@@ -368,6 +369,7 @@ Every entry has these fields:
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done. The owner approved the art on 2026-09-27 (see D50).
 
 ### D50: Art and new characters for Tomorrow Trail Stops 3 to 12
+- **Note (2026-09-29):** names in this entry predate D77, which renamed the bear Bennie and the bobcat Bruce.
 - **Question:** Stops 6 to 9 are hosted by Donnie the Deer, Riley the Raccoon, Samantha the Squirrel and Benny the Bobcat, who are in the character bible (D24) but have no art. How are they, and the other new art for Stops 3 to 12, handled?
 - **Options:** generate them, owner reviews / use characters that already have art until the owner supplies it / hold Stops 6 to 9 for the owner's art.
 - **Choice:** Same as D49 for every remaining stop. The four characters are generated from their bible descriptions in the existing cast's style, then used as references for their stops. Nothing goes live until the owner has reviewed it.
@@ -383,6 +385,7 @@ Every entry has these fields:
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done. All 13 intros (the twelve characters plus Lucy, D54) are made and play on the Tomorrow Trail course page.
 
 ### D52: Who speaks in the character intros
+- **Note (2026-09-29):** names in this entry predate D77, which renamed the bear Bennie and the bobcat Bruce.
 - **Question:** Who speaks in each intro?
 - **Options:** each character introduces themself in their own ElevenLabs voice / Chris the Coyote narrates every intro.
 - **Choice:** Each character introduces themself, in twelve distinct ElevenLabs voices matched to the bible's voice notes. The owner approves short auditions before the videos are made.
@@ -594,3 +597,87 @@ Every entry has these fields:
 - **Options:** regenerate them from the canonical references / leave them.
 - **Choice:** Regenerate all eight from the bible's reference images; they go on the same art sheet for owner approval.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D85: Who speaks in lessons
+- **Question:** One narrator voice reads every lesson line, including characters speaking in the first person (about 120 "I'm Rocket" lines in Code Crew, 6 Tomorrow Trail Monday introductions such as "I am Bennie the Bear"), so a character sounds different in lessons and in its intro video.
+- **Options:** third-person narrator everywhere / per-character voices.
+- **Choice:** Per-character voices. Lesson lines get an optional speaker; a character's lines are recorded in that character's voice (Tomorrow Trail: the D52/D78 intro voices; Rocket, Raven and Nova get their own voices), and the narrator reads everything else. About 300 lines are re-recorded.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D86: Nova's pronoun and presence in every grade
+- **Question:** The Rocket & Raven bible gave Nova no pronoun (G1 and G2 use "she"), and Code Crew G3 never mentions Nova although the bible puts her in every lesson.
+- **Options:** she/her and add Nova to G3 / she/her only / "it" and add Nova to G3.
+- **Choice:** She/her, now in the bible, and G3 gets "Nova's hint" callouts plus a meet-the-crew line in week 1.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D87: Code Crew K diploma signatures
+- **Question:** The K diploma signs as "Captain Rocket / Mission Commander" and "Co-Captain Raven / Navigator", ranking Raven below Rocket.
+- **Options:** equals / keep the ranks.
+- **Choice:** Equals: "Rocket / Inventor" and "Raven / Explorer".
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D88: More art brought on-model
+- **Question:** The continuity audit found more off-model art: Tomorrow Trail's 12 character images lack the bible's props and all wear a backpack the bible gives only to Ferris and Lucy; 20 more covers and heroes; the Tomorrow Trail catalog cover; the Nova hint icon; pixel-robot share images.
+- **Options:** fix the art with owner approval / change the bible to match the art / only live courses now.
+- **Choice:** Fix the art: the Tomorrow Trail characters are edited from the owner's Canva originals to add the bible's props and drop extra backpacks; the covers, the catalog cover, the hint icon and the share images are regenerated. Everything goes on the owner's approval sheet first (D80).
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D89: Old and off-brand Canva designs
+- **Question:** Canva holds 14 Rocket & Raven designs from before the current cast, about 12 Holly & Hare designs with a cartoon hare, a Lantern Learn brand draft with mascot icons, and a second Ferris style.
+- **Options:** archive and rebuild / leave Canva as is.
+- **Choice:** Move them to an "Archive (off-model)" folder; nothing is deleted. The Solo pages are the canonical Fox & Fern art. The Science Launch covers are rebuilt from the crew art before KDP. Live Holly & Hare designs get Grades 3 to 5, the test-publisher disclaimer, and no template leftovers.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D90: Imprint data in internal tools
+- **Question:** The ops API and KDP dashboard carry imprint colors and badges that differ from the bibles.
+- **Options:** copy the bibles / keep separate print palettes.
+- **Choice:** Copy the bibles: Rocket & Raven leads with orange and cyan accents; Holly & Hare uses its bible palette, the domain hollyandhare.com and an "H&H" badge in navy on cream.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D91: Fox & Fern grade range
+- **Question:** The bible said Pre-K to Grade 5 and six books; the sites sell a seventh (5th to 6th grade).
+- **Options:** update the bible / drop the seventh book.
+- **Choice:** Update the bible: Pre-K through Grade 6, ages 4 to 11, seven books.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Done.
+
+### D92: Tomorrow Trail cast use
+- **Question:** Lucy the Ladybug (D54) never appears in the course, and the bible's Chris and Bruce roles did not match the course.
+- **Options:** add Lucy and bring the bible to the course / add Lucy and change the course / Lucy from the next grade.
+- **Choice:** Lucy takes the existing feelings and kindness items, with her art, re-recorded. The bible now says each stop's host opens its Monday, Chris opens the trail and tells the Thursday stories, and Bruce hosts challenge stops and stretch items.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D93: One imprint's words on another's pages
+- **Question:** Emails sent as Lantern Learn use Code Crew wording ("get your crew started", "This week in your crew").
+- **Options:** imprint-neutral / "crew" everywhere.
+- **Choice:** Imprint-neutral emails; "Crew" only on Code Crew pages.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D94: Fox & Fern favicon
+- **Question:** foxandfernbooks.com's favicon is a fox face built from shapes.
+- **Options:** a crop of the logo fox / keep it.
+- **Choice:** A crop of the approved logo fox.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D95: Fox & Fern blog images
+- **Question:** The five foxandfernbooks.com posts use old "Summer Bridge" covers hosted on catbox.moe, with a realistic fox unlike Ferris.
+- **Options:** Tomorrow Trail art hosted in the repo / keep them.
+- **Choice:** Current Tomorrow Trail art, hosted in the site repo.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D96: Jacket patches on the kids
+- **Question:** The canonical reference art has small "R" and rocket patches on Rocket's and Raven's jackets and sleeves, and generated art copies them, while the art prompts ban logos on clothing.
+- **Options:** allowed as a character detail / remove them everywhere.
+- **Choice:** Allowed: they are part of the canonical outfit, not a brand logo. Noted in the art prompts.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Done.
+
+### D97: Editing the owner's Tomorrow Trail art with Higgsfield
+- **Question:** Adding the bible's props to the 12 Tomorrow Trail characters (D88) means sending the owner's own Canva art to Higgsfield for editing.
+- **Options:** use Higgsfield / the owner edits in Canva.
+- **Choice:** Use Higgsfield. The owner approves the result sheet before anything ships. The Rocket & Raven art sheets (cutouts, 9 poses, 6 animals, hint icon, share image, 30 covers and heroes) were approved the same day.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D98: Tomorrow Trail story scenes match the cast
+- **Question:** After the character cards gained their bible props (D88), the Stop 1 to 12 story scenes and the course hero still showed the old look, and Lucy, Freddy, Lizzy, Samantha and Bruce appeared in few or no scenes.
+- **Options:** update all scenes / only the hero and Stop 1 / leave them.
+- **Choice:** Update all scenes: every friend shows their bible props (only Ferris and Lucy keep a backpack), no baked text, and all 13 friends appear at least twice across Stops 1 to 11 plus all together at Stop 12, with Lucy in the group scenes (Stops 2, 9, 11, 12, the group coloring page, the cover and the Fox & Fern blog banner). Each stop keeps its host and story cast.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided. Approved art is in rocket-and-raven-press #66 and foxandfernbooks-site #9.

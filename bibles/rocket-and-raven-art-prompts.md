@@ -12,7 +12,7 @@ whenever the generator accepts one.
 ## Style
 
 ```
-Premium children's-book illustration, stylized 3D cartoon look, rounded geometric shapes, friendly proportions, large expressive eyes, warm inviting expressions, bright but tasteful colors with warm orange as the lead color and subtle cyan/teal technology accents, minimal texture, no harsh realism, simple uncluttered background unless the setting is part of the lesson, readable at small sizes. No text or letters in the image. No logos or brand marks of any kind, including on shoes and clothing.
+Premium children's-book illustration, stylized 3D cartoon look, rounded geometric shapes, friendly proportions, large expressive eyes, warm inviting expressions, bright but tasteful colors with warm orange as the lead color and subtle cyan/teal technology accents, minimal texture, no harsh realism, simple uncluttered background unless the setting is part of the lesson, readable at small sizes. No text or letters in the image. No logos or brand marks of any kind, including on shoes and clothing. Exception (D96): the small "R" and rocket patches on the kids' jackets and sleeves in the canonical reference art are part of the outfit and stay.
 ```
 
 ## Characters

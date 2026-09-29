@@ -569,3 +569,28 @@ Every entry has these fields:
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Art audit under way; the art sheet goes to the owner before anything ships.
 
+
+### D81: Animals in the Code Crew exercise cards
+- **Question:** Some Code Crew cards draw animals that are not in the cast (dog, duck, beetle, chick, fish, small bird) from primitive shapes. Does D80's rule cover them?
+- **Options:** yes, replace them with generated art in the bible's style / no, keep the shape icons for non-cast animals.
+- **Choice:** Yes. Six animal images are generated in the Rocket & Raven style and go on the same art sheet for owner approval.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Art being generated.
+
+### D82: The Kindergarten "robot"
+- **Question:** Code Crew K weeks 3, 4 and 10 use a generic box robot as the program runner, plus a robot dance. What should it be?
+- **Options:** Nova / a generic robot redrawn as raster art.
+- **Choice:** Nova, matching Grade 1. The Grade 1 week 12 "grumpy robot" card becomes an object card, because the bible says Nova is always friendly.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D83: "Raven teaches a baby crow"
+- **Question:** Code Crew K week 1 day 4 says "Raven teaches a baby crow", which reads as if Raven is a bird. Change it?
+- **Options:** rewrite it / keep it.
+- **Choice:** Rewrite it (for example "Raven helps a baby bird learn order") and re-record the line.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+
+### D84: Code Crew covers and heroes
+- **Question:** The K, G1, G2 and G3 covers and hero images are off-model: orange vests, jeans instead of cargo pants, Raven's headband tied as a bow, no tablet or wrist computer, and in G3 Nova is a literal crow. Fix them?
+- **Options:** regenerate them from the canonical references / leave them.
+- **Choice:** Regenerate all eight from the bible's reference images; they go on the same art sheet for owner approval.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.

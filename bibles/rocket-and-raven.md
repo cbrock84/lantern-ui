@@ -15,7 +15,7 @@ Version 1.0
 
 Rocket & Raven exists to make technology approachable, creative, and exciting for children.
 
-Our stories teach that great programmers aren’t born—they learn through curiosity, experimentation, teamwork, perseverance, and problem solving.
+Our stories teach that great programmers aren’t born; they learn through curiosity, experimentation, teamwork, perseverance, and problem solving.
 
 Every adventure should leave children believing:
 

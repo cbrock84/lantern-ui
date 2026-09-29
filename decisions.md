@@ -526,7 +526,7 @@ Every entry has these fields:
 - **Question:** Only Pinterest exists for Lantern Learn (1 follower, no pins, connected in Metricool). What should the social plan be?
 - **Options:** Pinterest now, others later / Pinterest plus the owner creates Instagram, Facebook and TikTok now / hold social.
 - **Choice:** Pinterest now, and the owner creates Instagram, Facebook and TikTok accounts now from Claude's sign-up steps and profile copy; once they are connected in Metricool, Claude schedules there too.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Board creation through Make is blocked: both Make Pinterest connections for Lantern Learn (the standard and the full-scope one) return 401 and need re-authorizing by the owner.
 
 ### D75: Pinterest boards
@@ -545,23 +545,27 @@ Every entry has these fields:
 - **Question:** The owner asked to swap two characters' names: Bruce the Bear becomes Bennie the Bear, and Benny the Bobcat becomes Bruce the Bobcat. The bobcat's name was spelled "Benny"; the owner wrote "Bennie". How is the bear's new name spelled?
 - **Options:** Bennie / Benny.
 - **Choice:** Bennie. The bear is now Bennie the Bear and the bobcat is Bruce the Bobcat. The animals keep their art, roles and traits; only the names swap. Every line, caption, name card and the Fox & Fern bible change.
-- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Being applied to the Tomorrow Trail exercises, audio and intro videos.
 
 ### D78: Voices after the name swap
 - **Question:** When the names swap, do the voices follow the animal or the name? The bear speaks as Bram and the bobcat as Landon.
 - **Options:** voices stay with the animal / voices follow the name.
 - **Choice:** Voices stay with the animal: Bennie the Bear keeps Bram, Bruce the Bobcat keeps Landon. Lines that say either name are re-recorded, and both intro videos get new narration and name cards.
-- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Both intro narrations re-recorded with the same voices; exercise lines being re-recorded.
 
 ### D79: Letter-sound wording in Tomorrow Trail exercises
 - **Question:** The exercise voice reads spelled-out sounds literally ("B says buh", "Buh, buh, book"). How should letter-sound exercises be worded?
 - **Options:** whole words only / keep the sounds but force pronunciation with tags.
 - **Choice:** Whole words only ("B is for book. Which one starts with B?"). No spelled-out sounds or stuttered word beginnings anywhere; real words and rhyme sounds such as "hoot, hoot" stay. Every affected line is re-recorded.
-- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Exercise lines being rewritten and re-recorded.
 
 ### D80: Rocket & Raven exercise art
 - **Question:** The Code Crew exercise graphics do not match the Rocket & Raven bible, and some characters are built from shapes. How should the new art be made?
 - **Options:** bible art plus new poses generated from it, owner approves / only the four existing images / the owner supplies art.
 - **Choice:** The bible's reference images (Rocket, Raven, Nova, the crew) plus any new poses generated from them as references; the owner approves an art sheet before anything ships. Shape-built characters are removed everywhere, including the K diploma. Standing rule, now in the content standards section 7: never build characters from primitive shapes.
-- **Date:** 2026-09-29. **Decided by:** owner. **Status:** In progress.
+- **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Art audit under way; the art sheet goes to the owner before anything ships.
 

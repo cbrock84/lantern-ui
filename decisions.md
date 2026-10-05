@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D109 | How to list on Teachers Pay Teachers | free self-contained printable (recommended) / skip TPT for now / link-only course listing | TPT rules bar linking off-site stores and, for Basic Sellers, products available free elsewhere. Drafts: `/mnt/project-files/launch/tpt.md`. |
 
 ## Log
 
@@ -732,3 +733,34 @@ Every entry has these fields:
 - **Options:** hide them and discard the cover drafts / keep them as planned and keep the covers as course art.
 - **Choice:** Keep them as planned. The G2-G4 Canva covers (DAHH4VqffAQ, DAHH4ffWm18, DAHH4cX5jLY) are now course art and have moved from "Archive (off-model)" to Rocket & Raven / Sample Covers. They are no longer KDP covers.
 - **Date:** 2026-10-05. **Decided by:** owner. **Status:** Done.
+
+### D106: Code Crew price at launch
+- **Question:** D102 aimed Code Crew at paid access. Does Code Crew launch paid or free?
+- **Options:** free, like every other course / keep Code Crew paid.
+- **Choice:** Free. Every course launches free, Code Crew included. Overrides D102's "aiming at paid access". A free parent account is still needed to save progress; no card is asked for.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Paywall and pricing copy removed or switched on `FREE_ACCESS_MODE` in the open PRs below; done when they merge.
+- **Links:** rocket-and-raven-press #69, rocketandraven-site #19, lanternlearn-site #11, foxandfernbooks-site #10.
+
+### D107: Contact address on rocketandraven.com
+- **Question:** rocketandraven.com listed hello@, wholesale@ and press@rocketandraven.com. Which address should it show?
+- **Options:** hello@lanternlearn.com everywhere / keep the rocketandraven.com addresses.
+- **Choice:** hello@lanternlearn.com, the address the course platform already uses. Wholesale and press addresses are dropped because print is sunset (D102).
+- **Date:** 2026-10-05. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocketandraven-site #19.
+
+### D108: Filling out Code Crew Grade 3
+- **Question:** The Grade 3 workbook had lessons merged into long days and few graded checks. How to fill it?
+- **Options:** re-split days at their headings and add a short story and Quick Check per day / leave the structure and only add checks.
+- **Choice:** Re-split at the day headings (6 days a week, 72 days), add a short story to every day, add 40 Quick Checks and make 24 table rows gradable. NOVA is described as an "AI companion drone".
+- **Date:** 2026-10-05. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** After merge, the owner regenerates "Lesson audio" and "Read to me" narration for code-crew-g3 in the admin.
+- **Links:** rocket-and-raven-press #69.
+
+### D109: Teachers Pay Teachers listing
+- **Question:** How should Lantern Learn appear on Teachers Pay Teachers?
+- **Options:** a free, self-contained printable with no outbound link (recommended) / skip TPT for now / a link-only course listing.
+- **Choice:** Not decided.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Open.
+- **Progress:** TPT help center: "Don't link to stores outside of TPT" (article 360044219551); for Basic Sellers "the product should not be composed of content that is available for free or a lower price somewhere else" (article 360042199032).
+- **Links:** `/mnt/project-files/launch/tpt.md`.

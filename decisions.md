@@ -715,7 +715,8 @@ Every entry has these fields:
 - **Question:** D102 sunsets Holly & Hare. What happens to its site and domain?
 - **Options:** redirect to lanternlearn.com / freeze the site as is / let the domain lapse.
 - **Choice:** Redirect. hollyandhare.com sends every path to lanternlearn.com with a 301. Holly & Hare is removed from the family bar, the site list and the platform catalog filters. The domain stays registered.
-- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Done.
+- **Progress:** Merged 2026-10-05: hollyandhare-site #11 (redirect), lantern-ui #43 (v0.3.0 family without H&H), rocket-and-raven-press #68 (platform), lanternlearn-site #10, rocketandraven-site #20 and foxandfernbooks-site #11 (copy and the 0.3.0 pin).
 
 ### D104: KDP tooling teardown
 - **Question:** Delete the KDP admin Worker, and archive the two retired KDP repos?

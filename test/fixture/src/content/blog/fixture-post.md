@@ -4,7 +4,7 @@ description: A test article that cites two sources.
 pubDate: 2026-01-15
 reviewedBy: Test Reviewer
 tags: [testing]
-relatedSites: [rocketandraven, foxandfern]
+relatedSites: [rocketandraven, lanternlearn]
 sources:
   - title: First example source
     url: https://example.org/first

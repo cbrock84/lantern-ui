@@ -1,7 +1,7 @@
 // The Lantern Learn design system (D57, D58): base frame, imprint skins, family bar links.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { BASE, SKINS, FAMILY, baseDecls, skinDecls, brandCss, scopedSkinsCss, coursesFor, PLATFORM } from '../../src/index.ts';
+import { BASE, SKINS, FAMILY, PLATFORM_IMPRINT, baseDecls, skinDecls, brandCss, scopedSkinsCss, coursesFor, PLATFORM } from '../../src/index.ts';
 
 test('every family site has a skin, keyed the same', () => {
   assert.deepEqual(Object.keys(SKINS).sort(), Object.keys(FAMILY).sort());
@@ -24,7 +24,7 @@ test('skin declarations carry colors, fonts and radius', () => {
   assert.match(d, /--ll-skin-on-brand:255 255 255;/);
   assert.match(d, /--ll-skin-display:"Fredoka", system-ui, sans-serif;/);
   assert.match(d, /--ll-radius:18px;/);
-  assert.match(brandCss('hollyandhare'), /^:root\{--ll-base-bg:.*--ll-radius:4px;\}$/);
+  assert.match(brandCss('rocketandraven'), /^:root\{--ll-base-bg:.*--ll-radius:6px;\}$/);
   const scoped = scopedSkinsCss();
   for (const k of Object.keys(SKINS)) assert.ok(scoped.includes(`[data-skin="${k}"]{`), k);
 });
@@ -33,6 +33,8 @@ test('catalog links filter to the imprint on the platform (D59)', () => {
   assert.equal(coursesFor('foxandfern'), `${PLATFORM.courses}?imprint=fox-and-fern`);
   assert.equal(coursesFor('rocketandraven'), `${PLATFORM.courses}?imprint=rocket-and-raven`);
   assert.equal(coursesFor('lanternlearn'), PLATFORM.courses);
+  // D103: Holly & Hare is no longer a catalog filter.
+  assert.deepEqual(Object.values(PLATFORM_IMPRINT).sort(), ['fox-and-fern', 'rocket-and-raven']);
 });
 
 // Brand colors on their own backgrounds must stay readable (WCAG AA for UI text, 4.5:1).

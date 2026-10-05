@@ -11,25 +11,26 @@ const home = page('index.html');
 const post = page('blog/fixture-post/index.html');
 
 test('head: title, canonical, theme vars, analytics and verification', () => {
-  assert.match(home, /<title>Home \| Holly &amp; Hare<\/title>/);
-  assert.match(home, /<link rel="canonical" href="https:\/\/hollyandhare.com\/">/);
-  assert.match(home, /:root\{--ll-bg:241 238 226;/);
-  assert.match(home, /--ll-font-display:"Cardo", Georgia, serif;/);
+  assert.match(home, /<title>Home \| Fox &amp; Fern Books<\/title>/);
+  assert.match(home, /<link rel="canonical" href="https:\/\/foxandfernbooks.com\/">/);
+  assert.match(home, /:root\{--ll-bg:253 243 234;/);
+  assert.match(home, /--ll-font-display:"Fredoka", system-ui, sans-serif;/);
   assert.match(home, /googletagmanager\.com\/gtag\/js\?id=G-TEST123/);
   assert.match(home, /name="google-site-verification" content="gverify"/);
-  assert.match(home, /<meta name="theme-color" content="#f1eee2">/);
+  assert.match(home, /<meta name="theme-color" content="#fdf3ea">/);
 });
 
 test('design system: base frame and imprint skin vars, family bar (D57-D59)', () => {
   assert.match(home, /--ll-base-bg:250 246 233;/);
-  assert.match(home, /--ll-skin-display:"Cardo", Georgia, serif;/);
-  assert.match(home, /--ll-radius:4px;/);
+  assert.match(home, /--ll-skin-display:"Fredoka", system-ui, sans-serif;/);
+  assert.match(home, /--ll-radius:18px;/);
   const bar = home.slice(home.indexOf('<nav class="ll-family-bar'), home.indexOf('</nav>', home.indexOf('<nav class="ll-family-bar')));
   assert.ok(bar.length > 0, 'family bar present');
-  for (const url of ['https://lanternlearn.com', 'https://rocketandraven.com', 'https://foxandfernbooks.com', 'https://hollyandhare.com', 'https://learn.lanternlearn.com/courses', 'https://learn.lanternlearn.com/login']) {
+  for (const url of ['https://lanternlearn.com', 'https://rocketandraven.com', 'https://foxandfernbooks.com', 'https://learn.lanternlearn.com/courses', 'https://learn.lanternlearn.com/login']) {
     assert.ok(bar.includes(`href="${url}"`), url);
   }
-  assert.match(bar, /href="https:\/\/hollyandhare.com"[^>]*aria-current="page"/);
+  assert.match(bar, /href="https:\/\/foxandfernbooks.com"[^>]*aria-current="page"/);
+  assert.ok(!home.includes('hollyandhare.com'), 'Holly & Hare is sunset (D103)');
   assert.ok(home.indexOf('ll-family-bar') < home.indexOf('<header'), 'bar sits above the header');
   assert.match(home, /<header class="[^"]*bg-base-surface/);
   assert.match(home, /<footer class="[^"]*bg-base-footer-bg/);
@@ -42,7 +43,7 @@ test('home page carries Organization JSON-LD pointing at the umbrella; other pag
 });
 
 test('header: text wordmark fallback, custom logo slot, CTA and active link', () => {
-  assert.match(home, /font-site-display text-2xl[^>]*>Holly &amp; Hare</);
+  assert.match(home, /font-site-display text-2xl[^>]*>Fox &amp; Fern Books</);
   const custom = page('custom-logo/index.html');
   assert.match(custom, /id="custom-wordmark"/);
   assert.doesNotMatch(custom, /font-site-display text-2xl/);
@@ -67,17 +68,17 @@ test('header: phone menu button controls the main nav (D63)', () => {
 
 test('footer: every other family site, never the current one, plus the imprint line', () => {
   const footer = home.slice(home.indexOf('<footer'));
-  for (const url of ['https://lanternlearn.com', 'https://foxandfernbooks.com', 'https://rocketandraven.com', 'https://learn.lanternlearn.com']) {
+  for (const url of ['https://lanternlearn.com', 'https://rocketandraven.com', 'https://learn.lanternlearn.com']) {
     assert.ok(footer.includes(`href="${url}"`), url);
   }
-  assert.ok(!footer.includes('href="https://hollyandhare.com"'));
+  assert.ok(!footer.includes('href="https://foxandfernbooks.com"'));
   assert.match(footer, /A <a href="https:\/\/lanternlearn.com"[^>]*>Lantern Learn<\/a> imprint/);
   assert.match(footer, /mailto:hello@example.com/);
 });
 
 test('article: byline, sources section, citations JSON-LD, related family card', () => {
   assert.match(post, /og:type" content="article"/);
-  assert.match(post, /By Holly &amp; Hare/);
+  assert.match(post, /By Fox &amp; Fern Books/);
   assert.match(post, /Reviewed by Test Reviewer/);
   assert.match(post, /<a href="#sources"[^>]*>2 sources<\/a>/);
   assert.match(post, /<section id="sources"/);
@@ -88,7 +89,7 @@ test('article: byline, sources section, citations JSON-LD, related family card',
   assert.equal(art.reviewedBy.name, 'Test Reviewer');
   assert.ok(ldBlocks(post).some((n) => n['@type'] === 'BreadcrumbList'));
   const related = post.slice(post.indexOf('More from the Lantern Learn family'));
-  assert.ok(related.includes('https://rocketandraven.com') && related.includes('https://foxandfernbooks.com'));
+  assert.ok(related.includes('https://rocketandraven.com') && related.includes('https://lanternlearn.com'));
 });
 
 test('blog index lists the article with its source count', () => {

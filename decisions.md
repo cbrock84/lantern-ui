@@ -699,3 +699,36 @@ Every entry has these fields:
 - **Options:** show Rocket the boy / keep a rocket ship.
 - **Choice:** Rocket the boy: flying on his rocket pack in the sky show, standing at the path goal.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided. In rocket-and-raven-press #67.
+
+### D102: Which initiatives continue
+- **Question:** Revenue that can be verified is $0 for every brand. The KDP account was terminated on 2026-05-21 and no new account is allowed. Every course is free (D5), and the audience is near zero. Which initiatives continue?
+- **Options:** Code Crew only / courses only (Code Crew paid, Tomorrow Trail as a free funnel) / sunset everything / keep everything.
+- **Choice:** Courses only.
+  - **Continue:** Code Crew on learn.lanternlearn.com, aiming at paid access; Tomorrow Trail as a free funnel.
+  - **Sunset:** the KDP tooling (kdp-admin-dashboard, lanternlearn-ops-api, the Worker `kdp-admin`, the Make KDP scenarios), the Science Launch print covers, and Holly & Hare.
+  - **Not decided yet:** whether the Science Launch courses continue or end.
+  - **Supersedes:** D89's "rebuild the Science Launch covers before KDP", because there is no KDP path.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+- **Progress:** The sunset steps are listed in `/mnt/project-files/context/sunset-plan.md`. Each irreversible step (deleting the Worker, archiving repos, taking down a site) waits for the owner's OK.
+
+### D103: hollyandhare.com
+- **Question:** D102 sunsets Holly & Hare. What happens to its site and domain?
+- **Options:** redirect to lanternlearn.com / freeze the site as is / let the domain lapse.
+- **Choice:** Redirect. hollyandhare.com sends every path to lanternlearn.com with a 301. Holly & Hare is removed from the family bar, the site list and the platform catalog filters. The domain stays registered.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+
+### D104: KDP tooling teardown
+- **Question:** Delete the KDP admin Worker, and archive the two retired KDP repos?
+- **Options:** yes, all (Worker, both repos, the Make KDP scenarios) / Worker only / not yet.
+- **Choice:** Yes, all.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+- **Progress:** The 4 Make KDP scenarios (4679077, 4679093, 4679263, 4679268) were deleted on 2026-10-05. The owner deleted the Worker `kdp-admin` (admin.lanternlearn.com) on 2026-10-05 and revoked its Anthropic API key. Still for the owner, later:
+  - archive `kdp-admin-dashboard` and `lanternlearn-ops-api`.
+
+  Claude's tools cannot delete Workers or archive repos.
+
+### D105: Science Launch courses
+- **Question:** After D102, keep the 6 Science Launch course scaffolds (K-G5) on the platform?
+- **Options:** hide them and discard the cover drafts / keep them as planned and keep the covers as course art.
+- **Choice:** Keep them as planned. The G2-G4 Canva covers (DAHH4VqffAQ, DAHH4ffWm18, DAHH4cX5jLY) are now course art and have moved from "Archive (off-model)" to Rocket & Raven / Sample Covers. They are no longer KDP covers.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Done.

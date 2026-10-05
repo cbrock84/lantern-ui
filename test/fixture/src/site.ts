@@ -1,14 +1,14 @@
 import type { SiteConfig } from '@lanternlearn/ui';
 
 export const site: SiteConfig = {
-  key: 'hollyandhare',
+  key: 'foxandfern',
   defaultOgImage: '/og.png',
   publisherLogo: '/logo.png',
   favicon: { href: '/favicon.svg', type: 'image/svg+xml' },
-  fonts: { display: '"Cardo", Georgia, serif', body: '"Crimson Text", Georgia, serif' },
+  fonts: { display: '"Fredoka", system-ui, sans-serif', body: '"Nunito", system-ui, sans-serif' },
   theme: {
-    bg: '#f1eee2', surface: '#fcfaf3', text: '#1a2c4f', muted: '#3f5687', heading: '#1a2c4f',
-    accent: '#214a35', border: '#e3dcb9', footerBg: '#1a2c4f', footerText: '#f5f1e2', footerAccent: '#d8b769',
+    bg: '#fdf3ea', surface: '#ffffff', text: '#6e3618', muted: '#8c4818', heading: '#6e3618',
+    accent: '#527143', border: '#f3bd92', footerBg: '#fadfc6', footerText: '#6e3618', footerAccent: '#3f5634',
   },
   nav: [
     { label: 'Home', href: '/' },

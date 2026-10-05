@@ -1,7 +1,7 @@
 # @lanternlearn/ui
 
 Shared layout, SEO, family-of-sites navigation and article components for the
-Lantern Learn sites (lanternlearn.com, foxandfernbooks.com, hollyandhare.com,
+Lantern Learn sites (lanternlearn.com, foxandfernbooks.com and
 rocketandraven.com). Each site keeps its own palette, fonts and logo; this
 package keeps structure, cross-linking, metadata and article conventions the
 same everywhere.
@@ -33,7 +33,7 @@ One Lantern Learn system, with a small skin per imprint:
   `--ll-radius` (`skin-*` colors, `font-skin-display`, `rounded-skin`). Series
   such as Tomorrow Trail use their imprint's skin.
 - **Family bar** (`components/FamilyBar.astro`) sits above the header on every
-  property: Lantern Learn, the three imprints, Courses and Sign in. Plain CSS,
+  property: Lantern Learn, the two imprints, Courses and Sign in. Plain CSS,
   so the learning platform can use it without Tailwind. Turn it off with
   `familyBar: false` in `SiteConfig`.
 - `coursesFor(key)` links to the platform catalog filtered to an imprint;
@@ -118,6 +118,16 @@ If a page renders two headers, give each a distinct `navId`.
 Add or edit an entry in `src/network.ts`, merge it, and bump the pinned
 tag or commit in each site's `package.json`. Every footer and article card picks it up on the
 next build.
+
+## Version notes
+
+- **0.3.0** (breaking): Holly & Hare is sunset (D102, D103) and
+  hollyandhare.com 301-redirects to lanternlearn.com. `hollyandhare` is gone
+  from `SiteKey`, `FAMILY`, `SKINS` and `PLATFORM_IMPRINT`, so the family bar,
+  footers, family links, Organization JSON-LD and `coursesFor` list only
+  Lantern Learn, Fox & Fern Books and Rocket & Raven. A site that still passes
+  `'hollyandhare'` (as a site key or in an article's `relatedSites`) fails its
+  type check or content build until the reference is removed.
 
 ## Development
 

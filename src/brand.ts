@@ -134,24 +134,6 @@ export const SKINS: Record<SiteKey, Skin> = {
     radius: 18,
     dark: false,
   },
-  hollyandhare: {
-    key: 'hollyandhare',
-    name: 'Holly & Hare',
-    fontsHref:
-      'https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap',
-    fonts: { display: '"Cardo", Georgia, serif', body: '"Crimson Text", Georgia, serif' },
-    brand: '#214a35',
-    onBrand: '#ffffff',
-    accent: '#1a2c4f',
-    onAccent: '#d8b769',
-    bg: '#f1eee2',
-    surface: '#fcfaf3',
-    text: '#1a2c4f',
-    muted: '#3f5687',
-    border: '#ddd4b4',
-    radius: 4,
-    dark: false,
-  },
 };
 
 const BASE_VARS: Record<keyof BaseTheme, string> = {
@@ -220,7 +202,6 @@ export const PLATFORM = {
 export const PLATFORM_IMPRINT: Partial<Record<SiteKey, string>> = {
   rocketandraven: 'rocket-and-raven',
   foxandfern: 'fox-and-fern',
-  hollyandhare: 'holly-and-hare',
 };
 
 /** The learning platform's catalog, filtered to one imprint (D59). */

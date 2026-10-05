@@ -699,3 +699,14 @@ Every entry has these fields:
 - **Options:** show Rocket the boy / keep a rocket ship.
 - **Choice:** Rocket the boy: flying on his rocket pack in the sky show, standing at the path goal.
 - **Date:** 2026-09-29. **Decided by:** owner. **Status:** Decided. In rocket-and-raven-press #67.
+
+### D102: Which initiatives continue
+- **Question:** Revenue that can be verified is $0 for every brand. The KDP account was terminated on 2026-05-21 and no new account is allowed. Every course is free (D5), and the audience is near zero. Which initiatives continue?
+- **Options:** Code Crew only / courses only (Code Crew paid, Tomorrow Trail as a free funnel) / sunset everything / keep everything.
+- **Choice:** Courses only.
+  - **Continue:** Code Crew on learn.lanternlearn.com, aiming at paid access; Tomorrow Trail as a free funnel.
+  - **Sunset:** the KDP tooling (kdp-admin-dashboard, lanternlearn-ops-api, the Worker `kdp-admin`, the Make KDP scenarios), the Science Launch print covers, and Holly & Hare.
+  - **Not decided yet:** whether the Science Launch courses continue or end.
+  - **Supersedes:** D89's "rebuild the Science Launch covers before KDP", because there is no KDP path.
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+- **Progress:** The sunset steps are listed in `/mnt/project-files/context/sunset-plan.md`. Each irreversible step (deleting the Worker, archiving repos, taking down a site) waits for the owner's OK.

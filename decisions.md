@@ -722,9 +722,8 @@ Every entry has these fields:
 - **Options:** yes, all (Worker, both repos, the Make KDP scenarios) / Worker only / not yet.
 - **Choice:** Yes, all.
 - **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
-- **Progress:** The 4 Make KDP scenarios (4679077, 4679093, 4679263, 4679268) were deleted on 2026-10-05. Still for the owner:
-  - delete the Worker `kdp-admin` (admin.lanternlearn.com);
-  - revoke its Anthropic API key;
+- **Progress:** The 4 Make KDP scenarios (4679077, 4679093, 4679263, 4679268) were deleted on 2026-10-05. The owner deleted the Worker `kdp-admin` (admin.lanternlearn.com) on 2026-10-05. Still for the owner:
+  - revoke its Anthropic API key (not yet confirmed);
   - archive `kdp-admin-dashboard` and `lanternlearn-ops-api`.
 
   Claude's tools cannot delete Workers or archive repos.

@@ -34,6 +34,12 @@ test('family registry: every site has an https url and a unique key', () => {
   assert.equal(Object.values(FAMILY).filter((s) => s.role === 'umbrella').length, 1);
 });
 
+test('family is the umbrella and two imprints; Holly & Hare is sunset (D103)', () => {
+  assert.deepEqual(Object.keys(FAMILY).sort(), ['foxandfern', 'lanternlearn', 'rocketandraven']);
+  assert.deepEqual(imprints().map((s) => s.key), ['foxandfern', 'rocketandraven']);
+  assert.ok(!Object.values(FAMILY).some((s) => s.url.includes('hollyandhare')));
+});
+
 test('familyExcept omits the current site and lists the umbrella first', () => {
   const list = familyExcept('foxandfern');
   assert.ok(!list.some((s) => s.key === 'foxandfern'));
@@ -86,12 +92,13 @@ test('readingMinutes and publishedArticles', () => {
 });
 
 test('organization JSON-LD links imprints to the umbrella and the umbrella to imprints', () => {
-  const imp = organizationJsonLd(siteFor('hollyandhare'));
+  const imp = organizationJsonLd(siteFor('rocketandraven'));
   assert.equal(imp.parentOrganization.url, FAMILY.lanternlearn.url);
-  assert.equal(imp.logo, 'https://hollyandhare.com/logo.png');
+  assert.equal(imp.logo, 'https://rocketandraven.com/logo.png');
   const umb = organizationJsonLd(siteFor('lanternlearn'));
   assert.equal(umb.parentOrganization, undefined);
   assert.equal(umb.subOrganization.length, imprints().length);
+  assert.equal(umb.subOrganization.length, 2);
 });
 
 test('article JSON-LD carries citations and absolute urls', () => {

@@ -3,7 +3,7 @@
  * cross-site link: footers, "from the family" blocks and Organization JSON-LD
  * all read from here, so adding or renaming a site is a one-file change.
  */
-export type SiteKey = 'lanternlearn' | 'foxandfern' | 'hollyandhare' | 'rocketandraven';
+export type SiteKey = 'lanternlearn' | 'foxandfern' | 'rocketandraven';
 
 export interface FamilySite {
   key: SiteKey;
@@ -31,13 +31,6 @@ export const FAMILY: Record<SiteKey, FamilySite> = {
     url: 'https://foxandfernbooks.com',
     role: 'imprint',
     tagline: 'Kid-friendly workbooks and activity books that treat children like capable, curious learners.',
-  },
-  hollyandhare: {
-    key: 'hollyandhare',
-    name: 'Holly & Hare',
-    url: 'https://hollyandhare.com',
-    role: 'imprint',
-    tagline: 'Rigorous workbooks for kids ready to think hard: gifted prep, critical thinking and test prep.',
   },
   rocketandraven: {
     key: 'rocketandraven',

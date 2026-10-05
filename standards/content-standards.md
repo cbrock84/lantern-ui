@@ -33,6 +33,9 @@ imprints' published positioning.
 | Fox & Fern Books | Pre-K through Grade 5, ages 4 to 10 (Tomorrow Trail) | Warm, playful, everyday practice |
 | Holly & Hare | Grades 3 to 5, ages 8 to 11 (Gifted & Talented Puzzle Prep) | Quiet, rigorous, grown-up |
 
+Note: Holly & Hare is sunset (D102, D103). No new content is made for it, and
+hollyandhare.com redirects to lanternlearn.com.
+
 **Reading level (D20) and story length (D23).** Every story and lesson line
 is held to its grade band's sentence cap, checked by an automated test. A
 sentence is counted in words, split on spaces, ending at `.`, `!` or `?`.

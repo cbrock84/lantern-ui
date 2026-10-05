@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D109 | How to list on Teachers Pay Teachers | free self-contained printable (recommended) / skip TPT for now / link-only course listing | TPT rules bar linking off-site stores and, for Basic Sellers, products available free elsewhere. Drafts: `/mnt/project-files/launch/tpt.md`. |
 
 ## Log
 
@@ -760,7 +759,7 @@ Every entry has these fields:
 ### D109: Teachers Pay Teachers listing
 - **Question:** How should Lantern Learn appear on Teachers Pay Teachers?
 - **Options:** a free, self-contained printable with no outbound link (recommended) / skip TPT for now / a link-only course listing.
-- **Choice:** Not decided.
-- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Open.
+- **Choice:** A free, self-contained printable with no outbound link: Code Crew Kindergarten Week 1 Coding Puzzles (5 puzzles, answer key, 8 pages).
+- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
 - **Progress:** TPT help center: "Don't link to stores outside of TPT" (article 360044219551); for Basic Sellers "the product should not be composed of content that is available for free or a lower price somewhere else" (article 360042199032).
-- **Links:** `/mnt/project-files/launch/tpt.md`.
+- **Links:** `/mnt/project-files/launch/tpt.md`, `/mnt/project-files/launch/tpt/code-crew-k-week1-puzzles.pdf`. The owner uploads it to TPT.

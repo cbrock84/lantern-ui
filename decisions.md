@@ -797,7 +797,7 @@ Every entry has these fields:
 - **Choice:** Grade 2, so the youngest can follow with a grown-up reading along.
 - **Date:** 2026-10-07. **Decided by:** Claude (default). **Status:** Done.
 
-### D115: Loose standards tags on the new courses
+### D117: Loose standards tags on the new courses
 - **Question:** A few weeks of the new courses were only a loose match for the standard they list: Astronomy Year weeks 5, 10 and 11 (NGSS 5-ESS1-1), Science Launch K week 12 (K-ESS3-1) and Code Crew G4 (CSTA 1B-DA-06, 1B-AP-16). Rewrite the lessons to fit the standards, or change the tags?
 - **Options:** remap (keep lessons as published; change each tag to a better-fitting real standard or drop it) / rewrite the lessons to fit the listed standards / leave as is.
 - **Choice:** Remap (owner). Applied per week (Claude default on each call):

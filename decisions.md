@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D118 | lanternlearn.com still sells "books" (hero, mission, release alerts) though the focus is courses only (D102). Rewrite it for courses? | Rewrite for courses (recommended); keep as is | From the 2026-10-08 end-to-end QA. Waiting on the owner. |
 
 ## Log
 
@@ -801,6 +800,7 @@ Every entry has these fields:
 ### D118: lanternlearn.com copy after the courses-only pivot
 - **Question:** lanternlearn.com's hero ("Educational books that meet kids where they are"), mission ("Books that respect the reader") and "Get release alerts... when a new title ships" still describe books, though the focus is courses only (D102) and every course is free (D106). Rewrite the copy for courses?
 - **Options:** Rewrite the umbrella copy for free courses (recommended); keep the current copy.
-- **Choice:** Pending.
-- **Date:** 2026-10-08. **Decided by:** owner. **Status:** Open.
-- **Links:** QA report /mnt/project-files/qa/2026-10-08-e2e-report.md.
+- **Choice:** Rewrite the umbrella copy for free courses.
+- **Date:** 2026-10-08. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Hero, mission, imprint cards, methodology teaser, signup ("Get new-course alerts"), footer, about, imprints and contact pages rewritten. The methodology page and privacy policy still say "workbooks"/"books" and were left for a separate pass. Done once lanternlearn-site #13 merges.
+- **Links:** lanternlearn-site PR #13; QA report /mnt/project-files/qa/2026-10-08-e2e-report.md.

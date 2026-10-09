@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D121 | DMARC policy for lanternlearn.com, rocketandraven.com and foxandfernbooks.com, so BIMI logos can show | quarantine (recommended) / reject / leave at none and skip BIMI | DNS change in Cloudflare is the owner's; Microsoft 365 DKIM should be turned on first. |
 
 ## Log
 
@@ -841,3 +842,19 @@ Every entry has these fields:
 - **Date:** 2026-10-09. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Form and privacy policy changed in lanternlearn-site #13. Done once it merges. The other sites' forms are unchanged.
 - **Links:** lanternlearn-site PR #13.
+
+### D120: Favicons and BIMI logos for the brand domains
+- **Question:** What art to use for the favicon sets and the BIMI email logos on lanternlearn.com, rocketandraven.com and foxandfernbooks.com, and where to host the logos.
+- **Options:** Trace each site's existing badge art into an SVG Tiny PS file / draw new simplified vector marks.
+- **Choice:** Trace the existing badge art (Lantern Learn lantern badge, Rocket & Raven crew badge, Fox & Fern fox face) into square SVG Tiny PS logos of 32 KB or less, hosted at `/bimi/logo.svg` on each site. Each site also gets `favicon.ico` (16/32/48), `icon-192.png`, `icon-512.png` and `site.webmanifest`, from the same art. Rocket & Raven's `.ico` uses its existing rocket tab icon (`favicon.svg`), which stays the main tab icon, because the crew badge does not read at 16 px. `@lanternlearn/ui` gains optional `icons` and `manifest` site settings. hollyandhare.com is skipped (redirects, D103).
+- **Date:** 2026-10-09. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Build scripts in /mnt/project-files/brand-icons/. Done once the four PRs merge and the BIMI DNS records (D121) are in.
+- **Links:** lantern-ui, lanternlearn-site, rocketandraven-site, foxandfernbooks-site, branch `claude/project-thread-ezv1sl`.
+
+### D121: DMARC policy for BIMI
+- **Question:** BIMI logos only show when DMARC is enforced (p=quarantine or p=reject, pct=100). All three domains are at p=none today. Which policy?
+- **Options:** quarantine (recommended: failing mail goes to spam, not dropped) / reject / leave at none and skip BIMI.
+- **Choice:** Open.
+- **Date:** 2026-10-09. **Decided by:** owner. **Status:** Open.
+- **Progress:** Microsoft 365 DKIM is not on for any of the three domains (no selector1/selector2 records as of 2026-10-09); turn it on before enforcing.
+

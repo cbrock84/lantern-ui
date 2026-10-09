@@ -846,14 +846,14 @@ Every entry has these fields:
 - **Question:** What art to use for the favicon sets and the BIMI email logos on lanternlearn.com, rocketandraven.com and foxandfernbooks.com, and where to host the logos.
 - **Options:** Trace each site's existing badge art into an SVG Tiny PS file / draw new simplified vector marks.
 - **Choice:** Trace the existing badge art (Lantern Learn lantern badge, Rocket & Raven crew badge, Fox & Fern fox face) into square SVG Tiny PS logos of 32 KB or less, hosted at `/bimi/logo.svg` on each site. Each site also gets `favicon.ico` (16/32/48), `icon-192.png`, `icon-512.png` and `site.webmanifest`, from the same art. Rocket & Raven's `.ico` uses its existing rocket tab icon (`favicon.svg`), which stays the main tab icon, because the crew badge does not read at 16 px. `@lanternlearn/ui` gains optional `icons` and `manifest` site settings. hollyandhare.com is skipped (redirects, D103).
-- **Date:** 2026-10-09. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Build scripts in /mnt/project-files/brand-icons/. Done once the four PRs merge and the BIMI DNS records (D121) are in.
+- **Date:** 2026-10-09. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Build scripts in /mnt/project-files/brand-icons/. All four PRs merged 2026-10-09; logos live at `/bimi/logo.svg`; `default._bimi` TXT records added in Cloudflare 2026-10-09.
 - **Links:** lantern-ui, lanternlearn-site, rocketandraven-site, foxandfernbooks-site, branch `claude/project-thread-ezv1sl`.
 
 ### D121: DMARC policy for BIMI
 - **Question:** BIMI logos only show when DMARC is enforced (p=quarantine or p=reject, pct=100). All three domains are at p=none today. Which policy?
 - **Options:** quarantine (recommended: failing mail goes to spam, not dropped) / reject / leave at none and skip BIMI.
 - **Choice:** quarantine (`p=quarantine; pct=100`) on all three domains.
-- **Date:** 2026-10-09. **Decided by:** owner. **Status:** Decided.
-- **Progress:** DNS change is the owner's, in Cloudflare; record values and clickpaths in /mnt/project-files/brand-icons/README.md. Microsoft 365 DKIM is not on for any of the three domains (no selector1/selector2 records as of 2026-10-09); turn it on first. Done once the `_dmarc` records read `p=quarantine`.
+- **Date:** 2026-10-09. **Decided by:** owner. **Status:** Done.
+- **Progress:** `_dmarc` records set to `p=quarantine; pct=100` on all three domains via the Cloudflare API 2026-10-09 (rua unchanged). Microsoft 365 DKIM is still off on all three (owner step in security.microsoft.com; see /mnt/project-files/brand-icons/README.md).
 

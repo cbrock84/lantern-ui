@@ -831,5 +831,13 @@ Every entry has these fields:
 - **Options:** Rewrite the umbrella copy for free courses (recommended); keep the current copy.
 - **Choice:** Rewrite the umbrella copy for free courses.
 - **Date:** 2026-10-08. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Hero, mission, imprint cards, methodology teaser, signup ("Get new-course alerts"), footer, about, imprints and contact pages rewritten. The methodology page and privacy policy still say "workbooks"/"books" and were left for a separate pass. Done once lanternlearn-site #13 merges.
+- **Progress:** Hero, mission, imprint cards, methodology teaser, signup ("Get new-course alerts"), footer, about, imprints and contact pages rewritten. The methodology page and privacy policy were rewritten in the same PR. Done once lanternlearn-site #13 merges.
 - **Links:** lanternlearn-site PR #13; QA report /mnt/project-files/qa/2026-10-08-e2e-report.md.
+
+### D119: How lanternlearn.com course-alert signups work
+- **Question:** The lanternlearn.com alert form posted addresses to a Resend list (`/api/notify`), falling back to a pre-filled email, and the privacy policy named Resend. Keep the Resend list, or make signups a plain email to hello@?
+- **Options:** Email link (the form opens a pre-filled email to hello@lanternlearn.com; the privacy policy drops Resend) / keep the Resend list.
+- **Choice:** Email link.
+- **Date:** 2026-10-09. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Form and privacy policy changed in lanternlearn-site #13. Done once it merges. The other sites' forms are unchanged.
+- **Links:** lanternlearn-site PR #13.

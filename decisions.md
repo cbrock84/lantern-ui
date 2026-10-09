@@ -801,16 +801,16 @@ Every entry has these fields:
 - **Question:** rocketandraven.com's menus and URLs still said Books (/books/) and "Open Workbook", but everything it lists is an online course. Rename them?
 - **Options:** rename to Courses, with redirects from the old URLs / leave as is.
 - **Choice:** Rename. Menu and footer say "Courses" (/courses/); the footer's "Open Workbook" becomes "Sign in". /books, /books/ and /books/* 301 to the matching /courses URL (`public/_redirects`). The menu's second "Courses" item, which went straight to learn.lanternlearn.com, is dropped as a duplicate (Claude default); "Start learning" still goes there.
-- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Done when the PR merges and deploys.
+- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Done.
+- **Progress:** Merged and deployed 2026-10-09; checked live on rocketandraven.com.
 - **Links:** cbrock84/rocketandraven-site#22.
 
 ### D116: Builder's Lab and Astronomy Year on rocketandraven.com
 - **Question:** Builder's Lab and Astronomy Year are live and free on learn.lanternlearn.com (D110) but not listed on rocketandraven.com. List them?
 - **Options:** add both / add neither.
 - **Choice:** Add both: a course page and a series page each, on /courses and on the home page. Copy and week lists come from the platform course data (rocket-and-raven-press#70). No pricing copy beyond "Free" (D106).
-- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Done when the PR merges and deploys.
+- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Done.
+- **Progress:** Merged and deployed 2026-10-09; checked live on rocketandraven.com.
 - **Links:** cbrock84/rocketandraven-site#22.
 
 ### D117: Loose standards tags on the new courses

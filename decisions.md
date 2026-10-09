@@ -830,9 +830,9 @@ Every entry has these fields:
 - **Question:** lanternlearn.com's hero ("Educational books that meet kids where they are"), mission ("Books that respect the reader") and "Get release alerts... when a new title ships" still describe books, though the focus is courses only (D102) and every course is free (D106). Rewrite the copy for courses?
 - **Options:** Rewrite the umbrella copy for free courses (recommended); keep the current copy.
 - **Choice:** Rewrite the umbrella copy for free courses.
-- **Date:** 2026-10-08. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Hero, mission, imprint cards, methodology teaser, signup ("Get new-course alerts"), footer, about, imprints and contact pages rewritten. The methodology page and privacy policy were rewritten in the same PR. Done once lanternlearn-site #13 merges.
-- **Links:** lanternlearn-site PR #13; QA report /mnt/project-files/qa/2026-10-08-e2e-report.md.
+- **Date:** 2026-10-08. **Decided by:** owner. **Status:** Done.
+- **Progress:** Hero, mission, imprint cards, methodology teaser, signup ("Get new-course alerts"), footer, about, imprints, contact, methodology and privacy pages rewritten. Merged 2026-10-09.
+- **Links:** lanternlearn-site PR #13 (merged); QA report /mnt/project-files/qa/2026-10-08-e2e-report.md.
 
 ### D119: How lanternlearn.com course-alert signups work
 - **Question:** The lanternlearn.com alert form posted addresses to a Resend list (`/api/notify`), falling back to a pre-filled email, and the privacy policy named Resend. Keep the Resend list, or make signups a plain email to hello@?

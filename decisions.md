@@ -812,3 +812,16 @@ Every entry has these fields:
 - **Date:** 2026-10-07. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Done when the PR merges and deploys.
 - **Links:** cbrock84/rocketandraven-site#22.
+
+### D117: Loose standards tags on the new courses
+- **Question:** A few weeks of the new courses were only a loose match for the standard they list: Astronomy Year weeks 5, 10 and 11 (NGSS 5-ESS1-1), Science Launch K week 12 (K-ESS3-1) and Code Crew G4 (CSTA 1B-DA-06, 1B-AP-16). Rewrite the lessons to fit the standards, or change the tags?
+- **Options:** remap (keep lessons as published; change each tag to a better-fitting real standard or drop it) / rewrite the lessons to fit the listed standards / leave as is.
+- **Choice:** Remap (owner). Applied per week (Claude default on each call):
+  - Astronomy Year week 11 (Dark Skies): 5-ESS1-1 replaced by K-ESS3-3, since its lessons are ways to cut light pollution and help animals.
+  - Astronomy Year week 10 (Shooting Stars): keeps 5-ESS1-1 for its Thursday lesson on near meteors and faraway stars, and adds CCSS.MATH.CONTENT.2.NBT.A.2 (skip-count by 5s) for the tally-mark counting. No K to 5 NGSS standard covers meteors.
+  - Astronomy Year week 5 (Planet or Star?): keeps 5-ESS1-1. Its Friday lesson teaches it directly (the Sun looks bigger and brighter because it is closer), and no K to 5 NGSS standard covers planets.
+  - Science Launch K week 12 (Care for Earth): K-ESS3-1 dropped (no modeling activity); K-ESS3-3 stays.
+  - Code Crew G4: 1B-DA-06 stays on week 8 (its Saturday has kids collect counts and present them as a bar chart to compare); 1B-AP-16 stays on week 12 (kids take and swap driver and navigator roles). Both have a real activity behind them.
+- **Date:** 2026-10-07. **Decided by:** owner (remap); Claude (default) for the per-week picks. **Status:** Decided.
+- **Progress:** lessons unchanged; tags, course plans, SOURCES notes and rocketandraven.com's Science Launch K standards line updated.
+- **Links:** cbrock84/rocket-and-raven-press and cbrock84/rocketandraven-site, branch `claude/remap-standards-rg2h8l`.

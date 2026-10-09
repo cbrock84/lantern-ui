@@ -33,7 +33,11 @@ export interface SiteConfig {
   /** Absolute or site-relative logo used as the publisher logo in JSON-LD. */
   publisherLogo?: string;
   favicon: { href: string; type?: string };
+  /** Extra <link rel="icon"> entries, e.g. /favicon.ico with sizes "32x32" (D120). */
+  icons?: { href: string; type?: string; sizes?: string }[];
   appleTouchIcon?: string;
+  /** Web app manifest path, e.g. /site.webmanifest (D120). */
+  manifest?: string;
   /** Google Fonts stylesheet URL. */
   fontsHref?: string;
   fonts: { display: string; body: string };

@@ -5,6 +5,8 @@ export const site: SiteConfig = {
   defaultOgImage: '/og.png',
   publisherLogo: '/logo.png',
   favicon: { href: '/favicon.svg', type: 'image/svg+xml' },
+  icons: [{ href: '/favicon.ico', sizes: '32x32' }],
+  manifest: '/site.webmanifest',
   fonts: { display: '"Fredoka", system-ui, sans-serif', body: '"Nunito", system-ui, sans-serif' },
   theme: {
     bg: '#fdf3ea', surface: '#ffffff', text: '#6e3618', muted: '#8c4818', heading: '#6e3618',

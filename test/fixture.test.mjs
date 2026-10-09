@@ -20,6 +20,11 @@ test('head: title, canonical, theme vars, analytics and verification', () => {
   assert.match(home, /<meta name="theme-color" content="#fdf3ea">/);
 });
 
+test('head: favicon.ico before the SVG icon, plus manifest (D120)', () => {
+  assert.match(home, /<link rel="icon" sizes="32x32" href="\/favicon.ico">\s*<link rel="icon" type="image\/svg\+xml" href="\/favicon.svg">/);
+  assert.match(home, /<link rel="manifest" href="\/site.webmanifest">/);
+});
+
 test('design system: base frame and imprint skin vars, family bar (D57-D59)', () => {
   assert.match(home, /--ll-base-bg:250 246 233;/);
   assert.match(home, /--ll-skin-display:"Fredoka", system-ui, sans-serif;/);

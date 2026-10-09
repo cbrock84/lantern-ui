@@ -760,10 +760,10 @@ Every entry has these fields:
 ### D109: Teachers Pay Teachers listing
 - **Question:** How should Lantern Learn appear on Teachers Pay Teachers?
 - **Options:** a free, self-contained printable with no outbound link (recommended) / skip TPT for now / a link-only course listing.
-- **Choice:** A free, self-contained printable with no outbound link: Code Crew Kindergarten Week 1 Coding Puzzles (5 puzzles, answer key, 8 pages).
-- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+- **Choice:** Free, self-contained printables with no outbound link, listed as free sample packs: Code Crew Kindergarten Week 1 Coding Puzzles (8 pages), Builder's Lab Week 1 Cup Tower Challenge (17 pages) and Science Launch Kindergarten Week 1 (13 pages), each with an answer key.
+- **Date:** 2026-10-05; widened to three sample packs 2026-10-07 (owner approved the final launch posts). **Decided by:** owner. **Status:** Decided.
 - **Progress:** TPT help center: "Don't link to stores outside of TPT" (article 360044219551); for Basic Sellers "the product should not be composed of content that is available for free or a lower price somewhere else" (article 360042199032).
-- **Links:** `/mnt/project-files/launch/tpt.md`, `/mnt/project-files/launch/tpt/code-crew-k-week1-puzzles.pdf`. The owner uploads it to TPT.
+- **Links:** `/mnt/project-files/launch/tpt.md` (listing text), PDFs in `/mnt/project-files/launch/tpt/`. The owner uploads them to TPT; Done once listed.
 
 ### D110: Building the remaining catalog courses
 - **Question:** The owner asked to build out and publish every remaining catalog course overnight. 11 of 16 catalog courses were empty scaffolds (Code Crew G4, G5, G6+; Science Launch K to G5; Builder's Lab; Astronomy Year). How are they built?
@@ -796,6 +796,35 @@ Every entry has these fields:
 - **Options:** the Grade 2 cap (12-word sentences, 30 to 60 word day stories) / the Grade 3 cap.
 - **Choice:** Grade 2, so the youngest can follow with a grown-up reading along.
 - **Date:** 2026-10-07. **Decided by:** Claude (default). **Status:** Done.
+
+### D115: "Books" on rocketandraven.com
+- **Question:** rocketandraven.com's menus and URLs still said Books (/books/) and "Open Workbook", but everything it lists is an online course. Rename them?
+- **Options:** rename to Courses, with redirects from the old URLs / leave as is.
+- **Choice:** Rename. Menu and footer say "Courses" (/courses/); the footer's "Open Workbook" becomes "Sign in". /books, /books/ and /books/* 301 to the matching /courses URL (`public/_redirects`). The menu's second "Courses" item, which went straight to learn.lanternlearn.com, is dropped as a duplicate (Claude default); "Start learning" still goes there.
+- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Done when the PR merges and deploys.
+- **Links:** cbrock84/rocketandraven-site#22.
+
+### D116: Builder's Lab and Astronomy Year on rocketandraven.com
+- **Question:** Builder's Lab and Astronomy Year are live and free on learn.lanternlearn.com (D110) but not listed on rocketandraven.com. List them?
+- **Options:** add both / add neither.
+- **Choice:** Add both: a course page and a series page each, on /courses and on the home page. Copy and week lists come from the platform course data (rocket-and-raven-press#70). No pricing copy beyond "Free" (D106).
+- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Done when the PR merges and deploys.
+- **Links:** cbrock84/rocketandraven-site#22.
+
+### D117: Loose standards tags on the new courses
+- **Question:** A few weeks of the new courses were only a loose match for the standard they list: Astronomy Year weeks 5, 10 and 11 (NGSS 5-ESS1-1), Science Launch K week 12 (K-ESS3-1) and Code Crew G4 (CSTA 1B-DA-06, 1B-AP-16). Rewrite the lessons to fit the standards, or change the tags?
+- **Options:** remap (keep lessons as published; change each tag to a better-fitting real standard or drop it) / rewrite the lessons to fit the listed standards / leave as is.
+- **Choice:** Remap (owner). Applied per week (Claude default on each call):
+  - Astronomy Year week 11 (Dark Skies): 5-ESS1-1 replaced by K-ESS3-3, since its lessons are ways to cut light pollution and help animals.
+  - Astronomy Year week 10 (Shooting Stars): keeps 5-ESS1-1 for its Thursday lesson on near meteors and faraway stars, and adds CCSS.MATH.CONTENT.2.NBT.A.2 (skip-count by 5s) for the tally-mark counting. No K to 5 NGSS standard covers meteors.
+  - Astronomy Year week 5 (Planet or Star?): keeps 5-ESS1-1. Its Friday lesson teaches it directly (the Sun looks bigger and brighter because it is closer), and no K to 5 NGSS standard covers planets.
+  - Science Launch K week 12 (Care for Earth): K-ESS3-1 dropped (no modeling activity); K-ESS3-3 stays.
+  - Code Crew G4: 1B-DA-06 stays on week 8 (its Saturday has kids collect counts and present them as a bar chart to compare); 1B-AP-16 stays on week 12 (kids take and swap driver and navigator roles). Both have a real activity behind them.
+- **Date:** 2026-10-07. **Decided by:** owner (remap); Claude (default) for the per-week picks. **Status:** Decided.
+- **Progress:** lessons unchanged; tags, course plans, SOURCES notes and rocketandraven.com's Science Launch K standards line updated.
+- **Links:** cbrock84/rocket-and-raven-press and cbrock84/rocketandraven-site, branch `claude/remap-standards-rg2h8l`.
 
 ### D118: lanternlearn.com copy after the courses-only pivot
 - **Question:** lanternlearn.com's hero ("Educational books that meet kids where they are"), mission ("Books that respect the reader") and "Get release alerts... when a new title ships" still describe books, though the focus is courses only (D102) and every course is free (D106). Rewrite the copy for courses?

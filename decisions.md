@@ -760,10 +760,10 @@ Every entry has these fields:
 ### D109: Teachers Pay Teachers listing
 - **Question:** How should Lantern Learn appear on Teachers Pay Teachers?
 - **Options:** a free, self-contained printable with no outbound link (recommended) / skip TPT for now / a link-only course listing.
-- **Choice:** A free, self-contained printable with no outbound link: Code Crew Kindergarten Week 1 Coding Puzzles (5 puzzles, answer key, 8 pages).
-- **Date:** 2026-10-05. **Decided by:** owner. **Status:** Decided.
+- **Choice:** Free, self-contained printables with no outbound link, listed as free sample packs: Code Crew Kindergarten Week 1 Coding Puzzles (8 pages), Builder's Lab Week 1 Cup Tower Challenge (17 pages) and Science Launch Kindergarten Week 1 (13 pages), each with an answer key.
+- **Date:** 2026-10-05; widened to three sample packs 2026-10-07 (owner approved the final launch posts). **Decided by:** owner. **Status:** Decided.
 - **Progress:** TPT help center: "Don't link to stores outside of TPT" (article 360044219551); for Basic Sellers "the product should not be composed of content that is available for free or a lower price somewhere else" (article 360042199032).
-- **Links:** `/mnt/project-files/launch/tpt.md`, `/mnt/project-files/launch/tpt/code-crew-k-week1-puzzles.pdf`. The owner uploads it to TPT.
+- **Links:** `/mnt/project-files/launch/tpt.md` (listing text), PDFs in `/mnt/project-files/launch/tpt/`. The owner uploads them to TPT; Done once listed.
 
 ### D110: Building the remaining catalog courses
 - **Question:** The owner asked to build out and publish every remaining catalog course overnight. 11 of 16 catalog courses were empty scaffolds (Code Crew G4, G5, G6+; Science Launch K to G5; Builder's Lab; Astronomy Year). How are they built?

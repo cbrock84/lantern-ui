@@ -796,3 +796,19 @@ Every entry has these fields:
 - **Options:** the Grade 2 cap (12-word sentences, 30 to 60 word day stories) / the Grade 3 cap.
 - **Choice:** Grade 2, so the youngest can follow with a grown-up reading along.
 - **Date:** 2026-10-07. **Decided by:** Claude (default). **Status:** Done.
+
+### D115: "Books" on rocketandraven.com
+- **Question:** rocketandraven.com's menus and URLs still said Books (/books/) and "Open Workbook", but everything it lists is an online course. Rename them?
+- **Options:** rename to Courses, with redirects from the old URLs / leave as is.
+- **Choice:** Rename. Menu and footer say "Courses" (/courses/); the footer's "Open Workbook" becomes "Sign in". /books, /books/ and /books/* 301 to the matching /courses URL (`public/_redirects`). The menu's second "Courses" item, which went straight to learn.lanternlearn.com, is dropped as a duplicate (Claude default); "Start learning" still goes there.
+- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Done when the PR merges and deploys.
+- **Links:** cbrock84/rocketandraven-site#22.
+
+### D116: Builder's Lab and Astronomy Year on rocketandraven.com
+- **Question:** Builder's Lab and Astronomy Year are live and free on learn.lanternlearn.com (D110) but not listed on rocketandraven.com. List them?
+- **Options:** add both / add neither.
+- **Choice:** Add both: a course page and a series page each, on /courses and on the home page. Copy and week lists come from the platform course data (rocket-and-raven-press#70). No pricing copy beyond "Free" (D106).
+- **Date:** 2026-10-07. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Done when the PR merges and deploys.
+- **Links:** cbrock84/rocketandraven-site#22.

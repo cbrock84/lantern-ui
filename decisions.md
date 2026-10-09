@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D121 | DMARC policy for lanternlearn.com, rocketandraven.com and foxandfernbooks.com, so BIMI logos can show | quarantine (recommended) / reject / leave at none and skip BIMI | DNS change in Cloudflare is the owner's; Microsoft 365 DKIM should be turned on first. |
 
 ## Log
 
@@ -854,7 +853,7 @@ Every entry has these fields:
 ### D121: DMARC policy for BIMI
 - **Question:** BIMI logos only show when DMARC is enforced (p=quarantine or p=reject, pct=100). All three domains are at p=none today. Which policy?
 - **Options:** quarantine (recommended: failing mail goes to spam, not dropped) / reject / leave at none and skip BIMI.
-- **Choice:** Open.
-- **Date:** 2026-10-09. **Decided by:** owner. **Status:** Open.
-- **Progress:** Microsoft 365 DKIM is not on for any of the three domains (no selector1/selector2 records as of 2026-10-09); turn it on before enforcing.
+- **Choice:** quarantine (`p=quarantine; pct=100`) on all three domains.
+- **Date:** 2026-10-09. **Decided by:** owner. **Status:** Decided.
+- **Progress:** DNS change is the owner's, in Cloudflare; record values and clickpaths in /mnt/project-files/brand-icons/README.md. Microsoft 365 DKIM is not on for any of the three domains (no selector1/selector2 records as of 2026-10-09); turn it on first. Done once the `_dmarc` records read `p=quarantine`.
 

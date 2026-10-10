@@ -894,7 +894,7 @@ Every entry has these fields:
 - **Options:** Organization (Chris Brock LLC) with a free D-U-N-S number; seller shows as the LLC; skips Google's 12-tester, 14-day closed test (recommended) / personal; faster to start, seller shows Chris's own name, Google requires the closed test.
 - **Choice:** Organization accounts as Chris Brock LLC on Apple, Google and Amazon, using a free D-U-N-S number.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Owner step: request the D-U-N-S number first (plan section 5.0).
+- **Progress:** Owner reported 2026-10-10 that the Apple developer registration for Chris Brock LLC is approved and active (so the D-U-N-S number exists). Google Play and Amazon enrollment not yet confirmed.
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 5.
 
 ### D134: Amazon Appstore

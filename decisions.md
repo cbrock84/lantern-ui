@@ -1388,3 +1388,25 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses (press #92) and lanternlearn.com (lanternlearn-site #35).
 - **Links:** rocket-and-raven-press #92, lanternlearn-site #35. Related: D240, D242.
+
+### D244: Sound Trail Grade 2 scope and checker extensions
+- **Question:** What Sound Trail Grade 2 teaches, and how the decodability check grows to cover it.
+- **Options:** None offered (Claude default).
+- **Choice:** One 12-week Fox & Fern course, `phonics-g2` ("Sound Trail: Grade 2 Phonics", band G2, series `phonics`). Weeks: review; oo ew ue ie oe; ou oi oy; aw au all al; air are ear eer ore oar; soft c and g, dge; silent letters kn wr gn mb and ph; closed and open syllables; consonant-le; suffixes -er -est -ful -less -ly -ness -y and y to i; contractions; ind ild old olt. CCSS RF.2.3 every week, RF.2.4 on fluency weeks. The checker (phonics.mjs, scope `g2`) adds these graphemes, rejects kn/wr at the start and gn/mb at the end until taught, lets a vowel team before a final soft e pass (goose, house), checks suffixes against a decodable base, and checks contractions from week 11. Same day shape and 10+ minute floor as D242; Grade 2 Word Spot heart words. 36 new shared picture icons.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** All 12 weeks pass the checker (11 to 15 min a day). Known leak: "tiger" and "bigger" pass from week 6 via the soft-g token.
+- **Links:** rocket-and-raven-press #94, scripts/course-gen/courses/phonics-g2/PLAN.md. Related: D240, D242, D243.
+
+### D245: Story Trail reading comprehension course: name, series and method
+- **Question:** What the Fox & Fern reading comprehension course for Grades 2 to 3 is called, where it is listed, and how it teaches.
+- **Options:** None offered (Claude default; revisitable).
+- **Choice:** "Story Trail: Reading Comprehension" (`story-trail-g2-3`, grades G2 and G3, band G2 caps), a new `story-trail` series listed after Sound Trail on /courses, subject `reading`. Tomorrow Trail cast at the Story Stump; Chris the Coyote is the storyteller, Ferris leads the reading, Freddy runs Friday review, Saturday is a Story Hunt with any book at home. Each week teaches one strategy or text structure (questions, story parts, characters, main topic, steps, problem and solution, cause and effect, word meaning, text features, author's purpose, fables, compare and contrast), following the five recommendations of the WWC practice guide "Improving Reading Comprehension in Kindergarten Through 3rd Grade". Tap-only checks that send the child back to the text. 10+ minutes a day. 100% free.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** scripts/course-gen/courses/story-trail-g2-3/PLAN.md and SOURCES.md. Related: D243, D246.
+
+### D246: Story Trail fact policy
+- **Question:** What real-world facts a reading comprehension passage may state.
+- **Options:** None offered (Claude default).
+- **Choice:** Stories and Fern Hollow nonfiction (guides, signs, notes about the made-up world) carry no real-world claims. Real-world nonfiction (weeks 4, 7 and 9) uses only facts already sourced in another course's SOURCES.md, copied with their source row into Story Trail's SOURCES.md. Fables are retold from Aesop (Project Gutenberg eBook #21). Nothing else is stated as fact.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** scripts/course-gen/courses/story-trail-g2-3/PLAN.md. Related: D245.

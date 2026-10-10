@@ -23,10 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D148 | Which ESA add-on leads? | Printable PDF course packs (recommended) / printed workbooks / microschool kits / live tutoring | Plan: ESA plan artifact |
-| D149 | Which ESA states first? | Wyoming, Alabama, Arizona, New Hampshire (recommended) / Texas first / every eligible state at once | |
-| D150 | Register Chris Brock LLC in Texas for TEFA? | Yes, in wave 2 (recommended) / yes, now / no | $750 foreign-LLC filing |
-| D151 | Reopen the printable store with public prices? | Yes, packs only (recommended) / marketplaces only | ESAs pay only the public price |
+| D153 | Public price per student for each course PDF pack? | $15 (recommended) / $9 / $25 | Store stays hidden until set |
 
 ## Log
 
@@ -1058,29 +1055,33 @@ Every entry has these fields:
 ### D148: ESA add-on to lead with
 - **Question:** Which paid add-on should Lantern Learn list first in ESA marketplaces, with every course still free?
 - **Options:** Printable PDF course packs, per student (recommended): no shipping or staff, reuses the hidden PDF store and existing workbooks / printed workbooks: needs a print-on-demand partner and 48-hour shipping / microschool kits: sold to schools, not through ESA marketplaces / live tutoring: needs credentialed, background-checked tutors.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Printable PDF course packs, priced per student per course.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Waiting on D151 (public store prices), then render full-course PDFs from the workbook data.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
 
 ### D149: First ESA states
 - **Question:** Which states' ESA programs to apply to first?
 - **Options:** Wyoming, Alabama, Arizona, New Hampshire (recommended): no in-state registration or fingerprinting for a product-only vendor / Texas first: largest, but $750 registration and fingerprinting / every eligible state at once.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Wave 1 is Wyoming, Alabama, Arizona and New Hampshire.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Owner files the applications using the plan's clickpaths. Nothing filed yet.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
 
 ### D150: Texas registration for TEFA
 - **Question:** Register Chris Brock LLC as a foreign LLC in Texas so it can join Texas Education Freedom Accounts?
 - **Options:** Yes, in wave 2 (recommended): $750 plus yearly franchise-tax filings, after wave 1 proves sales / yes, now / no: skip Texas.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Yes, in wave 2, after wave 1 proves sales.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not filed. Owner files Form 304 on SOSDirect ($750) when wave 2 starts.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
 
 ### D151: Reopen the printable store with public prices
 - **Question:** ESA programs pay only a vendor's normal public price. Reopen the hidden printable store (rocket-and-raven-press /store) with public prices for course packs?
 - **Options:** Yes, packs only (recommended): course pages stay free with no price / marketplaces only: no public price, so listings may fail price review.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Yes, packs only. Course pages stay free with no price on them.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Pack prices are the next owner question; the store stays hidden until they are set.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
 
 ### D152: ESA pricing and vendor defaults
@@ -1089,3 +1090,10 @@ Every entry has these fields:
 - **Choice:** Price per student per course, never per family (Missouri and Utah reject family and lifetime plans). Same price inside and outside ESAs (Texas SB 2 §29.365, West Virginia). No rebates or refunds to families; refunds go back to the account. Apply as Chris Brock LLC until the DBA is filed. Checkout and email go to parents only. Tutoring stays out until there is staff.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
+
+### D153: Course PDF pack price
+- **Question:** What public price per student should each course PDF pack have? ESAs pay only this price (D152).
+- **Options:** $15 per pack (recommended): under the dormant $19 single-course price, fits a $2,000 homeschool ESA across several courses / $9: impulse price, less per ESA order / $25: more per sale, may draw Odyssey price review. No competitor prices were checked.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D148, D151, D152.

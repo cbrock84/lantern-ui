@@ -23,6 +23,8 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D143 | Does Lantern Learn teach real cooking (heat, knives, tasting)? | No heat, no knives: Kitchen Helper weeks inside Home Helpers (recommended) / separate G3+ Kitchen course with its own food rules / no cooking content | Expansion course study, 2026-10-10 |
+| D144 | How does Backyard Explorer pick a region? | Parent-chosen region on the kid profile, one generated variant per region, Rocket & Raven (recommended) / same under Fox & Fern / one national course | Expansion course study, 2026-10-10 |
 
 ## Log
 
@@ -880,3 +882,19 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner (rejected shape characters, keep the cast), Claude (default: roundels in the new lockups). **Status:** Decided.
 - **Progress:** Draft PRs on branch claude/project-thread-bwq92e in lanternlearn-site, rocketandraven-site, foxandfernbooks-site and rocket-and-raven-press. Social kit regenerated in brand-icons/playground/social. Animated shorts are a separate piece of work.
 - **Links:** Related: D66, D94, D127, D128.
+
+### D141: Which expansion course to build first
+- **Question:** The expansion course study (2026-10-10) ranked eight ideas: Body Lab (human body), Inside the Machine (computer parts and troubleshooting), Home Helpers (life skills), Backyard Explorer (plants and animals by US region), Everyday Machines, Bike Shop, Grow It, and vehicle repair (deferred). Which is built first?
+- **Options:** Body Lab (recommended) / Inside the Machine / Home Helpers / Backyard Explorer.
+- **Choice:** Inside the Machine: computer parts, how hardware and software work together, and troubleshooting, under Code Crew (Rocket & Raven), as a G1-G2 tap-only course and a G3-G5 course. CSTA 1A-CS-02, 1A-CS-03, 1B-CS-02, 1B-CS-03. "Repair" stays at restart, check the cable, check the charge, swap the mouse; nothing with a case open or a power supply.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
+- **Links:** Related: D102, D106, D110.
+
+### D142: "blood" allowed in a Body Lab course
+- **Question:** The course generator's violence check bans the word "blood" in every course, which blocks teaching circulation in a human body course. How should Body Lab handle it?
+- **Options:** Per-course exception for Body Lab, global ban kept elsewhere (recommended) / keep the ban and write around it / skip circulation.
+- **Choice:** Per-course exception. Body Lab may use "blood" and heart words; the global rule stays for every other course.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started; applies when Body Lab is built (scripts/course-gen rules.mjs needs a per-course allowlist).
+- **Links:** Related: D141.

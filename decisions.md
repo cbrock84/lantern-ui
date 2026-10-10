@@ -1007,9 +1007,9 @@ Every entry has these fields:
 - **Question:** The course generator's violence check bans the word "blood" in every course, which blocks teaching circulation in a human body course. How should Body Lab handle it?
 - **Options:** Per-course exception for Body Lab, global ban kept elsewhere (recommended) / keep the ban and write around it / skip circulation.
 - **Choice:** Per-course exception. Body Lab may use "blood" and heart words; the global rule stays for every other course.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Not started; applies when Body Lab is built (scripts/course-gen rules.mjs needs a per-course allowlist).
-- **Links:** Related: D141.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** `WORD_EXCEPTIONS` in rocket-and-raven-press scripts/course-gen/rules.mjs allows "blood" for body-lab-k2 and body-lab-g3-5 only, with a unit test; the rest of the violence list still applies to them.
+- **Links:** rocket-and-raven-press #80. Related: D141, D154.
 
 ### D143: Real cooking gets its own Kitchen course
 - **Question:** Four generator rules collide with cooking (a grown-up does anything hot or sharp, nothing is tasted, the allergen list removes dairy, nuts, soy and sesame, shopping words are banned). Does Lantern Learn teach real cooking?
@@ -1098,7 +1098,30 @@ Every entry has these fields:
 - **Progress:** Pack products, store gate and admin pack grant built in rocket-and-raven-press; the store opens once the owner creates the $15 Stripe price. 16 full-course PDFs built (scripts/print-packs) and uploaded to R2. Parked 2026-10-10 by the owner (prioritize expansion and course content): press #79 stays unmerged and the store stays hidden; no Stripe price yet.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. rocket-and-raven-press #79. Related: D148, D151, D152.
 
-### D154: Where new site content lives
+### D154: Body Lab course shape
+- **Question:** How Body Lab is built: course split, reading level, sight words and catalog grade.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Rocket & Raven courses in a new Body Lab series: Body Lab K to 2 (`body-lab-k2`, Grade 1 reading level, tap-only, daily Word Spot on the Grade 1 Dolch + Fry list) and Body Lab Grades 3 to 5 (`body-lab-g3-5`, Grade 3 reading level, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Body Lab Day". Course meta gains an optional `grades` list so the catalog grade filter finds each course under every grade it covers and the card shows "Grades K to 2". Covers and heroes made in Higgsfield from the existing Rocket, Raven and Nova art. No injuries, illness, private anatomy, dairy foods or questions about a child's own body.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge.
+- **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19. Related: D141, D142.
+
+### D156: AI Explorers course shape
+- **Question:** How AI Explorers (K-5 AI literacy, roadmap stage Now) is built: course split, imprint, series, reading level, standards and art.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Rocket & Raven courses in a new AI Explorers series, kept off the Code Crew rank ladder: AI Explorers K-2 (`ai-explorers-k2`, K reading level, tap-only, daily Word Spot on the K Dolch + Fry list) and AI Explorers Grades 3-5 (`ai-explorers-g3-5`, Grade 3 reading level, typed answers allowed, running thread: the crew trains and tests a paper sorting model for mission photos). 12 weeks each, 15-minute days (every day 11+ minutes by the audit), Saturday "Explorer Quest". Nova guides. Each week maps to a CSTA 2017 code, and the arc follows the AI4K12 Five Big Ideas. Covers and heroes were made in Higgsfield from the existing crew art. Marketing copy says 100% free.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge. After Body Lab (D154) lands, adopt its optional `grades` field so the catalog grade filter lists each course under every grade it covers.
+- **Links:** rocket-and-raven-press #82, rocketandraven-site #33, lanternlearn-site (home tile). Research: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D145, D138, D147.
+
+### D157: AI Explorers safety and fact rules
+- **Question:** Do children use a real AI tool in AI Explorers, and how are AI facts checked?
+- **Options:** None offered (Claude default).
+- **Choice:** Fully unplugged. No lesson connects a child to a chatbot, image generator or any live AI. Nova is a story character, and the lessons say AI is a tool people build that can be wrong. Each course's `SOURCES.md` holds a fact bank (AI4K12, NIST AI 100-1 and 600-1, SUNY Geneseo, Gordon College, CSTA). A claim about AI that is not in the fact bank stays out of the lessons. A privacy fact that rested on the FTC COPPA page was dropped because that page could not be fetched.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #82 (`scripts/course-gen/courses/ai-explorers-*/SOURCES.md`). Related: D156.
+
+### D158: Where new site content lives
 - **Question:** Chris asked for course pages, a parent how-it-works/FAQ page and evergreen guide posts across the sites. Where does each piece go?
 - **Options:** None offered (Claude default).
 - **Choice:** lanternlearn.com gets `/courses` plus one page per course (generated from the platform by `scripts/sync-courses.py`, so copy never drifts) and `/how-it-works` (parent guide and FAQ); its nav "Courses" now opens `/courses` instead of the course app. rocketandraven.com already had pages for every Rocket & Raven course, so it is unchanged. Each guide post lives on one site only (no duplicates): sight words on foxandfernbooks.com, free homeschool STEM on lanternlearn.com. Every post cites its sources.

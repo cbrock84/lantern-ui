@@ -1,7 +1,10 @@
 # Decision log
 
 Every owner decision across the Lantern Learn repos, numbered `D<n>`. How
-decisions are asked and recorded: see `CLAUDE.md`. Newest last.
+decisions are asked and recorded: see `CLAUDE.md`. Entries are in number order.
+Since 2026-10-10, parallel work threads take numbers from reserved blocks
+(D200-D219, D220-D239, D240-D259, D260-D279, D280 and up) so they don't
+collide, so a lower number can be logged after a higher one.
 
 ## Entry format
 

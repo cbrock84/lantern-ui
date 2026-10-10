@@ -1000,8 +1000,8 @@ Every entry has these fields:
 - **Options:** Body Lab (recommended) / Inside the Machine / Home Helpers / Backyard Explorer.
 - **Choice:** Inside the Machine: computer parts, how hardware and software work together, and troubleshooting, under Code Crew (Rocket & Raven), as a G1-G2 tap-only course and a G3-G5 course. CSTA 1A-CS-02, 1A-CS-03, 1B-CS-02, 1B-CS-03. "Repair" stays at restart, check the cable, check the charge, swap the mouse; nothing with a case open or a power supply.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Not started. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
-- **Links:** Related: D102, D106, D110.
+- **Progress:** Both courses built and illustrated (D155); live once rocket-and-raven-press #81 merges. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
+- **Links:** rocket-and-raven-press #81. Related: D102, D106, D110, D155.
 
 ### D142: "blood" allowed in a Body Lab course
 - **Question:** The course generator's violence check bans the word "blood" in every course, which blocks teaching circulation in a human body course. How should Body Lab handle it?
@@ -1106,6 +1106,14 @@ Every entry has these fields:
 - **Progress:** Built; live once the PRs below merge.
 - **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19. Related: D141, D142.
 
+### D155: Inside the Machine course shape and art
+- **Question:** How Inside the Machine (D141) is built: course split, reading level, sight words, catalog grades and artwork.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Code Crew courses: Inside the Machine: Grades 1 to 2 (`inside-the-machine-g1-g2`, Grade 1 reading cap, tap-only, daily Word Spot on the Grade 1 list, Crew Pilot rank) and Inside the Machine: Grades 3 to 5 (`inside-the-machine-g3-g5`, Grade 3 reading cap, typed answers allowed, Crew Engineer rank). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Crew Quest". Catalog uses the shared `grades` list (D154) so each course shows under every grade it covers. Setting: the Fix-It Bay at Beacon Station; Rocket brings the problem, Raven asks "What do you notice?", Nova hints. Safety line: grown-ups do plugs, chargers, batteries and cases; kids may tell a grown-up, check a cable, wait, restart with a grown-up, swap a mouse, change volume, or wipe with a dry cloth. No brand names, prices or personal information. Art: covers, heroes and one lesson illustration per week (24) generated in Higgsfield from the approved Rocket, Raven and Nova art; characters stay illustrated, never shape-built. Animation not used: the lesson engine shows still images only.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once rocket-and-raven-press #81 merges.
+- **Links:** rocket-and-raven-press #81. Related: D141, D154.
+
 ### D156: AI Explorers course shape
 - **Question:** How AI Explorers (K-5 AI literacy, roadmap stage Now) is built: course split, imprint, series, reading level, standards and art.
 - **Options:** None offered (Claude default).
@@ -1127,3 +1135,11 @@ Every entry has these fields:
 - **Choice:** lanternlearn.com gets `/courses` plus one page per course (generated from the platform by `scripts/sync-courses.py`, so copy never drifts) and `/how-it-works` (parent guide and FAQ); its nav "Courses" now opens `/courses` instead of the course app. rocketandraven.com already had pages for every Rocket & Raven course, so it is unchanged. Each guide post lives on one site only (no duplicates): sight words on foxandfernbooks.com, free homeschool STEM on lanternlearn.com. Every post cites its sources.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** lanternlearn-site #21, foxandfernbooks-site #18, rocket-and-raven-press #83 (parent help said "first weeks free to try"; now "every course is free", per D138).
+
+### D159: Home Helpers course shape and art
+- **Question:** How Home Helpers (life skills, roadmap stage Now) is built: course split, imprint, reading level, sight words, safety rules, standards and artwork.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Fox & Fern courses in a new Home Helpers series: Home Helpers: Kindergarten to Grade 2 (`home-helpers-k2`, Grade 1 reading cap, tap-only, daily Word Spot on the Grade 1 list) and Home Helpers: Grades 3 to 5 (`home-helpers-g3-5`, Grade 3 reading cap, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Family Helper Day". Catalog uses the shared `grades` list (D154). Setting: Fern Hollow, with Ferris, Hazel, Bennie, Lucy, Lizzy and Oliver hosting weeks and Chris the Coyote, Rosie and Freddy in their usual roles. Weeks: making the bed, socks and towels, setting the table, kitchen helper (no heat, no knives, no tasting, per D143), plants and pets, clock time, packing a bag, the ten-minute tidy, kind words, ready and safe, and a helper celebration; the older course adds laundry start to finish, mending, lists and errands. Safety line: nothing hot, sharp or electrical; a grown-up runs every machine and handles sprays, needles and scissors; no allergen words, money words or personal information typed on screen; scrapes are "stop, wash, cover, tell". Standards: CCSS only (speaking and listening, informational reading, writing, measurement and data). Art: covers, heroes and one lesson illustration per week (24) generated in Higgsfield from the Fox & Fern character references; renders with stray words were redone so no image carries text.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once rocket-and-raven-press #81 merges (it carries Inside the Machine and Home Helpers together).
+- **Links:** rocket-and-raven-press #81, lanternlearn-site #20 (home tile). Related: D141, D143, D154, D155.

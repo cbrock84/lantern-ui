@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D146 | Register as an ESA vendor in two or three states for paid add-ons while every course stays free? | Yes, start with Arizona (ClassWallet) and Texas (Odyssey) (recommended) / yes, later / no | Asked 2026-10-10 in the expansion thread. See roadmap.md. |
 | D139 | Open every week to signed-out visitors, or keep the free sign-in after week 4? | Keep sign-in (recommended) / open all weeks | Asked 2026-10-10 in the free-everywhere thread. |
 
 ## Log
@@ -928,3 +929,11 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Not started. Needs a `region` field on KidProfile (rocket-and-raven-press src/lib/kids.ts) and catalog logic to pick the variant.
 - **Links:** Related: D141.
+
+### D145: Roadmap: K-12 through adult, steered by web signals
+- **Question:** The owner's long-term objective is to expand through high school and into adult training (coding and more), with young children as the early focus. A web scan on 2026-10-10 found the signals to steer by. How are they cemented into the plan?
+- **Options:** Write `roadmap.md` in this repo with staged scope (K-5 now, grades 6-8 next, high school electives later, adult applied AI) and the signals behind each stage, re-scanned quarterly (recommended) / keep the signals only in the study artifact.
+- **Choice:** `roadmap.md` added. Stages: K-5 breadth plus a new AI Explorers course; grades 6-8 bridge; high school CS and AI electives; adult applied AI in the same daily format, not a bootcamp. Reach: ESA vendor registration (D146) and microschool outreach. Fox & Fern leans phonics and decodable text.
+- **Date:** 2026-10-10. **Decided by:** owner ("Let's cement these into our plans"). **Status:** Decided.
+- **Progress:** roadmap.md written. AI Explorers is queued after D141.
+- **Links:** roadmap.md; https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D106, D138, D141.

@@ -1,8 +1,8 @@
 # Working rules for the Lantern Learn repos
 
 This repo is the central home for Lantern Learn's shared code (`src/`), the
-decision log (`decisions.md`), content standards (`standards/`) and the imprint
-bibles (`bibles/`). Every other Lantern Learn repo points here from its own
+decision log (`decisions.md`), the roadmap (`roadmap.md`), content standards
+(`standards/`) and the imprint bibles (`bibles/`). Every other Lantern Learn repo points here from its own
 `CLAUDE.md`.
 
 ## Decisions: always ask interactively, always log

@@ -23,6 +23,16 @@ Raven: a Black girl about 10-12 years old, explorer and researcher; natural curl
 Nova: a small hovering AI drone about the size of a football, with a bird silhouette but not a literal raven; smooth rounded black metallic shell, cyan glowing accents, large expressive glowing blue eyes, mechanical wings, compact friendly proportions; can project cyan holograms. Always friendly, never scary.
 ```
 
+## High-school crew (D174, D225)
+
+For Grades 9 and up. Attach `public/assets/brand/characters/hs-crew-v1.png` as the reference image.
+
+```
+Comet: a South Asian teen girl about 15-16, builder and designer; warm brown skin, long dark hair in a high ponytail with loose strands, small gold hoops, bright confident grin, teal-and-orange bomber jacket with sleeves pushed up over a cream T-shirt, dark jeans rolled at the ankle, plain orange high-top sneakers with no logos, pencil behind her ear, spiral sketch notebook. Bold, inventive.
+Wren: a Latino teen boy about 15-16, analyst and tester; light brown skin with a few freckles, short dark wavy hair, thoughtful half smile, olive-green field jacket with many pockets over a cream hoodie, dark cargo pants, tan boots, wristwatch, clipboard of graph paper. Calm, careful.
+Nova: as above, unchanged. Teen proportions for Comet and Wren; organic, expressive, hand-painted; never geometric or shape-built.
+```
+
 ## Never
 
 Weapons, bullying, mean-spirited humor, scary imagery, overly complex costumes,

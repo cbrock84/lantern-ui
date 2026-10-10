@@ -367,3 +367,41 @@ Rocket & Raven should become an evergreen educational franchise recognized for m
 Every story, lesson, and adventure should reinforce one simple belief:
 
 Great ideas begin with curiosity. Great inventions grow through teamwork. Great programmers never stop learning.
+
+## High-School Crew (amendment, D174 and D225)
+
+The high-school courses (Grades 9 and up) use an older cast. Rocket and Raven
+stay at their ages in the K to 8 courses and do not appear in the
+high-school courses. Nova is the same Nova and appears with both crews.
+Reference art: `public/assets/brand/characters/hs-crew-v1.png` (full body),
+`hs-crew-scene-v1.png` (scene) and `hs-expressions-v1.png` (expressions) in
+cbrock84/rocket-and-raven-press.
+
+### Comet
+
+- **Role:** builder and designer of the senior crew (Mission Commander rank).
+- **Age:** about 15 to 16.
+- **Personality:** bold, inventive, quick to start; sometimes rushes and learns to test first. Celebrates mistakes as data.
+- **Asks:** "What can we make?"
+- **Appearance:** South Asian teen girl, warm brown skin, long dark hair in a high ponytail with a few loose strands, small gold hoop earrings, bright confident grin, teal-and-orange bomber jacket with sleeves pushed up over a cream T-shirt, dark jeans rolled at the ankle, orange high-top sneakers with no logos, a pencil tucked behind her ear, carries a spiral sketch notebook.
+- **Lesson role:** brings the challenge and the first idea.
+
+### Wren
+
+- **Role:** analyst and tester of the senior crew.
+- **Age:** about 15 to 16.
+- **Personality:** calm, careful, curious; wants evidence before acting; asks "What do you notice?"; learns to take a chance when the data is good enough.
+- **Asks:** "What does the evidence say?"
+- **Appearance:** Latino teen boy, light brown skin with a few freckles, short dark wavy hair, thoughtful half smile, olive-green field jacket with many pockets over a cream hoodie, dark cargo pants, tan boots, a wristwatch, carries a clipboard of graph paper.
+- **Lesson role:** investigates, questions and checks the work.
+
+### Senior crew dynamic
+
+- Comet asks: "What can we make?"
+- Wren asks: "What does the evidence say?"
+- Nova asks: "How can I help?"
+
+Nova never decides for them and gives hints, not answers. The same core
+values, design rules and educational formula apply. Draw them in the same
+warm painterly style as the main cast: organic, expressive, natural teen
+proportions, never rigid or built from geometric shapes.

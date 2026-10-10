@@ -1365,7 +1365,7 @@ Every entry has these fields:
 - **Choice:** One Rocket & Raven course in the AI Explorers series: AI and You Grades 9 to 12 (`ai-and-you-g9-12`, G6+ reading level), 12 weeks, about 20-minute days (10+ enforced), Wednesday Explorer Lab, Impact Friday and a Saturday Explorer Quest. Same D157 rules: unplugged, no live AI tool, no product names, every AI fact from the course's SOURCES.md (NIST AI 100-1, NIST AI 600-1, AI4K12, CSTA; 95 rows). High-School Crew cast (D225). Running thread: the SH-1 Review, in which Comet, Wren and the student review a proposed AI study helper for a made-up school: a hand-run next-word model (Tiny Text), a test set, the nine NIST generative AI risks as a risk register, and a final model card and go-with-conditions recommendation. It practices 12 CSTA Level 3A and 3B DA, IC and AP codes, worded per D177. Grade band `all-ages` with "Grades 9 to 12" in the title, like the other high-school courses.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Building.
-- **Links:** rocket-and-raven-press (scripts/course-gen/courses/ai-and-you-g9-12). Related: D157, D173, D177, D225, D227.
+- **Links:** rocket-and-raven-press #99 (scripts/course-gen/courses/ai-and-you-g9-12). Related: D157, D173, D177, D225, D227.
 
 ### D227: Careers in AI and You
 - **Question:** How the course covers careers in AI.

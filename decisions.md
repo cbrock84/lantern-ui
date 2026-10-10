@@ -1377,12 +1377,14 @@ Every entry has these fields:
 - **Question:** In what order the phonics courses teach letters and patterns, and how the build keeps "Read it yourself" text decodable.
 - **Options:** None offered (Claude default).
 - **Choice:** Pre-K to K (12 weeks): m s a; t p; i n; c o d; g h; e r b; u l f; k j w; v x y z qu; ff ll ss zz; ck and plural s; review. Grade 1 (12 weeks): short vowel review; sh ch tch; th wh ng nk; initial blends; final blends; a_e i_e; o_e u_e e_e; ee ea ai ay; oa ow igh and y at the end; ar or er ir ur; -s -es -ed -ing; two-syllable words. Each week follows Hear it, See it, Blend it, Build it, Read it yourself (WWC foundational-skills practice guide, recommendations 2 to 4). CCSS RF.K.1 to RF.K.4 and RF.1.1 to RF.1.4. The build (phonics.mjs) checks every word in every "Read it yourself" block: it must use only graphemes taught by that week (with traps such as vowel pairs, r- and w-controlled vowels, silent e, soft c and g, and endings on a known base word rejected until taught) or be a Word Spot heart word taught by that week; at least three such blocks a week. Days are tap-only and 10+ minutes with Word Spot sight words (K list, then Grade 1 list).
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 (press #92 merged). Plural -s is gated until K week 11 by the checker.
 - **Links:** rocket-and-raven-press #92, scripts/course-gen/courses/phonics-prek-k/PLAN.md and SOURCES.md. Related: D123, D124, D125, D241.
 
 ### D243: Sound Trail course split, series and catalog placement
 - **Question:** How the phonics work is packaged and listed.
 - **Options:** None offered (Claude default).
 - **Choice:** Two Fox & Fern courses (`phonics-prek-k`, band K; `phonics-g1`, band G1) in a new `phonics` series, listed right after Tomorrow Trail on /courses as "Sound Trail: Phonics from Fox & Fern Books", with a new `reading` subject filter. Tomorrow Trail cast, Ferris hosts, Freddy runs Friday games, Saturday is a Sound Hunt at home. 100% free. 70+ new picture icons in the shared Tomorrow Trail icon set; covers and heroes generated in Higgsfield from the cast references.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Links:** rocket-and-raven-press #92. Related: D240, D242.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses (press #92) and lanternlearn.com (lanternlearn-site #35).
+- **Links:** rocket-and-raven-press #92, lanternlearn-site #35. Related: D240, D242.

@@ -1292,3 +1292,11 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Live on the platform (rocket-and-raven-press #90 merged 2026-10-10). Site listings: lanternlearn-site #34, rocketandraven-site #39.
 - **Links:** rocket-and-raven-press #90, lanternlearn-site #34, rocketandraven-site #39. Related: D141, D144, D154, D159.
+
+### D179: Everyday Machines course shape
+- **Question:** The expansion study (D141) listed Everyday Machines (how a zipper, a lock, a faucet, a toilet, a light switch, a fridge, a thermostat, a car and an elevator work) as idea 5. What shape does it take, and how does it avoid overlapping Builder's Lab and Bike Shop?
+- **Options:** One all-ages course (K to 5 with a grown-up, Grade 2 reading level, tap-only answers), the same shape as Builder's Lab, under Rocket & Raven, one home object a week, take-apart items limited to unplugged, battery-free, grown-up-approved objects such as an old click pen (recommended) / two courses, K to 2 and Grades 3 to 5 / fold the objects into Builder's Lab as extra weeks.
+- **Choice:** One all-ages course, `everyday-machines`, series `everyday-machines`, 12 weeks, Saturday "Machine Day". Weeks: machines everywhere (wheel and axle), the zipper, lock and key, the faucet, the toilet, the light switch, magnets at home, the refrigerator, the thermostat, springs and click pens, how a car moves, the elevator and a Machine Show. Levers, pulleys, parachutes, boats and balloon cars stay in Builder's Lab; bike parts and repairs stay in Bike Shop; each gets a one-sentence pointer. Only AA or smaller batteries, in a flashlight a grown-up loads; nothing plugged in is opened. Every fact is checked against an official, museum, university or extension page listed in the course's SOURCES.md.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Building.
+- **Links:** rocket-and-raven-press (scripts/course-gen/courses/everyday-machines). Related: D141, D165.

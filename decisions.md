@@ -886,4 +886,19 @@ Every entry has these fields:
 - **Options:** Not recorded.
 - **Choice:** Tomorrow Trail first, then every other course in parallel, all on one rocket-and-raven-press PR (#74) with a commit per course group. New blocks are added before each day's closing block or with their own ids, so saved answers keep their block ids.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** All 16 courses merged into #74; waiting on the owner to merge.
 - **Links:** rocket-and-raven-press #74.
+
+### D127: How the extra practice is stored and checked
+- **Question:** Where does the added content live, and what gets fixed along the way?
+- **Options:** Not recorded.
+- **Choice:** Code Crew K's daily practice is generated into separate files (`src/data/code-crew-k-lessons/practice/`) so the hand-written weeks 1 and 2 stay as approved and the free-preview bundle stays small. Weekend days in Code Crew K get an offline Word Hunt with a grown-up. Code Crew G3 now has a reproducible build (`npm run gen:code-crew-g3`, checked for drift in CI); its existing text had milk, butter and peanut butter swapped for water and banana, "money" swapped for "plates", a dash removed, and the Code.org and ScratchJr pointer replaced with "pick a kids' coding app with a grown-up".
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #74.
+
+### D128: Order of multiple-choice answers
+- **Question:** In most courses built by the course generator, the right answer is listed first (for example 272 of 272 in Code Crew G3, 251 of 258 in Science Launch G4). How should this be fixed?
+- **Options:** Shuffle the display order in the app, fixed per question, so saved answers keep working (recommended) / reorder the choices in the course files / leave as is.
+- **Choice:** Waiting on the owner.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** rocket-and-raven-press #74 (found during the expansion).

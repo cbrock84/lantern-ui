@@ -26,6 +26,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D250 | Add a coins week to Grade 2 math (2.MD.C.8), allowing money words? | Leave coins out (recommended) / Allow coin words in math courses | Built without coins. |
 | D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built but held: no lesson is reachable (press #86) until this is answered. |
 | D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
 | D163 | Which healthy-eating guide does the Kitchen course teach? | Colorful produce only (recommended) / MyPlate / New Pyramid | Built on the recommended option. |
@@ -1424,3 +1425,32 @@ Every entry has these fields:
 - **Choice:** Stories and Fern Hollow nonfiction (guides, signs, notes about the made-up world) carry no real-world claims. Real-world nonfiction (weeks 4, 7 and 9) uses only facts already sourced in another course's SOURCES.md, copied with their source row into Story Trail's SOURCES.md. Fables are retold from Aesop (Project Gutenberg eBook #21). Nothing else is stated as fact.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Links:** scripts/course-gen/courses/story-trail-g2-3/PLAN.md. Related: D245.
+
+
+### D247: Math courses: name, series and split
+- **Question:** What the new Fox & Fern K-2 math courses are called and how they are split.
+- **Options:** None offered (Claude default).
+- **Choice:** "Number Trail", series `number-trail`, subject math, Fox & Fern imprint with the Tomorrow Trail cast (Bennie the Bear leads). One 12-week course per grade: `math-k`, `math-g1`, `math-g2`.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #100. Related: D248, D249.
+
+### D248: Number Trail scope, sequence and method
+- **Question:** What the K-2 math courses teach, in what order, and how.
+- **Options:** None offered (Claude default).
+- **Choice:** Common Core K, 1 and 2 (codes in each course's PLAN.md). The method follows WWC practice guides 18 (Teaching Math to Young Children) and 26 (Assisting Students Struggling with Mathematics): a developmental progression, concrete then pictures then numbers, math words out loud, number lines, story problems, math every day. No timed activities. Left for later: K-2 line plots (2.MD.D.9), Grade 1 data (1.MD.C.4) and composing shapes (1.G.A.2).
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #100, scripts/course-gen/courses/math-k/PLAN.md. Related: D247.
+
+### D249: Computed math answers
+- **Question:** How math answers are kept correct.
+- **Options:** None offered (Claude default).
+- **Choice:** Every math picture and number question comes from scripts/course-gen/mathviz.mjs, which computes the answer. The build re-checks every question written as a number sentence with one "?" and fails on a wrong answer.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #100. Related: D247.
+
+### D250: Coins and dollars in Grade 2 math
+- **Question:** Add a coins week to Grade 2 math (2.MD.C.8), allowing coin and dollar words in math courses?
+- **Options:** Leave coins out, keep the money-word ban for kids (recommended) / Allow coin words in math courses and add a coins week.
+- **Choice:** Pending; built without coins.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #100. Related: D247, D248.

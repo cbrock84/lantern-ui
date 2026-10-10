@@ -1120,3 +1120,10 @@ Every entry has these fields:
 - **Choice:** Fully unplugged. No lesson connects a child to a chatbot, image generator or any live AI. Nova is a story character, and the lessons say AI is a tool people build that can be wrong. Each course's `SOURCES.md` holds a fact bank (AI4K12, NIST AI 100-1 and 600-1, SUNY Geneseo, Gordon College, CSTA). A claim about AI that is not in the fact bank stays out of the lessons. A privacy fact that rested on the FTC COPPA page was dropped because that page could not be fetched.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Links:** rocket-and-raven-press #82 (`scripts/course-gen/courses/ai-explorers-*/SOURCES.md`). Related: D156.
+
+### D158: Where new site content lives
+- **Question:** Chris asked for course pages, a parent how-it-works/FAQ page and evergreen guide posts across the sites. Where does each piece go?
+- **Options:** None offered (Claude default).
+- **Choice:** lanternlearn.com gets `/courses` plus one page per course (generated from the platform by `scripts/sync-courses.py`, so copy never drifts) and `/how-it-works` (parent guide and FAQ); its nav "Courses" now opens `/courses` instead of the course app. rocketandraven.com already had pages for every Rocket & Raven course, so it is unchanged. Each guide post lives on one site only (no duplicates): sight words on foxandfernbooks.com, free homeschool STEM on lanternlearn.com. Every post cites its sources.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** lanternlearn-site #21, foxandfernbooks-site #18, rocket-and-raven-press #83 (parent help said "first weeks free to try"; now "every course is free", per D138).

@@ -23,8 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D124 | Which sight-word list should the K to G2 courses teach? | Dolch by grade (recommended) / Fry first 300 / both | Work proceeds on Dolch by grade. |
-| D125 | Where should sight words be taught? | All K to 2 courses (recommended) / Tomorrow Trail only | Work proceeds on all K to 2. |
 
 ## Log
 
@@ -870,15 +868,16 @@ Every entry has these fields:
 ### D124: Sight-word list
 - **Question:** Which sight-word list should the K to G2 courses teach?
 - **Options:** Dolch by grade (recommended: Pre-primer and Primer for K, Grade 1, Grade 2) / Fry first 300 / both merged.
-- **Choice:** Pending; work proceeds on Dolch by grade. "buy" (Dolch Grade 2) is left out under the money-word rule; the Dolch noun list is not used. Words are taught look, say, spell, find, then read in a sentence.
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Both, merged. Dolch by grade, plus the Fry first 300 words Dolch lacks: Fry First 100 into K (17 words), Second 100 into G1 (55), Third 100 into G2 (78), added after each week's Dolch words. Left out: "buy" (money-word rule), "American" and "Indians" (proper nouns), and the Dolch noun list. The Fry source printing lists 96 words in its third 100. Words are taught look, say, spell, find, then read in a sentence.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Plans in `scripts/sight-words/` (K 109 words, G1 96, G2 124). Live in Tomorrow Trail and Science Launch K to G2; Code Crew K to G2 in progress.
 - **Links:** rocket-and-raven-press #74 (`scripts/sight-words/`).
 
 ### D125: Where sight words are taught
 - **Question:** Tomorrow Trail carries the full K list. Should Code Crew and Science Launch K to G2 also review sight words daily?
 - **Options:** All K to 2 courses (recommended: a short daily Word Spot) / Tomorrow Trail only.
-- **Choice:** Pending; work proceeds on all K to 2 courses.
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** All K to 2 courses: Tomorrow Trail teaches the K list in full; Code Crew and Science Launch K, G1 and G2 add a daily Word Spot.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Links:** rocket-and-raven-press #74.
 
 ### D126: Rollout of the longer lessons

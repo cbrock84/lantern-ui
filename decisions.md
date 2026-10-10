@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D139 | Open every week to signed-out visitors, or keep the free sign-in after week 4? | Keep sign-in (recommended) / open all weeks | Asked 2026-10-10 in the free-everywhere thread. |
 
 ## Log
 
@@ -888,3 +889,10 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner ("market everything as 100% free, not just previews"), Claude (default: wording and the nav label). **Status:** Decided.
 - **Progress:** Draft PRs: rocketandraven-site #29, lanternlearn-site #17, foxandfernbooks-site #17, rocket-and-raven-press #77. Launch drafts (`/mnt/project-files/launch`) and the social kit (`brand-icons/playground/social`) were updated in place. TPT listings are unchanged because TPT rules bar store links.
 - **Links:** Related: D106, D109.
+
+### D139: Free sign-in after week 4
+- **Question:** Signed-out visitors can open weeks 1 to 4. From week 5 the app asks for a free parent account (no card). Should every week open with no account?
+- **Options:** Keep the free sign-in after week 4: it saves progress and builds the parent list (recommended) / open every week to anyone, with progress saved only after signing in.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** Related: D106, D138.

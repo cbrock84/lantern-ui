@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D135 | Apple Kids Category and age band | Kids, 6-8 (recommended) / Kids, 9-11 / Education only | |
 
 ## Log
 
@@ -908,8 +907,8 @@ Every entry has these fields:
 ### D135: Apple Kids Category and age band
 - **Question:** List the iOS app in Apple's Kids Category, and for which age band? Kids Category rules stick to later updates even if deselected (guideline 1.3), and only Kids apps may say "for kids" in metadata (2.3.8).
 - **Options:** Kids Category, ages 6-8, matching the K-G3 bulk of the catalog (recommended) / Kids Category, ages 9-11 / Education only, not Kids.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Kids Category, ages 6-8.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 4.1.
 
 ### D136: Sign-in inside the apps

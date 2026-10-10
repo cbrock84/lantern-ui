@@ -23,8 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D143 | Does Lantern Learn teach real cooking (heat, knives, tasting)? | No heat, no knives: Kitchen Helper weeks inside Home Helpers (recommended) / separate G3+ Kitchen course with its own food rules / no cooking content | Expansion course study, 2026-10-10 |
-| D144 | How does Backyard Explorer pick a region? | Parent-chosen region on the kid profile, one generated variant per region, Rocket & Raven (recommended) / same under Fox & Fern / one national course | Expansion course study, 2026-10-10 |
 
 ## Log
 
@@ -897,4 +895,20 @@ Every entry has these fields:
 - **Choice:** Per-course exception. Body Lab may use "blood" and heart words; the global rule stays for every other course.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Not started; applies when Body Lab is built (scripts/course-gen rules.mjs needs a per-course allowlist).
+- **Links:** Related: D141.
+
+### D143: Real cooking gets its own Kitchen course
+- **Question:** Four generator rules collide with cooking (a grown-up does anything hot or sharp, nothing is tasted, the allergen list removes dairy, nuts, soy and sesame, shopping words are banned). Does Lantern Learn teach real cooking?
+- **Options:** No heat, no knives: Kitchen Helper weeks inside Home Helpers (recommended) / separate G3+ Kitchen course with its own food rules / no cooking content.
+- **Choice:** A separate Kitchen course for G3 and up under Fox & Fern, with its own food rule set: a grown-up handles heat and knives, tasting is allowed, every recipe carries an allergy-swap note. Needs a liability review before it ships. Home Helpers keeps the no-heat Kitchen Helper weeks for younger children.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started. The generator needs a per-course food rule set (scripts/course-gen rules.mjs, code-crew-lib rules.mjs) before this course can build.
+- **Links:** Related: D141.
+
+### D144: Backyard Explorer picks a region from the kid profile
+- **Question:** How does a regional plants-and-animals course know the family's region, and which imprint owns it?
+- **Options:** Parent-chosen coarse region on the kid profile, the generator builds one variant per region, Rocket & Raven (recommended) / same under Fox & Fern with the Tomorrow Trail animals as guides / one national course where families look up local species.
+- **Choice:** Parent-chosen region on the kid profile (optional, default Whole United States, never zip or city), eight regions grouped from EPA Level III ecoregions, one generated workbook variant per region, Rocket & Raven. Data from public-domain or CC0/CC-BY sources only (USDA PLANTS, GBIF filtered by license, EPA, USFWS, NPS); iNaturalist and eBird excluded by their terms.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started. Needs a `region` field on KidProfile (rocket-and-raven-press src/lib/kids.ts) and catalog logic to pick the variant.
 - **Links:** Related: D141.

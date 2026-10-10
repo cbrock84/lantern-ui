@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D133 | Store accounts as Chris Brock LLC or personal | Organization with D-U-N-S (recommended) / personal | |
 | D134 | Also ship to the Amazon Appstore | Yes, same Android build (recommended) / Google Play only | |
 | D135 | Apple Kids Category and age band | Kids, 6-8 (recommended) / Kids, 9-11 / Education only | |
 
@@ -895,8 +894,9 @@ Every entry has these fields:
 ### D133: Store developer accounts: organization or personal
 - **Question:** Enroll the Apple, Google and Amazon developer accounts as Chris Brock LLC or as Chris personally?
 - **Options:** Organization (Chris Brock LLC) with a free D-U-N-S number; seller shows as the LLC; skips Google's 12-tester, 14-day closed test (recommended) / personal; faster to start, seller shows Chris's own name, Google requires the closed test.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Organization accounts as Chris Brock LLC on Apple, Google and Amazon, using a free D-U-N-S number.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Owner step: request the D-U-N-S number first (plan section 5.0).
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 5.
 
 ### D134: Amazon Appstore

@@ -23,6 +23,10 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D132 | How to package learn.lanternlearn.com as store apps | Capacitor hybrid (recommended) / thin wrapper / native rewrite | Plan: /mnt/project-files/apps/app-store-plan.md |
+| D133 | Store accounts as Chris Brock LLC or personal | Organization with D-U-N-S (recommended) / personal | |
+| D134 | Also ship to the Amazon Appstore | Yes, same Android build (recommended) / Google Play only | |
+| D135 | Apple Kids Category and age band | Kids, 6-8 (recommended) / Kids, 9-11 / Education only | |
 
 ## Log
 
@@ -880,3 +884,48 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner (rejected shape characters, keep the cast), Claude (default: roundels in the new lockups). **Status:** Decided.
 - **Progress:** Draft PRs on branch claude/project-thread-bwq92e in lanternlearn-site, rocketandraven-site, foxandfernbooks-site and rocket-and-raven-press. Social kit regenerated in brand-icons/playground/social. Animated shorts are a separate piece of work.
 - **Links:** Related: D66, D94, D127, D128.
+
+### D132: Packaging for the iOS, Android and Amazon apps
+- **Question:** When the catalog is built out, the owner wants free apps with no ads and no tracking on the App Store, Google Play and the Amazon Appstore. How should the learn app (learn.lanternlearn.com, rocket-and-raven-press) be packaged?
+- **Options:** Capacitor hybrid: native shell with offline packs, native audio and a parental gate, loading the Astro app in app mode (recommended) / thin Capacitor or TWA wrapper of the website (likely rejected by Apple 4.2) / native rewrite in Expo or React Native.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/apps/app-store-plan.md.
+
+### D133: Store developer accounts: organization or personal
+- **Question:** Enroll the Apple, Google and Amazon developer accounts as Chris Brock LLC or as Chris personally?
+- **Options:** Organization (Chris Brock LLC) with a free D-U-N-S number; seller shows as the LLC; skips Google's 12-tester, 14-day closed test (recommended) / personal; faster to start, seller shows Chris's own name, Google requires the closed test.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 5.
+
+### D134: Amazon Appstore
+- **Question:** Amazon's new Alexa Tablets (announced 2026-10-08) run Google Play; the Amazon Appstore still serves existing Fire tablets. Ship to the Amazon Appstore too?
+- **Options:** Yes, same Android build as a signed APK; $0 account (recommended) / Google Play only.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 5.3.
+
+### D135: Apple Kids Category and age band
+- **Question:** List the iOS app in Apple's Kids Category, and for which age band? Kids Category rules stick to later updates even if deselected (guideline 1.3), and only Kids apps may say "for kids" in metadata (2.3.8).
+- **Options:** Kids Category, ages 6-8, matching the K-G3 bulk of the catalog (recommended) / Kids Category, ages 9-11 / Education only, not Kids.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 4.1.
+
+### D136: Sign-in inside the apps
+- **Question:** Sign-in is an email magic link, which opens in the phone's browser and can't be used by App Review. How do people sign in inside the apps?
+- **Options:** Add a 6-digit code to the existing sign-in email, typed into the app, plus a documented review account (recommended) / universal links and App Links / passwords.
+- **Choice:** 6-digit email code plus a review account; universal links later.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Not started; part of the app build.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 3.4.
+
+### D137: App mode on learn.lanternlearn.com
+- **Question:** What changes when the learn app runs inside the store apps?
+- **Options:** Not recorded beyond the choice.
+- **Choice:** The shell tags its user agent `LanternLearnApp/<version>`. In app mode: no GA4, Meta Pixel or consent banner; no store, checkout, pricing or marketing links; every link out, mailto, legal page and settings screen sits behind a native parental gate; start at /dashboard. The websites keep GA4 as decided in D2.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Not started; part of the app build.
+- **Links:** /mnt/project-files/apps/app-store-plan.md sections 3.2, 3.3. Related: D2, D106.
+

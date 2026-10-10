@@ -1454,3 +1454,11 @@ Every entry has these fields:
 - **Choice:** Pending; built without coins.
 - **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
 - **Links:** rocket-and-raven-press #100. Related: D247, D248.
+
+### D251: Number Trail Grades 3 to 5
+- **Question:** How should Number Trail extend past Grade 2, and with what checks?
+- **Options:** One 12-week course per grade (math-g3, math-g4, math-g5), all Common Core 3 to 5 clusters, exact computed answers (chosen) / One combined Grades 3 to 5 course / Stop at Grade 2.
+- **Choice:** One course per grade, same series, cast and day shape. Sequence follows the CCSS domains per grade (PLAN.md in each course). Sources: CCSS Grades 3 to 5, WWC practice guides 26 (struggling students, K to 6) and 15 (fractions, K to 8). Answers are computed in exact fractions and the build fails on a wrong answer, a second right choice, or a wrong true/false number sentence. Money stays out (4.MD.A.2 uses distance, time, volume and mass instead; see D250).
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Courses being written.
+- **Links:** rocket-and-raven-press (PR to follow). Related: D247, D248, D249, D250.

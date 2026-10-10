@@ -23,6 +23,10 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D168 | How long should the adult Applied AI course be? | 8 weeks (recommended) / 6 weeks / 12 weeks | Building on 8 weeks until answered. |
+| D169 | How are the parent, teacher and business tracks delivered? | One course with track days (recommended) / three courses / parent track first (D145) | Building one course until answered. |
+| D170 | Can adult learners use their own AI tool in Saturday "Try it" tasks? | Optional after the never-paste checklist (recommended) / offline only | Every task also works on paper. |
+| D171 | Which brand does the adult Applied AI course carry? | Lantern Learn, no cast (recommended) / Rocket & Raven with Nova | |
 | D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built but held: no lesson is reachable (press #86) until this is answered. |
 | D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
 | D163 | Which healthy-eating guide does the Kitchen course teach? | Colorful produce only (recommended) / MyPlate / New Pyramid | Built on the recommended option. |
@@ -1207,3 +1211,38 @@ Every entry has these fields:
 - **Choice:** Each workbook is written to `dist/wb-data/<slug>.<hash>.json` at build time and read through the Pages ASSETS binding with a per-isolate cache; a `/wb-data/` route returns 404 so the files are not public. New courses register in `BUNDLED_WORKBOOK_SLUGS` and use the async loaders. Worker went from 25.0 MB to 7 MB.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** rocket-and-raven-press #82.
+
+### D168: Applied AI course length
+- **Question:** How long should the adult "Applied AI for parents, teachers and small business" course be?
+- **Options:** 8 weeks, about 15 minutes a day, ending with a one-page AI plan (recommended) / 6 weeks / 12 weeks to match AI Explorers.
+- **Choice:** Pending; building on 8 weeks.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D169: Applied AI track delivery
+- **Question:** How are the parent, teacher and small-business tracks delivered?
+- **Options:** One course with a track section each Thursday (recommended) / three separate courses / parent track first, as D145's roadmap said.
+- **Choice:** Pending; building one course with track days.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D170: Learners' own AI tools in "Try it" tasks
+- **Question:** Can adult learners use their own AI tool in the Saturday "Try it" tasks?
+- **Options:** Optional, after the never-paste checklist, and every task also works on paper (recommended) / offline only.
+- **Choice:** Pending. Either way the course itself never embeds or calls an AI service (D157 style).
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D171: Applied AI brand
+- **Question:** Which brand does the adult Applied AI course carry?
+- **Options:** Lantern Learn with no kid cast (recommended) / Rocket & Raven with Nova.
+- **Choice:** Pending; building as Lantern Learn.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D172: Applied AI certificate
+- **Question:** Does the adult Applied AI course give a completion certificate?
+- **Options:** None offered (Claude default).
+- **Choice:** Yes, the platform's existing completion certificate, like the kids' courses.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.

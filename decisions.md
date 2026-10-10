@@ -1035,9 +1035,10 @@ Every entry has these fields:
 - **Progress:** roadmap.md written. AI Explorers is queued after D141.
 - **Links:** roadmap.md; https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D106, D138, D141.
 
-### D146: ESA vendor registration parked
+### D146: ESA vendor registration: research and plan
 - **Question:** Register as an education savings account (ESA) vendor in two or three states for paid add-ons (printed packs, live help, a family pass) while every course stays free?
 - **Options:** Yes, Arizona (ClassWallet) and Texas (Odyssey) first (recommended) / yes, later / no.
-- **Choice:** Not now. Parked; stays in roadmap.md as a later step with no work scheduled.
-- **Date:** 2026-10-10. **Decided by:** owner ("Not now" on the project-chat card). **Status:** Decided.
+- **Choice:** Yes, researching. The owner first parked it ("not now"), then reversed the same day and asked for a thread to research and plan taking Lantern Learn to the ESA states. Which states come first is part of that plan.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Plan in progress in the "ESA states expansion plan" thread; it will add its plan to roadmap.md.
 - **Links:** roadmap.md. Related: D106, D138, D145.

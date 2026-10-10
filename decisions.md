@@ -1007,9 +1007,9 @@ Every entry has these fields:
 - **Question:** The course generator's violence check bans the word "blood" in every course, which blocks teaching circulation in a human body course. How should Body Lab handle it?
 - **Options:** Per-course exception for Body Lab, global ban kept elsewhere (recommended) / keep the ban and write around it / skip circulation.
 - **Choice:** Per-course exception. Body Lab may use "blood" and heart words; the global rule stays for every other course.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Not started; applies when Body Lab is built (scripts/course-gen rules.mjs needs a per-course allowlist).
-- **Links:** Related: D141.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** `WORD_EXCEPTIONS` in rocket-and-raven-press scripts/course-gen/rules.mjs allows "blood" for body-lab-k2 and body-lab-g3-5 only, with a unit test; the rest of the violence list still applies to them.
+- **Links:** rocket-and-raven-press #80. Related: D141, D154.
 
 ### D143: Real cooking gets its own Kitchen course
 - **Question:** Four generator rules collide with cooking (a grown-up does anything hot or sharp, nothing is tasted, the allergen list removes dairy, nuts, soy and sesame, shopping words are banned). Does Lantern Learn teach real cooking?
@@ -1097,3 +1097,11 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Pack products, store gate and admin pack grant built in rocket-and-raven-press; the store opens once the owner creates the $15 Stripe price. 16 full-course PDFs built (scripts/print-packs) and uploaded to R2. Parked 2026-10-10 by the owner (prioritize expansion and course content): press #79 stays unmerged and the store stays hidden; no Stripe price yet.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. rocket-and-raven-press #79. Related: D148, D151, D152.
+
+### D154: Body Lab course shape
+- **Question:** How Body Lab is built: course split, reading level, sight words and catalog grade.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Rocket & Raven courses in a new Body Lab series: Body Lab K to 2 (`body-lab-k2`, Grade 1 reading level, tap-only, daily Word Spot on the Grade 1 Dolch + Fry list) and Body Lab Grades 3 to 5 (`body-lab-g3-5`, Grade 3 reading level, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Body Lab Day". Course meta gains an optional `grades` list so the catalog grade filter finds each course under every grade it covers and the card shows "Grades K to 2". Covers and heroes made in Higgsfield from the existing Rocket, Raven and Nova art. No injuries, illness, private anatomy, dairy foods or questions about a child's own body.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge.
+- **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19. Related: D141, D142.

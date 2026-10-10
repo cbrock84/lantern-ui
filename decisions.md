@@ -1193,8 +1193,8 @@ Every entry has these fields:
 - **Question:** How Bike Shop (the G3+ reframe of the deferred vehicle-repair idea in the expansion study, D141) is built: grades, reading level, safety rules and standards.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in a new Bike Shop series: Bike Shop Grades 3 to 5 (`bike-shop-g3-5`, Grade 3 reading level, typed answers allowed), 12 weeks, 15-minute days (10+ minutes enforced), Saturday "Bike Shop Day". Weeks: parts and jobs, forces, friction, tires and air, gears and chain, patterns of motion, brakes, fit and helmets, being seen, a flat tire, the pre-ride quick check, and a design capstone. NGSS 3-PS2-1, 3-PS2-2, 4-PS4-2 and 3-5-ETS1-1 to 3. Safety: bike work only with the bike standing still; a grown-up holds and turns the bike and handles every tool, pump gauge and chain oil; hands away from chain, gears and spokes when anything turns; helmet for every ride and riding only where a grown-up says; no traffic-rule teaching beyond sourced pages. Every activity has a no-bike path. Kids' own measurements go in ungraded blocks. Cover and hero made in Higgsfield from the existing Rocket, Raven and Nova art.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; live once the PRs below merge. Numbered D165 because D161 to D164 were taken by the Kitchen thread's decision cards.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/bike-shop-g3-5, rocketandraven.com and lanternlearn.com. Numbered D165 because D161 to D164 were taken by the Kitchen thread's decision cards.
 - **Links:** rocket-and-raven-press #85, rocketandraven-site #36, lanternlearn-site #29. Related: D141, D160.
 
 ### D166: Kitchen course shape
@@ -1246,3 +1246,11 @@ Every entry has these fields:
 - **Choice:** Yes, the platform's existing completion certificate, like the kids' courses.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D173: AI Explorers Grades 6 to 8 course shape
+- **Question:** How the first course in the roadmap's grades 6-8 lane (D145) is built: AI Explorers for middle school.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in the AI Explorers series: AI Explorers Grades 6 to 8 (`ai-explorers-g6-8`, G6+ reading level, 22-word sentences), 12 weeks, about 20-minute days (10+ enforced), Wednesday Explorer Lab and Saturday Explorer Quest like Grades 3-5. Same D157 rules: unplugged, no live AI tool, every fact about real AI from a fact bank in SOURCES.md (AI4K12, NIST AI 100-1, NIST AI 600-1, CSTA). Running thread: Sky Sorter, a paper classifier for telescope snapshots (encode, features, decision tree as flowchart and pseudocode, train/test/refine, bias), then generative AI as next-word prediction, confabulation, automation bias, synthetic media, privacy trade-offs and an AI review board using NIST's trustworthy-AI characteristics. CSTA 2-CS-02, 2-DA-07 to 09, 2-AP-10, 2-AP-15, 2-IC-20, 2-IC-21, 2-IC-23, 2-NI-05. Meta `grade_band` is `all-ages` with "Grades 6 to 8" in the title (like Code Crew G6+), since the grade filter stops at G5. Cover and hero from the existing cast in Higgsfield, at their canonical bible ages (about 10 to 12).
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge.
+- **Links:** rocket-and-raven-press #87. Related: D145, D156, D157.

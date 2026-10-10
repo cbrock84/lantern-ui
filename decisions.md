@@ -1105,3 +1105,18 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Built; live once the PRs below merge.
 - **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19. Related: D141, D142.
+
+### D156: AI Explorers course shape
+- **Question:** How AI Explorers (K-5 AI literacy, roadmap stage Now) is built: course split, imprint, series, reading level, standards and art.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Rocket & Raven courses in a new AI Explorers series, kept off the Code Crew rank ladder: AI Explorers K-2 (`ai-explorers-k2`, K reading level, tap-only, daily Word Spot on the K Dolch + Fry list) and AI Explorers Grades 3-5 (`ai-explorers-g3-5`, Grade 3 reading level, typed answers allowed, running thread: the crew trains and tests a paper sorting model for mission photos). 12 weeks each, 15-minute days (every day 11+ minutes by the audit), Saturday "Explorer Quest". Nova guides. Each week maps to a CSTA 2017 code, and the arc follows the AI4K12 Five Big Ideas. Covers and heroes were made in Higgsfield from the existing crew art. Marketing copy says 100% free.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge. After Body Lab (D154) lands, adopt its optional `grades` field so the catalog grade filter lists each course under every grade it covers.
+- **Links:** rocket-and-raven-press #82, rocketandraven-site #33, lanternlearn-site (home tile). Research: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D145, D138, D147.
+
+### D157: AI Explorers safety and fact rules
+- **Question:** Do children use a real AI tool in AI Explorers, and how are AI facts checked?
+- **Options:** None offered (Claude default).
+- **Choice:** Fully unplugged. No lesson connects a child to a chatbot, image generator or any live AI. Nova is a story character, and the lessons say AI is a tool people build that can be wrong. Each course's `SOURCES.md` holds a fact bank (AI4K12, NIST AI 100-1 and 600-1, SUNY Geneseo, Gordon College, CSTA). A claim about AI that is not in the fact bank stays out of the lessons. A privacy fact that rested on the FTC COPPA page was dropped because that page could not be fetched.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #82 (`scripts/course-gen/courses/ai-explorers-*/SOURCES.md`). Related: D156.

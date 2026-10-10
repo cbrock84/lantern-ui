@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D139 | Open every week to signed-out visitors, or keep the free sign-in after week 4? | Keep sign-in (recommended) / open all weeks | Asked 2026-10-10 in the free-everywhere thread. |
 
 ## Log
 
@@ -893,6 +892,7 @@ Every entry has these fields:
 ### D139: Free sign-in after week 4
 - **Question:** Signed-out visitors can open weeks 1 to 4. From week 5 the app asks for a free parent account (no card). Should every week open with no account?
 - **Options:** Keep the free sign-in after week 4: it saves progress and builds the parent list (recommended) / open every week to anyone, with progress saved only after signing in.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Open all weeks. While `FREE_ACCESS_MODE` is on, every week of every course opens for anyone, signed in or not. A free parent account only saves progress.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** rocket-and-raven-press PR (checkWeekAccess opens every week in free mode; tests updated).
 - **Links:** Related: D106, D138.

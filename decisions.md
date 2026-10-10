@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D128 | Order of multiple-choice answers (right answer usually listed first) | Shuffle in the app (recommended) / reorder in course files / leave | Asked 2026-10-10 |
 
 ## Log
 
@@ -862,7 +863,7 @@ Every entry has these fields:
 - **Options:** Floor of 10 minutes for every day, target 10 to 15 for K to G2 and 15 to 20 for G3+ (keeps the grade-banded time chosen earlier), checked by an estimator / one flat 10 to 15 for all / no automated check.
 - **Choice:** Floor of 10 minutes for every day (weekdays and the weekend day); target 10 to 15 for K to G2, 15 to 20 for G3+. `scripts/course-audit/minutes.mjs` in rocket-and-raven-press estimates minutes from the built workbook (narration or reading time plus a fixed time per checked item and open task); `test/unit/lesson-length.test.mjs` holds each expanded course to the floor in CI.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Audit: 887 of 972 weekday lessons were under 10 minutes. Tomorrow Trail done (every day 11 to 25 minutes). Other courses in progress.
+- **Progress:** Audit: 887 of 972 weekday lessons were under 10 minutes. All 16 courses expanded on 2026-10-10: every day of every course is now 10.3 minutes or more (course medians 11.3 to 15.4). CI holds every course to the floor. Most G3+ weekdays sit at 11 to 14 minutes, under the 15 to 20 target.
 - **Links:** rocket-and-raven-press #74; /mnt/project-files/lessons/2026-10-10-lesson-length-audit.md.
 
 ### D124: Sight-word list
@@ -870,7 +871,7 @@ Every entry has these fields:
 - **Options:** Dolch by grade (recommended: Pre-primer and Primer for K, Grade 1, Grade 2) / Fry first 300 / both merged.
 - **Choice:** Both, merged. Dolch by grade, plus the Fry first 300 words Dolch lacks: Fry First 100 into K (17 words), Second 100 into G1 (55), Third 100 into G2 (78), added after each week's Dolch words. Left out: "buy" (money-word rule), "American" and "Indians" (proper nouns), and the Dolch noun list. The Fry source printing lists 96 words in its third 100. Words are taught look, say, spell, find, then read in a sentence.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Plans in `scripts/sight-words/` (K 109 words, G1 96, G2 124). Live in Tomorrow Trail and Science Launch K to G2; Code Crew K to G2 in progress.
+- **Progress:** Plans in `scripts/sight-words/` (K 109 words, G1 96, G2 124). Live in Tomorrow Trail (full K list), and as a daily Word Spot in Code Crew K, G1, G2 and Science Launch K, G1, G2.
 - **Links:** rocket-and-raven-press #74 (`scripts/sight-words/`).
 
 ### D125: Where sight words are taught

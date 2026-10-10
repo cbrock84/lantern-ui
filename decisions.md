@@ -1267,22 +1267,22 @@ Every entry has these fields:
 - **Question:** How the first course in the roadmap's high-school lane (D145) is built.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in the Code Crew series: Intro to Computer Science Grades 9 to 10 (`intro-cs-g9-10`, G6+ reading level, the top band), 12 weeks, about 20-minute days (10+ enforced), a Wednesday Beacon Lab and a Saturday Mission Quest. It is unplugged, written in pseudocode in the AP CSP reference-sheet style, and needs no accounts, apps or AI tools. Security lessons are defensive only. Running thread: Beacon, a paper app for the crew's Moon greenhouse, taken from requirements through pseudocode, search, testing, binary, compression, packets and a launch review. Every computing fact comes from the SOURCES.md fact bank (CSTA 2017 standards, AP CSP Course and Exam Description, Fall 2023). Title follows the "Grades 6 to 8" pattern. Meta `grade_band` is `all-ages`, since the grade filter stops at G5. The course-gen build now knows the 30 CSTA Level 3A codes.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; live once the PRs below merge.
-- **Links:** rocket-and-raven-press #89. Related: D145, D174, D176, D177.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/intro-cs-g9-10, lanternlearn.com/courses/intro-cs-g9-10/ and the rocketandraven.com home page. Listed under the Mission Commander rank so /courses shows it.
+- **Links:** rocket-and-raven-press #89, lanternlearn-site #33, rocketandraven-site #38. Related: D145, D174, D176, D177.
 
 ### D176: Which CSTA standards the high-school course uses
 - **Question:** CSTA published new 2026 PK-12 standards with new codes. Which set does Intro to Computer Science map to?
 - **Options:** None offered (Claude default). Alternatives: wait for and map to the 2026 standards; list both.
 - **Choice:** The 2017 Level 3A codes, which the build, every other course and the AP crosswalks use, and which were verified against the source. The 2026 codes were not verified; revisit when they are mapped.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** rocket-and-raven-press #89. Related: D175.
 
 ### D177: How the high-school course describes its alignment
 - **Question:** How course pages describe the link to CSTA and AP Computer Science Principles.
 - **Options:** None offered (Claude default). Alternative: say "aligned to", which CSTA reserves for courses through its paid review (currently paused); only an audited school course may be labeled AP.
 - **Choice:** "Covers the five big ideas of AP Computer Science Principles and practices CSTA Level 3A standards", plus "not an AP course and not affiliated with College Board". Never "aligned to" or "AP course".
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** rocket-and-raven-press #89. Related: D175.
 
 ### D178: Backyard Explorer course shape, region field and field guide

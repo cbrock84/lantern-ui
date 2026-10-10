@@ -893,8 +893,8 @@ Every entry has these fields:
 - **Question:** Enroll the Apple, Google and Amazon developer accounts as Chris Brock LLC or as Chris personally?
 - **Options:** Organization (Chris Brock LLC) with a free D-U-N-S number; seller shows as the LLC; skips Google's 12-tester, 14-day closed test (recommended) / personal; faster to start, seller shows Chris's own name, Google requires the closed test.
 - **Choice:** Organization accounts as Chris Brock LLC on Apple, Google and Amazon, using a free D-U-N-S number.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Owner reported 2026-10-10 that the Apple developer registration for Chris Brock LLC is approved and active (so the D-U-N-S number exists). Google Play and Amazon enrollment not yet confirmed.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** Done in practice. All three organization accounts already exist for Chris Brock LLC: Apple approved 2026-08-10, Google Play and Amazon registered, D-U-N-S verified against the Georgia filing (games-v1 `docs/store-accounts.md`; owner confirmed Apple 2026-10-10). Lantern Learn gets its own app record in each.
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 5.
 
 ### D134: Amazon Appstore
@@ -927,3 +927,9 @@ Every entry has these fields:
 - **Progress:** Not started; part of the app build.
 - **Links:** /mnt/project-files/apps/app-store-plan.md sections 3.2, 3.3. Related: D2, D106.
 
+### D138: Bundle id for the Lantern Learn apps
+- **Question:** Which bundle id / package name do the iOS, Android and Amazon apps use? It is permanent once submitted and never shown to users.
+- **Options:** `io.chrisbrock.lanternlearn`, following the `io.chrisbrock.<title>` convention every Chris Brock LLC app already uses (recommended) / `com.lanternlearn.app`.
+- **Choice:** `io.chrisbrock.lanternlearn`, with `.dev` and `.staging` suffixes for test builds; same id on all three stores.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 3.5; games-v1 `docs/store-accounts.md` (bundle identifiers).

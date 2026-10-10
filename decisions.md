@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D174 | How should Rocket and Raven appear in the high-school Intro to Computer Science course? | Keep bible ages (recommended) / Age up with a bible amendment / New older characters | Built on the recommended option. |
 | D168 | How long should the adult Applied AI course be? | 8 weeks (recommended) / 6 weeks / 12 weeks | Building on 8 weeks until answered. |
 | D169 | How are the parent, teacher and business tracks delivered? | One course with track days (recommended) / three courses / parent track first (D145) | Building one course until answered. |
 | D170 | Can adult learners use their own AI tool in Saturday "Try it" tasks? | Optional after the never-paste checklist (recommended) / offline only | Every task also works on paper. |
@@ -1032,8 +1033,8 @@ Every entry has these fields:
 - **Options:** Parent-chosen coarse region on the kid profile, the generator builds one variant per region, Rocket & Raven (recommended) / same under Fox & Fern with the Tomorrow Trail animals as guides / one national course where families look up local species.
 - **Choice:** Parent-chosen region on the kid profile (optional, default Whole United States, never zip or city), eight regions grouped from EPA Level III ecoregions, one generated workbook variant per region, Rocket & Raven. Data from public-domain or CC0/CC-BY sources only (USDA PLANTS, GBIF filtered by license, EPA, USFWS, NPS); iNaturalist and eBird excluded by their terms.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Built under D174 with one refinement: one workbook per course and a render-time field guide instead of a variant per region.
-- **Links:** Related: D141, D174.
+- **Progress:** Built under D178 with one refinement: one workbook per course and a render-time field guide instead of a variant per region.
+- **Links:** Related: D141, D178.
 
 ### D145: Roadmap: K-12 through adult, steered by web signals
 - **Question:** The owner's long-term objective is to expand through high school and into adult training (coding and more), with young children as the early focus. A web scan on 2026-10-10 found the signals to steer by. How are they cemented into the plan?
@@ -1193,8 +1194,8 @@ Every entry has these fields:
 - **Question:** How Bike Shop (the G3+ reframe of the deferred vehicle-repair idea in the expansion study, D141) is built: grades, reading level, safety rules and standards.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in a new Bike Shop series: Bike Shop Grades 3 to 5 (`bike-shop-g3-5`, Grade 3 reading level, typed answers allowed), 12 weeks, 15-minute days (10+ minutes enforced), Saturday "Bike Shop Day". Weeks: parts and jobs, forces, friction, tires and air, gears and chain, patterns of motion, brakes, fit and helmets, being seen, a flat tire, the pre-ride quick check, and a design capstone. NGSS 3-PS2-1, 3-PS2-2, 4-PS4-2 and 3-5-ETS1-1 to 3. Safety: bike work only with the bike standing still; a grown-up holds and turns the bike and handles every tool, pump gauge and chain oil; hands away from chain, gears and spokes when anything turns; helmet for every ride and riding only where a grown-up says; no traffic-rule teaching beyond sourced pages. Every activity has a no-bike path. Kids' own measurements go in ungraded blocks. Cover and hero made in Higgsfield from the existing Rocket, Raven and Nova art.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; live once the PRs below merge. Numbered D165 because D161 to D164 were taken by the Kitchen thread's decision cards.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/bike-shop-g3-5, rocketandraven.com and lanternlearn.com. Numbered D165 because D161 to D164 were taken by the Kitchen thread's decision cards.
 - **Links:** rocket-and-raven-press #85, rocketandraven-site #36, lanternlearn-site #29. Related: D141, D160.
 
 ### D166: Kitchen course shape
@@ -1247,7 +1248,44 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
 
-### D174: Backyard Explorer course shape, region field and field guide
+### D173: AI Explorers Grades 6 to 8 course shape
+- **Question:** How the first course in the roadmap's grades 6-8 lane (D145) is built: AI Explorers for middle school.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in the AI Explorers series: AI Explorers Grades 6 to 8 (`ai-explorers-g6-8`, G6+ reading level, 22-word sentences), 12 weeks, about 20-minute days (10+ enforced), Wednesday Explorer Lab and Saturday Explorer Quest like Grades 3-5. Same D157 rules: unplugged, no live AI tool, every fact about real AI from a fact bank in SOURCES.md (AI4K12, NIST AI 100-1, NIST AI 600-1, CSTA). Running thread: Sky Sorter, a paper classifier for telescope snapshots (encode, features, decision tree as flowchart and pseudocode, train/test/refine, bias), then generative AI as next-word prediction, confabulation, automation bias, synthetic media, privacy trade-offs and an AI review board using NIST's trustworthy-AI characteristics. CSTA 2-CS-02, 2-DA-07 to 09, 2-AP-10, 2-AP-15, 2-IC-20, 2-IC-21, 2-IC-23, 2-NI-05. Meta `grade_band` is `all-ages` with "Grades 6 to 8" in the title (like Code Crew G6+), since the grade filter stops at G5. Cover and hero from the existing cast in Higgsfield, at their canonical bible ages (about 10 to 12).
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com, rocketandraven.com/series/ai-explorers/ and lanternlearn.com.
+- **Links:** rocket-and-raven-press #87, lanternlearn-site #30, rocketandraven-site #37. Related: D145, D156, D157.
+
+### D174: Cast ages in the high-school course
+- **Question:** The bible fixes Rocket and Raven at about 10 to 12, but Intro to Computer Science Grades 9 to 10 is for ages 14 to 16. How should the cast appear?
+- **Options:** Keep bible ages; the cast is the crew whose app the learner builds and reviews (recommended) / Age the cast up for grades 9 and up, with a bible amendment and new reference art / A new older cast for the high-school lane.
+- **Choice:** Pending. Built on "keep bible ages" until answered.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #89. Related: D145, D175.
+
+### D175: Intro to Computer Science Grades 9 to 10 course shape
+- **Question:** How the first course in the roadmap's high-school lane (D145) is built.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in the Code Crew series: Intro to Computer Science Grades 9 to 10 (`intro-cs-g9-10`, G6+ reading level, the top band), 12 weeks, about 20-minute days (10+ enforced), a Wednesday Beacon Lab and a Saturday Mission Quest. It is unplugged, written in pseudocode in the AP CSP reference-sheet style, and needs no accounts, apps or AI tools. Security lessons are defensive only. Running thread: Beacon, a paper app for the crew's Moon greenhouse, taken from requirements through pseudocode, search, testing, binary, compression, packets and a launch review. Every computing fact comes from the SOURCES.md fact bank (CSTA 2017 standards, AP CSP Course and Exam Description, Fall 2023). Title follows the "Grades 6 to 8" pattern. Meta `grade_band` is `all-ages`, since the grade filter stops at G5. The course-gen build now knows the 30 CSTA Level 3A codes.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge.
+- **Links:** rocket-and-raven-press #89. Related: D145, D174, D176, D177.
+
+### D176: Which CSTA standards the high-school course uses
+- **Question:** CSTA published new 2026 PK-12 standards with new codes. Which set does Intro to Computer Science map to?
+- **Options:** None offered (Claude default). Alternatives: wait for and map to the 2026 standards; list both.
+- **Choice:** The 2017 Level 3A codes, which the build, every other course and the AP crosswalks use, and which were verified against the source. The 2026 codes were not verified; revisit when they are mapped.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #89. Related: D175.
+
+### D177: How the high-school course describes its alignment
+- **Question:** How course pages describe the link to CSTA and AP Computer Science Principles.
+- **Options:** None offered (Claude default). Alternative: say "aligned to", which CSTA reserves for courses through its paid review (currently paused); only an audited school course may be labeled AP.
+- **Choice:** "Covers the five big ideas of AP Computer Science Principles and practices CSTA Level 3A standards", plus "not an AP course and not affiliated with College Board". Never "aligned to" or "AP course".
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #89. Related: D175.
+
+### D178: Backyard Explorer course shape, region field and field guide
 - **Question:** How Backyard Explorer (D144, roadmap stage Now) is built: course split, reading level, how the region reaches the lesson, where the species lists come from, standards and artwork.
 - **Options:** None offered (Claude default). One point refines D144: D144 planned one generated workbook variant per region; this builds one workbook per course with a `field_guide` block that fills in at render time from the resolved region, so the lessons stay identical everywhere and only the species table changes.
 - **Choice:** Two Rocket & Raven science courses in a new Backyard Explorer series: Backyard Explorer: Kindergarten to Grade 2 (`backyard-explorer-k2`, Grade 1 reading cap, tap-only, daily Word Spot on the Grade 1 list, Saturday "Explorer Day") and Backyard Explorer: Grades 3 to 5 (`backyard-explorer-g3-5`, Grade 3 reading cap, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced). Weeks: explorer eyes and the sit spot, birds, insects, plants, mammals, reptiles and amphibians, animal homes, weather, young and grown-up, seasons, counting and comparing, explorer badge (K-2); the field notebook, habitat maps, birds, insects and pollinators, plants, signs and safety, food webs, living in groups, life cycles, seasons and migration, when habitats change, citizen scientist (3-5). Region: an optional `region` field on the kid profile (nine coarse regions: Whole United States, Northeast and Great Lakes, Southeast, Great Plains and Texas, Mountain West, Desert Southwest, Pacific Coast, Alaska, Hawaii; default Whole United States; never a town or ZIP), set when a kid is created or from the kid page; a lesson page resolves `?region=` first, then the active kid's region, then Whole United States, and the field-guide block carries a region picker. Species lists: the top species per region and group (birds, mammals, insects, reptiles, amphibians, plants) by GBIF human-observation record counts in the region's states, carrying only names and the months with the most records; no habits, sizes or other facts. Lessons never grade a question on the list (regions differ), only open tasks use it. Safety block on every outdoor day: look, do not touch; a grown-up comes along; no eating anything found. Standards: NGSS K-LS1-1, K-ESS2-1, K-ESS3-1, K-ESS3-3, 1-LS1-1, 1-LS3-1, 1-ESS1-2, 2-LS4-1, 3-LS1-1, 3-LS2-1, 3-LS4-3, 3-LS4-4, 4-LS1-1, 4-LS1-2, 5-LS1-1, 5-LS2-1, 5-ESS3-1 (one CCSS code, 3.MD.B.3, on the graphing week). "Milk" is an allergen-rule word, so mammals "nurse" their young. Art: covers, heroes and one lesson illustration per week (24) generated in Higgsfield from the Rocket, Raven and Nova references; three renders (flat colour band, wrong outfits, quadcopter Nova) were redone.

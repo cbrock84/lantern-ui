@@ -9,6 +9,7 @@ import SeoHead from '../components/SeoHead.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import FamilyBar from '../components/FamilyBar.astro';
+import Playground from '../components/Playground.astro';
 
 export interface Props {
   site: SiteConfig;
@@ -44,5 +45,6 @@ const { site, bodyClass = '', ...seo } = Astro.props;
     <SiteFooter site={site}>
       <slot name="brand" slot="brand" />
     </SiteFooter>
+    <Playground />
   </body>
 </html>

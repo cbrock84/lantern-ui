@@ -26,9 +26,9 @@ test('head: favicon.ico before the SVG icon, plus manifest (D120)', () => {
 });
 
 test('design system: base frame and imprint skin vars, family bar (D57-D59)', () => {
-  assert.match(home, /--ll-base-bg:250 246 233;/);
+  assert.match(home, /--ll-base-bg:238 244 255;/);
   assert.match(home, /--ll-skin-display:"Fredoka", system-ui, sans-serif;/);
-  assert.match(home, /--ll-radius:18px;/);
+  assert.match(home, /--ll-radius:22px;/);
   const bar = home.slice(home.indexOf('<nav class="ll-family-bar'), home.indexOf('</nav>', home.indexOf('<nav class="ll-family-bar')));
   assert.ok(bar.length > 0, 'family bar present');
   for (const url of ['https://lanternlearn.com', 'https://rocketandraven.com', 'https://foxandfernbooks.com', 'https://learn.lanternlearn.com/courses', 'https://learn.lanternlearn.com/login']) {
@@ -37,7 +37,7 @@ test('design system: base frame and imprint skin vars, family bar (D57-D59)', ()
   assert.match(bar, /href="https:\/\/foxandfernbooks.com"[^>]*aria-current="page"/);
   assert.ok(!home.includes('hollyandhare.com'), 'Holly & Hare is sunset (D103)');
   assert.ok(home.indexOf('ll-family-bar') < home.indexOf('<header'), 'bar sits above the header');
-  assert.match(home, /<header class="[^"]*bg-base-surface/);
+  assert.match(home, /<header class="[^"]*bg-base-bg/);
   assert.match(home, /<footer class="[^"]*bg-base-footer-bg/);
 });
 
@@ -52,7 +52,7 @@ test('header: text wordmark fallback, custom logo slot, CTA and active link', ()
   const custom = page('custom-logo/index.html');
   assert.match(custom, /id="custom-wordmark"/);
   assert.doesNotMatch(custom, /font-site-display text-2xl/);
-  assert.match(home, /<a href="\/start"[^>]*bg-base-accent[^>]*>Get started<\/a>/);
+  assert.match(home, /<a href="\/start"[^>]*pg-btn pg-btn--brand[^>]*>Get started<\/a>/);
   assert.match(post, /<a href="\/blog"[^>]*aria-current="page"/);
   assert.doesNotMatch(home, /<a href="\/blog"[^>]*aria-current="page"/);
 });
@@ -69,6 +69,12 @@ test('header: phone menu button controls the main nav (D63)', () => {
   const script = home.slice(home.indexOf(`<nav id="${id}"`), home.indexOf('</header>'));
   assert.match(script, /<script data-astro-rerun>\(function initMenu\([\s\S]*document\.currentScript\.parentElement\);<\/script>/);
   assert.doesNotMatch(home, /<header[^>]*data-menu=/, 'no JS: header is not collapsible');
+});
+
+test('Playground kit (D127): clay styles and motion script ship once per page', () => {
+  assert.equal(home.split('window.__pg').length - 1, 2, 'one guarded script');
+  assert.match(home, /--ll-pg-grape:106 76 240;/);
+  assert.ok(home.indexOf('window.__pg') > home.indexOf('<footer'), 'script after the footer');
 });
 
 test('footer: every other family site, never the current one, plus the imprint line', () => {
@@ -104,7 +110,7 @@ test('blog index lists the article with its source count', () => {
 test('Tailwind emitted the preset utilities backed by --ll-* variables', () => {
   const cssDir = new URL('_astro/', dist);
   const css = readdirSync(cssDir).filter((f) => f.endsWith('.css')).map((f) => readFileSync(new URL(f, cssDir), 'utf8')).join('');
-  for (const rule of ['.bg-site-bg{', '.text-site-accent{', '.bg-base-footer-bg{', '.bg-base-surface{', '.font-base{', '.font-site-display{', '.prose-site{']) {
+  for (const rule of ['.bg-site-bg{', '.text-site-accent{', '.bg-base-footer-bg{', '.bg-base-bg{', '.font-base{', '.font-site-display{', '.prose-site{']) {
     assert.ok(css.includes(rule), rule);
   }
   assert.match(css, /rgb\(var\(--ll-bg\) \/ var\(--tw-bg-opacity/);

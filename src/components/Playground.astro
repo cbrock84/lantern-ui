@@ -1,0 +1,76 @@
+---
+/**
+ * The Playground kit (D127): shared clay styles and motion for every Lantern
+ * Learn site. SiteLayout includes it once per page. Pages opt in with classes
+ * and data attributes, so nothing moves unless a page asks for it:
+ *
+ * - `.pg-clay`            clay surface (inner highlight, lifted shadow)
+ * - `.pg-btn`             clay button; add `.pg-btn--brand`, `--accent`, `--light`
+ * - `.pg-tile`            squishy bento tile; set `--pg-tilt` for its hover lean
+ * - `.pg-block-<name>`    a Playground block colour with its readable text colour
+ * - `[data-pg-bounce]`    headline whose letters drop in and bounce on hover
+ * - `[data-pg-marquee]`   endless scrolling strip; children are the items
+ * - `[data-pg-blobs]`     a hero that gets floating clay shapes which dodge the pointer
+ * - `[data-pg-pop]`       link or button that bursts confetti when pressed
+ *
+ * Everything is decoration: the page is complete with JavaScript off, and
+ * `prefers-reduced-motion` turns all of it off.
+ */
+import { playgroundScript } from '../playground.ts';
+---
+<style is:global>
+  .pg-clay { box-shadow: var(--ll-clay); }
+  .pg-btn {
+    display: inline-flex; align-items: center; gap: .5rem; padding: .85rem 1.35rem; border-radius: 18px;
+    font: 800 1rem/1 var(--ll-base-font); text-decoration: none; border: 0; cursor: pointer;
+    box-shadow: var(--ll-clay); transition: transform .25s cubic-bezier(.34,1.8,.5,1);
+    background: rgb(var(--ll-base-surface)); color: rgb(var(--ll-base-text));
+  }
+  .pg-btn:hover { transform: translateY(-3px) rotate(-1.5deg); }
+  .pg-btn:active { transform: scale(.94); }
+  .pg-btn:focus-visible { outline: 3px solid rgb(var(--ll-base-accent)); outline-offset: 3px; }
+  .pg-btn--brand { background: rgb(var(--ll-skin-brand)); color: rgb(var(--ll-skin-on-brand)); }
+  .pg-btn--accent { background: rgb(var(--ll-skin-accent)); color: rgb(var(--ll-skin-on-accent)); }
+  .pg-btn--light { background: #fff; color: rgb(var(--ll-base-text)); }
+  .pg-tile {
+    position: relative; overflow: hidden; display: flex; flex-direction: column; gap: .4rem; min-width: 0;
+    border-radius: 26px; padding: 1.4rem; box-shadow: var(--ll-clay); text-decoration: none;
+    transition: transform .45s cubic-bezier(.34,1.8,.5,1);
+  }
+  .pg-tile:hover { transform: translateY(-5px) rotate(var(--pg-tilt, -1deg)); }
+  .pg-tile:active { transform: scale(.96); }
+  .pg-tile:focus-visible { outline: 3px solid rgb(var(--ll-base-accent)); outline-offset: 3px; }
+  .pg-block-grape { background: rgb(var(--ll-pg-grape)); color: rgb(var(--ll-pg-on-grape)); }
+  .pg-block-tomato { background: rgb(var(--ll-pg-tomato)); color: rgb(var(--ll-pg-on-tomato)); }
+  .pg-block-sun { background: rgb(var(--ll-pg-sun)); color: rgb(var(--ll-pg-on-sun)); }
+  .pg-block-sky { background: rgb(var(--ll-pg-sky)); color: rgb(var(--ll-pg-on-sky)); }
+  .pg-block-grass { background: rgb(var(--ll-pg-grass)); color: rgb(var(--ll-pg-on-grass)); }
+  .pg-block-pink { background: rgb(var(--ll-pg-pink)); color: rgb(var(--ll-pg-on-pink)); }
+  .pg-block-white { background: #fff; color: rgb(var(--ll-base-text)); }
+  .pg-display { font-family: var(--ll-skin-display); letter-spacing: -.035em; line-height: .95; text-wrap: balance; }
+  .pg-label { font: 800 .75rem/1 var(--ll-base-font); letter-spacing: .08em; text-transform: uppercase; }
+  .pg-chip {
+    display: inline-block; font: 800 .82rem/1 var(--ll-base-font); padding: .5rem .65rem; border-radius: 10px;
+    background: rgba(255,255,255,.88); color: rgb(var(--ll-base-text)); box-shadow: inset 0 -3px 0 rgba(0,0,0,.1);
+    transition: transform .3s cubic-bezier(.34,1.8,.5,1);
+  }
+  .pg-chip:hover { transform: translateY(-3px) rotate(-4deg); }
+  [data-pg-bounce] .pg-w { display: inline-block; white-space: nowrap; }
+  [data-pg-bounce] .pg-ch { display: inline-block; transition: transform .5s cubic-bezier(.34,1.8,.5,1), color .2s; animation: pg-drop .8s cubic-bezier(.34,1.6,.5,1) both; }
+  [data-pg-bounce] .pg-ch:hover { transform: translateY(-.14em) rotate(-8deg) scale(1.08); color: rgb(var(--ll-pg-sun)); }
+  @keyframes pg-drop { from { transform: translateY(-.4em) rotate(10deg); } to { transform: none; } }
+  [data-pg-marquee] { overflow: hidden; }
+  [data-pg-marquee] > .pg-track { display: flex; gap: 1.75rem; width: max-content; animation: pg-marquee var(--pg-marquee-speed, 40s) linear infinite; }
+  [data-pg-marquee]:hover > .pg-track { animation-play-state: paused; }
+  @keyframes pg-marquee { to { transform: translateX(-50%); } }
+  [data-pg-blobs] { position: relative; isolation: isolate; }
+  .pg-blob { position: absolute; z-index: -1; border-radius: 40%; box-shadow: var(--ll-clay); pointer-events: none; will-change: transform; }
+  .pg-confetti { position: fixed; z-index: 60; width: 12px; height: 12px; border-radius: 4px; pointer-events: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .pg-btn, .pg-tile, .pg-chip, [data-pg-bounce] .pg-ch { transition: none; animation: none; }
+    [data-pg-marquee] { overflow-x: auto; }
+    [data-pg-marquee] > .pg-track { animation: none; }
+    .pg-blob { display: none; }
+  }
+</style>
+<script is:inline set:html={playgroundScript}></script>

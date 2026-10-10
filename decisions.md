@@ -857,3 +857,18 @@ Every entry has these fields:
 - **Date:** 2026-10-09. **Decided by:** owner. **Status:** Done.
 - **Progress:** `_dmarc` records set to `p=quarantine; pct=100` on all three domains via the Cloudflare API 2026-10-09 (rua unchanged). Microsoft 365 DKIM is still off on all three (owner step in security.microsoft.com; see /mnt/project-files/brand-icons/README.md).
 
+### D127: Redesign direction for the sites
+- **Question:** The owner finds the site design, UI/UX and branding dated and asked for motion-rich redesign options built from the vibld.com templates, in the style of chrisbrockllc.com and chrisbrock.io. Which direction should lanternlearn.com, rocketandraven.com, foxandfernbooks.com and learn.lanternlearn.com move to?
+- **Options:** A Lantern Glow: vibld Luminous template + Warm paper preset; light paper, cursor-reactive lantern glow, one dark band; keeps D58 (recommended) / B Night Launch: vibld Cinematic + Aurora; dark night sky of rising paper lanterns, glass pill nav; reverses D58 / C Playground: vibld Vibrant blocks + Claymorphism + Bento; bold colour blocks, bouncy clay tiles; most kid-facing.
+- **Choice:** C Playground: bold flat colour blocks, clay-style tiles, bouncy display type (Bricolage Grotesque, Nunito), course marquee and bento catalog. Each imprint keeps its own two or three colours inside the same clay system (D57 still holds). Marketing sites stay light, so D58's light base holds; its cream/navy/amber palette is replaced by the Playground palette.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Kit v0.4.0 built in this repo (PR #57: Playground palette, clay kit, motion, header/footer/family bar). Draft PRs open for every surface, each pinned to this branch so #57 merges first: lanternlearn-site #15, rocketandraven-site #27 (dark navy block, orange and cyan clay), foxandfernbooks-site #15 (warm fox block, leafy clay), rocket-and-raven-press #75 (app frame, skins, emails, certificate images). Social kit (avatars, Facebook covers, banners, Pinterest pins) in the shared project folder. New logos: D128.
+- **Links:** [A](https://claude.ai/artifact/3EdbQLyLb3P44vzCUnUsaJ), [B](https://claude.ai/artifact/5DRzCAyXnDdNjNzN5xNZFJ), [C](https://claude.ai/artifact/X3sYbRYpQVJtuXhH8DJYFE); vibld/vibld `templates/luminous`, `packages/ai/src/style-presets.ts`. Related: D57, D58.
+
+### D128: New logos for Lantern Learn and both imprints
+- **Question:** The owner allowed new logos for Lantern Learn, Rocket & Raven and Fox & Fern so they match the Playground direction (D127). What should they look like?
+- **Options:** Claude-designed clay marks with a Bricolage Grotesque wordmark for all three (recommended) / keep the existing logos (D66, D94) and only restyle the sites.
+- **Choice:** Clay marks on each brand's color with a Bricolage Grotesque ExtraBold wordmark: a glowing lantern on grape for Lantern Learn ("Learn" in grape), an orange rocket on navy with a cyan window for Rocket & Raven (orange ampersand), a fox face with a fern frond on fox orange for Fox & Fern (fern-green ampersand). Each ships as SVG, PNG sizes, favicon, app icons, OG image and BIMI SVG Tiny PS. Old file names are overwritten in place so existing links pick up the new art. Replaces the D66 badge and the D94 fox crop.
+- **Date:** 2026-10-10. **Decided by:** owner (allowed the change), Claude (default design). **Status:** Decided.
+- **Progress:** Shipped in the D127 draft PRs. Generator and exporters in the shared project folder (brand-icons/playground). Canva brand kits and social profile images still need uploading by the owner.
+- **Links:** lanternlearn-site #15, rocketandraven-site #27, foxandfernbooks-site #15, rocket-and-raven-press #75. Related: D66, D90, D94, D120, D127.

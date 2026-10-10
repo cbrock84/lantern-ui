@@ -14,10 +14,10 @@ const year = new Date().getFullYear();
 // See SiteHeader: forwarded empty slots suppress fallback content.
 const brandHtml = Astro.slots.has('brand') ? (await Astro.slots.render('brand')).trim() : '';
 ---
-<footer class="mt-24 border-t border-base-border bg-base-footer-bg text-base-footer-text font-base">
+<footer class="mt-24 rounded-t-[36px] bg-base-footer-bg text-base-footer-text font-base">
   <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 text-sm sm:px-6 md:grid-cols-2 lg:grid-cols-4">
     <div>
-      {brandHtml ? <Fragment set:html={brandHtml} /> : <p class="font-site-display text-xl font-bold">{me.name}</p>}
+      {brandHtml ? <Fragment set:html={brandHtml} /> : <p class="font-wordmark text-2xl font-extrabold tracking-tight">{me.name}</p>}
       <p class="mt-3 max-w-md opacity-80">{site.footerBlurb}</p>
     </div>
     {site.footerLinks.length > 0 && (

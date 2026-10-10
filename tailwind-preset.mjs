@@ -46,6 +46,15 @@ export default {
           muted: v('skin-muted'),
           border: v('skin-border'),
         },
+        // Playground block colours (D127), each with its readable text colour.
+        pg: {
+          grape: v('pg-grape'), 'on-grape': v('pg-on-grape'),
+          tomato: v('pg-tomato'), 'on-tomato': v('pg-on-tomato'),
+          sun: v('pg-sun'), 'on-sun': v('pg-on-sun'),
+          sky: v('pg-sky'), 'on-sky': v('pg-on-sky'),
+          grass: v('pg-grass'), 'on-grass': v('pg-on-grass'),
+          pink: v('pg-pink'), 'on-pink': v('pg-on-pink'),
+        },
         site: {
           bg: v('bg'),
           surface: v('surface'),
@@ -59,6 +68,7 @@ export default {
           'footer-accent': v('footer-accent'),
         },
       },
+      boxShadow: { clay: 'var(--ll-clay)' },
       fontFamily: {
         'site-display': 'var(--ll-font-display)',
         'site-body': 'var(--ll-font-body)',

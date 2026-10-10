@@ -25,8 +25,10 @@ same everywhere.
 
 One Lantern Learn system, with a small skin per imprint:
 
-- **Base** (`BASE` in `src/brand.ts`) is the Lantern Learn frame: warm light,
-  navy text, lantern amber. The family bar, header and footer always use it
+- **Base** (`BASE` in `src/brand.ts`) is the Lantern Learn frame. Since D127
+  it is "Playground": a light sky-tinted ground, grape-ink text, bold flat
+  colour blocks (`PLAYGROUND`, `pg-*` Tailwind colors) and clay surfaces
+  (`shadow-clay`). The family bar, header and footer always use it
   (`base-*` Tailwind colors, `font-base`), so every property navigates the same way.
 - **Skins** (`SKINS`) are each brand's display font, a few colors and a corner
   radius. SeoHead writes the current site's skin as `--ll-skin-*` and
@@ -38,6 +40,12 @@ One Lantern Learn system, with a small skin per imprint:
   `familyBar: false` in `SiteConfig`.
 - `coursesFor(key)` links to the platform catalog filtered to an imprint;
   `scopedSkinsCss()` gives `[data-skin="<key>"]` blocks for pages that mix brands.
+
+- **Playground kit** (`components/Playground.astro`, D127) ships once per page
+  from `SiteLayout`: clay buttons and tiles (`pg-btn`, `pg-tile`,
+  `pg-block-<colour>`) and opt-in motion: `data-pg-bounce` headlines,
+  `data-pg-marquee` strips, `data-pg-blobs` heroes and `data-pg-pop` confetti.
+  All motion is decoration and stops under `prefers-reduced-motion`.
 
 A site's own `theme` still colors its page content.
 
@@ -120,6 +128,12 @@ tag or commit in each site's `package.json`. Every footer and article card picks
 next build.
 
 ## Version notes
+
+- **0.4.0**: Playground redesign (D127). New base palette and fonts
+  (Bricolage Grotesque, Nunito), the Playground kit, clay header CTA and
+  footer, rounder skin corners, and Rocket & Raven's skin now leads orange
+  with cyan accents as its bible says. No API removals; sites pick it up by
+  bumping their pin.
 
 - **0.3.0** (breaking): Holly & Hare is sunset (D102, D103) and
   hollyandhare.com 301-redirects to lanternlearn.com. `hollyandhare` is gone

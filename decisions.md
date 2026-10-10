@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D153 | Public price per student for each course PDF pack? | $15 (recommended) / $9 / $25 | Store stays hidden until set |
 
 ## Log
 
@@ -1094,6 +1093,7 @@ Every entry has these fields:
 ### D153: Course PDF pack price
 - **Question:** What public price per student should each course PDF pack have? ESAs pay only this price (D152).
 - **Options:** $15 per pack (recommended): under the dormant $19 single-course price, fits a $2,000 homeschool ESA across several courses / $9: impulse price, less per ESA order / $25: more per sale, may draw Odyssey price review. No competitor prices were checked.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
-- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D148, D151, D152.
+- **Choice:** $15 per pack, per student. Same price everywhere (D152).
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Pack products, store gate and admin pack grant built in rocket-and-raven-press; the store opens once the owner creates the $15 Stripe price. 16 full-course PDFs built (scripts/print-packs) and uploaded to R2.
+- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. rocket-and-raven-press #79. Related: D148, D151, D152.

@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D123 | Which redesign direction for lanternlearn.com and the imprint sites? | A Lantern Glow (recommended) / B Night Launch / C Playground | Mockups: [A](https://claude.ai/artifact/3EdbQLyLb3P44vzCUnUsaJ), [B](https://claude.ai/artifact/5DRzCAyXnDdNjNzN5xNZFJ), [C](https://claude.ai/artifact/X3sYbRYpQVJtuXhH8DJYFE) |
 
 ## Log
 
@@ -857,3 +858,10 @@ Every entry has these fields:
 - **Date:** 2026-10-09. **Decided by:** owner. **Status:** Done.
 - **Progress:** `_dmarc` records set to `p=quarantine; pct=100` on all three domains via the Cloudflare API 2026-10-09 (rua unchanged). Microsoft 365 DKIM is still off on all three (owner step in security.microsoft.com; see /mnt/project-files/brand-icons/README.md).
 
+### D123: Redesign direction for the sites
+- **Question:** The owner finds the site design, UI/UX and branding dated and asked for motion-rich redesign options built from the vibld.com templates, in the style of chrisbrockllc.com and chrisbrock.io. Which direction should lanternlearn.com, rocketandraven.com, foxandfernbooks.com and learn.lanternlearn.com move to?
+- **Options:** A Lantern Glow: vibld Luminous template + Warm paper preset; light paper, cursor-reactive lantern glow, one dark band; keeps D58 (recommended) / B Night Launch: vibld Cinematic + Aurora; dark night sky of rising paper lanterns, glass pill nav; reverses D58 / C Playground: vibld Vibrant blocks + Claymorphism + Bento; bold colour blocks, bouncy clay tiles; most kid-facing.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Progress:** Three previewable mockups published. Nothing shipped; production work starts after the pick.
+- **Links:** [A](https://claude.ai/artifact/3EdbQLyLb3P44vzCUnUsaJ), [B](https://claude.ai/artifact/5DRzCAyXnDdNjNzN5xNZFJ), [C](https://claude.ai/artifact/X3sYbRYpQVJtuXhH8DJYFE); vibld/vibld `templates/luminous`, `packages/ai/src/style-presets.ts`. Related: D57, D58.

@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D240 | What should the Fox & Fern phonics courses be called? | Sound Trail (recommended) / Letter Trail / Fox & Fern Phonics | Built as Sound Trail until answered. |
 | D168 | How long should the adult Applied AI course be? | 8 weeks (recommended) / 6 weeks / 12 weeks | Building on 8 weeks until answered. |
 | D169 | How are the parent, teacher and business tracks delivered? | One course with track days (recommended) / three courses / parent track first (D145) | Building one course until answered. |
 | D170 | Can adult learners use their own AI tool in Saturday "Try it" tasks? | Optional after the never-paste checklist (recommended) / offline only | Every task also works on paper. |
@@ -1293,13 +1294,22 @@ Every entry has these fields:
 - **Progress:** Live on the platform (rocket-and-raven-press #90 merged 2026-10-10). Site listings: lanternlearn-site #34, rocketandraven-site #39.
 - **Links:** rocket-and-raven-press #90, lanternlearn-site #34, rocketandraven-site #39. Related: D141, D144, D154, D159.
 
-### D179: Everyday Machines course shape
+### D179 (Everyday Machines): Everyday Machines course shape
+- **Note:** D179 was also used by the Intro to Computer Science thread; this entry is the Everyday Machines one.
 - **Question:** The expansion study (D141) listed Everyday Machines (how a zipper, a lock, a faucet, a toilet, a light switch, a fridge, a thermostat, a car and an elevator work) as idea 5. What shape does it take, and how does it avoid overlapping Builder's Lab and Bike Shop?
 - **Options:** One all-ages course (K to 5 with a grown-up, Grade 2 reading level, tap-only answers), the same shape as Builder's Lab, under Rocket & Raven, one home object a week, take-apart items limited to unplugged, battery-free, grown-up-approved objects such as an old click pen (recommended) / two courses, K to 2 and Grades 3 to 5 / fold the objects into Builder's Lab as extra weeks.
 - **Choice:** One all-ages course, `everyday-machines`, series `everyday-machines`, 12 weeks, Saturday "Machine Day". Weeks: machines everywhere (wheel and axle), the zipper, lock and key, the faucet, the toilet, the light switch, magnets at home, the refrigerator, the thermostat, springs and click pens, how a car moves, the elevator and a Machine Show. Levers, pulleys, parachutes, boats and balloon cars stay in Builder's Lab; bike parts and repairs stay in Bike Shop; each gets a one-sentence pointer. Only AA or smaller batteries, in a flashlight a grown-up loads; nothing plugged in is opened. Every fact is checked against an official, museum, university or extension page listed in the course's SOURCES.md.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live on lanternlearn.com 2026-10-10: 12 weeks, 72 days, 13 to 15 minutes each, every fact listed in SOURCES.md, cover, hero and 12 lesson illustrations. Course pages on lanternlearn.com and rocketandraven.com.
+- **Links:** rocket-and-raven-press #91, lanternlearn-site #36, rocketandraven-site #40. Related: D141, D165.
+
+### D200: First Grades 6 to 8 science course
+- **Question:** The K to 5 expansion queue (Home Helpers, Backyard Explorer, Everyday Machines) is finished and the Grades 6 to 8 lane has only AI Explorers 6 to 8 and Intro to Computer Science. Which middle-school science course is built first?
+- **Options:** Weather Lab, weather and climate with a home weather station and real NOAA and NASA data (recommended; richest free public data, no heat, chemicals or tools, covers the uncovered MS-ESS2 and MS-ESS3 standards) / Sports Physics, forces, motion and energy measured in a yard or park / Matter Lab, home chemistry with a grown-up at every heat step.
+- **Choice:** Weather Lab Grades 6 to 8, `weather-lab-g6-8`, series `weather-lab`, Rocket & Raven, band G6+, 12 weeks, about 20 minutes a day, Saturday "Station Day". Weeks: weather or climate, the Sun heats the Earth unevenly, air pressure, wind, water in the air, clouds, precipitation, air masses and fronts, storms and safety, oceans and climate zones, the climate record, forecast and design. Climate is taught as NOAA and NASA state it, no politics; storm week is safety first. The build's NGSS allow-list gains the middle-school codes checked on nextgenscience.org (MS-PS1, MS-PS3, MS-PS4, MS-ESS2, MS-ESS3, MS-ETS1). Chris can switch the pick on the decision card in the thread.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Building.
-- **Links:** rocket-and-raven-press (scripts/course-gen/courses/everyday-machines). Related: D141, D165.
+- **Links:** rocket-and-raven-press (scripts/course-gen/courses/weather-lab-g6-8). Related: D145, D173, D179 (Everyday Machines).
 
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?
@@ -1348,3 +1358,31 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Bible section added; courses being recast.
 - **Links:** Related: D174, D175, D221.
+
+### D240: Name of the Fox & Fern phonics courses
+- **Question:** What the Fox & Fern phonics courses (Pre-K to K and Grade 1) are called.
+- **Options:** Sound Trail (recommended; matches Tomorrow Trail and the Sound Map Ferris carries) / Letter Trail / Fox & Fern Phonics.
+- **Choice:** Pending. Built as "Sound Trail: Pre-K to Kindergarten Phonics" and "Sound Trail: Grade 1 Phonics" until answered.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #92. Related: D241, D242, D243.
+
+### D241: How lesson audio names a sound
+- **Question:** Lesson audio is an ElevenLabs text-to-speech voice (eleven_multilingual_v2), which cannot say an isolated phoneme on cue. How do phonics lessons name sounds?
+- **Options:** None offered (Claude default). Alternative: record a person saying each phoneme (better, needs a human recording session).
+- **Choice:** Name a sound by its key word ("the first sound in moon"; x is "the sound at the end of box"). Stretch only sounds you can hold (mmm, sss, fff, lll, nnn, vvv, zzz); never stretch a vowel or a stop. No slash notation (/m/) anywhere: the build rejects it. Blending shows spaced letters ("s a t") and asks which word they make.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #92, scripts/course-gen/phonics.mjs. Related: D34, D240.
+
+### D242: Sound Trail scope and sequence, and the decodability check
+- **Question:** In what order the phonics courses teach letters and patterns, and how the build keeps "Read it yourself" text decodable.
+- **Options:** None offered (Claude default).
+- **Choice:** Pre-K to K (12 weeks): m s a; t p; i n; c o d; g h; e r b; u l f; k j w; v x y z qu; ff ll ss zz; ck and plural s; review. Grade 1 (12 weeks): short vowel review; sh ch tch; th wh ng nk; initial blends; final blends; a_e i_e; o_e u_e e_e; ee ea ai ay; oa ow igh and y at the end; ar or er ir ur; -s -es -ed -ing; two-syllable words. Each week follows Hear it, See it, Blend it, Build it, Read it yourself (WWC foundational-skills practice guide, recommendations 2 to 4). CCSS RF.K.1 to RF.K.4 and RF.1.1 to RF.1.4. The build (phonics.mjs) checks every word in every "Read it yourself" block: it must use only graphemes taught by that week (with traps such as vowel pairs, r- and w-controlled vowels, silent e, soft c and g, and endings on a known base word rejected until taught) or be a Word Spot heart word taught by that week; at least three such blocks a week. Days are tap-only and 10+ minutes with Word Spot sight words (K list, then Grade 1 list).
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #92, scripts/course-gen/courses/phonics-prek-k/PLAN.md and SOURCES.md. Related: D123, D124, D125, D241.
+
+### D243: Sound Trail course split, series and catalog placement
+- **Question:** How the phonics work is packaged and listed.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Fox & Fern courses (`phonics-prek-k`, band K; `phonics-g1`, band G1) in a new `phonics` series, listed right after Tomorrow Trail on /courses as "Sound Trail: Phonics from Fox & Fern Books", with a new `reading` subject filter. Tomorrow Trail cast, Ferris hosts, Freddy runs Friday games, Saturday is a Sound Hunt at home. 100% free. 70+ new picture icons in the shared Tomorrow Trail icon set; covers and heroes generated in Higgsfield from the cast references.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #92. Related: D240, D242.

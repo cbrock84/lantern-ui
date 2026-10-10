@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D132 | How to package learn.lanternlearn.com as store apps | Capacitor hybrid (recommended) / thin wrapper / native rewrite | Plan: /mnt/project-files/apps/app-store-plan.md |
 | D133 | Store accounts as Chris Brock LLC or personal | Organization with D-U-N-S (recommended) / personal | |
 | D134 | Also ship to the Amazon Appstore | Yes, same Android build (recommended) / Google Play only | |
 | D135 | Apple Kids Category and age band | Kids, 6-8 (recommended) / Kids, 9-11 / Education only | |
@@ -888,8 +887,9 @@ Every entry has these fields:
 ### D132: Packaging for the iOS, Android and Amazon apps
 - **Question:** When the catalog is built out, the owner wants free apps with no ads and no tracking on the App Store, Google Play and the Amazon Appstore. How should the learn app (learn.lanternlearn.com, rocket-and-raven-press) be packaged?
 - **Options:** Capacitor hybrid: native shell with offline packs, native audio and a parental gate, loading the Astro app in app mode (recommended) / thin Capacitor or TWA wrapper of the website (likely rejected by Apple 4.2) / native rewrite in Expo or React Native.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Capacitor hybrid: native shell (Capacitor 8) with offline course packs, native narration audio, a native kid picker and parental gate, loading the Astro app in app mode (D137).
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Plan only; the build starts when the catalog is built out.
 - **Links:** /mnt/project-files/apps/app-store-plan.md.
 
 ### D133: Store developer accounts: organization or personal

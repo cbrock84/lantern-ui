@@ -1152,10 +1152,10 @@ Every entry has these fields:
 - **Progress:** Live on learn.lanternlearn.com (press #84 merged 2026-10-10). Built at the owner's 2026-10-10 request to keep building expansion content.
 - **Links:** rocket-and-raven-press #84, rocketandraven-site #35, lanternlearn-site #26. Related: D141, D154.
 
-### D161: Bike Shop course shape
+### D165: Bike Shop course shape
 - **Question:** How Bike Shop (the G3+ reframe of the deferred vehicle-repair idea in the expansion study, D141) is built: grades, reading level, safety rules and standards.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in a new Bike Shop series: Bike Shop Grades 3 to 5 (`bike-shop-g3-5`, Grade 3 reading level, typed answers allowed), 12 weeks, 15-minute days (10+ minutes enforced), Saturday "Bike Shop Day". Weeks: parts and jobs, forces, friction, tires and air, gears and chain, patterns of motion, brakes, fit and helmets, being seen, a flat tire, the pre-ride quick check, and a design capstone. NGSS 3-PS2-1, 3-PS2-2, 4-PS4-2 and 3-5-ETS1-1 to 3. Safety: bike work only with the bike standing still; a grown-up holds and turns the bike and handles every tool, pump gauge and chain oil; hands away from chain, gears and spokes when anything turns; helmet for every ride and riding only where a grown-up says; no traffic-rule teaching beyond sourced pages. Every activity has a no-bike path. Kids' own measurements go in ungraded blocks. Cover and hero made in Higgsfield from the existing Rocket, Raven and Nova art.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Being built (coordinator assignment after Grow It; owner asked to keep building expansion content).
-- **Links:** Related: D141, D160.
+- **Progress:** Built; live once the PRs below merge. Numbered D165 because D161 to D164 were taken by the Kitchen thread's decision cards.
+- **Links:** rocket-and-raven-press #85, rocketandraven-site #36, lanternlearn-site #29. Related: D141, D160.

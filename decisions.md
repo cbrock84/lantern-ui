@@ -1097,3 +1097,10 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Progress:** Pack products, store gate and admin pack grant built in rocket-and-raven-press; the store opens once the owner creates the $15 Stripe price. 16 full-course PDFs built (scripts/print-packs) and uploaded to R2. Parked 2026-10-10 by the owner (prioritize expansion and course content): press #79 stays unmerged and the store stays hidden; no Stripe price yet.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. rocket-and-raven-press #79. Related: D148, D151, D152.
+
+### D154: Where new site content lives
+- **Question:** Chris asked for course pages, a parent how-it-works/FAQ page and evergreen guide posts across the sites. Where does each piece go?
+- **Options:** None offered (Claude default).
+- **Choice:** lanternlearn.com gets `/courses` plus one page per course (generated from the platform by `scripts/sync-courses.py`, so copy never drifts) and `/how-it-works` (parent guide and FAQ); its nav "Courses" now opens `/courses` instead of the course app. rocketandraven.com already had pages for every Rocket & Raven course, so it is unchanged. Each guide post lives on one site only (no duplicates): sight words on foxandfernbooks.com, free homeschool STEM on lanternlearn.com. Every post cites its sources.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** lanternlearn-site #21, foxandfernbooks-site #18, rocket-and-raven-press #83 (parent help said "first weeks free to try"; now "every course is free", per D138).

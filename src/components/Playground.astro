@@ -68,7 +68,8 @@ import { playgroundScript } from '../playground.ts';
   .pg-confetti { position: fixed; z-index: 60; width: 12px; height: 12px; border-radius: 4px; pointer-events: none; }
   @media (prefers-reduced-motion: reduce) {
     .pg-btn, .pg-tile, .pg-chip, [data-pg-bounce] .pg-ch { transition: none; animation: none; }
-    [data-pg-marquee] > .pg-track { animation: none; flex-wrap: wrap; width: auto; }
+    [data-pg-marquee] { overflow-x: auto; }
+    [data-pg-marquee] > .pg-track { animation: none; }
     .pg-blob { display: none; }
   }
 </style>

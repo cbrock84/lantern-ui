@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D202 | Add Grades 6 to 8 and 9 to 12 bands to the course platform (labels, filter, kid grade picker)? | Add both bands (recommended) / Add 6 to 8 only / Keep All ages | Middle and high school courses show "All ages" today. Building the recommended option after Matter Lab unless answered. |
 | D240 | What should the Fox & Fern phonics courses be called? | Sound Trail (recommended) / Letter Trail / Fox & Fern Phonics | Built as Sound Trail until answered. |
 | D168 | How long should the adult Applied AI course be? | 8 weeks (recommended) / 6 weeks / 12 weeks | Building on 8 weeks until answered. |
 | D169 | How are the parent, teacher and business tracks delivered? | One course with track days (recommended) / three courses / parent track first (D145) | Building one course until answered. |
@@ -1318,6 +1319,14 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** In progress 2026-10-10: plan, art and registration done, weeks being written.
 - **Links:** Related: D145, D200.
+
+### D202: Grades 6 to 8 and 9 to 12 bands on the course platform
+- **Question:** The platform's grade band model stops at Grade 5 (K, G1 to G5, all-ages, adult), so Weather Lab, AI Explorers 6 to 8, Intro to Computer Science, Data and Society and Matter Lab are labeled "All ages" on course cards and in the catalog filter (raised by Codex review on rocket-and-raven-press #96). Add real middle and high school bands?
+- **Options:** Add both bands, G6-8 and G9-12, to the course label, the /courses grade filter and the kid profile grade picker (recommended) / add G6-8 only / keep "All ages".
+- **Choice:** Open. Claude builds the recommended option as its own PR after Matter Lab unless the owner picks otherwise.
+- **Date:** 2026-10-10. **Decided by:** owner (card in the expansion thread). **Status:** Open.
+- **Progress:** Not started.
+- **Links:** Related: D145, D200, D201.
 
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?

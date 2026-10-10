@@ -994,3 +994,51 @@ Every entry has these fields:
 - **Choice:** `com.chrisbrockllc.lanternlearn`. `.dev` and `.staging` suffixes for test builds; same id on all three stores.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 3.5; games-v1 `docs/store-accounts.md` (bundle identifiers).
+
+### D141: Which expansion course to build first
+- **Question:** The expansion course study (2026-10-10) ranked eight ideas: Body Lab (human body), Inside the Machine (computer parts and troubleshooting), Home Helpers (life skills), Backyard Explorer (plants and animals by US region), Everyday Machines, Bike Shop, Grow It, and vehicle repair (deferred). Which is built first?
+- **Options:** Body Lab (recommended) / Inside the Machine / Home Helpers / Backyard Explorer.
+- **Choice:** Inside the Machine: computer parts, how hardware and software work together, and troubleshooting, under Code Crew (Rocket & Raven), as a G1-G2 tap-only course and a G3-G5 course. CSTA 1A-CS-02, 1A-CS-03, 1B-CS-02, 1B-CS-03. "Repair" stays at restart, check the cable, check the charge, swap the mouse; nothing with a case open or a power supply.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
+- **Links:** Related: D102, D106, D110.
+
+### D142: "blood" allowed in a Body Lab course
+- **Question:** The course generator's violence check bans the word "blood" in every course, which blocks teaching circulation in a human body course. How should Body Lab handle it?
+- **Options:** Per-course exception for Body Lab, global ban kept elsewhere (recommended) / keep the ban and write around it / skip circulation.
+- **Choice:** Per-course exception. Body Lab may use "blood" and heart words; the global rule stays for every other course.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started; applies when Body Lab is built (scripts/course-gen rules.mjs needs a per-course allowlist).
+- **Links:** Related: D141.
+
+### D143: Real cooking gets its own Kitchen course
+- **Question:** Four generator rules collide with cooking (a grown-up does anything hot or sharp, nothing is tasted, the allergen list removes dairy, nuts, soy and sesame, shopping words are banned). Does Lantern Learn teach real cooking?
+- **Options:** No heat, no knives: Kitchen Helper weeks inside Home Helpers (recommended) / separate G3+ Kitchen course with its own food rules / no cooking content.
+- **Choice:** A separate Kitchen course for G3 and up under Fox & Fern, with its own food rule set: a grown-up handles heat and knives, tasting is allowed, every recipe carries an allergy-swap note. Needs a liability review before it ships. Home Helpers keeps the no-heat Kitchen Helper weeks for younger children.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started. The generator needs a per-course food rule set (scripts/course-gen rules.mjs, code-crew-lib rules.mjs) before this course can build.
+- **Links:** Related: D141.
+
+### D144: Backyard Explorer picks a region from the kid profile
+- **Question:** How does a regional plants-and-animals course know the family's region, and which imprint owns it?
+- **Options:** Parent-chosen coarse region on the kid profile, the generator builds one variant per region, Rocket & Raven (recommended) / same under Fox & Fern with the Tomorrow Trail animals as guides / one national course where families look up local species.
+- **Choice:** Parent-chosen region on the kid profile (optional, default Whole United States, never zip or city), eight regions grouped from EPA Level III ecoregions, one generated workbook variant per region, Rocket & Raven. Data from public-domain or CC0/CC-BY sources only (USDA PLANTS, GBIF filtered by license, EPA, USFWS, NPS); iNaturalist and eBird excluded by their terms.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Not started. Needs a `region` field on KidProfile (rocket-and-raven-press src/lib/kids.ts) and catalog logic to pick the variant.
+- **Links:** Related: D141.
+
+### D145: Roadmap: K-12 through adult, steered by web signals
+- **Question:** The owner's long-term objective is to expand through high school and into adult training (coding and more), with young children as the early focus. A web scan on 2026-10-10 found the signals to steer by. How are they cemented into the plan?
+- **Options:** Write `roadmap.md` in this repo with staged scope (K-5 now, grades 6-8 next, high school electives later, adult applied AI) and the signals behind each stage, re-scanned quarterly (recommended) / keep the signals only in the study artifact.
+- **Choice:** `roadmap.md` added. Stages: K-5 breadth plus a new AI Explorers course; grades 6-8 bridge; high school CS and AI electives; adult applied AI in the same daily format, not a bootcamp. Reach: ESA vendor registration (D146) and microschool outreach. Fox & Fern leans phonics and decodable text.
+- **Date:** 2026-10-10. **Decided by:** owner ("Let's cement these into our plans"). **Status:** Decided.
+- **Progress:** roadmap.md written. AI Explorers is queued after D141.
+- **Links:** roadmap.md; https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D106, D138, D141.
+
+### D146: ESA vendor registration: research and plan
+- **Question:** Register as an education savings account (ESA) vendor in two or three states for paid add-ons (printed packs, live help, a family pass) while every course stays free?
+- **Options:** Yes, Arizona (ClassWallet) and Texas (Odyssey) first (recommended) / yes, later / no.
+- **Choice:** Yes, researching. The owner first parked it ("not now"), then reversed the same day and asked for a thread to research and plan taking Lantern Learn to the ESA states. Which states come first is part of that plan.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Plan in progress in the "ESA states expansion plan" thread; it will add its plan to roadmap.md.
+- **Links:** roadmap.md. Related: D106, D138, D145.

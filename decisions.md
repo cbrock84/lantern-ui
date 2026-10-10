@@ -1,7 +1,10 @@
 # Decision log
 
 Every owner decision across the Lantern Learn repos, numbered `D<n>`. How
-decisions are asked and recorded: see `CLAUDE.md`. Newest last.
+decisions are asked and recorded: see `CLAUDE.md`. Entries are in number order.
+Since 2026-10-10, parallel work threads take numbers from reserved blocks
+(D200-D219, D220-D239, D240-D259, D260-D279, D280 and up) so they don't
+collide, so a lower number can be logged after a higher one.
 
 ## Entry format
 
@@ -1358,6 +1361,22 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Bible section added; Intro to Computer Science and Data and Society use Comet and Wren (live 2026-10-10).
 - **Links:** rocket-and-raven-press #93, lantern-ui #83. Related: D174, D175, D221.
+
+### D226: AI and You Grades 9 to 12 course shape
+- **Question:** How the high-school AI literacy elective is built.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in the AI Explorers series: AI and You Grades 9 to 12 (`ai-and-you-g9-12`, G6+ reading level), 12 weeks, about 20-minute days (10+ enforced), Wednesday Explorer Lab, Impact Friday and a Saturday Explorer Quest. Same D157 rules: unplugged, no live AI tool, no product names, every AI fact from the course's SOURCES.md (NIST AI 100-1, NIST AI 600-1, AI4K12, CSTA; 95 rows). High-School Crew cast (D225). Running thread: the SH-1 Review, in which Comet, Wren and the student review a proposed AI study helper for a made-up school: a hand-run next-word model (Tiny Text), a test set, the nine NIST generative AI risks as a risk register, and a final model card and go-with-conditions recommendation. It practices 12 CSTA Level 3A and 3B DA, IC and AP codes, worded per D177. Grade band `all-ages` with "Grades 9 to 12" in the title, like the other high-school courses.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Building.
+- **Links:** rocket-and-raven-press #99 (scripts/course-gen/courses/ai-and-you-g9-12). Related: D157, D173, D177, D225, D227.
+
+### D227: Careers in AI and You
+- **Question:** How the course covers careers in AI.
+- **Options:** None offered (Claude default). Alternative: add salary and job-growth figures from the US Bureau of Labor Statistics.
+- **Choice:** Each Friday spotlights one kind of person who works on AI, using the AI actor tasks in NIST AI 100-1 Appendix A (design, development, deployment, operation and monitoring, TEVV, human factors, domain expert, impact assessment, procurement, governance and oversight). No salaries, job counts or growth figures: the BLS pages could not be fetched to verify them, so none are stated.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Building.
+- **Links:** Related: D226.
 
 ### D240: Name of the Fox & Fern phonics courses
 - **Question:** What the Fox & Fern phonics courses (Pre-K to K and Grade 1) are called.

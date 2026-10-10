@@ -1000,8 +1000,8 @@ Every entry has these fields:
 - **Options:** Body Lab (recommended) / Inside the Machine / Home Helpers / Backyard Explorer.
 - **Choice:** Inside the Machine: computer parts, how hardware and software work together, and troubleshooting, under Code Crew (Rocket & Raven), as a G1-G2 tap-only course and a G3-G5 course. CSTA 1A-CS-02, 1A-CS-03, 1B-CS-02, 1B-CS-03. "Repair" stays at restart, check the cable, check the charge, swap the mouse; nothing with a case open or a power supply.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Not started. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
-- **Links:** Related: D102, D106, D110.
+- **Progress:** Both courses built and illustrated (D155); live once rocket-and-raven-press #81 merges. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
+- **Links:** rocket-and-raven-press #81. Related: D102, D106, D110, D155.
 
 ### D142: "blood" allowed in a Body Lab course
 - **Question:** The course generator's violence check bans the word "blood" in every course, which blocks teaching circulation in a human body course. How should Body Lab handle it?
@@ -1105,3 +1105,11 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Built; live once the PRs below merge.
 - **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19. Related: D141, D142.
+
+### D155: Inside the Machine course shape and art
+- **Question:** How Inside the Machine (D141) is built: course split, reading level, sight words, catalog grades and artwork.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Code Crew courses: Inside the Machine: Grades 1 to 2 (`inside-the-machine-g1-g2`, Grade 1 reading cap, tap-only, daily Word Spot on the Grade 1 list, Crew Pilot rank) and Inside the Machine: Grades 3 to 5 (`inside-the-machine-g3-g5`, Grade 3 reading cap, typed answers allowed, Crew Engineer rank). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Crew Quest". Catalog uses the shared `grades` list (D154) so each course shows under every grade it covers. Setting: the Fix-It Bay at Beacon Station; Rocket brings the problem, Raven asks "What do you notice?", Nova hints. Safety line: grown-ups do plugs, chargers, batteries and cases; kids may tell a grown-up, check a cable, wait, restart with a grown-up, swap a mouse, change volume, or wipe with a dry cloth. No brand names, prices or personal information. Art: covers, heroes and one lesson illustration per week (24) generated in Higgsfield from the approved Rocket, Raven and Nova art; characters stay illustrated, never shape-built. Animation not used: the lesson engine shows still images only.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once rocket-and-raven-press #81 merges.
+- **Links:** rocket-and-raven-press #81. Related: D141, D154.

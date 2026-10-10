@@ -927,6 +927,22 @@ Every entry has these fields:
 - **Progress:** Not started; part of the app build.
 - **Links:** /mnt/project-files/apps/app-store-plan.md sections 3.2, 3.3. Related: D2, D106.
 
+### D138: Market every course as 100% free, never a preview
+- **Question:** Some copy still sold the courses as a free preview, free weeks or samples, with pricing in the nav, even though every course is free in full (D106). How should the sites, app, emails, launch drafts and social kit describe the price?
+- **Options:** Say "100% free, start to finish" everywhere, drop preview, sample and pricing wording, and keep the `/pricing/` URL with a "100% free" label (recommended) / keep the "Pricing" label and only fix the preview lines.
+- **Choice:** Every surface says the full course is free: every week, every lesson, no preview, no card. The Rocket & Raven nav and footer say "100% free" (the URL stays `/pricing/`). Paid code paths stay dormant behind `FREE_ACCESS_MODE`.
+- **Date:** 2026-10-10. **Decided by:** owner ("market everything as 100% free, not just previews"), Claude (default: wording and the nav label). **Status:** Decided.
+- **Progress:** Draft PRs: rocketandraven-site #29, lanternlearn-site #17, foxandfernbooks-site #17, rocket-and-raven-press #77. Launch drafts (`/mnt/project-files/launch`) and the social kit (`brand-icons/playground/social`) were updated in place. TPT listings are unchanged because TPT rules bar store links.
+- **Links:** Related: D106, D109.
+
+### D139: Free sign-in after week 4
+- **Question:** Signed-out visitors can open weeks 1 to 4. From week 5 the app asks for a free parent account (no card). Should every week open with no account?
+- **Options:** Keep the free sign-in after week 4: it saves progress and builds the parent list (recommended) / open every week to anyone, with progress saved only after signing in.
+- **Choice:** Open all weeks. While `FREE_ACCESS_MODE` is on, every week of every course opens for anyone, signed in or not. A free parent account only saves progress.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** rocket-and-raven-press PR (checkWeekAccess opens every week in free mode; tests updated).
+- **Links:** Related: D106, D138.
+
 ### D140: Bundle id for the Lantern Learn apps
 - **Question:** Which bundle id / package name do the iOS, Android and Amazon apps use? It is permanent once submitted and never shown to users. On 2026-10-10 the owner said everything published uses chrisbrockllc.com, not chrisbrock.io.
 - **Options:** `com.chrisbrockllc.lanternlearn`, matching the chrisbrockllc.com rule (recommended) / `io.chrisbrock.lanternlearn`, matching the games-v1 titles' `io.chrisbrock.<title>` convention.

@@ -401,7 +401,18 @@ cbrock84/rocket-and-raven-press.
 - Wren asks: "What does the evidence say?"
 - Nova asks: "How can I help?"
 
+### Senior educational formula
+
+High-school lessons use this formula in place of the main one:
+
+1. Comet introduces the challenge and a first idea.
+2. Wren investigates, asks for evidence and checks the work.
+3. Nova provides tools, visualizations or gentle hints.
+4. Students solve the problem.
+5. Everyone reflects on what was learned.
+6. The team celebrates effort, persistence and improvement.
+
 Nova never decides for them and gives hints, not answers. The same core
-values, design rules and educational formula apply. Draw them in the same
+values and design rules apply. Draw them in the same
 warm painterly style as the main cast: organic, expressive, natural teen
 proportions, never rigid or built from geometric shapes.

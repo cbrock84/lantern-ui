@@ -984,8 +984,8 @@ Every entry has these fields:
 - **Question:** Signed-out visitors can open weeks 1 to 4. From week 5 the app asks for a free parent account (no card). Should every week open with no account?
 - **Options:** Keep the free sign-in after week 4: it saves progress and builds the parent list (recommended) / open every week to anyone, with progress saved only after signing in.
 - **Choice:** Open all weeks. While `FREE_ACCESS_MODE` is on, every week of every course opens for anyone, signed in or not. A free parent account only saves progress.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** rocket-and-raven-press PR (checkWeekAccess opens every week in free mode; tests updated).
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** Merged in rocket-and-raven-press #78 (checkWeekAccess opens every week in free mode; unit and e2e tests updated).
 - **Links:** Related: D106, D138.
 
 ### D140: Bundle id for the Lantern Learn apps
@@ -994,3 +994,11 @@ Every entry has these fields:
 - **Choice:** `com.chrisbrockllc.lanternlearn`. `.dev` and `.staging` suffixes for test builds; same id on all three stores.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 3.5; games-v1 `docs/store-accounts.md` (bundle identifiers).
+
+### D147: Round the numbers in marketing copy
+- **Question:** Should public copy give exact catalog counts (for example "16 courses")?
+- **Options:** None offered. The owner set this as a standing rule on 2026-10-10: round, for example "15+ courses" or "nearly 20 courses", so material doesn't need updating as the catalog grows.
+- **Choice:** Round any count that grows with the catalog: courses, series, lessons across the catalog. Use "15+" or "nearly 20", never the exact number. Claude (default): a fixed fact about one course stays exact, because rounding it would mislead. That covers things like "12 weeks" per course, "60 days" on the Code Crew K diploma, and Builder's Lab's 12 challenges. Counts the code computes from data (for example "{n} weeks") also stay exact. Internal docs, such as the launch README inventory, keep exact counts.
+- **Date:** 2026-10-10. **Decided by:** owner (rule); Claude (default) for the scope. **Status:** Done.
+- **Progress:** "16 courses" changed to "15+ courses" on the lanternlearn.com hero badge, in the social kit images, and in the Reddit, Facebook and directory launch drafts. On rocketandraven.com, "Four series" and the stale "Two series so far" are now worded without a count. Rule added to standards/content-standards.md section 8 and to the launch README.
+- **Links:** Related: D138.

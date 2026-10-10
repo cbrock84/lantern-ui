@@ -1102,6 +1102,6 @@ Every entry has these fields:
 - **Question:** How Body Lab is built: course split, reading level, sight words and catalog grade.
 - **Options:** None offered (Claude default).
 - **Choice:** Two Rocket & Raven courses in a new Body Lab series: Body Lab K to 2 (`body-lab-k2`, Grade 1 reading level, tap-only, daily Word Spot on the Grade 1 Dolch + Fry list) and Body Lab Grades 3 to 5 (`body-lab-g3-5`, Grade 3 reading level, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Body Lab Day". Course meta gains an optional `grades` list so the catalog grade filter finds each course under every grade it covers and the card shows "Grades K to 2". Covers and heroes made in Higgsfield from the existing Rocket, Raven and Nova art. No injuries, illness, private anatomy, dairy foods or questions about a child's own body.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; live once the PRs below merge.
-- **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19. Related: D141, D142.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live (all PRs below merged 2026-10-10). Built alongside Inside the Machine, not instead of it: D141's build order stands, and Body Lab was added when the owner asked on 2026-10-10 to prioritize expansion content and to keep building.
+- **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19, lantern-ui #69. Related: D141, D142.

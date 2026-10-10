@@ -861,7 +861,7 @@ Every entry has these fields:
 - **Question:** The owner wants every course day to take 10 to 15 minutes (2026-10-10). What is the target, and how is it checked?
 - **Options:** Floor of 10 minutes for every day, target 10 to 15 for K to G2 and 15 to 20 for G3+ (keeps the grade-banded time chosen earlier), checked by an estimator / one flat 10 to 15 for all / no automated check.
 - **Choice:** Floor of 10 minutes for every day (weekdays and the weekend day); target 10 to 15 for K to G2, 15 to 20 for G3+. `scripts/course-audit/minutes.mjs` in rocket-and-raven-press estimates minutes from the built workbook (narration or reading time plus a fixed time per checked item and open task); `test/unit/lesson-length.test.mjs` holds each expanded course to the floor in CI.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Audit: 887 of 972 weekday lessons were under 10 minutes. All 16 courses expanded on 2026-10-10: every day of every course is now 10.3 minutes or more (course medians 11.3 to 15.4). CI holds every course to the floor. Most G3+ weekdays sit at 11 to 14 minutes, under the 15 to 20 target.
 - **Links:** rocket-and-raven-press #74; /mnt/project-files/lessons/2026-10-10-lesson-length-audit.md.
 
@@ -869,7 +869,7 @@ Every entry has these fields:
 - **Question:** Which sight-word list should the K to G2 courses teach?
 - **Options:** Dolch by grade (recommended: Pre-primer and Primer for K, Grade 1, Grade 2) / Fry first 300 / both merged.
 - **Choice:** Both, merged. Dolch by grade, plus the Fry first 300 words Dolch lacks: Fry First 100 into K (17 words), Second 100 into G1 (55), Third 100 into G2 (78), added after each week's Dolch words. Left out: "buy" (money-word rule), "American" and "Indians" (proper nouns), and the Dolch noun list. The Fry source printing lists 96 words in its third 100. Words are taught look, say, spell, find, then read in a sentence.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
 - **Progress:** Plans in `scripts/sight-words/` (K 109 words, G1 96, G2 124). Live in Tomorrow Trail (full K list), and as a daily Word Spot in Code Crew K, G1, G2 and Science Launch K, G1, G2.
 - **Links:** rocket-and-raven-press #74 (`scripts/sight-words/`).
 
@@ -877,15 +877,15 @@ Every entry has these fields:
 - **Question:** Tomorrow Trail carries the full K list. Should Code Crew and Science Launch K to G2 also review sight words daily?
 - **Options:** All K to 2 courses (recommended: a short daily Word Spot) / Tomorrow Trail only.
 - **Choice:** All K to 2 courses: Tomorrow Trail teaches the K list in full; Code Crew and Science Launch K, G1 and G2 add a daily Word Spot.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
 - **Links:** rocket-and-raven-press #74.
 
 ### D126: Rollout of the longer lessons
 - **Question:** In what order are the 16 courses expanded, and how are they shipped?
 - **Options:** Not recorded.
 - **Choice:** Tomorrow Trail first, then every other course in parallel, all on one rocket-and-raven-press PR (#74) with a commit per course group. New blocks are added before each day's closing block or with their own ids, so saved answers keep their block ids.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** All 16 courses merged into #74; waiting on the owner to merge.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** All 16 courses shipped in rocket-and-raven-press #74, merged 2026-10-10.
 - **Links:** rocket-and-raven-press #74.
 
 ### D127: Redesign direction for the sites
@@ -893,7 +893,7 @@ Every entry has these fields:
 - **Options:** A Lantern Glow: vibld Luminous template + Warm paper preset; light paper, cursor-reactive lantern glow, one dark band; keeps D58 (recommended) / B Night Launch: vibld Cinematic + Aurora; dark night sky of rising paper lanterns, glass pill nav; reverses D58 / C Playground: vibld Vibrant blocks + Claymorphism + Bento; bold colour blocks, bouncy clay tiles; most kid-facing.
 - **Choice:** C Playground: bold flat colour blocks, clay-style tiles, bouncy display type (Bricolage Grotesque, Nunito), course marquee and bento catalog. Each imprint keeps its own two or three colours inside the same clay system (D57 still holds). Marketing sites stay light, so D58's light base holds; its cream/navy/amber palette is replaced by the Playground palette.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Kit v0.4.0 built in this repo (PR #57: Playground palette, clay kit, motion, header/footer/family bar). Draft PRs open for every surface, each pinned to this branch so #57 merges first: lanternlearn-site #15, rocketandraven-site #27 (dark navy block, orange and cyan clay), foxandfernbooks-site #15 (warm fox block, leafy clay), rocket-and-raven-press #75 (app frame, skins, emails, certificate images). Social kit (avatars, Facebook covers, banners, Pinterest pins) in the shared project folder. New logos: D128.
+- **Progress:** Merged and live 2026-10-10 at the owner's request (lantern-ui #57, lanternlearn-site #15, rocketandraven-site #27, foxandfernbooks-site #15, rocket-and-raven-press #75; sites pinned to kit commit b615775). Kit v0.4.0 built in this repo (PR #57: Playground palette, clay kit, motion, header/footer/family bar). Draft PRs open for every surface, each pinned to this branch so #57 merges first: lanternlearn-site #15, rocketandraven-site #27 (dark navy block, orange and cyan clay), foxandfernbooks-site #15 (warm fox block, leafy clay), rocket-and-raven-press #75 (app frame, skins, emails, certificate images). Social kit (avatars, Facebook covers, banners, Pinterest pins) in the shared project folder. New logos: D128.
 - **Links:** [A](https://claude.ai/artifact/3EdbQLyLb3P44vzCUnUsaJ), [B](https://claude.ai/artifact/5DRzCAyXnDdNjNzN5xNZFJ), [C](https://claude.ai/artifact/X3sYbRYpQVJtuXhH8DJYFE); vibld/vibld `templates/luminous`, `packages/ai/src/style-presets.ts`. Related: D57, D58.
 
 ### D128: New logos for Lantern Learn and both imprints
@@ -901,19 +901,96 @@ Every entry has these fields:
 - **Options:** Claude-designed clay marks with a Bricolage Grotesque wordmark for all three (recommended) / keep the existing logos (D66, D94) and only restyle the sites.
 - **Choice:** Clay marks on each brand's color with a Bricolage Grotesque ExtraBold wordmark: a glowing lantern on grape for Lantern Learn ("Learn" in grape), an orange rocket on navy with a cyan window for Rocket & Raven (orange ampersand), a fox face with a fern frond on fox orange for Fox & Fern (fern-green ampersand). Each ships as SVG, PNG sizes, favicon, app icons, OG image and BIMI SVG Tiny PS. Old file names are overwritten in place so existing links pick up the new art. Replaces the D66 badge and the D94 fox crop.
 - **Date:** 2026-10-10. **Decided by:** owner (allowed the change), Claude (default design). **Status:** Decided.
-- **Progress:** Shipped in the D127 draft PRs. Generator and exporters in the shared project folder (brand-icons/playground). Canva brand kits and social profile images still need uploading by the owner.
+- **Progress:** Merged and live 2026-10-10. The vector fox and rocket marks were then replaced by the illustrated character roundels (D129); the Lantern Learn lantern mark stays. Generator and exporters in the shared project folder (brand-icons/playground). Canva brand kits and social profile images still need uploading by the owner.
 - **Links:** lanternlearn-site #15, rocketandraven-site #27, foxandfernbooks-site #15, rocket-and-raven-press #75. Related: D66, D90, D94, D120, D127.
+
+### D129: Imprint marks use the illustrated characters, not shape-built ones
+- **Question:** The owner rejected rigid shape-built characters ("ugly and bland") and wants the existing cast (the Rocket & Raven crew and Raven, Nova, the Tomorrow Trail characters, the fox) kept for animated learning-adventure shorts. What replaces the D128 vector fox and rocket marks?
+- **Options:** The pre-D128 illustrated roundels (the Rocket & Raven crew badge, the Fox & Fern fox portrait) as each imprint's mark, with the Bricolage wordmark kept and the crew art on share images (recommended) / return to the full pre-D128 logos (D66 badge, D94 banner).
+- **Choice:** Illustrated roundels as the Rocket & Raven and Fox & Fern marks inside the Playground wordmark lockups; favicons, app icons and BIMI restored to the pre-D128 illustrated versions; the crew art (crew-v1) on the Lantern Learn, Rocket & Raven and learn app share images and the fox portrait on the Fox & Fern share image. No character is ever drawn from primitive shapes. All character art stays in rocket-and-raven-press `public/assets/brand/characters`, `public/assets/courses/tomorrow-trail-k1/characters` and `public/assets/courses/code-crew/art`; nothing was deleted.
+- **Date:** 2026-10-10. **Decided by:** owner (rejected shape characters, keep the cast), Claude (default: roundels in the new lockups). **Status:** Decided.
+- **Progress:** Draft PRs on branch claude/project-thread-bwq92e in lanternlearn-site, rocketandraven-site, foxandfernbooks-site and rocket-and-raven-press. Social kit regenerated in brand-icons/playground/social. Animated shorts are a separate piece of work.
+- **Links:** Related: D66, D94, D127, D128.
 
 ### D130: How the extra practice is stored and checked
 - **Question:** Where does the added content live, and what gets fixed along the way?
 - **Options:** Not recorded.
 - **Choice:** Code Crew K's daily practice is generated into separate files (`src/data/code-crew-k-lessons/practice/`) so the hand-written weeks 1 and 2 stay as approved and the free-preview bundle stays small. Weekend days in Code Crew K get an offline Word Hunt with a grown-up. Code Crew G3 now has a reproducible build (`npm run gen:code-crew-g3`, checked for drift in CI); its existing text had milk, butter and peanut butter swapped for water and banana, "money" swapped for "plates", a dash removed, and the Code.org and ScratchJr pointer replaced with "pick a kids' coding app with a grown-up".
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** rocket-and-raven-press #74.
 
 ### D131: Order of multiple-choice answers
 - **Question:** In most courses built by the course generator, the right answer is listed first (for example 272 of 272 in Code Crew G3, 251 of 258 in Science Launch G4). How should this be fixed?
 - **Options:** Shuffle the display order in the app, fixed per question, so saved answers keep working (recommended) / reorder the choices in the course files / leave as is.
 - **Choice:** Shuffle in the app. Choices show in a stable order derived from the block id and round (the same on every visit); answers stay saved and graded by choice id. Applies to every workbook's multiple-choice rounds and the Code Crew K lesson predict rounds. With the shuffle the right answer is first about as often as chance (29% to 48% by course).
-- **Date:** 2026-10-10. **Decided by:** owner (card in the project chat). **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** owner (card in the project chat). **Status:** Done.
 - **Links:** rocket-and-raven-press #74 (`src/lib/choiceOrder.ts`).
+
+### D132: Packaging for the iOS, Android and Amazon apps
+- **Question:** When the catalog is built out, the owner wants free apps with no ads and no tracking on the App Store, Google Play and the Amazon Appstore. How should the learn app (learn.lanternlearn.com, rocket-and-raven-press) be packaged?
+- **Options:** Capacitor hybrid: native shell with offline packs, native audio and a parental gate, loading the Astro app in app mode (recommended) / thin Capacitor or TWA wrapper of the website (likely rejected by Apple 4.2) / native rewrite in Expo or React Native.
+- **Choice:** Capacitor hybrid: native shell (Capacitor 8) with offline course packs, native narration audio, a native kid picker and parental gate, loading the Astro app in app mode (D137).
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Plan only; the build starts when the catalog is built out.
+- **Links:** /mnt/project-files/apps/app-store-plan.md.
+
+### D133: Store developer accounts: organization or personal
+- **Question:** Enroll the Apple, Google and Amazon developer accounts as Chris Brock LLC or as Chris personally?
+- **Options:** Organization (Chris Brock LLC) with a free D-U-N-S number; seller shows as the LLC; skips Google's 12-tester, 14-day closed test (recommended) / personal; faster to start, seller shows Chris's own name, Google requires the closed test.
+- **Choice:** Organization accounts as Chris Brock LLC on Apple, Google and Amazon, using a free D-U-N-S number.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** Done in practice. All three organization accounts already exist for Chris Brock LLC: Apple approved 2026-08-10, Google Play and Amazon registered, D-U-N-S verified against the Georgia filing (games-v1 `docs/store-accounts.md`; owner confirmed Apple 2026-10-10). Lantern Learn gets its own app record in each.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 5.
+
+### D134: Amazon Appstore
+- **Question:** Amazon's new Alexa Tablets (announced 2026-10-08) run Google Play; the Amazon Appstore still serves existing Fire tablets. Ship to the Amazon Appstore too?
+- **Options:** Yes, same Android build as a signed APK; $0 account (recommended) / Google Play only.
+- **Choice:** Yes: the same Android build ships to the Amazon Appstore as a signed APK, for Fire tablets, alongside Google Play.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 5.3.
+
+### D135: Apple Kids Category and age band
+- **Question:** List the iOS app in Apple's Kids Category, and for which age band? Kids Category rules stick to later updates even if deselected (guideline 1.3), and only Kids apps may say "for kids" in metadata (2.3.8).
+- **Options:** Kids Category, ages 6-8, matching the K-G3 bulk of the catalog (recommended) / Kids Category, ages 9-11 / Education only, not Kids.
+- **Choice:** Kids Category, ages 6-8.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 4.1.
+
+### D136: Sign-in inside the apps
+- **Question:** Sign-in is an email magic link, which opens in the phone's browser and can't be used by App Review. How do people sign in inside the apps?
+- **Options:** Add a 6-digit code to the existing sign-in email, typed into the app, plus a documented review account (recommended) / universal links and App Links / passwords.
+- **Choice:** 6-digit email code plus a review account; universal links later.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Not started; part of the app build.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 3.4.
+
+### D137: App mode on learn.lanternlearn.com
+- **Question:** What changes when the learn app runs inside the store apps?
+- **Options:** Not recorded beyond the choice.
+- **Choice:** The shell tags its user agent `LanternLearnApp/<version>`. In app mode: no GA4, Meta Pixel or consent banner; no store, checkout, pricing or marketing links; every link out, mailto, legal page and settings screen sits behind a native parental gate; start at /dashboard. The websites keep GA4 as decided in D2.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Not started; part of the app build.
+- **Links:** /mnt/project-files/apps/app-store-plan.md sections 3.2, 3.3. Related: D2, D106.
+
+### D138: Market every course as 100% free, never a preview
+- **Question:** Some copy still sold the courses as a free preview, free weeks or samples, with pricing in the nav, even though every course is free in full (D106). How should the sites, app, emails, launch drafts and social kit describe the price?
+- **Options:** Say "100% free, start to finish" everywhere, drop preview, sample and pricing wording, and keep the `/pricing/` URL with a "100% free" label (recommended) / keep the "Pricing" label and only fix the preview lines.
+- **Choice:** Every surface says the full course is free: every week, every lesson, no preview, no card. The Rocket & Raven nav and footer say "100% free" (the URL stays `/pricing/`). Paid code paths stay dormant behind `FREE_ACCESS_MODE`.
+- **Date:** 2026-10-10. **Decided by:** owner ("market everything as 100% free, not just previews"), Claude (default: wording and the nav label). **Status:** Decided.
+- **Progress:** Draft PRs: rocketandraven-site #29, lanternlearn-site #17, foxandfernbooks-site #17, rocket-and-raven-press #77. Launch drafts (`/mnt/project-files/launch`) and the social kit (`brand-icons/playground/social`) were updated in place. TPT listings are unchanged because TPT rules bar store links.
+- **Links:** Related: D106, D109.
+
+### D139: Free sign-in after week 4
+- **Question:** Signed-out visitors can open weeks 1 to 4. From week 5 the app asks for a free parent account (no card). Should every week open with no account?
+- **Options:** Keep the free sign-in after week 4: it saves progress and builds the parent list (recommended) / open every week to anyone, with progress saved only after signing in.
+- **Choice:** Open all weeks. While `FREE_ACCESS_MODE` is on, every week of every course opens for anyone, signed in or not. A free parent account only saves progress.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** rocket-and-raven-press PR (checkWeekAccess opens every week in free mode; tests updated).
+- **Links:** Related: D106, D138.
+
+### D140: Bundle id for the Lantern Learn apps
+- **Question:** Which bundle id / package name do the iOS, Android and Amazon apps use? It is permanent once submitted and never shown to users. On 2026-10-10 the owner said everything published uses chrisbrockllc.com, not chrisbrock.io.
+- **Options:** `com.chrisbrockllc.lanternlearn`, matching the chrisbrockllc.com rule (recommended) / `io.chrisbrock.lanternlearn`, matching the games-v1 titles' `io.chrisbrock.<title>` convention.
+- **Choice:** `com.chrisbrockllc.lanternlearn`. `.dev` and `.staging` suffixes for test builds; same id on all three stores.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 3.5; games-v1 `docs/store-accounts.md` (bundle identifiers).

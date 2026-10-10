@@ -23,7 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built and unlisted (press #86) until this is answered. |
+| D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built but held: no lesson is reachable (press #86) until this is answered. |
 | D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
 | D163 | Which healthy-eating guide does the Kitchen course teach? | Colorful produce only (recommended) / MyPlate / New Pyramid | Built on the recommended option. |
 | D164 | What should the Fox & Fern cooking course be called? | Fox & Fern Kitchen (recommended) / Kitchen Crew / Little Chefs Lab | Built on the recommended option. |
@@ -1161,7 +1161,7 @@ Every entry has these fields:
 - **Options:** Chris reviews, with a parent safety notice and reviewer checklist (recommended) / an attorney reviews a packet first / keep it hidden until decided.
 - **Choice:** Not yet answered.
 - **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
-- **Progress:** Course is built and unlisted (reachable by URL only) until this is answered. Items for the review: oven 350 and 425 degrees F, bake and simmer times, the toothpick test, and every allergy swap; these are recipe instructions, not sourced facts.
+- **Progress:** Course is built but held (`draft: true`, `publish: false`): its workbook is not loaded, so no lesson is reachable until this is answered. Items for the review: oven 350 and 425 degrees F, bake and simmer times, the toothpick test, and every allergy swap; these are recipe instructions, not sourced facts.
 - **Links:** rocket-and-raven-press #86. Related: D143.
 
 ### D162: Naming allergens in the Kitchen allergy week
@@ -1198,7 +1198,7 @@ Every entry has these fields:
 - **Options:** None offered (Claude default).
 - **Choice:** One Fox & Fern course, Grades 3 to 5 only (`kitchen-g3-5`, Grade 3 reading cap, typed answers), 12 weeks, 15-minute days (10+ enforced), Saturday "Family Cook Day". Generator `foodRules: 'kitchen'`: every recipe card has an "Allergy swap:" line, no recipe uses a major allergen, any stove, oven, knife or hot pan comes with a "grown-up handles" callout, tasting allowed. Facts only from CDC, FDA and NIST pages in SOURCES.md; CCSS math and reading codes checked on thecorestandards.org. Cast: Ferris, Bennie, Lizzy, Riley, Oliver, Hazel, Rosie, Freddy, Lucy. Cover and hero from the Ferris and Bennie art, with no milk or allergen foods shown.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; press #86 open. Ships unlisted until D161.
+- **Progress:** Built; press #86 open. Held (no lesson reachable) until D161; going live means removing `draft: true` and setting `publish: true`.
 - **Links:** rocket-and-raven-press #86. Related: D143.
 
 ### D167: Course workbooks served as private static assets

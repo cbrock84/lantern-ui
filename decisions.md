@@ -1095,5 +1095,5 @@ Every entry has these fields:
 - **Options:** $15 per pack (recommended): under the dormant $19 single-course price, fits a $2,000 homeschool ESA across several courses / $9: impulse price, less per ESA order / $25: more per sale, may draw Odyssey price review. No competitor prices were checked.
 - **Choice:** $15 per pack, per student. Same price everywhere (D152).
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Pack products, store gate and admin pack grant built in rocket-and-raven-press; the store opens once the owner creates the $15 Stripe price. 16 full-course PDFs built (scripts/print-packs) and uploaded to R2.
+- **Progress:** Pack products, store gate and admin pack grant built in rocket-and-raven-press; the store opens once the owner creates the $15 Stripe price. 16 full-course PDFs built (scripts/print-packs) and uploaded to R2. Parked 2026-10-10 by the owner (prioritize expansion and course content): press #79 stays unmerged and the store stays hidden; no Stripe price yet.
 - **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. rocket-and-raven-press #79. Related: D148, D151, D152.

@@ -862,6 +862,6 @@ Every entry has these fields:
 - **Question:** Before the public launch, the course app's home page featured the first six live courses alphabetically (Astronomy Year first) and both the home page and the empty catalog filter promised "new courses ship monthly", which nothing backs. Change them?
 - **Options:** lead the featured row with the flagships and drop the promise (recommended) / leave as is.
 - **Choice:** Featured row leads with Code Crew K, Tomorrow Trail, Science Launch K, Builder's Lab, Code Crew G1, Astronomy Year. "New courses ship monthly" is replaced by "every course free" on the home page and dropped from the empty catalog filter.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** draft PR open; Done once merged.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** shipped in cbrock84/rocket-and-raven-press #73 (merged 2026-10-10).
 - **Links:** cbrock84/rocket-and-raven-press, branch `claude/project-thread-fvczkb`.

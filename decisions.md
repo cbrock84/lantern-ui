@@ -857,3 +857,11 @@ Every entry has these fields:
 - **Date:** 2026-10-09. **Decided by:** owner. **Status:** Done.
 - **Progress:** `_dmarc` records set to `p=quarantine; pct=100` on all three domains via the Cloudflare API 2026-10-09 (rua unchanged). Microsoft 365 DKIM is still off on all three (owner step in security.microsoft.com; see /mnt/project-files/brand-icons/README.md).
 
+
+### D122: Launch-page polish on learn.lanternlearn.com
+- **Question:** Before the public launch, the course app's home page featured the first six live courses alphabetically (Astronomy Year first) and both the home page and the empty catalog filter promised "new courses ship monthly", which nothing backs. Change them?
+- **Options:** lead the featured row with the flagships and drop the promise (recommended) / leave as is.
+- **Choice:** Featured row leads with Code Crew K, Tomorrow Trail, Science Launch K, Builder's Lab, Code Crew G1, Astronomy Year. "New courses ship monthly" is replaced by "every course free" on the home page and dropped from the empty catalog filter.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** shipped in cbrock84/rocket-and-raven-press #73 (merged 2026-10-10).
+- **Links:** cbrock84/rocket-and-raven-press, branch `claude/project-thread-fvczkb`.

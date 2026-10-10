@@ -881,6 +881,52 @@ Every entry has these fields:
 - **Progress:** Draft PRs on branch claude/project-thread-bwq92e in lanternlearn-site, rocketandraven-site, foxandfernbooks-site and rocket-and-raven-press. Social kit regenerated in brand-icons/playground/social. Animated shorts are a separate piece of work.
 - **Links:** Related: D66, D94, D127, D128.
 
+### D132: Packaging for the iOS, Android and Amazon apps
+- **Question:** When the catalog is built out, the owner wants free apps with no ads and no tracking on the App Store, Google Play and the Amazon Appstore. How should the learn app (learn.lanternlearn.com, rocket-and-raven-press) be packaged?
+- **Options:** Capacitor hybrid: native shell with offline packs, native audio and a parental gate, loading the Astro app in app mode (recommended) / thin Capacitor or TWA wrapper of the website (likely rejected by Apple 4.2) / native rewrite in Expo or React Native.
+- **Choice:** Capacitor hybrid: native shell (Capacitor 8) with offline course packs, native narration audio, a native kid picker and parental gate, loading the Astro app in app mode (D137).
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Plan only; the build starts when the catalog is built out.
+- **Links:** /mnt/project-files/apps/app-store-plan.md.
+
+### D133: Store developer accounts: organization or personal
+- **Question:** Enroll the Apple, Google and Amazon developer accounts as Chris Brock LLC or as Chris personally?
+- **Options:** Organization (Chris Brock LLC) with a free D-U-N-S number; seller shows as the LLC; skips Google's 12-tester, 14-day closed test (recommended) / personal; faster to start, seller shows Chris's own name, Google requires the closed test.
+- **Choice:** Organization accounts as Chris Brock LLC on Apple, Google and Amazon, using a free D-U-N-S number.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** Done in practice. All three organization accounts already exist for Chris Brock LLC: Apple approved 2026-08-10, Google Play and Amazon registered, D-U-N-S verified against the Georgia filing (games-v1 `docs/store-accounts.md`; owner confirmed Apple 2026-10-10). Lantern Learn gets its own app record in each.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 5.
+
+### D134: Amazon Appstore
+- **Question:** Amazon's new Alexa Tablets (announced 2026-10-08) run Google Play; the Amazon Appstore still serves existing Fire tablets. Ship to the Amazon Appstore too?
+- **Options:** Yes, same Android build as a signed APK; $0 account (recommended) / Google Play only.
+- **Choice:** Yes: the same Android build ships to the Amazon Appstore as a signed APK, for Fire tablets, alongside Google Play.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 5.3.
+
+### D135: Apple Kids Category and age band
+- **Question:** List the iOS app in Apple's Kids Category, and for which age band? Kids Category rules stick to later updates even if deselected (guideline 1.3), and only Kids apps may say "for kids" in metadata (2.3.8).
+- **Options:** Kids Category, ages 6-8, matching the K-G3 bulk of the catalog (recommended) / Kids Category, ages 9-11 / Education only, not Kids.
+- **Choice:** Kids Category, ages 6-8.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 4.1.
+
+### D136: Sign-in inside the apps
+- **Question:** Sign-in is an email magic link, which opens in the phone's browser and can't be used by App Review. How do people sign in inside the apps?
+- **Options:** Add a 6-digit code to the existing sign-in email, typed into the app, plus a documented review account (recommended) / universal links and App Links / passwords.
+- **Choice:** 6-digit email code plus a review account; universal links later.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Not started; part of the app build.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 3.4.
+
+### D137: App mode on learn.lanternlearn.com
+- **Question:** What changes when the learn app runs inside the store apps?
+- **Options:** Not recorded beyond the choice.
+- **Choice:** The shell tags its user agent `LanternLearnApp/<version>`. In app mode: no GA4, Meta Pixel or consent banner; no store, checkout, pricing or marketing links; every link out, mailto, legal page and settings screen sits behind a native parental gate; start at /dashboard. The websites keep GA4 as decided in D2.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Not started; part of the app build.
+- **Links:** /mnt/project-files/apps/app-store-plan.md sections 3.2, 3.3. Related: D2, D106.
+
 ### D138: Market every course as 100% free, never a preview
 - **Question:** Some copy still sold the courses as a free preview, free weeks or samples, with pricing in the nav, even though every course is free in full (D106). How should the sites, app, emails, launch drafts and social kit describe the price?
 - **Options:** Say "100% free, start to finish" everywhere, drop preview, sample and pricing wording, and keep the `/pricing/` URL with a "100% free" label (recommended) / keep the "Pricing" label and only fix the preview lines.
@@ -896,3 +942,10 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Progress:** rocket-and-raven-press PR (checkWeekAccess opens every week in free mode; tests updated).
 - **Links:** Related: D106, D138.
+
+### D140: Bundle id for the Lantern Learn apps
+- **Question:** Which bundle id / package name do the iOS, Android and Amazon apps use? It is permanent once submitted and never shown to users. On 2026-10-10 the owner said everything published uses chrisbrockllc.com, not chrisbrock.io.
+- **Options:** `com.chrisbrockllc.lanternlearn`, matching the chrisbrockllc.com rule (recommended) / `io.chrisbrock.lanternlearn`, matching the games-v1 titles' `io.chrisbrock.<title>` convention.
+- **Choice:** `com.chrisbrockllc.lanternlearn`. `.dev` and `.staging` suffixes for test builds; same id on all three stores.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Links:** /mnt/project-files/apps/app-store-plan.md section 3.5; games-v1 `docs/store-accounts.md` (bundle identifiers).

@@ -35,7 +35,7 @@ const style = `--fb-bg:${BASE.bar};--fb-text:${BASE.barText};--fb-accent:${BASE.
 </nav>
 
 <style>
-  .ll-family-bar { background: var(--fb-bg); color: var(--fb-text); font: 500 13px/1.3 "Inter", system-ui, sans-serif; }
+  .ll-family-bar { background: var(--fb-bg); color: var(--fb-text); font: 700 13px/1.3 "Nunito", system-ui, sans-serif; }
   .ll-fb-inner { max-width: 72rem; margin: 0 auto; padding: 6px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 18px; }
   @media (min-width: 640px) { .ll-fb-inner { padding: 6px 24px; } }
   /* Tap targets: at least 24px tall (WCAG 2.2 AA 2.5.8), 32px on phones. */
@@ -43,10 +43,10 @@ const style = `--fb-bg:${BASE.bar};--fb-text:${BASE.barText};--fb-accent:${BASE.
   .ll-family-bar a:hover { color: var(--fb-accent); }
   .ll-family-bar a:focus-visible { outline: 2px solid var(--fb-accent); outline-offset: 2px; }
   .ll-family-bar a[aria-current='page'] { color: var(--fb-accent); text-decoration: underline; text-underline-offset: 4px; }
-  .ll-fb-home { font: 700 12px/1 "Cinzel", Georgia, serif; letter-spacing: 0.16em; text-transform: uppercase; color: var(--fb-accent) !important; }
+  .ll-fb-home { font: 800 14px/1 "Bricolage Grotesque", system-ui, sans-serif; letter-spacing: -0.01em; color: var(--fb-accent) !important; }
   .ll-fb-imprints { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 16px; }
   .ll-fb-gap { flex: 1 1 0; }
-  .ll-fb-account { border: 1px solid var(--fb-accent); color: var(--fb-accent) !important; padding: 3px 10px; border-radius: 999px !important; }
+  .ll-fb-account { background: var(--fb-accent); color: var(--fb-bg) !important; padding: 3px 12px; border-radius: 999px !important; font-weight: 800; }
   @media (max-width: 560px) {
     .ll-fb-imprints { order: 3; flex-basis: 100%; }
     .ll-family-bar a { min-height: 32px; }

@@ -1,7 +1,7 @@
 // The Lantern Learn design system (D57, D58): base frame, imprint skins, family bar links.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { BASE, SKINS, FAMILY, PLATFORM_IMPRINT, baseDecls, skinDecls, brandCss, scopedSkinsCss, coursesFor, PLATFORM } from '../../src/index.ts';
+import { BASE, SKINS, PLAYGROUND, FAMILY, PLATFORM_IMPRINT, baseDecls, skinDecls, brandCss, scopedSkinsCss, coursesFor, PLATFORM } from '../../src/index.ts';
 
 test('every family site has a skin, keyed the same', () => {
   assert.deepEqual(Object.keys(SKINS).sort(), Object.keys(FAMILY).sort());
@@ -10,12 +10,18 @@ test('every family site has a skin, keyed the same', () => {
   assert.equal(SKINS.foxandfern.dark, false);
 });
 
-test('base is the warm light Lantern Learn frame (D58)', () => {
-  assert.equal(BASE.bg, '#faf6e9');
-  assert.equal(BASE.accent, '#a73b04');
+test('base is the light Playground frame (D58, D127)', () => {
+  assert.equal(BASE.bg, '#eef4ff');
+  assert.equal(BASE.accent, '#5b3fd9');
   const d = baseDecls();
-  assert.match(d, /--ll-base-bg:250 246 233;/);
-  assert.match(d, /--ll-base-font:"Inter", system-ui, sans-serif;/);
+  assert.match(d, /--ll-base-bg:238 244 255;/);
+  assert.match(d, /--ll-base-font:"Nunito", system-ui, sans-serif;/);
+  assert.match(d, /--ll-clay:inset /);
+  assert.match(d, /--ll-pg-sun:255 201 40;--ll-pg-on-sun:29 20 51;/);
+});
+
+test('every Playground block colour carries readable text (D127)', () => {
+  for (const [k, c] of Object.entries(PLAYGROUND)) assert.ok(ratio(c.on, c.fill) >= 4.5, `${k}: ${ratio(c.on, c.fill).toFixed(2)}`);
 });
 
 test('skin declarations carry colors, fonts and radius', () => {
@@ -23,8 +29,8 @@ test('skin declarations carry colors, fonts and radius', () => {
   assert.match(d, /--ll-skin-brand:82 113 67;/);
   assert.match(d, /--ll-skin-on-brand:255 255 255;/);
   assert.match(d, /--ll-skin-display:"Fredoka", system-ui, sans-serif;/);
-  assert.match(d, /--ll-radius:18px;/);
-  assert.match(brandCss('rocketandraven'), /^:root\{--ll-base-bg:.*--ll-radius:6px;\}$/);
+  assert.match(d, /--ll-radius:22px;/);
+  assert.match(brandCss('rocketandraven'), /^:root\{--ll-base-bg:.*--ll-radius:16px;\}$/);
   const scoped = scopedSkinsCss();
   for (const k of Object.keys(SKINS)) assert.ok(scoped.includes(`[data-skin="${k}"]{`), k);
 });

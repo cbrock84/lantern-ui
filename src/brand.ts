@@ -1,7 +1,9 @@
 /**
  * The Lantern Learn design system (owner decisions D57, D58).
  *
- * - BASE is the Lantern Learn look: warm light, from lanternlearn.com. It owns
+ * - BASE is the Lantern Learn look. Since D127 it is "Playground": a light
+ *   sky-tinted ground, deep grape-ink text and bold flat colour blocks with
+ *   clay-style surfaces (D58's light base holds; its palette changed). It owns
  *   the frame every property shares: family bar, header, footer, and on the
  *   learning platform the account, checkout and dashboard.
  * - SKINS hold each brand's small, fixed skin: display font, a few colors and a
@@ -32,28 +34,46 @@ export interface BaseTheme {
   footerAccent: string;
 }
 
-/** The Lantern Learn frame (D58: warm light). */
+/** The Lantern Learn frame (D58: light; D127: Playground palette). */
 export const BASE: BaseTheme = {
-  bg: '#faf6e9',
-  surface: '#fffdf6',
-  text: '#0a1626',
-  muted: '#3b4b68',
-  heading: '#0a1626',
-  accent: '#a73b04',
-  border: '#e9e0c4',
-  bar: '#0a1626',
-  barText: '#fbf8ec',
-  barAccent: '#e7c988',
-  footerBg: '#0a1626',
-  footerText: '#fbf8ec',
-  footerAccent: '#e7c988',
+  bg: '#eef4ff',
+  surface: '#ffffff',
+  text: '#1d1433',
+  muted: '#4a3f63',
+  heading: '#1d1433',
+  accent: '#5b3fd9',
+  border: '#d9e2f5',
+  bar: '#1d1433',
+  barText: '#ffffff',
+  barAccent: '#ffc928',
+  footerBg: '#1d1433',
+  footerText: '#ffffff',
+  footerAccent: '#ffc928',
 };
 
 export const BASE_FONTS = {
-  href: 'https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap',
-  ui: '"Inter", system-ui, sans-serif',
-  wordmark: '"Cinzel", Georgia, serif',
+  href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Nunito:wght@500;600;700;800&display=swap',
+  ui: '"Nunito", system-ui, sans-serif',
+  wordmark: '"Bricolage Grotesque", system-ui, sans-serif',
 };
+
+/**
+ * The Playground block colours (D127): flat, saturated fills for tiles, chips
+ * and decorative clay shapes. Each `on` is the text colour that meets 4.5:1 on
+ * that fill, so a block can carry body text, not just display type.
+ */
+export const PLAYGROUND = {
+  grape: { fill: '#6a4cf0', on: '#ffffff' },
+  tomato: { fill: '#ff5a36', on: '#1d1433' },
+  sun: { fill: '#ffc928', on: '#1d1433' },
+  sky: { fill: '#3da9ff', on: '#06213d' },
+  grass: { fill: '#2fb565', on: '#062b15' },
+  pink: { fill: '#ff7ab6', on: '#3d0a24' },
+} as const;
+
+/** The clay surface: a soft lower inner shade, an upper highlight and a lifted shadow. */
+export const CLAY_SHADOW =
+  'inset 0 -6px 0 rgba(0,0,0,.12), inset 0 4px 0 rgba(255,255,255,.45), 0 10px 22px -10px rgba(29,20,51,.35)';
 
 export interface Skin {
   key: SiteKey;
@@ -85,17 +105,17 @@ export const SKINS: Record<SiteKey, Skin> = {
     key: 'lanternlearn',
     name: 'Lantern Learn',
     fontsHref: BASE_FONTS.href,
-    fonts: { display: BASE_FONTS.ui, body: BASE_FONTS.ui },
-    brand: '#a73b04',
+    fonts: { display: BASE_FONTS.wordmark, body: BASE_FONTS.ui },
+    brand: '#6a4cf0',
     onBrand: '#ffffff',
-    accent: '#0a1626',
-    onAccent: '#e7c988',
-    bg: '#faf6e9',
-    surface: '#fffdf6',
-    text: '#0a1626',
-    muted: '#3b4b68',
-    border: '#e9e0c4',
-    radius: 10,
+    accent: '#ffc928',
+    onAccent: '#1d1433',
+    bg: '#eef4ff',
+    surface: '#ffffff',
+    text: '#1d1433',
+    muted: '#4a3f63',
+    border: '#d9e2f5',
+    radius: 22,
     dark: false,
   },
   rocketandraven: {
@@ -104,16 +124,16 @@ export const SKINS: Record<SiteKey, Skin> = {
     fontsHref:
       'https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap',
     fonts: { display: '"Orbitron", "Exo 2", system-ui, sans-serif', body: '"Inter", system-ui, sans-serif' },
-    brand: '#3aa9ff',
+    brand: '#f26b1d',
     onBrand: '#0b1226',
-    accent: '#ff8a3a',
+    accent: '#18c6e0',
     onAccent: '#0b1226',
     bg: '#0b1226',
     surface: '#14213d',
     text: '#f2f6ff',
     muted: '#b6c6e3',
     border: '#2a3d62',
-    radius: 6,
+    radius: 16,
     dark: true,
   },
   foxandfern: {
@@ -131,7 +151,7 @@ export const SKINS: Record<SiteKey, Skin> = {
     text: '#6e3618',
     muted: '#8c4818',
     border: '#f3cfae',
-    radius: 18,
+    radius: 22,
     dark: false,
   },
 };
@@ -160,7 +180,14 @@ export function baseDecls(base: BaseTheme = BASE): string {
   const decls = (Object.keys(BASE_VARS) as (keyof BaseTheme)[]).map(
     (k) => `${BASE_VARS[k]}:${hexToRgbTriplet(base[k])};`,
   );
-  decls.push(`--ll-base-font:${BASE_FONTS.ui};`, `--ll-base-wordmark:${BASE_FONTS.wordmark};`);
+  decls.push(
+    `--ll-base-font:${BASE_FONTS.ui};`,
+    `--ll-base-wordmark:${BASE_FONTS.wordmark};`,
+    `--ll-clay:${CLAY_SHADOW};`,
+  );
+  for (const [k, c] of Object.entries(PLAYGROUND)) {
+    decls.push(`--ll-pg-${k}:${hexToRgbTriplet(c.fill)};`, `--ll-pg-on-${k}:${hexToRgbTriplet(c.on)};`);
+  }
   return decls.join('');
 }
 

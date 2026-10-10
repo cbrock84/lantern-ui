@@ -1105,3 +1105,33 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Live (all PRs below merged 2026-10-10). Built when the owner asked on 2026-10-10 to prioritize expansion content and to keep building. It does not change D141: Inside the Machine is still the owner's pick and is tracked there.
 - **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19, lantern-ui #69. Related: D141, D142.
+
+### D156: AI Explorers course shape
+- **Question:** How AI Explorers (K-5 AI literacy, roadmap stage Now) is built: course split, imprint, series, reading level, standards and art.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Rocket & Raven courses in a new AI Explorers series, kept off the Code Crew rank ladder: AI Explorers K-2 (`ai-explorers-k2`, K reading level, tap-only, daily Word Spot on the K Dolch + Fry list) and AI Explorers Grades 3-5 (`ai-explorers-g3-5`, Grade 3 reading level, typed answers allowed, running thread: the crew trains and tests a paper sorting model for mission photos). 12 weeks each, 15-minute days (every day 11+ minutes by the audit), Saturday "Explorer Quest". Nova guides. Each week maps to a CSTA 2017 code, and the arc follows the AI4K12 Five Big Ideas. Covers and heroes were made in Higgsfield from the existing crew art. Marketing copy says 100% free.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge. After Body Lab (D154) lands, adopt its optional `grades` field so the catalog grade filter lists each course under every grade it covers.
+- **Links:** rocket-and-raven-press #82, rocketandraven-site #33, lanternlearn-site (home tile). Research: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D145, D138, D147.
+
+### D157: AI Explorers safety and fact rules
+- **Question:** Do children use a real AI tool in AI Explorers, and how are AI facts checked?
+- **Options:** None offered (Claude default).
+- **Choice:** Fully unplugged. No lesson connects a child to a chatbot, image generator or any live AI. Nova is a story character, and the lessons say AI is a tool people build that can be wrong. Each course's `SOURCES.md` holds a fact bank (AI4K12, NIST AI 100-1 and 600-1, SUNY Geneseo, Gordon College, CSTA). A claim about AI that is not in the fact bank stays out of the lessons. A privacy fact that rested on the FTC COPPA page was dropped because that page could not be fetched.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #82 (`scripts/course-gen/courses/ai-explorers-*/SOURCES.md`). Related: D156.
+
+### D158: Where new site content lives
+- **Question:** Chris asked for course pages, a parent how-it-works/FAQ page and evergreen guide posts across the sites. Where does each piece go?
+- **Options:** None offered (Claude default).
+- **Choice:** lanternlearn.com gets `/courses` plus one page per course (generated from the platform by `scripts/sync-courses.py`, so copy never drifts) and `/how-it-works` (parent guide and FAQ); its nav "Courses" now opens `/courses` instead of the course app. rocketandraven.com already had pages for every Rocket & Raven course, so it is unchanged. Each guide post lives on one site only (no duplicates): sight words on foxandfernbooks.com, free homeschool STEM on lanternlearn.com. Every post cites its sources.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** lanternlearn-site #21, foxandfernbooks-site #18, rocket-and-raven-press #83 (parent help said "first weeks free to try"; now "every course is free", per D138).
+
+### D160: Grow It course shape
+- **Question:** How Grow It (plants and gardening, expansion study idea) is built: course split, reading level, sight words, safety rules and catalog grade.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Rocket & Raven courses in a new Grow It series: Grow It K to 2 (`grow-it-k2`, Grade 1 reading level, tap-only, daily Word Spot on the Grade 1 Dolch + Fry list) and Grow It Grades 3 to 5 (`grow-it-g3-5`, Grade 3 reading level, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Grow It Day". A windowsill is enough: kids sprout and look after a bean plant across the weeks. Garden safety: gloves for soil and handwashing after, nothing found outside or grown in an activity is eaten, a grown-up handles tools, potting mix and cutting, no fertilizer or bug spray. Approved foods only, no nuts (acorns appear only as food for animals), no celery. Decomposition ("dead leaves") is taught in Grades 3 to 5 as part of 5-LS2-1. Covers and heroes made in Higgsfield from the existing Rocket, Raven and Nova art.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge. Built at the owner's 2026-10-10 request to keep building expansion content.
+- **Links:** rocket-and-raven-press #84, rocketandraven-site #35, lanternlearn-site #26. Related: D141, D154.

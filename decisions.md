@@ -1102,9 +1102,9 @@ Every entry has these fields:
 - **Question:** How Body Lab is built: course split, reading level, sight words and catalog grade.
 - **Options:** None offered (Claude default).
 - **Choice:** Two Rocket & Raven courses in a new Body Lab series: Body Lab K to 2 (`body-lab-k2`, Grade 1 reading level, tap-only, daily Word Spot on the Grade 1 Dolch + Fry list) and Body Lab Grades 3 to 5 (`body-lab-g3-5`, Grade 3 reading level, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Body Lab Day". Course meta gains an optional `grades` list so the catalog grade filter finds each course under every grade it covers and the card shows "Grades K to 2". Covers and heroes made in Higgsfield from the existing Rocket, Raven and Nova art. No injuries, illness, private anatomy, dairy foods or questions about a child's own body.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; live once the PRs below merge.
-- **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19. Related: D141, D142.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live (all PRs below merged 2026-10-10). Built when the owner asked on 2026-10-10 to prioritize expansion content and to keep building. It does not change D141: Inside the Machine is still the owner's pick and is tracked there.
+- **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19, lantern-ui #69. Related: D141, D142.
 
 ### D155: Inside the Machine course shape and art
 - **Question:** How Inside the Machine (D141) is built: course split, reading level, sight words, catalog grades and artwork.
@@ -1143,3 +1143,19 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Built; live once rocket-and-raven-press #81 merges (it carries Inside the Machine and Home Helpers together).
 - **Links:** rocket-and-raven-press #81, lanternlearn-site #20 (home tile). Related: D141, D143, D154, D155.
+
+### D160: Grow It course shape
+- **Question:** How Grow It (plants and gardening, expansion study idea) is built: course split, reading level, sight words, safety rules and catalog grade.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Rocket & Raven courses in a new Grow It series: Grow It K to 2 (`grow-it-k2`, Grade 1 reading level, tap-only, daily Word Spot on the Grade 1 Dolch + Fry list) and Grow It Grades 3 to 5 (`grow-it-g3-5`, Grade 3 reading level, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Grow It Day". A windowsill is enough: kids sprout and look after a bean plant across the weeks. Garden safety: gloves for soil and handwashing after, nothing found outside or grown in an activity is eaten, a grown-up handles tools, potting mix and cutting, no fertilizer or bug spray. Approved foods only, no nuts (acorns appear only as food for animals), no celery. Decomposition ("dead leaves") is taught in Grades 3 to 5 as part of 5-LS2-1. Covers and heroes made in Higgsfield from the existing Rocket, Raven and Nova art.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live on learn.lanternlearn.com (press #84 merged 2026-10-10). Built at the owner's 2026-10-10 request to keep building expansion content.
+- **Links:** rocket-and-raven-press #84, rocketandraven-site #35, lanternlearn-site #26. Related: D141, D154.
+
+### D161: Bike Shop course shape
+- **Question:** How Bike Shop (the G3+ reframe of the deferred vehicle-repair idea in the expansion study, D141) is built: grades, reading level, safety rules and standards.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in a new Bike Shop series: Bike Shop Grades 3 to 5 (`bike-shop-g3-5`, Grade 3 reading level, typed answers allowed), 12 weeks, 15-minute days (10+ minutes enforced), Saturday "Bike Shop Day". Weeks: parts and jobs, forces, friction, tires and air, gears and chain, patterns of motion, brakes, fit and helmets, being seen, a flat tire, the pre-ride quick check, and a design capstone. NGSS 3-PS2-1, 3-PS2-2, 4-PS4-2 and 3-5-ETS1-1 to 3. Safety: bike work only with the bike standing still; a grown-up holds and turns the bike and handles every tool, pump gauge and chain oil; hands away from chain, gears and spokes when anything turns; helmet for every ride and riding only where a grown-up says; no traffic-rule teaching beyond sourced pages. Every activity has a no-bike path. Kids' own measurements go in ungraded blocks. Cover and hero made in Higgsfield from the existing Rocket, Raven and Nova art.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Being built (coordinator assignment after Grow It; owner asked to keep building expansion content).
+- **Links:** Related: D141, D160.

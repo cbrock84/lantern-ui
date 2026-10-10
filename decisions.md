@@ -23,6 +23,8 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D124 | Which sight-word list should the K to G2 courses teach? | Dolch by grade (recommended) / Fry first 300 / both | Work proceeds on Dolch by grade. |
+| D125 | Where should sight words be taught? | All K to 2 courses (recommended) / Tomorrow Trail only | Work proceeds on all K to 2. |
 
 ## Log
 
@@ -857,3 +859,31 @@ Every entry has these fields:
 - **Date:** 2026-10-09. **Decided by:** owner. **Status:** Done.
 - **Progress:** `_dmarc` records set to `p=quarantine; pct=100` on all three domains via the Cloudflare API 2026-10-09 (rua unchanged). Microsoft 365 DKIM is still off on all three (owner step in security.microsoft.com; see /mnt/project-files/brand-icons/README.md).
 
+### D123: How long a lesson day is, and how it is checked
+- **Question:** The owner wants every course day to take 10 to 15 minutes (2026-10-10). What is the target, and how is it checked?
+- **Options:** Floor of 10 minutes for every day, target 10 to 15 for K to G2 and 15 to 20 for G3+ (keeps the grade-banded time chosen earlier), checked by an estimator / one flat 10 to 15 for all / no automated check.
+- **Choice:** Floor of 10 minutes for every day (weekdays and the weekend day); target 10 to 15 for K to G2, 15 to 20 for G3+. `scripts/course-audit/minutes.mjs` in rocket-and-raven-press estimates minutes from the built workbook (narration or reading time plus a fixed time per checked item and open task); `test/unit/lesson-length.test.mjs` holds each expanded course to the floor in CI.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Audit: 887 of 972 weekday lessons were under 10 minutes. Tomorrow Trail done (every day 11 to 25 minutes). Other courses in progress.
+- **Links:** rocket-and-raven-press #74; /mnt/project-files/lessons/2026-10-10-lesson-length-audit.md.
+
+### D124: Sight-word list
+- **Question:** Which sight-word list should the K to G2 courses teach?
+- **Options:** Dolch by grade (recommended: Pre-primer and Primer for K, Grade 1, Grade 2) / Fry first 300 / both merged.
+- **Choice:** Pending; work proceeds on Dolch by grade. "buy" (Dolch Grade 2) is left out under the money-word rule; the Dolch noun list is not used. Words are taught look, say, spell, find, then read in a sentence.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #74 (`scripts/sight-words/`).
+
+### D125: Where sight words are taught
+- **Question:** Tomorrow Trail carries the full K list. Should Code Crew and Science Launch K to G2 also review sight words daily?
+- **Options:** All K to 2 courses (recommended: a short daily Word Spot) / Tomorrow Trail only.
+- **Choice:** Pending; work proceeds on all K to 2 courses.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #74.
+
+### D126: Rollout of the longer lessons
+- **Question:** In what order are the 16 courses expanded, and how are they shipped?
+- **Options:** Not recorded.
+- **Choice:** Tomorrow Trail first, then every other course in parallel, all on one rocket-and-raven-press PR (#74) with a commit per course group. New blocks are added before each day's closing block or with their own ids, so saved answers keep their block ids.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #74.

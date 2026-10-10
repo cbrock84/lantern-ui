@@ -1311,6 +1311,14 @@ Every entry has these fields:
 - **Progress:** Live 2026-10-10: 12 weeks, 72 days at 14 to 21 minutes, every fact in SOURCES.md, cover, hero and 12 lesson illustrations. Course pages on lanternlearn.com and rocketandraven.com.
 - **Links:** rocket-and-raven-press #96, lanternlearn-site #38, rocketandraven-site #42. Related: D145, D173, D179 (Everyday Machines).
 
+### D201: Second Grades 6 to 8 science course
+- **Question:** With Weather Lab live (D200), which middle-school science course comes next?
+- **Options:** Matter Lab, kitchen-bench chemistry covering MS-PS1 (recommended; the one NGSS middle-school strand with no course, kitchen materials only, builds on the Weather Lab format) / Sports Physics, forces, motion and energy measured outdoors / Cells and Systems, life science (MS-LS codes are not yet in the build's allow-list).
+- **Choice:** Matter Lab Grades 6 to 8, `matter-lab-g6-8`, series `matter-lab`, Rocket & Raven, band G6+, 12 weeks, about 20 minutes a day, Saturday "Bench Day". Weeks: matter and atoms, states of matter, heat and changing state, density, mixtures and solutions, molecules, physical or chemical change, conservation of mass, acids and bases with a cabbage indicator, reactions that give or take energy, natural to synthetic materials, design project. Kitchen materials only, never cleaners; nothing tasted; a grown-up handles heat and cutting; safety glasses on fizzing weeks. Every fact from NIST, PubChem, USGS, NASA, EIA, FDA or a university page in SOURCES.md. Chris can switch the pick on the decision card in the thread.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** In progress 2026-10-10: plan, art and registration done, weeks being written.
+- **Links:** Related: D145, D200.
+
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?
 - **Options:** None offered (Claude default). Alternatives: build an unplugged CSTA Level 2 course alongside it.

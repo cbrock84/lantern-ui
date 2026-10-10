@@ -1260,9 +1260,9 @@ Every entry has these fields:
 - **Question:** The bible fixes Rocket and Raven at about 10 to 12, but Intro to Computer Science Grades 9 to 10 is for ages 14 to 16. How should the cast appear?
 - **Options:** Keep bible ages; the cast is the crew whose app the learner builds and reviews (recommended) / Age the cast up for grades 9 and up, with a bible amendment and new reference art / A new older cast for the high-school lane.
 - **Choice:** A new older cast for the high-school lane (owner chose "New characters" on the decision card, 2026-10-10). The new characters' names, looks and roles are D225.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Bible section and reference art added; Intro to Computer Science and Data and Society are being recast.
-- **Links:** rocket-and-raven-press #89. Related: D145, D175, D221, D225.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** Bible section and reference art added; Intro to Computer Science and Data and Society use Comet and Wren (live 2026-10-10).
+- **Links:** rocket-and-raven-press #89, rocket-and-raven-press #93, lantern-ui #83. Related: D145, D175, D221, D225.
 
 ### D175: Intro to Computer Science Grades 9 to 10 course shape
 - **Question:** How the first course in the roadmap's high-school lane (D145) is built.
@@ -1323,41 +1323,41 @@ Every entry has these fields:
 - **Question:** How the second high-school course is built.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in the Code Crew series (Mission Commander rank): Data and Society Grades 9 to 12 (`data-society-g9-12`, G6+ reading level), 12 weeks, about 20-minute days (10+ enforced), a Wednesday Count Lab, Impact Friday and a Saturday Mission Quest. It is unplugged, uses only small made-up data sets tallied and graphed by hand (the one exception is the tightly limited Saturday family opinion tally in D223), and needs no accounts, apps, spreadsheets or AI tools. Running thread: Commons Count, the crew's survey of the members of Starling Commons, a made-up community maker hall, from question to consent, collection, storage, cleaning, graphs, typical values, a dice simulation, a bias audit and a data story. Members are known only by invented IDs. It practices 14 CSTA 2017 Level 3A and 3B Data & Analysis and Impacts of Computing standards and covers AP CSP Big Ideas 2 and 5, worded per D177. Every fact comes from the course's SOURCES.md (CSTA, AP CSP CED, NCES Kids' Zone, NIST/SEMATECH e-Handbook, Census Bureau pages).
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Building.
-- **Links:** rocket-and-raven-press (scripts/course-gen/courses/data-society-g9-12). Related: D145, D174, D175, D177, D222, D223, D224.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/data-society-g9-12, lanternlearn.com/courses/data-society-g9-12/ and the rocketandraven.com home page.
+- **Links:** rocket-and-raven-press #93, lanternlearn-site #37, rocketandraven-site #41, scripts/course-gen/courses/data-society-g9-12. Related: D145, D174, D175, D177, D222, D223, D224.
 
 ### D222: Level 3B CSTA codes in the course build
 - **Question:** The course build only knew CSTA 2017 codes up to Level 3A. Add Level 3B?
 - **Options:** None offered (Claude default).
 - **Choice:** Add all 28 Level 3B codes (3B-CS-01 to 3B-IC-28), numbered as the 2017 standards print them, to the build's CSTA set.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** In the Data and Society press PR.
-- **Links:** Related: D176, D221.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/data-society-g9-12, lanternlearn.com/courses/data-society-g9-12/ and the rocketandraven.com home page.
+- **Links:** rocket-and-raven-press #93, lanternlearn-site #37, rocketandraven-site #41. Related: D176, D221.
 
 ### D223: Real data from families in Data and Society
 - **Question:** Can the Saturday family quests collect real answers from family members?
 - **Options:** Allow a fixed-choice opinion tally with a family member's yes, tally marks only, no names or details, kept at home (recommended) / made-up data only, with families tallying objects, never opinions.
 - **Choice:** Allow the opinion tally on Saturdays only, on those terms. Everything about people on the other days uses the made-up Commons Count data.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Building.
-- **Links:** Related: D221.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/data-society-g9-12, lanternlearn.com/courses/data-society-g9-12/ and the rocketandraven.com home page.
+- **Links:** rocket-and-raven-press #93, lanternlearn-site #37, rocketandraven-site #41. Related: D221.
 
 ### D224: Naming a law in Data and Society
 - **Question:** Can the course name a privacy law?
 - **Options:** Name only Title 13 (the Census Bureau's confidentiality law), worded as the Census Bureau states it, with a "not legal advice" line (recommended) / name no law.
 - **Choice:** Week 12 may name Title 13 as the source words it. No other law is named, and consent is taught as an ethical habit, not a legal rule. Children's privacy law is left out because its source pages could not be opened to verify.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Building.
-- **Links:** Related: D221.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/data-society-g9-12, lanternlearn.com/courses/data-society-g9-12/ and the rocketandraven.com home page.
+- **Links:** rocket-and-raven-press #93, lanternlearn-site #37, rocketandraven-site #41. Related: D221.
 
 ### D225: The high-school cast
 - **Question:** Who the new older cast for the high-school lane (D174) is.
 - **Options:** None offered (Claude default; revisit names and looks any time).
 - **Choice:** Two new teens, about 15 to 16, plus Nova, who already appears in every grade. Comet, a South Asian girl, is the builder who asks "What can we make?" and sometimes rushes. Wren, a Latino boy, is the analyst who asks "What does the evidence say?" They are the senior crew at the Mission Commander rank. Rocket and Raven stay as they are in the K to 8 courses and do not appear in the high-school courses. Drawn in the same warm painterly style as the existing cast, organic and expressive, never shape-built. Reference art: `public/assets/brand/characters/hs-crew-v1.png`, `hs-crew-scene-v1.png` and `hs-expressions-v1.png` in rocket-and-raven-press.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Bible section added; courses being recast.
-- **Links:** Related: D174, D175, D221.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Bible section added; Intro to Computer Science and Data and Society use Comet and Wren (live 2026-10-10).
+- **Links:** rocket-and-raven-press #93, lantern-ui #83. Related: D174, D175, D221.
 
 ### D240: Name of the Fox & Fern phonics courses
 - **Question:** What the Fox & Fern phonics courses (Pre-K to K and Grade 1) are called.

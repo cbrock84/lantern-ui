@@ -187,6 +187,12 @@ each word highlighted as it is spoken, and exercise lines as recorded clips.
 - Published only when complete. An empty blog stays out of search results and
   the sitemap.
 
+### Marketing copy
+
+- Round any count that grows with the catalog (D147): "15+ courses" or "nearly
+  20 courses", never the exact number. Fixed facts about one course (12 weeks,
+  60 days) stay exact.
+
 ## 9. Pre-publish checklist
 
 - [ ] Follows the imprint bible (cast, voice, design rules).

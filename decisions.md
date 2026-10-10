@@ -26,7 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D240 | What should the Fox & Fern phonics courses be called? | Sound Trail (recommended) / Letter Trail / Fox & Fern Phonics | Built as Sound Trail until answered. |
 | D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built but held: no lesson is reachable (press #86) until this is answered. |
 | D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
 | D163 | Which healthy-eating guide does the Kitchen course teach? | Colorful produce only (recommended) / MyPlate / New Pyramid | Built on the recommended option. |
@@ -1377,9 +1376,9 @@ Every entry has these fields:
 ### D240: Name of the Fox & Fern phonics courses
 - **Question:** What the Fox & Fern phonics courses (Pre-K to K and Grade 1) are called.
 - **Options:** Sound Trail (recommended; matches Tomorrow Trail and the Sound Map Ferris carries) / Letter Trail / Fox & Fern Phonics.
-- **Choice:** Pending. Built as "Sound Trail: Pre-K to Kindergarten Phonics" and "Sound Trail: Grade 1 Phonics" until answered.
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
-- **Links:** rocket-and-raven-press #92. Related: D241, D242, D243.
+- **Choice:** Sound Trail (owner tapped the card, which was labeled D179 from before the number blocks). Live as Sound Trail Pre-K to K, Grade 1 and Grade 2.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Links:** rocket-and-raven-press #92, #94; lanternlearn-site #35, #39. Related: D241, D242, D243, D244.
 
 ### D241: How lesson audio names a sound
 - **Question:** Lesson audio is an ElevenLabs text-to-speech voice (eleven_multilingual_v2), which cannot say an isolated phoneme on cue. How do phonics lessons name sounds?

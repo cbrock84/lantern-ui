@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D140 | Bundle id for the Lantern Learn apps | com.chrisbrockllc.lanternlearn (recommended) / io.chrisbrock.lanternlearn | Permanent once submitted |
 
 ## Log
 
@@ -931,6 +930,6 @@ Every entry has these fields:
 ### D140: Bundle id for the Lantern Learn apps
 - **Question:** Which bundle id / package name do the iOS, Android and Amazon apps use? It is permanent once submitted and never shown to users. On 2026-10-10 the owner said everything published uses chrisbrockllc.com, not chrisbrock.io.
 - **Options:** `com.chrisbrockllc.lanternlearn`, matching the chrisbrockllc.com rule (recommended) / `io.chrisbrock.lanternlearn`, matching the games-v1 titles' `io.chrisbrock.<title>` convention.
-- **Choice:** Pending. `.dev` and `.staging` suffixes for test builds; same id on all three stores.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** `com.chrisbrockllc.lanternlearn`. `.dev` and `.staging` suffixes for test builds; same id on all three stores.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 3.5; games-v1 `docs/store-accounts.md` (bundle identifiers).

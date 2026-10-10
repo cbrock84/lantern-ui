@@ -1294,13 +1294,22 @@ Every entry has these fields:
 - **Progress:** Live on the platform (rocket-and-raven-press #90 merged 2026-10-10). Site listings: lanternlearn-site #34, rocketandraven-site #39.
 - **Links:** rocket-and-raven-press #90, lanternlearn-site #34, rocketandraven-site #39. Related: D141, D144, D154, D159.
 
-### D179: Everyday Machines course shape
+### D179 (Everyday Machines): Everyday Machines course shape
+- **Note:** D179 was also used by the Intro to Computer Science thread; this entry is the Everyday Machines one.
 - **Question:** The expansion study (D141) listed Everyday Machines (how a zipper, a lock, a faucet, a toilet, a light switch, a fridge, a thermostat, a car and an elevator work) as idea 5. What shape does it take, and how does it avoid overlapping Builder's Lab and Bike Shop?
 - **Options:** One all-ages course (K to 5 with a grown-up, Grade 2 reading level, tap-only answers), the same shape as Builder's Lab, under Rocket & Raven, one home object a week, take-apart items limited to unplugged, battery-free, grown-up-approved objects such as an old click pen (recommended) / two courses, K to 2 and Grades 3 to 5 / fold the objects into Builder's Lab as extra weeks.
 - **Choice:** One all-ages course, `everyday-machines`, series `everyday-machines`, 12 weeks, Saturday "Machine Day". Weeks: machines everywhere (wheel and axle), the zipper, lock and key, the faucet, the toilet, the light switch, magnets at home, the refrigerator, the thermostat, springs and click pens, how a car moves, the elevator and a Machine Show. Levers, pulleys, parachutes, boats and balloon cars stay in Builder's Lab; bike parts and repairs stay in Bike Shop; each gets a one-sentence pointer. Only AA or smaller batteries, in a flashlight a grown-up loads; nothing plugged in is opened. Every fact is checked against an official, museum, university or extension page listed in the course's SOURCES.md.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Live on lanternlearn.com 2026-10-10: 12 weeks, 72 days, 13 to 15 minutes each, every fact listed in SOURCES.md, cover, hero and 12 lesson illustrations. Course pages on lanternlearn.com and rocketandraven.com.
 - **Links:** rocket-and-raven-press #91, lanternlearn-site #36, rocketandraven-site #40. Related: D141, D165.
+
+### D200: First Grades 6 to 8 science course
+- **Question:** The K to 5 expansion queue (Home Helpers, Backyard Explorer, Everyday Machines) is finished and the Grades 6 to 8 lane has only AI Explorers 6 to 8 and Intro to Computer Science. Which middle-school science course is built first?
+- **Options:** Weather Lab, weather and climate with a home weather station and real NOAA and NASA data (recommended; richest free public data, no heat, chemicals or tools, covers the uncovered MS-ESS2 and MS-ESS3 standards) / Sports Physics, forces, motion and energy measured in a yard or park / Matter Lab, home chemistry with a grown-up at every heat step.
+- **Choice:** Weather Lab Grades 6 to 8, `weather-lab-g6-8`, series `weather-lab`, Rocket & Raven, band G6+, 12 weeks, about 20 minutes a day, Saturday "Station Day". Weeks: weather or climate, the Sun heats the Earth unevenly, air pressure, wind, water in the air, clouds, precipitation, air masses and fronts, storms and safety, oceans and climate zones, the climate record, forecast and design. Climate is taught as NOAA and NASA state it, no politics; storm week is safety first. The build's NGSS allow-list gains the middle-school codes checked on nextgenscience.org (MS-PS1, MS-PS3, MS-PS4, MS-ESS2, MS-ESS3, MS-ETS1). Chris can switch the pick on the decision card in the thread.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Building.
+- **Links:** rocket-and-raven-press (scripts/course-gen/courses/weather-lab-g6-8). Related: D145, D173, D179 (Everyday Machines).
 
 ### D240: Name of the Fox & Fern phonics courses
 - **Question:** What the Fox & Fern phonics courses (Pre-K to K and Grade 1) are called.

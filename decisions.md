@@ -23,6 +23,14 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D168 | How long should the adult Applied AI course be? | 8 weeks (recommended) / 6 weeks / 12 weeks | Building on 8 weeks until answered. |
+| D169 | How are the parent, teacher and business tracks delivered? | One course with track days (recommended) / three courses / parent track first (D145) | Building one course until answered. |
+| D170 | Can adult learners use their own AI tool in Saturday "Try it" tasks? | Optional after the never-paste checklist (recommended) / offline only | Every task also works on paper. |
+| D171 | Which brand does the adult Applied AI course carry? | Lantern Learn, no cast (recommended) / Rocket & Raven with Nova | |
+| D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built but held: no lesson is reachable (press #86) until this is answered. |
+| D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
+| D163 | Which healthy-eating guide does the Kitchen course teach? | Colorful produce only (recommended) / MyPlate / New Pyramid | Built on the recommended option. |
+| D164 | What should the Fox & Fern cooking course be called? | Fox & Fern Kitchen (recommended) / Kitchen Crew / Little Chefs Lab | Built on the recommended option. |
 
 ## Log
 
@@ -1152,10 +1160,97 @@ Every entry has these fields:
 - **Progress:** Live on learn.lanternlearn.com (press #84 merged 2026-10-10). Built at the owner's 2026-10-10 request to keep building expansion content.
 - **Links:** rocket-and-raven-press #84, rocketandraven-site #35, lanternlearn-site #26. Related: D141, D154.
 
+### D161: Kitchen liability review
+- **Question:** Who does the Kitchen course liability review before it goes live?
+- **Options:** Chris reviews, with a parent safety notice and reviewer checklist (recommended) / an attorney reviews a packet first / keep it hidden until decided.
+- **Choice:** Not yet answered.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Course is built but held (`draft: true`, `publish: false`): its workbook is not loaded, so no lesson is reachable until this is answered. Items for the review: oven 350 and 425 degrees F, bake and simmer times, the toothpick test, and every allergy swap; these are recipe instructions, not sourced facts.
+- **Links:** rocket-and-raven-press #86. Related: D143.
+
+### D162: Naming allergens in the Kitchen allergy week
+- **Question:** Can the Kitchen allergy week name peanuts and tree nuts (and the other major allergens)?
+- **Options:** Name all nine, no recipe uses them (recommended) / grown-up note only / never name them.
+- **Choice:** Pending; built on the recommended option. An `allergyLabels` marker lets a marked day name the nine allergens in lessons; they stay banned in recipe cards, method steps, vocab and titles.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #86. Related: D143.
+
+### D163: Kitchen healthy-eating guide
+- **Question:** Which healthy-eating guide does the Kitchen course teach?
+- **Options:** Colorful produce only (recommended) / MyPlate (page could not be verified) / the 2025-2030 New Pyramid.
+- **Choice:** Pending; built on the recommended option: only "eat many colorful fruits and vegetables" and "water is a great drink".
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #86. Related: D143.
+
+### D164: Kitchen course name
+- **Question:** What should the Fox & Fern cooking course be called?
+- **Options:** Fox & Fern Kitchen (recommended) / Kitchen Crew / Little Chefs Lab.
+- **Choice:** Pending; built as "Fox & Fern Kitchen Grades 3 to 5" (`kitchen-g3-5`).
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #86. Related: D143.
+
 ### D165: Bike Shop course shape
 - **Question:** How Bike Shop (the G3+ reframe of the deferred vehicle-repair idea in the expansion study, D141) is built: grades, reading level, safety rules and standards.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in a new Bike Shop series: Bike Shop Grades 3 to 5 (`bike-shop-g3-5`, Grade 3 reading level, typed answers allowed), 12 weeks, 15-minute days (10+ minutes enforced), Saturday "Bike Shop Day". Weeks: parts and jobs, forces, friction, tires and air, gears and chain, patterns of motion, brakes, fit and helmets, being seen, a flat tire, the pre-ride quick check, and a design capstone. NGSS 3-PS2-1, 3-PS2-2, 4-PS4-2 and 3-5-ETS1-1 to 3. Safety: bike work only with the bike standing still; a grown-up holds and turns the bike and handles every tool, pump gauge and chain oil; hands away from chain, gears and spokes when anything turns; helmet for every ride and riding only where a grown-up says; no traffic-rule teaching beyond sourced pages. Every activity has a no-bike path. Kids' own measurements go in ungraded blocks. Cover and hero made in Higgsfield from the existing Rocket, Raven and Nova art.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; live once the PRs below merge. Numbered D165 because D161 to D164 were taken by the Kitchen thread's decision cards.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com/courses/bike-shop-g3-5, rocketandraven.com and lanternlearn.com. Numbered D165 because D161 to D164 were taken by the Kitchen thread's decision cards.
 - **Links:** rocket-and-raven-press #85, rocketandraven-site #36, lanternlearn-site #29. Related: D141, D160.
+
+### D166: Kitchen course shape
+- **Question:** How the Fox & Fern Kitchen course (D143) is built.
+- **Options:** None offered (Claude default).
+- **Choice:** One Fox & Fern course, Grades 3 to 5 only (`kitchen-g3-5`, Grade 3 reading cap, typed answers), 12 weeks, 15-minute days (10+ enforced), Saturday "Family Cook Day". Generator `foodRules: 'kitchen'`: every recipe card has an "Allergy swap:" line, no recipe uses a major allergen, any stove, oven, knife or hot pan comes with a "grown-up handles" callout, tasting allowed. Facts only from CDC, FDA and NIST pages in SOURCES.md; CCSS math and reading codes checked on thecorestandards.org. Cast: Ferris, Bennie, Lizzy, Riley, Oliver, Hazel, Rosie, Freddy, Lucy. Cover and hero from the Ferris and Bennie art, with no milk or allergen foods shown.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; press #86 open. Held (no lesson reachable) until D161; going live means removing `draft: true` and setting `publish: true`.
+- **Links:** rocket-and-raven-press #86. Related: D143.
+
+### D167: Course workbooks served as private static assets
+- **Question:** The Pages Functions bundle hit the ~25 MiB limit (26.5 MB) with every workbook bundled into the Worker. How to fix it?
+- **Options:** None offered (Claude default; coordinator assigned the fix).
+- **Choice:** Each workbook is written to `dist/wb-data/<slug>.<hash>.json` at build time and read through the Pages ASSETS binding with a per-isolate cache; a `/wb-data/` route returns 404 so the files are not public. New courses register in `BUNDLED_WORKBOOK_SLUGS` and use the async loaders. Worker went from 25.0 MB to 7 MB.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #82.
+
+### D168: Applied AI course length
+- **Question:** How long should the adult "Applied AI for parents, teachers and small business" course be?
+- **Options:** 8 weeks, about 15 minutes a day, ending with a one-page AI plan (recommended) / 6 weeks / 12 weeks to match AI Explorers.
+- **Choice:** Pending; building on 8 weeks.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D169: Applied AI track delivery
+- **Question:** How are the parent, teacher and small-business tracks delivered?
+- **Options:** One course with a track section each Thursday (recommended) / three separate courses / parent track first, as D145's roadmap said.
+- **Choice:** Pending; building one course with track days.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D170: Learners' own AI tools in "Try it" tasks
+- **Question:** Can adult learners use their own AI tool in the Saturday "Try it" tasks?
+- **Options:** Optional, after the never-paste checklist, and every task also works on paper (recommended) / offline only.
+- **Choice:** Pending. Either way the course itself never embeds or calls an AI service (D157 style).
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D171: Applied AI brand
+- **Question:** Which brand does the adult Applied AI course carry?
+- **Options:** Lantern Learn with no kid cast (recommended) / Rocket & Raven with Nova.
+- **Choice:** Pending; building as Lantern Learn.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D172: Applied AI certificate
+- **Question:** Does the adult Applied AI course give a completion certificate?
+- **Options:** None offered (Claude default).
+- **Choice:** Yes, the platform's existing completion certificate, like the kids' courses.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** plan and fact bank in progress (Applied AI thread). Related: D145, D156, D157.
+
+### D173: AI Explorers Grades 6 to 8 course shape
+- **Question:** How the first course in the roadmap's grades 6-8 lane (D145) is built: AI Explorers for middle school.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in the AI Explorers series: AI Explorers Grades 6 to 8 (`ai-explorers-g6-8`, G6+ reading level, 22-word sentences), 12 weeks, about 20-minute days (10+ enforced), Wednesday Explorer Lab and Saturday Explorer Quest like Grades 3-5. Same D157 rules: unplugged, no live AI tool, every fact about real AI from a fact bank in SOURCES.md (AI4K12, NIST AI 100-1, NIST AI 600-1, CSTA). Running thread: Sky Sorter, a paper classifier for telescope snapshots (encode, features, decision tree as flowchart and pseudocode, train/test/refine, bias), then generative AI as next-word prediction, confabulation, automation bias, synthetic media, privacy trade-offs and an AI review board using NIST's trustworthy-AI characteristics. CSTA 2-CS-02, 2-DA-07 to 09, 2-AP-10, 2-AP-15, 2-IC-20, 2-IC-21, 2-IC-23, 2-NI-05. Meta `grade_band` is `all-ages` with "Grades 6 to 8" in the title (like Code Crew G6+), since the grade filter stops at G5. Cover and hero from the existing cast in Higgsfield, drawn as young teens.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once the PRs below merge.
+- **Links:** rocket-and-raven-press #87. Related: D145, D156, D157.

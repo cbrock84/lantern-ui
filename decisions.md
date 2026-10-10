@@ -857,6 +857,37 @@ Every entry has these fields:
 - **Date:** 2026-10-09. **Decided by:** owner. **Status:** Done.
 - **Progress:** `_dmarc` records set to `p=quarantine; pct=100` on all three domains via the Cloudflare API 2026-10-09 (rua unchanged). Microsoft 365 DKIM is still off on all three (owner step in security.microsoft.com; see /mnt/project-files/brand-icons/README.md).
 
+### D123: How long a lesson day is, and how it is checked
+- **Question:** The owner wants every course day to take 10 to 15 minutes (2026-10-10). What is the target, and how is it checked?
+- **Options:** Floor of 10 minutes for every day, target 10 to 15 for K to G2 and 15 to 20 for G3+ (keeps the grade-banded time chosen earlier), checked by an estimator / one flat 10 to 15 for all / no automated check.
+- **Choice:** Floor of 10 minutes for every day (weekdays and the weekend day); target 10 to 15 for K to G2, 15 to 20 for G3+. `scripts/course-audit/minutes.mjs` in rocket-and-raven-press estimates minutes from the built workbook (narration or reading time plus a fixed time per checked item and open task); `test/unit/lesson-length.test.mjs` holds each expanded course to the floor in CI.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Audit: 887 of 972 weekday lessons were under 10 minutes. All 16 courses expanded on 2026-10-10: every day of every course is now 10.3 minutes or more (course medians 11.3 to 15.4). CI holds every course to the floor. Most G3+ weekdays sit at 11 to 14 minutes, under the 15 to 20 target.
+- **Links:** rocket-and-raven-press #74; /mnt/project-files/lessons/2026-10-10-lesson-length-audit.md.
+
+### D124: Sight-word list
+- **Question:** Which sight-word list should the K to G2 courses teach?
+- **Options:** Dolch by grade (recommended: Pre-primer and Primer for K, Grade 1, Grade 2) / Fry first 300 / both merged.
+- **Choice:** Both, merged. Dolch by grade, plus the Fry first 300 words Dolch lacks: Fry First 100 into K (17 words), Second 100 into G1 (55), Third 100 into G2 (78), added after each week's Dolch words. Left out: "buy" (money-word rule), "American" and "Indians" (proper nouns), and the Dolch noun list. The Fry source printing lists 96 words in its third 100. Words are taught look, say, spell, find, then read in a sentence.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** Plans in `scripts/sight-words/` (K 109 words, G1 96, G2 124). Live in Tomorrow Trail (full K list), and as a daily Word Spot in Code Crew K, G1, G2 and Science Launch K, G1, G2.
+- **Links:** rocket-and-raven-press #74 (`scripts/sight-words/`).
+
+### D125: Where sight words are taught
+- **Question:** Tomorrow Trail carries the full K list. Should Code Crew and Science Launch K to G2 also review sight words daily?
+- **Options:** All K to 2 courses (recommended: a short daily Word Spot) / Tomorrow Trail only.
+- **Choice:** All K to 2 courses: Tomorrow Trail teaches the K list in full; Code Crew and Science Launch K, G1 and G2 add a daily Word Spot.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Links:** rocket-and-raven-press #74.
+
+### D126: Rollout of the longer lessons
+- **Question:** In what order are the 16 courses expanded, and how are they shipped?
+- **Options:** Not recorded.
+- **Choice:** Tomorrow Trail first, then every other course in parallel, all on one rocket-and-raven-press PR (#74) with a commit per course group. New blocks are added before each day's closing block or with their own ids, so saved answers keep their block ids.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** All 16 courses shipped in rocket-and-raven-press #74, merged 2026-10-10.
+- **Links:** rocket-and-raven-press #74.
+
 ### D127: Redesign direction for the sites
 - **Question:** The owner finds the site design, UI/UX and branding dated and asked for motion-rich redesign options built from the vibld.com templates, in the style of chrisbrockllc.com and chrisbrock.io. Which direction should lanternlearn.com, rocketandraven.com, foxandfernbooks.com and learn.lanternlearn.com move to?
 - **Options:** A Lantern Glow: vibld Luminous template + Warm paper preset; light paper, cursor-reactive lantern glow, one dark band; keeps D58 (recommended) / B Night Launch: vibld Cinematic + Aurora; dark night sky of rising paper lanterns, glass pill nav; reverses D58 / C Playground: vibld Vibrant blocks + Claymorphism + Bento; bold colour blocks, bouncy clay tiles; most kid-facing.
@@ -880,6 +911,20 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner (rejected shape characters, keep the cast), Claude (default: roundels in the new lockups). **Status:** Decided.
 - **Progress:** Draft PRs on branch claude/project-thread-bwq92e in lanternlearn-site, rocketandraven-site, foxandfernbooks-site and rocket-and-raven-press. Social kit regenerated in brand-icons/playground/social. Animated shorts are a separate piece of work.
 - **Links:** Related: D66, D94, D127, D128.
+
+### D130: How the extra practice is stored and checked
+- **Question:** Where does the added content live, and what gets fixed along the way?
+- **Options:** Not recorded.
+- **Choice:** Code Crew K's daily practice is generated into separate files (`src/data/code-crew-k-lessons/practice/`) so the hand-written weeks 1 and 2 stay as approved and the free-preview bundle stays small. Weekend days in Code Crew K get an offline Word Hunt with a grown-up. Code Crew G3 now has a reproducible build (`npm run gen:code-crew-g3`, checked for drift in CI); its existing text had milk, butter and peanut butter swapped for water and banana, "money" swapped for "plates", a dash removed, and the Code.org and ScratchJr pointer replaced with "pick a kids' coding app with a grown-up".
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #74.
+
+### D131: Order of multiple-choice answers
+- **Question:** In most courses built by the course generator, the right answer is listed first (for example 272 of 272 in Code Crew G3, 251 of 258 in Science Launch G4). How should this be fixed?
+- **Options:** Shuffle the display order in the app, fixed per question, so saved answers keep working (recommended) / reorder the choices in the course files / leave as is.
+- **Choice:** Shuffle in the app. Choices show in a stable order derived from the block id and round (the same on every visit); answers stay saved and graded by choice id. Applies to every workbook's multiple-choice rounds and the Code Crew K lesson predict rounds. With the shuffle the right answer is first about as often as chance (29% to 48% by course).
+- **Date:** 2026-10-10. **Decided by:** owner (card in the project chat). **Status:** Done.
+- **Links:** rocket-and-raven-press #74 (`src/lib/choiceOrder.ts`).
 
 ### D132: Packaging for the iOS, Android and Amazon apps
 - **Question:** When the catalog is built out, the owner wants free apps with no ads and no tracking on the App Store, Google Play and the Amazon Appstore. How should the learn app (learn.lanternlearn.com, rocket-and-raven-press) be packaged?

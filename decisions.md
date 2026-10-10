@@ -1000,8 +1000,8 @@ Every entry has these fields:
 - **Options:** Body Lab (recommended) / Inside the Machine / Home Helpers / Backyard Explorer.
 - **Choice:** Inside the Machine: computer parts, how hardware and software work together, and troubleshooting, under Code Crew (Rocket & Raven), as a G1-G2 tap-only course and a G3-G5 course. CSTA 1A-CS-02, 1A-CS-03, 1B-CS-02, 1B-CS-03. "Repair" stays at restart, check the cable, check the charge, swap the mouse; nothing with a case open or a power supply.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Not started. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
-- **Links:** Related: D102, D106, D110.
+- **Progress:** Both courses built and illustrated (D155); live once rocket-and-raven-press #81 merges. Report: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj
+- **Links:** rocket-and-raven-press #81. Related: D102, D106, D110, D155.
 
 ### D142: "blood" allowed in a Body Lab course
 - **Question:** The course generator's violence check bans the word "blood" in every course, which blocks teaching circulation in a human body course. How should Body Lab handle it?
@@ -1106,6 +1106,14 @@ Every entry has these fields:
 - **Progress:** Live (all PRs below merged 2026-10-10). Built when the owner asked on 2026-10-10 to prioritize expansion content and to keep building. It does not change D141: Inside the Machine is still the owner's pick and is tracked there.
 - **Links:** rocket-and-raven-press #80, rocketandraven-site #31, lanternlearn-site #19, lantern-ui #69. Related: D141, D142.
 
+### D155: Inside the Machine course shape and art
+- **Question:** How Inside the Machine (D141) is built: course split, reading level, sight words, catalog grades and artwork.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Code Crew courses: Inside the Machine: Grades 1 to 2 (`inside-the-machine-g1-g2`, Grade 1 reading cap, tap-only, daily Word Spot on the Grade 1 list, Crew Pilot rank) and Inside the Machine: Grades 3 to 5 (`inside-the-machine-g3-g5`, Grade 3 reading cap, typed answers allowed, Crew Engineer rank). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Crew Quest". Catalog uses the shared `grades` list (D154) so each course shows under every grade it covers. Setting: the Fix-It Bay at Beacon Station; Rocket brings the problem, Raven asks "What do you notice?", Nova hints. Safety line: grown-ups do plugs, chargers, batteries and cases; kids may tell a grown-up, check a cable, wait, restart with a grown-up, swap a mouse, change volume, or wipe with a dry cloth. No brand names, prices or personal information. Art: covers, heroes and one lesson illustration per week (24) generated in Higgsfield from the approved Rocket, Raven and Nova art; characters stay illustrated, never shape-built. Animation not used: the lesson engine shows still images only.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once rocket-and-raven-press #81 merges.
+- **Links:** rocket-and-raven-press #81. Related: D141, D154.
+
 ### D156: AI Explorers course shape
 - **Question:** How AI Explorers (K-5 AI literacy, roadmap stage Now) is built: course split, imprint, series, reading level, standards and art.
 - **Options:** None offered (Claude default).
@@ -1128,10 +1136,26 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** lanternlearn-site #21, foxandfernbooks-site #18, rocket-and-raven-press #83 (parent help said "first weeks free to try"; now "every course is free", per D138).
 
+### D159: Home Helpers course shape and art
+- **Question:** How Home Helpers (life skills, roadmap stage Now) is built: course split, imprint, reading level, sight words, safety rules, standards and artwork.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Fox & Fern courses in a new Home Helpers series: Home Helpers: Kindergarten to Grade 2 (`home-helpers-k2`, Grade 1 reading cap, tap-only, daily Word Spot on the Grade 1 list) and Home Helpers: Grades 3 to 5 (`home-helpers-g3-5`, Grade 3 reading cap, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Family Helper Day". Catalog uses the shared `grades` list (D154). Setting: Fern Hollow, with Ferris, Hazel, Bennie, Lucy, Lizzy and Oliver hosting weeks and Chris the Coyote, Rosie and Freddy in their usual roles. Weeks: making the bed, socks and towels, setting the table, kitchen helper (no heat, no knives, no tasting, per D143), plants and pets, clock time, packing a bag, the ten-minute tidy, kind words, ready and safe, and a helper celebration; the older course adds laundry start to finish, mending, lists and errands. Safety line: nothing hot, sharp or electrical; a grown-up runs every machine and handles sprays, needles and scissors; no allergen words, money words or personal information typed on screen; scrapes are "stop, wash, cover, tell". Standards: CCSS only (speaking and listening, informational reading, writing, measurement and data). Art: covers, heroes and one lesson illustration per week (24) generated in Higgsfield from the Fox & Fern character references; renders with stray words were redone so no image carries text.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Built; live once rocket-and-raven-press #81 merges (it carries Inside the Machine and Home Helpers together).
+- **Links:** rocket-and-raven-press #81, lanternlearn-site #20 (home tile). Related: D141, D143, D154, D155.
+
 ### D160: Grow It course shape
 - **Question:** How Grow It (plants and gardening, expansion study idea) is built: course split, reading level, sight words, safety rules and catalog grade.
 - **Options:** None offered (Claude default).
 - **Choice:** Two Rocket & Raven courses in a new Grow It series: Grow It K to 2 (`grow-it-k2`, Grade 1 reading level, tap-only, daily Word Spot on the Grade 1 Dolch + Fry list) and Grow It Grades 3 to 5 (`grow-it-g3-5`, Grade 3 reading level, typed answers allowed). 12 weeks each, 15-minute days (10+ minutes enforced), Saturday "Grow It Day". A windowsill is enough: kids sprout and look after a bean plant across the weeks. Garden safety: gloves for soil and handwashing after, nothing found outside or grown in an activity is eaten, a grown-up handles tools, potting mix and cutting, no fertilizer or bug spray. Approved foods only, no nuts (acorns appear only as food for animals), no celery. Decomposition ("dead leaves") is taught in Grades 3 to 5 as part of 5-LS2-1. Covers and heroes made in Higgsfield from the existing Rocket, Raven and Nova art.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Built; live once the PRs below merge. Built at the owner's 2026-10-10 request to keep building expansion content.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live on learn.lanternlearn.com (press #84 merged 2026-10-10). Built at the owner's 2026-10-10 request to keep building expansion content.
 - **Links:** rocket-and-raven-press #84, rocketandraven-site #35, lanternlearn-site #26. Related: D141, D154.
+
+### D161: Bike Shop course shape
+- **Question:** How Bike Shop (the G3+ reframe of the deferred vehicle-repair idea in the expansion study, D141) is built: grades, reading level, safety rules and standards.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in a new Bike Shop series: Bike Shop Grades 3 to 5 (`bike-shop-g3-5`, Grade 3 reading level, typed answers allowed), 12 weeks, 15-minute days (10+ minutes enforced), Saturday "Bike Shop Day". Weeks: parts and jobs, forces, friction, tires and air, gears and chain, patterns of motion, brakes, fit and helmets, being seen, a flat tire, the pre-ride quick check, and a design capstone. NGSS 3-PS2-1, 3-PS2-2, 4-PS4-2 and 3-5-ETS1-1 to 3. Safety: bike work only with the bike standing still; a grown-up holds and turns the bike and handles every tool, pump gauge and chain oil; hands away from chain, gears and spokes when anything turns; helmet for every ride and riding only where a grown-up says; no traffic-rule teaching beyond sourced pages. Every activity has a no-bike path. Kids' own measurements go in ungraded blocks. Cover and hero made in Higgsfield from the existing Rocket, Raven and Nova art.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Being built (coordinator assignment after Grow It; owner asked to keep building expansion content).
+- **Links:** Related: D141, D160.

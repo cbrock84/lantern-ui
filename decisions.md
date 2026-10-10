@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D131 | Order of multiple-choice answers (right answer usually listed first) | Shuffle in the app (recommended) / reorder in course files / leave | Asked 2026-10-10 |
 
 ## Log
 
@@ -915,6 +914,6 @@ Every entry has these fields:
 ### D131: Order of multiple-choice answers
 - **Question:** In most courses built by the course generator, the right answer is listed first (for example 272 of 272 in Code Crew G3, 251 of 258 in Science Launch G4). How should this be fixed?
 - **Options:** Shuffle the display order in the app, fixed per question, so saved answers keep working (recommended) / reorder the choices in the course files / leave as is.
-- **Choice:** Waiting on the owner.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
-- **Links:** rocket-and-raven-press #74 (found during the expansion).
+- **Choice:** Shuffle in the app. Choices show in a stable order derived from the block id and round (the same on every visit); answers stay saved and graded by choice id. Applies to every workbook's multiple-choice rounds and the Code Crew K lesson predict rounds. With the shuffle the right answer is first about as often as chance (29% to 48% by course).
+- **Date:** 2026-10-10. **Decided by:** owner (card in the project chat). **Status:** Decided.
+- **Links:** rocket-and-raven-press #74 (`src/lib/choiceOrder.ts`).

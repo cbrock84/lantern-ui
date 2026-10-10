@@ -21,8 +21,9 @@ update this file in the same change set as the decision that changes it.
 - Register as an education savings account (ESA) vendor in two or three
   states (ClassWallet: Arizona, Alabama, Idaho; Odyssey: Texas, Utah,
   Louisiana, Iowa, Georgia, Wyoming, Missouri; Tennessee from October 2026)
-  for paid add-ons such as printed packs, live help or a family pass. Open
-  decision: D146.
+  for paid add-ons such as printed packs, live help or a family pass.
+  Parked by the owner on 2026-10-10 (D146, "not now"); revisit at the next
+  quarterly scan.
 - Pitch microschools directly: about 75,000 schools and 1.5 million students,
   87% serving ages 5-11 (National Microschooling Center, 2026). The platform
   already has classrooms and assignments.

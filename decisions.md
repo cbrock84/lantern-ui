@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D146 | Register as an ESA vendor in two or three states for paid add-ons while every course stays free? | Yes, start with Arizona (ClassWallet) and Texas (Odyssey) (recommended) / yes, later / no | Asked 2026-10-10 in the expansion thread. See roadmap.md. |
 | D139 | Open every week to signed-out visitors, or keep the free sign-in after week 4? | Keep sign-in (recommended) / open all weeks | Asked 2026-10-10 in the free-everywhere thread. |
 
 ## Log
@@ -937,3 +936,10 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner ("Let's cement these into our plans"). **Status:** Decided.
 - **Progress:** roadmap.md written. AI Explorers is queued after D141.
 - **Links:** roadmap.md; https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D106, D138, D141.
+
+### D146: ESA vendor registration parked
+- **Question:** Register as an education savings account (ESA) vendor in two or three states for paid add-ons (printed packs, live help, a family pass) while every course stays free?
+- **Options:** Yes, Arizona (ClassWallet) and Texas (Odyssey) first (recommended) / yes, later / no.
+- **Choice:** Not now. Parked; stays in roadmap.md as a later step with no work scheduled.
+- **Date:** 2026-10-10. **Decided by:** owner ("Not now" on the project-chat card). **Status:** Decided.
+- **Links:** roadmap.md. Related: D106, D138, D145.

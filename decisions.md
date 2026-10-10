@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D174 | How should Rocket and Raven appear in the high-school Intro to Computer Science course? | Keep bible ages (recommended) / Age up with a bible amendment / New older characters | Built on the recommended option. |
 | D168 | How long should the adult Applied AI course be? | 8 weeks (recommended) / 6 weeks / 12 weeks | Building on 8 weeks until answered. |
 | D169 | How are the parent, teacher and business tracks delivered? | One course with track days (recommended) / three courses / parent track first (D145) | Building one course until answered. |
 | D170 | Can adult learners use their own AI tool in Saturday "Try it" tasks? | Optional after the never-paste checklist (recommended) / offline only | Every task also works on paper. |
@@ -1251,6 +1252,35 @@ Every entry has these fields:
 - **Question:** How the first course in the roadmap's grades 6-8 lane (D145) is built: AI Explorers for middle school.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in the AI Explorers series: AI Explorers Grades 6 to 8 (`ai-explorers-g6-8`, G6+ reading level, 22-word sentences), 12 weeks, about 20-minute days (10+ enforced), Wednesday Explorer Lab and Saturday Explorer Quest like Grades 3-5. Same D157 rules: unplugged, no live AI tool, every fact about real AI from a fact bank in SOURCES.md (AI4K12, NIST AI 100-1, NIST AI 600-1, CSTA). Running thread: Sky Sorter, a paper classifier for telescope snapshots (encode, features, decision tree as flowchart and pseudocode, train/test/refine, bias), then generative AI as next-word prediction, confabulation, automation bias, synthetic media, privacy trade-offs and an AI review board using NIST's trustworthy-AI characteristics. CSTA 2-CS-02, 2-DA-07 to 09, 2-AP-10, 2-AP-15, 2-IC-20, 2-IC-21, 2-IC-23, 2-NI-05. Meta `grade_band` is `all-ages` with "Grades 6 to 8" in the title (like Code Crew G6+), since the grade filter stops at G5. Cover and hero from the existing cast in Higgsfield, at their canonical bible ages (about 10 to 12).
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com, rocketandraven.com/series/ai-explorers/ and lanternlearn.com.
+- **Links:** rocket-and-raven-press #87, lanternlearn-site #30, rocketandraven-site #37. Related: D145, D156, D157.
+
+### D174: Cast ages in the high-school course
+- **Question:** The bible fixes Rocket and Raven at about 10 to 12, but Intro to Computer Science Grades 9 to 10 is for ages 14 to 16. How should the cast appear?
+- **Options:** Keep bible ages; the cast is the crew whose app the learner builds and reviews (recommended) / Age the cast up for grades 9 and up, with a bible amendment and new reference art / A new older cast for the high-school lane.
+- **Choice:** Pending. Built on "keep bible ages" until answered.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #89. Related: D145, D175.
+
+### D175: Intro to Computer Science Grades 9 to 10 course shape
+- **Question:** How the first course in the roadmap's high-school lane (D145) is built.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in the Code Crew series: Intro to Computer Science Grades 9 to 10 (`intro-cs-g9-10`, G6+ reading level, the top band), 12 weeks, about 20-minute days (10+ enforced), a Wednesday Beacon Lab and a Saturday Mission Quest. It is unplugged, written in pseudocode in the AP CSP reference-sheet style, and needs no accounts, apps or AI tools. Security lessons are defensive only. Running thread: Beacon, a paper app for the crew's Moon greenhouse, taken from requirements through pseudocode, search, testing, binary, compression, packets and a launch review. Every computing fact comes from the SOURCES.md fact bank (CSTA 2017 standards, AP CSP Course and Exam Description, Fall 2023). Title follows the "Grades 6 to 8" pattern. Meta `grade_band` is `all-ages`, since the grade filter stops at G5. The course-gen build now knows the 30 CSTA Level 3A codes.
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Built; live once the PRs below merge.
-- **Links:** rocket-and-raven-press #87. Related: D145, D156, D157.
+- **Links:** rocket-and-raven-press #89. Related: D145, D174, D176, D177.
+
+### D176: Which CSTA standards the high-school course uses
+- **Question:** CSTA published new 2026 PK-12 standards with new codes. Which set does Intro to Computer Science map to?
+- **Options:** None offered (Claude default). Alternatives: wait for and map to the 2026 standards; list both.
+- **Choice:** The 2017 Level 3A codes, which the build, every other course and the AP crosswalks use, and which were verified against the source. The 2026 codes were not verified; revisit when they are mapped.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #89. Related: D175.
+
+### D177: How the high-school course describes its alignment
+- **Question:** How course pages describe the link to CSTA and AP Computer Science Principles.
+- **Options:** None offered (Claude default). Alternative: say "aligned to", which CSTA reserves for courses through its paid review (currently paused); only an audited school course may be labeled AP.
+- **Choice:** "Covers the five big ideas of AP Computer Science Principles and practices CSTA Level 3A standards", plus "not an AP course and not affiliated with College Board". Never "aligned to" or "AP course".
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #89. Related: D175.

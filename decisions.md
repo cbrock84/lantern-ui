@@ -23,6 +23,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D240 | What should the Fox & Fern phonics courses be called? | Sound Trail (recommended) / Letter Trail / Fox & Fern Phonics | Built as Sound Trail until answered. |
 | D174 | How should Rocket and Raven appear in the high-school Intro to Computer Science course? | Keep bible ages (recommended) / Age up with a bible amendment / New older characters | Built on the recommended option. |
 | D168 | How long should the adult Applied AI course be? | 8 weeks (recommended) / 6 weeks / 12 weeks | Building on 8 weeks until answered. |
 | D169 | How are the parent, teacher and business tracks delivered? | One course with track days (recommended) / three courses / parent track first (D145) | Building one course until answered. |
@@ -1300,3 +1301,31 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
 - **Progress:** Building.
 - **Links:** rocket-and-raven-press (scripts/course-gen/courses/everyday-machines). Related: D141, D165.
+
+### D240: Name of the Fox & Fern phonics courses
+- **Question:** What the Fox & Fern phonics courses (Pre-K to K and Grade 1) are called.
+- **Options:** Sound Trail (recommended; matches Tomorrow Trail and the Sound Map Ferris carries) / Letter Trail / Fox & Fern Phonics.
+- **Choice:** Pending. Built as "Sound Trail: Pre-K to Kindergarten Phonics" and "Sound Trail: Grade 1 Phonics" until answered.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** rocket-and-raven-press #92. Related: D241, D242, D243.
+
+### D241: How lesson audio names a sound
+- **Question:** Lesson audio is an ElevenLabs text-to-speech voice (eleven_multilingual_v2), which cannot say an isolated phoneme on cue. How do phonics lessons name sounds?
+- **Options:** None offered (Claude default). Alternative: record a person saying each phoneme (better, needs a human recording session).
+- **Choice:** Name a sound by its key word ("the first sound in moon"; x is "the sound at the end of box"). Stretch only sounds you can hold (mmm, sss, fff, lll, nnn, vvv, zzz); never stretch a vowel or a stop. No slash notation (/m/) anywhere: the build rejects it. Blending shows spaced letters ("s a t") and asks which word they make.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #92, scripts/course-gen/phonics.mjs. Related: D34, D240.
+
+### D242: Sound Trail scope and sequence, and the decodability check
+- **Question:** In what order the phonics courses teach letters and patterns, and how the build keeps "Read it yourself" text decodable.
+- **Options:** None offered (Claude default).
+- **Choice:** Pre-K to K (12 weeks): m s a; t p; i n; c o d; g h; e r b; u l f; k j w; v x y z qu; ff ll ss zz; ck and plural s; review. Grade 1 (12 weeks): short vowel review; sh ch tch; th wh ng nk; initial blends; final blends; a_e i_e; o_e u_e e_e; ee ea ai ay; oa ow igh and y at the end; ar or er ir ur; -s -es -ed -ing; two-syllable words. Each week follows Hear it, See it, Blend it, Build it, Read it yourself (WWC foundational-skills practice guide, recommendations 2 to 4). CCSS RF.K.1 to RF.K.4 and RF.1.1 to RF.1.4. The build (phonics.mjs) checks every word in every "Read it yourself" block: it must use only graphemes taught by that week (with traps such as vowel pairs, r- and w-controlled vowels, silent e, soft c and g, and endings on a known base word rejected until taught) or be a Word Spot heart word taught by that week; at least three such blocks a week. Days are tap-only and 10+ minutes with Word Spot sight words (K list, then Grade 1 list).
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #92, scripts/course-gen/courses/phonics-prek-k/PLAN.md and SOURCES.md. Related: D123, D124, D125, D241.
+
+### D243: Sound Trail course split, series and catalog placement
+- **Question:** How the phonics work is packaged and listed.
+- **Options:** None offered (Claude default).
+- **Choice:** Two Fox & Fern courses (`phonics-prek-k`, band K; `phonics-g1`, band G1) in a new `phonics` series, listed right after Tomorrow Trail on /courses as "Sound Trail: Phonics from Fox & Fern Books", with a new `reading` subject filter. Tomorrow Trail cast, Ferris hosts, Freddy runs Friday games, Saturday is a Sound Hunt at home. 100% free. 70+ new picture icons in the shared Tomorrow Trail icon set; covers and heroes generated in Higgsfield from the cast references.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press #92. Related: D240, D242.

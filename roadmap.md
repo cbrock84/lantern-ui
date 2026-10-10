@@ -18,12 +18,19 @@ update this file in the same change set as the decision that changes it.
 
 ## Reach and revenue (courses stay free)
 
-- Register as an education savings account (ESA) vendor in two or three
-  states (ClassWallet: Arizona, Alabama, Idaho; Odyssey: Texas, Utah,
-  Louisiana, Iowa, Georgia, Wyoming, Missouri; Tennessee from October 2026)
-  for paid add-ons such as printed packs, live help or a family pass.
-  Approved for research on 2026-10-10 (D146); the state-by-state plan is being
-  written and will be added here.
+- **ESA states (D146, plan: https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny).** Courses stay free; ESA families buy
+  optional add-ons, priced per student at the public price (D152).
+  - Lead add-on: printable course packs (D148). Printed workbooks and
+    microschool kits come next; live tutoring and family passes are out.
+  - Wave 1 (D149): Wyoming (Odyssey), Alabama and Arizona (ClassWallet), New
+    Hampshire (CSF NH). No in-state registration or fingerprinting needed for
+    a product-only vendor.
+  - Wave 2: Texas (needs Texas foreign-LLC registration, D150), Utah,
+    Missouri, Louisiana, West Virginia, Arkansas. Wave 3: Florida
+    (MyScholarShop on SAP Ariba). Watch: Tennessee marketplace, federal tax
+    credit scholarships from January 2027.
+  - Before applying: reopen the printable store with public prices (D151).
+    Skip for now: Georgia, Iowa, South Carolina, disability-only programs.
 - Pitch microschools directly: about 75,000 schools and 1.5 million students,
   87% serving ages 5-11 (National Microschooling Center, 2026). The platform
   already has classrooms and assignments.

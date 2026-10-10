@@ -23,6 +23,10 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D148 | Which ESA add-on leads? | Printable PDF course packs (recommended) / printed workbooks / microschool kits / live tutoring | Plan: ESA plan artifact |
+| D149 | Which ESA states first? | Wyoming, Alabama, Arizona, New Hampshire (recommended) / Texas first / every eligible state at once | |
+| D150 | Register Chris Brock LLC in Texas for TEFA? | Yes, in wave 2 (recommended) / yes, now / no | $750 foreign-LLC filing |
+| D151 | Reopen the printable store with public prices? | Yes, packs only (recommended) / marketplaces only | ESAs pay only the public price |
 
 ## Log
 
@@ -1040,8 +1044,8 @@ Every entry has these fields:
 - **Options:** Yes, Arizona (ClassWallet) and Texas (Odyssey) first (recommended) / yes, later / no.
 - **Choice:** Yes, researching. The owner first parked it ("not now"), then reversed the same day and asked for a thread to research and plan taking Lantern Learn to the ESA states. Which states come first is part of that plan.
 - **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Plan in progress in the "ESA states expansion plan" thread; it will add its plan to roadmap.md.
-- **Links:** roadmap.md. Related: D106, D138, D145.
+- **Progress:** Plan delivered 2026-10-10 (ESA plan artifact): lead with per-student printable course packs; wave 1 Wyoming, Alabama, Arizona, New Hampshire; Texas in wave 2; tutoring and family passes out. Open follow-ups D148-D151, defaults D152. Nothing filed. Added to roadmap.md.
+- **Links:** roadmap.md; plan: https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D145, D148-D152.
 
 ### D147: Round the numbers in marketing copy
 - **Question:** Should public copy give exact catalog counts (for example "16 courses")?
@@ -1050,3 +1054,38 @@ Every entry has these fields:
 - **Date:** 2026-10-10. **Decided by:** owner (rule); Claude (default) for the scope. **Status:** Done.
 - **Progress:** "16 courses" changed to "15+ courses" on the lanternlearn.com hero badge, in the social kit images, and in the Reddit, Facebook and directory launch drafts. On rocketandraven.com, "Four series" and the stale "Two series so far" are now worded without a count. Rule added to standards/content-standards.md section 8 and to the launch README.
 - **Links:** Related: D138.
+
+### D148: ESA add-on to lead with
+- **Question:** Which paid add-on should Lantern Learn list first in ESA marketplaces, with every course still free?
+- **Options:** Printable PDF course packs, per student (recommended): no shipping or staff, reuses the hidden PDF store and existing workbooks / printed workbooks: needs a print-on-demand partner and 48-hour shipping / microschool kits: sold to schools, not through ESA marketplaces / live tutoring: needs credentialed, background-checked tutors.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
+
+### D149: First ESA states
+- **Question:** Which states' ESA programs to apply to first?
+- **Options:** Wyoming, Alabama, Arizona, New Hampshire (recommended): no in-state registration or fingerprinting for a product-only vendor / Texas first: largest, but $750 registration and fingerprinting / every eligible state at once.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
+
+### D150: Texas registration for TEFA
+- **Question:** Register Chris Brock LLC as a foreign LLC in Texas so it can join Texas Education Freedom Accounts?
+- **Options:** Yes, in wave 2 (recommended): $750 plus yearly franchise-tax filings, after wave 1 proves sales / yes, now / no: skip Texas.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
+
+### D151: Reopen the printable store with public prices
+- **Question:** ESA programs pay only a vendor's normal public price. Reopen the hidden printable store (rocket-and-raven-press /store) with public prices for course packs?
+- **Options:** Yes, packs only (recommended): course pages stay free with no price / marketplaces only: no public price, so listings may fail price review.
+- **Choice:** Pending.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.
+
+### D152: ESA pricing and vendor defaults
+- **Question:** Defaults for any ESA listing.
+- **Options:** None offered (Claude default).
+- **Choice:** Price per student per course, never per family (Missouri and Utah reject family and lifetime plans). Same price inside and outside ESAs (Texas SB 2 §29.365, West Virginia). No rebates or refunds to families; refunds go back to the account. Apply as Chris Brock LLC until the DBA is filed. Checkout and email go to parents only. Tutoring stays out until there is staff.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** https://claude.ai/artifact/GrTF4QcoTv4YsHoX7yCeny. Related: D106, D138, D146.

@@ -23,7 +23,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D134 | Also ship to the Amazon Appstore | Yes, same Android build (recommended) / Google Play only | |
 | D135 | Apple Kids Category and age band | Kids, 6-8 (recommended) / Kids, 9-11 / Education only | |
 
 ## Log
@@ -902,8 +901,8 @@ Every entry has these fields:
 ### D134: Amazon Appstore
 - **Question:** Amazon's new Alexa Tablets (announced 2026-10-08) run Google Play; the Amazon Appstore still serves existing Fire tablets. Ship to the Amazon Appstore too?
 - **Options:** Yes, same Android build as a signed APK; $0 account (recommended) / Google Play only.
-- **Choice:** Pending.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Open.
+- **Choice:** Yes: the same Android build ships to the Amazon Appstore as a signed APK, for Fire tablets, alongside Google Play.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
 - **Links:** /mnt/project-files/apps/app-store-plan.md section 5.3.
 
 ### D135: Apple Kids Category and age band

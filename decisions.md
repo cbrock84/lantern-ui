@@ -1417,17 +1417,17 @@ Every entry has these fields:
 - **Question:** With Reading and Writing 6-8 live, which course does the expansion thread build next?
 - **Options:** Algebra 1 Grades 9 to 12 under Rocket & Raven with the high-school crew, covering the Common Core high-school algebra, functions, number and statistics standards usually taught in Algebra 1, reusing and extending the computed-answer math helpers (recommended) / Civics and Government 6-8 under Rocket & Raven (C3 Framework and public-domain documents, a sourcing pass first) / Biology 9-12 under Rocket & Raven (NGSS HS-LS) / Pause and wait for direction.
 - **Choice:** Algebra 1 Grades 9 to 12, `algebra-1-g9-12`, series `algebra-1`, subject math, Rocket & Raven, band G6+, grade band G9-12 (D202), 12 weeks, about 20 minutes a day, Saturday "Loft Day", cast Comet, Wren and Nova (D225). Weeks: Quantities and the Shape of an Expression; Equations and Inequalities in One Variable; Functions; Linear Graphs and Rates of Change; Linear Models and Sequences; Systems of Equations and Inequalities; Exponents and Exponential Change; Polynomials; Factoring; Quadratic Equations; Quadratic Functions and Their Graphs; Data from the Loft and Fair Day. Running thread: the Loft, the crew's garage-loft workshop, where they build a ramp course and a bottle-rocket launcher for a neighborhood Maker Fair; every week's math makes a build work; the student keeps a Loft Log. The decision was sent to the project chat; a different tap switches the course.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Scaffold, helper module (mathvizquad.mjs), plan, sources and 14 crew images in rocket-and-raven-press #113; weeks being written.
-- **Links:** rocket-and-raven-press #113. Related: D145, D202, D208, D215, D225.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11: 12 weeks, 72 days, 17.6 to 21 minutes a day, every number question computed by the math helpers, 14 high-school-crew images. https://learn.lanternlearn.com/courses/algebra-1-g9-12, https://lanternlearn.com/courses/algebra-1-g9-12/, https://rocketandraven.com/series/algebra-1/.
+- **Links:** rocket-and-raven-press #113, lanternlearn-site #53, rocketandraven-site #53, lantern-ui #106. Related: D145, D202, D208, D215, D225.
 
 ### D215: Algebra 1 method, scope and fact policy
 - **Question:** How the first high-school math course is built.
 - **Options:** None offered (Claude default).
 - **Choice:** Method from the WWC guide "Teaching Strategies for Improving Algebra Knowledge in Middle and High School Students" (a solved problem to study on Mondays, the structure of expressions, comparing solution strategies on Tuesdays and for quadratics). Scope: parent codes only from CCSS N-Q, N-RN, A-SSE, A-APR, A-CED, A-REI, F-IF, F-BF, F-LE and S-ID; the course build's CCSS check now accepts high-school codes. Every number question and picture comes from the math helpers (mathviz, mathviz68, mathvizalg and the new mathvizquad: polynomial arithmetic, factoring, exact and decimal roots, vertex form, rational exponents, sequences, least-squares fits, parabola and exponential pictures, algebra tiles). Fact policy: no facts about the world, no physics constants (the rocket's height rule is the crew's model from their own stopwatch data), no money words, every data set the crew's own made-up Loft data. Rocket launches say a grown-up is present. No dashes.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Helper module tested (factoring, roots, vertex form, fits, pictures) before the scaffold commit.
-- **Links:** rocket-and-raven-press #113. Related: D214, D209, D249.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Applied across all 12 weeks; the course build's week checks pass (sources, standards codes, minutes, reading band).
+- **Links:** rocket-and-raven-press #113, lantern-ui #106. Related: D214, D209, D249.
 
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?

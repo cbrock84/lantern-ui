@@ -1315,9 +1315,9 @@ Every entry has these fields:
 - **Question:** With Weather Lab live (D200), which middle-school science course comes next?
 - **Options:** Matter Lab, kitchen-bench chemistry covering MS-PS1 (recommended; the one NGSS middle-school strand with no course, kitchen materials only, builds on the Weather Lab format) / Sports Physics, forces, motion and energy measured outdoors / Cells and Systems, life science (MS-LS codes are not yet in the build's allow-list).
 - **Choice:** Matter Lab Grades 6 to 8, `matter-lab-g6-8`, series `matter-lab`, Rocket & Raven, band G6+, 12 weeks, about 20 minutes a day, Saturday "Bench Day". Weeks: matter and atoms, states of matter, heat and changing state, density, mixtures and solutions, molecules, physical or chemical change, conservation of mass, acids and bases with a cabbage indicator, reactions that give or take energy, natural to synthetic materials, design project. Kitchen materials only, never cleaners; nothing tasted; a grown-up handles heat and cutting; safety glasses on fizzing weeks. Every fact from NIST, PubChem, USGS, NASA, EIA, FDA or a university page in SOURCES.md. Chris can switch the pick on the decision card in the thread.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** In progress 2026-10-10: plan, art and registration done, weeks being written.
-- **Links:** Related: D145, D200.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11: 12 weeks, 72 days at 15 to 22 minutes, SOURCES.md complete; course at learn.lanternlearn.com/courses/matter-lab-g6-8, listed on lanternlearn.com and rocketandraven.com.
+- **Links:** rocket-and-raven-press #98, lanternlearn-site #40, rocketandraven-site #43, lantern-ui #91. Related: D145, D200, D202.
 
 ### D202: Grades 6 to 8 and 9 to 12 bands on the course platform
 - **Question:** The platform's grade band model stops at Grade 5 (K, G1 to G5, all-ages, adult), so Weather Lab, AI Explorers 6 to 8, Intro to Computer Science, Data and Society and Matter Lab are labeled "All ages" on course cards and in the catalog filter (raised by Codex review on rocket-and-raven-press #96). Add real middle and high school bands?

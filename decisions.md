@@ -26,9 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D250 | Add a coins week to Grade 2 math (2.MD.C.8), allowing money words? | Leave coins out (recommended) / Allow coin words in math courses | Built without coins. |
-| D163 | Which healthy-eating guide does the Kitchen course teach? | Colorful produce only (recommended) / MyPlate / New Pyramid | Built on the recommended option. |
-| D164 | What should the Fox & Fern cooking course be called? | Fox & Fern Kitchen (recommended) / Kitchen Crew / Little Chefs Lab | Built on the recommended option. |
 
 ## Log
 
@@ -1162,7 +1159,7 @@ Every entry has these fields:
 - **Question:** Who does the Kitchen course liability review before it goes live?
 - **Options:** Chris reviews, with a parent safety notice and reviewer checklist (recommended) / an attorney reviews a packet first / keep it hidden until decided. Re-asked 2026-10-11 as "Publish the Fox & Fern Kitchen course now?".
 - **Choice:** Publish now.
-- **Date:** 2026-10-11. **Decided by:** Chris (project chat card). **Status:** Done.
+- **Date:** 2026-10-11. **Decided by:** Chris, via project-chat decision card (relayed by coordinator). **Status:** Done.
 - **Progress:** Published 2026-10-11: `draft` removed, `publish: true`, workbook loaded (press #106). Listed on lanternlearn.com via sync-courses.
 - **Links:** rocket-and-raven-press #86, #106. Related: D143.
 
@@ -1170,22 +1167,24 @@ Every entry has these fields:
 - **Question:** Can the Kitchen allergy week name peanuts and tree nuts (and the other major allergens)?
 - **Options:** Name all nine, no recipe uses them (recommended) / grown-up note only / never name them.
 - **Choice:** Name all nine, no recipe uses them. An `allergyLabels` marker lets a marked day name the nine allergens in lessons; they stay banned in recipe cards, method steps, vocab and titles.
-- **Date:** 2026-10-11. **Decided by:** Chris (project chat card). **Status:** Done.
+- **Date:** 2026-10-11. **Decided by:** Chris, via project-chat decision card (relayed by coordinator). **Status:** Done.
 - **Progress:** Built this way; live with Kitchen (press #106).
 - **Links:** rocket-and-raven-press #86. Related: D143.
 
 ### D163: Kitchen healthy-eating guide
 - **Question:** Which healthy-eating guide does the Kitchen course teach?
 - **Options:** Colorful produce only (recommended) / MyPlate (page could not be verified) / the 2025-2030 New Pyramid.
-- **Choice:** Pending; built on the recommended option: only "eat many colorful fruits and vegetables" and "water is a great drink".
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Colorful produce only: the course teaches only "eat many colorful fruits and vegetables" and "water is a great drink".
+- **Date:** 2026-10-11. **Decided by:** Chris, via project-chat decision card (relayed by coordinator). **Status:** Done.
+- **Progress:** Built this way; live with Kitchen (press #106).
 - **Links:** rocket-and-raven-press #86. Related: D143.
 
 ### D164: Kitchen course name
 - **Question:** What should the Fox & Fern cooking course be called?
 - **Options:** Fox & Fern Kitchen (recommended) / Kitchen Crew / Little Chefs Lab.
-- **Choice:** Pending; built as "Fox & Fern Kitchen Grades 3 to 5" (`kitchen-g3-5`).
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Fox & Fern Kitchen. Built as "Fox & Fern Kitchen Grades 3 to 5" (`kitchen-g3-5`).
+- **Date:** 2026-10-11. **Decided by:** Chris, via project-chat decision card (relayed by coordinator). **Status:** Done.
+- **Progress:** Live with Kitchen (press #106).
 - **Links:** rocket-and-raven-press #86. Related: D143.
 
 ### D165: Bike Shop course shape
@@ -1648,8 +1647,9 @@ Every entry has these fields:
 ### D250: Coins and dollars in Grade 2 math
 - **Question:** Add a coins week to Grade 2 math (2.MD.C.8), allowing coin and dollar words in math courses?
 - **Options:** Leave coins out, keep the money-word ban for kids (recommended) / Allow coin words in math courses and add a coins week.
-- **Choice:** Pending; built without coins.
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Allow coin words in math courses and add a coins week to Grade 2.
+- **Date:** 2026-10-11. **Decided by:** Chris, via project-chat decision card (relayed by coordinator). **Status:** Decided.
+- **Progress:** Not started; course building is paused for launch. When built: a coins week in `math-g2` (2.MD.C.8), with coin and dollar words allowed in math courses only.
 - **Links:** rocket-and-raven-press #100. Related: D247, D248.
 
 ### D251: Number Trail Grades 3 to 5

@@ -1700,6 +1700,14 @@ Every entry has these fields:
 - **Progress:** Done 2026-10-11: rocket-and-raven-press #120 merged (CI green). It also fixed ci.yml, which had stopped parsing after the Statistics scaffold, and a share-preview test the home page change (rocket-and-raven-press #119, D300) had broken.
 - **Links:** rocket-and-raven-press #120. Related: D212, D202, D39.
 
+### D285: Pause course expansion for launch
+- **Question:** Keep building new courses (Biology 9-12 was next), or stop and focus on launch?
+- **Options:** Keep building / Pause new courses and QA and polish the live ones / Pause for launch.
+- **Choice:** Pause all new course building until after launch. Chris (2026-10-11): "Let's focus on getting everything launch ready right now. We will resume course expansion after launch and gradually release new content. My main goal now is to get users in the system and using it." When expansion resumes, new courses favor real-world applied STEM, coding, software and computers first (Chris, 2026-10-11). Biology 9-12 is dropped for now; its scaffold stays unmerged on draft PRs and is not published.
+- **Date:** 2026-10-11. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Statistics 9-12 (D282) was finished and is live; no further course was started. Biology 9-12 scaffold (rules, registrations, plan, pictures; no weeks) is parked on rocket-and-raven-press #118 and lanternlearn-site #58, both draft and unmerged. Its rocketandraven.com entries were reverted from rocketandraven-site #56.
+- **Links:** rocket-and-raven-press #118, lanternlearn-site #58, rocketandraven-site #56. Related: D282, D284, D300.
+
 ### D300: Launch home pages: free, K-12, find-your-grade chips
 - **Question:** The launch priority (Chris, 2026-10-11) is getting families in. The learn.lanternlearn.com home page headline and description didn't say free and described only kindergarten; How it works said weeks unlock one at a time; lanternlearn.com said 15+ courses for K to Grade 6+; foxandfernbooks.com still described a workbook publisher. How should the home pages present the catalog?
 - **Options:** None offered (Claude default).

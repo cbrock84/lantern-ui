@@ -1697,5 +1697,12 @@ Every entry has these fields:
 - **Options:** None offered (Claude default).
 - **Choice:** Rule checks and minute audit on every week; a scan of the built workbooks for garbled text and risky answer keywords; a full read of every graded item and lesson fact against each course's SOURCES.md; every week page checked live at phone width. Fix in place without new courses or new art. Grader default: a number keyword now respects sign and fractions, so "-6", "negative 6" and "minus 6" no longer pass for 6 and "11/2" no longer passes for 1/2; typographic minus signs, "18,000" and ".8" are read as plain numbers. Short word keywords that matched wrong answers (balance in unbalanced, metres in kilometres, one in none, no in not sure) are fixed by rewording the item, not by changing the grader, so other courses are untouched. Prompt narration ("?." joins) is left alone so recorded audio is not re-made for every course.
 - **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
-- **Progress:** Done 2026-10-11: rocket-and-raven-press #120 merged (CI green). It also fixed ci.yml, which had stopped parsing after the Statistics scaffold, and a share-preview test the home page change (rocket-and-raven-press #119) had broken.
+- **Progress:** Done 2026-10-11: rocket-and-raven-press #120 merged (CI green). It also fixed ci.yml, which had stopped parsing after the Statistics scaffold, and a share-preview test the home page change (rocket-and-raven-press #119, D300) had broken.
 - **Links:** rocket-and-raven-press #120. Related: D212, D202, D39.
+
+### D300: Launch home pages: free, K-12, find-your-grade chips
+- **Question:** The launch priority (Chris, 2026-10-11) is getting families in. The learn.lanternlearn.com home page headline and description didn't say free and described only kindergarten; How it works said weeks unlock one at a time; lanternlearn.com said 15+ courses for K to Grade 6+; foxandfernbooks.com still described a workbook publisher. How should the home pages present the catalog?
+- **Options:** None offered (Claude default).
+- **Choice:** Say "free" and "kindergarten through high school" in every home page title, description and hero; use the round "60+ courses" (D147); describe Fox & Fern as free phonics, reading, math and life-skills courses for pre-K to Grade 5; say every week is open from day one (D139); add a "Find your kid's grade" chip row (K, 1 to 5, 6-8, 9-12, Adults) under the learn home hero linking to the catalog's grade filter. The D122 featured row is unchanged.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press, lanternlearn-site, foxandfernbooks-site (branch claude/project-thread-syqpj8). Related: D122, D139, D147, D202.

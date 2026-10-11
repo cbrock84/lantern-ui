@@ -26,6 +26,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D232 | Where may Python 11-12 lessons name AP Computer Science A? | Week 11 Monday and week 12 Saturday only (recommended) / course pages only | Building on the recommended option until answered. |
 | D250 | Add a coins week to Grade 2 math (2.MD.C.8), allowing money words? | Leave coins out (recommended) / Allow coin words in math courses | Built without coins. |
 | D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built but held: no lesson is reachable (press #86) until this is answered. |
 | D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
@@ -1362,17 +1363,61 @@ Every entry has these fields:
 - **Question:** How the high-school AI literacy elective is built.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in the AI Explorers series: AI and You Grades 9 to 12 (`ai-and-you-g9-12`, G6+ reading level), 12 weeks, about 20-minute days (10+ enforced), Wednesday Explorer Lab, Impact Friday and a Saturday Explorer Quest. Same D157 rules: unplugged, no live AI tool, no product names, every AI fact from the course's SOURCES.md (NIST AI 100-1, NIST AI 600-1, AI4K12, CSTA; 95 rows). High-School Crew cast (D225). Running thread: the SH-1 Review, in which Comet, Wren and the student review a proposed AI study helper for a made-up school: a hand-run next-word model (Tiny Text), a test set, the nine NIST generative AI risks as a risk register, and a final model card and go-with-conditions recommendation. It practices 12 CSTA Level 3A and 3B DA, IC and AP codes, worded per D177. Grade band `all-ages` with "Grades 9 to 12" in the title, like the other high-school courses.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Building.
-- **Links:** rocket-and-raven-press #99 (scripts/course-gen/courses/ai-and-you-g9-12). Related: D157, D173, D177, D225, D227.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com, lanternlearn.com and rocketandraven.com.
+- **Links:** rocket-and-raven-press #99, lanternlearn-site #41, rocketandraven-site #44 (scripts/course-gen/courses/ai-and-you-g9-12). Related: D157, D173, D177, D225, D227.
 
 ### D227: Careers in AI and You
 - **Question:** How the course covers careers in AI.
 - **Options:** None offered (Claude default). Alternative: add salary and job-growth figures from the US Bureau of Labor Statistics.
 - **Choice:** Each Friday spotlights one kind of person who works on AI, using the AI actor tasks in NIST AI 100-1 Appendix A (design, development, deployment, operation and monitoring, TEVV, human factors, domain expert, impact assessment, procurement, governance and oversight). No salaries, job counts or growth figures: the BLS pages could not be fetched to verify them, so none are stated.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Building.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-10 on learn.lanternlearn.com, lanternlearn.com and rocketandraven.com.
 - **Links:** Related: D226.
+
+### D230: Python Programming Grades 11 to 12 course shape
+- **Question:** How the Grades 11 to 12 Python course that bridges Code Crew: Mission Commander to AP Computer Science A readiness is built.
+- **Options:** None offered (Claude default).
+- **Choice:** One Rocket & Raven course in the Code Crew series, Mission Commander rank: Python Programming Grades 11 to 12 (`python-g11-12`, G6+ reading level), 12 weeks, about 30-minute sessions (10+ minutes enforced), Wednesday Sim Lab, Trace Friday and a Saturday Mission Quest. Real Python 3 in IDLE, standard library only. Running thread: FieldSim, a made-up rover simulator on a grid test field, built up across the weeks with classes, encapsulation, has-a objects, 2D grids, tests, inheritance, searching, sorting and recursion. Weeks 11 and 12 show the same programs in Java to read and trace (no Java install). Every Python and Java program on a page is run by the course's `check-code.mjs` before publishing, and every output shown comes from that run. CSTA 2017 Level 3A and 3B Algorithms and Programming codes. Wording: "prepares for the ideas in AP Computer Science A"; course pages add that it is not an AP course and not affiliated with College Board (D177 style). Facts about Python, Java, CSTA and AP CSA come from the course SOURCES.md (CSTA, the AP CSA Course and Exam Description effective Fall 2025, docs.python.org, Oracle Java Tutorials). High-School Crew cast (D225).
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Building.
+- **Links:** rocket-and-raven-press #103 (scripts/course-gen/courses/python-g11-12). Related: D177, D225, D231 to D235.
+
+### D231: Inheritance week in Python 11-12
+- **Question:** The 2025 AP CSA course description puts designing and writing inheritance outside the course and exam. Keep an inheritance week?
+- **Options:** Keep it, labelled as going beyond AP CSA (recommended) / Replace it with AP CSA core material (list algorithms, text data sets).
+- **Choice:** Keep week 7 on inheritance and polymorphism, labelled as going beyond AP CSA.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Building.
+- **Links:** Related: D230.
+
+### D232: Where Python 11-12 lessons name AP Computer Science A
+- **Question:** Where may lessons name AP CSA?
+- **Options:** Only week 11 Monday and week 12 Saturday, with the not-affiliated line, never the exam (recommended) / Never in lessons, only on course and marketing pages.
+- **Choice:** Open. Building on the recommended option until answered.
+- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Links:** Related: D177, D230.
+
+### D233: Writing recursive code in Python 11-12
+- **Question:** The AP CSA course description leaves writing recursive code out of scope. Should learners write it?
+- **Options:** None offered (Claude default).
+- **Choice:** Yes. Week 10 has learners write small recursive functions; Trace Friday stays on reading and tracing recursion, which the course description does cover.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** Related: D230.
+
+### D234: Testing style in Python 11-12
+- **Question:** How the course tests code.
+- **Options:** None offered (Claude default). Alternative: the `unittest` module.
+- **Choice:** Plain `assert` test files, as in Code Crew: Mission Commander, so the tests read like the earlier course.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** Related: D230.
+
+### D235: A program checker for Python 11-12
+- **Question:** How to make sure every program and output on a page is real.
+- **Options:** None offered (Claude default).
+- **Choice:** The course adds `check-code.mjs` and a `java()` helper: it runs every recorded Python program with python3 and compiles and runs every Java program with javac and java, and fails on any difference from the page. Code Crew: Mission Commander records programs the same way but the repo had no runner.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** Related: D230.
 
 ### D240: Name of the Fox & Fern phonics courses
 - **Question:** What the Fox & Fern phonics courses (Pre-K to K and Grade 1) are called.

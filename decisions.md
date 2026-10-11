@@ -1404,6 +1404,7 @@ Every entry has these fields:
 - **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Live 2026-10-11: https://learn.lanternlearn.com/courses/reading-writing-g6-8, https://lanternlearn.com/courses/reading-writing-g6-8/, https://rocketandraven.com/series/reading-writing/. Twelve weeks, 72 days, every day 16 to 20 minutes, workbook bundled. The first middle-school English language arts course.
 - **Links:** rocket-and-raven-press #112, lanternlearn-site #52, rocketandraven-site #52, lantern-ui #105. Related: D145, D202, D210, D213, D245, D246.
+- **Owner tap (2026-10-11):** after the course was live, Chris tapped "QA and polish: stop new courses and polish the live grades 6-8 courses" on the card. Reading and Writing stays live; the polish pass is D284.
 
 ### D213: Reading and Writing method, scope and fact policy
 - **Question:** How the middle-school English language arts course is built.
@@ -1690,3 +1691,11 @@ Every entry has these fields:
 - **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Applied in all twelve weeks; per-week CCSS quotes and "Left out" notes are in the course's SOURCES.md. One deviation from PLAN.md: the standard deviation procedure is week 1 Thursday's derivation and the median-resists-an-outlier proof moved to week 2 Thursday.
 - **Links:** rocket-and-raven-press #117 (merged). Related: D282, D281, D219, D249.
+
+### D284: Grades 6 to 8 QA and polish pass
+- **Question:** How the QA and polish pass Chris chose on the D212 card covers the ten live Grades 6 to 8 courses (Weather Lab, Matter Lab, Sports Physics, Cells and Systems, Earth and Space, Ratios and Data, Expressions and Equations, Geometry and Measurement, Reading and Writing, AI Explorers 6-8).
+- **Options:** None offered (Claude default).
+- **Choice:** Rule checks and minute audit on every week; a scan of the built workbooks for garbled text and risky answer keywords; a full read of every graded item and lesson fact against each course's SOURCES.md; every week page checked live at phone width. Fix in place without new courses or new art. Grader default: a number keyword now respects sign and fractions, so "-6", "negative 6" and "minus 6" no longer pass for 6 and "11/2" no longer passes for 1/2; typographic minus signs, "18,000" and ".8" are read as plain numbers. Short word keywords that matched wrong answers (balance in unbalanced, metres in kilometres, one in none, no in not sure) are fixed by rewording the item, not by changing the grader, so other courses are untouched. Prompt narration ("?." joins) is left alone so recorded audio is not re-made for every course.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** All fixes in rocket-and-raven-press #120; merges when CI is green.
+- **Links:** rocket-and-raven-press #120. Related: D212, D202, D39.

@@ -1696,6 +1696,6 @@ Every entry has these fields:
 - **Question:** How the QA and polish pass Chris chose on the D212 card covers the ten live Grades 6 to 8 courses (Weather Lab, Matter Lab, Sports Physics, Cells and Systems, Earth and Space, Ratios and Data, Expressions and Equations, Geometry and Measurement, Reading and Writing, AI Explorers 6-8).
 - **Options:** None offered (Claude default).
 - **Choice:** Rule checks and minute audit on every week; a scan of the built workbooks for garbled text and risky answer keywords; a full read of every graded item and lesson fact against each course's SOURCES.md; every week page checked live at phone width. Fix in place without new courses or new art. Grader default: a number keyword now respects sign and fractions, so "-6", "negative 6" and "minus 6" no longer pass for 6 and "11/2" no longer passes for 1/2; typographic minus signs, "18,000" and ".8" are read as plain numbers. Short word keywords that matched wrong answers (balance in unbalanced, metres in kilometres, one in none, no in not sure) are fixed by rewording the item, not by changing the grader, so other courses are untouched. Prompt narration ("?." joins) is left alone so recorded audio is not re-made for every course.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** All fixes in rocket-and-raven-press #120; merges when CI is green.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Done 2026-10-11: rocket-and-raven-press #120 merged (CI green). It also fixed ci.yml, which had stopped parsing after the Statistics scaffold, and a share-preview test the home page change (#119, D300) had broken.
 - **Links:** rocket-and-raven-press #120. Related: D212, D202, D39.

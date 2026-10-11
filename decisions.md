@@ -26,7 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D232 | Where may Python 11-12 lessons name AP Computer Science A? | Week 11 Monday and week 12 Saturday only (recommended) / course pages only | Building on the recommended option until answered. |
 | D250 | Add a coins week to Grade 2 math (2.MD.C.8), allowing money words? | Leave coins out (recommended) / Allow coin words in math courses | Built without coins. |
 | D161 | Who does the Kitchen course liability review before it goes live? | Chris reviews, with a parent notice (recommended) / Attorney reviews / Not live yet | Kitchen is built but held: no lesson is reachable (press #86) until this is answered. |
 | D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
@@ -1410,8 +1409,9 @@ Every entry has these fields:
 ### D232: Where Python 11-12 lessons name AP Computer Science A
 - **Question:** Where may lessons name AP CSA?
 - **Options:** Only week 11 Monday and week 12 Saturday, with the not-affiliated line, never the exam (recommended) / Never in lessons, only on course and marketing pages.
-- **Choice:** Open. Building on the recommended option until answered.
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Two mentions: AP CSA is named only on week 11 Monday and week 12 Saturday, each with the not-affiliated line, never the exam.
+- **Date:** 2026-10-11. **Decided by:** owner (decision card). **Status:** Done.
+- **Progress:** Live in python-g11-12 (press #103).
 - **Links:** Related: D177, D230.
 
 ### D233: Writing recursive code in Python 11-12

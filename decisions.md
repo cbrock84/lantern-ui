@@ -1365,6 +1365,22 @@ Every entry has these fields:
 - **Progress:** Used by all twelve weeks of Ratios and Data 6-8, live 2026-10-11.
 - **Links:** rocket-and-raven-press #109. Related: D206, D248, D249.
 
+### D208: Second Grades 6 to 8 math course
+- **Question:** With Ratios and Data 6-8 live, which Grades 6 to 8 course does the expansion thread build next?
+- **Options:** Expressions and Equations 6-8, the second middle-school math course (CCSS 6.EE, 7.EE, 8.EE, 8.F: powers, variables, equivalent expressions, equations and inequalities, slope, linear functions, systems, scientific notation), reusing the mathviz68 helpers so it builds fastest (recommended; middle-school math is complete after it) / Reading and Writing 6-8, extending Story Trail into middle-school ELA (CCSS ELA research first, no computed-answer helpers) / Civics and Government 6-8 under Rocket & Raven (C3 Framework research first; the hardest to source) / Pause Grades 6-8 and build the next high-school course.
+- **Choice:** Expressions and Equations Grades 6 to 8, `expressions-equations-g6-8`, series `expressions-equations`, subject math, Rocket & Raven, band G6+, grade band G6-8 (D202), 12 weeks, about 20 minutes a day, Saturday "Puzzle Day". Weeks: powers and the order of operations; letters stand for numbers; equivalent expressions; the balance (one-step equations); inequalities; two-step equations; two quantities that change together; slope; linear functions; solving linear equations; two equations at once; big numbers, small numbers and Puzzle Night. Running thread: the Puzzle Post, a garage-corner algebra workshop (a coat-hanger balance with paper cups, beans, envelopes that hide a number, index cards, a cardboard rule machine, graph paper), writing a weekly puzzle for the kids on the street. No money anywhere (MONEY_RE). The decision card is in the project chat; a different tap switches the course.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11: https://learn.lanternlearn.com/courses/expressions-equations-g6-8, https://lanternlearn.com/courses/expressions-equations-g6-8/, https://rocketandraven.com/series/expressions-equations/. Twelve weeks, 72 days, every day 18 to 21 minutes, workbook bundled. Middle-school math (Ratios and Data plus Expressions and Equations) is complete.
+- **Links:** rocket-and-raven-press #110, lanternlearn-site #50, rocketandraven-site #50, lantern-ui #103. Related: D145, D202, D206, D207, D209, D248, D249.
+
+### D209: Expressions and Equations method, scope and computed answers
+- **Question:** How the second middle-school math course is built.
+- **Options:** None offered (Claude default).
+- **Choice:** Same method as Number Trail and Ratios and Data (D248, D249, D207): concrete (beans, envelopes, a coat-hanger balance), then picture, then symbols; no timed drills; every answer computed by `scripts/course-gen/mathvizalg.mjs` (a one-letter linear-expression engine: evaluate, simplify, factor, solve equations and inequalities, solve two-by-two systems, slope and intercept, scientific notation, roots and exponent rules; pictures of the balance, inequality number lines, rule machines, line graphs and slope triangles) on top of mathviz.mjs and mathviz68.mjs. Scope: CCSS 6.EE, 7.EE, 8.EE and 8.F (parent codes only); 6.G, 7.G, 8.G and 8.NS are left for a later geometry course. The balance model: an equation is a level coat hanger, and solving means doing the same to both cups.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Done 2026-10-11 with D208. Writers added local wrappers in week files where a helper was missing (two-letter formulas, words-to-expression, function tables, system solution counts, negative exponents); hanger() caps at 12 beans a side and lineGraph at 20, so larger data are tables only.
+- **Links:** rocket-and-raven-press #110. Related: D208, D207, D248, D249.
+
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?
 - **Options:** None offered (Claude default). Alternatives: build an unplugged CSTA Level 2 course alongside it.

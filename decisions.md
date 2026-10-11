@@ -1710,7 +1710,8 @@ Every entry has these fields:
 
 ### D300: Launch home pages: free, K-12, find-your-grade chips
 - **Question:** The launch priority (Chris, 2026-10-11) is getting families in. The learn.lanternlearn.com home page headline and description didn't say free and described only kindergarten; How it works said weeks unlock one at a time; lanternlearn.com said 15+ courses for K to Grade 6+; foxandfernbooks.com still described a workbook publisher. How should the home pages present the catalog?
-- **Options:** None offered (Claude default).
+- **Options:** Keep it (recommended) / Drop the grade row / Revert all copy.
 - **Choice:** Say "free" and "kindergarten through high school" in every home page title, description and hero; use the round "60+ courses" (D147); describe Fox & Fern as free phonics, reading, math and life-skills courses for pre-K to Grade 5; say every week is open from day one (D139); add a "Find your kid's grade" chip row (K, 1 to 5, 6-8, 9-12, Adults) under the learn home hero linking to the catalog's grade filter. The D122 featured row is unchanged.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
-- **Links:** rocket-and-raven-press, lanternlearn-site, foxandfernbooks-site (branch claude/project-thread-syqpj8). Related: D122, D139, D147, D202.
+- **Date:** 2026-10-11. **Decided by:** owner (tapped Keep it on the card, 15:35 UTC). **Status:** Done.
+- **Progress:** Live on learn.lanternlearn.com, lanternlearn.com and foxandfernbooks.com 2026-10-11.
+- **Links:** rocket-and-raven-press, lanternlearn-site, foxandfernbooks-site (rocket-and-raven-press #119, lanternlearn-site #59, foxandfernbooks-site #21, lantern-ui #112, all merged). Related: D122, D139, D147, D202.

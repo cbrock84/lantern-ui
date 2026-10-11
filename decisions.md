@@ -27,7 +27,6 @@ Every entry has these fields:
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
 | D250 | Add a coins week to Grade 2 math (2.MD.C.8), allowing money words? | Leave coins out (recommended) / Allow coin words in math courses | Built without coins. |
-| D162 | Can the Kitchen allergy week name peanuts and tree nuts? | Name all nine, no recipes use them (recommended) / Grown-up note only / Never name them | Built on the recommended option. |
 | D163 | Which healthy-eating guide does the Kitchen course teach? | Colorful produce only (recommended) / MyPlate / New Pyramid | Built on the recommended option. |
 | D164 | What should the Fox & Fern cooking course be called? | Fox & Fern Kitchen (recommended) / Kitchen Crew / Little Chefs Lab | Built on the recommended option. |
 
@@ -1170,8 +1169,9 @@ Every entry has these fields:
 ### D162: Naming allergens in the Kitchen allergy week
 - **Question:** Can the Kitchen allergy week name peanuts and tree nuts (and the other major allergens)?
 - **Options:** Name all nine, no recipe uses them (recommended) / grown-up note only / never name them.
-- **Choice:** Pending; built on the recommended option. An `allergyLabels` marker lets a marked day name the nine allergens in lessons; they stay banned in recipe cards, method steps, vocab and titles.
-- **Date:** 2026-10-10. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Name all nine, no recipe uses them. An `allergyLabels` marker lets a marked day name the nine allergens in lessons; they stay banned in recipe cards, method steps, vocab and titles.
+- **Date:** 2026-10-11. **Decided by:** Chris (project chat card). **Status:** Done.
+- **Progress:** Built this way; live with Kitchen (press #106).
 - **Links:** rocket-and-raven-press #86. Related: D143.
 
 ### D163: Kitchen healthy-eating guide

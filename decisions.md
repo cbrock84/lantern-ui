@@ -1305,10 +1305,26 @@ Every entry has these fields:
 ### D200: First Grades 6 to 8 science course
 - **Question:** The K to 5 expansion queue (Home Helpers, Backyard Explorer, Everyday Machines) is finished and the Grades 6 to 8 lane has only AI Explorers 6 to 8 and Intro to Computer Science. Which middle-school science course is built first?
 - **Options:** Weather Lab, weather and climate with a home weather station and real NOAA and NASA data (recommended; richest free public data, no heat, chemicals or tools, covers the uncovered MS-ESS2 and MS-ESS3 standards) / Sports Physics, forces, motion and energy measured in a yard or park / Matter Lab, home chemistry with a grown-up at every heat step.
-- **Choice:** Weather Lab Grades 6 to 8, `weather-lab-g6-8`, series `weather-lab`, Rocket & Raven, band G6+, 12 weeks, about 20 minutes a day, Saturday "Station Day". Weeks: weather or climate, the Sun heats the Earth unevenly, air pressure, wind, water in the air, clouds, precipitation, air masses and fronts, storms and safety, oceans and climate zones, the climate record, forecast and design. Climate is taught as NOAA and NASA state it, no politics; storm week is safety first. The build's NGSS allow-list gains the middle-school codes checked on nextgenscience.org (MS-PS1, MS-PS3, MS-PS4, MS-ESS2, MS-ESS3, MS-ETS1). Chris can switch the pick on the decision card in the thread.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Choice:** Weather Lab Grades 6 to 8, `weather-lab-g6-8`, series `weather-lab`, Rocket & Raven, band G6+, 12 weeks, about 20 minutes a day, Saturday "Station Day". Weeks: weather or climate, the Sun heats the Earth unevenly, air pressure, wind, water in the air, clouds, precipitation, air masses and fronts, storms and safety, oceans and climate zones, the climate record, forecast and design. Climate is taught as NOAA and NASA state it, no politics; storm week is safety first. The build's NGSS allow-list gains the middle-school codes checked on nextgenscience.org (MS-PS1, MS-PS3, MS-PS4, MS-ESS2, MS-ESS3, MS-ETS1).
+- **Date:** 2026-10-10. **Decided by:** Claude (default), confirmed by owner on the decision card 2026-10-10. **Status:** Done.
 - **Progress:** Live 2026-10-10: 12 weeks, 72 days at 14 to 21 minutes, every fact in SOURCES.md, cover, hero and 12 lesson illustrations. Course pages on lanternlearn.com and rocketandraven.com.
 - **Links:** rocket-and-raven-press #96, lanternlearn-site #38, rocketandraven-site #42. Related: D145, D173, D179 (Everyday Machines).
+
+### D201: Second Grades 6 to 8 science course
+- **Question:** With Weather Lab live (D200), which middle-school science course comes next?
+- **Options:** Matter Lab, kitchen-bench chemistry covering MS-PS1 (recommended; the one NGSS middle-school strand with no course, kitchen materials only, builds on the Weather Lab format) / Sports Physics, forces, motion and energy measured outdoors / Cells and Systems, life science (MS-LS codes are not yet in the build's allow-list).
+- **Choice:** Matter Lab Grades 6 to 8, `matter-lab-g6-8`, series `matter-lab`, Rocket & Raven, band G6+, 12 weeks, about 20 minutes a day, Saturday "Bench Day". Weeks: matter and atoms, states of matter, heat and changing state, density, mixtures and solutions, molecules, physical or chemical change, conservation of mass, acids and bases with a cabbage indicator, reactions that give or take energy, natural to synthetic materials, design project. Kitchen materials only, never cleaners; nothing tasted; a grown-up handles heat and cutting; safety glasses on fizzing weeks. Every fact from NIST, PubChem, USGS, NASA, EIA, FDA or a university page in SOURCES.md. Chris can switch the pick on the decision card in the thread.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11: 12 weeks, 72 days at 15 to 22 minutes, SOURCES.md complete; course at learn.lanternlearn.com/courses/matter-lab-g6-8, listed on lanternlearn.com and rocketandraven.com.
+- **Links:** rocket-and-raven-press #98, lanternlearn-site #40, rocketandraven-site #43, lantern-ui #91. Related: D145, D200, D202.
+
+### D202: Grades 6 to 8 and 9 to 12 bands on the course platform
+- **Question:** The platform's grade band model stops at Grade 5 (K, G1 to G5, all-ages, adult), so Weather Lab, AI Explorers 6 to 8, Intro to Computer Science, Data and Society and Matter Lab are labeled "All ages" on course cards and in the catalog filter (raised by Codex review on rocket-and-raven-press #96). Add real middle and high school bands?
+- **Options:** Add both bands, G6-8 and G9-12, to the course label, the /courses grade filter and the kid profile grade picker (recommended) / add G6-8 only / keep "All ages".
+- **Choice:** Add both bands: G6-8 and G9-12 on course cards and detail pages, in the /courses grade filter and in the kid profile grade picker. Weather Lab, AI Explorers 6 to 8 and Matter Lab move to G6-8; Intro to Computer Science and Data and Society to G9-12. Mission Commander (Grade 6 and up), Builder's Lab, Astronomy Year and Everyday Machines stay all-ages.
+- **Date:** 2026-10-10. **Decided by:** owner (decision card). **Status:** Decided.
+- **Progress:** Platform PR queued after Matter Lab (same branch).
+- **Links:** Related: D145, D200, D201.
 
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?

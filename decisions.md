@@ -1397,6 +1397,22 @@ Every entry has these fields:
 - **Progress:** Done 2026-10-11 with D210. Writers added local wrappers in week files where a helper was missing (composite solids, scale factor from two lengths, angle-angle similarity, box diagonals, sequences of moves, cone-fuls); polyGrid draws coordinates only up to 10, and transform() alt text needs shortening for figures with three or more points.
 - **Links:** rocket-and-raven-press #111. Related: D210, D209, D207, D248, D249.
 
+### D212: Fourth Grades 6 to 8 course after the math domains
+- **Question:** With Geometry and Measurement 6-8 live and every CCSS 6-8 math domain covered, which Grades 6 to 8 course does the expansion thread build next?
+- **Options:** Reading and Writing 6-8 under Rocket & Raven, extending Story Trail into middle-school English language arts (CCSS RL, RI, W and L for Grades 6 to 8: evidence, theme, plot and character, word choice, point of view, informational texts, arguments, and narrative, explanatory and argument writing with revision), the one core subject the middle-school catalog still lacks (recommended) / Civics and Government 6-8 under Rocket & Raven (C3 Framework research first) / A second middle-school coding course (Code Crew 6-8, D220) / Pause Grades 6-8 and build the next high-school course.
+- **Choice:** Reading and Writing Grades 6 to 8, `reading-writing-g6-8`, series `reading-writing`, subject reading, Rocket & Raven, band G6+, grade band G6-8 (D202), 12 weeks, about 20 minutes a day, Saturday "Press Day". Weeks: Evidence Hunters; Theme and Central Idea; Plot and Character; Word Choice and Tone; Structure and Point of View; Narrative Writing; Informational Texts; Explanatory Writing; Tracing Arguments; Argument Writing; Comparing Texts and Poems; Revise, Edit and Press Day. Running thread: The Signal, the crew's neighborhood paper, run from the Signal Desk on the porch; every week's reading teaches a skill the week's writing needs; the student keeps a Signal notebook. The decision was sent to the project chat; a different tap switches the course.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Scaffold, pictures and plan pushed (rocket-and-raven-press #112); weeks in progress.
+- **Links:** rocket-and-raven-press #112. Related: D145, D202, D210, D213, D245, D246.
+
+### D213: Reading and Writing method, scope and fact policy
+- **Question:** How the middle-school English language arts course is built.
+- **Options:** None offered (Claude default).
+- **Choice:** Reading days follow the WWC guide "Improving Adolescent Literacy" (explicit vocabulary, explicit comprehension strategy instruction, discussion of text meaning, engagement) and writing days follow the WWC guide "Teaching Secondary Students to Write Effectively" (Model, Practice, Reflect; writing tied to reading; a checklist for feedback). Every weekday: crew story, Learn it with a modeled example, a new 150 to 300 word passage in a Read it callout, 2 to 4 checked blocks whose retry lines point back at the text (choose, true/false, sequence, short typed answers the passage contains), a Signal notebook journal, Wednesday Writing Lab with a checklist, Friday review, Saturday Press Day with a family partner activity. Scope: parent codes only from CCSS RL, RI, W and L, Grades 6 to 8. Fact policy as Story Trail (D246): original crew fiction and made-up-world Signal nonfiction; the only outside texts are two public-domain poems (Frost, "The Road Not Taken", Gutenberg #29345; Dickinson, "'Hope' is the thing with feathers", Gutenberg #12242), quoted exactly. No money words, nothing eaten, no dashes used or taught anywhere.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Plan and sources header in rocket-and-raven-press #112.
+- **Links:** rocket-and-raven-press #112. Related: D212, D245, D246.
+
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?
 - **Options:** None offered (Claude default). Alternatives: build an unplugged CSTA Level 2 course alongside it.

@@ -1445,6 +1445,22 @@ Every entry has these fields:
 - **Progress:** Applied in all twelve weeks; check-weeks reports 0 rule errors and 0 short days; build passed CI.
 - **Links:** rocket-and-raven-press #114 (merged). Related: D216, D211, D215, D249.
 
+### D218: Third high-school math course
+- **Question:** With Geometry 9-12 live, which course does the expansion thread build next?
+- **Options:** Algebra 2 Grades 9 to 12 under Rocket & Raven with the high-school crew, finishing the high-school algebra sequence and reusing the algebra, quadratic and geometry helpers (recommended) / Biology 9-12 under Rocket & Raven (NGSS HS-LS, a fact-sourcing pass first) / Civics and Government 6-8 under Rocket & Raven (C3 Framework and public-domain documents, a sourcing pass first) / Pause and wait for direction.
+- **Choice:** Algebra 2 Grades 9 to 12, `algebra-2-g9-12`, series `algebra-2`, subject math, Rocket & Raven, band G6+, grade band G9-12 (D202), 12 weeks, about 20 minutes a day, Saturday "Garden Day", cast Comet, Wren and Nova (D225). Weeks: Complex Numbers and the Arc That Never Lands; Polynomial Functions; Dividing Polynomials; Rational Expressions and Equations; Radicals and Inverse Functions; Exponential Functions and Geometric Series; Logarithms; The Function Toolkit; Trigonometry on the Unit Circle; Periodic Models; Probability in the Seed Trays; Seedling Heights and the Open House. Running thread: the Glass House, the empty greenhouse behind the community center that the crew restores for a spring Open House; every week's algebra makes a piece of the greenhouse work; the student keeps a Glass House Log. The decision was sent to the project chat; a different tap switches the course.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Scaffold, helpers and art pushed (press #115); weeks 1 to 12 being written; site entries drafted.
+- **Links:** rocket-and-raven-press #115, lanternlearn-site #55, rocketandraven-site #54. Related: D145, D202, D214, D216, D219, D225.
+
+### D219: Algebra 2 method, scope and fact policy
+- **Question:** How the third high-school math course is built.
+- **Options:** None offered (Claude default).
+- **Choice:** Method from the WWC algebra practice guide (solved problems to study, the structure of expressions, comparing solution strategies) with Monday worked examples. Scope: parent codes only from CCSS N-CN, N-RN, A-SSE, A-APR, A-CED, A-REI, F-IF, F-BF, F-LE, F-TF, S-CP, S-ID and S-IC, no (+) codes, no `.a` sub-codes; Algebra 1 9-12 (D214) and Geometry 9-12 (D216) are the feeders and each prerequisite is reviewed in a worked example. Every number question and picture comes from the math helpers (mathviz, mathviz68, mathvizalg, mathvizquad, mathvizhsgeo and the new mathvizalg2: complex arithmetic and complex roots, polynomial division, remainder and factor theorems, identities, rational expressions and extraneous solutions, radical equations, inverses, exponential and logarithm solving, geometric series, composition and transformations, unit-circle values as exact fractions and surds, sinusoid parameters, two-way tables with conditional probability as fractions, mean and standard deviation, the normal model and dot-plot simulations). Fact policy: no facts about the world, every data set the crew's own made-up Glass House log (no real cooling law, growth rate, population, sunrise time or interest rate), no money words, nothing eaten. A grown-up is present for ladders and hot water. No dashes.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Helpers smoke-tested; applied by the writers in all twelve weeks.
+- **Links:** rocket-and-raven-press #115. Related: D218, D215, D217, D249.
+
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?
 - **Options:** None offered (Claude default). Alternatives: build an unplugged CSTA Level 2 course alongside it.

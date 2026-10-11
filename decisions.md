@@ -1353,17 +1353,17 @@ Every entry has these fields:
 - **Question:** With all five Grades 6 to 8 science courses live, which course does the expansion thread build next?
 - **Options:** Ratios and Data 6-8, extending Number Trail K-5 into middle-school math (ratios, rates, percents, dividing fractions, decimals, negative numbers, proportional relationships, statistics, probability), CCSS 6-8 codes checked on thecorestandards.org (recommended; the catalog has no math above grade 5, same no-purchase format, Number Trail's computed-answer helpers already exist) / Reading and Writing 6-8, extending Story Trail into middle-school ELA (standards research first) / Civics and Government 6-8 under Rocket & Raven (C3 Framework research first) / Pause Grades 6-8 and build the next high-school course.
 - **Choice:** Ratios and Data Grades 6 to 8, `ratios-data-g6-8`, series `ratios-data`, subject math, Rocket & Raven, band G6+, grade band G6-8 (D202), 12 weeks, about 20 minutes a day, Saturday "Data Day". Weeks: ratios; rates and speed; percents; dividing fractions; decimals, factors and multiples; below zero; adding and subtracting signed numbers; multiplying and dividing signed numbers; proportional relationships (with a first look at scatter plots, 8.SP.A.1); statistical questions and plots; center and spread; probability and the Data Fair. Running thread: the Numbers Desk at the kitchen table, planning a Field Day for younger kids. Gear a family already has: two colors of counters, paper strips, masking tape, a tape measure, a timer, a paper plate and a paper clip. No money anywhere (MONEY_RE): rates are speeds, recipes, plant growth, temperatures and game points. The decision card is in the project chat; a different tap switches the course.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** In progress 2026-10-11: plan, codes, art, registration and the Grades 6 to 8 math helpers done, weeks being written.
-- **Links:** Related: D145, D202, D205, D247 to D249, D251.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11 on learn.lanternlearn.com/courses/ratios-data-g6-8, lanternlearn.com/courses/ratios-data-g6-8/ and rocketandraven.com/series/ratios-data/. Twelve weeks, every answer computed in code, CCSS 6.RP, 6.NS, 6.SP, 7.RP, 7.NS, 7.SP and 8.SP.A.1 quoted in SOURCES.md.
+- **Links:** rocket-and-raven-press #109, lanternlearn-site #49, rocketandraven-site #49, lantern-ui #102. Related: D145, D202, D205, D207, D247 to D249, D251.
 
 ### D207: Ratios and Data method, scope and computed answers
 - **Question:** How the first middle-school math course is built.
 - **Options:** None offered (Claude default).
 - **Choice:** Same method as Number Trail (D248, D249): systematic, concrete-then-picture-then-number, number lines, word problems, no timed drills; every answer computed by `scripts/course-gen/mathviz.mjs` and the new `scripts/course-gen/mathviz68.mjs` (ratio tables, tape diagrams, double number lines, hundred grids, signed number lines, four-quadrant planes, dot plots, histograms, box plots, scatter plots, proportional graphs, spinners; unit-rate, percent, statistics and probability questions). `calcQ` and the build's number-sentence check now read negative numbers. Scope: CCSS 6.RP, 6.NS, 6.SP, 7.RP, 7.NS, 7.SP and 8.SP.A.1 (parent codes only); 6.EE, 7.EE, 7.G, 8.EE, 8.F and 8.G are left for a later Expressions and Equations course. Quartiles are the medians of the lower and upper halves, the median left out when the count is odd.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Helpers built and tested 2026-10-11.
-- **Links:** Related: D206, D248, D249.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Used by all twelve weeks of Ratios and Data 6-8, live 2026-10-11.
+- **Links:** rocket-and-raven-press #109. Related: D206, D248, D249.
 
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?

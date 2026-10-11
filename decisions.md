@@ -1715,3 +1715,18 @@ Every entry has these fields:
 - **Date:** 2026-10-11. **Decided by:** owner (tapped Keep it on the card, 15:35 UTC). **Status:** Done.
 - **Progress:** Live on learn.lanternlearn.com, lanternlearn.com and foxandfernbooks.com 2026-10-11.
 - **Links:** rocket-and-raven-press, lanternlearn-site, foxandfernbooks-site (rocket-and-raven-press #119, lanternlearn-site #59, foxandfernbooks-site #21, lantern-ui #112, all merged). Related: D122, D139, D147, D202.
+
+### D301: How to bring Human Atlas into Body Lab
+- **Question:** Chris asked whether Human Atlas (github.com/ashemag/human-atlas, a 3D anatomy viewer) can be embedded in the Body Lab courses. Iframe the public demo, vendor the whole app, or port a kid-safe part of it?
+- **Options:** Iframe the public demo (third-party host, full adult model including genitals, 33 MB download, can change anytime); vendor the full app (same content and size problems, React 19 app with its own build); port a small, self-hosted viewer with a whitelisted set of structures per lesson.
+- **Choice:** Port. A self-hosted viewer at learn.lanternlearn.com/body-atlas/ (three.js, no third-party requests) loads a per-lesson model built from a whitelist; reproductive anatomy, skin and hair are blocked in the build script. First model: digestion (2.4 MB). New `model3d` lesson block.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Proof of concept in Body Lab 3-5, week 6 Thursday, in a draft PR. Licenses: app code MIT, geometry BodyParts3D CC BY 4.0 (credited in the viewer and public/body-atlas/ATTRIBUTION.md). The source has no lung or whole-liver meshes, so lungs (week 5) cannot use it.
+- **Links:** rocket-and-raven-press #121.
+
+### D302: Ship the 3D body model in Body Lab?
+- **Question:** Merge the D301 proof of concept (one 3D model in Body Lab 3-5 week 6 Thursday) now, or wait until after launch?
+- **Options:** Ship in one lesson now, more models after launch (Recommended); hold the PR until after launch; drop it.
+- **Choice:** Ship now (Chris, card tap and "Merge" in the thread, 2026-10-11).
+- **Date:** 2026-10-11. **Decided by:** owner. **Status:** Done.
+- **Links:** rocket-and-raven-press #121.

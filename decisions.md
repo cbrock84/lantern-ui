@@ -1322,9 +1322,9 @@ Every entry has these fields:
 - **Question:** The platform's grade band model stops at Grade 5 (K, G1 to G5, all-ages, adult), so Weather Lab, AI Explorers 6 to 8, Intro to Computer Science, Data and Society and Matter Lab are labeled "All ages" on course cards and in the catalog filter (raised by Codex review on rocket-and-raven-press #96). Add real middle and high school bands?
 - **Options:** Add both bands, G6-8 and G9-12, to the course label, the /courses grade filter and the kid profile grade picker (recommended) / add G6-8 only / keep "All ages".
 - **Choice:** Add both bands: G6-8 and G9-12 on course cards and detail pages, in the /courses grade filter and in the kid profile grade picker. Weather Lab, AI Explorers 6 to 8 and Matter Lab move to G6-8; Intro to Computer Science and Data and Society to G9-12. Mission Commander (Grade 6 and up), Builder's Lab, Astronomy Year and Everyday Machines stay all-ages.
-- **Date:** 2026-10-10. **Decided by:** owner (decision card). **Status:** Decided.
-- **Progress:** In review 2026-10-11: rocket-and-raven-press #102 and lanternlearn-site #44 (drafts, merge when green).
-- **Links:** Related: D145, D200, D201.
+- **Date:** 2026-10-10. **Decided by:** owner (decision card). **Status:** Done.
+- **Progress:** Done 2026-10-11: rocket-and-raven-press #102 and lanternlearn-site #44 merged. Weather Lab, AI Explorers 6-8 and Matter Lab are G6-8; Intro CS, Data and Society and AI and You are G9-12.
+- **Links:** rocket-and-raven-press #102, lanternlearn-site #44. Related: D145, D200, D201.
 
 ### D203: Third Grades 6 to 8 science course
 - **Question:** With Weather Lab (earth science) and Matter Lab (chemistry) live, which middle-school science course comes next?

@@ -1429,6 +1429,22 @@ Every entry has these fields:
 - **Progress:** Applied across all 12 weeks; the course build's week checks pass (sources, standards codes, minutes, reading band).
 - **Links:** rocket-and-raven-press #113, lantern-ui #106. Related: D214, D209, D249.
 
+### D216: Second high-school math course
+- **Question:** With Algebra 1 9-12 live, which course does the expansion thread build next?
+- **Options:** Geometry Grades 9 to 12 under Rocket & Raven with the high-school crew, covering the Common Core high-school geometry standards and reusing the geometry and algebra helpers (recommended) / Biology 9-12 under Rocket & Raven (NGSS HS-LS, a fact-sourcing pass first) / Civics and Government 6-8 under Rocket & Raven (C3 Framework and public-domain documents, a sourcing pass first) / Pause and wait for direction.
+- **Choice:** Geometry Grades 9 to 12, `geometry-g9-12`, series `geometry`, subject math, Rocket & Raven, band G6+, grade band G9-12 (D202), 12 weeks, about 20 minutes a day, Saturday "Shop Day", cast Comet, Wren and Nova (D225). Weeks: Points, Lines and the Chalk Grid; Rigid Motions and Symmetry; Congruence from Rigid Motions; Proofs about Lines, Angles, Triangles and Parallelograms; Dilations and Similarity; Similar Triangles and Proof; Right Triangles and Trigonometry; Circles; Coordinates: Lines, Segments and Figures; Equations of Circles and Parabolas; Volume: Where the Formulas Come From; Modeling the Set and Opening Night. Running thread: the Scene Shop behind the neighborhood theater, where the crew builds the set for the spring show; every week's geometry makes a piece of the set work; the student keeps a Shop Book. The decision was sent to the project chat; a different tap switches the course.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11. Twelve weeks, 72 days at 18 to 21 minutes, every number answer computed by the helpers, per-week sources merged into SOURCES.md. Course page https://lanternlearn.com/courses/geometry-g9-12, learner app https://learn.lanternlearn.com/courses/geometry-g9-12.
+- **Links:** rocket-and-raven-press #114 (merged), lanternlearn-site #54, rocketandraven-site #54, lantern-ui #107. Related: D145, D202, D210, D214, D217, D225.
+
+### D217: Geometry method, scope and fact policy
+- **Question:** How the second high-school math course is built.
+- **Options:** None offered (Claude default).
+- **Choice:** Method from the standards' own high-school Geometry introduction: congruence defined by rigid motions and similarity by rigid motions plus dilations, the triangle criteria established from rigid motions and then used in proofs, trigonometry built on similarity, coordinates connecting algebra and geometry; Monday worked examples and proofs read before they are completed (the WWC solved-problem practice). Scope: parent codes only from CCSS G-CO, G-SRT, G-C, G-GPE, G-GMD and G-MG, no (+) codes. Every number question and picture comes from the math helpers (mathviz, mathviz68, mathvizgeo, mathvizalg, mathvizquad and the new mathvizhsgeo: coordinate geometry, general reflections and rotations, dilations about a center, polygon angles, congruence criteria, right-triangle trigonometry, arcs, sectors, radians, circle and parabola equations, volumes, and labeled pictures including constructions). Proof questions are choose, order and one-word fill. Pi is 3.14; roots and trig values are decimals. Fact policy: no facts about the world, no named buildings or distances, no money words, every data set the crew's own made-up Scene Shop data. Ladders are held by a grown-up; cutting is scissors on cardboard. No dashes.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Applied in all twelve weeks; check-weeks reports 0 rule errors and 0 short days; build passed CI.
+- **Links:** rocket-and-raven-press #114 (merged). Related: D216, D211, D215, D249.
+
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?
 - **Options:** None offered (Claude default). Alternatives: build an unplugged CSTA Level 2 course alongside it.

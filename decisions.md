@@ -1395,16 +1395,16 @@ Every entry has these fields:
 - **Question:** How the Grades 11 to 12 Python course that bridges Code Crew: Mission Commander to AP Computer Science A readiness is built.
 - **Options:** None offered (Claude default).
 - **Choice:** One Rocket & Raven course in the Code Crew series, Mission Commander rank: Python Programming Grades 11 to 12 (`python-g11-12`, G6+ reading level), 12 weeks, about 30-minute sessions (10+ minutes enforced), Wednesday Sim Lab, Trace Friday and a Saturday Mission Quest. Real Python 3 in IDLE, standard library only. Running thread: FieldSim, a made-up rover simulator on a grid test field, built up across the weeks with classes, encapsulation, has-a objects, 2D grids, tests, inheritance, searching, sorting and recursion. Weeks 11 and 12 show the same programs in Java to read and trace (no Java install). Every Python and Java program on a page is run by the course's `check-code.mjs` before publishing, and every output shown comes from that run. CSTA 2017 Level 3A and 3B Algorithms and Programming codes. Wording: "prepares for the ideas in AP Computer Science A"; course pages add that it is not an AP course and not affiliated with College Board (D177 style). Facts about Python, Java, CSTA and AP CSA come from the course SOURCES.md (CSTA, the AP CSA Course and Exam Description effective Fall 2025, docs.python.org, Oracle Java Tutorials). High-School Crew cast (D225).
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Building.
-- **Links:** rocket-and-raven-press #103 (scripts/course-gen/courses/python-g11-12). Related: D177, D225, D231 to D235.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11 at learn.lanternlearn.com/courses/python-g11-12; Grades 9 to 12 band (D202). Listed on lanternlearn.com and rocketandraven.com.
+- **Links:** rocket-and-raven-press #103, #105 (scripts/course-gen/courses/python-g11-12); lanternlearn-site #46; rocketandraven-site #46. Related: D177, D225, D231 to D235.
 
 ### D231: Inheritance week in Python 11-12
 - **Question:** The 2025 AP CSA course description puts designing and writing inheritance outside the course and exam. Keep an inheritance week?
 - **Options:** Keep it, labelled as going beyond AP CSA (recommended) / Replace it with AP CSA core material (list algorithms, text data sets).
 - **Choice:** Keep week 7 on inheritance and polymorphism, labelled as going beyond AP CSA.
-- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Decided.
-- **Progress:** Building.
+- **Date:** 2026-10-10. **Decided by:** owner. **Status:** Done.
+- **Progress:** Live in week 7 (press #103).
 - **Links:** Related: D230.
 
 ### D232: Where Python 11-12 lessons name AP Computer Science A
@@ -1418,21 +1418,21 @@ Every entry has these fields:
 - **Question:** The AP CSA course description leaves writing recursive code out of scope. Should learners write it?
 - **Options:** None offered (Claude default).
 - **Choice:** Yes. Week 10 has learners write small recursive functions; Trace Friday stays on reading and tracing recursion, which the course description does cover.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** Related: D230.
 
 ### D234: Testing style in Python 11-12
 - **Question:** How the course tests code.
 - **Options:** None offered (Claude default). Alternative: the `unittest` module.
 - **Choice:** Plain `assert` test files, as in Code Crew: Mission Commander, so the tests read like the earlier course.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** Related: D230.
 
 ### D235: A program checker for Python 11-12
 - **Question:** How to make sure every program and output on a page is real.
 - **Options:** None offered (Claude default).
 - **Choice:** The course adds `check-code.mjs` and a `java()` helper: it runs every recorded Python program with python3 and compiles and runs every Java program with javac and java, and fails on any difference from the page. Code Crew: Mission Commander records programs the same way but the repo had no runner.
-- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** Related: D230.
 
 ### D240: Name of the Fox & Fern phonics courses

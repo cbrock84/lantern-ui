@@ -1322,9 +1322,17 @@ Every entry has these fields:
 - **Question:** The platform's grade band model stops at Grade 5 (K, G1 to G5, all-ages, adult), so Weather Lab, AI Explorers 6 to 8, Intro to Computer Science, Data and Society and Matter Lab are labeled "All ages" on course cards and in the catalog filter (raised by Codex review on rocket-and-raven-press #96). Add real middle and high school bands?
 - **Options:** Add both bands, G6-8 and G9-12, to the course label, the /courses grade filter and the kid profile grade picker (recommended) / add G6-8 only / keep "All ages".
 - **Choice:** Add both bands: G6-8 and G9-12 on course cards and detail pages, in the /courses grade filter and in the kid profile grade picker. Weather Lab, AI Explorers 6 to 8 and Matter Lab move to G6-8; Intro to Computer Science and Data and Society to G9-12. Mission Commander (Grade 6 and up), Builder's Lab, Astronomy Year and Everyday Machines stay all-ages.
-- **Date:** 2026-10-10. **Decided by:** owner (decision card). **Status:** Decided.
-- **Progress:** Platform PR queued after Matter Lab (same branch).
-- **Links:** Related: D145, D200, D201.
+- **Date:** 2026-10-10. **Decided by:** owner (decision card). **Status:** Done.
+- **Progress:** Done 2026-10-11: rocket-and-raven-press #102 and lanternlearn-site #44 merged. Weather Lab, AI Explorers 6-8 and Matter Lab are G6-8; Intro CS, Data and Society and AI and You are G9-12.
+- **Links:** rocket-and-raven-press #102, lanternlearn-site #44. Related: D145, D200, D201.
+
+### D203: Third Grades 6 to 8 science course
+- **Question:** With Weather Lab (earth science) and Matter Lab (chemistry) live, which middle-school science course comes next?
+- **Options:** Sports Physics, forces, motion and energy measured with sports gear, MS-PS2 and MS-PS3 (recommended; completes the physical-science pair, codes verified on nextgenscience.org, same no-purchase format) / Cells and Systems, life science, MS-LS1 (needs the MS-LS codes added to the build's allow-list and more careful sourcing) / Earth and Space, MS-ESS1 and MS-ESS2, with night-sky observation / Pause the lane and take the next roadmap gap.
+- **Choice:** Sports Physics Grades 6 to 8, `sports-physics-g6-8`, series `sports-physics`, Rocket & Raven, band G6+, grade band G6-8 (D202), 12 weeks, about 20 minutes a day, Saturday "Game Day". Weeks: measuring motion, balanced and unbalanced forces, mass and motion, gravity, friction and air, kinetic energy, potential energy, bounce and energy transfer, action and reaction, magnets and static (fields), throws and arcs, a landing-pad design project. Gear a family already has: a soft ball, a tape measure, a timer, masking tape, a cardboard ramp, a rubber band, a fridge magnet. Soft balls only, nothing thrown at a person, drops from standing height. Every fact from NASA, NIST or a university page in SOURCES.md. MS-PS2-1 to MS-PS2-5 added to the course-gen allow-list after checking the nextgenscience.org DCI page. Chris can switch the pick on the decision card in the project chat.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-11 on learn.lanternlearn.com/courses/sports-physics-g6-8, lanternlearn.com/courses/sports-physics-g6-8/ and rocketandraven.com/series/sports-physics/. 72 days at 17 to 20 minutes, every fact traced in SOURCES.md.
+- **Links:** rocket-and-raven-press #104, lanternlearn-site #45, rocketandraven-site #45, lantern-ui #96. Related: D145, D200, D201, D202.
 
 ### D220: A separate Code Crew Grades 6 to 8 coding course
 - **Question:** Should a new Code Crew Grades 6 to 8 coding course fill the middle-school coding lane?

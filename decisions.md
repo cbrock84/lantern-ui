@@ -1690,3 +1690,10 @@ Every entry has these fields:
 - **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Applied in all twelve weeks; per-week CCSS quotes and "Left out" notes are in the course's SOURCES.md. One deviation from PLAN.md: the standard deviation procedure is week 1 Thursday's derivation and the median-resists-an-outlier proof moved to week 2 Thursday.
 - **Links:** rocket-and-raven-press #117 (merged). Related: D282, D281, D219, D249.
+
+### D300: Launch home pages: free, K-12, find-your-grade chips
+- **Question:** The launch priority (Chris, 2026-10-11) is getting families in. The learn.lanternlearn.com home page headline and description didn't say free and described only kindergarten; How it works said weeks unlock one at a time; lanternlearn.com said 15+ courses for K to Grade 6+; foxandfernbooks.com still described a workbook publisher. How should the home pages present the catalog?
+- **Options:** None offered (Claude default).
+- **Choice:** Say "free" and "kindergarten through high school" in every home page title, description and hero; use the round "60+ courses" (D147); describe Fox & Fern as free phonics, reading, math and life-skills courses for pre-K to Grade 5; say every week is open from day one (D139); add a "Find your kid's grade" chip row (K, 1 to 5, 6-8, 9-12, Adults) under the learn home hero linking to the catalog's grade filter. The D122 featured row is unchanged.
+- **Date:** 2026-10-11. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press, lanternlearn-site, foxandfernbooks-site (branch claude/project-thread-syqpj8). Related: D122, D139, D147, D202.

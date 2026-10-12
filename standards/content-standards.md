@@ -106,6 +106,8 @@ Short stories are read one screen at a time:
   4. Established education organizations.
 
   Commercial blogs and content farms are not sources.
+- **Foundation list:** `standards/sources.json` lists the sources every
+  course is based on, by grade and subject. Content must trace to it.
 - **Source catalog:** `standards/source-catalog.md` lists outside sites we
   have checked, their licenses, and whether we may reuse, cite or only link
   them. Check it first; add new sites there after reading their license page.

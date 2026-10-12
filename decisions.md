@@ -26,7 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D307 | Adapt NonCommercial (NC) licensed material in our free courses? | Link only until a licensor confirms in writing (recommended); treat our free, ad-free courses as noncommercial and adapt; never use NC material | See `standards/source-catalog.md` |
 
 ## Log
 
@@ -1765,6 +1764,6 @@ Every entry has these fields:
 ### D307: Adapting NonCommercial-licensed material
 - **Question:** Code.org (now CodeAI) curriculum, Exploratorium Science Snacks, PhET sims published since 2026-03-29 and some Common Sense Media items are licensed NonCommercial (NC), several also ShareAlike (SA). Our courses are free and ad-free but run by Chris Brock LLC. Do we adapt NC material?
 - **Options:** Link only until a licensor confirms in writing (recommended); treat our free, ad-free courses as noncommercial and adapt, with SA material in marked blocks; never use NC material.
-- **Choice:** Not yet decided. Until then, NC material is link only (Claude default).
-- **Date:** 2026-10-12. **Decided by:** waiting on owner. **Status:** Open.
+- **Choice:** Treat our free, ad-free courses as noncommercial and adapt NC material now, with the credit each license asks for. ShareAlike material goes in a clearly marked block carrying the same license. NoDerivatives (ND) material stays link only.
+- **Date:** 2026-10-12. **Decided by:** owner (card tap, 20:10 UTC). **Status:** Done.
 - **Links:** standards/source-catalog.md. Related: D306.

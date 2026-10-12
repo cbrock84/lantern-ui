@@ -1743,5 +1743,5 @@ Every entry has these fields:
 - **Question:** Chris asked for parents to rename, delete and edit kid profiles (2026-10-12). Rename, grade and region already existed; the Remove button pointed at an endpoint that didn't exist. Should removal be immediate or recoverable?
 - **Options:** Remove immediately after a confirm prompt, deleting the profile's progress and saved work (recommended); keep it 30 days like account deletion; hide it and keep the data.
 - **Choice:** Remove immediately after the confirm prompt. Also: avatar can be changed, the dashboard links to each profile, and the profile page lists courses the kid started.
-- **Date:** 2026-10-12. **Decided by:** Claude (default). **Status:** Done. **Progress:** live on learn.lanternlearn.com 2026-10-12.
+- **Date:** 2026-10-12. **Decided by:** Chris (card, 16:31 UTC; confirmed the Claude default). **Status:** Done. **Progress:** live on learn.lanternlearn.com 2026-10-12.
 - **Links:** rocket-and-raven-press #123 (src/pages/api/kids/delete.ts, src/pages/kids/[id].astro). Related: D304.

@@ -24,6 +24,25 @@ decision log (`decisions.md`), the roadmap (`roadmap.md`), content standards
 6. Keep the "Open" section of `decisions.md` current: anything waiting on the
    owner is listed there with its D number until it is answered.
 
+## Sources: the foundation list
+
+`standards/sources.json` is Lantern Learn's foundation source list (Chris's
+original from June 2026 is kept verbatim in `standards/sources-v1-2026-06.json`).
+
+- Base every course fact, standards code and activity on a source listed in
+  `standards/sources.json` under the course's `{grade_id}_{subject_slug}` key.
+- If a needed source is missing, add it to `sources.json` (and to the course's
+  `SOURCES.md`) in the same change, after opening the page. Prefer standards
+  bodies, then government and museums, then universities, then education
+  organizations.
+- Copy or adapt outside material only when its `_open_resources` entry says
+  `reuse`, with the credit its license asks for (D307 covers NonCommercial).
+- `_courses` maps every live course to its keys and flags courses whose content
+  is not yet traced to a listed source. Clear a flag before adding content to
+  that course.
+- Rebuild after course or catalog changes:
+  `python3 scripts/build_sources.py ../rocket-and-raven-press`.
+
 ## Content
 
 - Anything written for children follows `standards/content-standards.md` and

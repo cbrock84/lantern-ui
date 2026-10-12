@@ -70,16 +70,28 @@ def course_subjects(slug, meta):
 # Publisher kinds, in content-standards section 4 priority order.
 STANDARDS_HOSTS = {'thecorestandards.org', 'corestandards.org', 'nextgenscience.org', 'csteachers.org',
                    'apcentral.collegeboard.org', 'ai4k12.org', 'naeyc.org', 'socialstudies.org', 'nctm.org',
-                   'nsta.org', 'shapeamerica.org', 'eclkc.ohs.acf.hhs.gov', 'nationalacademies.org'}
+                   'nsta.org', 'shapeamerica.org', 'eclkc.ohs.acf.hhs.gov', 'nationalacademies.org',
+                   # Technical standards and specification bodies (Code Crew, Inside the Machine).
+                   'w3.org', 'whatwg.org', 'unicode.org', 'rfc-editor.org', 'icann.org', 'usb.org', 'json.org',
+                   'ecma-international.org'}
 MUSEUM_HOSTS = ('si.edu', 'exploratorium.edu', 'metmuseum.org', 'nybg.org', 'fi.edu', 'cmog.org', 'cdm.org',
                 'kohlchildrensmuseum.org', 'lawrencehallofscience.org', 'missouribotanicalgarden.org',
-                'samnoblemuseum.ou.edu', 'loc.gov', 'invent.org', 'rhs.org.uk', 'ncsm.city.nagoya.jp')
+                'samnoblemuseum.ou.edu', 'loc.gov', 'invent.org', 'rhs.org.uk', 'ncsm.city.nagoya.jp',
+                'heronswoodgarden.org')
 EDU_ORG_HOSTS = ('openstax.org', 'libretexts.org', 'kidshealth.org', 'gutenberg.org', 'python.org', 'docs.oracle.com',
                  'teachengineering.org', 'sciencelearn.org.nz', 'acs.org', 'asme.org', 'ncert.nic.in', 'nationalmaglab.org',
                  'stardate.org', 'healthychildren.org', 'literacyworldwide.org', 'readingrockets.org', 'icivics.org',
                  'education.nationalgeographic.org', 'iowapbs.org', 'noirlab.edu', 'storyweaver.org.in',
                  'musictheory.net', 'lichess.org', 'phet.colorado.edu', 'ipm.org', 'discovere.org', 'sfi.ie',
-                 'itu.int', 'mgnv.org', 'cs.gordon.edu', 'aao.org', 'nm.org', 'peepandthebigwideworld.com', 'tildesites.geneseo.edu', 'learn.genetics.utah.edu')
+                 'itu.int', 'mgnv.org', 'cs.gordon.edu', 'aao.org', 'nm.org', 'peepandthebigwideworld.com', 'tildesites.geneseo.edu', 'learn.genetics.utah.edu',
+                 'safekids.org', 'audubon.org', 'ncwit.org')
+# Hosts judged by hand (2026-10-12 source audits) that the suffix rules miss.
+HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornithology project
+              'uwaterloo.atlassian.net': 'university',  # University of Waterloo course wiki
+              'gbif.org': 'government',                 # Global Biodiversity Information Facility, intergovernmental
+              'patents.google.com': 'government'}       # mirror of USPTO patent records
+# Official project sources hosted on GitHub.
+URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 
 def host(url):
     h = urlparse(url).netloc.lower().split(':')[0]
@@ -87,6 +99,12 @@ def host(url):
 
 def kind(url):
     h = host(url)
+    for p, k in URL_PREFIX_KINDS.items():
+        if url.startswith(p):
+            return k
+    for m, k in HOST_KINDS.items():
+        if h == m or h.endswith('.' + m):
+            return k
     if h in STANDARDS_HOSTS or any(h.endswith('.' + s) for s in STANDARDS_HOSTS):
         return 'standards_body'
     if re.search(r'(\.gov|\.mil|\.gov\.[a-z]+|\.int)$', h) or h.endswith('.nic.in'):

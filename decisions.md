@@ -1735,5 +1735,13 @@ Every entry has these fields:
 - **Question:** Chris signed in and finished an exercise, but nothing saved (2026-10-12). Saving needs a selected kid profile (the `rr_active_kid` cookie). A parent signing in on a new device, or one who never made a profile, had none, so the lesson treated them as a guest and told them to sign in. What should happen?
 - **Options:** Use the parent's first profile, or make a default "Learner" profile when they have none, and save (recommended); make the parent create a profile before any lesson saves; keep guest behavior.
 - **Choice:** Use the first profile, or create "Learner" (renamable from the dashboard) on the first graded or autosaved work. Sign-in also points the cookie at the account's first profile, or clears a cookie left by another account. Just opening a lesson creates nothing. The guest "sign in" link now returns to the lesson.
-- **Date:** 2026-10-12. **Decided by:** owner (tapped Auto profile on the card, 15:17 UTC). **Status:** Decided.
+- **Date:** 2026-10-12. **Decided by:** owner (tapped Auto profile on the card, 15:17 UTC). **Status:** Done.
+- **Progress:** Live 2026-10-12 (rocket-and-raven-press #122 merged).
 - **Links:** rocket-and-raven-press #122 (src/lib/kidAuth.ts, api/grade.ts, api/save.ts, api/auth/verify.ts).
+
+### D305: How removing a kid profile works
+- **Question:** Chris asked for parents to rename, delete and edit kid profiles (2026-10-12). Rename, grade and region already existed; the Remove button pointed at an endpoint that didn't exist. Should removal be immediate or recoverable?
+- **Options:** Remove immediately after a confirm prompt, deleting the profile's progress and saved work (recommended); keep it 30 days like account deletion; hide it and keep the data.
+- **Choice:** Remove immediately after the confirm prompt. Also: avatar can be changed, the dashboard links to each profile, and the profile page lists courses the kid started.
+- **Date:** 2026-10-12. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press (src/pages/api/kids/delete.ts, src/pages/kids/[id].astro). Related: D304.

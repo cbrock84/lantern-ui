@@ -77,17 +77,20 @@ STANDARDS_HOSTS = {'thecorestandards.org', 'corestandards.org', 'nextgenscience.
 MUSEUM_HOSTS = ('si.edu', 'exploratorium.edu', 'metmuseum.org', 'nybg.org', 'fi.edu', 'cmog.org', 'cdm.org',
                 'kohlchildrensmuseum.org', 'lawrencehallofscience.org', 'missouribotanicalgarden.org',
                 'samnoblemuseum.ou.edu', 'loc.gov', 'invent.org', 'rhs.org.uk', 'ncsm.city.nagoya.jp',
-                'heronswoodgarden.org')
+                'heronswoodgarden.org', 'computerhistory.org', 'longwoodgardens.org',
+                'smithsonianeducation.org')
 EDU_ORG_HOSTS = ('openstax.org', 'libretexts.org', 'kidshealth.org', 'gutenberg.org', 'python.org', 'docs.oracle.com',
                  'teachengineering.org', 'sciencelearn.org.nz', 'acs.org', 'asme.org', 'ncert.nic.in', 'nationalmaglab.org',
                  'stardate.org', 'healthychildren.org', 'literacyworldwide.org', 'readingrockets.org', 'icivics.org',
                  'education.nationalgeographic.org', 'iowapbs.org', 'noirlab.edu', 'storyweaver.org.in',
                  'musictheory.net', 'lichess.org', 'phet.colorado.edu', 'ipm.org', 'discovere.org', 'sfi.ie',
                  'itu.int', 'mgnv.org', 'cs.gordon.edu', 'aao.org', 'nm.org', 'peepandthebigwideworld.com', 'tildesites.geneseo.edu', 'learn.genetics.utah.edu',
-                 'safekids.org', 'audubon.org', 'ncwit.org')
+                 'safekids.org', 'audubon.org', 'ncwit.org', 'missingkids.org',
+                 'floridamatrix.agclassroom.org', 'training.digitallearn.org')
 # Hosts judged by hand (2026-10-12 source audits) that the suffix rules miss.
 HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornithology project
               'uwaterloo.atlassian.net': 'university',  # University of Waterloo course wiki
+              'uwspace.uwaterloo.ca': 'university',     # University of Waterloo institutional repository
               'gbif.org': 'government',                 # Global Biodiversity Information Facility, intergovernmental
               'patents.google.com': 'government'}       # mirror of USPTO patent records
 # Official project sources hosted on GitHub.

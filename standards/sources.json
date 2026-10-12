@@ -504,10 +504,10 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "K.CC.B.4",
       "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
       "description": "Cited 3 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
@@ -515,6 +515,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "home-helpers-k2",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -662,15 +663,19 @@
       "url_status": null
     },
     {
-      "title": "Burrowing Owl, Lake Mead National Recreation Area",
-      "url": "https://www.nps.gov/lake/learn/nature/burrowing-owl.htm",
+      "title": "Astronomy 2e, 2.1 The Sky Above",
+      "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
       "description": "Cited 2 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": "National Park Service",
-      "kind": "government",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -797,10 +802,10 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "K.CC.B.4",
       "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
       "description": "Cited 3 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
@@ -808,6 +813,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "home-helpers-k2",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -974,15 +980,19 @@
       "url_status": null
     },
     {
-      "title": "Burrowing Owl, Lake Mead National Recreation Area",
-      "url": "https://www.nps.gov/lake/learn/nature/burrowing-owl.htm",
+      "title": "Astronomy 2e, 2.1 The Sky Above",
+      "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
       "description": "Cited 2 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": "National Park Service",
-      "kind": "government",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -1001,7 +1011,9 @@
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-k2"
+      ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
     },
@@ -1016,7 +1028,9 @@
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-k2"
+      ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
     },
@@ -1176,6 +1190,24 @@
       "url_status": null
     },
     {
+      "title": "1-LS3-1, DCI LS3.A",
+      "url": "https://www.nextgenscience.org/pe/1-ls3-1-heredity-inheritance-and-variation-traits",
+      "description": "Cited 5 time(s) in the SOURCES.md of: backyard-explorer-k2, grow-it-k2.",
+      "publisher": "NGSS",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-k2",
+        "grow-it-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CCSS ELA-Literacy, RF Grade 1",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RF/1/",
       "description": "Cited 5 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
@@ -1189,24 +1221,6 @@
       "cited_by": [
         "code-crew-g1",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "1-LS3-1, DCI LS3.A",
-      "url": "https://www.nextgenscience.org/pe/1-ls3-1-heredity-inheritance-and-variation-traits",
-      "description": "Cited 4 time(s) in the SOURCES.md of: backyard-explorer-k2, grow-it-k2.",
-      "publisher": "NGSS",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "backyard-explorer-k2",
-        "grow-it-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -1299,10 +1313,10 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "K.CC.B.4",
       "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
       "description": "Cited 3 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
@@ -1310,6 +1324,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "home-helpers-k2",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -1444,7 +1459,7 @@
     {
       "title": "CSTA K-12 Computer Science Standards, Revised 2017 (all levels, with descriptive statements)",
       "url": "https://csteachers.org/wp-content/uploads/2025/03/2017-csta-k12-computer-science-standards-al.pdf",
-      "description": "Cited 14 time(s) in the SOURCES.md of: code-crew-k.",
+      "description": "Cited 15 time(s) in the SOURCES.md of: code-crew-k.",
       "publisher": "Computer Science Teachers Association",
       "kind": "standards_body",
       "frameworks": [
@@ -1531,6 +1546,58 @@
       "url_status": null
     },
     {
+      "title": "Astronomy 2e, 2.1 The Sky Above",
+      "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
+      "description": "Cited 3 time(s) in the SOURCES.md of: code-crew-k.",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
+        "tomorrow-trail-k1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Walking Safely tips",
+      "url": "https://www.safekids.org/walkingsafelytips",
+      "description": "Cited 3 time(s) in the SOURCES.md of: code-crew-k.",
+      "publisher": "Safe Kids Worldwide",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Starting seeds indoors",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/starting-seeds-indoors",
+      "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-k.",
+      "publisher": "University of Minnesota Extension",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-k"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "MUTCD 2009, Chapter 4D",
       "url": "https://mutcd.fhwa.dot.gov/htm/2009/part4/part4d.htm",
       "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-k.",
@@ -1548,19 +1615,17 @@
       "url_status": null
     },
     {
-      "title": "Astronomy 2e, 2.1 The Sky Above",
-      "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
+      "title": "Sun Safety",
+      "url": "https://www.cdc.gov/skin-cancer/sun-safety/index.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-k.",
-      "publisher": "OpenStax, Rice University",
-      "kind": "education_org",
+      "publisher": "CDC",
+      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g1",
-        "code-crew-g2",
         "code-crew-k",
-        "earth-space-g6-8",
+        "home-helpers-k2",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -1578,24 +1643,6 @@
       "cited_by": [
         "code-crew-g1",
         "code-crew-g2",
-        "code-crew-k"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Walking Safely tips",
-      "url": "https://www.safekids.org/walkingsafelytips",
-      "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-k.",
-      "publisher": "Safe Kids Worldwide",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g1",
-        "code-crew-g2",
-        "code-crew-g3",
         "code-crew-k"
       ],
       "origin": "course SOURCES.md",
@@ -1641,10 +1688,10 @@
       "url_status": null
     },
     {
-      "title": "Starting seeds indoors",
-      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/starting-seeds-indoors",
+      "title": "Eat Like A Bird",
+      "url": "https://extension.uconn.edu/2014/03/05/eat-like-a-bird/",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-k.",
-      "publisher": "University of Minnesota Extension",
+      "publisher": "University of Connecticut Extension",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
@@ -1656,80 +1703,33 @@
       "url_status": null
     },
     {
-      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1 (January 2023)",
-      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: ai-explorers-k2.",
-      "publisher": "US National Institute of Standards and Technology",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "ai-and-you-g9-12",
-        "ai-explorers-g3-5",
-        "ai-explorers-g6-8",
-        "ai-explorers-k2",
-        "applied-ai"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, NIST AI 600-1 (July 2024)",
-      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: ai-explorers-k2.",
-      "publisher": "US National Institute of Standards and Technology",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "ai-and-you-g9-12",
-        "ai-explorers-g3-5",
-        "ai-explorers-g6-8",
-        "ai-explorers-k2",
-        "applied-ai"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "5.1 Overview of Photosynthesis, Concepts of Biology",
-      "url": "https://openstax.org/books/concepts-biology/pages/5-1-overview-of-photosynthesis",
+      "title": "Glossary: Nimbostratus",
+      "url": "https://forecast.weather.gov/glossary.php?word=Nimbostratus",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-k.",
-      "publisher": "OpenStax",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "cells-systems-g6-8",
-        "code-crew-g1",
-        "code-crew-g2",
-        "code-crew-k"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CSTA K-12 Computer Science Standards (revised 2017)",
-      "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: ai-explorers-k2.",
-      "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
+      "publisher": "NOAA National Weather Service",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "ai-explorers-g3-5",
-        "ai-explorers-g6-8",
-        "ai-explorers-k2",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5",
-        "intro-cs-g9-10"
+        "code-crew-k",
+        "tomorrow-trail-k1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flowering Annuals Activity",
+      "url": "https://longwoodgardens.org/sites/default/files/wysiwyg/ed_annuals.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-k.",
+      "publisher": "Longwood Gardens",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-k",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -2273,7 +2273,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -2337,7 +2338,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -2393,17 +2395,264 @@
   ],
   "k_life_skills": [
     {
-      "title": "CCSS-M: Kindergarten Mathematics Standards",
-      "url": "https://www.thecorestandards.org/Math/Content/K/",
-      "description": "CCSS framework page; added because home-helpers-k2 uses CCSS codes for this grade and subject.",
-      "publisher": null,
+      "title": "SL.K.1",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/K/",
+      "description": "Cited 12 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "K.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/K/MD/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.1.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/1/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.K.7",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/K/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "1.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/1/MD/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-M"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.1.5",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/1/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.K.5",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/K/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.1.7",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/1/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.K.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/K/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "K.CC.B.4",
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-M"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2",
+        "tomorrow-trail-k1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Poison Prevention Information Center",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Poison-Prevention-Information-Center",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Clean Hands: About Handwashing",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "CDC",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "backyard-explorer-k2",
+        "body-lab-g3-5",
+        "body-lab-k2",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "U.S. Food and Drug Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Preventing Color Transfer by Bleeding or Crocking, AnswerLine",
+      "url": "https://blogs.extension.iastate.edu/answerline/2019/04/29/color-transfer-bleeding-crocking/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Iowa State University Extension and Outreach",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Holt Boyd County 4-H Table Setting Contest Manual",
+      "url": "https://extension.unl.edu/statewide/holt-boyd/holt-boyd-county-4-h-table-setting-contest-manual/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Nebraska Extension (University of Nebraska-Lincoln)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
       "origin": "course SOURCES.md",
       "url_status": null
     }
@@ -2543,10 +2792,10 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "K.CC.B.4",
       "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
       "description": "Cited 3 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
@@ -2554,6 +2803,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "home-helpers-k2",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -2701,15 +2951,19 @@
       "url_status": null
     },
     {
-      "title": "Burrowing Owl, Lake Mead National Recreation Area",
-      "url": "https://www.nps.gov/lake/learn/nature/burrowing-owl.htm",
+      "title": "Astronomy 2e, 2.1 The Sky Above",
+      "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
       "description": "Cited 2 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": "National Park Service",
-      "kind": "government",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -2838,10 +3092,10 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "K.CC.B.4",
       "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
       "description": "Cited 3 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
@@ -2849,6 +3103,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "home-helpers-k2",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -3015,15 +3270,19 @@
       "url_status": null
     },
     {
-      "title": "Burrowing Owl, Lake Mead National Recreation Area",
-      "url": "https://www.nps.gov/lake/learn/nature/burrowing-owl.htm",
+      "title": "Astronomy 2e, 2.1 The Sky Above",
+      "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
       "description": "Cited 2 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": "National Park Service",
-      "kind": "government",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -3058,7 +3317,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g1"
+        "code-crew-g1",
+        "home-helpers-k2"
       ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
@@ -3217,6 +3477,24 @@
       "url_status": null
     },
     {
+      "title": "1-LS3-1, DCI LS3.A",
+      "url": "https://www.nextgenscience.org/pe/1-ls3-1-heredity-inheritance-and-variation-traits",
+      "description": "Cited 5 time(s) in the SOURCES.md of: backyard-explorer-k2, grow-it-k2.",
+      "publisher": "NGSS",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-k2",
+        "grow-it-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CCSS ELA-Literacy, RF Grade 1",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RF/1/",
       "description": "Cited 5 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
@@ -3230,24 +3508,6 @@
       "cited_by": [
         "code-crew-g1",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "1-LS3-1, DCI LS3.A",
-      "url": "https://www.nextgenscience.org/pe/1-ls3-1-heredity-inheritance-and-variation-traits",
-      "description": "Cited 4 time(s) in the SOURCES.md of: backyard-explorer-k2, grow-it-k2.",
-      "publisher": "NGSS",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "backyard-explorer-k2",
-        "grow-it-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -3340,10 +3600,10 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "K.CC.B.4",
       "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
       "description": "Cited 3 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
@@ -3351,6 +3611,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "home-helpers-k2",
         "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
@@ -3483,7 +3744,7 @@
     {
       "title": "CSTA K-12 Computer Science Standards, Revised 2017 (all levels, with descriptive statements)",
       "url": "https://csteachers.org/wp-content/uploads/2025/03/2017-csta-k12-computer-science-standards-al.pdf",
-      "description": "Cited 9 time(s) in the SOURCES.md of: code-crew-g1.",
+      "description": "Cited 10 time(s) in the SOURCES.md of: code-crew-g1.",
       "publisher": "Computer Science Teachers Association",
       "kind": "standards_body",
       "frameworks": [
@@ -3553,10 +3814,56 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "Emoji List (CLDR short names and keywords)",
+      "url": "https://www.unicode.org/emoji/charts/emoji-list.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pointer Events Level 3",
+      "url": "https://www.w3.org/TR/pointerevents3/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.1.5",
       "url": "https://www.thecorestandards.org/ELA-Literacy/L/1/",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -3564,7 +3871,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g1"
+        "code-crew-g1",
+        "home-helpers-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -3605,10 +3913,10 @@
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "SL.1.4",
       "url": "https://www.thecorestandards.org/ELA-Literacy/SL/1/",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g1.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -3616,7 +3924,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g1"
+        "code-crew-g1",
+        "home-helpers-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -3639,9 +3948,54 @@
       "url_status": null
     },
     {
+      "title": "Unicode Character Database NamesList",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CSS Basic User Interface Module Level 4",
+      "url": "https://www.w3.org/TR/css-ui-4/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Media Capture and Streams",
+      "url": "https://www.w3.org/TR/mediacapture-streams/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CSTA K-12 Computer Science Standards (revised 2017)",
       "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 19 time(s) in the SOURCES.md of: ai-explorers-k2, inside-the-machine-g1-g2.",
+      "description": "Cited 22 time(s) in the SOURCES.md of: ai-explorers-k2, inside-the-machine-g1-g2.",
       "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
       "kind": "government",
       "frameworks": [],
@@ -3657,109 +4011,6 @@
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Computer Science Class XI, Ch. 1 Computer System",
-      "url": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "NCERT (Government of India)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101, Hardware",
-      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g3",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Software",
-      "url": "https://web.stanford.edu/class/cs101/software-1.html",
-      "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 The Internet",
-      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
-      "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
-      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "eSafety Commissioner (Australian Government)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Python Tutorial, More Control Flow Tools",
-      "url": "https://docs.python.org/3/tutorial/controlflow.html",
-      "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-g1.",
-      "publisher": "Python Software Foundation",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g1",
-        "code-crew-g2",
-        "code-crew-g3",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "code-crew-k",
-        "python-g11-12"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -4053,6 +4304,36 @@
       "url_status": null
     },
     {
+      "title": "Emoji List (CLDR short names and keywords)",
+      "url": "https://www.unicode.org/emoji/charts/emoji-list.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pointer Events Level 3",
+      "url": "https://www.w3.org/TR/pointerevents3/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "View the CSTA K-12 Standards (2017 standards overview, identifiers, alignment and license notes)",
       "url": "https://csteachers.org/2017standards/interactive/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
@@ -4115,34 +4396,11 @@
       "url_status": null
     },
     {
-      "title": "CSTA K-12 Computer Science Standards (revised 2017)",
-      "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "ai-explorers-g3-5",
-        "ai-explorers-g6-8",
-        "ai-explorers-k2",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5",
-        "intro-cs-g9-10"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Computer Science Class XI, Ch. 1 Computer System",
-      "url": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "NCERT (Government of India)",
-      "kind": "government",
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -4154,34 +4412,16 @@
       "url_status": null
     },
     {
-      "title": "CS101, Hardware",
-      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
+      "title": "Unicode Character Database NamesList",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g3",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Software",
-      "url": "https://web.stanford.edu/class/cs101/software-1.html",
-      "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g1-g2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -4324,7 +4564,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -4388,7 +4629,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -4444,17 +4686,264 @@
   ],
   "1st_life_skills": [
     {
-      "title": "CCSS-M: Grade 1 Mathematics Standards",
-      "url": "https://www.thecorestandards.org/Math/Content/1/",
-      "description": "CCSS framework page; added because home-helpers-k2 uses CCSS codes for this grade and subject.",
-      "publisher": null,
+      "title": "SL.K.1",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/K/",
+      "description": "Cited 12 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "K.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/K/MD/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.1.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/1/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.K.7",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/K/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "1.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/1/MD/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-M"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.1.5",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/1/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.K.5",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/K/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.1.7",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/1/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.K.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/K/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "K.CC.B.4",
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-M"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2",
+        "tomorrow-trail-k1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Poison Prevention Information Center",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Poison-Prevention-Information-Center",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Clean Hands: About Handwashing",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "CDC",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "backyard-explorer-k2",
+        "body-lab-g3-5",
+        "body-lab-k2",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "U.S. Food and Drug Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Preventing Color Transfer by Bleeding or Crocking, AnswerLine",
+      "url": "https://blogs.extension.iastate.edu/answerline/2019/04/29/color-transfer-bleeding-crocking/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Iowa State University Extension and Outreach",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Holt Boyd County 4-H Table Setting Contest Manual",
+      "url": "https://extension.unl.edu/statewide/holt-boyd/holt-boyd-county-4-h-table-setting-contest-manual/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Nebraska Extension (University of Nebraska-Lincoln)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
       "origin": "course SOURCES.md",
       "url_status": null
     }
@@ -4618,6 +5107,7 @@
         "backyard-explorer-g3-5",
         "backyard-explorer-k2",
         "grow-it-k2",
+        "home-helpers-k2",
         "science-launch-g1",
         "story-trail-g2-3"
       ],
@@ -4923,7 +5413,7 @@
     {
       "title": "1-LS3-1, DCI LS3.A",
       "url": "https://www.nextgenscience.org/pe/1-ls3-1-heredity-inheritance-and-variation-traits",
-      "description": "Cited 4 time(s) in the SOURCES.md of: backyard-explorer-k2, grow-it-k2.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: backyard-explorer-k2, grow-it-k2.",
       "publisher": "NGSS",
       "kind": "standards_body",
       "frameworks": [
@@ -5266,6 +5756,36 @@
       "url_status": null
     },
     {
+      "title": "Emoji List (CLDR short names and keywords)",
+      "url": "https://www.unicode.org/emoji/charts/emoji-list.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pointer Events Level 3",
+      "url": "https://www.w3.org/TR/pointerevents3/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Five Big Ideas in Artificial Intelligence, poster v2",
       "url": "https://ai4k12.org/wp-content/uploads/AI4K12_Five_Big_Ideas_Poster_v2.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-explorers-k2.",
@@ -5283,6 +5803,22 @@
         "ai-explorers-k2",
         "applied-ai",
         "code-crew-g1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -5322,9 +5858,54 @@
       "url_status": null
     },
     {
+      "title": "Unicode Character Database NamesList",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CSS Basic User Interface Module Level 4",
+      "url": "https://www.w3.org/TR/css-ui-4/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Media Capture and Streams",
+      "url": "https://www.w3.org/TR/mediacapture-streams/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CSTA K-12 Computer Science Standards (revised 2017)",
       "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 19 time(s) in the SOURCES.md of: ai-explorers-k2, inside-the-machine-g1-g2.",
+      "description": "Cited 22 time(s) in the SOURCES.md of: ai-explorers-k2, inside-the-machine-g1-g2.",
       "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
       "kind": "government",
       "frameworks": [],
@@ -5347,7 +5928,7 @@
     {
       "title": "Computer Science Class XI, Ch. 1 Computer System",
       "url": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
       "publisher": "NCERT (Government of India)",
       "kind": "government",
       "frameworks": [],
@@ -5389,110 +5970,6 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS310, Common Errors",
-      "url": "https://pages.cs.wisc.edu/~hasti/cs310/modules/Programming/_NOT%20USED%20MATLAB%20Programming/Common%20Errors/TopicDiscussion.xhtml",
-      "description": "Cited 3 time(s) in the SOURCES.md of: code-crew-g2.",
-      "publisher": "University of Wisconsin-Madison",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g1",
-        "code-crew-g2",
-        "code-crew-g3"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 The Internet",
-      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
-      "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
-      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "eSafety Commissioner (Australian Government)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Python Tutorial, An Informal Introduction",
-      "url": "https://docs.python.org/3/tutorial/introduction.html",
-      "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-g2.",
-      "publisher": "Python Software Foundation",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g2",
-        "code-crew-g3",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "python-g11-12"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "5.1 Overview of Photosynthesis, Concepts of Biology",
-      "url": "https://openstax.org/books/concepts-biology/pages/5-1-overview-of-photosynthesis",
-      "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-g2.",
-      "publisher": "OpenStax",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "cells-systems-g6-8",
-        "code-crew-g1",
-        "code-crew-g2",
-        "code-crew-k"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Earth: Facts",
-      "url": "https://science.nasa.gov/earth/facts/",
-      "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-g2.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g2",
-        "earth-space-g6-8",
-        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -5786,6 +6263,36 @@
       "url_status": null
     },
     {
+      "title": "Emoji List (CLDR short names and keywords)",
+      "url": "https://www.unicode.org/emoji/charts/emoji-list.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pointer Events Level 3",
+      "url": "https://www.w3.org/TR/pointerevents3/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "View the CSTA K-12 Standards (2017 standards overview, identifiers, alignment and license notes)",
       "url": "https://csteachers.org/2017standards/interactive/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
@@ -5848,34 +6355,11 @@
       "url_status": null
     },
     {
-      "title": "CSTA K-12 Computer Science Standards (revised 2017)",
-      "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "ai-explorers-g3-5",
-        "ai-explorers-g6-8",
-        "ai-explorers-k2",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5",
-        "intro-cs-g9-10"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Computer Science Class XI, Ch. 1 Computer System",
-      "url": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "NCERT (Government of India)",
-      "kind": "government",
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -5887,34 +6371,16 @@
       "url_status": null
     },
     {
-      "title": "CS101, Hardware",
-      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
+      "title": "Unicode Character Database NamesList",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
+      "publisher": "Unicode Consortium",
+      "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g3",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Software",
-      "url": "https://web.stanford.edu/class/cs101/software-1.html",
-      "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g1-g2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -6057,7 +6523,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -6121,7 +6588,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -6177,17 +6645,264 @@
   ],
   "2nd_life_skills": [
     {
-      "title": "CCSS-M: Grade 2 Mathematics Standards",
-      "url": "https://www.thecorestandards.org/Math/Content/2/",
-      "description": "CCSS framework page; added because home-helpers-k2 uses CCSS codes for this grade and subject.",
-      "publisher": null,
+      "title": "SL.K.1",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/K/",
+      "description": "Cited 12 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "K.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/K/MD/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.1.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/1/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.K.7",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/K/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "1.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/1/MD/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-M"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.1.5",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/1/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.K.5",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/K/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.1.7",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/1/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.K.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/K/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "K.CC.B.4",
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-M"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-k2",
+        "tomorrow-trail-k1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Poison Prevention Information Center",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Poison-Prevention-Information-Center",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Clean Hands: About Handwashing",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "CDC",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "backyard-explorer-k2",
+        "body-lab-g3-5",
+        "body-lab-k2",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "U.S. Food and Drug Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Preventing Color Transfer by Bleeding or Crocking, AnswerLine",
+      "url": "https://blogs.extension.iastate.edu/answerline/2019/04/29/color-transfer-bleeding-crocking/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Iowa State University Extension and Outreach",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Holt Boyd County 4-H Table Setting Contest Manual",
+      "url": "https://extension.unl.edu/statewide/holt-boyd/holt-boyd-county-4-h-table-setting-contest-manual/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-k2.",
+      "publisher": "Nebraska Extension (University of Nebraska-Lincoln)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
       "origin": "course SOURCES.md",
       "url_status": null
     }
@@ -6269,10 +6984,10 @@
       "url_status": null
     },
     {
-      "title": "T2",
+      "title": "RI.3.3",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: kitchen-g3-5.",
-      "publisher": "Common Core State Standards for English Language Arts: Reading Informational Text Grades 3 and 4, Writing Grade 3",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -6281,6 +6996,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -6299,6 +7015,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -6337,6 +7054,8 @@
         "code-crew-g2",
         "code-crew-g3",
         "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -6527,6 +7246,7 @@
         "backyard-explorer-g3-5",
         "backyard-explorer-k2",
         "grow-it-k2",
+        "home-helpers-k2",
         "science-launch-g1",
         "story-trail-g2-3"
       ],
@@ -6675,7 +7395,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g3"
+        "code-crew-g3",
+        "home-helpers-g3-5"
       ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
@@ -7043,6 +7764,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -7230,6 +7952,36 @@
       "url_status": null
     },
     {
+      "title": "HTML Living Standard, 8.1 Event loops",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "WHATWG",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "USB Type-C Cable and Connector Specification",
+      "url": "https://usb.org/node/572",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "USB Implementers Forum",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What Does ICANN Do?",
       "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -7245,10 +7997,26 @@
       "url_status": null
     },
     {
-      "title": "T2",
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.3.3",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g3.",
-      "publisher": "Common Core State Standards for English Language Arts: Reading Informational Text Grades 3 and 4, Writing Grade 3",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -7257,16 +8025,17 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "SL.3.4",
       "url": "https://www.thecorestandards.org/ELA-Literacy/SL/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g3.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -7274,16 +8043,17 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g3"
+        "code-crew-g3",
+        "home-helpers-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "thecorestandards.org",
+      "title": "W.3.2",
       "url": "https://www.thecorestandards.org/ELA-Literacy/W/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g3.",
-      "publisher": null,
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -7291,7 +8061,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "code-crew-g3"
+        "code-crew-g3",
+        "home-helpers-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -7347,55 +8118,10 @@
       "url_status": null
     },
     {
-      "title": "Understanding Success Criterion 1.4.1: Use of Color (WCAG 2.2)",
-      "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+      "title": "USB Charger (USB Power Delivery)",
+      "url": "https://www.usb.org/usb-charger-pd",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Introduction to Web Accessibility",
-      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Diverse Abilities and Barriers",
-      "url": "https://www.w3.org/WAI/people-use-web/abilities-barriers/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Tools and Techniques",
-      "url": "https://www.w3.org/WAI/people-use-web/tools-techniques/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
+      "publisher": "USB Implementers Forum",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -7775,10 +8501,10 @@
       "url_status": null
     },
     {
-      "title": "What Does ICANN Do?",
-      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "title": "HTML Living Standard, 8.1 Event loops",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "ICANN",
+      "publisher": "WHATWG",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -7790,36 +8516,31 @@
       "url_status": null
     },
     {
-      "title": "nextgenscience.org",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-4-energy",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": null,
+      "title": "USB Type-C Cable and Connector Specification",
+      "url": "https://usb.org/node/572",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "USB Implementers Forum",
       "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
+      "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "4-PS4-2 Waves and Their Applications in Technologies for Information Transfer (Disciplinary Core Idea PS4.B)",
-      "url": "https://www.nextgenscience.org/pe/4-ps4-2-waves-and-their-applications-technologies-information-transfer",
-      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Next Generation Science Standards",
+      "title": "What Does ICANN Do?",
+      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "ICANN",
       "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
+      "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "bike-shop-g3-5",
-        "body-lab-g3-5"
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -8044,7 +8765,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -8099,10 +8821,10 @@
       "url_status": null
     },
     {
-      "title": "T2",
+      "title": "RI.3.3",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: kitchen-g3-5.",
-      "publisher": "Common Core State Standards for English Language Arts: Reading Informational Text Grades 3 and 4, Writing Grade 3",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -8111,6 +8833,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -8129,6 +8852,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -8167,6 +8891,8 @@
         "code-crew-g2",
         "code-crew-g3",
         "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -8281,17 +9007,267 @@
   ],
   "3rd_life_skills": [
     {
-      "title": "CCSS-M: Grade 3 Mathematics Standards",
-      "url": "https://www.thecorestandards.org/Math/Content/3/",
-      "description": "CCSS framework page; added because home-helpers-g3-5 uses CCSS codes for this grade and subject.",
-      "publisher": null,
+      "title": "W.3.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/3/",
+      "description": "Cited 6 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.3.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.4.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/4/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CCSS.MATH.CONTENT.3.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.3.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/3/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.4.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/4/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.4.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/4/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.4.6",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/4/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.5.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.5.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.5.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Clean Hands: About Handwashing",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "CDC",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "backyard-explorer-k2",
+        "body-lab-g3-5",
+        "body-lab-k2",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Poison Prevention Information Center",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Poison-Prevention-Information-Center",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Avoiding Tap Water Scalds (CPSC 5098)",
+      "url": "https://www.cpsc.gov/s3fs-public/5098.pdf",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Packed Lunch Safety",
+      "url": "https://food.unl.edu/article/packed-lunch-safety/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Nebraska Extension (University of Nebraska-Lincoln)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "course SOURCES.md",
       "url_status": null
     }
@@ -8373,10 +9349,10 @@
       "url_status": null
     },
     {
-      "title": "T2",
+      "title": "RI.3.3",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: kitchen-g3-5.",
-      "publisher": "Common Core State Standards for English Language Arts: Reading Informational Text Grades 3 and 4, Writing Grade 3",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -8385,6 +9361,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -8403,6 +9380,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -8441,6 +9419,8 @@
         "code-crew-g2",
         "code-crew-g3",
         "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -8580,7 +9560,9 @@
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
     },
@@ -8610,7 +9592,9 @@
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
     },
@@ -8625,7 +9609,9 @@
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
     },
@@ -8975,6 +9961,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -9121,6 +10108,36 @@
       "url_status": null
     },
     {
+      "title": "HTML Living Standard, 8.1 Event loops",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "WHATWG",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "USB Type-C Cable and Connector Specification",
+      "url": "https://usb.org/node/572",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "USB Implementers Forum",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What Does ICANN Do?",
       "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -9136,10 +10153,116 @@
       "url_status": null
     },
     {
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "About USB-IF",
       "url": "https://www.usb.org/about",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "USB Implementers Forum",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "USB Charger (USB Power Delivery)",
+      "url": "https://www.usb.org/usb-charger-pd",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "USB Implementers Forum",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Ambient Light Sensor",
+      "url": "https://www.w3.org/TR/ambient-light/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Gamepad",
+      "url": "https://www.w3.org/TR/gamepad/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Motion Sensors Explainer",
+      "url": "https://www.w3.org/TR/motion-sensors/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Screen Orientation",
+      "url": "https://www.w3.org/TR/screen-orientation/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Vibration API",
+      "url": "https://www.w3.org/TR/vibration/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "W3C",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -9175,162 +10298,6 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Diverse Abilities and Barriers",
-      "url": "https://www.w3.org/WAI/people-use-web/abilities-barriers/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Tools and Techniques",
-      "url": "https://www.w3.org/WAI/people-use-web/tools-techniques/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Video Captions",
-      "url": "https://www.w3.org/WAI/perspective-videos/captions/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CSTA K-12 Computer Science Standards (revised 2017)",
-      "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 33 time(s) in the SOURCES.md of: ai-explorers-g3-5, code-crew-g4, inside-the-machine-g3-g5.",
-      "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "ai-explorers-g3-5",
-        "ai-explorers-g6-8",
-        "ai-explorers-k2",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5",
-        "intro-cs-g9-10"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Python Tutorial, An Informal Introduction",
-      "url": "https://docs.python.org/3/tutorial/introduction.html",
-      "description": "Cited 28 time(s) in the SOURCES.md of: code-crew-g4.",
-      "publisher": "Python Software Foundation",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g2",
-        "code-crew-g3",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "python-g11-12"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Computer Science Class XI, Ch. 1 Computer System",
-      "url": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "NCERT (Government of India)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Built-in Types, Boolean Operations",
-      "url": "https://docs.python.org/3/library/stdtypes.html",
-      "description": "Cited 15 time(s) in the SOURCES.md of: code-crew-g4.",
-      "publisher": "Python Software Foundation",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g3",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "python-g11-12"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101, Hardware",
-      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 15 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g3",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Software",
-      "url": "https://web.stanford.edu/class/cs101/software-1.html",
-      "description": "Cited 10 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -9705,10 +10672,10 @@
       "url_status": null
     },
     {
-      "title": "What Does ICANN Do?",
-      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "title": "HTML Living Standard, 8.1 Event loops",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "ICANN",
+      "publisher": "WHATWG",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -9720,36 +10687,31 @@
       "url_status": null
     },
     {
-      "title": "nextgenscience.org",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-4-energy",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": null,
+      "title": "USB Type-C Cable and Connector Specification",
+      "url": "https://usb.org/node/572",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "USB Implementers Forum",
       "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
+      "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "4-PS4-2 Waves and Their Applications in Technologies for Information Transfer (Disciplinary Core Idea PS4.B)",
-      "url": "https://www.nextgenscience.org/pe/4-ps4-2-waves-and-their-applications-technologies-information-transfer",
-      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Next Generation Science Standards",
+      "title": "What Does ICANN Do?",
+      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "ICANN",
       "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
+      "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "bike-shop-g3-5",
-        "body-lab-g3-5"
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9974,7 +10936,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -10029,10 +10992,10 @@
       "url_status": null
     },
     {
-      "title": "T2",
+      "title": "RI.3.3",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: kitchen-g3-5.",
-      "publisher": "Common Core State Standards for English Language Arts: Reading Informational Text Grades 3 and 4, Writing Grade 3",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -10041,6 +11004,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -10059,6 +11023,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -10097,6 +11062,8 @@
         "code-crew-g2",
         "code-crew-g3",
         "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -10211,17 +11178,267 @@
   ],
   "4th_life_skills": [
     {
-      "title": "CCSS-M: Grade 4 Mathematics Standards",
-      "url": "https://www.thecorestandards.org/Math/Content/4/",
-      "description": "CCSS framework page; added because home-helpers-g3-5 uses CCSS codes for this grade and subject.",
-      "publisher": null,
+      "title": "W.3.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/3/",
+      "description": "Cited 6 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.3.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.4.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/4/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CCSS.MATH.CONTENT.3.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.3.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/3/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.4.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/4/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.4.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/4/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.4.6",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/4/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.5.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.5.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.5.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Clean Hands: About Handwashing",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "CDC",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "backyard-explorer-k2",
+        "body-lab-g3-5",
+        "body-lab-k2",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Poison Prevention Information Center",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Poison-Prevention-Information-Center",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Avoiding Tap Water Scalds (CPSC 5098)",
+      "url": "https://www.cpsc.gov/s3fs-public/5098.pdf",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Packed Lunch Safety",
+      "url": "https://food.unl.edu/article/packed-lunch-safety/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Nebraska Extension (University of Nebraska-Lincoln)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "course SOURCES.md",
       "url_status": null
     }
@@ -10303,10 +11520,10 @@
       "url_status": null
     },
     {
-      "title": "T2",
+      "title": "RI.3.3",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: kitchen-g3-5.",
-      "publisher": "Common Core State Standards for English Language Arts: Reading Informational Text Grades 3 and 4, Writing Grade 3",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -10315,6 +11532,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -10333,6 +11551,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -10371,6 +11590,8 @@
         "code-crew-g2",
         "code-crew-g3",
         "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -10510,7 +11731,9 @@
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
     },
@@ -10540,7 +11763,9 @@
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "v1",
       "url_status": "200 on 2026-10-12"
     },
@@ -10906,6 +12131,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -11067,6 +12293,36 @@
       "url_status": null
     },
     {
+      "title": "HTML Living Standard, 8.1 Event loops",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "WHATWG",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "USB Type-C Cable and Connector Specification",
+      "url": "https://usb.org/node/572",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "USB Implementers Forum",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What Does ICANN Do?",
       "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -11076,6 +12332,22 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -11112,10 +12384,10 @@
       "url_status": null
     },
     {
-      "title": "Understanding Success Criterion 1.4.1: Use of Color (WCAG 2.2)",
-      "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+      "title": "USB Charger (USB Power Delivery)",
+      "url": "https://www.usb.org/usb-charger-pd",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
+      "publisher": "USB Implementers Forum",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -11127,10 +12399,10 @@
       "url_status": null
     },
     {
-      "title": "Introduction to Web Accessibility",
-      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+      "title": "Ambient Light Sensor",
+      "url": "https://www.w3.org/TR/ambient-light/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
+      "publisher": "W3C",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -11142,10 +12414,10 @@
       "url_status": null
     },
     {
-      "title": "Diverse Abilities and Barriers",
-      "url": "https://www.w3.org/WAI/people-use-web/abilities-barriers/",
+      "title": "Gamepad",
+      "url": "https://www.w3.org/TR/gamepad/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
+      "publisher": "W3C",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -11157,10 +12429,10 @@
       "url_status": null
     },
     {
-      "title": "Tools and Techniques",
-      "url": "https://www.w3.org/WAI/people-use-web/tools-techniques/",
+      "title": "Motion Sensors Explainer",
+      "url": "https://www.w3.org/TR/motion-sensors/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
+      "publisher": "W3C",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -11172,10 +12444,10 @@
       "url_status": null
     },
     {
-      "title": "Video Captions",
-      "url": "https://www.w3.org/WAI/perspective-videos/captions/",
+      "title": "Screen Orientation",
+      "url": "https://www.w3.org/TR/screen-orientation/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "W3C Web Accessibility Initiative",
+      "publisher": "W3C",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -11187,77 +12459,16 @@
       "url_status": null
     },
     {
-      "title": "CSTA K-12 Computer Science Standards (revised 2017)",
-      "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 37 time(s) in the SOURCES.md of: ai-explorers-g3-5, code-crew-g5, inside-the-machine-g3-g5.",
-      "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
-      "kind": "government",
+      "title": "Vibration API",
+      "url": "https://www.w3.org/TR/vibration/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "W3C",
+      "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "ai-explorers-g3-5",
-        "ai-explorers-g6-8",
-        "ai-explorers-k2",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5",
-        "intro-cs-g9-10"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Computer Science Class XI, Ch. 1 Computer System",
-      "url": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "NCERT (Government of India)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101, Hardware",
-      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 15 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g3",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Python Tutorial, An Informal Introduction",
-      "url": "https://docs.python.org/3/tutorial/introduction.html",
-      "description": "Cited 10 time(s) in the SOURCES.md of: code-crew-g5.",
-      "publisher": "Python Software Foundation",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g2",
-        "code-crew-g3",
-        "code-crew-g4",
-        "code-crew-g5",
-        "code-crew-g6-plus",
-        "python-g11-12"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -11631,10 +12842,10 @@
       "url_status": null
     },
     {
-      "title": "What Does ICANN Do?",
-      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "title": "HTML Living Standard, 8.1 Event loops",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "ICANN",
+      "publisher": "WHATWG",
       "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
@@ -11646,36 +12857,31 @@
       "url_status": null
     },
     {
-      "title": "nextgenscience.org",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-4-energy",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": null,
+      "title": "USB Type-C Cable and Connector Specification",
+      "url": "https://usb.org/node/572",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "USB Implementers Forum",
       "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
+      "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "4-PS4-2 Waves and Their Applications in Technologies for Information Transfer (Disciplinary Core Idea PS4.B)",
-      "url": "https://www.nextgenscience.org/pe/4-ps4-2-waves-and-their-applications-technologies-information-transfer",
-      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Next Generation Science Standards",
+      "title": "What Does ICANN Do?",
+      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "ICANN",
       "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
+      "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "bike-shop-g3-5",
-        "body-lab-g3-5"
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -11900,7 +13106,8 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5",
-        "body-lab-k2"
+        "body-lab-k2",
+        "tomorrow-trail-k1"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -11955,10 +13162,10 @@
       "url_status": null
     },
     {
-      "title": "T2",
+      "title": "RI.3.3",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
       "description": "Cited 1 time(s) in the SOURCES.md of: kitchen-g3-5.",
-      "publisher": "Common Core State Standards for English Language Arts: Reading Informational Text Grades 3 and 4, Writing Grade 3",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-ELA"
@@ -11967,6 +13174,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -11985,6 +13193,7 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -12023,6 +13232,8 @@
         "code-crew-g2",
         "code-crew-g3",
         "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
         "kitchen-g3-5"
       ],
       "origin": "course SOURCES.md",
@@ -12137,17 +13348,267 @@
   ],
   "5th_life_skills": [
     {
-      "title": "CCSS-M: Grade 5 Mathematics Standards",
-      "url": "https://www.thecorestandards.org/Math/Content/5/",
-      "description": "CCSS framework page; added because home-helpers-g3-5 uses CCSS codes for this grade and subject.",
-      "publisher": null,
+      "title": "W.3.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/3/",
+      "description": "Cited 6 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.3.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/3/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.4.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/4/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CCSS.MATH.CONTENT.3.MD.B.3",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/",
+      "description": "Cited 5 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
       "kind": "standards_body",
       "frameworks": [
         "CCSS-M"
       ],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "home-helpers-g3-5",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.3.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/3/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.4.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/4/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.4.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/4/",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "L.4.6",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/4/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RI.5.3",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SL.5.4",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/SL/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "W.5.2",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/5/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Common Core State Standards Initiative",
+      "kind": "standards_body",
+      "frameworks": [
+        "CCSS-ELA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Clean Hands: About Handwashing",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "CDC",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "backyard-explorer-g3-5",
+        "backyard-explorer-k2",
+        "body-lab-g3-5",
+        "body-lab-k2",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "home-helpers-g3-5",
+        "home-helpers-k2",
+        "kitchen-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Poison Prevention Information Center",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Poison-Prevention-Information-Center",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Avoiding Tap Water Scalds (CPSC 5098)",
+      "url": "https://www.cpsc.gov/s3fs-public/5098.pdf",
+      "description": "Cited 4 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5",
+        "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Packed Lunch Safety",
+      "url": "https://food.unl.edu/article/packed-lunch-safety/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: home-helpers-g3-5.",
+      "publisher": "Nebraska Extension (University of Nebraska-Lincoln)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "home-helpers-g3-5"
+      ],
       "origin": "course SOURCES.md",
       "url_status": null
     }
@@ -14810,16 +16271,16 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/backyard-explorer-g3-5/SOURCES.md",
-      "cited_pages": 83,
+      "cited_pages": 131,
       "top_hosts": [
-        "nextgenscience.org",
         "nps.gov",
+        "nextgenscience.org",
         "fs.usda.gov",
-        "content.ces.ncsu.edu",
-        "cdc.gov",
         "biokids.umich.edu",
+        "content.ces.ncsu.edu",
         "fws.gov",
-        "api.gbif.org"
+        "cdc.gov",
+        "dnr.illinois.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -14848,16 +16309,16 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/backyard-explorer-k2/SOURCES.md",
-      "cited_pages": 65,
+      "cited_pages": 91,
       "top_hosts": [
         "nextgenscience.org",
         "nps.gov",
-        "api.gbif.org",
-        "cdc.gov",
         "fws.gov",
-        "content.ces.ncsu.edu",
+        "api.gbif.org",
         "audubon.org",
-        "biokids.umich.edu"
+        "cdc.gov",
+        "extension.psu.edu",
+        "content.ces.ncsu.edu"
       ],
       "review_hosts": [],
       "flags": []
@@ -14887,23 +16348,19 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/bike-shop-g3-5/SOURCES.md",
-      "cited_pages": 51,
+      "cited_pages": 54,
       "top_hosts": [
         "annex.exploratorium.edu",
         "nextgenscience.org",
+        "law.cornell.edu",
         "kidshealth.org",
         "ncert.nic.in",
-        "law.cornell.edu",
         "umt.edu",
         "louisville.edu",
         "sciencelearn.org.nz"
       ],
-      "review_hosts": [
-        "schwalbe.com"
-      ],
-      "flags": [
-        "Cites sites not yet judged authoritative (see review_hosts); replace or justify."
-      ]
+      "review_hosts": [],
+      "flags": []
     },
     "body-lab-g3-5": {
       "title": "Body Lab Grades 3 to 5",
@@ -15088,7 +16545,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/code-crew-g1/SOURCES.md",
-      "cited_pages": 24,
+      "cited_pages": 29,
       "top_hosts": [
         "csteachers.org",
         "thecorestandards.org",
@@ -15096,8 +16553,8 @@
         "web.stanford.edu",
         "openstax.org",
         "noaa.gov",
-        "docs.python.org",
-        "nationalzoo.si.edu"
+        "science.nasa.gov",
+        "docs.python.org"
       ],
       "review_hosts": [],
       "flags": []
@@ -15126,12 +16583,12 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/code-crew-g2/SOURCES.md",
-      "cited_pages": 20,
+      "cited_pages": 21,
       "top_hosts": [
         "csteachers.org",
         "openstax.org",
-        "docs.python.org",
         "science.nasa.gov",
+        "docs.python.org",
         "pages.cs.wisc.edu",
         "thecorestandards.org",
         "cdc.gov",
@@ -15312,16 +16769,16 @@
       ],
       "standards": {},
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/code-crew-k/SOURCES.md",
-      "cited_pages": 20,
+      "cited_pages": 26,
       "top_hosts": [
         "csteachers.org",
         "openstax.org",
         "cdc.gov",
         "science.nasa.gov",
-        "mutcd.fhwa.dot.gov",
         "safekids.org",
-        "noaa.gov",
-        "nps.gov"
+        "extension.umn.edu",
+        "mutcd.fhwa.dot.gov",
+        "noaa.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -15386,7 +16843,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/earth-space-g6-8/SOURCES.md",
-      "cited_pages": 56,
+      "cited_pages": 57,
       "top_hosts": [
         "science.nasa.gov",
         "nextgenscience.org",
@@ -15708,13 +17165,20 @@
           "CCSS.MATH.CONTENT.3.MD.A.2"
         ]
       },
-      "sources_md": null,
-      "cited_pages": 0,
-      "top_hosts": [],
+      "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/home-helpers-g3-5/SOURCES.md",
+      "cited_pages": 49,
+      "top_hosts": [
+        "thecorestandards.org",
+        "cpsc.gov",
+        "cdc.gov",
+        "nps.gov",
+        "nist.gov",
+        "food.unl.edu",
+        "usfa.fema.gov",
+        "epa.gov"
+      ],
       "review_hosts": [],
-      "flags": [
-        "No SOURCES.md: no lesson fact is traced to a source. Needs a source audit before more content ships."
-      ]
+      "flags": []
     },
     "home-helpers-k2": {
       "title": "Home Helpers: Kindergarten to Grade 2",
@@ -15747,13 +17211,20 @@
           "CCSS.MATH.CONTENT.K.MD.B.3"
         ]
       },
-      "sources_md": null,
-      "cited_pages": 0,
-      "top_hosts": [],
+      "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/home-helpers-k2/SOURCES.md",
+      "cited_pages": 36,
+      "top_hosts": [
+        "thecorestandards.org",
+        "cpsc.gov",
+        "cdc.gov",
+        "nps.gov",
+        "fda.gov",
+        "blogs.extension.iastate.edu",
+        "extension.unl.edu",
+        "usfa.fema.gov"
+      ],
       "review_hosts": [],
-      "flags": [
-        "No SOURCES.md: no lesson fact is traced to a source. Needs a source audit before more content ships."
-      ]
+      "flags": []
     },
     "inside-the-machine-g1-g2": {
       "title": "Inside the Machine: Grades 1 to 2",
@@ -15778,16 +17249,16 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/inside-the-machine-g1-g2/SOURCES.md",
-      "cited_pages": 15,
+      "cited_pages": 45,
       "top_hosts": [
         "web.stanford.edu",
         "portal.ct.gov",
         "ncert.nic.in",
-        "nidcd.nih.gov",
-        "firesafe.sc.gov",
-        "usfa.fema.gov",
         "beconnected.esafety.gov.au",
-        "csteachers.org"
+        "w3.org",
+        "energystar.gov",
+        "unicode.org",
+        "nidcd.nih.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -15817,16 +17288,16 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/inside-the-machine-g3-g5/SOURCES.md",
-      "cited_pages": 33,
+      "cited_pages": 67,
       "top_hosts": [
         "web.stanford.edu",
-        "portal.ct.gov",
         "ncert.nic.in",
+        "portal.ct.gov",
+        "w3.org",
         "cisa.gov",
         "beconnected.esafety.gov.au",
-        "w3.org",
-        "firesafe.sc.gov",
-        "loc.gov"
+        "loc.gov",
+        "energystar.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -16215,7 +17686,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/matter-lab-g6-8/SOURCES.md",
-      "cited_pages": 49,
+      "cited_pages": 50,
       "top_hosts": [
         "chem.libretexts.org",
         "nextgenscience.org",
@@ -16786,7 +18257,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/sports-physics-g6-8/SOURCES.md",
-      "cited_pages": 27,
+      "cited_pages": 28,
       "top_hosts": [
         "openstax.org",
         "phys.libretexts.org",
@@ -16919,14 +18390,16 @@
       ],
       "standards": {},
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/tomorrow-trail-k1/SOURCES.md",
-      "cited_pages": 17,
+      "cited_pages": 49,
       "top_hosts": [
         "thecorestandards.org",
         "nextgenscience.org",
         "nps.gov",
-        "heronswoodgarden.org",
-        "scijinks.gov",
-        "openstax.org"
+        "openstax.org",
+        "bls.gov",
+        "kidshealth.org",
+        "home.nps.gov",
+        "cdc.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -17075,6 +18548,33 @@
       "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
       "cited_by": [
         "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "Forces and Motion: Basics 2.6.5",
+      "url": "https://phet.colorado.edu/en/simulations/forces-and-motion-basics",
+      "credit": "PhET Interactive Simulations, University of Colorado Boulder (CC BY-NC 4.0)",
+      "license": "Sims published before 2026-03-29: CC BY 4.0. Sims published on or after: CC BY-NC 4.0. Teacher activities: CC BY",
+      "cited_by": [
+        "sports-physics-g6-8"
+      ]
+    },
+    {
+      "title": "Gravity and Orbits 1.6.28",
+      "url": "https://phet.colorado.edu/en/simulations/gravity-and-orbits",
+      "credit": "PhET Interactive Simulations, University of Colorado Boulder (CC BY-NC 4.0)",
+      "license": "Sims published before 2026-03-29: CC BY 4.0. Sims published on or after: CC BY-NC 4.0. Teacher activities: CC BY",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "States of Matter: Basics 1.2.23",
+      "url": "https://phet.colorado.edu/en/simulations/states-of-matter-basics",
+      "credit": "PhET Interactive Simulations, University of Colorado Boulder (CC BY-NC 4.0)",
+      "license": "Sims published before 2026-03-29: CC BY 4.0. Sims published on or after: CC BY-NC 4.0. Teacher activities: CC BY",
+      "cited_by": [
+        "matter-lab-g6-8"
       ]
     },
     {

@@ -26,6 +26,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D307 | Adapt NonCommercial (NC) licensed material in our free courses? | Link only until a licensor confirms in writing (recommended); treat our free, ad-free courses as noncommercial and adapt; never use NC material | See `standards/source-catalog.md` |
 
 ## Log
 
@@ -1731,6 +1732,14 @@ Every entry has these fields:
 - **Date:** 2026-10-11. **Decided by:** owner. **Status:** Done.
 - **Links:** rocket-and-raven-press #121.
 
+### D303: Keep Cloudflare Web Analytics on the lanternlearn.com sites
+- **Question:** Keep Cloudflare Web Analytics on the lanternlearn.com sites?
+- **Options:** Not recorded.
+- **Choice:** Keep it.
+- **Date:** 2026-10-11. **Decided by:** owner (card tap, 21:09). **Status:** Done.
+- **Progress:** Logged late: the thread that asked could not commit the entry at the time.
+- **Links:** Related: D2, D119.
+
 ### D304: Save a signed-in parent's work when no learner is picked
 - **Question:** Chris signed in and finished an exercise, but nothing saved (2026-10-12). Saving needs a selected kid profile (the `rr_active_kid` cookie). A parent signing in on a new device, or one who never made a profile, had none, so the lesson treated them as a guest and told them to sign in. What should happen?
 - **Options:** Use the parent's first profile, or make a default "Learner" profile when they have none, and save (recommended); make the parent create a profile before any lesson saves; keep guest behavior.
@@ -1745,3 +1754,17 @@ Every entry has these fields:
 - **Choice:** Remove immediately after the confirm prompt. Also: avatar can be changed, the dashboard links to each profile, and the profile page lists courses the kid started.
 - **Date:** 2026-10-12. **Decided by:** Chris (card, 16:31 UTC; confirmed the Claude default). **Status:** Done. **Progress:** live on learn.lanternlearn.com 2026-10-12.
 - **Links:** rocket-and-raven-press #123 (src/pages/api/kids/delete.ts, src/pages/kids/[id].astro). Related: D304.
+
+### D306: Where the shared source catalog lives
+- **Question:** Chris asked to review 51 free educational sites (an r/Homeschooling "50 free resources" post plus morelessonslessplanning.com) for borrowable content and for our educational sources catalog. No central catalog existed; each course keeps its own `SOURCES.md`. Where should the catalog go?
+- **Options:** A new `standards/source-catalog.md` in lantern-ui, next to the content standards (recommended); a data file in rocket-and-raven-press; only per-course `SOURCES.md`.
+- **Choice:** `standards/source-catalog.md`, grouped Reuse, Fact source, Link only and Avoid, with each site's license URL and the courses it fits. Content standards section 4 points to it. Course facts still go in each course's `SOURCES.md`.
+- **Date:** 2026-10-12. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** standards/source-catalog.md. Related: D307.
+
+### D307: Adapting NonCommercial-licensed material
+- **Question:** Code.org (now CodeAI) curriculum, Exploratorium Science Snacks, PhET sims published since 2026-03-29 and some Common Sense Media items are licensed NonCommercial (NC), several also ShareAlike (SA). Our courses are free and ad-free but run by Chris Brock LLC. Do we adapt NC material?
+- **Options:** Link only until a licensor confirms in writing (recommended); treat our free, ad-free courses as noncommercial and adapt, with SA material in marked blocks; never use NC material.
+- **Choice:** Not yet decided. Until then, NC material is link only (Claude default).
+- **Date:** 2026-10-12. **Decided by:** waiting on owner. **Status:** Open.
+- **Links:** standards/source-catalog.md. Related: D306.

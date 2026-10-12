@@ -106,6 +106,9 @@ Short stories are read one screen at a time:
   4. Established education organizations.
 
   Commercial blogs and content farms are not sources.
+- **Source catalog:** `standards/source-catalog.md` lists outside sites we
+  have checked, their licenses, and whether we may reuse, cite or only link
+  them. Check it first; add new sites there after reading their license page.
 - Never fabricate a source, quotation, statistic or URL. Every cited URL is
   opened and checked before publishing.
 - Test-prep content names the frameworks it builds on and states

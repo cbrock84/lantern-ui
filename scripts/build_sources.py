@@ -242,7 +242,8 @@ def main():
             'Standards codes must come from a key whose frameworks list that standard family.',
             'Copy or adapt material only when reuse is "reuse" and follow the license in _open_resources; otherwise write original text.',
             'Prefer standards_body, then government and museum_library, then university, then education_org. A "review" source needs a better one before new content relies on it.',
-            'Never fabricate a source or URL. Open every URL before citing it.'],
+            'Never fabricate a source or URL. Open every URL before citing it.',
+            '_media lists every photo, sim or story a course reuses, with its credit and license. Add a reused item to the course SOURCES.md (table columns: where, facts, title, credit, URL) and rebuild.'],
     }}
 
     # v1 keys, kept in order, with new columns.
@@ -381,8 +382,25 @@ def main():
             if not any(fams[fam] in f for f in have):
                 c['flags'].append(f'Uses {fams[fam]} codes but no source in its keys defines {fams[fam]}.')
 
+    # Every photo, sim or story a course reuses from an open source, listed
+    # in full (no cap): the item's page, its credit and its license. Add a
+    # host here when a course first reuses media from it.
+    MEDIA_HOSTS = {
+        'images.nasa.gov': 'NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/',
+        'photojournal.jpl.nasa.gov': 'NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/',
+    }
+    media = []
+    for u in sorted(url_courses):
+        h = host(u)
+        if h not in MEDIA_HOSTS:
+            continue
+        t, p = page_meta.get(u, (None, None))
+        media.append({'title': t or h, 'url': u, 'credit': p,
+                      'license': MEDIA_HOSTS[h],
+                      'cited_by': sorted(url_courses[u])})
     out['_courses'] = courses
     out['_open_resources'] = catalog
+    out['_media'] = media
     # Order: _meta, grade keys in grade then subject order, _courses, _open_resources.
     def order(k):
         if k == '_meta':

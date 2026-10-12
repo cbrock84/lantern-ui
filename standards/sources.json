@@ -65,7 +65,8 @@
       "Standards codes must come from a key whose frameworks list that standard family.",
       "Copy or adapt material only when reuse is \"reuse\" and follow the license in _open_resources; otherwise write original text.",
       "Prefer standards_body, then government and museum_library, then university, then education_org. A \"review\" source needs a better one before new content relies on it.",
-      "Never fabricate a source or URL. Open every URL before citing it."
+      "Never fabricate a source or URL. Open every URL before citing it.",
+      "_media lists every photo, sim or story a course reuses, with its credit and license. Add a reused item to the course SOURCES.md (table columns: where, facts, title, credit, URL) and rebuild."
     ]
   },
   "prek_math": [
@@ -13164,7 +13165,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/earth-space-g6-8/SOURCES.md",
-      "cited_pages": 48,
+      "cited_pages": 56,
       "top_hosts": [
         "science.nasa.gov",
         "nextgenscience.org",
@@ -13173,7 +13174,7 @@
         "pubs.usgs.gov",
         "geo.libretexts.org",
         "spaceplace.nasa.gov",
-        "aa.usno.navy.mil"
+        "images.nasa.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -14731,6 +14732,71 @@
       "flags": []
     }
   },
+  "_media": [
+    {
+      "title": "Total Lunar Eclipse & Blood Moon 2025 (GRC-2025-C-01605)",
+      "url": "https://images.nasa.gov/details/GRC-2025-C-01605",
+      "credit": "NASA/Jordan Cochran",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "Solar System Portrait - Earth as Pale Blue Dot (PIA00452)",
+      "url": "https://images.nasa.gov/details/PIA00452",
+      "credit": "NASA/JPL",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "Juno Closes in on Jupiter (PIA20706)",
+      "url": "https://images.nasa.gov/details/PIA20706",
+      "credit": "NASA/JPL-Caltech/SwRI/MSSS",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "An orbital sunrise colorfully illuminates the Earth's atmosphere (iss071e439624)",
+      "url": "https://images.nasa.gov/details/iss071e439624",
+      "credit": "NASA",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "The Grand Canyon in Arizona pictured from the International Space Station (iss074e0208838)",
+      "url": "https://images.nasa.gov/details/iss074e0208838",
+      "credit": "NASA",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "Solar System Portrait - Earth as Pale Blue Dot (PIA00452)",
+      "url": "https://photojournal.jpl.nasa.gov/catalog/PIA00452",
+      "credit": "NASA/JPL",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "Juno Closes in on Jupiter (PIA20706)",
+      "url": "https://photojournal.jpl.nasa.gov/catalog/PIA20706",
+      "credit": "NASA/JPL-Caltech/SwRI/MSSS",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "earth-space-g6-8"
+      ]
+    }
+  ],
   "_open_resources": [
     {
       "title": "Smithsonian Open Access",

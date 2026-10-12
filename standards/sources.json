@@ -12608,7 +12608,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/astronomy-year/SOURCES.md",
-      "cited_pages": 44,
+      "cited_pages": 49,
       "top_hosts": [
         "science.nasa.gov",
         "spaceplace.nasa.gov",
@@ -12616,7 +12616,7 @@
         "burro.cwru.edu",
         "nps.gov",
         "noirlab.edu",
-        "imagine.gsfc.nasa.gov",
+        "images.nasa.gov",
         "nasa.gov"
       ],
       "review_hosts": [],
@@ -14743,6 +14743,24 @@
       ]
     },
     {
+      "title": "Full Moon (GSFC_20171208_Archive_e000868)",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000868",
+      "credit": "NASA's Scientific Visualization Studio",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "astronomy-year"
+      ]
+    },
+    {
+      "title": "Perseid Meteor Shower (NHQ202108110003)",
+      "url": "https://images.nasa.gov/details/NHQ202108110003",
+      "credit": "NASA/Bill Ingalls",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "astronomy-year"
+      ]
+    },
+    {
       "title": "Solar System Portrait - Earth as Pale Blue Dot (PIA00452)",
       "url": "https://images.nasa.gov/details/PIA00452",
       "credit": "NASA/JPL",
@@ -14758,6 +14776,15 @@
       "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
       "cited_by": [
         "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "City lights where Europe meets Asia (iss062e103874)",
+      "url": "https://images.nasa.gov/details/iss062e103874",
+      "credit": "NASA",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [
+        "astronomy-year"
       ]
     },
     {

@@ -14734,6 +14734,42 @@
   },
   "_media": [
     {
+      "title": "Farmers' Bulletin No. 1460, Simple Plumbing Repairs in the Home (George M. Warren), text via Project Gutenberg",
+      "url": "https://gutenberg.org/cache/epub/62592/pg62592-images.html",
+      "credit": "U.S. Department of Agriculture",
+      "license": "Text not restricted by US copyright law; drop the Project Gutenberg license and name when reusing. https://www.gutenberg.org/policy/license.html",
+      "cited_by": [
+        "everyday-machines"
+      ]
+    },
+    {
+      "title": "Emily Dickinson, \"'Hope' is the thing with feathers\", in Poems: Three Series, Complete, Project Gutenberg eBook #12242 , public domain",
+      "url": "https://gutenberg.org/ebooks/12242",
+      "credit": null,
+      "license": "Text not restricted by US copyright law; drop the Project Gutenberg license and name when reusing. https://www.gutenberg.org/policy/license.html",
+      "cited_by": [
+        "reading-writing-g6-8"
+      ]
+    },
+    {
+      "title": "Aesop, \"Three hundred Aesop's fables\", translated by George Fyler Townsend, Project Gutenberg eBook #21 , public domain",
+      "url": "https://gutenberg.org/ebooks/21",
+      "credit": null,
+      "license": "Text not restricted by US copyright law; drop the Project Gutenberg license and name when reusing. https://www.gutenberg.org/policy/license.html",
+      "cited_by": [
+        "story-trail-g2-3"
+      ]
+    },
+    {
+      "title": "Robert Frost, \"The Road Not Taken\", in Mountain Interval (1916), Project Gutenberg eBook #29345 , public domain",
+      "url": "https://gutenberg.org/ebooks/29345",
+      "credit": null,
+      "license": "Text not restricted by US copyright law; drop the Project Gutenberg license and name when reusing. https://www.gutenberg.org/policy/license.html",
+      "cited_by": [
+        "reading-writing-g6-8"
+      ]
+    },
+    {
       "title": "Total Lunar Eclipse & Blood Moon 2025 (GRC-2025-C-01605)",
       "url": "https://images.nasa.gov/details/GRC-2025-C-01605",
       "credit": "NASA/Jordan Cochran",

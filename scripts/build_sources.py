@@ -385,18 +385,28 @@ def main():
     # Every photo, sim or story a course reuses from an open source, listed
     # in full (no cap): the item's page, its credit and its license. Add a
     # host here when a course first reuses media from it.
+    NASA_MEDIA = 'NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/'
+    # None: take the license from the host's source-catalog.md row.
     MEDIA_HOSTS = {
-        'images.nasa.gov': 'NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/',
-        'photojournal.jpl.nasa.gov': 'NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/',
+        'images.nasa.gov': NASA_MEDIA,
+        'photojournal.jpl.nasa.gov': NASA_MEDIA,
+        'gutenberg.org': 'Text not restricted by US copyright law; drop the Project Gutenberg license and name when reusing. https://www.gutenberg.org/policy/license.html',
+        'phet.colorado.edu': None,
+        'storyweaver.org.in': None,
+        'collections.si.edu': 'CC0 (Smithsonian Open Access items only). https://registry.opendata.aws/smithsonian-open-access/',
+        'metmuseum.org': 'CC0 (Met Open Access items only). https://github.com/metmuseum/openaccess',
     }
     media = []
     for u in sorted(url_courses):
         h = host(u)
         if h not in MEDIA_HOSTS:
             continue
+        lic = MEDIA_HOSTS[h]
+        if lic is None:
+            cat = cat_by_host.get(h)
+            lic = cat['license'] if cat else 'Not checked: open the item page and record its license before reuse.'
         t, p = page_meta.get(u, (None, None))
-        media.append({'title': t or h, 'url': u, 'credit': p,
-                      'license': MEDIA_HOSTS[h],
+        media.append({'title': t or h, 'url': u, 'credit': p, 'license': lic,
                       'cited_by': sorted(url_courses[u])})
     out['_courses'] = courses
     out['_open_resources'] = catalog

@@ -1,0 +1,736 @@
+{
+  "_meta": {
+    "description": "Authoritative standards/guidance URLs for KDP workbook and SEO content generation. Keys follow the pattern '{grade_id}_{subject_slug}' where grade_id matches WORKBOOK_GRADES in config.py and subject_slug is a snake_case slug of the subject name. Each entry is a list of {title, url, description} objects. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice (DAP) and developmental milestones instead.",
+    "grade_ids": ["prek", "k", "1st", "2nd", "3rd", "4th", "5th"],
+    "subject_slugs": ["math", "reading_ela", "writing", "science", "social_studies", "critical_thinking"],
+    "subject_slug_map": {
+      "Math": "math",
+      "Reading & ELA": "reading_ela",
+      "Writing": "writing",
+      "Science": "science",
+      "Social Studies": "social_studies",
+      "Critical Thinking": "critical_thinking"
+    }
+  },
+
+  "prek_math": [
+    {
+      "title": "NAEYC & NCTM Joint Position Statement: Early Childhood Mathematics",
+      "url": "https://www.naeyc.org/resources/position-statements/mathematics",
+      "description": "Joint guidance from NAEYC and NCTM on promoting good beginnings in mathematics for children ages 3-6 — emphasizes counting, number sense, spatial reasoning, and measurement through play-based learning."
+    },
+    {
+      "title": "NAEYC Math Topic Hub",
+      "url": "https://www.naeyc.org/resources/topics/math",
+      "description": "Developmentally appropriate early math activities and teaching strategies from the National Association for the Education of Young Children."
+    },
+    {
+      "title": "Head Start Early Learning Outcomes Framework: Mathematics Development",
+      "url": "https://eclkc.ohs.acf.hhs.gov/school-readiness/article/early-learning-outcomes-framework",
+      "description": "Federal framework for preschool math development (counting, operations, measurement, geometry, patterns) for ages 3-5."
+    }
+  ],
+  "prek_reading_ela": [
+    {
+      "title": "NAEYC & ILA Joint Position Statement: Learning to Read and Write",
+      "url": "https://www.naeyc.org/resources/position-statements/learning-read-write",
+      "description": "Joint NAEYC / International Literacy Association guidance on developmentally appropriate emergent literacy practices — phonological awareness, print awareness, oral language, vocabulary."
+    },
+    {
+      "title": "Reach Out and Read (AAP-endorsed)",
+      "url": "https://reachoutandread.org/",
+      "description": "American Academy of Pediatrics-endorsed early literacy program — guidance on shared reading as pediatric practice from infancy through age 5."
+    },
+    {
+      "title": "AAP HealthyChildren: Preschool",
+      "url": "https://www.healthychildren.org/English/ages-stages/preschool/Pages/default.aspx",
+      "description": "AAP parent-facing guidance on cognitive, language, and literacy development in children ages 3-5."
+    }
+  ],
+  "prek_writing": [
+    {
+      "title": "NAEYC: Developmentally Appropriate Practice (DAP) Position Statement",
+      "url": "https://www.naeyc.org/resources/position-statements/dap",
+      "description": "NAEYC's foundational position on DAP — applies to early writing as mark-making, name-writing, and scribble-to-letter progression for ages 3-5."
+    },
+    {
+      "title": "Handwriting Without Tears / Learning Without Tears — Pre-K Research",
+      "url": "https://www.lwtears.com/research",
+      "description": "Evidence-based fine-motor and pre-writing development guidance widely used in preschools and occupational therapy."
+    },
+    {
+      "title": "Head Start ELOF: Language and Literacy (Writing)",
+      "url": "https://eclkc.ohs.acf.hhs.gov/interactive-head-start-early-learning-outcomes-framework-ages-birth-five",
+      "description": "Federal framework for preschool early writing — scribbling, letter-like forms, and name-writing milestones."
+    }
+  ],
+  "prek_science": [
+    {
+      "title": "NAEYC STEM Topic Hub",
+      "url": "https://www.naeyc.org/resources/topics/stem",
+      "description": "NAEYC early STEM resources — inquiry, observation, and exploration practices for preschoolers."
+    },
+    {
+      "title": "NSTA Position Statement: Early Childhood Science Education",
+      "url": "https://www.nsta.org/nstas-official-positions/early-childhood-science-education",
+      "description": "National Science Teaching Association's position on inquiry-based science learning for children ages 3-5."
+    },
+    {
+      "title": "Head Start ELOF: Scientific Reasoning",
+      "url": "https://eclkc.ohs.acf.hhs.gov/interactive-head-start-early-learning-outcomes-framework-ages-birth-five",
+      "description": "Federal framework for preschool scientific observation, prediction, and classification skills."
+    }
+  ],
+  "prek_social_studies": [
+    {
+      "title": "NAEYC DAP Position Statement",
+      "url": "https://www.naeyc.org/resources/position-statements/dap",
+      "description": "Developmentally appropriate practice framework — includes social-emotional development, family/community awareness, and identity for ages 3-5."
+    },
+    {
+      "title": "NCSS Early Childhood and Elementary Social Studies Position",
+      "url": "https://www.socialstudies.org/positions/early-childhood",
+      "description": "National Council for the Social Studies on powerful and purposeful social studies in early grades."
+    },
+    {
+      "title": "AAP HealthyChildren: Social-Emotional Development",
+      "url": "https://www.healthychildren.org/English/ages-stages/preschool/Pages/Emotional-Development-3-Year-Olds.aspx",
+      "description": "AAP guidance on identity, family, community helpers, and social-emotional milestones relevant to preschool social studies."
+    }
+  ],
+  "prek_critical_thinking": [
+    {
+      "title": "NAEYC DAP: Cognitive Development in Early Years",
+      "url": "https://www.naeyc.org/resources/position-statements/dap",
+      "description": "DAP guidance on pattern recognition, sorting/classifying, and problem-solving as developmentally appropriate for ages 3-5."
+    },
+    {
+      "title": "NAEYC & NCTM Early Math (Reasoning Components)",
+      "url": "https://www.naeyc.org/resources/position-statements/mathematics",
+      "description": "Position statement sections on reasoning, problem-solving, and spatial sense in early math — foundational critical thinking for preschool."
+    },
+    {
+      "title": "Head Start ELOF: Cognitive Self-Regulation (Executive Function)",
+      "url": "https://eclkc.ohs.acf.hhs.gov/interactive-head-start-early-learning-outcomes-framework-ages-birth-five",
+      "description": "Federal framework for preschool executive function — attention, working memory, and inhibitory control underpinning reasoning."
+    }
+  ],
+
+  "k_math": [
+    {
+      "title": "CCSS-M: Kindergarten Mathematics Standards",
+      "url": "https://www.thecorestandards.org/Math/Content/K/",
+      "description": "Common Core Kindergarten math: Counting & Cardinality (K.CC), Operations (K.OA), Number & Operations in Base Ten (K.NBT), Measurement & Data (K.MD), Geometry (K.G)."
+    },
+    {
+      "title": "CCSS Standards for Mathematical Practice",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Eight practice standards (MP1-MP8) that apply across all grades — problem-solving, reasoning, modeling, precision."
+    },
+    {
+      "title": "NCTM Principles and Standards — Pre-K to Grade 2",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Pre-K-Grade-2/",
+      "description": "National Council of Teachers of Mathematics content and process standards for early elementary."
+    }
+  ],
+  "k_reading_ela": [
+    {
+      "title": "CCSS-ELA: Reading Foundational Skills, Kindergarten (RF.K)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RF/K/",
+      "description": "Print concepts, phonological awareness, phonics, and fluency standards for Kindergarten."
+    },
+    {
+      "title": "CCSS-ELA: Reading Literature and Informational Text, Kindergarten (RL.K, RI.K)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RL/K/",
+      "description": "Literature and informational-text standards for Kindergarten — key ideas, craft/structure, integration of knowledge."
+    },
+    {
+      "title": "ILA Position Statements on Early Literacy",
+      "url": "https://www.literacyworldwide.org/get-resources/position-statements",
+      "description": "International Literacy Association position statements on phonics, phonemic awareness, and early reading instruction."
+    }
+  ],
+  "k_writing": [
+    {
+      "title": "CCSS-ELA: Writing, Kindergarten (W.K)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/K/",
+      "description": "Text types and purposes (W.K.1 opinion, W.K.2 informative, W.K.3 narrative) plus production and research with adult support."
+    },
+    {
+      "title": "CCSS-ELA: Language, Kindergarten (L.K)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/K/",
+      "description": "Conventions, vocabulary, and knowledge of language standards supporting early writing."
+    },
+    {
+      "title": "NAEYC & ILA Learning to Read and Write",
+      "url": "https://www.naeyc.org/resources/position-statements/learning-read-write",
+      "description": "Joint NAEYC/ILA guidance on developmentally appropriate writing practices in Kindergarten."
+    }
+  ],
+  "k_science": [
+    {
+      "title": "NGSS Kindergarten Performance Expectations",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "Next Generation Science Standards for Kindergarten — K-PS2 (Forces/Motion), K-PS3 (Energy/Sunlight), K-LS1 (Living things), K-ESS2 (Weather), K-ESS3 (Humans & environment)."
+    },
+    {
+      "title": "NSTA Early Childhood Science Education Position",
+      "url": "https://www.nsta.org/nstas-official-positions/early-childhood-science-education",
+      "description": "National Science Teaching Association guidance for inquiry-based K-2 science instruction."
+    },
+    {
+      "title": "NGSS Appendices (Crosscutting Concepts, Practices)",
+      "url": "https://www.nextgenscience.org/resources/ngss-appendices",
+      "description": "Supporting documents explaining NGSS three-dimensional learning: science practices, crosscutting concepts, disciplinary core ideas."
+    }
+  ],
+  "k_social_studies": [
+    {
+      "title": "NCSS C3 Framework for Social Studies",
+      "url": "https://www.socialstudies.org/standards/c3",
+      "description": "College, Career, and Civic Life (C3) framework — civics, economics, geography, history. Applies across K-12."
+    },
+    {
+      "title": "NCSS National Curriculum Standards: Ten Themes",
+      "url": "https://www.socialstudies.org/standards/national-curriculum-standards-social-studies",
+      "description": "Ten thematic strands (culture; time/continuity/change; people/places/environments; etc.) that structure K-12 social studies."
+    },
+    {
+      "title": "NAEYC DAP for Social-Emotional and Community Learning",
+      "url": "https://www.naeyc.org/resources/position-statements/dap",
+      "description": "DAP position statement covering identity, family, classroom community, and cultural awareness appropriate for Kindergarten."
+    }
+  ],
+  "k_critical_thinking": [
+    {
+      "title": "CCSS Standards for Mathematical Practice (MP1-MP8)",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Core reasoning practices — making sense of problems, reasoning abstractly, constructing arguments — foundational across K-12."
+    },
+    {
+      "title": "NCTM Process Standards",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Process/",
+      "description": "Five process standards: problem-solving, reasoning/proof, communication, connections, representation."
+    },
+    {
+      "title": "NAEYC DAP — Cognitive and Executive Function Development",
+      "url": "https://www.naeyc.org/resources/position-statements/dap",
+      "description": "DAP guidance on reasoning, pattern recognition, and problem-solving appropriate for Kindergarten cognitive development."
+    }
+  ],
+
+  "1st_math": [
+    {
+      "title": "CCSS-M: Grade 1 Mathematics Standards",
+      "url": "https://www.thecorestandards.org/Math/Content/1/",
+      "description": "Common Core Grade 1 math: Operations & Algebraic Thinking (1.OA), Number & Operations in Base Ten (1.NBT), Measurement & Data (1.MD), Geometry (1.G)."
+    },
+    {
+      "title": "CCSS Standards for Mathematical Practice",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Eight practice standards that apply across all grades — problem-solving, reasoning, modeling, precision."
+    },
+    {
+      "title": "NCTM Principles and Standards — Pre-K to Grade 2",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Pre-K-Grade-2/",
+      "description": "NCTM content and process standards for early elementary mathematics."
+    }
+  ],
+  "1st_reading_ela": [
+    {
+      "title": "CCSS-ELA: Reading Foundational Skills, Grade 1 (RF.1)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RF/1/",
+      "description": "Print concepts, phonological awareness, phonics/word recognition, and fluency standards for 1st grade."
+    },
+    {
+      "title": "CCSS-ELA: Reading Literature/Informational, Grade 1 (RL.1, RI.1)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RL/1/",
+      "description": "Grade 1 literature and informational-text standards — key ideas, craft/structure, integration of knowledge."
+    },
+    {
+      "title": "ILA Literacy Leadership Briefs",
+      "url": "https://www.literacyworldwide.org/get-resources/literacy-leadership-briefs",
+      "description": "International Literacy Association research-informed briefs on early elementary literacy instruction."
+    }
+  ],
+  "1st_writing": [
+    {
+      "title": "CCSS-ELA: Writing, Grade 1 (W.1)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/1/",
+      "description": "Opinion (W.1.1), informative/explanatory (W.1.2), and narrative (W.1.3) writing with production and research standards."
+    },
+    {
+      "title": "CCSS-ELA: Language, Grade 1 (L.1)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/1/",
+      "description": "Conventions (capitalization, punctuation, spelling), knowledge of language, and vocabulary acquisition for Grade 1."
+    },
+    {
+      "title": "ILA Position on Phonics and Word-Recognition Instruction",
+      "url": "https://www.literacyworldwide.org/get-resources/position-statements",
+      "description": "ILA guidance on phonics/encoding instruction that supports early spelling and composition."
+    }
+  ],
+  "1st_science": [
+    {
+      "title": "NGSS Grade 1 Performance Expectations",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "Next Generation Science Standards for Grade 1: 1-PS4 (Waves: Light/Sound), 1-LS1 (Structure/Function), 1-LS3 (Heredity), 1-ESS1 (Space Systems)."
+    },
+    {
+      "title": "NSTA Elementary Science Position",
+      "url": "https://www.nsta.org/nstas-official-positions/elementary-school-science",
+      "description": "National Science Teaching Association guidance on inquiry-based elementary science."
+    },
+    {
+      "title": "NGSS Appendices (Practices, Crosscutting Concepts, DCIs)",
+      "url": "https://www.nextgenscience.org/resources/ngss-appendices",
+      "description": "Supporting documents on three-dimensional learning in NGSS."
+    }
+  ],
+  "1st_social_studies": [
+    {
+      "title": "NCSS C3 Framework for Social Studies",
+      "url": "https://www.socialstudies.org/standards/c3",
+      "description": "College, Career, and Civic Life framework covering civics, economics, geography, and history."
+    },
+    {
+      "title": "NCSS National Curriculum Standards: Ten Themes",
+      "url": "https://www.socialstudies.org/standards/national-curriculum-standards-social-studies",
+      "description": "Ten thematic strands structuring K-12 social studies — culture, continuity, civic ideals, and more."
+    },
+    {
+      "title": "iCivics (Retired Justice O'Connor) — Elementary Civics",
+      "url": "https://www.icivics.org/curriculum/elementary",
+      "description": "Free standards-aligned elementary civics curriculum, widely used and referenced by NCSS."
+    }
+  ],
+  "1st_critical_thinking": [
+    {
+      "title": "CCSS Standards for Mathematical Practice (MP1-MP8)",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Core reasoning practices applicable across Grade 1 math and other subjects."
+    },
+    {
+      "title": "NCTM Process Standards",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Process/",
+      "description": "Problem-solving, reasoning, communication, connections, and representation as process goals."
+    },
+    {
+      "title": "NAEYC: Developmentally Appropriate Practice (DAP)",
+      "url": "https://www.naeyc.org/resources/position-statements/dap",
+      "description": "DAP framework for appropriate cognitive challenge and reasoning development in early elementary."
+    }
+  ],
+
+  "2nd_math": [
+    {
+      "title": "CCSS-M: Grade 2 Mathematics Standards",
+      "url": "https://www.thecorestandards.org/Math/Content/2/",
+      "description": "Common Core Grade 2 math: Operations & Algebraic Thinking (2.OA), Number & Operations in Base Ten (2.NBT), Measurement & Data (2.MD), Geometry (2.G)."
+    },
+    {
+      "title": "CCSS Standards for Mathematical Practice",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Eight practice standards (MP1-MP8) applied across all grades."
+    },
+    {
+      "title": "NCTM Principles and Standards — Pre-K to Grade 2",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Pre-K-Grade-2/",
+      "description": "NCTM content and process standards for early elementary math."
+    }
+  ],
+  "2nd_reading_ela": [
+    {
+      "title": "CCSS-ELA: Reading Foundational Skills, Grade 2 (RF.2)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RF/2/",
+      "description": "Phonics/word recognition (RF.2.3) and fluency (RF.2.4) standards for 2nd grade."
+    },
+    {
+      "title": "CCSS-ELA: Reading Literature/Informational, Grade 2 (RL.2, RI.2)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RL/2/",
+      "description": "Grade 2 literature and informational-text standards — key ideas, craft/structure, integration of knowledge."
+    },
+    {
+      "title": "ILA Position Statements",
+      "url": "https://www.literacyworldwide.org/get-resources/position-statements",
+      "description": "International Literacy Association position statements on reading instruction."
+    }
+  ],
+  "2nd_writing": [
+    {
+      "title": "CCSS-ELA: Writing, Grade 2 (W.2)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/2/",
+      "description": "Opinion (W.2.1), informative/explanatory (W.2.2), and narrative (W.2.3) writing with production and shared research."
+    },
+    {
+      "title": "CCSS-ELA: Language, Grade 2 (L.2)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/2/",
+      "description": "Conventions, knowledge of language, and vocabulary acquisition for Grade 2."
+    },
+    {
+      "title": "ILA Literacy Glossary",
+      "url": "https://www.literacyworldwide.org/get-resources/literacy-glossary",
+      "description": "Authoritative terminology for writing and literacy instruction from the International Literacy Association."
+    }
+  ],
+  "2nd_science": [
+    {
+      "title": "NGSS Grade 2 Performance Expectations",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "Next Generation Science Standards for Grade 2: 2-PS1 (Matter and its Interactions), 2-LS2/2-LS4 (Ecosystems/Biodiversity), 2-ESS1/2-ESS2 (Earth's Systems)."
+    },
+    {
+      "title": "NSTA Elementary Science Position",
+      "url": "https://www.nsta.org/nstas-official-positions/elementary-school-science",
+      "description": "NSTA guidance on elementary science instruction."
+    },
+    {
+      "title": "NGSS K-2 Engineering Standards (K-2-ETS1)",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "K-2 engineering design standards integrated with science content."
+    }
+  ],
+  "2nd_social_studies": [
+    {
+      "title": "NCSS C3 Framework",
+      "url": "https://www.socialstudies.org/standards/c3",
+      "description": "Inquiry arc for civics, economics, geography, and history."
+    },
+    {
+      "title": "NCSS National Curriculum Standards: Ten Themes",
+      "url": "https://www.socialstudies.org/standards/national-curriculum-standards-social-studies",
+      "description": "Thematic strands appropriate for 2nd grade — local community, cultural heritage, civic ideals."
+    },
+    {
+      "title": "Library of Congress: Primary Sources for Elementary",
+      "url": "https://www.loc.gov/classroom-materials/",
+      "description": "Primary-source teaching materials aligned to C3 inquiry practice for elementary social studies."
+    }
+  ],
+  "2nd_critical_thinking": [
+    {
+      "title": "CCSS Standards for Mathematical Practice (MP1-MP8)",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Core reasoning practices across 2nd grade content."
+    },
+    {
+      "title": "NCTM Process Standards",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Process/",
+      "description": "Problem-solving, reasoning, communication, connections, representation."
+    },
+    {
+      "title": "NAEYC DAP",
+      "url": "https://www.naeyc.org/resources/position-statements/dap",
+      "description": "Developmentally appropriate cognitive challenge for 2nd graders (ages 7-8)."
+    }
+  ],
+
+  "3rd_math": [
+    {
+      "title": "CCSS-M: Grade 3 Mathematics Standards",
+      "url": "https://www.thecorestandards.org/Math/Content/3/",
+      "description": "Common Core Grade 3 math: Operations & Algebraic Thinking (3.OA), Number & Operations in Base Ten (3.NBT), Number & Operations—Fractions (3.NF), Measurement & Data (3.MD), Geometry (3.G)."
+    },
+    {
+      "title": "CCSS Standards for Mathematical Practice",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Eight practice standards (MP1-MP8)."
+    },
+    {
+      "title": "NCTM Principles and Standards — Grades 3-5",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Grades-3-5/",
+      "description": "NCTM content/process standards for upper elementary — fractions, multiplication, geometry, data."
+    }
+  ],
+  "3rd_reading_ela": [
+    {
+      "title": "CCSS-ELA: Reading Foundational Skills, Grade 3 (RF.3)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RF/3/",
+      "description": "Phonics/word recognition and fluency standards for 3rd grade — final year of RF standards in CCSS."
+    },
+    {
+      "title": "CCSS-ELA: Reading Literature/Informational, Grade 3 (RL.3, RI.3)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RL/3/",
+      "description": "Grade 3 literature and informational-text standards — main idea (RI.3.2), text features (RI.3.5), inference, vocabulary."
+    },
+    {
+      "title": "ILA Position Statements",
+      "url": "https://www.literacyworldwide.org/get-resources/position-statements",
+      "description": "International Literacy Association positions on reading comprehension and vocabulary instruction."
+    }
+  ],
+  "3rd_writing": [
+    {
+      "title": "CCSS-ELA: Writing, Grade 3 (W.3)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/3/",
+      "description": "Opinion (W.3.1), informative (W.3.2), narrative (W.3.3), plus short research projects and revision with guidance."
+    },
+    {
+      "title": "CCSS-ELA: Language, Grade 3 (L.3)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/3/",
+      "description": "Conventions, knowledge of language, and vocabulary for Grade 3."
+    },
+    {
+      "title": "ILA Literacy Leadership Briefs on Writing",
+      "url": "https://www.literacyworldwide.org/get-resources/literacy-leadership-briefs",
+      "description": "Research-informed briefs on writing instruction in grades 3-5."
+    }
+  ],
+  "3rd_science": [
+    {
+      "title": "NGSS Grade 3 Performance Expectations",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "NGSS Grade 3: 3-PS2 (Forces and Interactions), 3-LS1/3-LS2/3-LS3/3-LS4 (Life Cycles, Groups, Heredity, Adaptations), 3-ESS2/3-ESS3 (Weather/Climate/Hazards)."
+    },
+    {
+      "title": "NSTA Elementary Science Position",
+      "url": "https://www.nsta.org/nstas-official-positions/elementary-school-science",
+      "description": "NSTA guidance on three-dimensional learning in elementary science."
+    },
+    {
+      "title": "NGSS 3-5 Engineering Standards (3-5-ETS1)",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "Upper-elementary engineering design standards integrated with science content."
+    }
+  ],
+  "3rd_social_studies": [
+    {
+      "title": "NCSS C3 Framework",
+      "url": "https://www.socialstudies.org/standards/c3",
+      "description": "Inquiry arc for 3rd-grade civics, economics, geography, and history content."
+    },
+    {
+      "title": "NCSS National Curriculum Standards: Ten Themes",
+      "url": "https://www.socialstudies.org/standards/national-curriculum-standards-social-studies",
+      "description": "Ten thematic strands — common 3rd-grade focus on community, geography, culture, and economic choices."
+    },
+    {
+      "title": "Library of Congress: Classroom Materials",
+      "url": "https://www.loc.gov/classroom-materials/",
+      "description": "Primary-source-based teaching materials aligned with C3 inquiry."
+    }
+  ],
+  "3rd_critical_thinking": [
+    {
+      "title": "CCSS Standards for Mathematical Practice (MP1-MP8)",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Core reasoning practices applied to 3rd-grade content."
+    },
+    {
+      "title": "NCTM Process Standards",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Process/",
+      "description": "Five process standards: problem-solving, reasoning/proof, communication, connections, representation."
+    },
+    {
+      "title": "NSTA Science and Engineering Practices",
+      "url": "https://www.nextgenscience.org/resources/ngss-appendices",
+      "description": "NGSS Appendix F — eight science and engineering practices that develop reasoning across disciplines."
+    }
+  ],
+
+  "4th_math": [
+    {
+      "title": "CCSS-M: Grade 4 Mathematics Standards",
+      "url": "https://www.thecorestandards.org/Math/Content/4/",
+      "description": "Common Core Grade 4 math: Operations & Algebraic Thinking (4.OA), Number & Operations in Base Ten (4.NBT), Number & Operations—Fractions (4.NF), Measurement & Data (4.MD), Geometry (4.G)."
+    },
+    {
+      "title": "CCSS Standards for Mathematical Practice",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Eight practice standards (MP1-MP8)."
+    },
+    {
+      "title": "NCTM Principles and Standards — Grades 3-5",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Grades-3-5/",
+      "description": "NCTM content/process standards for upper elementary."
+    }
+  ],
+  "4th_reading_ela": [
+    {
+      "title": "CCSS-ELA: Reading Literature, Grade 4 (RL.4)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RL/4/",
+      "description": "Grade 4 literature standards — theme (RL.4.2), character/setting/event analysis, figurative language (RL.4.4), point of view."
+    },
+    {
+      "title": "CCSS-ELA: Reading Informational Text, Grade 4 (RI.4)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/4/",
+      "description": "Grade 4 informational-text standards — main idea, text structure, author's purpose, integration of information."
+    },
+    {
+      "title": "ILA Position Statements",
+      "url": "https://www.literacyworldwide.org/get-resources/position-statements",
+      "description": "International Literacy Association positions on comprehension and close reading."
+    }
+  ],
+  "4th_writing": [
+    {
+      "title": "CCSS-ELA: Writing, Grade 4 (W.4)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/4/",
+      "description": "Opinion (W.4.1), informative (W.4.2), narrative (W.4.3) with organizational structure, evidence, linking words; short research projects and typing."
+    },
+    {
+      "title": "CCSS-ELA: Language, Grade 4 (L.4)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/4/",
+      "description": "Conventions, knowledge of language, and vocabulary acquisition for Grade 4."
+    },
+    {
+      "title": "ILA Literacy Leadership Briefs on Writing",
+      "url": "https://www.literacyworldwide.org/get-resources/literacy-leadership-briefs",
+      "description": "Research-informed guidance on upper-elementary writing instruction."
+    }
+  ],
+  "4th_science": [
+    {
+      "title": "NGSS Grade 4 Performance Expectations",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "NGSS Grade 4: 4-PS3 (Energy), 4-PS4 (Waves/Information), 4-LS1 (Structure/Function/Information Processing), 4-ESS1/4-ESS2/4-ESS3 (Earth's history, systems, human impact)."
+    },
+    {
+      "title": "NSTA Elementary Science Position",
+      "url": "https://www.nsta.org/nstas-official-positions/elementary-school-science",
+      "description": "NSTA guidance on three-dimensional learning in elementary science."
+    },
+    {
+      "title": "NGSS 3-5 Engineering Standards (3-5-ETS1)",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "Upper-elementary engineering design standards integrated with science content."
+    }
+  ],
+  "4th_social_studies": [
+    {
+      "title": "NCSS C3 Framework",
+      "url": "https://www.socialstudies.org/standards/c3",
+      "description": "Inquiry arc for 4th-grade content — often state history and regional geography."
+    },
+    {
+      "title": "NCSS National Curriculum Standards: Ten Themes",
+      "url": "https://www.socialstudies.org/standards/national-curriculum-standards-social-studies",
+      "description": "Ten thematic strands applied to upper-elementary content."
+    },
+    {
+      "title": "Smithsonian Learning Lab",
+      "url": "https://learninglab.si.edu/",
+      "description": "Primary-source collections aligned to C3 inquiry for 4th-grade history and culture units."
+    }
+  ],
+  "4th_critical_thinking": [
+    {
+      "title": "CCSS Standards for Mathematical Practice (MP1-MP8)",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Core reasoning practices applied to 4th-grade content."
+    },
+    {
+      "title": "NCTM Process Standards",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Process/",
+      "description": "Problem-solving, reasoning, communication, connections, representation."
+    },
+    {
+      "title": "NGSS Science and Engineering Practices (Appendix F)",
+      "url": "https://www.nextgenscience.org/resources/ngss-appendices",
+      "description": "Eight SEPs — asking questions, developing models, arguing from evidence — as cross-domain reasoning."
+    }
+  ],
+
+  "5th_math": [
+    {
+      "title": "CCSS-M: Grade 5 Mathematics Standards",
+      "url": "https://www.thecorestandards.org/Math/Content/5/",
+      "description": "Common Core Grade 5 math: Operations & Algebraic Thinking (5.OA), Number & Operations in Base Ten (5.NBT), Number & Operations—Fractions (5.NF), Measurement & Data (5.MD), Geometry (5.G)."
+    },
+    {
+      "title": "CCSS Standards for Mathematical Practice",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Eight practice standards (MP1-MP8) supporting pre-algebraic reasoning in 5th grade."
+    },
+    {
+      "title": "NCTM Principles and Standards — Grades 3-5",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Grades-3-5/",
+      "description": "NCTM content/process standards for upper elementary, including the transition to pre-algebra."
+    }
+  ],
+  "5th_reading_ela": [
+    {
+      "title": "CCSS-ELA: Reading Literature, Grade 5 (RL.5)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RL/5/",
+      "description": "Grade 5 literature standards — theme, character analysis, point of view, figurative language, genre comparison."
+    },
+    {
+      "title": "CCSS-ELA: Reading Informational Text, Grade 5 (RI.5)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/RI/5/",
+      "description": "Grade 5 informational-text standards — main idea, multiple accounts, text structure, integration of information from multiple texts."
+    },
+    {
+      "title": "ILA Position Statements",
+      "url": "https://www.literacyworldwide.org/get-resources/position-statements",
+      "description": "ILA positions on comprehension, close reading, and disciplinary literacy."
+    }
+  ],
+  "5th_writing": [
+    {
+      "title": "CCSS-ELA: Writing, Grade 5 (W.5)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/W/5/",
+      "description": "Opinion (W.5.1), informative (W.5.2), narrative (W.5.3) with logical grouping, evidence, linking words, and conclusions; research projects with multiple sources."
+    },
+    {
+      "title": "CCSS-ELA: Language, Grade 5 (L.5)",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/L/5/",
+      "description": "Conventions, knowledge of language, and vocabulary for Grade 5."
+    },
+    {
+      "title": "ILA Literacy Leadership Briefs",
+      "url": "https://www.literacyworldwide.org/get-resources/literacy-leadership-briefs",
+      "description": "ILA research-informed briefs on upper-elementary writing and research instruction."
+    }
+  ],
+  "5th_science": [
+    {
+      "title": "NGSS Grade 5 Performance Expectations",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "NGSS Grade 5: 5-PS1 (Matter), 5-PS2 (Motion/Gravity), 5-PS3 (Energy), 5-LS1/5-LS2 (Plants/Ecosystems), 5-ESS1/5-ESS2/5-ESS3 (Earth/Space systems and human impact)."
+    },
+    {
+      "title": "NSTA Elementary Science Position",
+      "url": "https://www.nsta.org/nstas-official-positions/elementary-school-science",
+      "description": "NSTA guidance on three-dimensional learning in elementary science."
+    },
+    {
+      "title": "NGSS 3-5 Engineering Standards (3-5-ETS1)",
+      "url": "https://www.nextgenscience.org/search-standards",
+      "description": "Upper-elementary engineering design standards — defining problems, developing/comparing solutions, optimizing designs."
+    }
+  ],
+  "5th_social_studies": [
+    {
+      "title": "NCSS C3 Framework",
+      "url": "https://www.socialstudies.org/standards/c3",
+      "description": "Inquiry arc for 5th-grade content — commonly US history (pre-Columbian through Civil War) and geography."
+    },
+    {
+      "title": "NCSS National Curriculum Standards: Ten Themes",
+      "url": "https://www.socialstudies.org/standards/national-curriculum-standards-social-studies",
+      "description": "Ten thematic strands applied to 5th-grade civics, economics, and history."
+    },
+    {
+      "title": "National Archives DocsTeach",
+      "url": "https://www.docsteach.org/",
+      "description": "Primary-source teaching materials from the US National Archives, aligned with C3 inquiry for 5th-grade US history."
+    }
+  ],
+  "5th_critical_thinking": [
+    {
+      "title": "CCSS Standards for Mathematical Practice (MP1-MP8)",
+      "url": "https://www.thecorestandards.org/Math/Practice/",
+      "description": "Core reasoning practices applied to 5th-grade content, including pre-algebraic reasoning."
+    },
+    {
+      "title": "NCTM Process Standards",
+      "url": "https://www.nctm.org/Standards-and-Positions/Principles-and-Standards/Process/",
+      "description": "Problem-solving, reasoning, communication, connections, representation."
+    },
+    {
+      "title": "NGSS Science and Engineering Practices (Appendix F)",
+      "url": "https://www.nextgenscience.org/resources/ngss-appendices",
+      "description": "Eight science and engineering practices — cross-domain reasoning applicable to 5th-grade content."
+    }
+  ]
+}

@@ -1735,5 +1735,5 @@ Every entry has these fields:
 - **Question:** Chris signed in and finished an exercise, but nothing saved (2026-10-12). Saving needs a selected kid profile (the `rr_active_kid` cookie). A parent signing in on a new device, or one who never made a profile, had none, so the lesson treated them as a guest and told them to sign in. What should happen?
 - **Options:** Use the parent's first profile, or make a default "Learner" profile when they have none, and save (recommended); make the parent create a profile before any lesson saves; keep guest behavior.
 - **Choice:** Use the first profile, or create "Learner" (renamable from the dashboard) on the first graded or autosaved work. Sign-in also points the cookie at the account's first profile, or clears a cookie left by another account. Just opening a lesson creates nothing. The guest "sign in" link now returns to the lesson.
-- **Date:** 2026-10-12. **Decided by:** Claude (default). **Status:** Decided.
-- **Links:** rocket-and-raven-press (src/lib/kidAuth.ts, api/grade.ts, api/save.ts, api/auth/verify.ts).
+- **Date:** 2026-10-12. **Decided by:** owner (tapped Auto profile on the card, 15:17 UTC). **Status:** Decided.
+- **Links:** rocket-and-raven-press #122 (src/lib/kidAuth.ts, api/grade.ts, api/save.ts, api/auth/verify.ts).

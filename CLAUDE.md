@@ -37,6 +37,9 @@ original from June 2026 is kept verbatim in `standards/sources-v1-2026-06.json`)
   organizations.
 - Copy or adapt outside material only when its `_open_resources` entry says
   `reuse`, with the credit its license asks for (D307 covers NonCommercial).
+- `_media` lists every photo, sim or story a course reuses, with its credit and
+  license. Record each one in the course `SOURCES.md` (columns: where, facts,
+  title, credit, URL) and show the credit next to it in the lesson.
 - `_courses` maps every live course to its keys and flags courses whose content
   is not yet traced to a listed source. Clear a flag before adding content to
   that course.

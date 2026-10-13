@@ -2,7 +2,8 @@
 
 Set by the owner on 2026-10-10 (D145). The long-term scope is K-12 through
 adult training; young children are the early focus, not the ceiling. Every
-course stays free with no ads or tracking (D106, D138).
+course stays free (D106, D138). The websites keep GA4 (D2) and Cloudflare Web
+Analytics (D303); the store apps run with no ads and no tracking (D132, D137).
 
 Rank new work against the signals below. Re-scan them about quarterly and
 update this file in the same change set as the decision that changes it.

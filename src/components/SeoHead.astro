@@ -43,6 +43,8 @@ const ld = [
   ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
 ];
 const gaId = site.analytics?.gaId;
+// Base fonts, the site's own fonts and its brand skin's fonts, each loaded once.
+const fontHrefs = [...new Set([BASE_FONTS.href, site.fontsHref, SKINS[site.key]?.fontsHref].filter((h): h is string => !!h))];
 ---
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -64,8 +66,7 @@ const gaId = site.analytics?.gaId;
 <meta name="twitter:image" content={ogImageUrl} />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href={BASE_FONTS.href} rel="stylesheet" />
-{site.fontsHref && <link href={site.fontsHref} rel="stylesheet" />}
+{fontHrefs.map((href) => <link href={href} rel="stylesheet" />)}
 {site.icons?.map((i) => <link rel="icon" type={i.type} sizes={i.sizes} href={i.href} />)}
 <link rel="icon" type={site.favicon.type} href={site.favicon.href} />
 {site.appleTouchIcon && <link rel="apple-touch-icon" href={site.appleTouchIcon} />}

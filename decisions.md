@@ -321,8 +321,8 @@ Every entry has these fields:
 - **Question:** What to build next?
 - **Options:** Tomorrow Trail on the platform / Holly & Hare workbooks / Code Crew G3 polish.
 - **Choice:** Tomorrow Trail on the platform (D37, D38).
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
-- **Progress:** K→1 Stop 1 is live, unlisted for the owner's review, at https://learn.lanternlearn.com/courses/tomorrow-trail-k1 with every line recorded. Stops 2 to 12 are next.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
+- **Progress:** All 12 stops are live at https://learn.lanternlearn.com/courses/tomorrow-trail-k1 with every line recorded (D48, D50).
 - **Links:** rocket-and-raven-press #55.
 
 ### D43: First Tomorrow Trail grade band online
@@ -377,7 +377,7 @@ Every entry has these fields:
 - **Options:** generate them, owner reviews / use characters that already have art until the owner supplies it / hold Stops 6 to 9 for the owner's art.
 - **Choice:** Same as D49 for every remaining stop. The four characters are generated from their bible descriptions in the existing cast's style, then used as references for their stops. Nothing goes live until the owner has reviewed it.
 - **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
-- **Progress:** The owner then pointed to Canva, which already holds all twelve characters (color, line and pencil), all twelve badges, 41 icons and group scenes. That art replaces generated art wherever it exists, including the four characters and Stop 2's badge, helpers and tools. The rest (ten stop scenes, 38 icons, two coloring pages, a certificate border) is generated and awaits the owner's review. Stops 2 to 12 are written.
+- **Progress:** The owner then pointed to Canva, which already holds all twelve characters (color, line and pencil), all twelve badges, 41 icons and group scenes. That art replaces generated art wherever it exists, including the four characters and Stop 2's badge, helpers and tools. The rest (ten stop scenes, 38 icons, two coloring pages, a certificate border) was generated; the owner approved it on 2026-09-27 (see Review) and all 12 stops are live.
 - **Review:** On 2026-09-27 the owner approved all 52 generated pictures (11 stop scenes, 38 activity pictures, 3 printables) with no redos, and Stops 2 to 12 went live.
 - **Links:** rocket-and-raven-press #58.
 
@@ -399,7 +399,8 @@ Every entry has these fields:
 - **Question:** Which shapes should the videos be?
 - **Options:** both 16:9 and 9:16 / 16:9 only / 9:16 only.
 - **Choice:** Both: 16:9 for course pages and the website, 9:16 for Reels, Shorts and TikTok, rendered from one HyperFrames composition.
-- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Decided.
+- **Date:** 2026-09-26. **Decided by:** owner. **Status:** Done.
+- **Progress:** All 26 videos (13 characters, each in 16:9 and 9:16) are in R2 (D56).
 
 ### D54: Lucy the Ladybug joins the cast
 - **Question:** The owner asked for a new character, a ladybug named Lucy. What is her role, and which art and voice does she use?
@@ -490,7 +491,8 @@ Every entry has these fields:
 - **Question:** Workbook and lesson pages (the play layer) have no family bar. Should they?
 - **Options:** no bar, one small exit link / the full family bar / leave as is.
 - **Choice:** No family bar on kids' pages; add one small "Back to course" link for grown-ups.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Workbook pages have a small "Back to course" link and no family bar (rocket-and-raven-press #62).
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done.
+- **Progress:** Workbook pages have a small "Back to course" link and no family bar (rocket-and-raven-press #62). Checked 2026-10-13 on rocket-and-raven-press main: all four workbook pages under `src/pages/courses/[slug]/workbook/` (course index, week index, day, week review) have the "Back to course" link; the Code Crew K lesson player (`src/pages/courses/code-crew-k/lessons/[lesson]/[day].astro`) has an exit link to the course page labeled "Back to Code Crew K" instead; none of these pages render the family bar.
 
 ### D68: Close finished decisions
 - **Question:** D48, D51, D52 and D55 were still In progress although the work had shipped. Mark them Done?
@@ -520,7 +522,8 @@ Every entry has these fields:
 - **Question:** Terms and Privacy say the platform is "operated by Chris Brock LLC dba Rocket & Raven, an imprint of Lantern Learn". What should they say?
 - **Options:** keep the operator line and only retitle the pages / "Chris Brock LLC dba Lantern Learn".
 - **Choice:** "Chris Brock LLC dba Lantern Learn". Claude flagged that a dba is a legal registration; the owner chose this option.
-- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done. Terms, Privacy and Cookies read "operated by Chris Brock LLC dba Lantern Learn" (rocket-and-raven-press #63, live 2026-09-27).
+- **Date:** 2026-09-27. **Decided by:** owner. **Status:** Done.
+- **Progress:** Terms, Privacy and Cookies read "operated by Chris Brock LLC dba Lantern Learn" (rocket-and-raven-press #63, live 2026-09-27). The hello@ inbox test passed 2026-10-11 13:55 UTC: Chris received the sign-in email sent to hello@.
 
 ### D73: Support address on the learning platform
 - **Question:** The platform tells parents to email hello@rocketandraven.com for support, refunds and data requests. Which address should it show?
@@ -860,6 +863,14 @@ Every entry has these fields:
 - **Date:** 2026-10-09. **Decided by:** owner. **Status:** Done.
 - **Progress:** `_dmarc` records set to `p=quarantine; pct=100` on all three domains via the Cloudflare API 2026-10-09 (rua unchanged). Microsoft 365 DKIM is still off on all three (owner step in security.microsoft.com; see /mnt/project-files/brand-icons/README.md).
 
+### D122: Launch-page polish on learn.lanternlearn.com
+- **Question:** Before the public launch, the course app's home page featured the first six live courses alphabetically (Astronomy Year first) and both the home page and the empty catalog filter promised "new courses ship monthly", which nothing backs. Change them?
+- **Options:** lead the featured row with the flagships and drop the promise (recommended) / leave as is.
+- **Choice:** Featured row leads with Code Crew K, Tomorrow Trail, Science Launch K, Builder's Lab, Code Crew G1, Astronomy Year. "New courses ship monthly" is replaced by "every course free" on the home page and dropped from the empty catalog filter.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** shipped in cbrock84/rocket-and-raven-press #73 (merged 2026-10-10).
+- **Links:** cbrock84/rocket-and-raven-press, branch `claude/project-thread-fvczkb`.
+
 ### D123: How long a lesson day is, and how it is checked
 - **Question:** The owner wants every course day to take 10 to 15 minutes (2026-10-10). What is the target, and how is it checked?
 - **Options:** Floor of 10 minutes for every day, target 10 to 15 for K to G2 and 15 to 20 for G3+ (keeps the grade-banded time chosen earlier), checked by an estimator / one flat 10 to 15 for all / no automated check.
@@ -1035,7 +1046,7 @@ Every entry has these fields:
 - **Options:** Write `roadmap.md` in this repo with staged scope (K-5 now, grades 6-8 next, high school electives later, adult applied AI) and the signals behind each stage, re-scanned quarterly (recommended) / keep the signals only in the study artifact.
 - **Choice:** `roadmap.md` added. Stages: K-5 breadth plus a new AI Explorers course; grades 6-8 bridge; high school CS and AI electives; adult applied AI in the same daily format, not a bootcamp. Reach: ESA vendor registration (D146) and microschool outreach. Fox & Fern leans phonics and decodable text.
 - **Date:** 2026-10-10. **Decided by:** owner ("Let's cement these into our plans"). **Status:** Decided.
-- **Progress:** roadmap.md written. AI Explorers is queued after D141.
+- **Progress:** roadmap.md written. Inside the Machine (D141) shipped in rocket-and-raven-press #81, and the AI Explorers courses (K-2, Grades 3-5, Grades 6-8; D156, D173) are published on main.
 - **Links:** roadmap.md; https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj. Related: D106, D138, D141.
 
 ### D146: ESA vendor registration: research and plan
@@ -1199,7 +1210,7 @@ Every entry has these fields:
 - **Question:** How the Fox & Fern Kitchen course (D143) is built.
 - **Options:** None offered (Claude default).
 - **Choice:** One Fox & Fern course, Grades 3 to 5 only (`kitchen-g3-5`, Grade 3 reading cap, typed answers), 12 weeks, 15-minute days (10+ enforced), Saturday "Family Cook Day". Generator `foodRules: 'kitchen'`: every recipe card has an "Allergy swap:" line, no recipe uses a major allergen, any stove, oven, knife or hot pan comes with a "grown-up handles" callout, tasting allowed. Facts only from CDC, FDA and NIST pages in SOURCES.md; CCSS math and reading codes checked on thecorestandards.org. Cast: Ferris, Bennie, Lizzy, Riley, Oliver, Hazel, Rosie, Freddy, Lucy. Cover and hero from the Ferris and Bennie art, with no milk or allergen foods shown.
-- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Decided.
+- **Date:** 2026-10-10. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Live 2026-10-11 (press #106, D161 Publish now).
 - **Links:** rocket-and-raven-press #86. Related: D143.
 
@@ -1751,7 +1762,8 @@ Every entry has these fields:
 - **Question:** Chris asked for parents to rename, delete and edit kid profiles (2026-10-12). Rename, grade and region already existed; the Remove button pointed at an endpoint that didn't exist. Should removal be immediate or recoverable?
 - **Options:** Remove immediately after a confirm prompt, deleting the profile's progress and saved work (recommended); keep it 30 days like account deletion; hide it and keep the data.
 - **Choice:** Remove immediately after the confirm prompt. Also: avatar can be changed, the dashboard links to each profile, and the profile page lists courses the kid started.
-- **Date:** 2026-10-12. **Decided by:** Chris (card, 16:31 UTC; confirmed the Claude default). **Status:** Done. **Progress:** live on learn.lanternlearn.com 2026-10-12.
+- **Date:** 2026-10-12. **Decided by:** owner (card, 16:31 UTC; confirmed the Claude default). **Status:** Done.
+- **Progress:** live on learn.lanternlearn.com 2026-10-12.
 - **Links:** rocket-and-raven-press #123 (src/pages/api/kids/delete.ts, src/pages/kids/[id].astro). Related: D304.
 
 ### D306: Where the shared source catalog lives
@@ -1783,3 +1795,11 @@ Every entry has these fields:
 - **Date:** 2026-10-12. **Decided by:** owner (card tap, 22:00 UTC). **Status:** Done.
 - **Progress:** The project-chat card was posted labeled "D308" by mistake (D308 was already used); this entry is that card. The pass covers about 210 lines (Backyard Explorer, Inside the Machine, Tomorrow Trail, Code Crew K-2, Bike Shop) plus the Home Helpers audit findings. 2026-10-12: all 262 "Needs a fix" bullets across 10 courses are marked FIXED (D309) in their SOURCES.md, each sourced as written or reworded to match an opened page; Home Helpers K-2 and 3-5 audits added. Bike Shop week 4 now teaches the recommended pressure printed on the sidewall and never above the maximum (16 CFR 1512.10). Rebuilt sources.json: 0 flagged courses.
 - **Links:** rocket-and-raven-press #126, #128. Related: D308.
+
+### D310: Fix the still-valid Codex review findings
+- **Question:** Fix the 33 still-valid Codex review findings now?
+- **Options:** Fix all, one PR per repo, P1s first (recommended) / P1 only, leave P2s for after launch / Hold, report only.
+- **Choice:** Fix all.
+- **Date:** 2026-10-13. **Decided by:** owner (card, 15:25 UTC; confirmed "Go" in thread 16:08 UTC). **Status:** Decided.
+- **Progress:** Report at /mnt/project-files/reviews/codex-findings-2026-10-13.md. rocketandraven-site #57 and lanternlearn-site #60 merged. rocket-and-raven-press #129 open (15 of 17 fixed; bike-tire wording kept per D309 sources; caption timings not used). lantern-ui fixes in this PR: build_sources.py keeps every cited page (no per-key cap) and no longer treats json.org as a standards body; SeoHead loads the imprint skin's font stylesheet; roadmap.md analytics wording; decision-log corrections (D42, D50, D53, D67, D72, D122, D145, D166, D305).
+- **Links:** rocketandraven-site #57, lanternlearn-site #60, rocket-and-raven-press #129. Related: D309.

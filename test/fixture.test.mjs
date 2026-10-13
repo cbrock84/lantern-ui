@@ -20,6 +20,12 @@ test('head: title, canonical, theme vars, analytics and verification', () => {
   assert.match(home, /<meta name="theme-color" content="#fdf3ea">/);
 });
 
+test('head: imprint skin font stylesheet loaded once', () => {
+  const href = 'https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap';
+  const n = home.split(`<link href="${href}" rel="stylesheet">`).length - 1;
+  assert.equal(n, 1);
+});
+
 test('head: favicon.ico before the SVG icon, plus manifest (D120)', () => {
   assert.match(home, /<link rel="icon" sizes="32x32" href="\/favicon.ico">\s*<link rel="icon" type="image\/svg\+xml" href="\/favicon.svg">/);
   assert.match(home, /<link rel="manifest" href="\/site.webmanifest">/);

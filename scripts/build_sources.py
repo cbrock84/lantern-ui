@@ -72,7 +72,7 @@ STANDARDS_HOSTS = {'thecorestandards.org', 'corestandards.org', 'nextgenscience.
                    'apcentral.collegeboard.org', 'ai4k12.org', 'naeyc.org', 'socialstudies.org', 'nctm.org',
                    'nsta.org', 'shapeamerica.org', 'eclkc.ohs.acf.hhs.gov', 'nationalacademies.org',
                    # Technical standards and specification bodies (Code Crew, Inside the Machine).
-                   'w3.org', 'whatwg.org', 'unicode.org', 'rfc-editor.org', 'icann.org', 'usb.org', 'json.org',
+                   'w3.org', 'whatwg.org', 'unicode.org', 'rfc-editor.org', 'icann.org', 'usb.org',
                    'ecma-international.org'}
 MUSEUM_HOSTS = ('si.edu', 'exploratorium.edu', 'metmuseum.org', 'nybg.org', 'fi.edu', 'cmog.org', 'cdm.org',
                 'kohlchildrensmuseum.org', 'lawrencehallofscience.org', 'missouribotanicalgarden.org',
@@ -92,7 +92,8 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'uwaterloo.atlassian.net': 'university',  # University of Waterloo course wiki
               'uwspace.uwaterloo.ca': 'university',     # University of Waterloo institutional repository
               'gbif.org': 'government',                 # Global Biodiversity Information Facility, intergovernmental
-              'patents.google.com': 'government'}       # mirror of USPTO patent records
+              'patents.google.com': 'government',       # mirror of USPTO patent records
+              'json.org': 'education_org'}              # format author's reference page, not a standards body (the standards are ECMA-404 and RFC 8259)
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 
@@ -223,10 +224,23 @@ def main():
         for u in filter(None, [c.get('url'), c.get('license_url')]):
             cat_by_host.setdefault(host(u), c)
 
+    # Without a fresh link-check file, keep each URL's last recorded result
+    # (with its original date) instead of wiping it.
+    prev_status = {}
+    prev_path = os.path.join(ROOT, 'standards', 'sources.json')
+    if not STATUS_FILE and os.path.exists(prev_path):
+        prev = json.load(open(prev_path, encoding='utf-8'))
+        for k, entries in prev.items():
+            if k.startswith('_'):
+                continue
+            for e in entries:
+                if e.get('url_status'):
+                    prev_status.setdefault(e['url'], e['url_status'])
+
     def status_note(u):
         c = status.get(u)
         if c is None:
-            return None
+            return prev_status.get(u)
         if c == '200':
             return f'200 on {TODAY}'
         if c == '403':
@@ -315,16 +329,17 @@ def main():
             for u, n in urls.items():
                 key_cites[k][u] += n
 
-    # New entries per key: the pages its courses cite, standards pages first,
-    # then by citation count. Capped so each key stays a readable shortlist;
-    # every cited page stays traceable through the course's SOURCES.md.
+    # New entries per key: every page its courses cite, standards pages first,
+    # then by citation count. No cap: every entry here is a page a course in
+    # this key cites, and dropping one would leave that course's facts or
+    # standards codes untraced to a listed source. (Pages judged "review" are
+    # left out and flagged on the course instead.)
     url_courses = collections.defaultdict(set)
     for slug, c in courses.items():
         smd = os.path.join(PRESS, 'scripts', 'course-gen', 'courses', SOURCES_ALIAS.get(slug, slug), 'SOURCES.md')
         if os.path.exists(smd):
             for u, _, _ in parse_sources_md(smd):
                 url_courses[u].add(slug)
-    CAP = 15
     for k in sorted(key_cites):
         existing = {e['url'] for e in out.get(k, [])}
         ranked = sorted(key_cites[k].items(),
@@ -342,8 +357,6 @@ def main():
                 'reuse': (cat['reuse'] if cat and cat['reuse'] in ('reuse', 'link_only') else 'fact_source'),
                 'license': cat['license'] if cat else None,
                 'cited_by': sorted(url_courses[u]), 'origin': 'course SOURCES.md', 'url_status': None})
-            if len(added) >= CAP:
-                break
         out.setdefault(k, []).extend(added)
     # Mark v1 entries a course cites.
     for k, entries in out.items():

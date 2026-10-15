@@ -1,7 +1,8 @@
 ---
 /**
  * Everything inside <head>: title, canonical, Open Graph, Twitter, fonts,
- * icons, JSON-LD, search-engine verification, GA4 and the site's theme vars.
+ * icons, JSON-LD, search-engine verification, consent-gated GA4 and Metricool
+ * (D312) and the site's theme vars.
  */
 import type { SiteConfig } from '../types.ts';
 import { getSite } from '../network.ts';
@@ -79,25 +80,43 @@ const fontHrefs = [...new Set([BASE_FONTS.href, site.fontsHref, SKINS[site.key]?
 {site.verification?.google && <meta name="google-site-verification" content={site.verification.google} />}
 {site.verification?.bing && <meta name="msvalidate.01" content={site.verification.bing} />}
 {site.verification?.pinterest && <meta name="p:domain_verify" content={site.verification.pinterest} />}
-{gaId && (
-  <>
-    <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
-    <script is:inline define:vars={{ gaId }}>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+{(gaId || metricoolHash) && (
+  <script is:inline define:vars={{ gaId: gaId ?? '', metricoolHash: metricoolHash ?? '' }}>
+    // Consent first (D312): GA4 runs in Consent Mode with analytics storage
+    // denied (no cookies) and Metricool does not load until the visitor allows
+    // analytics in the ConsentBanner, or already did on an earlier visit.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    var granted = false;
+    try {
+      var m = document.cookie.match(/(?:^|;\s*)ll_consent=([^;]+)/);
+      granted = (m ? decodeURIComponent(m[1]) : localStorage.getItem('ll_consent')) === 'granted';
+    } catch (e) {}
+    if (gaId) {
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: granted ? 'granted' : 'denied',
+      });
       gtag('js', new Date());
       gtag('config', gaId);
-    </script>
-  </>
-)}
-{metricoolHash && (
-  <script is:inline define:vars={{ metricoolHash }}>
-    (function () {
-      var s = document.createElement('script');
-      s.src = 'https://tracker.metricool.com/resources/be.js';
-      s.onload = function () { beTracker.t({ hash: metricoolHash }); };
-      document.head.appendChild(s);
-    })();
+    }
+    var started = false;
+    window.llConsentGranted = function () {
+      if (started) return;
+      started = true;
+      if (gaId) gtag('consent', 'update', { analytics_storage: 'granted' });
+      if (metricoolHash) {
+        var s = document.createElement('script');
+        s.src = 'https://tracker.metricool.com/resources/be.js';
+        s.onload = function () { beTracker.t({ hash: metricoolHash }); };
+        document.head.appendChild(s);
+      }
+    };
+    if (granted) window.llConsentGranted();
   </script>
 )}
+{gaId && <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>}
 <slot />

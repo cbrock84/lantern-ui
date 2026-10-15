@@ -1,7 +1,7 @@
 # Lantern Learn content standards
 
 **Status:** Draft v0.1 (2026-09-23). Applies to every imprint (Rocket & Raven,
-Fox & Fern Books, Holly & Hare) and every format: online workbooks, printable
+Fox & Fern, Holly & Hare) and every format: online workbooks, printable
 PDF companions, short stories, and blog/guide articles.
 
 Items marked **Proposed** are Claude's suggestions awaiting the owner's
@@ -30,7 +30,7 @@ imprints' published positioning.
 | Imprint | Grades / ages (as published) | Register |
 | --- | --- | --- |
 | Rocket & Raven | K through Grade 6+ (Code Crew, Science Launch) | Energetic, story-led, STEM |
-| Fox & Fern Books | Pre-K through Grade 5, ages 4 to 10 (Tomorrow Trail) | Warm, playful, everyday practice |
+| Fox & Fern | Pre-K through Grade 5, ages 4 to 10 (Tomorrow Trail) | Warm, playful, everyday practice |
 | Holly & Hare | Grades 3 to 5, ages 8 to 11 (Gifted & Talented Puzzle Prep) | Quiet, rigorous, grown-up |
 
 Note: Holly & Hare is sunset (D102, D103). No new content is made for it, and

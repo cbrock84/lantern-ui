@@ -10,6 +10,7 @@ import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import FamilyBar from '../components/FamilyBar.astro';
 import Playground from '../components/Playground.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 
 export interface Props {
   site: SiteConfig;
@@ -25,6 +26,7 @@ export interface Props {
 }
 
 const { site, bodyClass = '', ...seo } = Astro.props;
+const hasTrackers = !!(site.analytics?.gaId || site.analytics?.metricoolHash);
 ---
 <!doctype html>
 <html lang="en">
@@ -46,5 +48,6 @@ const { site, bodyClass = '', ...seo } = Astro.props;
       <slot name="brand" slot="brand" />
     </SiteFooter>
     <Playground />
+    {hasTrackers && <ConsentBanner site={site} />}
   </body>
 </html>

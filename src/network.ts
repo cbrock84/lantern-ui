@@ -27,10 +27,10 @@ export const FAMILY: Record<SiteKey, FamilySite> = {
   },
   foxandfern: {
     key: 'foxandfern',
-    name: 'Fox & Fern Books',
+    name: 'Fox & Fern',
     url: 'https://foxandfernbooks.com',
     role: 'imprint',
-    tagline: 'Kid-friendly workbooks and activity books that treat children like capable, curious learners.',
+    tagline: 'Free online courses that treat children like capable, curious learners.',
   },
   rocketandraven: {
     key: 'rocketandraven',

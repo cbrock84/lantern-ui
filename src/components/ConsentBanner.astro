@@ -1,0 +1,104 @@
+---
+/**
+ * Cookie consent banner (D312). Rendered by SiteLayout whenever the site
+ * loads a non-essential tracker (GA4 or Metricool). SeoHead starts GA4 with
+ * Consent Mode set to denied and holds Metricool back; this controller grants
+ * them only after the visitor taps Allow. Cloudflare Web Analytics is
+ * cookieless and is not gated. The choice is kept for a year in the
+ * `ll_consent` cookie (and localStorage) on each domain, and the footer's
+ * "Cookie settings" button reopens the banner.
+ */
+import type { SiteConfig } from '../types.ts';
+
+export interface Props {
+  site: SiteConfig;
+}
+
+const { site } = Astro.props;
+const privacy = site.legalLinks.find((l) => /privacy/i.test(l.label) || /privacy/.test(l.href));
+---
+<div id="ll-consent" class="ll-consent" role="dialog" aria-modal="false" aria-labelledby="ll-consent-title" aria-describedby="ll-consent-desc" hidden>
+  <div class="ll-consent-inner">
+    <div>
+      <p id="ll-consent-title" class="ll-consent-title">Cookies and analytics</p>
+      <p id="ll-consent-desc" class="ll-consent-desc">
+        We'd like to use analytics cookies to see which pages families find useful. They are off unless you allow them. We never show ads.
+        {privacy && <> See our <a href={privacy.href}>privacy policy</a>.</>}
+      </p>
+    </div>
+    <div class="ll-consent-actions">
+      <button type="button" id="ll-consent-reject" class="ll-consent-btn">No thanks</button>
+      <button type="button" id="ll-consent-accept" class="ll-consent-btn">Allow analytics</button>
+    </div>
+  </div>
+</div>
+<script is:inline>
+  (function () {
+    var banner = document.getElementById('ll-consent');
+    if (!banner) return;
+    var KEY = 'll_consent';
+    function read() {
+      var raw = null;
+      try { var m = document.cookie.match(/(?:^|;\s*)ll_consent=([^;]+)/); if (m) raw = decodeURIComponent(m[1]); } catch (e) {}
+      if (raw === null) { try { raw = localStorage.getItem(KEY); } catch (e) {} }
+      return raw === 'granted' || raw === 'denied' ? raw : null;
+    }
+    function save(v) {
+      try { document.cookie = KEY + '=' + v + ';path=/;max-age=31536000;SameSite=Lax;Secure'; } catch (e) {}
+      try { localStorage.setItem(KEY, v); } catch (e) {}
+    }
+    function choose(v) {
+      var before = read();
+      save(v);
+      banner.hidden = true;
+      if (v === 'granted' && typeof window.llConsentGranted === 'function') window.llConsentGranted();
+      // Withdrawing consent: GA4 stops writing cookies after the update, but a
+      // Metricool script already on the page keeps running until the next load.
+      if (v === 'denied' && before === 'granted') {
+        if (typeof window.gtag === 'function') window.gtag('consent', 'update', { analytics_storage: 'denied' });
+        location.reload();
+      }
+    }
+    document.getElementById('ll-consent-accept').addEventListener('click', function () { choose('granted'); });
+    document.getElementById('ll-consent-reject').addEventListener('click', function () { choose('denied'); });
+    document.querySelectorAll('[data-ll-consent-open]').forEach(function (b) {
+      b.addEventListener('click', function () { banner.hidden = false; document.getElementById('ll-consent-accept').focus(); });
+    });
+    if (read() === null) banner.hidden = false;
+  })();
+</script>
+<style>
+  .ll-consent {
+    position: fixed;
+    inset: auto 1rem 1rem 1rem;
+    z-index: 60;
+    margin: 0 auto;
+    max-width: 44rem;
+    border-radius: 20px;
+    background: rgb(var(--ll-base-footer-bg));
+    color: rgb(var(--ll-base-footer-text));
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.25);
+    font-family: var(--ll-base-font, inherit);
+  }
+  .ll-consent[hidden] { display: none; }
+  .ll-consent-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; padding: 1.1rem 1.4rem; }
+  .ll-consent-inner > div:first-child { flex: 1 1 18rem; }
+  .ll-consent-title { margin: 0; font-weight: 800; font-size: 1rem; }
+  .ll-consent-desc { margin: 0.25rem 0 0; font-size: 0.875rem; line-height: 1.45; }
+  .ll-consent-desc a { color: inherit; text-decoration: underline; }
+  .ll-consent-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  /* Both choices look the same so neither is nudged (equal prominence). */
+  .ll-consent-btn {
+    cursor: pointer;
+    border-radius: 999px;
+    border: 2px solid rgb(var(--ll-base-footer-text));
+    background: rgb(var(--ll-base-footer-text));
+    color: rgb(var(--ll-base-footer-bg));
+    padding: 0.5rem 1.1rem;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 800;
+  }
+  .ll-consent-btn:hover { opacity: 0.9; }
+  .ll-consent-btn:focus-visible { outline: 3px solid rgb(var(--ll-base-footer-accent)); outline-offset: 2px; }
+</style>

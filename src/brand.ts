@@ -138,7 +138,7 @@ export const SKINS: Record<SiteKey, Skin> = {
   },
   foxandfern: {
     key: 'foxandfern',
-    name: 'Fox & Fern Books',
+    name: 'Fox & Fern',
     fontsHref:
       'https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap',
     fonts: { display: '"Fredoka", system-ui, sans-serif', body: '"Nunito", system-ui, sans-serif' },

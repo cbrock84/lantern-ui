@@ -1,4 +1,4 @@
-# Fox & Fern Books bible
+# Fox & Fern bible
 
 **Status:** v0.2 (2026-09-25): cast and Tomorrow Trail structure added from the owner's documents.
 - **Established:** taken from the published site (foxandfernbooks.com) and its

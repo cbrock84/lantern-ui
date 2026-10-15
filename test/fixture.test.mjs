@@ -11,11 +11,15 @@ const home = page('index.html');
 const post = page('blog/fixture-post/index.html');
 
 test('head: title, canonical, theme vars, analytics and verification', () => {
-  assert.match(home, /<title>Home \| Fox &amp; Fern Books<\/title>/);
+  assert.match(home, /<title>Home \| Fox &amp; Fern<\/title>/);
   assert.match(home, /<link rel="canonical" href="https:\/\/foxandfernbooks.com\/">/);
   assert.match(home, /:root\{--ll-bg:253 243 234;/);
   assert.match(home, /--ll-font-display:"Fredoka", system-ui, sans-serif;/);
   assert.match(home, /googletagmanager\.com\/gtag\/js\?id=G-TEST123/);
+  // D312: GA4 starts in Consent Mode (denied) and the banner is on the page.
+  assert.match(home, /gtag\('consent', 'default'/);
+  assert.match(home, /id="ll-consent"[^>]*hidden/);
+  assert.match(home, /data-ll-consent-open/);
   assert.match(home, /name="google-site-verification" content="gverify"/);
   assert.match(home, /<meta name="theme-color" content="#fdf3ea">/);
 });
@@ -54,7 +58,7 @@ test('home page carries Organization JSON-LD pointing at the umbrella; other pag
 });
 
 test('header: text wordmark fallback, custom logo slot, CTA and active link', () => {
-  assert.match(home, /font-site-display text-2xl[^>]*>Fox &amp; Fern Books</);
+  assert.match(home, /font-site-display text-2xl[^>]*>Fox &amp; Fern</);
   const custom = page('custom-logo/index.html');
   assert.match(custom, /id="custom-wordmark"/);
   assert.doesNotMatch(custom, /font-site-display text-2xl/);
@@ -95,7 +99,7 @@ test('footer: every other family site, never the current one, plus the imprint l
 
 test('article: byline, sources section, citations JSON-LD, related family card', () => {
   assert.match(post, /og:type" content="article"/);
-  assert.match(post, /By Fox &amp; Fern Books/);
+  assert.match(post, /By Fox &amp; Fern/);
   assert.match(post, /Reviewed by Test Reviewer/);
   assert.match(post, /<a href="#sources"[^>]*>2 sources<\/a>/);
   assert.match(post, /<section id="sources"/);

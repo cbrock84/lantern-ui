@@ -11,6 +11,8 @@ const { site } = Astro.props;
 const me = getSite(site.key);
 const umbrella = getSite(UMBRELLA);
 const year = new Date().getFullYear();
+// The consent banner (D312) is on the page whenever a tracker is.
+const hasTrackers = !!(site.analytics?.gaId || site.analytics?.metricoolHash);
 // See SiteHeader: forwarded empty slots suppress fallback content.
 const brandHtml = Astro.slots.has('brand') ? (await Astro.slots.render('brand')).trim() : '';
 ---
@@ -62,6 +64,7 @@ const brandHtml = Astro.slots.has('brand') ? (await Astro.slots.render('brand'))
       </p>
       <p class="flex flex-wrap gap-3">
         {site.legalLinks.map((l) => <a href={l.href} class="hover:text-base-footer-accent">{l.label}</a>)}
+        {hasTrackers && <button type="button" data-ll-consent-open class="hover:text-base-footer-accent">Cookie settings</button>}
       </p>
     </div>
   </div>

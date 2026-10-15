@@ -104,7 +104,7 @@ If a page renders two headers, give each a distinct `navId`.
    import { defineCollection, z } from 'astro:content';
    import { articleSchema } from '@lanternlearn/ui';
    export const collections = {
-     blog: defineCollection({ type: 'content', schema: articleSchema(z, { defaultAuthor: 'Fox & Fern Books' }) }),
+     blog: defineCollection({ type: 'content', schema: articleSchema(z, { defaultAuthor: 'Fox & Fern' }) }),
    };
    ```
 
@@ -139,7 +139,7 @@ next build.
   hollyandhare.com 301-redirects to lanternlearn.com. `hollyandhare` is gone
   from `SiteKey`, `FAMILY`, `SKINS` and `PLATFORM_IMPRINT`, so the family bar,
   footers, family links, Organization JSON-LD and `coursesFor` list only
-  Lantern Learn, Fox & Fern Books and Rocket & Raven. A site that still passes
+  Lantern Learn, Fox & Fern and Rocket & Raven. A site that still passes
   `'hollyandhare'` (as a site key or in an article's `relatedSites`) fails its
   type check or content build until the reference is removed.
 

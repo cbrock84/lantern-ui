@@ -1811,3 +1811,38 @@ Every entry has these fields:
 - **Date:** 2026-10-15. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Live 2026-10-15: every lanternlearn.com page loads the tracker.
 - **Links:** lantern-ui #126, lanternlearn-site #61. Related: D2, D303.
+
+### D312: Cookie consent banner on the marketing sites
+- **Question:** Chris asked whether the sites have a consent banner and to add one if not. The learn app already had one (site setting on); lanternlearn.com, rocketandraven.com and foxandfernbooks.com loaded GA4 (and Metricool on lanternlearn.com, D311) with no consent. How should the banner work?
+- **Options:** One shared banner in `@lanternlearn/ui` for every site with a tracker: GA4 starts in Consent Mode with analytics storage denied, Metricool waits, and both start only after "Allow analytics"; shown to every visitor; equal "No thanks" and "Allow analytics" buttons; a "Cookie settings" footer button reopens it (recommended); region-only banner (EU/UK), with tracking on by default elsewhere; a notice-only banner with tracking on.
+- **Choice:** The shared opt-in banner, for every visitor. Cloudflare Web Analytics is cookieless and is not gated. The choice is stored per domain for a year (`ll_consent` cookie plus localStorage). Each site's privacy page says analytics cookies are set only after consent. The learn app keeps its own banner (two toggles, `rr_consent`).
+- **Date:** 2026-10-15. **Decided by:** owner (asked for the banner); opt-in for everyone is Claude (default). **Status:** Decided.
+- **Links:** lantern-ui `ConsentBanner.astro`, `SeoHead.astro`. Related: D2, D303, D311.
+
+### D313: "Fox & Fern", not "Fox & Fern Books"
+- **Question:** Chris asked to drop "Books" from the imprint name everywhere, matching "Rocket & Raven".
+- **Options:** Rename every user-facing mention (site copy, page titles, JSON-LD, RSS, manifests, certificates, logo alt text) and keep the domain foxandfernbooks.com, the hello@foxandfernbooks.com address and repo names (recommended); also move to a new domain.
+- **Choice:** Rename user-facing text only. Domains, email addresses, repo names and the names of existing Canva designs stay as they are. Past entries in this log keep the old name as written.
+- **Date:** 2026-10-15. **Decided by:** owner. **Status:** Decided.
+- **Links:** lantern-ui `network.ts`, `brand.ts`.
+
+### D314: No workbooks or PDF downloads on foxandfernbooks.com
+- **Question:** foxandfernbooks.com still listed the Tomorrow Trail (formerly Summer Bridge) activity workbooks with covers, inside-page previews and "Download free printable pages" PDF links (hosted on catbox.moe). Chris: Tomorrow Trail is online course content only, with no downloadable or purchasable workbooks. What goes?
+- **Options:** Remove the series page, the seven book pages, the cover and preview images, the sample-PDF links and the "why we made the workbooks" post; 301 the old URLs to the Fox & Fern courses; rewrite blog calls to action to point at the free courses (recommended); hide the PDF buttons only.
+- **Choice:** Remove all of it and redirect. The home page lists the Fox & Fern courses instead. The PDFs themselves were anonymous catbox.moe uploads with no delete key on record, so they can't be deleted at the host; nothing on any Lantern Learn site links to them any more.
+- **Date:** 2026-10-15. **Decided by:** owner. **Status:** Decided.
+- **Links:** foxandfernbooks-site. Related: D102, D104.
+
+### D315: No "Live now" badges
+- **Question:** Chris: if a course is listed it's implied it's live, so remove "Live now" badges and use a badge only for "Coming soon".
+- **Options:** Remove every "Live now" / "Live" badge and status line, keep "Coming soon" (recommended); keep them.
+- **Choice:** Removed on the learn app course pages and home page, and on rocketandraven.com (home rank cards, Code Crew page, grade pages). "Coming soon" stays where a course isn't open yet.
+- **Date:** 2026-10-15. **Decided by:** owner. **Status:** Decided.
+- **Links:** rocket-and-raven-press, rocketandraven-site.
+
+### D316: Unreadable text (contrast sweep)
+- **Question:** Chris reported the "Listen to the story" button was brown on dark green and asked for a sweep of every page for unreadable text.
+- **Options:** Fix every failing spot found by an automated WCAG AA contrast check of every sitemap page on the four sites plus two workbook days of every course, and give skins explicit "text on fill" colors so new pages inherit readable pairs (recommended); fix the one button.
+- **Choice:** Automated sweep and fix. Root cause: Fox & Fern and Lantern Learn workbook skins put the ink color on their green and violet fills. Skins now set `--on-green` / `--on-cyan`; the navy day header, top bar and table headers take light accents; magenta labels use dark text; course page titles use the heading color; Fox & Fern site accent and small orange text darkened.
+- **Date:** 2026-10-15. **Decided by:** owner. **Status:** Decided.
+- **Links:** rocket-and-raven-press, foxandfernbooks-site.

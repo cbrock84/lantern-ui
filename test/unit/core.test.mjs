@@ -67,8 +67,8 @@ test('themeCss emits every variable the preset reads', () => {
 const post = { title: 't', description: 'd', pubDate: '2026-01-02' };
 
 test('articleSchema applies defaults and validates source urls', () => {
-  const d = articleSchema(z, { defaultAuthor: 'Fox & Fern Books' }).parse(post);
-  assert.equal(d.author, 'Fox & Fern Books');
+  const d = articleSchema(z, { defaultAuthor: 'Fox & Fern' }).parse(post);
+  assert.equal(d.author, 'Fox & Fern');
   assert.deepEqual(d.sources, []);
   assert.deepEqual(d.relatedSites, []);
   assert.ok(d.pubDate instanceof Date);

@@ -1808,5 +1808,6 @@ Every entry has these fields:
 - **Question:** Chris asked for Metricool's tracking script on the Lantern Learn marketing site. Where does it go, and what does the privacy page say?
 - **Options:** Shared layout head via `site.analytics.metricoolHash` in `SeoHead`, so every page (blog posts included) gets it and other sites can opt in (recommended); paste the snippet into lanternlearn-site's own layout only (misses blog posts, which use the shared ArticleLayout).
 - **Choice:** `SiteConfig.analytics.metricoolHash` renders Metricool's loader in the shared `SeoHead`. lanternlearn.com sets it; the learn app and imprint sites are unchanged. lanternlearn.com/privacy names Metricool alongside Google Analytics 4 and Cloudflare Web Analytics (D303). No CSP header is set on lanternlearn.com, so nothing blocks tracker.metricool.com.
-- **Date:** 2026-10-15. **Decided by:** Claude (default). **Status:** Decided.
-- **Links:** lantern-ui (this PR), lanternlearn-site. Related: D2, D303.
+- **Date:** 2026-10-15. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live 2026-10-15: every lanternlearn.com page loads the tracker.
+- **Links:** lantern-ui #126, lanternlearn-site #61. Related: D2, D303.

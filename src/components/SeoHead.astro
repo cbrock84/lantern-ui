@@ -43,6 +43,7 @@ const ld = [
   ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
 ];
 const gaId = site.analytics?.gaId;
+const metricoolHash = site.analytics?.metricoolHash;
 // Base fonts, the site's own fonts and its brand skin's fonts, each loaded once.
 const fontHrefs = [...new Set([BASE_FONTS.href, site.fontsHref, SKINS[site.key]?.fontsHref].filter((h): h is string => !!h))];
 ---
@@ -88,5 +89,15 @@ const fontHrefs = [...new Set([BASE_FONTS.href, site.fontsHref, SKINS[site.key]?
       gtag('config', gaId);
     </script>
   </>
+)}
+{metricoolHash && (
+  <script is:inline define:vars={{ metricoolHash }}>
+    (function () {
+      var s = document.createElement('script');
+      s.src = 'https://tracker.metricool.com/resources/be.js';
+      s.onload = function () { beTracker.t({ hash: metricoolHash }); };
+      document.head.appendChild(s);
+    })();
+  </script>
 )}
 <slot />

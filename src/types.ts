@@ -50,7 +50,8 @@ export interface SiteConfig {
   contactEmail?: string;
   social?: { label: string; href: string }[];
   legalLinks: NavLink[];
-  analytics?: { gaId?: string };
+  /** gaId: Google Analytics 4. metricoolHash: Metricool web tracker hash (D311). */
+  analytics?: { gaId?: string; metricoolHash?: string };
   /** Show the Lantern Learn family bar above the header (D59). Defaults to true. */
   familyBar?: boolean;
   verification?: { google?: string; bing?: string; pinterest?: string };

@@ -543,6 +543,7 @@ Every entry has these fields:
 - **Options:** by what parents look for / one board per imprint.
 - **Choice:** By what parents look for: Free Printables and Coloring Pages for Kids; Kindergarten Summer Practice; Coding for Kids (K to Grade 3); Parent Guides: Learning at Home. Pins link to the matching course or post.
 - **Date:** 2026-09-27. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Superseded by D317 (2026-10-15); these boards were never created.
 
 ### D76: Next build on the websites and courses
 - **Question:** What should the next build be?
@@ -1851,3 +1852,11 @@ Every entry has these fields:
 - **Date:** 2026-10-15. **Decided by:** owner. **Status:** Done.
 - **Progress:** Live 2026-10-15. Re-audit of local builds: 0 contrast failures across 167 marketing pages, the course pages and 122 workbook days.
 - **Links:** rocket-and-raven-press #132, foxandfernbooks-site #22.
+
+### D317: Pinterest boards (revisits D75)
+- **Question:** Which Pinterest boards should Lantern Learn create so Metricool can pin launch graphics and videos? D75's boards predate the K-12 catalog and were never created.
+- **Options:** 4 boards by parent search topic (recommended); keep D75's 4 boards; one "Lantern Learn" board.
+- **Choice:** 4 boards: Free Online Courses for Kids, Coding for Kids, Homeschool Curriculum Ideas, Homeschool High School. Each pin goes to the board matching its topic. Replaces D75.
+- **Date:** 2026-10-15. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Chris creates the boards on Pinterest (Metricool can't create boards; Make's Pinterest connection is expired). Then the 7 launch pins get scheduled in Metricool.
+- **Links:** /mnt/project-files/launch/metricool-drafts.md.

@@ -1803,3 +1803,10 @@ Every entry has these fields:
 - **Date:** 2026-10-13. **Decided by:** owner (card, 15:25 UTC; confirmed "Go" in thread 16:08 UTC). **Status:** Decided.
 - **Progress:** Report at /mnt/project-files/reviews/codex-findings-2026-10-13.md. rocketandraven-site #57 and lanternlearn-site #60 merged. rocket-and-raven-press #129 open (15 of 17 fixed; bike-tire wording kept per D309 sources; caption timings not used). lantern-ui fixes in this PR: build_sources.py keeps every cited page (no per-key cap) and no longer treats json.org as a standards body; SeoHead loads the imprint skin's font stylesheet; roadmap.md analytics wording; decision-log corrections (D42, D50, D53, D67, D72, D122, D145, D166, D305).
 - **Links:** rocketandraven-site #57, lanternlearn-site #60, rocket-and-raven-press #129. Related: D309.
+
+### D311: Metricool web tracking on lanternlearn.com
+- **Question:** Chris asked for Metricool's tracking script on the Lantern Learn marketing site. Where does it go, and what does the privacy page say?
+- **Options:** Shared layout head via `site.analytics.metricoolHash` in `SeoHead`, so every page (blog posts included) gets it and other sites can opt in (recommended); paste the snippet into lanternlearn-site's own layout only (misses blog posts, which use the shared ArticleLayout).
+- **Choice:** `SiteConfig.analytics.metricoolHash` renders Metricool's loader in the shared `SeoHead`. lanternlearn.com sets it; the learn app and imprint sites are unchanged. lanternlearn.com/privacy names Metricool alongside Google Analytics 4 and Cloudflare Web Analytics (D303). No CSP header is set on lanternlearn.com, so nothing blocks tracker.metricool.com.
+- **Date:** 2026-10-15. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** lantern-ui (this PR), lanternlearn-site. Related: D2, D303.

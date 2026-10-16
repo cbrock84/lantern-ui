@@ -1865,6 +1865,6 @@ Every entry has these fields:
 - **Question:** How should every course page be set up so parents searching for things like "free 3rd grade science curriculum" find it?
 - **Options:** Generate each course's search title, description and structured data from its metadata on both sites (recommended); hand-write copy for each of the 61 courses; leave the pages as they are.
 - **Choice:** Generate from metadata. Titles lead with "Free", the grade and the subject ("Free 3rd Grade Science Course | Science Launch Grade 3 | Lantern Learn"). Descriptions open with the course length and grade, followed by the tagline. Course JSON-LD carries isAccessibleForFree, educationalLevel, a price-0 Offer, an online CourseInstance (one week at a time) and a BreadcrumbList. The learn app's home page adds a WebSite block. lanternlearn.com canonicals use the trailing-slash URLs the host serves (the slashless form 308-redirects). Both sites keep their own self-canonical course pages.
-- **Date:** 2026-10-16. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** PRs open, awaiting merge.
+- **Date:** 2026-10-16. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Merged 2026-10-16 (press #133, lanternlearn-site #63, lantern-ui #131). Next: Chris adds lanternlearn.com to Google Search Console and submits both sitemaps.
 - **Links:** [rocket-and-raven-press #133](https://github.com/cbrock84/rocket-and-raven-press/pull/133), [lanternlearn-site #63](https://github.com/cbrock84/lanternlearn-site/pull/63).

@@ -1874,5 +1874,5 @@ Every entry has these fields:
 - **Options:** Pilot Bike Shop week 5: the interactive gear figure in the lesson plus the Reel in the social queue (recommended); social only; samples only.
 - **Choice:** Pilot Bike Shop week 5. Tuesday "Count the Teeth" gets an interactive gear figure (54-tooth front, 27-tooth back, from the Exploratorium example already in the course sources), and the gear Reel joins the social queue. Characters stay illustrated; Anatomy is used only for machines.
 - **Date:** 2026-10-17. **Decided by:** owner. **Status:** Decided.
-- **Progress:** New `figure` lesson block and scripts/figures build (press PR). Samples and the report are in /mnt/project-files/anatomy-samples/.
-- **Links:** /mnt/project-files/anatomy-samples/README.md.
+- **Progress:** New `figure` lesson block and scripts/figures build. Bike Shop wk5 Tue gear bench is in, and the gear Reel is queued for Oct 24. On Chris's "continue with all others" (2026-10-17) four more figures were added, each using facts already in the course SOURCES.md: Everyday Machines wk3 Tue pin lock, Inside the Machine 3-5 wk5 Mon signal trip, Sports Physics 6-8 wk8 Tue bounce tower, Weather Lab 6-8 wk7 Wed rain gauge. Their Reels are in /mnt/project-files/anatomy-samples/<figure>/ and are not yet uploaded or queued.
+- **Links:** press #134; /mnt/project-files/anatomy-samples/README.md.

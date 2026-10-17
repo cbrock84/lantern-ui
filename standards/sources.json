@@ -1,11 +1,11 @@
 {
   "_meta": {
     "version": 2,
-    "updated": "2026-10-13",
+    "updated": "2026-10-17",
     "description": "Lantern Learn's foundation source list. Every fact, standard and activity in a Lantern Learn, Rocket & Raven or Fox & Fern course is based on sources listed here (or added here before the content ships). Keys follow '{grade_id}_{subject_slug}'. Each key holds a list of sources. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice.",
     "history": [
       "v1 (2026-06): Chris Brock, prek-5th x 6 subjects, 3 entries each, {title,url,description}; kept verbatim in standards/sources-v1-2026-06.json.",
-      "v2 (2026-10-13): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
+      "v2 (2026-10-17): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
     ],
     "grade_ids": [
       "prek",
@@ -35225,6 +35225,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -35235,21 +35250,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35548,6 +35548,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -35712,21 +35727,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44481,6 +44481,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -44507,21 +44522,6 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44636,6 +44636,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -44707,21 +44722,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49937,6 +49937,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -49979,21 +49994,6 @@
         "body-lab-g3-5",
         "body-lab-k2",
         "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50309,6 +50309,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -50455,21 +50470,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59061,6 +59061,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -59087,21 +59102,6 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59216,6 +59216,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -59287,21 +59302,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64566,6 +64566,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -64576,21 +64591,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64905,6 +64905,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -65070,21 +65085,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73327,6 +73327,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -73353,21 +73368,6 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73482,6 +73482,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -73553,21 +73568,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null

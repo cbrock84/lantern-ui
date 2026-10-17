@@ -1868,3 +1868,11 @@ Every entry has these fields:
 - **Date:** 2026-10-16. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** Merged 2026-10-16 (press #133, lanternlearn-site #63, lantern-ui #131). Next: Chris adds lanternlearn.com to Google Search Console and submits both sitemaps.
 - **Links:** [rocket-and-raven-press #133](https://github.com/cbrock84/rocket-and-raven-press/pull/133), [lanternlearn-site #63](https://github.com/cbrock84/lanternlearn-site/pull/63).
+
+### D319: Anatomy figures in courses (pilot)
+- **Question:** Should Lantern Learn use Anatomy (github.com/wheresryan22/anatomy, an MIT drawing kit for interactive isometric figures of machines) in courses and social?
+- **Options:** Pilot Bike Shop week 5: the interactive gear figure in the lesson plus the Reel in the social queue (recommended); social only; samples only.
+- **Choice:** Pilot Bike Shop week 5. Tuesday "Count the Teeth" gets an interactive gear figure (54-tooth front, 27-tooth back, from the Exploratorium example already in the course sources), and the gear Reel joins the social queue. Characters stay illustrated; Anatomy is used only for machines.
+- **Date:** 2026-10-17. **Decided by:** owner. **Status:** Decided.
+- **Progress:** New `figure` lesson block and scripts/figures build (press PR). Samples and the report are in /mnt/project-files/anatomy-samples/.
+- **Links:** /mnt/project-files/anatomy-samples/README.md.

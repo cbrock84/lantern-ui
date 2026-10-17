@@ -1,11 +1,11 @@
 {
   "_meta": {
     "version": 2,
-    "updated": "2026-10-13",
+    "updated": "2026-10-17",
     "description": "Lantern Learn's foundation source list. Every fact, standard and activity in a Lantern Learn, Rocket & Raven or Fox & Fern course is based on sources listed here (or added here before the content ships). Keys follow '{grade_id}_{subject_slug}'. Each key holds a list of sources. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice.",
     "history": [
       "v1 (2026-06): Chris Brock, prek-5th x 6 subjects, 3 entries each, {title,url,description}; kept verbatim in standards/sources-v1-2026-06.json.",
-      "v2 (2026-10-13): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
+      "v2 (2026-10-17): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
     ],
     "grade_ids": [
       "prek",
@@ -3295,6 +3295,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Fix a Leak Week (WaterSense)",
       "url": "https://www.epa.gov/watersense/fix-leak-week",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -3527,21 +3542,6 @@
       "license": null,
       "cited_by": [
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9113,6 +9113,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Fix a Leak Week (WaterSense)",
       "url": "https://www.epa.gov/watersense/fix-leak-week",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9148,21 +9163,6 @@
       "url": "https://askdruniverse.wsu.edu/2015/09/14/how-does-my-family-car-work/",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "Washington State University, Ask Dr. Universe",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
@@ -14191,6 +14191,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Fix a Leak Week (WaterSense)",
       "url": "https://www.epa.gov/watersense/fix-leak-week",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -14441,21 +14456,6 @@
       "license": null,
       "cited_by": [
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -20793,6 +20793,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS101 The Internet",
       "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
@@ -20866,21 +20881,6 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -24903,6 +24903,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Fix a Leak Week (WaterSense)",
       "url": "https://www.epa.gov/watersense/fix-leak-week",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -25135,21 +25150,6 @@
       "license": null,
       "cited_by": [
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -31232,6 +31232,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS101 The Internet",
       "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
@@ -31305,21 +31320,6 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35225,6 +35225,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -35235,21 +35250,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35548,6 +35548,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -35618,6 +35633,21 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35712,21 +35742,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35945,21 +35960,6 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -42578,7 +42578,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 18 time(s) in the SOURCES.md of: code-crew-g3, inside-the-machine-g3-g5.",
+      "description": "Cited 19 time(s) in the SOURCES.md of: code-crew-g3, inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -42625,6 +42625,22 @@
       "url_status": null
     },
     {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
       "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -42658,16 +42674,15 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "title": "CS101 Bits and Bytes",
+      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -42702,21 +42717,6 @@
         "code-crew-g1",
         "code-crew-g2",
         "code-crew-g3"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Bits and Bytes",
-      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44359,7 +44359,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -44481,6 +44481,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -44512,21 +44527,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -44537,6 +44537,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44605,24 +44621,23 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
       "publisher": "Exploratorium",
       "kind": "museum_library",
@@ -44681,6 +44696,36 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Bits and Bytes",
+      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Fix a Leak Week (WaterSense)",
       "url": "https://www.epa.gov/watersense/fix-leak-week",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -44707,21 +44752,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44788,21 +44818,6 @@
       "url_status": null
     },
     {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "ABC Quick Check",
       "url": "https://umaine.edu/outdoorleadership/?p=86",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -44813,21 +44828,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Bits and Bytes",
-      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49937,6 +49937,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -49979,21 +49994,6 @@
         "body-lab-g3-5",
         "body-lab-k2",
         "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50309,6 +50309,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -50379,6 +50394,21 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50455,21 +50485,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50688,21 +50703,6 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -57089,7 +57089,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -57155,6 +57155,22 @@
       "url_status": null
     },
     {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
       "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -57193,22 +57209,6 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Built-in functions, print",
       "url": "https://docs.python.org/3/library/functions.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: code-crew-g4.",
@@ -57238,6 +57238,21 @@
       "cited_by": [
         "code-crew-g4",
         "code-crew-g6-plus"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Bits and Bytes",
+      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -57291,21 +57306,6 @@
         "code-crew-g5",
         "code-crew-g6-plus",
         "python-g11-12"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Bits and Bytes",
-      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -58939,7 +58939,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -59061,6 +59061,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -59092,21 +59107,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -59117,6 +59117,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59185,24 +59201,23 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
       "publisher": "Exploratorium",
       "kind": "museum_library",
@@ -59261,6 +59276,36 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Bits and Bytes",
+      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Fix a Leak Week (WaterSense)",
       "url": "https://www.epa.gov/watersense/fix-leak-week",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -59287,21 +59332,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59368,21 +59398,6 @@
       "url_status": null
     },
     {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "ABC Quick Check",
       "url": "https://umaine.edu/outdoorleadership/?p=86",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -59393,21 +59408,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Bits and Bytes",
-      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64566,6 +64566,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -64576,21 +64591,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64905,6 +64905,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Science of Cycling: History of Bicycle Wheels",
       "url": "https://annex.exploratorium.edu/cycling/wheel1.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -64997,6 +65012,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Eclipse Viewing Safety",
       "url": "https://science.nasa.gov/eclipses/safety/",
       "description": "Cited 4 time(s) in the SOURCES.md of: astronomy-year.",
@@ -65070,21 +65100,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -65286,21 +65301,6 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -71322,7 +71322,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -71426,6 +71426,22 @@
       "url_status": null
     },
     {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
       "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -71494,25 +71510,9 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "CS101 Bits and Bytes",
       "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -73205,7 +73205,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 17 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -73327,6 +73327,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
+      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://spdf.gsfc.nasa.gov/pub/data/image/documents/website/image.gsfc.nasa.gov/poetry/activity/l6.pdf",
       "description": "Cited 7 time(s) in the SOURCES.md of: everyday-machines.",
@@ -73358,21 +73373,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Cycling: History of Drives & Gears; 16 CFR 1512.9 Requirements for protective guards (via LII)",
-      "url": "https://annex.exploratorium.edu/cycling/gears1.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium; Legal Information Institute, Cornell Law School",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -73383,6 +73383,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73451,24 +73467,23 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
       "publisher": "Exploratorium",
       "kind": "museum_library",
@@ -73527,6 +73542,36 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Bits and Bytes",
+      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Fix a Leak Week (WaterSense)",
       "url": "https://www.epa.gov/watersense/fix-leak-week",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -73553,21 +73598,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73634,21 +73664,6 @@
       "url_status": null
     },
     {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "ABC Quick Check",
       "url": "https://umaine.edu/outdoorleadership/?p=86",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -73659,21 +73674,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Bits and Bytes",
-      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -78570,7 +78570,7 @@
     {
       "title": "2.7: Falling Objects, College Physics 1e (OpenStax)",
       "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
-      "description": "Cited 29 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "description": "Cited 31 time(s) in the SOURCES.md of: sports-physics-g6-8.",
       "publisher": "LibreTexts Physics (hosted by the University of California, Davis)",
       "kind": "education_org",
       "frameworks": [],
@@ -79765,6 +79765,21 @@
       "url": "https://www.weather.gov/ffc/pop",
       "description": "Cited 2 time(s) in the SOURCES.md of: weather-lab-g6-8.",
       "publisher": "NOAA National Weather Service, Peachtree City",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The 8-inch Standard Rain Gauge (Cooperative Observer Program)",
+      "url": "https://www.weather.gov/iwx/coop_8inch",
+      "description": "Cited 2 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "NOAA National Weather Service, Northern Indiana",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -82588,21 +82603,6 @@
       "url": "https://www.weather.gov/coop/Overview",
       "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
       "publisher": "NOAA National Weather Service",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The 8-inch Standard Rain Gauge (Cooperative Observer Program)",
-      "url": "https://www.weather.gov/iwx/coop_8inch",
-      "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
-      "publisher": "NOAA National Weather Service, Northern Indiana",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -86575,7 +86575,7 @@
         "fyi.extension.wisc.edu",
         "samnoblemuseum.ou.edu",
         "unh.edu",
-        "epa.gov"
+        "lemelson.mit.edu"
       ],
       "review_hosts": [],
       "flags": []

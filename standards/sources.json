@@ -1,11 +1,11 @@
 {
   "_meta": {
     "version": 2,
-    "updated": "2026-10-17",
+    "updated": "2026-10-19",
     "description": "Lantern Learn's foundation source list. Every fact, standard and activity in a Lantern Learn, Rocket & Raven or Fox & Fern course is based on sources listed here (or added here before the content ships). Keys follow '{grade_id}_{subject_slug}'. Each key holds a list of sources. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice.",
     "history": [
       "v1 (2026-06): Chris Brock, prek-5th x 6 subjects, 3 entries each, {title,url,description}; kept verbatim in standards/sources-v1-2026-06.json.",
-      "v2 (2026-10-17): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
+      "v2 (2026-10-19): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
     ],
     "grade_ids": [
       "prek",
@@ -2339,6 +2339,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "2-LS2-1, DCI LS2.A",
       "url": "https://www.nextgenscience.org/pe/2-ls2-1-ecosystems-interactions-energy-and-dynamics",
       "description": "Cited 3 time(s) in the SOURCES.md of: grow-it-k2.",
@@ -2404,21 +2419,6 @@
       "cited_by": [
         "home-helpers-k2",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -3071,6 +3071,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Great Plant Escape: Plant Parts, Leaves",
       "url": "https://extension.illinois.edu/gpe/case1/c1facts2c.html",
       "description": "Cited 5 time(s) in the SOURCES.md of: grow-it-k2.",
@@ -3230,21 +3245,6 @@
       "license": null,
       "cited_by": [
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -8846,6 +8846,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "K-2-ETS1-2",
       "url": "https://www.nextgenscience.org/pe/k-2-ets1-2-engineering-design",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -8860,21 +8875,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9053,6 +9053,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9073,21 +9088,6 @@
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "Sam Noble Museum, University of Oklahoma",
       "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -13235,6 +13235,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "2-LS2-1, DCI LS2.A",
       "url": "https://www.nextgenscience.org/pe/2-ls2-1-ecosystems-interactions-energy-and-dynamics",
       "description": "Cited 3 time(s) in the SOURCES.md of: grow-it-k2.",
@@ -13300,21 +13315,6 @@
       "cited_by": [
         "home-helpers-k2",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -13949,6 +13949,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Great Plant Escape: Plant Parts, Leaves",
       "url": "https://extension.illinois.edu/gpe/case1/c1facts2c.html",
       "description": "Cited 5 time(s) in the SOURCES.md of: grow-it-k2.",
@@ -14126,21 +14141,6 @@
       "license": null,
       "cited_by": [
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -20337,6 +20337,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "K-2-ETS1-2",
       "url": "https://www.nextgenscience.org/pe/k-2-ets1-2-engineering-design",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -20351,21 +20366,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -20733,6 +20733,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -20753,21 +20768,6 @@
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "Sam Noble Museum, University of Oklahoma",
       "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -23981,6 +23981,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "2-LS2-1, DCI LS2.A",
       "url": "https://www.nextgenscience.org/pe/2-ls2-1-ecosystems-interactions-energy-and-dynamics",
       "description": "Cited 3 time(s) in the SOURCES.md of: grow-it-k2.",
@@ -24011,21 +24026,6 @@
       "cited_by": [
         "body-lab-k2",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -24644,6 +24644,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Great Plant Escape: Plant Parts, Leaves",
       "url": "https://extension.illinois.edu/gpe/case1/c1facts2c.html",
       "description": "Cited 5 time(s) in the SOURCES.md of: grow-it-k2.",
@@ -24838,21 +24853,6 @@
       "license": null,
       "cited_by": [
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -30776,6 +30776,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "K-2-ETS1-2",
       "url": "https://www.nextgenscience.org/pe/k-2-ets1-2-engineering-design",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -30790,21 +30805,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -31172,6 +31172,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -31192,21 +31207,6 @@
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "Sam Noble Museum, University of Oklahoma",
       "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -34677,6 +34677,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "3-LS3-1 Heredity: Inheritance and Variation of Traits (DCI LS3.A, LS3.B)",
       "url": "https://www.nextgenscience.org/pe/3-ls3-1-heredity-inheritance-and-variation-traits",
       "description": "Cited 3 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -34745,21 +34760,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35373,6 +35373,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -35573,21 +35588,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -43913,6 +43913,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "K-2-ETS1-2",
       "url": "https://www.nextgenscience.org/pe/k-2-ets1-2-engineering-design",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -43927,21 +43942,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44575,6 +44575,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
       "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -44661,21 +44676,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49321,6 +49321,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "3-LS3-1 Heredity: Inheritance and Variation of Traits (DCI LS3.A, LS3.B)",
       "url": "https://www.nextgenscience.org/pe/3-ls3-1-heredity-inheritance-and-variation-traits",
       "description": "Cited 3 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -49389,21 +49404,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50135,6 +50135,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -50334,21 +50349,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -58493,6 +58493,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "K-2-ETS1-2",
       "url": "https://www.nextgenscience.org/pe/k-2-ets1-2-engineering-design",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -58507,21 +58522,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59155,6 +59155,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
       "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -59241,21 +59256,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -63901,6 +63901,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "3-LS3-1 Heredity: Inheritance and Variation of Traits (DCI LS3.A, LS3.B)",
       "url": "https://www.nextgenscience.org/pe/3-ls3-1-heredity-inheritance-and-variation-traits",
       "description": "Cited 3 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -63986,21 +64001,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64714,6 +64714,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -64930,21 +64945,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -72759,6 +72759,21 @@
       "url_status": null
     },
     {
+      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
+      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "National Academy of Engineering, The National Academies Press",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "K-2-ETS1-2",
       "url": "https://www.nextgenscience.org/pe/k-2-ets1-2-engineering-design",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -72773,21 +72788,6 @@
         "body-lab-k2",
         "everyday-machines",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The Evolution of Elevators (Stephen R. Nichols), in Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium",
-      "url": "https://www.nationalacademies.org/read/24906/chapter/19",
-      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "National Academy of Engineering, The National Academies Press",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73421,6 +73421,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Be Connected, What is Wi-Fi? course: Understanding Wi-Fi range",
       "url": "https://beconnected.esafety.gov.au/mod/lesson/view.php?id=1487",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -73507,21 +73522,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -78555,7 +78555,7 @@
     {
       "title": "2.1: Matter, Mass, and Volume (CK-12 Introductory Chemistry)",
       "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12",
-      "description": "Cited 69 time(s) in the SOURCES.md of: matter-lab-g6-8.",
+      "description": "Cited 71 time(s) in the SOURCES.md of: matter-lab-g6-8.",
       "publisher": "LibreTexts Chemistry (CK-12 license)",
       "kind": "education_org",
       "frameworks": [],
@@ -78570,7 +78570,7 @@
     {
       "title": "2.7: Falling Objects, College Physics 1e (OpenStax)",
       "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
-      "description": "Cited 31 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "description": "Cited 32 time(s) in the SOURCES.md of: sports-physics-g6-8.",
       "publisher": "LibreTexts Physics (hosted by the University of California, Davis)",
       "kind": "education_org",
       "frameworks": [],
@@ -86574,8 +86574,8 @@
         "jpl.nasa.gov",
         "fyi.extension.wisc.edu",
         "samnoblemuseum.ou.edu",
-        "unh.edu",
-        "lemelson.mit.edu"
+        "arlweb.msha.gov",
+        "unh.edu"
       ],
       "review_hosts": [],
       "flags": []

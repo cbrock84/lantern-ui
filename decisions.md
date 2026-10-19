@@ -26,6 +26,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D321 | Which interactive figures come next after the D320 pilot? | Four more machines with new sources (recommended); step mode for the five D319 figures first; stop at the pilot | Card sent to the project chat 2026-10-19; work continues on the recommendation. |
 
 ## Log
 
@@ -1876,3 +1877,16 @@ Every entry has these fields:
 - **Date:** 2026-10-17. **Decided by:** owner. **Status:** Decided.
 - **Progress:** New `figure` lesson block and scripts/figures build. Bike Shop wk5 Tue gear bench is in, and the gear Reel is queued for Oct 24. On Chris's "continue with all others" (2026-10-17) four more figures were added, each using facts already in the course SOURCES.md: Everyday Machines wk3 Tue pin lock, Inside the Machine 3-5 wk5 Mon signal trip, Sports Physics 6-8 wk8 Tue bounce tower, Weather Lab 6-8 wk7 Wed rain gauge. Their Reels are in /mnt/project-files/anatomy-samples/<figure>/ and are not yet uploaded or queued.
 - **Links:** press #134; /mnt/project-files/anatomy-samples/README.md.
+
+### D320: Step-by-step interactive figures, inspired by visual-learning.app
+- **Question:** Chris asked to replicate and expand on visual-learning.app (15 everyday machines drawn on the Anatomy kit, with numbered steps, an Auto mode and live readings). How?
+- **Options:** Build our own originals on the D319 figure pipeline and add the site's step-by-step format (recommended); copy the site's figures; link out to the site.
+- **Choice:** Build our own. The site's figures carry no license (only the Anatomy kit underneath is MIT, already vendored under D319), so no code, drawings or wording is copied. Figures can now list steps: numbered step buttons, Auto, a row of live readings and a "big idea" line per step, and every figure page reports its height so the lesson frame fits it. Pilot: Sports Physics 6-8 wk7 Tue roller coaster (20 m hill, 19.8 m/s, mass cancels), Matter Lab 6-8 wk3 Thu heating curve (flat at 0 and 100 °C, about 70 °C on Everest), Everyday Machines wk12 Tue elevator shaft (counterweight, brake, safety brakes). Each uses facts already in the course SOURCES.md; no new sources were needed.
+- **Date:** 2026-10-19. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** rocket-and-raven-press PR (claude/project-thread-qmtr0f); standards/sources.json rebuilt.
+
+### D321: Next interactive figures
+- **Question:** Which interactive figures come next after the D320 pilot?
+- **Options:** Four more machines, each with new sources added to sources.json: smoke alarm (Inside the Machine 3-5), fridge moving heat (Matter Lab 6-8), capsule toy chances (Ratios and Data 6-8), four-stroke engine (Sports Physics 6-8) (recommended); add step mode to the five D319 figures first; stop at the pilot.
+- **Choice:** Waiting on the owner; work continues on the recommendation.
+- **Date:** 2026-10-19. **Decided by:** owner (pending). **Status:** Open.

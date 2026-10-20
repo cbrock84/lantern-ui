@@ -1897,6 +1897,6 @@ Every entry has these fields:
 - **Question:** After the rebuilt set (D321), build the four new machines?
 - **Options:** Four more: smoke alarm (Inside the Machine 3-5), fridge moving heat (Matter Lab 6-8), capsule-toy chances (Ratios and Data 6-8), car engine (Sports Physics 6-8), built to the D321 standard (recommended); stop at the eight.
 - **Choice:** Four more. Chris tapped "Four more" (2026-10-20 13:44) and wrote "Go ahead" in the thread (14:56).
-- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
-- **Progress:** All four built and placed: capsule-toy (Ratios and Data 6-8 wk 12 Tue), fridge-heat (Matter Lab 6-8 wk 3 Fri), smoke-alarm (Inside the Machine 3-5 wk 2 Wed), car-engine (Sports Physics 6-8 wk 8 Thu). New sources in each course SOURCES.md and sources.json; nfpa.org judged a standards body. Awaiting merge.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Done.
+- **Progress:** All four built and placed: capsule-toy (Ratios and Data 6-8 wk 12 Tue), fridge-heat (Matter Lab 6-8 wk 3 Fri), smoke-alarm (Inside the Machine 3-5 wk 2 Wed), car-engine (Sports Physics 6-8 wk 8 Thu). New sources in each course SOURCES.md and sources.json; nfpa.org judged a standards body. Merged 2026-10-20 (press #138, lantern-ui #135).
 - **Links:** rocket-and-raven-press and lantern-ui PRs on claude/project-thread-qmtr0f.

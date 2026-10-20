@@ -1900,3 +1900,59 @@ Every entry has these fields:
 - **Date:** 2026-10-20. **Decided by:** owner. **Status:** Done.
 - **Progress:** All four built and placed: capsule-toy (Ratios and Data 6-8 wk 12 Tue), fridge-heat (Matter Lab 6-8 wk 3 Fri), smoke-alarm (Inside the Machine 3-5 wk 2 Wed), car-engine (Sports Physics 6-8 wk 8 Thu). New sources in each course SOURCES.md and sources.json; nfpa.org judged a standards body. Merged 2026-10-20 (press #138, lantern-ui #135).
 - **Links:** rocket-and-raven-press and lantern-ui PRs on claude/project-thread-qmtr0f.
+
+
+### Colorfigures pilot (CF-D3 onward)
+Pilot decisions for the "how it works" figures, numbered `CF-D<n>` from Chris's own CF-D3 so they never clash with
+D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
+
+#### CF-D3: Use Colorfigures for "how it works" figures
+- **Question:** Pilot interactive "how it works" figures with the open-source Colorfigures skill, sold as lesson packs and promoted on Pinterest?
+- **Options:** Not recorded (Chris's own decision, numbered D3 in his request).
+- **Choice:** Yes: build 3 figures end to end with packs and pins, propose 20 subjects and a standard spec.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Hand pump, flashlight and toaster built with packs, PDFs and pins.
+- **Links:** rocket-and-raven-press and lantern-ui PRs on claude/project-thread-z4u024; standards/colorfigures-spec.md.
+
+#### CF-D4: Sell the figures and lesson packs?
+- **Question:** Chris asked for packs to be sold, but every course is free (D106). Sell them, and where?
+- **Options:** A (Recommended) free during launch, sell bundles in the printable store later. B sell now in the printable store (D151; needs prices). C sell on TpT (the pack can't then stay free elsewhere).
+- **Choice:** A. Chris tapped "Free now" on the project chat card and confirmed in the thread (2026-10-20): packs stay free during launch (D106); bundles may sell in the printable store later.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+
+#### CF-D5: Pinterest board for the pins
+- **Question:** Which board do the 3 pins go on, and queue them?
+- **Options:** A (Recommended) existing boards through Metricool (blogId 6238542), queued for review. B a new "How It Works" board created by Make s4699533/s4699545 (public; its Pinterest connections returned 401 under D74), then queue. C hold pins until after launch.
+- **Choice:** A. Chris tapped "Existing boards" on the project chat card and confirmed in the thread (2026-10-20): pins go to existing boards through Metricool, queued for review. Nothing posts without Chris's OK.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Pins are queued once press #139 merges and deploys.
+
+#### CF-D6: Where the figures live
+- **Question:** Keep the figures as standalone pages, or also add them to Everyday Machines lessons?
+- **Options:** A (Recommended) standalone pages linked from packs and pins only, until launch work ends. B also add them as figure blocks in Everyday Machines lessons now.
+- **Choice:** A. Chris tapped "Standalone" on the project chat card and confirmed in the thread (2026-10-20): the figures stay standalone pages, linked from packs and pins only.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+
+#### CF-D7: Hosting path
+- **Question:** Where are the pages hosted?
+- **Options:** learn.lanternlearn.com/colorfigures (press public folder); a new site.
+- **Choice:** `learn.lanternlearn.com/colorfigures/<slug>`, built by `scripts/colorfigures` in the press repo; packs at `/colorfigures/packs/<slug>`, pins at `/colorfigures/pins/<slug>.png`.
+- **Date:** 2026-10-20. **Decided by:** Claude (default). **Status:** Decided.
+
+#### CF-D8: First three subjects and level
+- **Question:** Which three figures first, for which course and grades?
+- **Options:** Not recorded (default).
+- **Choice:** Hand pump (Chris's test figure), flashlight, toaster; Everyday Machines; grades 3 to 5; NGSS 4-PS3-2 on the flashlight and toaster packs only, none on the pump (no certain fit).
+- **Date:** 2026-10-20. **Decided by:** Claude (default). **Status:** Decided.
+
+#### CF-D9: License check before commercial use
+- **Question:** Do the Colorfigures, ISO-GLOW and iso-figure licenses allow selling the figures?
+- **Options:** Not applicable (a check).
+- **Choice:** Yes. All three are MIT: commercial use is allowed if the notice travels with the code. The full MIT notice is inlined in every built page and the credit is in every page and pack footer.
+- **Date:** 2026-10-20. **Decided by:** Claude (default). **Status:** Done.
+
+#### CF-D10: Order of the next 17 figures
+- **Question:** In what order are the next 17 subjects built?
+- **Options:** Not recorded (default).
+- **Choice:** As ranked in standards/colorfigures-spec.md: traffic light controller, keyboard key, gumball machine, bike pump, then the rest.
+- **Date:** 2026-10-20. **Decided by:** Claude (default). **Status:** Decided.

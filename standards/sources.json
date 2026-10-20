@@ -2286,6 +2286,23 @@
       "url_status": null
     },
     {
+      "title": "4-PS3-2 performance expectation",
+      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "NGSS Lead States",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CCSS ELA-Literacy, RF Grade 1",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RF/1/",
       "description": "Cited 5 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
@@ -2299,23 +2316,6 @@
       "cited_by": [
         "code-crew-g1",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "4-PS3-2 performance expectation",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "NGSS Lead States",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -3101,6 +3101,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -3265,21 +3280,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Your Tongue; What Are Taste Buds?",
       "url": "https://kidshealth.org/en/kids/taste-buds.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-k2.",
@@ -3305,6 +3305,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -3634,22 +3650,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -4031,6 +4031,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Curvature of Stems",
       "url": "https://lgross.utk.edu/bioed/webmodules/stemcurvature.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -4175,6 +4190,21 @@
       "license": null,
       "cited_by": [
         "grow-it-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -5726,21 +5756,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
       "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -5980,6 +5995,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -6568,21 +6598,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -7022,6 +7037,36 @@
       "license": null,
       "cited_by": [
         "science-launch-k"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -8893,7 +8938,7 @@
     {
       "title": "4-PS3-2 performance expectation",
       "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "NGSS Lead States",
       "kind": "standards_body",
       "frameworks": [
@@ -9130,6 +9175,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9160,10 +9220,10 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "title": "Linus Yale (inventor profile)",
+      "url": "https://lemelson.mit.edu/resources/linus-yale",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
@@ -9175,16 +9235,17 @@
       "url_status": null
     },
     {
-      "title": "Linus Yale (inventor profile)",
-      "url": "https://lemelson.mit.edu/resources/linus-yale",
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
-      "kind": "university",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9266,22 +9327,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Heat Transfer (\"Heat is always transferred from the object at the higher temperature to the object with the lower temperature\")",
       "url": "https://www.grc.nasa.gov/www/k-12/airplane/heat.html",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9328,6 +9373,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Friction (Science, Class 8, Chapter 9)",
       "url": "https://ncert.nic.in/textbook/pdf/hesc109.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9338,6 +9398,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "everyday-machines"
       ],
       "origin": "course SOURCES.md",
@@ -9615,10 +9690,10 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
+      "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "publisher": "The Ohio State University Libraries, digital collections",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
@@ -9630,11 +9705,11 @@
       "url_status": null
     },
     {
-      "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
-      "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "The Ohio State University Libraries, digital collections",
-      "kind": "university",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -9770,21 +9845,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9864,6 +9924,36 @@
       "url": "https://www.energystar.gov/products/refrigerators",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "ENERGY STAR, U.S. Environmental Protection Agency",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -13306,6 +13396,23 @@
       "url_status": null
     },
     {
+      "title": "4-PS3-2 performance expectation",
+      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "NGSS Lead States",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CCSS ELA-Literacy, RF Grade 1",
       "url": "https://www.thecorestandards.org/ELA-Literacy/RF/1/",
       "description": "Cited 5 time(s) in the SOURCES.md of: tomorrow-trail-k1.",
@@ -13319,23 +13426,6 @@
       "cited_by": [
         "code-crew-g1",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "4-PS3-2 performance expectation",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "NGSS Lead States",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -14103,6 +14193,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -14285,21 +14390,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Your Tongue; What Are Taste Buds?",
       "url": "https://kidshealth.org/en/kids/taste-buds.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-k2.",
@@ -14325,6 +14415,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -14676,22 +14782,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -15072,6 +15162,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Curvature of Stems",
       "url": "https://lgross.utk.edu/bioed/webmodules/stemcurvature.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -15248,6 +15353,21 @@
       "license": null,
       "cited_by": [
         "grow-it-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -16691,21 +16811,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
       "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -16992,6 +17097,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -17514,21 +17634,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -17893,6 +17998,36 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -20508,7 +20643,7 @@
     {
       "title": "4-PS3-2 performance expectation",
       "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "NGSS Lead States",
       "kind": "standards_body",
       "frameworks": [
@@ -20934,6 +21069,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -20954,21 +21104,6 @@
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "Sam Noble Museum, University of Oklahoma",
       "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -21005,6 +21140,22 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -21102,22 +21253,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Heat Transfer (\"Heat is always transferred from the object at the higher temperature to the object with the lower temperature\")",
       "url": "https://www.grc.nasa.gov/www/k-12/airplane/heat.html",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -21179,6 +21314,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Friction (Science, Class 8, Chapter 9)",
       "url": "https://ncert.nic.in/textbook/pdf/hesc109.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
@@ -21205,6 +21355,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -21756,21 +21921,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "How to clean your screen (without damaging it!)",
       "url": "https://lawtech.pepperdine.edu/how-to-clean-your-screen-without-damaging-it/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
@@ -21811,6 +21961,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -22002,21 +22167,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -22164,6 +22314,36 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -24197,7 +24377,7 @@
     {
       "title": "4-PS3-2 performance expectation",
       "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "NGSS Lead States",
       "kind": "standards_body",
       "frameworks": [
@@ -24922,6 +25102,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -25121,21 +25316,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Your Tongue; What Are Taste Buds?",
       "url": "https://kidshealth.org/en/kids/taste-buds.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-k2.",
@@ -25161,6 +25341,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -25474,22 +25670,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -25870,6 +26050,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Curvature of Stems",
       "url": "https://lgross.utk.edu/bioed/webmodules/stemcurvature.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -26011,6 +26206,21 @@
       "license": null,
       "cited_by": [
         "grow-it-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -27570,21 +27780,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
       "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -27763,6 +27958,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -28339,21 +28549,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -28672,6 +28867,36 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -31071,7 +31296,7 @@
     {
       "title": "4-PS3-2 performance expectation",
       "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "NGSS Lead States",
       "kind": "standards_body",
       "frameworks": [
@@ -31497,6 +31722,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -31517,21 +31757,6 @@
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "Sam Noble Museum, University of Oklahoma",
       "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -31568,6 +31793,22 @@
       "cited_by": [
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -31665,22 +31906,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Heat Transfer (\"Heat is always transferred from the object at the higher temperature to the object with the lower temperature\")",
       "url": "https://www.grc.nasa.gov/www/k-12/airplane/heat.html",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -31742,6 +31967,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Friction (Science, Class 8, Chapter 9)",
       "url": "https://ncert.nic.in/textbook/pdf/hesc109.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
@@ -31768,6 +32008,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -32319,21 +32574,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "How to clean your screen (without damaging it!)",
       "url": "https://lawtech.pepperdine.edu/how-to-clean-your-screen-without-damaging-it/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
@@ -32374,6 +32614,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -32565,21 +32820,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -32727,6 +32967,36 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -34995,6 +35265,23 @@
       "url_status": null
     },
     {
+      "title": "4-PS3-2 performance expectation",
+      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "NGSS Lead States",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "3-LS4-3, DCI LS4.C",
       "url": "https://www.nextgenscience.org/pe/3-ls4-3-biological-evolution-unity-and-diversity",
       "description": "Cited 4 time(s) in the SOURCES.md of: backyard-explorer-g3-5, grow-it-g3-5.",
@@ -35008,23 +35295,6 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "grow-it-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "4-PS3-2 performance expectation",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "NGSS Lead States",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35790,6 +36060,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -35980,21 +36265,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Your Immune System (for Kids)",
       "url": "https://kidshealth.org/en/kids/immune.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -36068,6 +36338,22 @@
       "license": null,
       "cited_by": [
         "grow-it-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -36483,22 +36769,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -36960,6 +37230,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Observable Human Characteristics",
       "url": "https://learn.genetics.utah.edu/content/basics/observable/",
       "description": "Cited 2 time(s) in the SOURCES.md of: science-launch-g3.",
@@ -37034,6 +37319,21 @@
       "cited_by": [
         "astronomy-year",
         "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -38985,21 +39285,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Hot Equator, Cold Poles (PDF)",
       "url": "https://lawrencehallofscience.org/wp-content/uploads/2022/06/diy_ss_hot_equator_cold_poles.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-g3.",
@@ -39344,6 +39629,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -40309,21 +40609,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -40668,6 +40953,36 @@
       "license": "Snacks CC BY-NC-SA 4.0. Rest of site: noncommercial educational copying with \"© The Exploratorium, www.exploratorium.edu\"",
       "cited_by": [
         "science-launch-g3"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44529,7 +44844,7 @@
     {
       "title": "4-PS3-2 performance expectation",
       "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "NGSS Lead States",
       "kind": "standards_body",
       "frameworks": [
@@ -45297,6 +45612,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -45342,21 +45672,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Linus Yale (inventor profile)",
       "url": "https://lemelson.mit.edu/resources/linus-yale",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -45382,6 +45697,22 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -45554,22 +45885,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -45677,6 +45992,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Metric (SI) Prefixes",
       "url": "https://physics.nist.gov/cuu/Units/prefixes.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -45707,6 +46037,21 @@
         "science-launch-g3",
         "science-launch-g5",
         "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -46335,21 +46680,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
       "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -46407,6 +46737,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -46717,21 +47062,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -46998,6 +47328,36 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50140,6 +50500,23 @@
       "url_status": null
     },
     {
+      "title": "4-PS3-2 performance expectation",
+      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "NGSS Lead States",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "4.PS4 standard PDF",
       "url": "https://nextgenscience.org/sites/default/files/4.PS4%205.24.13with%20footer.pdf",
       "description": "Cited 4 time(s) in the SOURCES.md of: science-launch-g4.",
@@ -50170,23 +50547,6 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "grow-it-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "4-PS3-2 performance expectation",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "NGSS Lead States",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -51020,6 +51380,22 @@
       "url_status": null
     },
     {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines, science-launch-g4.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "How to Do a Science Fair Project",
       "url": "https://www.jpl.nasa.gov/edu/teach/activity/how-to-do-a-science-fair-project/",
       "description": "Cited 6 time(s) in the SOURCES.md of: builders-lab, everyday-machines.",
@@ -51065,6 +51441,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -51195,22 +51586,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines, science-launch-g4.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Bee Pollination",
       "url": "https://www.fs.usda.gov/wildflowers/pollinators/animals/bees.shtml",
       "description": "Cited 5 time(s) in the SOURCES.md of: backyard-explorer-g3-5, grow-it-g3-5.",
@@ -51254,21 +51629,6 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -52151,6 +52511,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Curvature of Stems",
       "url": "https://lgross.utk.edu/bioed/webmodules/stemcurvature.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: backyard-explorer-g3-5.",
@@ -52246,6 +52621,21 @@
         "science-launch-g3",
         "science-launch-g5",
         "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -54203,21 +54593,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Seed Dispersal (OBIS activity)",
       "url": "https://lawrencehallofscience.org/wp-content/uploads/2026/06/Seed-Dispersal.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -54488,6 +54863,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -55451,21 +55841,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -55900,6 +56275,36 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59627,7 +60032,7 @@
     {
       "title": "4-PS3-2 performance expectation",
       "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "NGSS Lead States",
       "kind": "standards_body",
       "frameworks": [
@@ -60395,6 +60800,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -60440,21 +60860,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Linus Yale (inventor profile)",
       "url": "https://lemelson.mit.edu/resources/linus-yale",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -60480,6 +60885,22 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -60652,22 +61073,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -60775,6 +61180,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Metric (SI) Prefixes",
       "url": "https://physics.nist.gov/cuu/Units/prefixes.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -60805,6 +61225,21 @@
         "science-launch-g3",
         "science-launch-g5",
         "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61433,21 +61868,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
       "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -61505,6 +61925,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61815,21 +62250,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -62096,6 +62516,36 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -65236,6 +65686,23 @@
       "url_status": null
     },
     {
+      "title": "4-PS3-2 performance expectation",
+      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "NGSS Lead States",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "5-PS3-1 Energy (Disciplinary Core Ideas PS3.D, LS1.C)",
       "url": "https://www.nextgenscience.org/pe/5-ps3-1-energy",
       "description": "Cited 5 time(s) in the SOURCES.md of: body-lab-g3-5, grow-it-g3-5, science-launch-g5.",
@@ -65268,23 +65735,6 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "grow-it-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "4-PS3-2 performance expectation",
-      "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "NGSS Lead States",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -66167,6 +66617,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -66390,21 +66855,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Your Immune System (for Kids)",
       "url": "https://kidshealth.org/en/kids/immune.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -66478,6 +66928,22 @@
       "license": null,
       "cited_by": [
         "grow-it-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -66876,22 +67342,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -67318,6 +67768,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Curvature of Stems",
       "url": "https://lgross.utk.edu/bioed/webmodules/stemcurvature.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: backyard-explorer-g3-5.",
@@ -67417,6 +67882,21 @@
         "science-launch-g1",
         "science-launch-g5",
         "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -69313,21 +69793,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Seed Dispersal (OBIS activity)",
       "url": "https://lawrencehallofscience.org/wp-content/uploads/2026/06/Seed-Dispersal.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -69567,6 +70032,21 @@
       "license": null,
       "cited_by": [
         "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -70495,21 +70975,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -70959,6 +71424,36 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -74411,7 +74906,7 @@
     {
       "title": "4-PS3-2 performance expectation",
       "url": "https://www.nextgenscience.org/pe/4-ps3-2-energy",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "NGSS Lead States",
       "kind": "standards_body",
       "frameworks": [
@@ -75179,6 +75674,21 @@
       "url_status": null
     },
     {
+      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
+      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Washington (faculty page, neutral zone series)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reactions-Magnets, 4-H activity plan ACTpa122 (\"Magnets have a special power which enables them to attract things made from iron or steel\"); Playing with Magnetism (\"magnets are attracted to items which contain metals such as iron\")",
       "url": "https://fyi.extension.wisc.edu/wi4hpublications/files/2015/10/ACTpa122.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
@@ -75224,21 +75734,6 @@
       "url_status": null
     },
     {
-      "title": "Thermostatic temperature controllers (\"a thermally actuated switch\" that \"changes between the 'on' and 'off' state at a specific temperature\")",
-      "url": "https://faculty.washington.edu/brengelm/neut_zone/pg3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Washington (faculty page, neutral zone series)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Linus Yale (inventor profile)",
       "url": "https://lemelson.mit.edu/resources/linus-yale",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -75264,6 +75759,22 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Science of Electricity (Energy Kids)",
+      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
+      "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75436,22 +75947,6 @@
       "url_status": null
     },
     {
-      "title": "Science of Electricity (Energy Kids)",
-      "url": "https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php",
-      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Energy Information Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines",
-        "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -75559,6 +76054,21 @@
       "url_status": null
     },
     {
+      "title": "The flashlight (Physics 222 course module)",
+      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Metric (SI) Prefixes",
       "url": "https://physics.nist.gov/cuu/Units/prefixes.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -75589,6 +76099,21 @@
         "science-launch-g3",
         "science-launch-g5",
         "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Flashlight Explanation (Ask the Van)",
+      "url": "https://van.physics.illinois.edu/ask/listing/1915",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -76217,21 +76742,6 @@
       "url_status": null
     },
     {
-      "title": "The flashlight (Physics 222 course module)",
-      "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "\"How does a zipper work?\" (Beakman and Jax syndicated column, 1999, digitized copy)",
       "url": "https://library.osu.edu/dc/downloads/kh04f235x?locale=en",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -76289,6 +76799,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -76599,21 +77124,6 @@
       "url_status": null
     },
     {
-      "title": "Flashlight Explanation (Ask the Van)",
-      "url": "https://van.physics.illinois.edu/ask/listing/1915",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Refrigerator Cooling, Ask the Van (\"the heat flow from the cold fridge to the warmer outside ... is driven by electrical power\")",
       "url": "https://van.physics.illinois.edu/ask/listing/28379",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -76880,6 +77390,36 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 2.1.5 Suction lift (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e04.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Water lifting devices, 3.5.1 Piston or bucket pumps: basic principles (FAO Irrigation and Drainage Paper 43)",
+      "url": "https://www.fao.org/4/ah810e/ah810e06.htm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Food and Agriculture Organization of the United Nations",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -88630,7 +89170,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/everyday-machines/SOURCES.md",
-      "cited_pages": 62,
+      "cited_pages": 65,
       "top_hosts": [
         "nextgenscience.org",
         "spdf.gsfc.nasa.gov",
@@ -88639,7 +89179,7 @@
         "arlweb.msha.gov",
         "jpl.nasa.gov",
         "fyi.extension.wisc.edu",
-        "samnoblemuseum.ou.edu"
+        "faculty.washington.edu"
       ],
       "review_hosts": [],
       "flags": []

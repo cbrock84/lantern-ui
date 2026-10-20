@@ -96,7 +96,8 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'json.org': 'education_org',              # format author's reference page, not a standards body (the standards are ECMA-404 and RFC 8259)
               'data.epo.org': 'government',             # European Patent Office publication server (intergovernmental patent office)
               'collection.sciencemuseumgroup.org.uk': 'museum_library',  # Science Museum Group collection record
-              'itftennis.com': 'standards_body'}             # International Tennis Federation, the rules body for tennis (Rules of Tennis)
+              'itftennis.com': 'standards_body',             # International Tennis Federation, the rules body for tennis (Rules of Tennis)
+              'nfpa.org': 'standards_body'}                  # National Fire Protection Association, fire codes and standards body
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 

@@ -4107,7 +4107,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-k2"
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -7035,7 +7036,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9882,7 +9884,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -10598,7 +10601,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-k2"
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -15160,7 +15164,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-k2"
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -17902,7 +17907,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -22172,7 +22178,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -22918,7 +22925,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-k2"
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -25935,7 +25943,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-k2"
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -28677,7 +28686,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -32731,7 +32741,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -33477,7 +33488,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-k2"
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -40670,7 +40682,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -42701,6 +42714,21 @@
       "url_status": null
     },
     {
+      "title": "Smoke Alarm Information",
+      "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Fire Protection Association",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 20: ASCII format for Network Interchange",
       "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -43674,6 +43702,21 @@
       "url_status": null
     },
     {
+      "title": "Technical Note 1455-1, Performance of Home Smoke Alarms (2008)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1455-1r2008.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SP 800-121 Rev. 2, Guide to Bluetooth Security",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2-upd1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -43727,6 +43770,22 @@
       "url_status": null
     },
     {
+      "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
+      "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Signal Timing Process Final Report, 3. Host Hardware Environment",
       "url": "https://ops.fhwa.dot.gov/arterial_mgmt/rpt/sig_tim_proc/sect_3.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -43752,6 +43811,23 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "matter-lab-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -43895,6 +43971,36 @@
       "url_status": null
     },
     {
+      "title": "How Smoke Alarms Work",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/how-smoke-alarms-work",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Facts & Questions",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/smoke-alarm-facts-questions",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Back Up Business Data",
       "url": "https://www.cisa.gov/back-business-data",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -43912,6 +44018,21 @@
     {
       "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "A Review of the Sound Effectiveness of Residential Smoke Alarms (CPSC-ES-0502, 2004)",
+      "url": "https://www.cpsc.gov/s3fs-public/alarm1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
       "kind": "government",
@@ -44065,6 +44186,21 @@
       "url": "https://www.loc.gov/preservation/digital/formats/fdd/text_fdd.shtml",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Library of Congress",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Detector Supplementary Questions and Answers (2007)",
+      "url": "https://www.nist.gov/document/smoke-detectorsupplementary-qs-as091107pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -44612,6 +44748,21 @@
       "cited_by": [
         "bike-shop-g3-5",
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Information",
+      "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Fire Protection Association",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -46231,6 +46382,21 @@
       "url_status": null
     },
     {
+      "title": "Technical Note 1455-1, Performance of Home Smoke Alarms (2008)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1455-1r2008.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SP 800-121 Rev. 2, Guide to Bluetooth Security",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2-upd1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -46271,6 +46437,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
+      "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -46331,6 +46513,23 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "matter-lab-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -46608,6 +46807,36 @@
       "url_status": null
     },
     {
+      "title": "How Smoke Alarms Work",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/how-smoke-alarms-work",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Facts & Questions",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/smoke-alarm-facts-questions",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Back Up Business Data",
       "url": "https://www.cisa.gov/back-business-data",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -46663,6 +46892,21 @@
       "license": null,
       "cited_by": [
         "builders-lab"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "A Review of the Sound Effectiveness of Residential Smoke Alarms (CPSC-ES-0502, 2004)",
+      "url": "https://www.cpsc.gov/s3fs-public/alarm1.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -46768,7 +47012,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -47130,6 +47375,21 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Detector Supplementary Questions and Answers (2007)",
+      "url": "https://www.nist.gov/document/smoke-detectorsupplementary-qs-as091107pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -55654,7 +55914,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -57552,6 +57813,21 @@
       "url_status": null
     },
     {
+      "title": "Smoke Alarm Information",
+      "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Fire Protection Association",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 20: ASCII format for Network Interchange",
       "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -58508,6 +58784,21 @@
       "url_status": null
     },
     {
+      "title": "Technical Note 1455-1, Performance of Home Smoke Alarms (2008)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1455-1r2008.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SP 800-121 Rev. 2, Guide to Bluetooth Security",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2-upd1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -58576,6 +58867,22 @@
       "url_status": null
     },
     {
+      "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
+      "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Signal Timing Process Final Report, 3. Host Hardware Environment",
       "url": "https://ops.fhwa.dot.gov/arterial_mgmt/rpt/sig_tim_proc/sect_3.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -58601,6 +58908,23 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "matter-lab-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -58746,6 +59070,36 @@
       "url_status": null
     },
     {
+      "title": "How Smoke Alarms Work",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/how-smoke-alarms-work",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Facts & Questions",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/smoke-alarm-facts-questions",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Back Up Business Data",
       "url": "https://www.cisa.gov/back-business-data",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -58763,6 +59117,21 @@
     {
       "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "A Review of the Sound Effectiveness of Residential Smoke Alarms (CPSC-ES-0502, 2004)",
+      "url": "https://www.cpsc.gov/s3fs-public/alarm1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
       "kind": "government",
@@ -58916,6 +59285,21 @@
       "url": "https://www.loc.gov/preservation/digital/formats/fdd/text_fdd.shtml",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Library of Congress",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Detector Supplementary Questions and Answers (2007)",
+      "url": "https://www.nist.gov/document/smoke-detectorsupplementary-qs-as091107pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -59462,6 +59846,21 @@
       "cited_by": [
         "bike-shop-g3-5",
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Information",
+      "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Fire Protection Association",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61081,6 +61480,21 @@
       "url_status": null
     },
     {
+      "title": "Technical Note 1455-1, Performance of Home Smoke Alarms (2008)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1455-1r2008.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SP 800-121 Rev. 2, Guide to Bluetooth Security",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2-upd1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -61121,6 +61535,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
+      "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61181,6 +61611,23 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "matter-lab-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61458,6 +61905,36 @@
       "url_status": null
     },
     {
+      "title": "How Smoke Alarms Work",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/how-smoke-alarms-work",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Facts & Questions",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/smoke-alarm-facts-questions",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Back Up Business Data",
       "url": "https://www.cisa.gov/back-business-data",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -61513,6 +61990,21 @@
       "license": null,
       "cited_by": [
         "builders-lab"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "A Review of the Sound Effectiveness of Residential Smoke Alarms (CPSC-ES-0502, 2004)",
+      "url": "https://www.cpsc.gov/s3fs-public/alarm1.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61618,7 +62110,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61980,6 +62473,21 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Detector Supplementary Questions and Answers (2007)",
+      "url": "https://www.nist.gov/document/smoke-detectorsupplementary-qs-as091107pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -70465,7 +70973,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -72060,6 +72569,21 @@
       "url_status": null
     },
     {
+      "title": "Smoke Alarm Information",
+      "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Fire Protection Association",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 20: ASCII format for Network Interchange",
       "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -73076,6 +73600,21 @@
       "url_status": null
     },
     {
+      "title": "Technical Note 1455-1, Performance of Home Smoke Alarms (2008)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1455-1r2008.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SP 800-121 Rev. 2, Guide to Bluetooth Security",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2-upd1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -73129,6 +73668,22 @@
       "url_status": null
     },
     {
+      "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
+      "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Signal Timing Process Final Report, 3. Host Hardware Environment",
       "url": "https://ops.fhwa.dot.gov/arterial_mgmt/rpt/sig_tim_proc/sect_3.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -73154,6 +73709,23 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "matter-lab-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73282,6 +73854,36 @@
       "url_status": null
     },
     {
+      "title": "How Smoke Alarms Work",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/how-smoke-alarms-work",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Facts & Questions",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/smoke-alarm-facts-questions",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Back Up Business Data",
       "url": "https://www.cisa.gov/back-business-data",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -73299,6 +73901,21 @@
     {
       "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "A Review of the Sound Effectiveness of Residential Smoke Alarms (CPSC-ES-0502, 2004)",
+      "url": "https://www.cpsc.gov/s3fs-public/alarm1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
       "kind": "government",
@@ -73452,6 +74069,21 @@
       "url": "https://www.loc.gov/preservation/digital/formats/fdd/text_fdd.shtml",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Library of Congress",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Detector Supplementary Questions and Answers (2007)",
+      "url": "https://www.nist.gov/document/smoke-detectorsupplementary-qs-as091107pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -73998,6 +74630,21 @@
       "cited_by": [
         "bike-shop-g3-5",
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Information",
+      "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Fire Protection Association",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75617,6 +76264,21 @@
       "url_status": null
     },
     {
+      "title": "Technical Note 1455-1, Performance of Home Smoke Alarms (2008)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1455-1r2008.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SP 800-121 Rev. 2, Guide to Bluetooth Security",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2-upd1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -75657,6 +76319,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
+      "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax, Rice University",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-k2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75717,6 +76395,23 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "matter-lab-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75994,6 +76689,36 @@
       "url_status": null
     },
     {
+      "title": "How Smoke Alarms Work",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/how-smoke-alarms-work",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Alarm Facts & Questions",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-a-h/fire-marshal-s-office/smoke-alarms-smoke-detectors/smoke-alarm-facts-questions",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Chatham County (NC) Fire Marshal",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Back Up Business Data",
       "url": "https://www.cisa.gov/back-business-data",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -76049,6 +76774,21 @@
       "license": null,
       "cited_by": [
         "builders-lab"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "A Review of the Sound Effectiveness of Residential Smoke Alarms (CPSC-ES-0502, 2004)",
+      "url": "https://www.cpsc.gov/s3fs-public/alarm1.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -76154,7 +76894,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -76516,6 +77257,21 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Smoke Detector Supplementary Questions and Answers (2007)",
+      "url": "https://www.nist.gov/document/smoke-detectorsupplementary-qs-as091107pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -78987,6 +79743,21 @@
       ],
       "origin": "course SOURCES.md",
       "url_status": null
+    },
+    {
+      "title": "openstax.org",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-7-falling-objects",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ratios-data-g6-8.",
+      "publisher": null,
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ratios-data-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
     }
   ],
   "6th_8th_reading_ela": [
@@ -79753,15 +80524,16 @@
       "url_status": null
     },
     {
-      "title": "14.2: Temperature Change and Heat Capacity, College Physics 1e (OpenStax)",
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
       "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
-      "description": "Cited 38 time(s) in the SOURCES.md of: matter-lab-g6-8, sports-physics-g6-8.",
+      "description": "Cited 44 time(s) in the SOURCES.md of: matter-lab-g6-8, sports-physics-g6-8.",
       "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
         "sports-physics-g6-8"
       ],
@@ -80318,6 +81090,21 @@
       "url_status": null
     },
     {
+      "title": "7.3: Kinetic Energy (University Physics I, OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax",
+      "description": "Cited 3 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "publisher": "LibreTexts Physics, hosted by UC Davis",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "The Highs and Lows of Air Pressure",
       "url": "https://scied.ucar.edu/learning-zone/how-weather-works/highs-and-lows-air-pressure",
       "description": "Cited 3 time(s) in the SOURCES.md of: weather-lab-g6-8.",
@@ -80694,21 +81481,6 @@
       "license": null,
       "cited_by": [
         "cells-systems-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "7.3: Kinetic Energy (University Physics I, OpenStax)",
-      "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax",
-      "description": "Cited 2 time(s) in the SOURCES.md of: sports-physics-g6-8.",
-      "publisher": "LibreTexts Physics, hosted by UC Davis",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -81122,6 +81894,21 @@
       "license": null,
       "cited_by": [
         "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "ME 200 reading 3.8.4: The Otto, Diesel, and Dual Cycles (C. Wassgren)",
+      "url": "https://engineering.purdue.edu/~wassgren/teaching/ME20000/NotesAndReading/Lec37_Reading_Wassgren.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "publisher": "Purdue University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -82624,6 +83411,36 @@
       "url_status": null
     },
     {
+      "title": "Saturation properties for 1,1,1,2-Tetrafluoroethane (R-134a), NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C811972&Mask=4",
+      "description": "Cited 1 time(s) in the SOURCES.md of: matter-lab-g6-8.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "matter-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Saturation properties for 1,1,1,2-Tetrafluoroethane (R-134a), NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/fluid.cgi?Action=Data&Wide=on&ID=C811972&Type=SatT&Digits=5&TLow=-25&THigh=40&TInc=5&RefState=DEF&TUnit=C&PUnit=bar&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm",
+      "description": "Cited 1 time(s) in the SOURCES.md of: matter-lab-g6-8.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "matter-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Bee Research Laboratory, Beltsville, MD",
       "url": "https://www.ars.usda.gov/northeast-area/beltsville-md/beltsville-agricultural-research-center/bee-research-laboratory/",
       "description": "Cited 1 time(s) in the SOURCES.md of: cells-systems-g6-8.",
@@ -82829,6 +83646,22 @@
       "license": null,
       "cited_by": [
         "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Refrigerator Thermometers: Cold Facts about Food Safety (\"keep its temperature at 40 °F or below\"; \"the freezer should be at 0 °F\"; \"appliance thermometer\")",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+      "description": "Cited 1 time(s) in the SOURCES.md of: matter-lab-g6-8.",
+      "publisher": "U.S. Food and Drug Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines",
+        "matter-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -83119,6 +83952,21 @@
       "license": null,
       "cited_by": [
         "matter-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Guide to the SI, Appendix B.8 (SP 811)",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+      "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "publisher": "National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -84087,8 +84935,38 @@
       "url_status": null
     },
     {
+      "title": "Engine Parts, Beginner's Guide to Aeronautics",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/engine-parts/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Four Forces on an Airplane, Beginner's Guide to Aeronautics",
       "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/four-forces-on-an-airplane/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Internal Combustion Engine - Otto Cycle, Beginner's Guide to Aeronautics",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/internal-combustion-engine-otto-cycle/",
       "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
       "publisher": "NASA Glenn Research Center",
       "kind": "government",
@@ -88149,7 +89027,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/inside-the-machine-g3-g5/SOURCES.md",
-      "cited_pages": 70,
+      "cited_pages": 78,
       "top_hosts": [
         "web.stanford.edu",
         "ncert.nic.in",
@@ -88547,7 +89425,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/matter-lab-g6-8/SOURCES.md",
-      "cited_pages": 51,
+      "cited_pages": 54,
       "top_hosts": [
         "chem.libretexts.org",
         "nextgenscience.org",
@@ -88555,8 +89433,8 @@
         "grc.nasa.gov",
         "pubchem.ncbi.nlm.nih.gov",
         "webbook.nist.gov",
-        "epa.gov",
-        "phys.libretexts.org"
+        "phys.libretexts.org",
+        "epa.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -88784,9 +89662,10 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/ratios-data-g6-8/SOURCES.md",
-      "cited_pages": 7,
+      "cited_pages": 8,
       "top_hosts": [
-        "thecorestandards.org"
+        "thecorestandards.org",
+        "openstax.org"
       ],
       "review_hosts": [],
       "flags": []
@@ -89118,7 +89997,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/sports-physics-g6-8/SOURCES.md",
-      "cited_pages": 29,
+      "cited_pages": 33,
       "top_hosts": [
         "phys.libretexts.org",
         "openstax.org",

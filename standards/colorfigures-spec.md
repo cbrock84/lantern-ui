@@ -115,6 +115,42 @@ Applied STEM (coding, computers) ranks high, per Chris's post-launch focus.
 | 19 | Bicycle gears | gear ratio, speed and effort | 4 | 4 | Overlaps the gear bench figure (D320); only if it adds something |
 | 20 | Four-stroke engine | intake, squeeze, power, exhaust | 4 | 4 | Overlaps the car engine figure (D322); hold |
 
+## Tech catalog (CF-D11)
+
+Chris (2026-10-20): "Build out a large number of how it works diagrams for various tech equipment like laptops,
+tablets, computer workstations, IoT devices that may be in a household". These go in two catalog sections, Computers
+and Smart home, for grades 3 to 5, linked to Inside the Machine 3 to 5. Each figure keeps its pack in
+`scripts/colorfigures/packs/<slug>.mjs` and its source rows in the Inside the Machine `SOURCES.md`.
+
+| Fig. | Subject | Section | What the controls teach | Wave |
+| --- | --- | --- | --- | --- |
+| 04 | Laptop | Computers | start-up, memory and storage, processor heat and fan, battery | 1 |
+| 05 | Desktop workstation | Computers | power supply, processor, memory, storage, graphics card, airflow | 1 |
+| 06 | Tablet | Computers | touch input, screen output, motion and light sensors, charging | 1 |
+| 07 | Keyboard key to letter | Computers | switch, key code, cable, letter on screen | 1 |
+| 08 | Optical mouse | Computers | light, tiny camera, comparing pictures, pointer | 1 |
+| 09 | Screen pixels | Computers | pixels, red, green and blue, pictures as numbers | 1 |
+| 10 | Home router | Smart home | packets, addresses, Wi-Fi, the internet link | 1 |
+| 11 | Smart speaker | Smart home | microphones, wake word, data over the internet, mute | 1 |
+| 12 | Smart thermostat | Smart home | sensor, set point, switching heat and cooling, schedule | 1 |
+| 13 | Video doorbell | Smart home | button, camera, motion sensor, Wi-Fi, infrared at night | 1 |
+| 14 | Robot vacuum | Smart home | sense, decide, act; bump and cliff sensors; docking | 1 |
+| 15 | TV remote | Smart home | switch, infrared light pattern, sensor, code | 1 |
+| | Smartphone | Computers | radios, cameras, sensors, battery | 2 |
+| | Game console and controller | Computers | buttons and joysticks as input, graphics, wireless link | 2 |
+| | Solid state drive and USB stick | Computers | storage that keeps data with the power off | 2 |
+| | Hard drive | Computers | spinning disk, read and write head | 2 |
+| | Inkjet printer | Computers | print head, paper path, dots make a picture | 2 |
+| | 3D printer | Computers | layers, heated nozzle, moving axes | 2 |
+| | Wireless earbuds | Smart home | Bluetooth, microphone, speaker, charging case | 2 |
+| | Wireless charger | Smart home | coils, magnetic field, charging without a plug | 2 |
+| | Fitness tracker | Smart home | motion sensor counts steps, light-based heart rate | 2 |
+| | Smart bulb and smart plug | Smart home | Wi-Fi switch, app, schedules | 2 |
+| | Smart lock | Smart home | motor bolt, code, wireless unlock | 2 |
+| | Security camera | Smart home | camera, motion, storage, cloud | 2 |
+| | Traffic light controller | Smart home | sequence, timer, sensor input (from the ranked list) | 2 |
+| | Smoke and carbon monoxide alarm | Smart home | covered by the D322 stepped figure; only if it adds something | 2 |
+
 Every new figure gets its facts from pages listed in `sources.json` first, and adds any new source to the course
 `SOURCES.md` in the same change.
 
@@ -133,3 +169,4 @@ D1 to D322. Each is mirrored in `decisions.md`.
 | CF-D8 | First three subjects and level | Hand pump, flashlight, toaster; Everyday Machines; grades 3 to 5; NGSS 4-PS3-2 on the flashlight and toaster only | Claude (default) | Decided |
 | CF-D9 | License check before any commercial use | MIT allows it with the notice; notice in every page, credit in every footer | Claude (default) | Done |
 | CF-D10 | Order of the next 17 | As ranked above | Claude (default) | Decided |
+| CF-D11 | Tech catalog | Computers and Smart home sections, grades 3 to 5, built in waves (table above) | Claude (default) | Decided |

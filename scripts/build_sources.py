@@ -93,7 +93,10 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'uwspace.uwaterloo.ca': 'university',     # University of Waterloo institutional repository
               'gbif.org': 'government',                 # Global Biodiversity Information Facility, intergovernmental
               'patents.google.com': 'government',       # mirror of USPTO patent records
-              'json.org': 'education_org'}              # format author's reference page, not a standards body (the standards are ECMA-404 and RFC 8259)
+              'json.org': 'education_org',              # format author's reference page, not a standards body (the standards are ECMA-404 and RFC 8259)
+              'data.epo.org': 'government',             # European Patent Office publication server (intergovernmental patent office)
+              'collection.sciencemuseumgroup.org.uk': 'museum_library',  # Science Museum Group collection record
+              'itftennis.com': 'standards_body'}             # International Tennis Federation, the rules body for tennis (Rules of Tennis)
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 

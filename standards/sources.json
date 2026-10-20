@@ -1,11 +1,11 @@
 {
   "_meta": {
     "version": 2,
-    "updated": "2026-10-19",
+    "updated": "2026-10-20",
     "description": "Lantern Learn's foundation source list. Every fact, standard and activity in a Lantern Learn, Rocket & Raven or Fox & Fern course is based on sources listed here (or added here before the content ships). Keys follow '{grade_id}_{subject_slug}'. Each key holds a list of sources. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice.",
     "history": [
       "v1 (2026-06): Chris Brock, prek-5th x 6 subjects, 3 entries each, {title,url,description}; kept verbatim in standards/sources-v1-2026-06.json.",
-      "v2 (2026-10-19): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
+      "v2 (2026-10-20): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
     ],
     "grade_ids": [
       "prek",
@@ -2970,6 +2970,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -3066,21 +3081,6 @@
         "builders-lab",
         "everyday-machines",
         "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -3594,6 +3594,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Squirrels and Other Sciurids of Missouri",
       "url": "https://sites.wustl.edu/monh/squirrels-and-other-sciurids-of-missouri/",
       "description": "Cited 3 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -3758,6 +3773,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -5969,10 +5999,25 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -6009,6 +6054,21 @@
       "license": null,
       "cited_by": [
         "tomorrow-trail-k1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9021,6 +9081,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9048,21 +9123,6 @@
         "builders-lab",
         "everyday-machines",
         "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9174,6 +9234,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Boing! Scavenging for Springs (activity PDF)",
       "url": "https://www.cdm.org/wp-content/uploads/2014/04/Boing-ScavSprings1.pdf",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9225,6 +9300,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -9553,10 +9643,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -13884,6 +14004,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -13944,21 +14079,6 @@
         "builders-lab",
         "everyday-machines",
         "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -14492,6 +14612,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Squirrels and Other Sciurids of Missouri",
       "url": "https://sites.wustl.edu/monh/squirrels-and-other-sciurids-of-missouri/",
       "description": "Cited 3 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -14658,6 +14793,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -16857,10 +17007,25 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -16897,6 +17062,21 @@
       "license": null,
       "cited_by": [
         "tomorrow-trail-k1"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -20701,6 +20881,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -20728,21 +20923,6 @@
         "builders-lab",
         "everyday-machines",
         "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -20886,6 +21066,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Boing! Scavenging for Springs (activity PDF)",
       "url": "https://www.cdm.org/wp-content/uploads/2014/04/Boing-ScavSprings1.pdf",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -20952,6 +21147,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -21615,10 +21825,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -24578,6 +24818,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -24639,21 +24894,6 @@
         "builders-lab",
         "everyday-machines",
         "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -25186,6 +25426,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Squirrels and Other Sciurids of Missouri",
       "url": "https://sites.wustl.edu/monh/squirrels-and-other-sciurids-of-missouri/",
       "description": "Cited 3 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -25350,6 +25605,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -27535,10 +27805,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -31140,6 +31440,21 @@
       "url_status": null
     },
     {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
       "url": "https://illumin.usc.edu/?p=2693",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
@@ -31167,21 +31482,6 @@
         "builders-lab",
         "everyday-machines",
         "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -31325,6 +31625,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Boing! Scavenging for Springs (activity PDF)",
       "url": "https://www.cdm.org/wp-content/uploads/2014/04/Boing-ScavSprings1.pdf",
       "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
@@ -31391,6 +31706,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -32054,10 +32384,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -35255,6 +35615,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Occurrence search API",
       "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9510564&country=US&basisOfRecord=HUMAN_OBSERVATION&limit=0&facet=month",
       "description": "Cited 6 time(s) in the SOURCES.md of: backyard-explorer-g3-5.",
@@ -35266,6 +35641,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35373,16 +35763,16 @@
       "url_status": null
     },
     {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35543,36 +35933,6 @@
         "body-lab-k2",
         "science-launch-g1",
         "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -35965,6 +36325,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What Is Gravity?",
       "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5, everyday-machines, science-launch-g3.",
@@ -36344,6 +36719,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -37484,6 +37874,21 @@
       "license": null,
       "cited_by": [
         "grow-it-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Glazed frame containing 601 cycle chain parts",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co25862/glazed-frame-containing-601-cycle-chain-parts",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Science Museum Group Collection",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -39008,10 +39413,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -41170,6 +41605,21 @@
       "url_status": null
     },
     {
+      "title": "SI Units: Length",
+      "url": "https://www.nist.gov/pml/owm/si-units-length",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SI Units: Temperature",
       "url": "https://www.nist.gov/pml/owm/si-units-temperature",
       "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -42251,6 +42701,21 @@
       "url_status": null
     },
     {
+      "title": "RFC 20: ASCII format for Network Interchange",
+      "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 9293 Transmission Control Protocol (TCP)",
       "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -42578,7 +43043,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 19 time(s) in the SOURCES.md of: code-crew-g3, inside-the-machine-g3-g5.",
+      "description": "Cited 20 time(s) in the SOURCES.md of: code-crew-g3, inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -42609,8 +43074,8 @@
       "url_status": null
     },
     {
-      "title": "CS101 The Internet",
-      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
       "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
@@ -42625,9 +43090,9 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "title": "CS101 The Internet",
+      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -42880,6 +43345,21 @@
         "code-crew-g1",
         "code-crew-g3",
         "code-crew-k"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University; NIST; IETF",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -43266,6 +43746,21 @@
       "url": "https://ops.fhwa.dot.gov/publications/fhwahop08024/chapter4.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Federal Highway Administration (U.S. DOT)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "NIST",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -44122,6 +44617,21 @@
       "url_status": null
     },
     {
+      "title": "RFC 20: ASCII format for Network Interchange",
+      "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 9293 Transmission Control Protocol (TCP)",
       "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -44359,7 +44869,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 19 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -44511,6 +45021,22 @@
       "url_status": null
     },
     {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS101 The Internet",
       "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
       "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -44527,11 +45053,26 @@
       "url_status": null
     },
     {
-      "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
-      "url": "https://illumin.usc.edu/?p=2693",
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
-      "kind": "university",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -44542,17 +45083,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
+      "url": "https://illumin.usc.edu/?p=2693",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Southern California, Viterbi School of Engineering",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44575,16 +45115,16 @@
       "url_status": null
     },
     {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44631,36 +45171,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44813,6 +45323,21 @@
       "cited_by": [
         "bike-shop-g3-5",
         "builders-lab"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44971,6 +45496,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "How to Make Sure Your Helmet Fits Right",
       "url": "https://health.ucdavis.edu/children/patient-education/Helmet-Safety-Kids",
       "description": "Cited 2 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -45031,6 +45571,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University; NIST; IETF",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -45372,6 +45927,21 @@
       "url_status": null
     },
     {
+      "title": "Glazed frame containing 601 cycle chain parts",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co25862/glazed-frame-containing-601-cycle-chain-parts",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Science Museum Group Collection",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Game On (Retro Computer Games at CHM)",
       "url": "https://computerhistory.org/blog/game-on/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -45676,10 +46246,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -45746,6 +46346,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -46515,6 +47130,21 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SI Units: Length",
+      "url": "https://www.nist.gov/pml/owm/si-units-length",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49999,6 +50629,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Occurrence search API",
       "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9510564&country=US&basisOfRecord=HUMAN_OBSERVATION&limit=0&facet=month",
       "description": "Cited 6 time(s) in the SOURCES.md of: backyard-explorer-g3-5.",
@@ -50010,6 +50655,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50135,16 +50795,16 @@
       "url_status": null
     },
     {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50304,36 +50964,6 @@
         "backyard-explorer-k2",
         "grow-it-g3-5",
         "grow-it-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50708,6 +51338,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "ABC Quick Check",
       "url": "https://umaine.edu/outdoorleadership/?p=86",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -51034,6 +51679,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -52228,6 +52888,21 @@
       "license": null,
       "cited_by": [
         "grow-it-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Glazed frame containing 601 cycle chain parts",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co25862/glazed-frame-containing-601-cycle-chain-parts",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Science Museum Group Collection",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -53648,10 +54323,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -55789,6 +56494,21 @@
       "url_status": null
     },
     {
+      "title": "SI Units: Length",
+      "url": "https://www.nist.gov/pml/owm/si-units-length",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SI Units: Temperature",
       "url": "https://www.nist.gov/pml/owm/si-units-temperature",
       "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -56832,6 +57552,21 @@
       "url_status": null
     },
     {
+      "title": "RFC 20: ASCII format for Network Interchange",
+      "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 9293 Transmission Control Protocol (TCP)",
       "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -57089,7 +57824,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 19 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -57139,8 +57874,8 @@
       "url_status": null
     },
     {
-      "title": "CS101 The Internet",
-      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
       "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
@@ -57155,9 +57890,9 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "title": "CS101 The Internet",
+      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -57419,6 +58154,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University; NIST; IETF",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -57845,6 +58595,21 @@
       "url": "https://ops.fhwa.dot.gov/publications/fhwahop08024/chapter4.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Federal Highway Administration (U.S. DOT)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "NIST",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -58702,6 +59467,21 @@
       "url_status": null
     },
     {
+      "title": "RFC 20: ASCII format for Network Interchange",
+      "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 9293 Transmission Control Protocol (TCP)",
       "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -58939,7 +59719,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 19 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -59091,6 +59871,22 @@
       "url_status": null
     },
     {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS101 The Internet",
       "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
       "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -59107,11 +59903,26 @@
       "url_status": null
     },
     {
-      "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
-      "url": "https://illumin.usc.edu/?p=2693",
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
-      "kind": "university",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -59122,17 +59933,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
+      "url": "https://illumin.usc.edu/?p=2693",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Southern California, Viterbi School of Engineering",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59155,16 +59965,16 @@
       "url_status": null
     },
     {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59211,36 +60021,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59393,6 +60173,21 @@
       "cited_by": [
         "bike-shop-g3-5",
         "builders-lab"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59551,6 +60346,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "How to Make Sure Your Helmet Fits Right",
       "url": "https://health.ucdavis.edu/children/patient-education/Helmet-Safety-Kids",
       "description": "Cited 2 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -59611,6 +60421,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University; NIST; IETF",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -59952,6 +60777,21 @@
       "url_status": null
     },
     {
+      "title": "Glazed frame containing 601 cycle chain parts",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co25862/glazed-frame-containing-601-cycle-chain-parts",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Science Museum Group Collection",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Game On (Retro Computer Games at CHM)",
       "url": "https://computerhistory.org/blog/game-on/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -60256,10 +61096,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -60326,6 +61196,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61095,6 +61980,21 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SI Units: Length",
+      "url": "https://www.nist.gov/pml/owm/si-units-length",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64596,6 +65496,21 @@
       "url_status": null
     },
     {
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Occurrence search API",
       "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9510564&country=US&basisOfRecord=HUMAN_OBSERVATION&limit=0&facet=month",
       "description": "Cited 6 time(s) in the SOURCES.md of: backyard-explorer-g3-5.",
@@ -64607,6 +65522,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64714,16 +65644,16 @@
       "url_status": null
     },
     {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64900,36 +65830,6 @@
         "body-lab-k2",
         "science-launch-g1",
         "science-launch-g4"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -65301,6 +66201,21 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -65683,6 +66598,21 @@
       "url": "https://bsesc.energy.gov/energy-basics/heat-flow",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "U.S. Department of Energy, Building Science Education",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -66835,6 +67765,21 @@
       "license": null,
       "cited_by": [
         "grow-it-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Glazed frame containing 601 cycle chain parts",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co25862/glazed-frame-containing-601-cycle-chain-parts",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Science Museum Group Collection",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -68149,10 +69094,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -70259,6 +71234,21 @@
       "url_status": null
     },
     {
+      "title": "SI Units: Length",
+      "url": "https://www.nist.gov/pml/owm/si-units-length",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "SI Units: Temperature",
       "url": "https://www.nist.gov/pml/owm/si-units-temperature",
       "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -71070,6 +72060,21 @@
       "url_status": null
     },
     {
+      "title": "RFC 20: ASCII format for Network Interchange",
+      "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 9293 Transmission Control Protocol (TCP)",
       "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -71322,7 +72327,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 19 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -71395,6 +72400,22 @@
       "url_status": null
     },
     {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS101 The Internet",
       "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
       "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -71421,22 +72442,6 @@
       "license": null,
       "cited_by": [
         "code-crew-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -71700,6 +72705,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University; NIST; IETF",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -72128,6 +73148,21 @@
       "url": "https://ops.fhwa.dot.gov/publications/fhwahop08024/chapter4.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Federal Highway Administration (U.S. DOT)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "NIST",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -72968,6 +74003,21 @@
       "url_status": null
     },
     {
+      "title": "RFC 20: ASCII format for Network Interchange",
+      "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "IETF",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 9293 Transmission Control Protocol (TCP)",
       "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -73205,7 +74255,7 @@
     {
       "title": "CS101, Hardware",
       "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 18 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "description": "Cited 19 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "Stanford University",
       "kind": "university",
       "frameworks": [],
@@ -73357,6 +74407,22 @@
       "url_status": null
     },
     {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS101 The Internet",
       "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
       "description": "Cited 7 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -73373,11 +74439,26 @@
       "url_status": null
     },
     {
-      "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
-      "url": "https://illumin.usc.edu/?p=2693",
+      "title": "Science of Cycling: Gear Ratios",
+      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
+      "description": "Cited 6 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
+      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
       "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
-      "kind": "university",
+      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
+      "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -73388,17 +74469,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Networking",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Cited 6 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "title": "Worthy of Praise: The Modern Flush Toilet (Illumin)",
+      "url": "https://illumin.usc.edu/?p=2693",
+      "description": "Cited 6 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "University of Southern California, Viterbi School of Engineering",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73421,16 +74501,16 @@
       "url_status": null
     },
     {
-      "title": "Elevator Safety: Give the Miner a Brake (Thomas D. Barkand)",
-      "url": "https://arlweb.msha.gov/s&hinfo/paper4.htm",
-      "description": "Cited 5 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "U.S. Department of Labor, Mine Safety and Health Administration",
-      "kind": "government",
+      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
+      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
+      "description": "Cited 5 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Exploratorium",
+      "kind": "museum_library",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "everyday-machines"
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73477,36 +74557,6 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: Gear Ratios",
-      "url": "https://annex.exploratorium.edu/cycling/gears2.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Science of Cycling: History of Drives & Gears; Pedaling & Cadence",
-      "url": "https://annex.exploratorium.edu/cycling/gears3.html",
-      "description": "Cited 4 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "Exploratorium",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73659,6 +74709,21 @@
       "cited_by": [
         "bike-shop-g3-5",
         "builders-lab"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "description": "Cited 3 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73817,6 +74882,21 @@
       "url_status": null
     },
     {
+      "title": "Linus Yale (Lemelson-MIT); EP 1 961 896 A2 background; 16.1 Hooke's Law",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1961896NWA2/document.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Lemelson-MIT Program; European Patent Office; OpenStax",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "How to Make Sure Your Helmet Fits Right",
       "url": "https://health.ucdavis.edu/children/patient-education/Helmet-Safety-Kids",
       "description": "Cited 2 time(s) in the SOURCES.md of: bike-shop-g3-5.",
@@ -73877,6 +74957,21 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "Stanford University; NIST; IETF",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -74218,6 +75313,21 @@
       "url_status": null
     },
     {
+      "title": "Glazed frame containing 601 cycle chain parts",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co25862/glazed-frame-containing-601-cycle-chain-parts",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "Science Museum Group Collection",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Game On (Retro Computer Games at CHM)",
       "url": "https://computerhistory.org/blog/game-on/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -74522,10 +75632,40 @@
       "url_status": null
     },
     {
-      "title": "College Physics 2e, 16.1 Hooke's Law: Stress and Strain Revisited",
-      "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+      "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "OpenStax, Rice University",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "4.3 Newton's Second Law of Motion, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "7.4 Power, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/7-4-power",
+      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "OpenStax",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
@@ -74592,6 +75732,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75361,6 +76516,21 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SI Units: Length",
+      "url": "https://www.nist.gov/pml/owm/si-units-length",
+      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -78519,6 +79689,21 @@
       "url_status": null
     },
     {
+      "title": "ITF Rules of Tennis 2026, Appendix I: The Ball",
+      "url": "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "publisher": "International Tennis Federation",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "nextgenscience.org",
       "url": "https://www.nextgenscience.org/pe/ms-ess3-2-earth-and-human-activity",
       "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
@@ -78568,15 +79753,16 @@
       "url_status": null
     },
     {
-      "title": "2.7: Falling Objects, College Physics 1e (OpenStax)",
+      "title": "14.2: Temperature Change and Heat Capacity, College Physics 1e (OpenStax)",
       "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
-      "description": "Cited 32 time(s) in the SOURCES.md of: sports-physics-g6-8.",
-      "publisher": "LibreTexts Physics (hosted by the University of California, Davis)",
+      "description": "Cited 38 time(s) in the SOURCES.md of: matter-lab-g6-8, sports-physics-g6-8.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "matter-lab-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -78740,6 +79926,21 @@
       "url_status": null
     },
     {
+      "title": "Precipitation and the Water Cycle (Water Science School)",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+      "description": "Cited 6 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "U.S. Geological Survey",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Vinegar Cannon (UC Davis demonstrations)",
       "url": "https://chem.libretexts.org/Courses/University_of_California_Davis/UCDemos/Vinegar_Cannon",
       "description": "Cited 5 time(s) in the SOURCES.md of: matter-lab-g6-8.",
@@ -78812,21 +80013,6 @@
       "url": "https://www.noaa.gov/jetstream/synoptic/origin-of-wind",
       "description": "Cited 5 time(s) in the SOURCES.md of: weather-lab-g6-8.",
       "publisher": "NOAA National Weather Service",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Precipitation and the Water Cycle (Water Science School)",
-      "url": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
-      "description": "Cited 5 time(s) in the SOURCES.md of: weather-lab-g6-8.",
-      "publisher": "U.S. Geological Survey",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -79246,6 +80432,21 @@
       "url": "https://www.weather.gov/bgm/forecast_terms",
       "description": "Cited 3 time(s) in the SOURCES.md of: weather-lab-g6-8.",
       "publisher": "NOAA National Weather Service, Binghamton",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The 8-inch Standard Rain Gauge (Cooperative Observer Program)",
+      "url": "https://www.weather.gov/iwx/coop_8inch",
+      "description": "Cited 3 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "NOAA National Weather Service, Northern Indiana",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -79765,21 +80966,6 @@
       "url": "https://www.weather.gov/ffc/pop",
       "description": "Cited 2 time(s) in the SOURCES.md of: weather-lab-g6-8.",
       "publisher": "NOAA National Weather Service, Peachtree City",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The 8-inch Standard Rain Gauge (Cooperative Observer Program)",
-      "url": "https://www.weather.gov/iwx/coop_8inch",
-      "description": "Cited 2 time(s) in the SOURCES.md of: weather-lab-g6-8.",
-      "publisher": "NOAA National Weather Service, Northern Indiana",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
@@ -86023,7 +87209,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/bike-shop-g3-5/SOURCES.md",
-      "cited_pages": 54,
+      "cited_pages": 56,
       "top_hosts": [
         "annex.exploratorium.edu",
         "nextgenscience.org",
@@ -86566,16 +87752,16 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/everyday-machines/SOURCES.md",
-      "cited_pages": 58,
+      "cited_pages": 62,
       "top_hosts": [
         "nextgenscience.org",
         "spdf.gsfc.nasa.gov",
+        "openstax.org",
         "illumin.usc.edu",
+        "arlweb.msha.gov",
         "jpl.nasa.gov",
         "fyi.extension.wisc.edu",
-        "samnoblemuseum.ou.edu",
-        "arlweb.msha.gov",
-        "unh.edu"
+        "samnoblemuseum.ou.edu"
       ],
       "review_hosts": [],
       "flags": []
@@ -86963,7 +88149,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/inside-the-machine-g3-g5/SOURCES.md",
-      "cited_pages": 67,
+      "cited_pages": 70,
       "top_hosts": [
         "web.stanford.edu",
         "ncert.nic.in",
@@ -87361,7 +88547,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/matter-lab-g6-8/SOURCES.md",
-      "cited_pages": 50,
+      "cited_pages": 51,
       "top_hosts": [
         "chem.libretexts.org",
         "nextgenscience.org",
@@ -87370,7 +88556,7 @@
         "pubchem.ncbi.nlm.nih.gov",
         "webbook.nist.gov",
         "epa.gov",
-        "nist.gov"
+        "phys.libretexts.org"
       ],
       "review_hosts": [],
       "flags": []
@@ -87932,10 +89118,10 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/sports-physics-g6-8/SOURCES.md",
-      "cited_pages": 28,
+      "cited_pages": 29,
       "top_hosts": [
-        "openstax.org",
         "phys.libretexts.org",
+        "openstax.org",
         "nextgenscience.org",
         "www1.grc.nasa.gov",
         "nist.gov",

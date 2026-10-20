@@ -1911,6 +1911,14 @@ Every entry has these fields:
 - **Progress:** Samples rendered headless in Blender 4.2 (Cycles) from existing illustrated art, no new character art: Tomorrow Trail K-1 trailer (9:16 and 16:9) and "Why does the Moon change shape?" (Rocket, Raven, Nova; facts from Science Launch Grade 1 weeks 3 and 11 and the NASA Science Moon phases page). Voices are scratch local TTS because ElevenLabs is out of credits; final voices need credits. Nothing is posted; samples and Blender scripts are in /mnt/project-files/blender-pilots/.
 - **Links:** /mnt/project-files/blender-pilots/README.md.
 
+### D324: Animated characters in Blender
+- **Question:** Chris asked (2026-10-20 22:41) to render actual animation rather than still characters. Which approach?
+- **Options:** Cut-out puppet rigs on the existing illustrations: lip-sync, blinks, head and arm motion (recommended); AI image-to-video clips; full 3D character models.
+- **Choice:** Puppets first, leaning to 3D. Chris: "1 first but leaning 3 for the most polished look".
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** The Rocket puppet test is done (rocket-puppet-test-9x16.mp4). The 3D test is a textured Rocket model generated from his illustration with Higgsfield image-to-3D, skinned in Blender with automatic weights, and animated on the same two lines for a side-by-side.
+- **Links:** /mnt/project-files/blender-pilots/README.md.
+
 
 ### Colorfigures pilot (CF-D3 onward)
 Pilot decisions for the "how it works" figures, numbered `CF-D<n>` from Chris's own CF-D3 so they never clash with

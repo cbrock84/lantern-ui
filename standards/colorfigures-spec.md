@@ -70,7 +70,7 @@ It prints in black and white (the picture turns grey), and the answer key is at 
    idea, the sources and the credit.
 4. **Answer key.** Answers to every worksheet and quiz item.
 
-Packs are free while every course is free (D106). CF-D4 decides whether and how they are sold later.
+Packs are free during launch (CF-D4, D106). Bundles may sell in the printable store later.
 
 ## Pinterest flow
 
@@ -81,7 +81,7 @@ Packs are free while every course is free (D106). CF-D4 decides whether and how 
    `https://learn.lanternlearn.com/colorfigures/<slug>`.
 3. Pins are queued in Metricool (blogId 6238542) **for review only**. Nothing posts without Chris's OK. By the standing
    rule, a Lantern Learn post goes to every connected Metricool channel.
-4. Board: CF-D5. Default is the existing boards. The Make scenarios "Pinterest create board, Lantern Learn"
+4. Board: CF-D5 chose the existing boards. The Make scenarios "Pinterest create board, Lantern Learn"
    (s4699533 and s4699545) exist and are on demand; they only create a public board (inputs: name, description).
    Both Make Pinterest connections returned 401 before (D74), so a new board may need them reconnected first. They are
    not run without Chris's OK.
@@ -126,9 +126,9 @@ D1 to D322. Each is mirrored in `decisions.md`.
 | ID | Question | Choice | Decided by | Status |
 | --- | --- | --- | --- | --- |
 | CF-D3 | Use the Colorfigures skill for "how it works" figures? | Yes: pilot 3 figures, packs and pins | owner | Decided |
-| CF-D4 | Sell figures and packs? | Open. Recommended: A, free during launch, sell bundles later. Default meanwhile: free | | Open |
-| CF-D5 | Which Pinterest board, and queue the pins? | Open. Recommended: A, existing boards via Metricool, queued for review | | Open |
-| CF-D6 | Where do the figures live? | Open. Recommended: A, standalone pages only until launch work ends | | Open |
+| CF-D4 | Sell figures and packs? | A: free during launch; bundles may sell in the printable store later | owner | Decided |
+| CF-D5 | Which Pinterest board, and queue the pins? | A: existing boards via Metricool, queued for review | owner | Decided |
+| CF-D6 | Where do the figures live? | A: standalone pages, linked from packs and pins only | owner | Decided |
 | CF-D7 | Hosting path | `learn.lanternlearn.com/colorfigures/<slug>`, built in the press repo | Claude (default) | Decided |
 | CF-D8 | First three subjects and level | Hand pump, flashlight, toaster; Everyday Machines; grades 3 to 5; NGSS 4-PS3-2 on the flashlight and toaster only | Claude (default) | Decided |
 | CF-D9 | License check before any commercial use | MIT allows it with the notice; notice in every page, credit in every footer | Claude (default) | Done |

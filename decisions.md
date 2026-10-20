@@ -26,9 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| CF-D4 | Colorfigures: sell the figures and lesson packs? | A (Recommended) free during launch, sell bundles in the printable store later; B sell now in the printable store (needs prices); C sell on TpT (pack can't stay free elsewhere) | Default meanwhile: free (D106). standards/colorfigures-spec.md |
-| CF-D5 | Colorfigures: which Pinterest board, and queue the 3 pins? | A (Recommended) existing boards via Metricool, queued for review; B new "How It Works" board via Make s4699533/s4699545, then queue; C hold pins until after launch | Pins go up only after the press PR deploys. Nothing posts without Chris's OK |
-| CF-D6 | Colorfigures: where do the figures live? | A (Recommended) standalone pages linked from packs and pins only, until launch work ends; B also add them as figure blocks in Everyday Machines lessons now | Launch priority; course changes paused |
 
 ## Log
 
@@ -1920,20 +1917,21 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 #### CF-D4: Sell the figures and lesson packs?
 - **Question:** Chris asked for packs to be sold, but every course is free (D106). Sell them, and where?
 - **Options:** A (Recommended) free during launch, sell bundles in the printable store later. B sell now in the printable store (D151; needs prices). C sell on TpT (the pack can't then stay free elsewhere).
-- **Choice:** Waiting on the owner. Default meanwhile: free.
-- **Date:** 2026-10-20. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** A. Chris tapped "Free now" on the project chat card and confirmed in the thread (2026-10-20): packs stay free during launch (D106); bundles may sell in the printable store later.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
 
 #### CF-D5: Pinterest board for the pins
 - **Question:** Which board do the 3 pins go on, and queue them?
 - **Options:** A (Recommended) existing boards through Metricool (blogId 6238542), queued for review. B a new "How It Works" board created by Make s4699533/s4699545 (public; its Pinterest connections returned 401 under D74), then queue. C hold pins until after launch.
-- **Choice:** Waiting on the owner. Nothing posts without Chris's OK.
-- **Date:** 2026-10-20. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** A. Chris tapped "Existing boards" on the project chat card and confirmed in the thread (2026-10-20): pins go to existing boards through Metricool, queued for review. Nothing posts without Chris's OK.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Pins are queued once press #139 merges and deploys.
 
 #### CF-D6: Where the figures live
 - **Question:** Keep the figures as standalone pages, or also add them to Everyday Machines lessons?
 - **Options:** A (Recommended) standalone pages linked from packs and pins only, until launch work ends. B also add them as figure blocks in Everyday Machines lessons now.
-- **Choice:** Waiting on the owner. Default meanwhile: A.
-- **Date:** 2026-10-20. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** A. Chris tapped "Standalone" on the project chat card and confirmed in the thread (2026-10-20): the figures stay standalone pages, linked from packs and pins only.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
 
 #### CF-D7: Hosting path
 - **Question:** Where are the pages hosted?

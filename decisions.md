@@ -1901,6 +1901,14 @@ Every entry has these fields:
 - **Progress:** All four built and placed: capsule-toy (Ratios and Data 6-8 wk 12 Tue), fridge-heat (Matter Lab 6-8 wk 3 Fri), smoke-alarm (Inside the Machine 3-5 wk 2 Wed), car-engine (Sports Physics 6-8 wk 8 Thu). New sources in each course SOURCES.md and sources.json; nfpa.org judged a standards body. Merged 2026-10-20 (press #138, lantern-ui #135).
 - **Links:** rocket-and-raven-press and lantern-ui PRs on claude/project-thread-qmtr0f.
 
+### D323: First Blender pilot
+- **Question:** Chris installed Blender (2026-10-20). Which Blender idea should be piloted first?
+- **Options:** Paper-diorama course trailer: existing course art turned into a lit 2.5D set with a slow camera push, 9:16 and 16:9 (recommended); Rocket & Raven micro-short (45 to 60 s, one science question); looping lantern hero animation for the sites; 3D device mockup "how it works" ad; glTF lesson models after launch.
+- **Choice:** Pilot both the diorama trailer and the Rocket & Raven micro-short. Chris (2026-10-20 20:53): "I like these ideas, especially #2 and #1. Pilot them both please and share samples for me to look at."
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Samples rendered headless in Blender 4.2 (Cycles) from existing illustrated art, no new character art: Tomorrow Trail K-1 trailer (9:16 and 16:9) and "Why does the Moon change shape?" (Rocket, Raven, Nova; facts from Science Launch Grade 1 weeks 3 and 11 and the NASA Science Moon phases page). Voices are scratch local TTS because ElevenLabs is out of credits; final voices need credits. Nothing is posted; samples and Blender scripts are in /mnt/project-files/blender-pilots/.
+- **Links:** /mnt/project-files/blender-pilots/README.md.
+
 
 ### Colorfigures pilot (CF-D3 onward)
 Pilot decisions for the "how it works" figures, numbered `CF-D<n>` from Chris's own CF-D3 so they never clash with

@@ -99,7 +99,9 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'itftennis.com': 'standards_body',             # International Tennis Federation, the rules body for tennis (Rules of Tennis)
               'nfpa.org': 'standards_body',                  # National Fire Protection Association, fire codes and standards body
               'fao.org': 'government',                       # Food and Agriculture Organization of the United Nations (intergovernmental)
-              'nzase.org.nz': 'education_org'}               # New Zealand Association of Science Educators
+              'nzase.org.nz': 'education_org',               # New Zealand Association of Science Educators
+              'ico.org.uk': 'government',                    # UK Information Commissioner's Office
+              'sciencebuddies.org': 'education_org'}         # Science Buddies, nonprofit science education
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 

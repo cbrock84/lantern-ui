@@ -1962,4 +1962,4 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Options:** Not recorded (default).
 - **Choice:** Two new catalog sections, Computers and Smart home, on a catalog page at learn.lanternlearn.com/colorfigures. Grades 3 to 5, linked to Inside the Machine 3 to 5, with facts in its SOURCES.md. Built in waves: wave 1 is 12 figures (laptop, desktop workstation, tablet, keyboard key, optical mouse, screen pixels, home router, smart speaker, smart thermostat, video doorbell, robot vacuum, TV remote). Wave 2 is listed in standards/colorfigures-spec.md. Packs free (CF-D4). Pins are queued for review only (CF-D5).
 - **Date:** 2026-10-20. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Wave 1 in progress (press PR to follow).
+- **Progress:** Wave 1 built: 12 figures, packs and pins in rocket-and-raven-press #140; sources in Inside the Machine 3 to 5 SOURCES.md.

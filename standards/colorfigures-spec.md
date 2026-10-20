@@ -124,18 +124,18 @@ and Smart home, for grades 3 to 5, linked to Inside the Machine 3 to 5. Each fig
 
 | Fig. | Subject | Section | What the controls teach | Wave |
 | --- | --- | --- | --- | --- |
-| 04 | Laptop | Computers | start-up, memory and storage, processor heat and fan, battery | 1 |
-| 05 | Desktop workstation | Computers | power supply, processor, memory, storage, graphics card, airflow | 1 |
-| 06 | Tablet | Computers | touch input, screen output, motion and light sensors, charging | 1 |
-| 07 | Keyboard key to letter | Computers | switch, key code, cable, letter on screen | 1 |
-| 08 | Optical mouse | Computers | light, tiny camera, comparing pictures, pointer | 1 |
-| 09 | Screen pixels | Computers | pixels, red, green and blue, pictures as numbers | 1 |
-| 10 | Home router | Smart home | packets, addresses, Wi-Fi, the internet link | 1 |
-| 11 | Smart speaker | Smart home | microphones, wake word, data over the internet, mute | 1 |
-| 12 | Smart thermostat | Smart home | sensor, set point, switching heat and cooling, schedule | 1 |
-| 13 | Video doorbell | Smart home | button, camera, motion sensor, Wi-Fi, infrared at night | 1 |
-| 14 | Robot vacuum | Smart home | sense, decide, act; bump and cliff sensors; docking | 1 |
-| 15 | TV remote | Smart home | switch, infrared light pattern, sensor, code | 1 |
+| 04 | Laptop | Computers | start-up, memory and storage, processor heat and fan, battery | 1 (built) |
+| 05 | Desktop workstation | Computers | power supply, processor, memory, storage, graphics card, airflow | 1 (built) |
+| 06 | Tablet | Computers | touch input, screen output, motion and light sensors, charging | 1 (built) |
+| 07 | Keyboard key to letter | Computers | switch, key code, cable, letter on screen | 1 (built) |
+| 08 | Optical mouse | Computers | light, tiny camera, comparing pictures, pointer | 1 (built) |
+| 09 | Screen pixels | Computers | pixels, red, green and blue, pictures as numbers | 1 (built) |
+| 10 | Home router | Smart home | packets, addresses, Wi-Fi, the internet link | 1 (built) |
+| 11 | Smart speaker | Smart home | microphones, wake word, data over the internet, mute | 1 (built) |
+| 12 | Smart thermostat | Smart home | sensor, set point, switching heat and cooling, schedule | 1 (built) |
+| 13 | Video doorbell | Smart home | button, camera, motion sensor, Wi-Fi, infrared at night | 1 (built) |
+| 14 | Robot vacuum | Smart home | sense, decide, act; bump and cliff sensors; docking | 1 (built) |
+| 15 | TV remote | Smart home | switch, infrared light pattern, sensor, code | 1 (built) |
 | | Smartphone | Computers | radios, cameras, sensors, battery | 2 |
 | | Game console and controller | Computers | buttons and joysticks as input, graphics, wireless link | 2 |
 | | Solid state drive and USB stick | Computers | storage that keeps data with the power off | 2 |

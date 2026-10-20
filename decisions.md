@@ -26,7 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D321 | Which interactive figures come next after the D320 pilot? | Four more machines with new sources (recommended); step mode for the five D319 figures first; stop at the pilot | Card sent to the project chat 2026-10-19; work continues on the recommendation. |
 
 ## Log
 
@@ -1888,5 +1887,7 @@ Every entry has these fields:
 ### D321: Next interactive figures
 - **Question:** Which interactive figures come next after the D320 pilot?
 - **Options:** Four more machines, each with new sources added to sources.json: smoke alarm (Inside the Machine 3-5), fridge moving heat (Matter Lab 6-8), capsule toy chances (Ratios and Data 6-8), four-stroke engine (Sports Physics 6-8) (recommended); add step mode to the five D319 figures first; stop at the pilot.
-- **Choice:** Waiting on the owner; work continues on the recommendation.
-- **Date:** 2026-10-19. **Decided by:** owner (pending). **Status:** Open.
+- **Choice:** Neither new machines nor a plain step-mode pass yet. After seeing samples, Chris (2026-10-20): "Not bad for a start but they need some polishing up. The details are not precise and don't lend themselves well to teaching physics. ... our roller coaster stretches and shrinks in size as it moves. It looks sloppy. Add the detail necessary in all the models and apply real world physics." So all eight existing figures (the three D320 ones and the five D319 ones) are rebuilt first: a new 3D helper (scripts/figures/lib/mesh.mjs) draws rigid parts at any angle, to scale, colour-shaded and outlined; motion runs in real time from real equations (energy conservation, g-force on curves, heat from friction, and each figure's own physics), with sourced constants and example values marked as examples; all eight become stepped figures with live readings. New machines wait until Chris has seen the rebuilt set.
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** All eight rebuilt as stepped, to-scale, real-time figures (coaster, heating curve, elevator, gear bench, pin lock, signal trip, bounce tower, rain gauge); course SOURCES.md rows rewritten with the new sources (OpenStax/LibreTexts physics pages, ITF Rules of Tennis, NIST, RFC 20, EPO EP 1 961 896 A2 background, Science Museum Group chain record) and sources.json rebuilt (0 flagged courses; data.epo.org, collection.sciencemuseumgroup.org.uk and itftennis.com judged by hand in build_sources.py). Waiting on Chris's look at the samples before merge.
+- **Links:** rocket-and-raven-press #137, lantern-ui #134.

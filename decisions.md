@@ -1956,3 +1956,17 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Options:** Not recorded (default).
 - **Choice:** As ranked in standards/colorfigures-spec.md: traffic light controller, keyboard key, gumball machine, bike pump, then the rest.
 - **Date:** 2026-10-20. **Decided by:** Claude (default). **Status:** Decided.
+
+#### CF-D11: Tech "how it works" catalog
+- **Question:** How should the large catalog of tech figures Chris asked for (laptops, tablets, workstations, household IoT) be built?
+- **Options:** Not recorded (default).
+- **Choice:** Two new catalog sections, Computers and Smart home, on a catalog page at learn.lanternlearn.com/colorfigures. Grades 3 to 5, linked to Inside the Machine 3 to 5, with facts in its SOURCES.md. Built in waves: wave 1 is 12 figures (laptop, desktop workstation, tablet, keyboard key, optical mouse, screen pixels, home router, smart speaker, smart thermostat, video doorbell, robot vacuum, TV remote). Wave 2 is listed in standards/colorfigures-spec.md. Packs free (CF-D4). Pins are queued for review only (CF-D5).
+- **Date:** 2026-10-20. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Wave 1 built: 12 figures, packs and pins in rocket-and-raven-press #140; sources in Inside the Machine 3 to 5 SOURCES.md.
+
+### D325: American spelling only
+- **Question:** Which spelling do Lantern Learn materials use?
+- **Options:** Not asked; Chris set it as a rule.
+- **Choice:** American spelling only, permanently ("STOP USING UK SPELLINGS!!! Colour needs to be color, and so on. Make this a permanent rule. Always and forever."). Rule added to CLAUDE.md and standards/content-standards.md section 6. Quotes and proper names in citations keep their published spelling.
+- **Date:** 2026-10-21. **Decided by:** owner (Chris, in the tech catalog thread). **Status:** Decided.
+- **Progress:** Colorfigures pages, packs, catalog and the engine's "Colour" label fixed, with a unit test that fails on UK spellings (rocket-and-raven-press #140). lantern-ui docs fixed here. Older course content still has about 630 UK spellings (mostly "metres", "colour", "labelled"); sweep to follow.

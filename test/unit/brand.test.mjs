@@ -20,7 +20,7 @@ test('base is the light Playground frame (D58, D127)', () => {
   assert.match(d, /--ll-pg-sun:255 201 40;--ll-pg-on-sun:29 20 51;/);
 });
 
-test('every Playground block colour carries readable text (D127)', () => {
+test('every Playground block color carries readable text (D127)', () => {
   for (const [k, c] of Object.entries(PLAYGROUND)) assert.ok(ratio(c.on, c.fill) >= 4.5, `${k}: ${ratio(c.on, c.fill).toFixed(2)}`);
 });
 

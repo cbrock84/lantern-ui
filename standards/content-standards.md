@@ -137,6 +137,10 @@ Existing platform behavior, which remains a hard rule:
 All kid-facing text may be spoken aloud: stories through "Read to me", with
 each word highlighted as it is spoken, and exercise lines as recorded clips.
 
+- American spelling everywhere, always (D325, Chris 2026-10-21): color, center,
+  gray, meter, liter, behavior, favorite, labeled, traveled, organize, catalog,
+  aluminum. Never the UK forms. Quotes and proper names in citations (a page
+  title, an organization's name) stay as published.
 - Short sentences. Spell out symbols that read badly aloud: write "3 plus 4",
   not "3+4", in narrated text.
 - Don't rely on formatting to carry meaning in narrated passages. Bold and

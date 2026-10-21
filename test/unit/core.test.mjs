@@ -94,7 +94,8 @@ test('readingMinutes and publishedArticles', () => {
 test('organization JSON-LD links imprints to the umbrella and the umbrella to imprints', () => {
   const imp = organizationJsonLd(siteFor('rocketandraven'));
   assert.equal(imp.parentOrganization.url, FAMILY.lanternlearn.url);
-  assert.equal(imp.logo, 'https://rocketandraven.com/logo.png');
+  // D327: imprint pages live on lanternlearn.com, so root-relative paths resolve there.
+  assert.equal(imp.logo, 'https://lanternlearn.com/logo.png');
   const umb = organizationJsonLd(siteFor('lanternlearn'));
   assert.equal(umb.parentOrganization, undefined);
   assert.equal(umb.subOrganization.length, imprints().length);
@@ -109,8 +110,8 @@ test('article JSON-LD carries citations and absolute urls', () => {
     sources: [{ title: 'Report', url: 'https://example.org/r', publisher: 'Example Org', published: '2025-05-01' }],
   });
   const ld = articleJsonLd(siteFor('foxandfern'), data, '/blog/t', data.heroImage);
-  assert.equal(ld.mainEntityOfPage['@id'], 'https://foxandfernbooks.com/blog/t');
-  assert.equal(ld.image, 'https://foxandfernbooks.com/hero.png');
+  assert.equal(ld.mainEntityOfPage['@id'], 'https://lanternlearn.com/blog/t');
+  assert.equal(ld.image, 'https://lanternlearn.com/hero.png');
   assert.equal(ld.keywords, 'a, b');
   assert.deepEqual(ld.citation, [{
     '@type': 'CreativeWork', name: 'Report', url: 'https://example.org/r',

@@ -118,5 +118,5 @@ test('article JSON-LD carries citations and absolute urls', () => {
     publisher: { '@type': 'Organization', name: 'Example Org' }, datePublished: '2025-05-01',
   }]);
   const bc = breadcrumbJsonLd(siteFor('foxandfern'), [{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }]);
-  assert.equal(bc.itemListElement[1].item, 'https://foxandfernbooks.com/blog');
+  assert.equal(bc.itemListElement[1].item, 'https://lanternlearn.com/blog');
 });

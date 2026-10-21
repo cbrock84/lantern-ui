@@ -12,7 +12,7 @@ const post = page('blog/fixture-post/index.html');
 
 test('head: title, canonical, theme vars, analytics and verification', () => {
   assert.match(home, /<title>Home \| Fox &amp; Fern<\/title>/);
-  assert.match(home, /<link rel="canonical" href="https:\/\/foxandfernbooks.com\/">/);
+  assert.match(home, /<link rel="canonical" href="https:\/\/lanternlearn.com\/">/);
   assert.match(home, /:root\{--ll-bg:253 243 234;/);
   assert.match(home, /--ll-font-display:"Fredoka", system-ui, sans-serif;/);
   assert.match(home, /googletagmanager\.com\/gtag\/js\?id=G-TEST123/);
@@ -41,10 +41,10 @@ test('design system: base frame and imprint skin vars, family bar (D57-D59)', ()
   assert.match(home, /--ll-radius:22px;/);
   const bar = home.slice(home.indexOf('<nav class="ll-family-bar'), home.indexOf('</nav>', home.indexOf('<nav class="ll-family-bar')));
   assert.ok(bar.length > 0, 'family bar present');
-  for (const url of ['https://lanternlearn.com', 'https://rocketandraven.com', 'https://foxandfernbooks.com', 'https://learn.lanternlearn.com/courses', 'https://learn.lanternlearn.com/login']) {
+  for (const url of ['https://lanternlearn.com', 'https://lanternlearn.com/rocket-and-raven/', 'https://lanternlearn.com/fox-and-fern/', 'https://learn.lanternlearn.com/courses', 'https://learn.lanternlearn.com/login']) {
     assert.ok(bar.includes(`href="${url}"`), url);
   }
-  assert.match(bar, /href="https:\/\/foxandfernbooks.com"[^>]*aria-current="page"/);
+  assert.match(bar, /href="https:\/\/lanternlearn.com\/fox-and-fern\/"[^>]*aria-current="page"/);
   assert.ok(!home.includes('hollyandhare.com'), 'Holly & Hare is sunset (D103)');
   assert.ok(home.indexOf('ll-family-bar') < home.indexOf('<header'), 'bar sits above the header');
   assert.match(home, /<header class="[^"]*bg-base-bg/);
@@ -89,10 +89,10 @@ test('Playground kit (D127): clay styles and motion script ship once per page', 
 
 test('footer: every other family site, never the current one, plus the imprint line', () => {
   const footer = home.slice(home.indexOf('<footer'));
-  for (const url of ['https://lanternlearn.com', 'https://rocketandraven.com', 'https://learn.lanternlearn.com']) {
+  for (const url of ['https://lanternlearn.com', 'https://lanternlearn.com/rocket-and-raven/', 'https://learn.lanternlearn.com']) {
     assert.ok(footer.includes(`href="${url}"`), url);
   }
-  assert.ok(!footer.includes('href="https://foxandfernbooks.com"'));
+  assert.ok(!footer.includes('href="https://lanternlearn.com/fox-and-fern/"'));
   assert.match(footer, /A <a href="https:\/\/lanternlearn.com"[^>]*>Lantern Learn<\/a> imprint/);
   assert.match(footer, /mailto:hello@example.com/);
 });
@@ -110,7 +110,7 @@ test('article: byline, sources section, citations JSON-LD, related family card',
   assert.equal(art.reviewedBy.name, 'Test Reviewer');
   assert.ok(ldBlocks(post).some((n) => n['@type'] === 'BreadcrumbList'));
   const related = post.slice(post.indexOf('More from the Lantern Learn family'));
-  assert.ok(related.includes('https://rocketandraven.com') && related.includes('https://lanternlearn.com'));
+  assert.ok(related.includes('https://lanternlearn.com/rocket-and-raven/') && related.includes('https://lanternlearn.com'));
 });
 
 test('blog index lists the article with its source count', () => {

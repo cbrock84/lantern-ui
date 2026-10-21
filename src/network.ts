@@ -39,6 +39,7 @@ export const FAMILY: Record<SiteKey, FamilySite> = {
     url: 'https://lanternlearn.com/rocket-and-raven/',
     role: 'imprint',
     tagline: 'Free online coding, science, math and engineering courses for kids and teens.',
+    links: [{ label: 'Online courses', href: 'https://learn.lanternlearn.com' }],
   },
 };
 

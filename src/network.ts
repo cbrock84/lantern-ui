@@ -23,22 +23,22 @@ export const FAMILY: Record<SiteKey, FamilySite> = {
     name: 'Lantern Learn',
     url: 'https://lanternlearn.com',
     role: 'umbrella',
-    tagline: 'Educational books and courses that meet kids where they are.',
+    tagline: 'Free online courses that meet kids where they are, from kindergarten through high school.',
   },
   foxandfern: {
     key: 'foxandfern',
     name: 'Fox & Fern',
-    url: 'https://foxandfernbooks.com',
+    // D327: the imprint sites folded into lanternlearn.com; the old domains 301 here.
+    url: 'https://lanternlearn.com/fox-and-fern/',
     role: 'imprint',
     tagline: 'Free online courses that treat children like capable, curious learners.',
   },
   rocketandraven: {
     key: 'rocketandraven',
     name: 'Rocket & Raven',
-    url: 'https://rocketandraven.com',
+    url: 'https://lanternlearn.com/rocket-and-raven/',
     role: 'imprint',
-    tagline: 'STEM workbooks and online courses for kids.',
-    links: [{ label: 'Online courses', href: 'https://learn.lanternlearn.com' }],
+    tagline: 'Free online coding, science, math and engineering courses for kids and teens.',
   },
 };
 

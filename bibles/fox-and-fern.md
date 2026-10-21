@@ -62,7 +62,7 @@ character under `Tomorrow Trail/images/`.
 | --- | --- | --- | --- | --- |
 | Ferris the Fox | Reading leader and trail guide | Reading, phonics, sight words | Reddish-brown fox, bushy tail, green backpack; holds a book or map | Warm, encouraging, asks open questions |
 | Hazel the Hedgehog | Writing and creativity mentor | Letter formation, tracing, simple sentences | Small hedgehog, cosy scarf, pencil behind her ear | Gentle, patient |
-| Rosie the Rabbit | Encouragement and confidence | Praise on progress pages | Grey rabbit, long ears, colourful bandana; clapping or jumping | Upbeat, exclamation points |
+| Rosie the Rabbit | Encouragement and confidence | Praise on progress pages | Gray rabbit, long ears, colorful bandana; clapping or jumping | Upbeat, exclamation points |
 | Lizzy the Lizard | Science and discovery | Living/nonliving, habitats, weather, plants, senses, day/night | Green lizard, magnifying glass, sun hat, notebook | Inquisitive, factual |
 | Bennie the Bear | Math and problem solving | Counting, addition, subtraction, number bonds, ten frames, word problems | Big brown bear in overalls or a vest, basket of apples or stones | Calm, clear steps |
 | Oliver the Owl | Critical thinking and logic | Patterns, sorting, mazes, logic puzzles | Small owl, glasses, pocket watch | Thoughtful, slightly formal |

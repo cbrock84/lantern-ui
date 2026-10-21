@@ -2,7 +2,7 @@
  * The Lantern Learn design system (owner decisions D57, D58).
  *
  * - BASE is the Lantern Learn look. Since D127 it is "Playground": a light
- *   sky-tinted ground, deep grape-ink text and bold flat colour blocks with
+ *   sky-tinted ground, deep grape-ink text and bold flat color blocks with
  *   clay-style surfaces (D58's light base holds; its palette changed). It owns
  *   the frame every property shares: family bar, header, footer, and on the
  *   learning platform the account, checkout and dashboard.
@@ -58,8 +58,8 @@ export const BASE_FONTS = {
 };
 
 /**
- * The Playground block colours (D127): flat, saturated fills for tiles, chips
- * and decorative clay shapes. Each `on` is the text colour that meets 4.5:1 on
+ * The Playground block colors (D127): flat, saturated fills for tiles, chips
+ * and decorative clay shapes. Each `on` is the text color that meets 4.5:1 on
  * that fill, so a block can carry body text, not just display type.
  */
 export const PLAYGROUND = {

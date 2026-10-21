@@ -50,5 +50,9 @@ original from June 2026 is kept verbatim in `standards/sources-v1-2026-06.json`)
 
 - Anything written for children follows `standards/content-standards.md` and
   the relevant bible in `bibles/`.
+- American spelling only, in everything we write: color, not colour; center,
+  gray, meter, behavior, labeled, traveled (D325, Chris: "Make this a permanent
+  rule. Always and forever."). Only quotes and proper names in citations keep
+  their UK spelling.
 - Never invent facts, sources, standards codes or citations. If something
   cannot be verified, leave it out and say so.

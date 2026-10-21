@@ -45,7 +45,7 @@ Every figure meets all of these. `test/unit/colorfigures.test.mjs` in the press 
    - Every control is a real button: Tab, Enter and Space work. Number keys 1 to n press the buttons in order.
    - The drawing has `role="img"` and an alt description that is rewritten after every change to say what it shows.
    - The narration line is `aria-live`, so screen readers hear each step.
-   - Colour swatches have names. The page sets `lang="en"`.
+   - Color swatches have names. The page sets `lang="en"`.
 6. **Facts from listed sources.** Every fact on the page is checked on a page that is listed in `sources.json`
    (through the course `SOURCES.md`). The sources are listed in the page footer.
 7. **Writing.** Follows `standards/content-standards.md`: kid-facing sentences of 18 words or fewer (grades 3 to 5),
@@ -58,7 +58,7 @@ Every figure meets all of these. `test/unit/colorfigures.test.mjs` in the press 
 ## Lesson pack format
 
 One page per figure at `/colorfigures/packs/<slug>`, which prints to four US Letter pages, plus a PDF of the same.
-It prints in black and white (the picture turns grey), and the answer key is at the back (content standards, 8).
+It prints in black and white (the picture turns gray), and the answer key is at the back (content standards, 8).
 
 1. **Worksheet.** A still of the figure, then:
    - "Try it": one question per control, in button order, with a writing line.
@@ -89,7 +89,7 @@ Packs are free during launch (CF-D4, D106). Bundles may sell in the printable st
 ## Ranked subjects (20)
 
 Ranked by teaching value (fit with the K to 5 and applied STEM courses, and how much a see-through view adds) and
-Pinterest appeal (a clear, colourful machine people already search for). Scores are Claude's judgment, 1 to 5.
+Pinterest appeal (a clear, colorful machine people already search for). Scores are Claude's judgment, 1 to 5.
 Applied STEM (coding, computers) ranks high, per Chris's post-launch focus.
 
 | # | Subject | What the controls teach | Teach | Pin | Status |

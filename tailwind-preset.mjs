@@ -46,7 +46,7 @@ export default {
           muted: v('skin-muted'),
           border: v('skin-border'),
         },
-        // Playground block colours (D127), each with its readable text colour.
+        // Playground block colors (D127), each with its readable text color.
         pg: {
           grape: v('pg-grape'), 'on-grape': v('pg-on-grape'),
           tomato: v('pg-tomato'), 'on-tomato': v('pg-on-tomato'),

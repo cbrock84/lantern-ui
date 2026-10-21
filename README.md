@@ -27,7 +27,7 @@ One Lantern Learn system, with a small skin per imprint:
 
 - **Base** (`BASE` in `src/brand.ts`) is the Lantern Learn frame. Since D127
   it is "Playground": a light sky-tinted ground, grape-ink text, bold flat
-  colour blocks (`PLAYGROUND`, `pg-*` Tailwind colors) and clay surfaces
+  color blocks (`PLAYGROUND`, `pg-*` Tailwind colors) and clay surfaces
   (`shadow-clay`). The family bar, header and footer always use it
   (`base-*` Tailwind colors, `font-base`), so every property navigates the same way.
 - **Skins** (`SKINS`) are each brand's display font, a few colors and a corner
@@ -43,7 +43,7 @@ One Lantern Learn system, with a small skin per imprint:
 
 - **Playground kit** (`components/Playground.astro`, D127) ships once per page
   from `SiteLayout`: clay buttons and tiles (`pg-btn`, `pg-tile`,
-  `pg-block-<colour>`) and opt-in motion: `data-pg-bounce` headlines,
+  `pg-block-<color>`) and opt-in motion: `data-pg-bounce` headlines,
   `data-pg-marquee` strips, `data-pg-blobs` heroes and `data-pg-pop` confetti.
   All motion is decoration and stops under `prefers-reduced-motion`.
 

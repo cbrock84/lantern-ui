@@ -1974,8 +1974,9 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D326: Sweep UK spellings out of old lesson text now
 - **Question:** Fix the UK spellings in existing lesson text now, even though recorded narration is keyed to exact text, so each edited line plays in the browser voice until the audio job re-records it?
 - **Options:** A Fix all now; the hourly audio job (D34) re-records changed lines with ElevenLabs (recommended) / B Fix everything except narrated lesson text, and do that once ElevenLabs credits are confirmed / C Fix only new content.
-- **Choice:** A Fix all now (Chris typed "merge" on the sweep PRs, which do A).
-- **Date:** 2026-10-21. **Decided by:** owner (Chris). **Status:** Done.
+- **Choice:** B, as Chris clarified it: "narration can be skipped, but we need to ensure moving forward that everything is US-English!!! ONLY!!!" All lesson text stays fixed (the sweep PRs merged 2026-10-21); re-recording narration for edited lines is optional, not required.
+- **Date:** 2026-10-21. **Decided by:** owner (Chris, "D326- 2"). **Status:** Done.
+- **Progress:** rocket-and-raven-press test/unit/american-spelling.test.mjs scans every built workbook, so CI fails if any new or old course has a UK spelling in lesson text; test/unit/colorfigures.test.mjs does the same for Colorfigures.
 - **Links:** D325, D34.
 
 ### D327: Simplify the web assets: fold the imprint sites into lanternlearn.com

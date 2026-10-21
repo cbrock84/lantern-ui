@@ -1925,6 +1925,13 @@ Every entry has these fields:
 - **Progress:** Lines and a recording workflow are in rocket-and-raven-press #143 (draft, do not merge). Recording is blocked: the CLOUDFLARE_API_TOKEN secret returns 401 on Workers AI; it needs Account > Workers AI > Edit. Six 16:9 shorts are rendering with placeholder voices into /mnt/project-files/blender-pilots/. Nothing is posted.
 - **Links:** /mnt/project-files/blender-pilots/README.md, rocket-and-raven-press #143.
 
+### D330: Full-body character animation: Higgsfield AI video or Blender
+- **Question:** For full-body Tomorrow Trail character motion, buy Higgsfield credits for AI image-to-video clips, or stay with Blender cut-out rigs?
+- **Options:** (1) Higgsfield credits for AI full-body video. (2) Blender only: cut-out rigs, walk cycles and physics, no credits.
+- **Choice:** (2) Blender only.
+- **Date:** 2026-10-21. **Decided by:** owner (Chris, "d330 - 2 (blender only)"). **Status:** Decided.
+- **Progress:** No credits bought. The six Tomorrow Trail shorts (D329) are Blender cut-outs; further shorts continue the same way.
+
 
 ### Colorfigures pilot (CF-D3 onward)
 Pilot decisions for the "how it works" figures, numbered `CF-D<n>` from Chris's own CF-D3 so they never clash with

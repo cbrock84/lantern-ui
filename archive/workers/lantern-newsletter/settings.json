@@ -1,0 +1,26 @@
+{
+ "bindings": [
+  {
+   "name": "ALLOWED_ORIGINS",
+   "text": "https://foxandfernbooks.com,https://www.foxandfernbooks.com,https://hollyandhare.com,https://www.hollyandhare.com,https://rocketandraven.com,https://www.rocketandraven.com,https://lanternlearn.com,https://www.lanternlearn.com",
+   "type": "plain_text"
+  },
+  {
+   "name": "RATE_LIMIT",
+   "namespace_id": "aeb1d16e394046bfabad11fb31103ed1",
+   "type": "kv_namespace"
+  },
+  {
+   "name": "RESEND_API_KEY",
+   "type": "secret_text"
+  },
+  {
+   "name": "RESEND_AUDIENCE_IDS",
+   "text": "{\"fox-and-fern\":\"8d48c4d2-a309-46ae-9838-e82ceffe9cf9\",\"holly-and-hare\":\"f865d6e1-8128-4305-b76c-e198853cbfe1\",\"rocket-and-raven\":\"7c8fcbc3-70c3-4e04-adf8-7b1ccc9d7b4c\",\"lantern-learn\":\"92bb2a7a-bc77-4266-a9d8-8939ab8f8d0d\"}",
+   "type": "plain_text"
+  }
+ ],
+ "compatibility_date": "2025-04-01",
+ "compatibility_flags": [],
+ "usage_model": "standard"
+}

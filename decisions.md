@@ -26,7 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D326 | Fix UK spellings in old lesson text now, though edited lines need new narration? | A Fix all now (recommended) / B Everything but narrated lesson text / C New content only | Card sent to Chris 2026-10-21; work continues on A. |
 
 ## Log
 
@@ -1969,13 +1968,28 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Question:** Which spelling do Lantern Learn materials use?
 - **Options:** Not asked; Chris set it as a rule.
 - **Choice:** American spelling only, permanently ("STOP USING UK SPELLINGS!!! Colour needs to be color, and so on. Make this a permanent rule. Always and forever."). Rule added to CLAUDE.md and standards/content-standards.md section 6. Quotes and proper names in citations keep their published spelling.
-- **Date:** 2026-10-21. **Decided by:** owner (Chris, in the tech catalog thread). **Status:** Decided.
+- **Date:** 2026-10-21. **Decided by:** owner (Chris, in the tech catalog thread). **Status:** Done.
 - **Progress:** Colorfigures pages, packs, catalog and the engine's "Colour" label fixed, with a unit test that fails on UK spellings (rocket-and-raven-press #140). lantern-ui docs fixed (lantern-ui #138). Sweep of older content (D326): about 430 spellings fixed in rocket-and-raven-press course sources, docs and code comments (about 730 counting the rebuilt workbooks), plus lanternlearn-site, foxandfernbooks-site and hollyandhare-site; a press unit test now fails if any built workbook's lesson text has a UK spelling. Kept on purpose: answer keyword lists still accept UK spellings, quotes and proper names in citations, scientific names, `aria-labelledby` (the HTML name) and billing code field names and URL parameters. The 12 lesson figures in press public/figures are fixed by the Substack thread. lanternlearn-ops-api and kdp-admin-dashboard are left as they are (being archived, D104).
-- **Status:** Done once the sweep PRs merge.
 
 ### D326: Sweep UK spellings out of old lesson text now
 - **Question:** Fix the UK spellings in existing lesson text now, even though recorded narration is keyed to exact text, so each edited line plays in the browser voice until the audio job re-records it?
 - **Options:** A Fix all now; the hourly audio job (D34) re-records changed lines with ElevenLabs (recommended) / B Fix everything except narrated lesson text, and do that once ElevenLabs credits are confirmed / C Fix only new content.
-- **Choice:** Pending; work continues on A (nothing goes live before Chris merges).
-- **Date:** 2026-10-21. **Decided by:** Open. **Status:** Open.
+- **Choice:** A Fix all now (Chris typed "merge" on the sweep PRs, which do A).
+- **Date:** 2026-10-21. **Decided by:** owner (Chris). **Status:** Done.
 - **Links:** D325, D34.
+
+### D327: Simplify the web assets: fold the imprint sites into lanternlearn.com
+- **Question:** rocketandraven.com and foxandfernbooks.com had drifted from the free K-12 catalog (book-era copy, missing courses, "release list" newsletters) because the catalog was kept in three places. Keep three sites or fold them into one?
+- **Options:** (1) Fold both imprint sites into lanternlearn.com: move every page and post first, then 301 each old URL; domains and email stay. (2) Keep three sites and refresh the imprint sites. (3) Fold Fox & Fern only. (4) Leave as is.
+- **Choice:** (1) Fold both into lanternlearn.com.
+- **Date:** 2026-10-21. **Decided by:** owner (Chris, "D327 1"). **Status:** Decided.
+- **Progress:** lanternlearn.com gained /rocket-and-raven/, /fox-and-fern/, 23 /series/<slug>/ pages, /code-crew/ (rank ladder), per-week standards codes and Code Crew details on course pages, and the 11 imprint blog posts with their images. The family bar and footer now link to those pages. rocketandraven.com and foxandfernbooks.com builds are redirect-only: a per-page 301 map in each repo's public/_redirects, plus the BIMI logo so email branding keeps working. Old site source is kept in git (branch `archive/pre-d327-redirect`). Claude defaults: no catch-all redirect (it would also catch the BIMI logo); /courses on rocketandraven.com goes to /rocket-and-raven/; login and terms go to learn.lanternlearn.com.
+- **Links:** lanternlearn-site, rocketandraven-site, foxandfernbooks-site and lantern-ui PRs on branch claude/project-thread-3wnonz.
+
+### D328: Clean up leftover web assets
+- **Question:** What to do with the leftovers found in the web-asset audit: dash.lanternlearn.com and kdp.lanternlearn.com DNS records pointing at dead servers, the Workers lantern-newsletter and lanternlearn-api, and the 302 redirects on tomorrowtrail.com, trailtotomorrow.com and lodestarstem.com?
+- **Options:** (1) Clean up: delete the dead DNS records and unused Workers after exporting their code to lantern-ui, switch the spare domains to 301. (2) Leave them.
+- **Choice:** (1) Clean up.
+- **Date:** 2026-10-21. **Decided by:** owner (Chris, "D328 1"). **Status:** Decided.
+- **Progress:** Worker code exported to archive/workers/. Finding: lantern-newsletter is not unused; it serves emailpreferences.lanternlearn.com (unsubscribe and preference links in emails sent to the Resend audiences), so it stays (Claude default). lanternlearn-api is the Cloudflare starter and is safe to delete. The parked-redirects change is ready in archive/workers/parked-redirects/index.d328.js (tomorrowtrail.com and trailtotomorrow.com 301 to the Tomorrow Trail course, lodestarstem.com 301 to lanternlearn.com). The Cloudflare changes themselves (two DNS deletes, one Worker delete, one Worker deploy) are waiting: the session's permission check blocked the production deploy.
+- **Links:** archive/workers/README.md.

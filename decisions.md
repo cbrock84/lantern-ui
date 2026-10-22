@@ -1994,3 +1994,11 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Date:** 2026-10-21. **Decided by:** owner (Chris, "D328 1"). **Status:** Done.
 - **Progress:** Worker code exported to archive/workers/. Finding: lantern-newsletter is not unused; it serves emailpreferences.lanternlearn.com (unsubscribe and preference links in emails sent to the Resend audiences), so it stays (Claude default). lanternlearn-api is the Cloudflare starter and is safe to delete. The parked-redirects change is ready in archive/workers/parked-redirects/index.d328.js (tomorrowtrail.com and trailtotomorrow.com 301 to the Tomorrow Trail course, lodestarstem.com 301 to lanternlearn.com). Chris made the Cloudflare changes on 2026-10-21 (the session's permission check blocks production deploys): dash and kdp A records deleted (a replit-verify TXT on dash stays), lanternlearn-api Worker deleted, parked-redirects deployed with index.d328.js. Verified live: tomorrowtrail.com, trailtotomorrow.com and lodestarstem.com return 301.
 - **Links:** archive/workers/README.md.
+
+### D329: Google preferred sources on lanternlearn.com
+- **Question:** How to add Google's "preferred sources" prompt (readers pick lanternlearn.com so our posts rank higher for them in Top Stories, AI Mode and AI Overviews)?
+- **Options:** (1) Deeplink with Google's official badge image, self-hosted; no Google script. (2) Google's JavaScript button (loads news.google.com/swg/js/v1/publisher.js on the page). (3) Skip it.
+- **Choice:** (1) Deeplink: badge after every blog post and on the blog index, "Add us on Google" in the footer on every page.
+- **Date:** 2026-10-22. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Live once lanternlearn-site #66 deploys. Chris to confirm lanternlearn.com shows up at google.com/preferences/source (needs a Google sign-in) and that the site is included in Search generative AI features in Search Console.
+- **Links:** lanternlearn-site #66; https://developers.google.com/search/docs/appearance/preferred-sources.

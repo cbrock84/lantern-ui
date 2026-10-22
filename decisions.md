@@ -2000,5 +2000,13 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Options:** (1) Deeplink with Google's official badge image, self-hosted; no Google script. (2) Google's JavaScript button (loads news.google.com/swg/js/v1/publisher.js on the page). (3) Skip it.
 - **Choice:** (1) Deeplink: badge after every blog post and on the blog index, "Add us on Google" in the footer on every page.
 - **Date:** 2026-10-22. **Decided by:** Claude (default). **Status:** Done.
-- **Progress:** Live once lanternlearn-site #66 deploys. Chris to confirm lanternlearn.com shows up at google.com/preferences/source (needs a Google sign-in) and that the site is included in Search generative AI features in Search Console.
+- **Progress:** Shipped in lanternlearn-site #66, then hidden by D330 until Google lists the site. Chris to confirm lanternlearn.com shows up at google.com/preferences/source (needs a Google sign-in) and that the site is included in Search generative AI features in Search Console.
 - **Links:** lanternlearn-site #66; https://developers.google.com/search/docs/appearance/preferred-sources.
+
+### D330: Google doesn't list lanternlearn.com as a preferred source yet
+- **Question:** Chris checked google.com/preferences/source?q=lanternlearn.com on 2026-10-22 and the site is not listed. Google picks which sites appear and has no sign-up; its only stated rule is that "Sources that aren't updated regularly may not be available" (support.google.com/websearch/answer/16379181). The blog has 17 posts in two batches (May to June and September 27/October 10). What now?
+- **Options:** (1) Hide the badge and footer link until the site is listed, publish blog posts on a regular weekly schedule, and recheck monthly. (2) Hide the badge and link, no new posting schedule. (3) Leave the badge up (it opens an empty search for readers).
+- **Choice:** (1), pending Chris. The hide is done (`preferredSourceListed = false` in lanternlearn-site src/site.ts); the posting schedule needs Chris.
+- **Date:** 2026-10-22. **Decided by:** Claude (default), sent to Chris. **Status:** Decided.
+- **Links:** lanternlearn-site src/site.ts, src/components/PreferredSource.astro.
+

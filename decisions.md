@@ -2010,3 +2010,10 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Date:** 2026-10-22. **Decided by:** Claude (default), sent to Chris. **Status:** Decided.
 - **Links:** lanternlearn-site src/site.ts, src/components/PreferredSource.astro.
 
+
+### D331: Footer social links
+- **Question:** Show the footer's social links as text or brand icons, and which networks to list?
+- **Options:** Icons for every connected network (Instagram, Facebook, Pinterest); Pinterest icon only; keep text links.
+- **Choice:** Icons for Instagram, Facebook and Pinterest, the networks connected in Metricool. Instagram is @lanternlearn; Facebook links by page id (facebook.com/1082040684998309) because no vanity URL could be confirmed.
+- **Date:** 2026-10-23. **Decided by:** owner (icons), Claude (default) (network list and URLs). **Status:** Done.
+- **Links:** lantern-ui #146, lanternlearn-site #68.

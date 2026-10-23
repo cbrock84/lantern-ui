@@ -20,6 +20,10 @@ export const site: SiteConfig = {
   footerLinks: [{ label: 'Blog', href: '/blog' }],
   footerBlurb: 'Fixture blurb.',
   contactEmail: 'hello@example.com',
+  social: [
+    { label: 'Pinterest', href: 'https://pinterest.com/example/' },
+    { label: 'Mastodon', href: 'https://example.social/@example' },
+  ],
   legalLinks: [{ label: 'Privacy', href: '/privacy' }],
   analytics: { gaId: 'G-TEST123' },
   verification: { google: 'gverify' },

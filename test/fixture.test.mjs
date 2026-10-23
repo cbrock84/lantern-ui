@@ -97,6 +97,12 @@ test('footer: every other family site, never the current one, plus the imprint l
   assert.match(footer, /mailto:hello@example.com/);
 });
 
+test('footer: known socials render as labeled icons, unknown ones as text', () => {
+  const footer = home.slice(home.indexOf('<footer'));
+  assert.match(footer, /<a href="https:\/\/pinterest.com\/example\/"[^>]*aria-label="Pinterest"[^>]*>\s*<svg[^>]*aria-hidden="true"/);
+  assert.match(footer, /<a href="https:\/\/example.social\/@example"[^>]*>Mastodon<\/a>/);
+});
+
 test('article: byline, sources section, citations JSON-LD, related family card', () => {
   assert.match(post, /og:type" content="article"/);
   assert.match(post, /By Fox &amp; Fern/);

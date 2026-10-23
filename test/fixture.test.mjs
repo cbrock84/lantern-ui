@@ -131,3 +131,8 @@ test('Tailwind emitted the preset utilities backed by --ll-* variables', () => {
   }
   assert.match(css, /rgb\(var\(--ll-bg\) \/ var\(--tw-bg-opacity/);
 });
+
+test('D333: large image previews and an RSS alternate link', () => {
+  assert.match(home, /<meta name="robots" content="max-image-preview:large">/);
+  assert.match(home, /<link rel="alternate" type="application\/rss\+xml" title="Fox &#38; Fern" href="https:\/\/lanternlearn.com\/rss.xml">/);
+});

@@ -2024,3 +2024,11 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (1). Images made with Canva image generation, using two existing heroes as style references (Higgsfield had about 4 credits and ElevenLabs had none). 1200x600 JPGs in public/blog/<slug>.jpg; `scripts/check-blog-images.mjs` runs as `prebuild` and in a PR workflow.
 - **Date:** 2026-10-23. **Decided by:** owner (images, enforcement), Claude (default) (tool, style, check). **Status:** Done.
 - **Links:** lanternlearn-site PR (this change); Canva design "Blank blog header web banner" holds the source images.
+
+### D333: Google listing signals for lanternlearn.com
+- **Question:** Chris rechecked on 2026-10-23: lanternlearn.com is still not offered at google.com/preferences/source, with AI features enabled in Search Console. What else on our side could help?
+- **Options:** (1) Add the signals Google's docs ask for: `max-image-preview:large` robots meta (required for large images in Discover), an RSS `rel="alternate"` link in every page head, and real per-post `lastmod` dates in the sitemap instead of the build date. (2) No change; wait on D330's posting schedule.
+- **Choice:** (1).
+- **Date:** 2026-10-23. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** The site is indexed and robots.txt allows Google. Listing stays Google's call; its only stated criterion is regular updates, so D330's weekly posting still applies.
+- **Links:** lantern-ui src/components/SeoHead.astro; lanternlearn-site src/site.ts, astro.config.mjs.

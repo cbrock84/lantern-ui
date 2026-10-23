@@ -55,7 +55,8 @@ const fontHrefs = [...new Set([BASE_FONTS.href, site.fontsHref, SKINS[site.key]?
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
-{noindex && <meta name="robots" content="noindex, nofollow" />}
+{noindex ? <meta name="robots" content="noindex, nofollow" /> : <meta name="robots" content="max-image-preview:large" />}
+{site.feed && <link rel="alternate" type="application/rss+xml" title={me.name} href={absoluteUrl(site.feed, me.url)} />}
 <meta property="og:site_name" content={me.name} />
 <meta property="og:type" content={ogType} />
 <meta property="og:title" content={fullTitle} />

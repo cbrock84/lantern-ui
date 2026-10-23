@@ -49,6 +49,8 @@ export interface SiteConfig {
   footerBlurb: string;
   contactEmail?: string;
   social?: { label: string; href: string }[];
+  /** RSS feed path, linked from every page's head as rel="alternate" (D333). */
+  feed?: string;
   legalLinks: NavLink[];
   /** gaId: Google Analytics 4. metricoolHash: Metricool web tracker hash (D311). */
   analytics?: { gaId?: string; metricoolHash?: string };

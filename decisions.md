@@ -2017,3 +2017,10 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** Icons for Instagram, Facebook and Pinterest, the networks connected in Metricool. Instagram is @lanternlearn; Facebook links by page id (facebook.com/1082040684998309) because no vanity URL could be confirmed.
 - **Date:** 2026-10-23. **Decided by:** owner (icons), Claude (default) (network list and URLs). **Status:** Done.
 - **Links:** lantern-ui #146, lanternlearn-site #68.
+
+### D332: Featured image on every blog post
+- **Question:** 12 of 17 lanternlearn.com blog posts had no featured image. How to fill them, and how to keep future posts from shipping without one?
+- **Options:** (1) Generate an illustrated Fox & Fern scene per post in the existing hero style, and fail the build when a post lacks `heroImage`, `heroAlt` or the image file. (2) Fall back to the site's default og-image for posts without one. (3) Fill the 12 now with no enforcement.
+- **Choice:** (1). Images made with Canva image generation, using two existing heroes as style references (Higgsfield had about 4 credits and ElevenLabs had none). 1200x600 JPGs in public/blog/<slug>.jpg; `scripts/check-blog-images.mjs` runs as `prebuild` and in a PR workflow.
+- **Date:** 2026-10-23. **Decided by:** owner (images, enforcement), Claude (default) (tool, style, check). **Status:** Done.
+- **Links:** lanternlearn-site PR (this change); Canva design "Blank blog header web banner" holds the source images.

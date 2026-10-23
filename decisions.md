@@ -2032,3 +2032,11 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Date:** 2026-10-23. **Decided by:** Claude (default). **Status:** Done.
 - **Progress:** The site is indexed and robots.txt allows Google. Listing stays Google's call; its only stated criterion is regular updates, so D330's weekly posting still applies.
 - **Links:** lantern-ui src/components/SeoHead.astro; lanternlearn-site src/site.ts, astro.config.mjs.
+
+### D334: Mix Rocket & Raven and general art into blog heroes
+- **Question:** All blog heroes used the Fox & Fern cast. Which posts should switch to Rocket & Raven characters or general graphics?
+- **Options:** (1) Swap the 8 tech, STEM and parent-guide posts: Rocket, Raven and Nova on AI literacy, STEM plan, kindergarten coding, unplugged coding and computational thinking; character-free illustrations on privacy/COPPA, choosing a course and screen time. Keep Fox & Fern on the reading, phonics, homeschool-checklist, microschool and early-grades posts. (2) Swap only the coding posts. (3) Swap all posts.
+- **Choice:** (1).
+- **Date:** 2026-10-23. **Decided by:** owner (mix), Claude (default) (which posts, which art). **Status:** Done.
+- **Progress:** Canva image generation with the Rocket & Raven bible prompts (bibles/rocket-and-raven-art-prompts.md); illustrated, no text in art. Alt text rewritten.
+- **Links:** lanternlearn-site PR (this change).

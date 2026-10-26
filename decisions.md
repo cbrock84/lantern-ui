@@ -26,6 +26,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D336 | Which idea from the first content-ideas report goes into production first? | (1) "How does it work?" weekly social series from our 12 live stepped figures, plus the Hour of AI / CSEdWeek blog post (Recommended); (2) blog post only; (3) scope the Inside the Gadget 6-8 course now; (4) hold until after launch | Report: /mnt/project-files/content-ideas/2026-10-26.md |
 
 ## Log
 
@@ -2040,3 +2041,18 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Date:** 2026-10-23. **Decided by:** owner (mix), Claude (default) (which posts, which art). **Status:** Done.
 - **Progress:** Canva image generation with the Rocket & Raven bible prompts (bibles/rocket-and-raven-art-prompts.md); illustrated, no text in art. Alt text rewritten.
 - **Links:** lanternlearn-site PR (this change).
+
+### D335: Recurring content-ideas routine
+- **Question:** Chris asked for a routine that checks visual-learning.app and other sources every few days for new course, blog/site and social ideas. How often, and which sources?
+- **Options:** Cadence: every 3 days (chosen), weekly. Sources: visual-learning.app plus Code.org/CSEdWeek, PhET, NASA Space Place, Exploratorium, Raspberry Pi Foundation, Scratch, CSTA and a 6-week calendar of hooks (chosen), or visual-learning.app only.
+- **Choice:** A scheduled task runs every 3 days at 8:43 ET. Each run writes a dated report to /mnt/project-files/content-ideas/ and posts the top 3 ideas in the project thread. It only suggests ideas: it never publishes, schedules or opens PRs. Course ideas name their standards/sources.json keys. visual-learning.app is used for inspiration only (D320).
+- **Date:** 2026-10-26. **Decided by:** owner (the routine), Claude (default) (cadence and sources). **Status:** Done.
+- **Progress:** First run done 2026-10-26: 21 new visual-learning.app figures (computers, wearables, robots, drones, Starlink). Next run 2026-10-28.
+- **Links:** /mnt/project-files/content-ideas/README.md, 2026-10-26.md.
+
+### D336: First content idea to produce
+- **Question:** Which idea from the first content-ideas report goes into production first?
+- **Options:** (1) The "How does it work?" weekly social series built from our 12 live stepped figures, plus an Hour of AI / CSEdWeek (Dec 7-11) blog post (Recommended). (2) The blog post only. (3) Scope an Inside the Gadget 6-8 course now. (4) Hold until after launch.
+- **Choice:** Pending.
+- **Date:** 2026-10-26. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/content-ideas/2026-10-26.md.

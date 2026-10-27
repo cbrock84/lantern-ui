@@ -1903,6 +1903,37 @@ Every entry has these fields:
 - **Progress:** All four built and placed: capsule-toy (Ratios and Data 6-8 wk 12 Tue), fridge-heat (Matter Lab 6-8 wk 3 Fri), smoke-alarm (Inside the Machine 3-5 wk 2 Wed), car-engine (Sports Physics 6-8 wk 8 Thu). New sources in each course SOURCES.md and sources.json; nfpa.org judged a standards body. Merged 2026-10-20 (press #138, lantern-ui #135).
 - **Links:** rocket-and-raven-press and lantern-ui PRs on claude/project-thread-qmtr0f.
 
+### D323: First Blender pilot
+- **Question:** Chris installed Blender (2026-10-20). Which Blender idea should be piloted first?
+- **Options:** Paper-diorama course trailer: existing course art turned into a lit 2.5D set with a slow camera push, 9:16 and 16:9 (recommended); Rocket & Raven micro-short (45 to 60 s, one science question); looping lantern hero animation for the sites; 3D device mockup "how it works" ad; glTF lesson models after launch.
+- **Choice:** Pilot both the diorama trailer and the Rocket & Raven micro-short. Chris (2026-10-20 20:53): "I like these ideas, especially #2 and #1. Pilot them both please and share samples for me to look at."
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Samples rendered headless in Blender 4.2 (Cycles) from existing illustrated art, no new character art: Tomorrow Trail K-1 trailer (9:16 and 16:9) and "Why does the Moon change shape?" (Rocket, Raven, Nova; facts from Science Launch Grade 1 weeks 3 and 11 and the NASA Science Moon phases page). Voices are scratch local TTS because ElevenLabs is out of credits; final voices need credits. Nothing is posted; samples and Blender scripts are in /mnt/project-files/blender-pilots/.
+- **Links:** /mnt/project-files/blender-pilots/README.md.
+
+### D324: Animated characters in Blender
+- **Question:** Chris asked (2026-10-20 22:41) to render actual animation rather than still characters. Which approach?
+- **Options:** Cut-out puppet rigs on the existing illustrations: lip-sync, blinks, head and arm motion (recommended); AI image-to-video clips; full 3D character models.
+- **Choice:** Puppets first, leaning to 3D. Chris: "1 first but leaning 3 for the most polished look".
+- **Date:** 2026-10-20. **Decided by:** owner. **Status:** Decided.
+- **Progress:** The Rocket puppet test is done (rocket-puppet-test-9x16.mp4). The 3D test is a textured Rocket model generated from his illustration with Higgsfield image-to-3D, skinned in Blender with automatic weights, and animated on the same two lines for a side-by-side. Chris (2026-10-21) found the puppet and 3D tests still looked weird; Tomorrow Trail cut-outs (Fox & Fern style, organic illustrated characters) tested better, then got a physics pass (planted feet, hops with squash, springs, motion blur). Chris: "Much better." Next: short-form Tomorrow Trail videos (D366).
+- **Links:** /mnt/project-files/blender-pilots/README.md.
+
+### D366: Tomorrow Trail shorts: lines and voices
+- **Question:** Chris (2026-10-21 03:20) asked for numerous short-form videos of Tomorrow Trail characters, voiced with the Cloudflare voice tools. Which lines and voices?
+- **Options:** Not asked; Claude default while Chris was away.
+- **Choice:** Six shorts, every line verbatim from the Tomorrow Trail course: greet (week 1 day 4), basket (week 2 day 3), sounds (week 2 days 1 and 4), leaves (week 5 day 4), puzzle (week 7 day 2), log (week 11 day 2). Voices are Workers AI Deepgram Aura-2 (the lesson-audio model): Chris the Coyote aries, Ferris apollo, Hazel cora, Rosie ophelia, Bennie mars, Oliver draco, Riley atlas. Until Cloudflare access works, the renders use local placeholder voices with the same timing pipeline.
+- **Date:** 2026-10-21. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Lines and a recording workflow are in rocket-and-raven-press #143 (draft, do not merge). Recording is blocked: the CLOUDFLARE_API_TOKEN secret returns 401 on Workers AI; it needs Account > Workers AI > Edit. Six 16:9 shorts were delivered with placeholder voices on 2026-10-21 (/mnt/project-files/blender-pilots/). After Chris updated the token (2026-10-21), the secret's token verifies as active on the Chris Brock LLC account but Workers AI still returns 401, so the voices are still blocked. Nothing is posted.
+- **Links:** /mnt/project-files/blender-pilots/README.md, rocket-and-raven-press #143.
+
+### D367: Full-body character animation: Higgsfield AI video or Blender (asked on the card as D330)
+- **Question:** For full-body Tomorrow Trail character motion, buy Higgsfield credits for AI image-to-video clips, or stay with Blender cut-out rigs?
+- **Options:** (1) Higgsfield credits for AI full-body video. (2) Blender only: cut-out rigs, walk cycles and physics, no credits.
+- **Choice:** (2) Blender only.
+- **Date:** 2026-10-21. **Decided by:** owner (Chris, "d330 - 2 (blender only)"). **Status:** Decided.
+- **Progress:** No credits bought. The six Tomorrow Trail shorts (D366) are Blender cut-outs; further shorts continue the same way.
+
 
 ### Colorfigures pilot (CF-D3 onward)
 Pilot decisions for the "how it works" figures, numbered `CF-D<n>` from Chris's own CF-D3 so they never clash with

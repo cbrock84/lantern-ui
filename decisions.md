@@ -26,7 +26,9 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D336 | Which idea from the first content-ideas report goes into production first? | (1) "How does it work?" weekly social series from our 12 live stepped figures, plus the Hour of AI / CSEdWeek blog post (Recommended); (2) blog post only; (3) scope the Inside the Gadget 6-8 course now; (4) hold until after launch | Report: /mnt/project-files/content-ideas/2026-10-26.md |
+| D337 | How often should new courses and content release? | (1) Release Tuesdays: course 2nd Tue, small drop 4th Tue, blog Thursdays, figure post Wednesdays (Recommended); (2) course every 2 weeks; (3) course weekly | Building on (1). /mnt/project-files/releases/README.md |
+| D338 | Approve the first release slate? | (1) Nov 10 gallery, Nov 24 AI chips unit, Dec 8 Inside the Gadget 6-8, Dec 22 figures, Jan 12 Internet 9-12, Feb 9 Robots and Drones 6-8 (Recommended); (2) swap Inside the Gadget to Jan 12; (3) courses only | Building on (1). /mnt/project-files/releases/backlog.md |
+| D339 | How should Chris approve social posts? | (1) Weekly batch for review in Metricool, one card (Recommended); (2) each post; (3) standing approval for template posts | Building on (1). |
 
 ## Log
 
@@ -2053,6 +2055,48 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D336: First content idea to produce
 - **Question:** Which idea from the first content-ideas report goes into production first?
 - **Options:** (1) The "How does it work?" weekly social series built from our 12 live stepped figures, plus an Hour of AI / CSEdWeek (Dec 7-11) blog post (Recommended). (2) The blog post only. (3) Scope an Inside the Gadget 6-8 course now. (4) Hold until after launch.
-- **Choice:** Pending.
-- **Date:** 2026-10-26. **Decided by:** owner. **Status:** Open.
+- **Choice:** (1). On 2026-10-27 Chris asked to work through every idea in the report on a release schedule (D337), so all of them are now in the slate.
+- **Date:** 2026-10-26. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** The figure series starts 2026-11-04 and the Hour of AI post is dated 2026-11-12 (/mnt/project-files/releases/backlog.md).
 - **Links:** /mnt/project-files/content-ideas/2026-10-26.md.
+
+### D337: Release cadence
+- **Question:** How often should new courses and content release? (Chris, 2026-10-27: "regularly scheduled updates published to the site such as new courses on a calendar basis", which resumes course expansion, paused by D285, on a schedule.)
+- **Options:** (1) Release Tuesdays: a new course on the 2nd Tuesday of each month, a small drop (unit, figure pack, site feature) on the 4th Tuesday, a blog post every Thursday, and a "How does it work?" figure post every Wednesday (Recommended). (2) A new course every 2 weeks. (3) A new course every week.
+- **Choice:** Pending. Work continues on (1).
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/releases/README.md, rocket-and-raven-press #144, lanternlearn-site #72.
+
+### D338: First release slate
+- **Question:** Approve the first release slate?
+- **Options:** (1) Nov 10 How things work gallery; Nov 24 Why AI needs chips unit (AI and You 9-12); Dec 8 Inside the Gadget 6-8 (CSEdWeek); Dec 22 new figures for live courses; Jan 12 How the Internet Reaches You 9-12; Feb 9 Robots and Drones 6-8. A blog post every Thursday from Nov 5 (Recommended). (2) The same slate, with Inside the Gadget moved to Jan 12. (3) Courses only, with no small drops.
+- **Choice:** Pending. Work continues on (1).
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/releases/backlog.md, lanternlearn-site `src/data/releases.json`.
+
+### D339: Social post approval
+- **Question:** How should Chris approve the scheduled social posts?
+- **Options:** (1) A weekly batch: each Tuesday the routine drafts the next week's posts in Metricool for review, and Chris approves the batch on one card (Recommended). (2) Approve each post. (3) Standing approval for posts built from templates.
+- **Choice:** Pending. Work continues on (1).
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+
+### D340: Release and update dates on every course
+- **Question:** Should courses show when they were released and last revised?
+- **Options:** Asked for directly by Chris (2026-10-27: "date them along with dating any updates we make if we revise or modernize a course").
+- **Choice:** Every course has `released_on`. A revision adds `{date, note}` to `updates[]` and shows "Updated <date>". A future `released_on` keeps a published course at "Coming <date>" until that day. The 19 launch-catalog courses with no recorded go-live day use the month only (October 2026).
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Decided.
+- **Links:** rocket-and-raven-press #144.
+
+### D341: Course length can vary
+- **Question:** Can courses be shorter than 12 weeks?
+- **Options:** Asked for directly by Chris (2026-10-27: "vary the course lengths (eg, 2 weeks or even in terms of hours ...) I don't want that to be an excuse for thin course content").
+- **Choice:** A course runs 1 to 36 weeks, or states `length_hours` ("About 3 hours"). Short courses keep the same per-day floor (D123), sourcing, activity mix and checks, and the length follows the topic's real scope. The floor and rules are a Claude default.
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Decided.
+- **Links:** rocket-and-raven-press #144, /mnt/project-files/releases/README.md.
+
+### D342: Public release calendar
+- **Question:** Where should the release schedule show publicly?
+- **Options:** Not offered as a card.
+- **Choice:** lanternlearn.com/releases ("Coming soon" in the nav), with a subscribable /releases.ics feed. A daily Release day workflow publishes future-dated posts and calendar entries on their date.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Decided.
+- **Links:** lanternlearn-site #72.

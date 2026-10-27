@@ -91334,11 +91334,41 @@
       "url_status": null
     },
     {
+      "title": "CS231n: Deep Learning for Computer Vision, Neural Networks Part 1: Setting up the Architecture",
+      "url": "https://cs231n.github.io/neural-networks-1/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Roofline Performance Model",
       "url": "https://docs.nersc.gov/tools/performance/roofline/",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
       "publisher": "National Energy Research Scientific Computing Center (NERSC, US Department of Energy, Lawrence Berkeley National Laboratory)",
       "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CUDA Programming Guide, 1.1 Introduction (The Graphics Processing Unit; The Benefits of Using GPUs)",
+      "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "NVIDIA Corporation (technical documentation; the company is never named in lessons)",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -92542,11 +92572,41 @@
       "url_status": null
     },
     {
+      "title": "CS231n: Deep Learning for Computer Vision, Neural Networks Part 1: Setting up the Architecture",
+      "url": "https://cs231n.github.io/neural-networks-1/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Roofline Performance Model",
       "url": "https://docs.nersc.gov/tools/performance/roofline/",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
       "publisher": "National Energy Research Scientific Computing Center (NERSC, US Department of Energy, Lawrence Berkeley National Laboratory)",
       "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CUDA Programming Guide, 1.1 Introduction (The Graphics Processing Unit; The Benefits of Using GPUs)",
+      "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "NVIDIA Corporation (technical documentation; the company is never named in lessons)",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -92908,13 +92968,8 @@
         "docs.nersc.gov",
         "science.osti.gov"
       ],
-      "review_hosts": [
-        "cs231n.github.io",
-        "docs.nvidia.com"
-      ],
-      "flags": [
-        "Cites sites not yet judged authoritative (see review_hosts); replace or justify."
-      ]
+      "review_hosts": [],
+      "flags": []
     },
     "ai-explorers-g3-5": {
       "title": "AI Explorers Grades 3-5",

@@ -2169,9 +2169,9 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Question:** What art does Inside the Gadget use?
 - **Options:** (A) Reuse Inside the Machine art for now; make final art before Dec 8 from the image alt texts, which serve as art briefs. (B) Generate new art now with paid credits, without approval. (C) Old placeholders.
 - **Choice:** (A).
-- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Final art is still to make before 2026-12-08.
-- **Links:** rocket-and-raven-press #147
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Final art shipped in rocket-and-raven-press #151: a new cover, a new hero and eight lesson images, with alt text describing each image. Made in Canva with live course art as style references; no paid credits used.
+- **Links:** rocket-and-raven-press #147, #151
 
 ### D353: "Bluetooth" in Inside the Gadget
 - **Question:** Should lessons use the trademarked name "Bluetooth"?
@@ -2212,9 +2212,9 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Question:** What art do How the Internet Reaches You 9-12 and Robots and Drones 6-8 use?
 - **Options:** (A) Reuse existing heroes and covers (Data and Society for the internet course, Sports Physics for robots), with alt text that doubles as the art brief. (B) Generate new art with paid credits. (C) Ship with no art, which breaks the cards.
 - **Choice:** (A). Same approach as D352.
-- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Final art is due before 2027-01-12 (internet) and 2027-02-09 (robots).
-- **Links:** rocket-and-raven-press #149, #150
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Progress:** Final art shipped in rocket-and-raven-press #151. Both courses have a new cover and hero. The internet course has 12 lesson images and robots has 10, one per week where every week used to show the hero. Alt text now describes each image. Made in Canva with live course art as style references; no paid credits used.
+- **Links:** rocket-and-raven-press #149, #150, #151
 
 ### D359: Sources for How the Internet Reaches You 9-12
 - **Question:** Which sources back the Wi-Fi, cellular and radio-speed lessons?

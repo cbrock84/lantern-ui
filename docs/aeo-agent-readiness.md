@@ -24,7 +24,7 @@ Scan: `POST https://isitagentready.com/api/scan` with
 | 2 | Markdown for Agents | Done | D371 | LL-site #80, press #152 |
 | 3 | API catalog (RFC 9727) | Done | D372 | LL-site #80, press #152 |
 | 4 | Link response headers | Done | D372 | LL-site #80, press #152 |
-| 5 | auth.md | Done (no agent sign-in) | D373 | LL-site #80, press #152 |
+| 5 | auth.md | Published; scanner check fails by design | D373 | LL-site #80, press #152 |
 | 6 | OAuth/OIDC discovery | Not applicable | D373 | none |
 | 7 | OAuth Protected Resource Metadata | Not applicable | D373 | none |
 | 8 | A2A Agent Card | Not applicable for now | D374 | none |
@@ -95,6 +95,10 @@ Scan: `POST https://isitagentready.com/api/scan` with
   or OAuth, every course and week opens without signing in, and accounts are
   for adults who sign in themselves with an email link. Agents are told not
   to create accounts or sign in for a person.
+- **Scanner:** `authMd` stays `fail` ("auth.md exists but does not describe
+  agent registration"): it looks for registration markers, and we have no
+  registration to describe. Adding markers for a registration that does not
+  exist would be false, so it fails by design under D373 A.
 
 ## 6. OAuth/OIDC discovery and 7. OAuth Protected Resource Metadata
 
@@ -156,6 +160,32 @@ Scan: `POST https://isitagentready.com/api/scan` with
   A paywall (x402) would break the 100%-free rule. The new
   `/api/public/openapi.json` carries no `x-payment-info`.
 
-## Verification
+## Verification (2026-10-27, after deploy)
 
-Filled in after the PRs merged and deployed; see the next section.
+Scanner results on the live sites. Before this work every item below except
+robotsTxt, sitemap and robotsTxtAiRules failed.
+
+| Check | lanternlearn.com | learn.lanternlearn.com |
+| --- | --- | --- |
+| contentSignals | pass | pass |
+| markdownNegotiation | pass | pass |
+| apiCatalog | pass | pass |
+| linkHeaders | pass | pass |
+| agentSkills | pass | fail (index lives on lanternlearn.com) |
+| webMcp | pass | fail (tools live on lanternlearn.com) |
+| authMd | fail by design (D373 A) | fail by design (D373 A) |
+| oauthDiscovery, oauthProtectedResource | fail by design (D373 A) | same |
+| mcpServerCard, a2aAgentCard, dnsAid | fail, not applicable (D374 A) | same |
+| webBotAuth | neutral (not applicable) | neutral |
+| x402, mpp, ucp, acp, ap2 | neutral (not a commerce site) | neutral |
+
+Also checked by hand on both hosts: `curl -H "Accept: text/markdown"` returns
+`text/markdown` with `x-markdown-tokens`, a browser Accept header still gets
+HTML with `Vary: Accept`, each discovery file has the right content type, and
+a missing `.md` path on lanternlearn.com stays an HTML page. WebMCP tools were
+checked in Chromium with a stub `document.modelContext`: all four register and
+return results.
+
+The scanner also lists `ard` (capability manifest) and
+`personalAgentProtocol` (Poppy manifest). They were not among Chris's items
+and stay failing; they describe agent services we do not run.

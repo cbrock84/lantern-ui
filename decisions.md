@@ -2340,7 +2340,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Options:** (A) An honest auth.md saying no sign-in or agent registration is needed or offered; skip OAuth discovery and protected-resource metadata (Recommended). (B) Build a real OAuth server so agents can act for a parent account: passes those checks, but a large security- and COPPA-sensitive build with no current use case.
 - **Choice:** (A), as the default while the card is open.
 - **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
-- **Progress:** /auth.md live on both hosts; the oauthDiscovery and oauthProtectedResource checks stay failing by design.
+- **Progress:** /auth.md live on both hosts. The authMd, oauthDiscovery and oauthProtectedResource scanner checks stay failing by design: they look for a registration endpoint or OAuth server, and there is none.
 - **Links:** lanternlearn-site #80, rocket-and-raven-press #152, docs/aeo-agent-readiness.md.
 
 ### D374: Public read-only MCP/A2A course-catalog server

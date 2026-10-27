@@ -27,6 +27,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D369 | Mark the CSEdWeek countdown posts as AI-generated on Instagram and Pinterest? | (A) mark them / (B) leave unmarked | The session's permission check blocked the edit; needs Chris's word |
 
 ## Log
 
@@ -2220,9 +2221,9 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D355: CSEdWeek countdown posts
 - **Question:** How should the Dec 1-11 CSEdWeek countdown run? D339 (C) covers it as a template post, but this session could not schedule it overnight.
 - **Options:** (A) Schedule as drafted: one free Code Crew or AI Explorers lesson a day at 10:00 ET on IG, FB and Pinterest, with course covers and #codingforkids #csedweek added. (B) Same posts, with made-to-order daily graphics. (C) Skip the countdown.
-- **Choice:** (A). D339 (C), Chris's standing approval for template posts, names the CSEdWeek countdown, so no separate card was needed.
-- **Date:** 2026-10-27. **Decided by:** owner (D339 C). **Status:** Done.
-- **Progress:** All 33 posts scheduled in Metricool on 2026-10-27: Dec 1-11 at 10:00 ET, one each on Instagram, Facebook and Pinterest (board "Free Online Courses for Kids"). Every activity link and cover image returned 200 that day.
+- **Choice:** (B) (Chris, 2026-10-27: "D355-B"). The posts went out as (A) first under D339 (C). They keep their text and times, and each day's course cover is being replaced with a made-to-order graphic: Canva art of the cast doing that day's activity plus a day label, with no paid credits (as in D358).
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Done.
+- **Progress:** All 33 posts were scheduled in Metricool on 2026-10-27: Dec 1-11 at 10:00 ET, one each on Instagram, Facebook and Pinterest (board "Free Online Courses for Kids"). Every activity link returned 200 that day. On the same day the 11 daily graphics (1080x1350, Canva art with a day-label band) went into all 33 posts, and each day was re-read to confirm. They are hosted at R2 launch-media/csedweek/csedweek-decNN.jpg and kept in /mnt/project-files/releases/csedweek-countdown/graphics/. The AI-disclosure flag on these posts is D369.
 - **Links:** /mnt/project-files/releases/csedweek-countdown/drafts.md
 
 ### D356: How the Dec 22 figures are released
@@ -2301,3 +2302,10 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Options:** (A) Keep pinning to the existing "Free Online Courses for Kids" board. (B) Create the new board and move future pins to it.
 - **Choice:** (A). The figure series and the CSEdWeek countdown already pin to the existing board, so nothing waits on a new one. The session tried to create the board: both Make Pinterest connections return 401 and Zapier has no Pinterest account, so (B) would need Chris to reconnect Pinterest first.
 - **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+
+### D369: AI disclosure on the CSEdWeek countdown posts
+- **Question:** The 11 countdown graphics (D355 B) are Canva AI art. Should the 22 Instagram and Pinterest posts that use them carry each platform's "AI-generated" label?
+- **Options:** (A) Mark them as AI-generated (Recommended): both platforms ask for AI-made images to be declared, and the label is small. (B) Leave them unmarked.
+- **Choice:** Waiting on Chris. Recommended: (A). The session tried to set the flag, but its permission check blocked the Metricool edit, so it needs Chris's word in the thread or a toggle in Metricool.
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Links:** /mnt/project-files/releases/csedweek-countdown/scheduled-posts.md

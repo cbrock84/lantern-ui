@@ -26,9 +26,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D337 | How often should new courses and content release? | (1) Release Tuesdays: course 2nd Tue, small drop 4th Tue, blog Thursdays, figure post Wednesdays (Recommended); (2) course every 2 weeks; (3) course weekly | Building on (1). /mnt/project-files/releases/README.md |
-| D338 | Approve the first release slate? | (1) Nov 10 gallery, Nov 24 AI chips unit, Dec 8 Inside the Gadget 6-8, Dec 22 figures, Jan 12 Internet 9-12, Feb 9 Robots and Drones 6-8 (Recommended); (2) swap Inside the Gadget to Jan 12; (3) courses only | Building on (1). /mnt/project-files/releases/backlog.md |
-| D339 | How should Chris approve social posts? | (1) Weekly batch for review in Metricool, one card (Recommended); (2) each post; (3) standing approval for template posts | Building on (1). |
 
 ## Log
 
@@ -2063,22 +2060,25 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D337: Release cadence
 - **Question:** How often should new courses and content release? (Chris, 2026-10-27: "regularly scheduled updates published to the site such as new courses on a calendar basis", which resumes course expansion, paused by D285, on a schedule.)
 - **Options:** (1) Release Tuesdays: a new course on the 2nd Tuesday of each month, a small drop (unit, figure pack, site feature) on the 4th Tuesday, a blog post every Thursday, and a "How does it work?" figure post every Wednesday (Recommended). (2) A new course every 2 weeks. (3) A new course every week.
-- **Choice:** Pending. Work continues on (1).
-- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Choice:** (1) Release Tuesdays (Chris, 2026-10-27: "D337a").
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Decided.
+- **Progress:** Release-date gating, the /releases calendar, the daily release-day workflow and the producer, planner and release-day routines are live. First release is 2026-11-10.
 - **Links:** /mnt/project-files/releases/README.md, rocket-and-raven-press #144, lanternlearn-site #72.
 
 ### D338: First release slate
 - **Question:** Approve the first release slate?
 - **Options:** (1) Nov 10 How things work gallery; Nov 24 Why AI needs chips unit (AI and You 9-12); Dec 8 Inside the Gadget 6-8 (CSEdWeek); Dec 22 new figures for live courses; Jan 12 How the Internet Reaches You 9-12; Feb 9 Robots and Drones 6-8. A blog post every Thursday from Nov 5 (Recommended). (2) The same slate, with Inside the Gadget moved to Jan 12. (3) Courses only, with no small drops.
-- **Choice:** Pending. Work continues on (1).
-- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Choice:** (1), the recommended slate (Chris, 2026-10-27: "d338a").
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Decided.
+- **Progress:** All six items are on lanternlearn.com/releases. The weekly producer builds each item ahead of its date.
 - **Links:** /mnt/project-files/releases/backlog.md, lanternlearn-site `src/data/releases.json`.
 
 ### D339: Social post approval
 - **Question:** How should Chris approve the scheduled social posts?
 - **Options:** (1) A weekly batch: each Tuesday the routine drafts the next week's posts in Metricool for review, and Chris approves the batch on one card (Recommended). (2) Approve each post. (3) Standing approval for posts built from templates.
-- **Choice:** Pending. Work continues on (1).
-- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Choice:** (3) Standing approval for template posts (Chris, 2026-10-27: "d339c"). Release announcements, the release-day sequence, the "How does it work?" figure series and the CSEdWeek countdown are scheduled directly in Metricool on every connected channel, with no card. Chris sees them in Metricool once scheduled. Any new kind of post still goes to Chris on a card first.
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Decided.
+- **Progress:** The weekly producer and release-day routines were updated to schedule template posts directly.
 
 ### D340: Release and update dates on every course
 - **Question:** Should courses show when they were released and last revised?

@@ -2220,9 +2220,9 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D355: CSEdWeek countdown posts
 - **Question:** How should the Dec 1-11 CSEdWeek countdown run? D339 (C) covers it as a template post, but this session could not schedule it overnight.
 - **Options:** (A) Schedule as drafted: one free Code Crew or AI Explorers lesson a day at 10:00 ET on IG, FB and Pinterest, with course covers and #codingforkids #csedweek added. (B) Same posts, with made-to-order daily graphics. (C) Skip the countdown.
-- **Choice:** (A). D339 (C), Chris's standing approval for template posts, names the CSEdWeek countdown, so no separate card was needed.
-- **Date:** 2026-10-27. **Decided by:** owner (D339 C). **Status:** Done.
-- **Progress:** All 33 posts scheduled in Metricool on 2026-10-27: Dec 1-11 at 10:00 ET, one each on Instagram, Facebook and Pinterest (board "Free Online Courses for Kids"). Every activity link and cover image returned 200 that day.
+- **Choice:** (B) (Chris, 2026-10-27: "D355-B"). The posts went out as (A) first under D339 (C). They keep their text and times, and each day's course cover is being replaced with a made-to-order graphic: Canva art of the cast doing that day's activity plus a day label, with no paid credits (as in D358).
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Decided.
+- **Progress:** All 33 posts were scheduled in Metricool on 2026-10-27: Dec 1-11 at 10:00 ET, one each on Instagram, Facebook and Pinterest (board "Free Online Courses for Kids"). Every activity link returned 200 that day. The 11 daily graphics are in progress and will be swapped into the same posts.
 - **Links:** /mnt/project-files/releases/csedweek-countdown/drafts.md
 
 ### D356: How the Dec 22 figures are released

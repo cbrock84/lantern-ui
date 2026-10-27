@@ -8560,6 +8560,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -8578,7 +8579,8 @@
       "license": null,
       "cited_by": [
         "code-crew-g1",
-        "code-crew-k"
+        "code-crew-k",
+        "inside-the-gadget-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -8886,6 +8888,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -19495,6 +19498,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -19512,6 +19516,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -19529,6 +19534,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -19536,15 +19542,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -19720,12 +19727,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -20217,6 +20225,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -20234,7 +20243,8 @@
       "license": null,
       "cited_by": [
         "code-crew-g1",
-        "code-crew-k"
+        "code-crew-k",
+        "inside-the-gadget-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -20593,6 +20603,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -20955,6 +20966,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -20972,6 +20984,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -20989,6 +21002,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -20996,15 +21010,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -21431,12 +21446,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -22101,6 +22117,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -30199,6 +30216,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -30216,6 +30234,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -30233,6 +30252,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -30240,15 +30260,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -30440,12 +30461,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -30894,6 +30916,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -31248,6 +31271,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -31610,6 +31634,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -31627,6 +31652,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -31644,6 +31670,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -31651,15 +31678,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -32086,12 +32114,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g1-g2.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -32756,6 +32785,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43026,6 +43056,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -43041,6 +43072,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -43444,6 +43476,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -43462,6 +43495,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43478,6 +43512,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43485,15 +43520,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 13 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43600,12 +43636,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43613,30 +43650,32 @@
       "url_status": null
     },
     {
-      "title": "CS101 Bits and Bytes",
+      "title": "Bits and Bytes",
       "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "title": "Image Introduction",
       "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University; NIST; IETF",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -44080,7 +44119,7 @@
       "url_status": null
     },
     {
-      "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
+      "title": "How to Keep the Hottest Products of the Season Cool All Year Long (2007)",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
@@ -44089,6 +44128,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -44125,7 +44165,7 @@
       "url_status": null
     },
     {
-      "title": "Energy Saver Guide (2022)",
+      "title": "Energy Saver Guide 2022",
       "url": "https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Department of Energy",
@@ -44134,6 +44174,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -44491,15 +44532,16 @@
       "url_status": null
     },
     {
-      "title": "Touch Screens: How our devices moved beyond buttons (Illumin magazine)",
+      "title": "Touch Screens: How Our Devices Moved Beyond Buttons",
       "url": "https://illumin.usc.edu/touch-screens-how-our-devices-moved-beyond-buttons/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
+      "publisher": "Illumin, University of Southern California",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -44577,6 +44619,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -44738,6 +44781,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -45101,6 +45145,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -45137,15 +45182,16 @@
       "url_status": null
     },
     {
-      "title": "4.2.1 Microphone (IT: Information, OpenLearn)",
+      "title": "IT: Information, 4.2.1 Microphone",
       "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University",
+      "publisher": "The Open University (OpenLearn)",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -45324,6 +45370,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -45627,6 +45674,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -45642,6 +45690,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -45994,6 +46043,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -46012,6 +46062,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -46028,6 +46079,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -46051,15 +46103,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 13 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -46377,12 +46430,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -46420,30 +46474,32 @@
       "url_status": null
     },
     {
-      "title": "CS101 Bits and Bytes",
+      "title": "Bits and Bytes",
       "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "title": "Image Introduction",
       "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University; NIST; IETF",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -47061,7 +47117,7 @@
       "url_status": null
     },
     {
-      "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
+      "title": "How to Keep the Hottest Products of the Season Cool All Year Long (2007)",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
@@ -47070,6 +47126,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -47106,7 +47163,7 @@
       "url_status": null
     },
     {
-      "title": "Energy Saver Guide (2022)",
+      "title": "Energy Saver Guide 2022",
       "url": "https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Department of Energy",
@@ -47115,6 +47172,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -47712,15 +47770,16 @@
       "url_status": null
     },
     {
-      "title": "Touch Screens: How our devices moved beyond buttons (Illumin magazine)",
+      "title": "Touch Screens: How Our Devices Moved Beyond Buttons",
       "url": "https://illumin.usc.edu/touch-screens-how-our-devices-moved-beyond-buttons/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
+      "publisher": "Illumin, University of Southern California",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -47858,6 +47917,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -48086,6 +48146,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -48930,6 +48991,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -48981,15 +49043,16 @@
       "url_status": null
     },
     {
-      "title": "4.2.1 Microphone (IT: Information, OpenLearn)",
+      "title": "IT: Information, 4.2.1 Microphone",
       "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University",
+      "publisher": "The Open University (OpenLearn)",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -57311,15 +57374,16 @@
       "url_status": null
     },
     {
-      "title": "Forms of energy (Energy Explained)",
+      "title": "Forms of energy",
       "url": "https://www.eia.gov/energyexplained/what-is-energy/forms-of-energy.php",
       "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-g4.",
-      "publisher": "US EIA",
+      "publisher": "U.S. Energy Information Administration",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
@@ -59403,6 +59467,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -59418,6 +59483,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -59731,6 +59797,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -59769,6 +59836,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -59785,6 +59853,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -59811,15 +59880,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 13 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -59931,12 +60001,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -59978,30 +60049,32 @@
       "url_status": null
     },
     {
-      "title": "CS101 Bits and Bytes",
+      "title": "Bits and Bytes",
       "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "title": "Image Introduction",
       "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University; NIST; IETF",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -60416,7 +60489,7 @@
       "url_status": null
     },
     {
-      "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
+      "title": "How to Keep the Hottest Products of the Season Cool All Year Long (2007)",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
@@ -60425,6 +60498,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -60461,7 +60535,7 @@
       "url_status": null
     },
     {
-      "title": "Energy Saver Guide (2022)",
+      "title": "Energy Saver Guide 2022",
       "url": "https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Department of Energy",
@@ -60470,6 +60544,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -60850,15 +60925,16 @@
       "url_status": null
     },
     {
-      "title": "Touch Screens: How our devices moved beyond buttons (Illumin magazine)",
+      "title": "Touch Screens: How Our Devices Moved Beyond Buttons",
       "url": "https://illumin.usc.edu/touch-screens-how-our-devices-moved-beyond-buttons/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
+      "publisher": "Illumin, University of Southern California",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -60937,6 +61013,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -61113,6 +61190,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -61478,6 +61556,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -61514,15 +61593,16 @@
       "url_status": null
     },
     {
-      "title": "4.2.1 Microphone (IT: Information, OpenLearn)",
+      "title": "IT: Information, 4.2.1 Microphone",
       "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University",
+      "publisher": "The Open University (OpenLearn)",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -61700,6 +61780,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -62003,6 +62084,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -62018,6 +62100,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -62370,6 +62453,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -62388,6 +62472,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -62404,6 +62489,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -62427,15 +62513,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 13 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -62753,12 +62840,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -62796,30 +62884,32 @@
       "url_status": null
     },
     {
-      "title": "CS101 Bits and Bytes",
+      "title": "Bits and Bytes",
       "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "title": "Image Introduction",
       "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University; NIST; IETF",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -63437,7 +63527,7 @@
       "url_status": null
     },
     {
-      "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
+      "title": "How to Keep the Hottest Products of the Season Cool All Year Long (2007)",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
@@ -63446,6 +63536,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -63482,7 +63573,7 @@
       "url_status": null
     },
     {
-      "title": "Energy Saver Guide (2022)",
+      "title": "Energy Saver Guide 2022",
       "url": "https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Department of Energy",
@@ -63491,6 +63582,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -64088,15 +64180,16 @@
       "url_status": null
     },
     {
-      "title": "Touch Screens: How our devices moved beyond buttons (Illumin magazine)",
+      "title": "Touch Screens: How Our Devices Moved Beyond Buttons",
       "url": "https://illumin.usc.edu/touch-screens-how-our-devices-moved-beyond-buttons/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
+      "publisher": "Illumin, University of Southern California",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -64234,6 +64327,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -64462,6 +64556,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -65306,6 +65401,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -65357,15 +65453,16 @@
       "url_status": null
     },
     {
-      "title": "4.2.1 Microphone (IT: Information, OpenLearn)",
+      "title": "IT: Information, 4.2.1 Microphone",
       "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University",
+      "publisher": "The Open University (OpenLearn)",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -75437,6 +75534,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -75452,6 +75550,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -75780,6 +75879,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -75798,6 +75898,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -75814,6 +75915,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -75821,15 +75923,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 13 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -76028,12 +76131,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -76041,30 +76145,32 @@
       "url_status": null
     },
     {
-      "title": "CS101 Bits and Bytes",
+      "title": "Bits and Bytes",
       "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "title": "Image Introduction",
       "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University; NIST; IETF",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -76493,7 +76599,7 @@
       "url_status": null
     },
     {
-      "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
+      "title": "How to Keep the Hottest Products of the Season Cool All Year Long (2007)",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
@@ -76502,6 +76608,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -76538,7 +76645,7 @@
       "url_status": null
     },
     {
-      "title": "Energy Saver Guide (2022)",
+      "title": "Energy Saver Guide 2022",
       "url": "https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Department of Energy",
@@ -76547,6 +76654,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -76944,15 +77052,16 @@
       "url_status": null
     },
     {
-      "title": "Touch Screens: How our devices moved beyond buttons (Illumin magazine)",
+      "title": "Touch Screens: How Our Devices Moved Beyond Buttons",
       "url": "https://illumin.usc.edu/touch-screens-how-our-devices-moved-beyond-buttons/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
+      "publisher": "Illumin, University of Southern California",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -77031,6 +77140,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -77192,6 +77302,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -77540,6 +77651,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -77576,15 +77688,16 @@
       "url_status": null
     },
     {
-      "title": "4.2.1 Microphone (IT: Information, OpenLearn)",
+      "title": "IT: Information, 4.2.1 Microphone",
       "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University",
+      "publisher": "The Open University (OpenLearn)",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -77762,6 +77875,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -78065,6 +78179,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -78080,6 +78195,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -78432,6 +78548,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -78450,6 +78567,7 @@
       "license": null,
       "cited_by": [
         "code-crew-g3",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -78466,6 +78584,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -78489,15 +78608,16 @@
       "url_status": null
     },
     {
-      "title": "CS101 Software",
+      "title": "Software: Running Programs",
       "url": "https://web.stanford.edu/class/cs101/software-1.html",
       "description": "Cited 13 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -78815,12 +78935,13 @@
       "title": "Lithium-Ion Battery Safety",
       "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
       "description": "Cited 5 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "National Fire Protection Association (hosted by the South Carolina State Fire Marshal)",
+      "publisher": "NFPA (via SC State Fire Marshal)",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -78858,30 +78979,32 @@
       "url_status": null
     },
     {
-      "title": "CS101 Bits and Bytes",
+      "title": "Bits and Bytes",
       "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
     },
     {
-      "title": "Networking; Bits and Bytes; Computer Hardware; Digital Images (Stanford CS101); CODATA c; RFC 20",
+      "title": "Image Introduction",
       "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
       "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "Stanford University; NIST; IETF",
+      "publisher": "Stanford CS101",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -79499,7 +79622,7 @@
       "url_status": null
     },
     {
-      "title": "How to Keep the Hottest Products of the Season Cool All Year Long: CPSC Provides Tips on Console Game and Computer Use",
+      "title": "How to Keep the Hottest Products of the Season Cool All Year Long (2007)",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Consumer Product Safety Commission",
@@ -79508,6 +79631,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -79544,7 +79668,7 @@
       "url_status": null
     },
     {
-      "title": "Energy Saver Guide (2022)",
+      "title": "Energy Saver Guide 2022",
       "url": "https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "U.S. Department of Energy",
@@ -79553,6 +79677,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -80150,15 +80275,16 @@
       "url_status": null
     },
     {
-      "title": "Touch Screens: How our devices moved beyond buttons (Illumin magazine)",
+      "title": "Touch Screens: How Our Devices Moved Beyond Buttons",
       "url": "https://illumin.usc.edu/touch-screens-how-our-devices-moved-beyond-buttons/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of Southern California, Viterbi School of Engineering",
+      "publisher": "Illumin, University of Southern California",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -80296,6 +80422,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -80524,6 +80651,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -81368,6 +81496,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -81419,15 +81548,16 @@
       "url_status": null
     },
     {
-      "title": "4.2.1 Microphone (IT: Information, OpenLearn)",
+      "title": "IT: Information, 4.2.1 Microphone",
       "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University",
+      "publisher": "The Open University (OpenLearn)",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -88049,7 +88179,8 @@
       "license": null,
       "cited_by": [
         "ai-and-you-g9-12",
-        "cells-systems-g6-8"
+        "cells-systems-g6-8",
+        "inside-the-gadget-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -89450,6 +89581,23 @@
   ],
   "6th_8th_coding_cs": [
     {
+      "title": "MS-PS4 Waves and their Applications in Technologies for Information Transfer",
+      "url": "https://www.nextgenscience.org/dci-arrangement/ms-ps4-waves-and-their-applications-technologies-information-transfer",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NGSS (nextgenscience.org)",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Five Big Ideas in Artificial Intelligence, poster v2",
       "url": "https://ai4k12.org/wp-content/uploads/AI4K12_Five_Big_Ideas_Poster_v2.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-explorers-g6-8.",
@@ -89498,6 +89646,40 @@
       "url_status": null
     },
     {
+      "title": "MS-PS4-1 Evidence Statements, June 2015",
+      "url": "https://www.nextgenscience.org/sites/default/files/evidence_statement/black_white/MS-PS4-1%20Evidence%20Statements%20June%202015%20asterisks.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NGSS",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "MS-PS4-3 Evidence Statements, June 2015",
+      "url": "https://www.nextgenscience.org/sites/default/files/evidence_statement/black_white/MS-PS4-3%20Evidence%20Statements%20June%202015%20asterisks.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NGSS",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "RFC 8259, Abstract",
       "url": "https://www.rfc-editor.org/rfc/rfc8259.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g6-plus.",
@@ -89513,9 +89695,56 @@
       "url_status": null
     },
     {
+      "title": "Ambient Light Sensor",
+      "url": "https://www.w3.org/TR/ambient-light/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Generic Sensor API",
+      "url": "https://www.w3.org/TR/generic-sensor/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Motion Sensors Explainer",
+      "url": "https://www.w3.org/TR/motion-sensors/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CSTA K-12 Computer Science Standards (revised 2017)",
       "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
-      "description": "Cited 19 time(s) in the SOURCES.md of: ai-explorers-g6-8, code-crew-g6-plus.",
+      "description": "Cited 22 time(s) in the SOURCES.md of: ai-explorers-g6-8, code-crew-g6-plus, inside-the-gadget-g6-8.",
       "publisher": "Computer Science Teachers Association (copy hosted by Connecticut State Department of Education)",
       "kind": "government",
       "frameworks": [],
@@ -89528,6 +89757,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -89831,6 +90061,56 @@
       "url_status": null
     },
     {
+      "title": "CS101, Hardware",
+      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
+      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Metric (SI) Prefixes",
+      "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "US National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12",
+        "cells-systems-g6-8",
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Be Connected: Understanding Wi-Fi range",
+      "url": "https://beconnected.esafety.gov.au/topic-library/wi-fi-and-mobile-networks/what-is-wi-fi/understanding-wi-fi-range",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "eSafety Commissioner (Australian Government)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Glossary",
       "url": "https://docs.python.org/3/glossary.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-g6-plus.",
@@ -89955,6 +90235,37 @@
       "url_status": null
     },
     {
+      "title": "SP 800-121 Rev. 2, Guide to Bluetooth Security",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2-upd1.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "What Is GPS?",
+      "url": "https://spaceplace.nasa.gov/gps/en/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NASA Space Place",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "Generally not copyrighted (NASA Media Usage Guidelines)",
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Reading 3: Testing, Include boundaries in the partition",
       "url": "https://web.mit.edu/6.031/www/sp22/classes/03-testing/",
       "description": "Cited 2 time(s) in the SOURCES.md of: code-crew-g6-plus.",
@@ -89967,6 +90278,23 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Software: Running Programs",
+      "url": "https://web.stanford.edu/class/cs101/software-1.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "Stanford CS101",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -90159,6 +90487,22 @@
       "url_status": null
     },
     {
+      "title": "Touch Screens: How Our Devices Moved Beyond Buttons",
+      "url": "https://illumin.usc.edu/touch-screens-how-our-devices-moved-beyond-buttons/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "Illumin, University of Southern California",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Two Dice",
       "url": "https://math.hawaii.edu/~ramsey/Probability/TwoDice.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g6-plus.",
@@ -90169,6 +90513,23 @@
       "license": null,
       "cited_by": [
         "code-crew-g6-plus"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Computer Science Class XI, Ch. 1 Computer System",
+      "url": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NCERT (Government of India)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -90212,6 +90573,111 @@
       "url_status": null
     },
     {
+      "title": "Geodesy tutorial: Global Positioning",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_geodesy/geo09_gps.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NOAA National Ocean Service",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.5 Batteries and Fuel Cells, Chemistry 2e",
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "OpenStax (Rice University), CC BY-NC-SA 4.0",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "13.1 Types of Waves, Physics",
+      "url": "https://openstax.org/books/physics/pages/13-1-types-of-waves",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "OpenStax (Rice University), CC BY-NC-SA 4.0",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "13.2 Wave Properties: Speed, Amplitude, Frequency, and Period, Physics",
+      "url": "https://openstax.org/books/physics/pages/13-2-wave-properties-speed-amplitude-frequency-and-period",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "OpenStax (Rice University), CC BY-NC-SA 4.0",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Lecture 3: Transistors and Logic Gates (CS/ECE 252)",
+      "url": "https://pages.cs.wisc.edu/~markhill/cs252/Fall2013/lectures/lec03_digital_logic.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "University of Wisconsin-Madison, Computer Sciences",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Prefixes for binary multiples",
+      "url": "https://physics.nist.gov/cuu/Units/binary.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NIST Physical Measurement Laboratory",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Wearable Photoplethysmography for Cardiovascular Monitoring (Charlton et al., Proc. IEEE 2022), CC BY 4.0",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7612541/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "PubMed Central, US National Library of Medicine",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "IDLE default key bindings, config-keys.def",
       "url": "https://raw.githubusercontent.com/python/cpython/main/Lib/idlelib/config-keys.def",
       "description": "Cited 1 time(s) in the SOURCES.md of: code-crew-g6-plus.",
@@ -90242,6 +90708,55 @@
       "url_status": null
     },
     {
+      "title": "Introduction to the Electromagnetic Spectrum",
+      "url": "https://science.nasa.gov/ems/01_intro/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Radio Waves",
+      "url": "https://science.nasa.gov/ems/05_radiowaves/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Visible Light",
+      "url": "https://science.nasa.gov/ems/09_visiblelight/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g1",
+        "code-crew-k",
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Introduction to Digital Images",
       "url": "https://tildesites.geneseo.edu/~baldwin/reference/images.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-explorers-g6-8.",
@@ -90254,6 +90769,225 @@
         "ai-explorers-g3-5",
         "ai-explorers-g6-8",
         "ai-explorers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Bits and Bytes",
+      "url": "https://web.stanford.edu/class/cs101/bits-bytes.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "Stanford CS101",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Image Introduction",
+      "url": "https://web.stanford.edu/class/cs101/image-1-introduction.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "Stanford CS101",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "How to Keep the Hottest Products of the Season Cool All Year Long (2007)",
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2007/How-to-Keep-the-Hottest-Products-of-the-Season-Cool-All-Year-Long-CPSC-Provides-Tips-on-Console-Game-and-Computer-Use",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Batteries, circuits, and transformers",
+      "url": "https://www.eia.gov/energyexplained/electricity/batteries-circuits-and-transformers.php",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Measuring electricity",
+      "url": "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Forms of energy",
+      "url": "https://www.eia.gov/energyexplained/what-is-energy/forms-of-energy.php",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "U.S. Energy Information Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "science-launch-g4"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Lithium",
+      "url": "https://www.energy.gov/hgeo/geothermal/lithium",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "U.S. Department of Energy, Geothermal Technologies Office",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Energy Saver Guide 2022",
+      "url": "https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "U.S. Department of Energy",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Wireless Devices and Health Concerns",
+      "url": "https://www.fcc.gov/consumers/guides/wireless-devices-and-health-concerns",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "FCC",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Lithium-Ion Battery Safety",
+      "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NFPA (via SC State Fire Marshal)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "NIST Guide to the SI, Chapter 4",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Exploring communications technology, 3.2 Sampling and quantisation",
+      "url": "https://www.open.edu/openlearn/digital-computing/exploring-communications-technology/content-section-3.2",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.1 Microphone",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.2 Microphone input subsystem",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.2",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -90339,24 +91073,6 @@
       "description": "Sensor types (touch, light, infrared, ultrasonic); ultrasonic distance comes from time of flight; sensors give signals that a program turns into decisions. Weeks 2 and 3.",
       "publisher": "Brooklyn College, City University of New York",
       "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Motion Sensors Explainer",
-      "url": "https://www.w3.org/TR/motion-sensors/",
-      "description": "Accelerometer and gyroscope: what each measures. Week 2 and week 8 (how a drone knows it is tilting).",
-      "publisher": "W3C",
-      "kind": "standards_body",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -90544,6 +91260,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -91945,6 +92662,7 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus",
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
@@ -92053,7 +92771,8 @@
       "license": null,
       "cited_by": [
         "ai-and-you-g9-12",
-        "cells-systems-g6-8"
+        "cells-systems-g6-8",
+        "inside-the-gadget-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -92710,7 +93429,8 @@
       "license": null,
       "cited_by": [
         "ai-and-you-g9-12",
-        "cells-systems-g6-8"
+        "cells-systems-g6-8",
+        "inside-the-gadget-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -94256,6 +94976,42 @@
         "blogs.extension.iastate.edu",
         "extension.unl.edu",
         "usfa.fema.gov"
+      ],
+      "review_hosts": [],
+      "flags": []
+    },
+    "inside-the-gadget-g6-8": {
+      "title": "Inside the Gadget Grades 6 to 8",
+      "imprint": "rocket-and-raven",
+      "series": "code-crew",
+      "grade_band": "G6-8",
+      "subject": "coding",
+      "keys": [
+        "6th_8th_coding_cs"
+      ],
+      "standards": {
+        "csta": [
+          "2-CS-01",
+          "2-CS-02",
+          "2-CS-03"
+        ],
+        "ngss": [
+          "MS-PS4-1",
+          "MS-PS4-2",
+          "MS-PS4-3"
+        ]
+      },
+      "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/inside-the-gadget-g6-8/SOURCES.md",
+      "cited_pages": 39,
+      "top_hosts": [
+        "web.stanford.edu",
+        "nist.gov",
+        "nextgenscience.org",
+        "portal.ct.gov",
+        "w3.org",
+        "openstax.org",
+        "open.edu",
+        "science.nasa.gov"
       ],
       "review_hosts": [],
       "flags": []
@@ -96365,7 +97121,7 @@
       "design": "/mnt/project-files/releases/robots-and-drones-g6-8/design.md",
       "sources_listed": 26,
       "new_entries": {
-        "6th_8th_coding_cs": 9,
+        "6th_8th_coding_cs": 8,
         "6th_8th_science": 21
       },
       "review_hosts": []

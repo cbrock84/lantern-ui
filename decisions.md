@@ -27,6 +27,9 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D370 | Content Signals: allow AI training on our pages? | (A) ai-train=no (B) ai-train=yes | Card sent 2026-10-27; live on A |
+| D373 | Agent sign-in: auth.md only, or build OAuth? | (A) auth.md, no OAuth (B) build OAuth | Card sent 2026-10-27; live on A |
+| D374 | Build a public read-only MCP/A2A course-catalog server? | (A) not now (B) MCP server (C) MCP + A2A | Card sent 2026-10-27; on A |
 
 ## Log
 
@@ -2309,3 +2312,40 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Date:** 2026-10-27. **Decided by:** Chris. **Status:** Done.
 - **Progress:** On 2026-10-27 all 22 posts (Instagram and Pinterest, Dec 1-11) were updated in Metricool with isAiGenerated true (Pinterest also isAiGeneratedPerson false, since the art shows cartoon kids, not realistic people). Each update response was checked. Facebook posts have no such flag and were left unchanged. The new post ids are in scheduled-posts.md.
 - **Links:** /mnt/project-files/releases/csedweek-countdown/scheduled-posts.md
+
+### D370: Content Signals ai-train setting
+- **Question:** robots.txt Content Signals for lanternlearn.com and learn.lanternlearn.com. search=yes and ai-input=yes are set either way so AI answers can cite and link the courses. Allow AI training too?
+- **Options:** (A) ai-train=no (Recommended): AI companies are asked not to train models on the courses; citation and linking in AI answers is unaffected. (B) ai-train=yes: allows training too; more model exposure, but training sends no links or traffic and can't be undone for already-trained models.
+- **Choice:** (A), as the default while the card is open.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
+- **Progress:** Live on A in both robots.txt files.
+- **Links:** lanternlearn-site #80, rocket-and-raven-press #152, docs/aeo-agent-readiness.md.
+
+### D371: Markdown for Agents in code
+- **Question:** How to answer `Accept: text/markdown` requests (Cloudflare "Markdown for Agents").
+- **Options:** (A) In code (Recommended): a build-time Markdown copy of each lanternlearn.com page served by a Pages middleware, and on-the-fly conversion in the platform middleware; versioned and plan-independent. (B) Cloudflare's zone-level Markdown for Agents toggle.
+- **Choice:** (A).
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** lanternlearn-site #80, rocket-and-raven-press #152.
+
+### D372: Agent discovery files (API catalog, OpenAPI, Link headers, agent skill, WebMCP)
+- **Question:** What to publish for agent discovery.
+- **Options:** (A) Only what is real (Recommended): an RFC 9727 API catalog listing the one public API (the catalog feed) with a new OpenAPI description and /developers docs; home-page Link headers; a find-free-courses agent skill; /courses.json and /releases.json; read-only WebMCP tools on lanternlearn.com. (B) Also list internal or account APIs.
+- **Choice:** (A). No admin, account or progress APIs are listed, and no health endpoint was invented.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** lanternlearn-site #80, rocket-and-raven-press #152, docs/aeo-agent-readiness.md.
+
+### D373: Agent sign-in (auth.md, OAuth/OIDC discovery, OAuth Protected Resource Metadata)
+- **Question:** The platform has magic-link sign-in for parents and teachers and no OAuth server; all content opens without sign-in. What to publish for agent sign-in?
+- **Options:** (A) An honest auth.md saying no sign-in or agent registration is needed or offered; skip OAuth discovery and protected-resource metadata (Recommended). (B) Build a real OAuth server so agents can act for a parent account: passes those checks, but a large security- and COPPA-sensitive build with no current use case.
+- **Choice:** (A), as the default while the card is open.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
+- **Progress:** /auth.md live on both hosts; the oauthDiscovery and oauthProtectedResource checks stay failing by design.
+- **Links:** lanternlearn-site #80, rocket-and-raven-press #152, docs/aeo-agent-readiness.md.
+
+### D374: Public read-only MCP/A2A course-catalog server
+- **Question:** Build an agent server so the MCP Server Card, A2A Agent Card and DNS-AID items can be published honestly?
+- **Options:** (A) Not now (Recommended): document all three as not applicable; revisit if agent traffic to the catalog shows up. (B) Build a small read-only MCP server on learn.lanternlearn.com (search courses, get a course, list releases; no accounts, no kid data) and publish its server card and a DNS-AID record (needs DNSSEC turned on). (C) B plus an A2A agent and agent card.
+- **Choice:** (A), as the default while the card is open.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
+- **Links:** docs/aeo-agent-readiness.md.

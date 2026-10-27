@@ -27,7 +27,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D369 | Mark the CSEdWeek countdown posts as AI-generated on Instagram and Pinterest? | (A) mark them / (B) leave unmarked | The session's permission check blocked the edit; needs Chris's word |
 
 ## Log
 
@@ -2306,6 +2305,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D369: AI disclosure on the CSEdWeek countdown posts
 - **Question:** The 11 countdown graphics (D355 B) are Canva AI art. Should the 22 Instagram and Pinterest posts that use them carry each platform's "AI-generated" label?
 - **Options:** (A) Mark them as AI-generated (Recommended): both platforms ask for AI-made images to be declared, and the label is small. (B) Leave them unmarked.
-- **Choice:** Waiting on Chris. Recommended: (A). The session tried to set the flag, but its permission check blocked the Metricool edit, so it needs Chris's word in the thread or a toggle in Metricool.
-- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Choice:** (A) Mark them. Chris: "D369-A".
+- **Date:** 2026-10-27. **Decided by:** Chris. **Status:** Done.
+- **Progress:** On 2026-10-27 all 22 posts (Instagram and Pinterest, Dec 1-11) were updated in Metricool with isAiGenerated true (Pinterest also isAiGeneratedPerson false, since the art shows cartoon kids, not realistic people). Each update response was checked. Facebook posts have no such flag and were left unchanged. The new post ids are in scheduled-posts.md.
 - **Links:** /mnt/project-files/releases/csedweek-countdown/scheduled-posts.md

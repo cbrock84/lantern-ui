@@ -1,11 +1,11 @@
 {
   "_meta": {
     "version": 2,
-    "updated": "2026-10-20",
+    "updated": "2026-10-27",
     "description": "Lantern Learn's foundation source list. Every fact, standard and activity in a Lantern Learn, Rocket & Raven or Fox & Fern course is based on sources listed here (or added here before the content ships). Keys follow '{grade_id}_{subject_slug}'. Each key holds a list of sources. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice.",
     "history": [
       "v1 (2026-06): Chris Brock, prek-5th x 6 subjects, 3 entries each, {title,url,description}; kept verbatim in standards/sources-v1-2026-06.json.",
-      "v2 (2026-10-20): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
+      "v2 (2026-10-27): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
     ],
     "grade_ids": [
       "prek",
@@ -57,7 +57,8 @@
       "reuse": "fact_source (check facts, write our own text) | reuse (license lets us adapt; see _open_resources) | link_only | avoid",
       "license": "License when checked; null means not checked, so treat as fact_source only.",
       "cited_by": "Course slugs whose SOURCES.md cites this exact URL.",
-      "origin": "v1 | course SOURCES.md | source-catalog.md",
+      "origin": "v1 | course SOURCES.md | source-catalog.md | planned course design (standards/planned-sources.json)",
+      "planned_for": "Planned-course entries only: the release ids (course slugs) whose design relies on this page before the course has a SOURCES.md.",
       "url_status": "Result of the last link check."
     },
     "rules": [
@@ -66,6 +67,7 @@
       "Copy or adapt material only when reuse is \"reuse\" and follow the license in _open_resources; otherwise write original text.",
       "Prefer standards_body, then government and museum_library, then university, then education_org. A \"review\" source needs a better one before new content relies on it.",
       "Never fabricate a source or URL. Open every URL before citing it.",
+      "Entries with origin \"planned course design\" come from standards/planned-sources.json: pages opened for a designed course before it has a SOURCES.md. Add a planned source there (after opening it); the build lists it under its keys until the course goes live.",
       "_media lists every photo, sim or story a course reuses, with its credit and license. Add a reused item to the course SOURCES.md (table columns: where, facts, title, credit, URL) and rebuild."
     ]
   },
@@ -88040,12 +88042,13 @@
       "title": "Metric (SI) Prefixes",
       "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
       "description": "Cited 1 time(s) in the SOURCES.md of: cells-systems-g6-8.",
-      "publisher": "National Institute of Standards and Technology",
+      "publisher": "US National Institute of Standards and Technology",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "ai-and-you-g9-12",
         "cells-systems-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -89103,6 +89106,346 @@
       ],
       "origin": "course SOURCES.md",
       "url_status": null
+    },
+    {
+      "title": "Understanding Space, Chapter 4.3.1: Space Vehicle Control Systems",
+      "url": "https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/III.4.3.1_Space_Vehicle_Control_Systems.pdf",
+      "description": "Open-loop versus closed-loop (feedback) control; in a thermostat the thermometer is the sensor, the thermostat the controller, the furnace the actuator. Week 4. Do not reuse its 20 C (75 F) example: 20 C is 68 F.",
+      "publisher": "NASA Small Spacecraft Systems Virtual Institute (S3VI) knowledge base",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Ingenuity Landing Press Kit: Mission Spacecraft",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/ingenuity/landing/mission/spacecraft/",
+      "description": "Ingenuity: about 1.8 kg on Earth; four carbon-fiber blades in two 1.2 m counter-rotating rotors at about 2,400 rpm; a downward navigation camera; flights of up to 90 s and about 5 m up. Weeks 8 and 9.",
+      "publisher": "NASA Jet Propulsion Laboratory",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Ingenuity Mars Helicopter",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "description": "First powered, controlled flight on another planet (April 19, 2021); 72 flights; last flight Jan. 18, 2024. Week 9.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Advanced Air Mobility: The Science Behind Quadcopters, Reader Student Guide",
+      "url": "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf",
+      "description": "Propellers push air down and the air pushes the drone up (Newton's third law); total lift is the sum of four propellers; tilting the lift moves the drone sideways; two propellers spin clockwise and two counterclockwise so their torques cancel, and speeding one pair turns (yaws) the drone; the worked 4 N quadcopter rules. Weeks 7 and 8.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "What is Lift?",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-lift/",
+      "description": "Lift opposes weight; it comes from a solid turning a moving flow of air (Newton's third law); no motion, no lift. Week 7.",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "What is Thrust?",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-thrust/",
+      "description": "Thrust is a mechanical force made by accelerating a mass of air or gas; it is a vector with size and direction. Week 7.",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Propeller Thrust",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propeller-thrust/",
+      "description": "The engine turns the propeller, which does work on the air, so pressure changes abruptly across the propeller disk; blades are twisted from hub to tip. Week 7 (qualitative only at this level).",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Torque (Moment)",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/torque.html",
+      "description": "Torque is the product of a force and its perpendicular distance to the pivot (or center of gravity); a torque produces rotation the way a force produces translation. Week 8.",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Speed of Sound",
+      "url": "https://www.grc.nasa.gov/www/k-12/BGP/sound.html",
+      "description": "On a standard sea-level day sound travels about 1,100 feet per second (761 mph); speed depends on temperature. Week 3 (ultrasonic distance sensor).",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "4.4 Newton's Third Law of Motion, Physics (high school)",
+      "url": "https://openstax.org/books/physics/pages/4-4-newtons-third-law-of-motion",
+      "description": "Every force has an equal and opposite partner force on the other object. Week 7.",
+      "publisher": "OpenStax (Rice University) and Texas Education Agency",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "CC BY-NC-SA 4.0 (page footer, checked 2026-10-27; adapt with credit per D307 in a marked block)",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "10.6 Torque, University Physics Volume 1",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/10-6-torque",
+      "description": "Torque grows with the force and with the lever arm. Week 8 (teacher background; the lesson stays qualitative).",
+      "publisher": "OpenStax (Rice University)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "CC BY-NC-SA 4.0 (page footer, checked 2026-10-27; adapt with credit per D307 in a marked block)",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "MS-PS2-1 Motion and Stability: Forces and Interactions",
+      "url": "https://www.nextgenscience.org/pe/ms-ps2-1-motion-and-stability-forces-and-interactions",
+      "description": "Performance expectation: apply Newton's third law to design a solution to a problem involving the motion of two colliding objects. Weeks 7 and 11.",
+      "publisher": "NGSS (Achieve)",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "MS-ETS1-4 Engineering Design",
+      "url": "https://www.nextgenscience.org/pe/ms-ets1-4-engineering-design",
+      "description": "Performance expectation: develop a model to generate data for iterative testing and modification of a design. Weeks 5 and 11.",
+      "publisher": "NGSS (Achieve)",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Recreational Flyers & Community-Based Organizations",
+      "url": "https://www.faa.gov/uas/recreational_flyers",
+      "description": "Recreational rules under 49 USC 44809: fly only for fun; follow a recognized CBO's safety guidelines; keep the drone in visual line of sight; at or below 400 feet in Class G airspace; authorization in controlled airspace; pass TRUST; register and mark if required; Remote ID. Week 10.",
+      "publisher": "Federal Aviation Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "The Recreational UAS Safety Test (TRUST)",
+      "url": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates",
+      "description": "Recreational flyers must pass TRUST before flying; the online test is free through FAA-approved administrators; answers are correctable to 100 percent; keep the certificate. Week 10.",
+      "publisher": "Federal Aviation Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "How to Register Your Drone",
+      "url": "https://www.faa.gov/uas/getting_started/register_drone",
+      "description": "All drones must be registered except those 0.55 lb (250 g) or less flown under the recreational exception; the registrant must be 13 or older, so a younger owner needs someone 13 or older to register. Week 10.",
+      "publisher": "Federal Aviation Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Remote Identification of Drones",
+      "url": "https://www.faa.gov/uas/getting_started/remote_id",
+      "description": "Remote ID broadcasts a drone's identification and location; required for drones that must be registered; FRIAs. Week 10.",
+      "publisher": "Federal Aviation Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "B4UFLY",
+      "url": "https://www.faa.gov/uas/getting_started/b4ufly",
+      "description": "The FAA's B4UFLY service shows recreational flyers where they can and cannot fly. Week 10.",
+      "publisher": "Federal Aviation Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Educational Users",
+      "url": "https://www.faa.gov/uas/educational_users",
+      "description": "How drones flown for school are regulated (44809 or Part 107); schools below college level must be chartered by a recognized CBO to fly under 44809; schools can request a FRIA. Week 10 grown-up note.",
+      "publisher": "Federal Aviation Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "No Drone Zone",
+      "url": "https://www.faa.gov/uas/resources/community_engagement/no_drone_zone",
+      "description": "No Drone Zones, restricted airspace, local takeoff and landing limits, and Temporary Flight Restrictions (for example major sporting events). Week 10.",
+      "publisher": "Federal Aviation Administration",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Safety (AMA safety handbook)",
+      "url": "https://www.modelaircraft.org/safety",
+      "description": "The AMA safety handbook; the AMA is an FAA-recognized community-based organization and administers TRUST. Week 10 grown-up note.",
+      "publisher": "Academy of Model Aeronautics",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": "All rights reserved",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
     }
   ],
   "6th_8th_coding_cs": [
@@ -89946,6 +90289,165 @@
       ],
       "origin": "course SOURCES.md",
       "url_status": null
+    },
+    {
+      "title": "CSTA K-12 Computer Science Standards, Revised 2017 (all levels, with descriptive statements)",
+      "url": "https://csteachers.org/wp-content/uploads/2025/03/2017-csta-k12-computer-science-standards-al.pdf",
+      "description": "Level 2 text for 2-CS-01 to 2-CS-03 (devices, hardware and software that collect and exchange data, troubleshooting) and 2-AP-10 to 2-AP-17 (algorithms, control structures, decomposition, testing). Every week.",
+      "publisher": "Computer Science Teachers Association",
+      "kind": "standards_body",
+      "frameworks": [
+        "CSTA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "data-society-g9-12",
+        "intro-cs-g9-10",
+        "python-g11-12"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "What Is Robotics? (Grades 5-8)",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-robotics-grades-5-8/",
+      "description": "Robots are machines that do jobs; some work by themselves (autonomous), others need a person; rovers follow commands sent from Earth. Week 1.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Exploring Robotics, Unit D: Sensing and Decision Making (CISC 1003 lecture)",
+      "url": "http://www.sci.brooklyn.cuny.edu/~dzhu/cisc1003/lecD-VR.pdf",
+      "description": "Sensor types (touch, light, infrared, ultrasonic); ultrasonic distance comes from time of flight; sensors give signals that a program turns into decisions. Weeks 2 and 3.",
+      "publisher": "Brooklyn College, City University of New York",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Motion Sensors Explainer",
+      "url": "https://www.w3.org/TR/motion-sensors/",
+      "description": "Accelerometer and gyroscope: what each measures. Week 2 and week 8 (how a drone knows it is tilting).",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Mars 2020 Perseverance rover components",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "description": "The rover's Inertial Measurement Unit gives 3-axis motion data and tilt; six Hazard Avoidance Cameras spot rocks, trenches and dunes. Weeks 2 and 6. (Opened as mars.nasa.gov/mars2020/spacecraft/rover/autonav/, which redirects here.)",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Understanding Space, Chapter 4.3.1: Space Vehicle Control Systems",
+      "url": "https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/III.4.3.1_Space_Vehicle_Control_Systems.pdf",
+      "description": "Open-loop versus closed-loop (feedback) control; in a thermostat the thermometer is the sensor, the thermostat the controller, the furnace the actuator. Week 4. Do not reuse its 20 C (75 F) example: 20 C is 68 F.",
+      "publisher": "NASA Small Spacecraft Systems Virtual Institute (S3VI) knowledge base",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Ingenuity Landing Press Kit: Mission Spacecraft",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/ingenuity/landing/mission/spacecraft/",
+      "description": "Ingenuity: about 1.8 kg on Earth; four carbon-fiber blades in two 1.2 m counter-rotating rotors at about 2,400 rpm; a downward navigation camera; flights of up to 90 s and about 5 m up. Weeks 8 and 9.",
+      "publisher": "NASA Jet Propulsion Laboratory",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Advanced Air Mobility: The Science Behind Quadcopters, Reader Student Guide",
+      "url": "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf",
+      "description": "Propellers push air down and the air pushes the drone up (Newton's third law); total lift is the sum of four propellers; tilting the lift moves the drone sideways; two propellers spin clockwise and two counterclockwise so their torques cancel, and speeding one pair turns (yaws) the drone; the worked 4 N quadcopter rules. Weeks 7 and 8.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "Speed of Sound",
+      "url": "https://www.grc.nasa.gov/www/k-12/BGP/sound.html",
+      "description": "On a standard sea-level day sound travels about 1,100 feet per second (761 mph); speed depends on temperature. Week 3 (ultrasonic distance sensor).",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "robots-and-drones-g6-8"
+      ]
     }
   ],
   "6th_8th_ai_literacy": [
@@ -90832,6 +91334,21 @@
       "url_status": null
     },
     {
+      "title": "Roofline Performance Model",
+      "url": "https://docs.nersc.gov/tools/performance/roofline/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "National Energy Research Scientific Computing Center (NERSC, US Department of Energy, Lawrence Berkeley National Laboratory)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "ArrayList (Java Platform SE 8 API)",
       "url": "https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: python-g11-12.",
@@ -91285,6 +91802,21 @@
       "url_status": null
     },
     {
+      "title": "Introduction to Parallel Computing Tutorial",
+      "url": "https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "Lawrence Livermore National Laboratory (US Department of Energy), Livermore Computing",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Building Bar Graphs (NCES Kids' Zone, Create a Graph user manual)",
       "url": "https://nces.ed.gov/nceskids/help/user_guide/graph/bar.asp",
       "description": "Cited 1 time(s) in the SOURCES.md of: data-society-g9-12.",
@@ -91391,6 +91923,21 @@
       "url_status": null
     },
     {
+      "title": "ASCAC Subcommittee for the Top Ten Exascale Research Challenges, report (February 10, 2014)",
+      "url": "https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/20140210/Top10reportFEB14.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "US Department of Energy, Advanced Scientific Computing Advisory Committee",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Combining Data – A General Overview",
       "url": "https://www.census.gov/about/what/admin-data.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: data-society-g9-12.",
@@ -91436,6 +91983,21 @@
       "url_status": null
     },
     {
+      "title": "DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers (December 20, 2024)",
+      "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "US Department of Energy",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "1.3.5.1. Measures of Location (NIST/SEMATECH e-Handbook of Statistical Methods)",
       "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: data-society-g9-12.",
@@ -91449,6 +92011,487 @@
       ],
       "origin": "course SOURCES.md",
       "url_status": null
+    },
+    {
+      "title": "Metric (SI) Prefixes",
+      "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "US National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12",
+        "cells-systems-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RFC 791: Internet Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc791.html",
+      "description": "IPv4: every packet carries a source and a destination address; addresses are four octets (32 bits); routers forward datagrams hop by hop. Weeks 2 and 3.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 8200: Internet Protocol, Version 6 (IPv6) Specification",
+      "url": "https://www.rfc-editor.org/rfc/rfc8200.html",
+      "description": "IPv6 grows the address from 32 bits to 128 bits. Week 3 (address space, scalability).",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 1918: Address Allocation for Private Internets",
+      "url": "https://www.rfc-editor.org/rfc/rfc1918.html",
+      "description": "The three private address blocks (10/8, 172.16/12, 192.168/16) used inside home and school networks. Week 3.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 9293: Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "TCP gives reliable, ordered delivery using sequence numbers, acknowledgments and retransmission, and opens a connection with a three-way handshake. Week 4.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 768: User Datagram Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc768.html",
+      "description": "UDP sends messages \"with a minimum of protocol mechanism\"; delivery and ordering are not guaranteed. Week 4 (TCP versus UDP tradeoff).",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 4271: A Border Gateway Protocol 4 (BGP-4)",
+      "url": "https://www.rfc-editor.org/rfc/rfc4271.html",
+      "description": "BGP is the inter-Autonomous System routing protocol that networks use to exchange reachability. Week 6 (how ISPs connect).",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 1034: Domain Names, Concepts and Facilities",
+      "url": "https://www.rfc-editor.org/rfc/rfc1034.html",
+      "description": "DNS is a hierarchical, distributed name space; resolvers ask name servers and cache answers. Week 1 and week 5.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 9110: HTTP Semantics",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "description": "Requests, methods (GET), status codes (200, 404) and the http and https URI schemes. Week 1 and week 9.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 9111: HTTP Caching",
+      "url": "https://www.rfc-editor.org/rfc/rfc9111.html",
+      "description": "Caches store responses and reuse them to cut latency and load. Week 11 (scalability).",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "RFC 8446: The Transport Layer Security (TLS) Protocol Version 1.3",
+      "url": "https://www.rfc-editor.org/rfc/rfc8446.html",
+      "description": "TLS lets client and server talk \"in a way that is designed to prevent eavesdropping, tampering, and message forgery\"; the handshake authenticates the server and agrees on keys. Week 9 (HTTPS).",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Root Servers",
+      "url": "https://www.iana.org/domains/root/servers",
+      "description": "The DNS root zone is served by 13 named authorities (a to m.root-servers.net), each run on many servers, hundreds in all, in many countries. Week 5.",
+      "publisher": "IANA (Internet Assigned Numbers Authority)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Number Resources",
+      "url": "https://www.iana.org/numbers",
+      "description": "IANA allocates pools of unallocated IP addresses to the Regional Internet Registries (RIRs) and also manages Autonomous System Numbers. Weeks 3 and 6.",
+      "publisher": "IANA (Internet Assigned Numbers Authority)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "What Does ICANN Do?",
+      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "description": "Internet addresses must be unique; ICANN coordinates these unique identifiers worldwide. Week 5.",
+      "publisher": "ICANN",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "CS101 Networking (Introduction)",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Bandwidth in bits per second (100 megabits, 1 gigabit); bits on a wire travel at about 2/3 the speed of light. Weeks 2 and 7.",
+      "publisher": "Stanford University, CS101",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "CS101 The Internet",
+      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
+      "description": "The Internet runs on the free, open, vendor-neutral TCP/IP standards; packets cross many routers (hop counts from Stanford). Weeks 2, 3 and 6.",
+      "publisher": "Stanford University, CS101",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Submarine Cables",
+      "url": "https://www.noaa.gov/submarine-cables",
+      "description": "\"Over 95 percent of international data and voice transfers\" go through seafloor fiber optic cables, not satellites; cable treaties date from 1884. Week 7.",
+      "publisher": "NOAA Office of General Counsel",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g1-g2"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Catalog of Earth Satellite Orbits",
+      "url": "https://earthobservatory.nasa.gov/features/OrbitsCatalog",
+      "description": "Low, medium and high Earth orbit; geosynchronous orbit is 42,164 km from Earth's center (about 36,000 km up); semi-synchronous about 20,200 km up. Week 8 (satellite latency). The URL now redirects to science.nasa.gov.",
+      "publisher": "NASA Earth Observatory",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "c = 299 792 458 m/s (exact). The constant behind every latency figure (fiber, cable, satellite). Weeks 7 and 8.",
+      "publisher": "NIST Physical Measurement Laboratory",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Broadband Speed Guide",
+      "url": "https://www.fcc.gov/consumers/guides/broadband-speed-guide",
+      "description": "Minimum download speeds in Mbps per activity (browsing 1, HD video 5 to 8, 4K video 25); the FCC calls them rough guidelines. Week 6 (ISPs and the last mile).",
+      "publisher": "Federal Communications Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "FCC Opens 6 GHz Band to Wi-Fi and Other Unlicensed Uses (FCC-20-51)",
+      "url": "https://www.fcc.gov/document/fcc-opens-6-ghz-band-wi-fi-and-other-unlicensed-uses-0",
+      "description": "The 5.925 to 7.125 GHz band is open to unlicensed devices such as Wi-Fi (Report and Order, April 2020). Week 8 (Wi-Fi and cellular radio).",
+      "publisher": "Federal Communications Commission",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "NIST Special Publication 800-63B, Authentication and Authenticator Management",
+      "url": "https://pages.nist.gov/800-63-4/sp800-63b.html",
+      "description": "Authentication assurance levels; AAL2 needs two distinct factors; phishing-resistant authenticators. Week 10.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Phishing (Small Business Cybersecurity Corner)",
+      "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing",
+      "description": "Phishing uses convincing messages to trick people into opening harmful links or giving up credentials; warning signs such as urgency. Week 10.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "FIPS 197, Advanced Encryption Standard (AES)",
+      "url": "https://csrc.nist.gov/pubs/fips/197/final",
+      "description": "AES-128, AES-192 and AES-256 each encrypt 128-bit blocks; the number is the key length in bits. Week 9.",
+      "publisher": "NIST Computer Security Resource Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Cybersecurity Framework",
+      "url": "https://www.nist.gov/cyberframework",
+      "description": "The NIST Cybersecurity Framework (CSF 2.0) organizes security work into functions (Govern, Identify, Protect, Detect, Respond, Recover). Week 12 (security recommendations).",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Understanding Denial-of-Service Attacks",
+      "url": "https://www.cisa.gov/news-events/news/understanding-denial-service-attacks",
+      "description": "DoS floods a system with illegitimate traffic; DDoS uses many devices (botnets); symptoms and responses. Weeks 10 and 11 (3A-NI-05).",
+      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "More than a Password (multifactor authentication)",
+      "url": "https://www.cisa.gov/MFA",
+      "description": "MFA uses two or more of something you know, have or are; phishing-resistant MFA is strongest. Weeks 10 and 12 (3A-NI-06, 3A-NI-07).",
+      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Recognize and Report Phishing",
+      "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "description": "Signs of phishing (urgent language, requests for personal information, suspicious links) and what to do. Week 10.",
+      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "planned course design",
+      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
+    },
+    {
+      "title": "Internet History",
+      "url": "https://www.computerhistory.org/internethistory/",
+      "description": "Timeline from ARPA and the ARPANET to the Internet. Week 1 (why the Internet is built from packets). Text and images © Computer History Museum.",
+      "publisher": "Computer History Museum",
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": "All rights reserved (© Computer History Museum)",
+      "cited_by": [],
+      "origin": "planned course design",
+      "url_status": "200 on 2026-10-27",
+      "planned_for": [
+        "how-the-internet-reaches-you-g9-12"
+      ]
     }
   ],
   "9th_12th_ai_literacy": [
@@ -91499,6 +92542,36 @@
       "url_status": null
     },
     {
+      "title": "Roofline Performance Model",
+      "url": "https://docs.nersc.gov/tools/performance/roofline/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "National Energy Research Scientific Computing Center (NERSC, US Department of Energy, Lawrence Berkeley National Laboratory)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Introduction to Parallel Computing Tutorial",
+      "url": "https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "Lawrence Livermore National Laboratory (US Department of Energy), Livermore Computing",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1 (January 2023)",
       "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
@@ -91532,6 +92605,52 @@
         "ai-explorers-g6-8",
         "ai-explorers-k2",
         "applied-ai"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "ASCAC Subcommittee for the Top Ten Exascale Research Challenges, report (February 10, 2014)",
+      "url": "https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/20140210/Top10reportFEB14.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "US Department of Energy, Advanced Scientific Computing Advisory Committee",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers (December 20, 2024)",
+      "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "US Department of Energy",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Metric (SI) Prefixes",
+      "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
+      "publisher": "US National Institute of Standards and Technology",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12",
+        "cells-systems-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -91762,6 +92881,7 @@
       ],
       "standards": {
         "csta": [
+          "3A-CS-02",
           "3A-DA-12",
           "3A-IC-24",
           "3A-IC-25",
@@ -91777,14 +92897,24 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/ai-and-you-g9-12/SOURCES.md",
-      "cited_pages": 4,
+      "cited_pages": 11,
       "top_hosts": [
         "nvlpubs.nist.gov",
         "ai4k12.org",
-        "csteachers.org"
+        "csteachers.org",
+        "docs.nvidia.com",
+        "hpc.llnl.gov",
+        "cs231n.github.io",
+        "docs.nersc.gov",
+        "science.osti.gov"
       ],
-      "review_hosts": [],
-      "flags": []
+      "review_hosts": [
+        "cs231n.github.io",
+        "docs.nvidia.com"
+      ],
+      "flags": [
+        "Cites sites not yet judged authoritative (see review_hosts); replace or justify."
+      ]
     },
     "ai-explorers-g3-5": {
       "title": "AI Explorers Grades 3-5",
@@ -95155,5 +96285,35 @@
       "notes": "Turkish broadcaster archive; all rights reserved; not a fact source for our courses.",
       "checked": "2026-10-12"
     }
-  ]
+  ],
+  "_planned_courses": {
+    "how-the-internet-reaches-you-g9-12": {
+      "title": "How the Internet Reaches You",
+      "release": "2027-01-12",
+      "keys": [
+        "9th_12th_coding_cs"
+      ],
+      "design": "/mnt/project-files/releases/how-the-internet-reaches-you-g9-12/design.md",
+      "sources_listed": 28,
+      "new_entries": {
+        "9th_12th_coding_cs": 28
+      },
+      "review_hosts": []
+    },
+    "robots-and-drones-g6-8": {
+      "title": "Robots and Drones",
+      "release": "2027-02-09",
+      "keys": [
+        "6th_8th_coding_cs",
+        "6th_8th_science"
+      ],
+      "design": "/mnt/project-files/releases/robots-and-drones-g6-8/design.md",
+      "sources_listed": 26,
+      "new_entries": {
+        "6th_8th_coding_cs": 9,
+        "6th_8th_science": 21
+      },
+      "review_hosts": []
+    }
+  }
 }

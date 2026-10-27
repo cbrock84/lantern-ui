@@ -8228,8 +8228,10 @@
         "code-crew-g3",
         "code-crew-k",
         "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
         "intro-cs-g9-10",
-        "python-g11-12"
+        "python-g11-12",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -19249,8 +19251,10 @@
         "code-crew-g3",
         "code-crew-k",
         "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
         "intro-cs-g9-10",
-        "python-g11-12"
+        "python-g11-12",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -19343,6 +19347,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -19568,6 +19573,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -20322,6 +20328,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -20423,6 +20430,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2"
       ],
       "origin": "course SOURCES.md",
@@ -20899,6 +20907,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -21159,6 +21168,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -22245,6 +22255,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -22517,6 +22528,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2"
       ],
       "origin": "course SOURCES.md",
@@ -30021,8 +30033,10 @@
         "code-crew-g3",
         "code-crew-k",
         "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
         "intro-cs-g9-10",
-        "python-g11-12"
+        "python-g11-12",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -30115,6 +30129,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -30286,6 +30301,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -31001,6 +31017,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -31121,6 +31138,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2"
       ],
       "origin": "course SOURCES.md",
@@ -31567,6 +31585,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -31827,6 +31846,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -32913,6 +32933,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -33185,6 +33206,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2"
       ],
       "origin": "course SOURCES.md",
@@ -35826,6 +35848,22 @@
       "url_status": null
     },
     {
+      "title": "Your Heart & Circulatory System",
+      "url": "https://kidshealth.org/en/kids/heart.html",
+      "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Nemours KidsHealth",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Your Muscles",
       "url": "https://kidshealth.org/en/kids/muscles.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -35884,22 +35922,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Your Heart & Circulatory System",
-      "url": "https://kidshealth.org/en/kids/heart.html",
-      "description": "Cited 8 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "Nemours KidsHealth",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5",
-        "body-lab-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -36429,6 +36451,21 @@
       "url_status": null
     },
     {
+      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "NIH NHLBI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "YIP Rube Goldberg Machines, Lesson 2: Simple Machines (slides PDF)",
       "url": "https://www.unh.edu/leitzel-center/sites/default/files/media/2023-07/google-slides-yip-rgm-lesson-2_-simple-machines.pdf",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -36924,21 +36961,6 @@
       "url_status": null
     },
     {
-      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
-      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
-      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "NIH NHLBI",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Why Is Sleep Important?",
       "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important",
       "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -37311,6 +37333,23 @@
         "backyard-explorer-g3-5",
         "backyard-explorer-k2",
         "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse",
+      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "cells-systems-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -39460,8 +39499,8 @@
       "url_status": null
     },
     {
-      "title": "Pulse",
-      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "title": "Pulse Oximetry",
+      "url": "https://medlineplus.gov/lab-tests/pulse-oximetry/",
       "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
       "publisher": "MedlinePlus (U.S. National Library of Medicine)",
       "kind": "government",
@@ -39469,9 +39508,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-g3-5",
-        "cells-systems-g6-8",
-        "inside-the-machine-g3-g5"
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -39759,6 +39796,21 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Abay, T. Y. and Kyriacou, P. A. (2018), Photoplethysmography for blood volumes and oxygenation changes during intermittent vascular occlusions, Journal of Clinical Monitoring and Computing 32(3)",
+      "url": "https://openaccess.city.ac.uk/id/eprint/17521/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "City, University of London (City Research Online)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -42669,6 +42721,21 @@
       "url_status": null
     },
     {
+      "title": "Pulse Oximetry (Patient Information Series)",
+      "url": "https://www.thoracic.org/patients/patient-resources/resources/pulse-oximetry.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "American Thoracic Society",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "usgs.gov",
       "url": "https://www.usgs.gov/faqs/what-declination",
       "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
@@ -42840,6 +42907,21 @@
       ],
       "origin": "course SOURCES.md",
       "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry",
+      "url": "https://www.yalemedicine.org/conditions/pulse-oximetry",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Yale Medicine (Yale School of Medicine)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
     }
   ],
   "3rd_social_studies": [
@@ -42951,8 +43033,10 @@
         "code-crew-g3",
         "code-crew-k",
         "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
         "intro-cs-g9-10",
-        "python-g11-12"
+        "python-g11-12",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -43008,6 +43092,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43073,7 +43158,8 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -43155,6 +43241,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -43546,6 +43633,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43562,6 +43650,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -43578,7 +43667,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44040,6 +44130,21 @@
       "url_status": null
     },
     {
+      "title": "68.54 Loudspeaker (lecture demonstrations)",
+      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "University of California, Santa Barbara, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS111 Operating Systems Principles, Lecture 16 (virtual memory)",
       "url": "https://web.stanford.edu/class/archive/cs/cs111/cs111.1266/lectures/16/Lecture16.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -44082,6 +44187,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -44221,6 +44327,22 @@
       "license": null,
       "cited_by": [
         "code-crew-g3"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.1 Microphone",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -44664,6 +44786,21 @@
       "url_status": null
     },
     {
+      "title": "17.5 Sound Interference and Resonance: Standing Waves in Air Columns, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax (Rice University)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
       "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -44721,6 +44858,7 @@
       "cited_by": [
         "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -44736,6 +44874,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -44855,21 +44994,6 @@
       "url": "https://van.physics.illinois.edu/ask/listing/2277",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "68.54 Loudspeaker (lecture demonstrations)",
-      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of California, Santa Barbara, Department of Physics",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
@@ -45176,22 +45300,6 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "IT: Information, 4.2.1 Microphone",
-      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University (OpenLearn)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -45643,6 +45751,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -45691,7 +45800,8 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -45777,6 +45887,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -46144,6 +46255,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -46205,6 +46317,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -46236,7 +46349,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -47040,6 +47154,21 @@
       "url_status": null
     },
     {
+      "title": "68.54 Loudspeaker (lecture demonstrations)",
+      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "University of California, Santa Barbara, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS111 Operating Systems Principles, Lecture 16 (virtual memory)",
       "url": "https://web.stanford.edu/class/archive/cs/cs111/cs111.1266/lectures/16/Lecture16.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -47080,6 +47209,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -47294,6 +47424,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.1 Microphone",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -47939,6 +48085,21 @@
       "url_status": null
     },
     {
+      "title": "17.5 Sound Interference and Resonance: Standing Waves in Air Columns, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax (Rice University)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
       "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -48056,6 +48217,7 @@
       "cited_by": [
         "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -48086,6 +48248,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -48300,21 +48463,6 @@
       "license": null,
       "cited_by": [
         "builders-lab"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "68.54 Loudspeaker (lecture demonstrations)",
-      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of California, Santa Barbara, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49043,22 +49191,6 @@
       "url_status": null
     },
     {
-      "title": "IT: Information, 4.2.1 Microphone",
-      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University (OpenLearn)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Why study electromagnetism? (door chime)",
       "url": "https://www.pa.uky.edu/sciworks/emmod/em/elemy.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -49403,6 +49535,22 @@
       "url_status": null
     },
     {
+      "title": "Your Heart & Circulatory System",
+      "url": "https://kidshealth.org/en/kids/heart.html",
+      "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Nemours KidsHealth",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Your Muscles",
       "url": "https://kidshealth.org/en/kids/muscles.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -49431,22 +49579,6 @@
         "body-lab-g3-5",
         "body-lab-k2",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Your Heart & Circulatory System",
-      "url": "https://kidshealth.org/en/kids/heart.html",
-      "description": "Cited 8 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "Nemours KidsHealth",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5",
-        "body-lab-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49580,6 +49712,21 @@
       "url_status": null
     },
     {
+      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "NIH NHLBI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Neuroscience for Kids: Touch Experiments",
       "url": "https://faculty.washington.edu/chudler/chtouch.html",
       "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -49638,21 +49785,6 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
-      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
-      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "NIH NHLBI",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49746,6 +49878,23 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse",
+      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "cells-systems-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -49930,8 +50079,8 @@
       "url_status": null
     },
     {
-      "title": "Pulse",
-      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "title": "Pulse Oximetry",
+      "url": "https://medlineplus.gov/lab-tests/pulse-oximetry/",
       "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
       "publisher": "MedlinePlus (U.S. National Library of Medicine)",
       "kind": "government",
@@ -49939,9 +50088,22 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-g3-5",
-        "cells-systems-g6-8",
-        "inside-the-machine-g3-g5"
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Abay, T. Y. and Kyriacou, P. A. (2018), Photoplethysmography for blood volumes and oxygenation changes during intermittent vascular occlusions, Journal of Clinical Monitoring and Computing 32(3)",
+      "url": "https://openaccess.city.ac.uk/id/eprint/17521/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "City, University of London (City Research Online)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50203,6 +50365,36 @@
       "cited_by": [
         "body-lab-g3-5",
         "science-launch-g4"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry (Patient Information Series)",
+      "url": "https://www.thoracic.org/patients/patient-resources/resources/pulse-oximetry.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "American Thoracic Society",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry",
+      "url": "https://www.yalemedicine.org/conditions/pulse-oximetry",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Yale Medicine (Yale School of Medicine)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -52367,6 +52559,22 @@
       "url_status": null
     },
     {
+      "title": "Your Heart & Circulatory System",
+      "url": "https://kidshealth.org/en/kids/heart.html",
+      "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Nemours KidsHealth",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Your Muscles",
       "url": "https://kidshealth.org/en/kids/muscles.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -52425,22 +52633,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Your Heart & Circulatory System",
-      "url": "https://kidshealth.org/en/kids/heart.html",
-      "description": "Cited 8 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "Nemours KidsHealth",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5",
-        "body-lab-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -52985,6 +53177,21 @@
       "url_status": null
     },
     {
+      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "NIH NHLBI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "YIP Rube Goldberg Machines, Lesson 2: Simple Machines (slides PDF)",
       "url": "https://www.unh.edu/leitzel-center/sites/default/files/media/2023-07/google-slides-yip-rgm-lesson-2_-simple-machines.pdf",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -53444,21 +53651,6 @@
       "url_status": null
     },
     {
-      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
-      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
-      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "NIH NHLBI",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "How the Lungs Work: What Breathing Does for the Body",
       "url": "https://www.nhlbi.nih.gov/health/lungs/breathing-benefits",
       "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5, science-launch-g4.",
@@ -53798,6 +53990,23 @@
         "backyard-explorer-g3-5",
         "backyard-explorer-k2",
         "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse",
+      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "cells-systems-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -55944,8 +56153,8 @@
       "url_status": null
     },
     {
-      "title": "Pulse",
-      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "title": "Pulse Oximetry",
+      "url": "https://medlineplus.gov/lab-tests/pulse-oximetry/",
       "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
       "publisher": "MedlinePlus (U.S. National Library of Medicine)",
       "kind": "government",
@@ -55953,9 +56162,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-g3-5",
-        "cells-systems-g6-8",
-        "inside-the-machine-g3-g5"
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -56228,6 +56435,21 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Abay, T. Y. and Kyriacou, P. A. (2018), Photoplethysmography for blood volumes and oxygenation changes during intermittent vascular occlusions, Journal of Clinical Monitoring and Computing 32(3)",
+      "url": "https://openaccess.city.ac.uk/id/eprint/17521/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "City, University of London (City Research Online)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -56558,6 +56780,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "science-launch-g4"
       ],
       "origin": "course SOURCES.md",
@@ -59094,6 +59317,21 @@
       "url_status": null
     },
     {
+      "title": "Pulse Oximetry (Patient Information Series)",
+      "url": "https://www.thoracic.org/patients/patient-resources/resources/pulse-oximetry.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "American Thoracic Society",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Tsunami FAQ",
       "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
       "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-g4.",
@@ -59292,6 +59530,21 @@
       ],
       "origin": "course SOURCES.md",
       "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry",
+      "url": "https://www.yalemedicine.org/conditions/pulse-oximetry",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Yale Medicine (Yale School of Medicine)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
     }
   ],
   "4th_social_studies": [
@@ -59436,6 +59689,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -59484,7 +59738,8 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59566,6 +59821,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -59906,6 +60162,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -59922,6 +60179,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -59938,7 +60196,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -60427,6 +60686,21 @@
       "url_status": null
     },
     {
+      "title": "68.54 Loudspeaker (lecture demonstrations)",
+      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "University of California, Santa Barbara, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS111 Operating Systems Principles, Lecture 16 (virtual memory)",
       "url": "https://web.stanford.edu/class/archive/cs/cs111/cs111.1266/lectures/16/Lecture16.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -60452,6 +60726,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -60575,6 +60850,22 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.1 Microphone",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -61073,6 +61364,21 @@
       "url_status": null
     },
     {
+      "title": "17.5 Sound Interference and Resonance: Standing Waves in Air Columns, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax (Rice University)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
       "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -61130,6 +61436,7 @@
       "cited_by": [
         "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -61145,6 +61452,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -61287,21 +61595,6 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "68.54 Loudspeaker (lecture demonstrations)",
-      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of California, Santa Barbara, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -61587,22 +61880,6 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "IT: Information, 4.2.1 Microphone",
-      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University (OpenLearn)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -62053,6 +62330,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -62101,7 +62379,8 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -62187,6 +62466,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -62554,6 +62834,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -62615,6 +62896,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -62646,7 +62928,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -63450,6 +63733,21 @@
       "url_status": null
     },
     {
+      "title": "68.54 Loudspeaker (lecture demonstrations)",
+      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "University of California, Santa Barbara, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS111 Operating Systems Principles, Lecture 16 (virtual memory)",
       "url": "https://web.stanford.edu/class/archive/cs/cs111/cs111.1266/lectures/16/Lecture16.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -63490,6 +63788,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -63704,6 +64003,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.1 Microphone",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64349,6 +64664,21 @@
       "url_status": null
     },
     {
+      "title": "17.5 Sound Interference and Resonance: Standing Waves in Air Columns, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax (Rice University)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
       "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -64466,6 +64796,7 @@
       "cited_by": [
         "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -64496,6 +64827,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -64710,21 +65042,6 @@
       "license": null,
       "cited_by": [
         "builders-lab"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "68.54 Loudspeaker (lecture demonstrations)",
-      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of California, Santa Barbara, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -65453,22 +65770,6 @@
       "url_status": null
     },
     {
-      "title": "IT: Information, 4.2.1 Microphone",
-      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University (OpenLearn)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Why study electromagnetism? (door chime)",
       "url": "https://www.pa.uky.edu/sciworks/emmod/em/elemy.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -65813,6 +66114,22 @@
       "url_status": null
     },
     {
+      "title": "Your Heart & Circulatory System",
+      "url": "https://kidshealth.org/en/kids/heart.html",
+      "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Nemours KidsHealth",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Your Muscles",
       "url": "https://kidshealth.org/en/kids/muscles.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -65841,22 +66158,6 @@
         "body-lab-g3-5",
         "body-lab-k2",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Your Heart & Circulatory System",
-      "url": "https://kidshealth.org/en/kids/heart.html",
-      "description": "Cited 8 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "Nemours KidsHealth",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5",
-        "body-lab-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -65990,6 +66291,21 @@
       "url_status": null
     },
     {
+      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "NIH NHLBI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Neuroscience for Kids: Touch Experiments",
       "url": "https://faculty.washington.edu/chudler/chtouch.html",
       "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -66048,21 +66364,6 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
-      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
-      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "NIH NHLBI",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -66156,6 +66457,23 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse",
+      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "cells-systems-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -66340,8 +66658,8 @@
       "url_status": null
     },
     {
-      "title": "Pulse",
-      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "title": "Pulse Oximetry",
+      "url": "https://medlineplus.gov/lab-tests/pulse-oximetry/",
       "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
       "publisher": "MedlinePlus (U.S. National Library of Medicine)",
       "kind": "government",
@@ -66349,9 +66667,22 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-g3-5",
-        "cells-systems-g6-8",
-        "inside-the-machine-g3-g5"
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Abay, T. Y. and Kyriacou, P. A. (2018), Photoplethysmography for blood volumes and oxygenation changes during intermittent vascular occlusions, Journal of Clinical Monitoring and Computing 32(3)",
+      "url": "https://openaccess.city.ac.uk/id/eprint/17521/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "City, University of London (City Research Online)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -66613,6 +66944,36 @@
       "cited_by": [
         "body-lab-g3-5",
         "science-launch-g4"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry (Patient Information Series)",
+      "url": "https://www.thoracic.org/patients/patient-resources/resources/pulse-oximetry.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "American Thoracic Society",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry",
+      "url": "https://www.yalemedicine.org/conditions/pulse-oximetry",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Yale Medicine (Yale School of Medicine)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -68826,6 +69187,22 @@
       "url_status": null
     },
     {
+      "title": "Your Heart & Circulatory System",
+      "url": "https://kidshealth.org/en/kids/heart.html",
+      "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Nemours KidsHealth",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Your Muscles",
       "url": "https://kidshealth.org/en/kids/muscles.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -68884,22 +69261,6 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Your Heart & Circulatory System",
-      "url": "https://kidshealth.org/en/kids/heart.html",
-      "description": "Cited 8 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "Nemours KidsHealth",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5",
-        "body-lab-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -69446,6 +69807,21 @@
       "url_status": null
     },
     {
+      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "NIH NHLBI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "YIP Rube Goldberg Machines, Lesson 2: Simple Machines (slides PDF)",
       "url": "https://www.unh.edu/leitzel-center/sites/default/files/media/2023-07/google-slides-yip-rgm-lesson-2_-simple-machines.pdf",
       "description": "Cited 4 time(s) in the SOURCES.md of: everyday-machines.",
@@ -69924,21 +70300,6 @@
       "url_status": null
     },
     {
-      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
-      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
-      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "NIH NHLBI",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Why Is Sleep Important?",
       "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important",
       "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -70277,6 +70638,23 @@
         "backyard-explorer-g3-5",
         "backyard-explorer-k2",
         "home-helpers-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse",
+      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "cells-systems-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -72366,8 +72744,8 @@
       "url_status": null
     },
     {
-      "title": "Pulse",
-      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "title": "Pulse Oximetry",
+      "url": "https://medlineplus.gov/lab-tests/pulse-oximetry/",
       "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
       "publisher": "MedlinePlus (U.S. National Library of Medicine)",
       "kind": "government",
@@ -72375,9 +72753,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-g3-5",
-        "cells-systems-g6-8",
-        "inside-the-machine-g3-g5"
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -72559,6 +72935,21 @@
       "license": null,
       "cited_by": [
         "backyard-explorer-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Abay, T. Y. and Kyriacou, P. A. (2018), Photoplethysmography for blood volumes and oxygenation changes during intermittent vascular occlusions, Journal of Clinical Monitoring and Computing 32(3)",
+      "url": "https://openaccess.city.ac.uk/id/eprint/17521/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "City, University of London (City Research Online)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75267,6 +75658,21 @@
       "url_status": null
     },
     {
+      "title": "Pulse Oximetry (Patient Information Series)",
+      "url": "https://www.thoracic.org/patients/patient-resources/resources/pulse-oximetry.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "American Thoracic Society",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "usgs.gov",
       "url": "https://www.usgs.gov/faqs/what-declination",
       "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
@@ -75341,6 +75747,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry",
+      "url": "https://www.yalemedicine.org/conditions/pulse-oximetry",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Yale Medicine (Yale School of Medicine)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75503,6 +75924,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -75551,7 +75973,8 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -75633,6 +76056,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -75949,6 +76373,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -75985,6 +76410,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -76001,7 +76427,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -76537,6 +76964,21 @@
       "url_status": null
     },
     {
+      "title": "68.54 Loudspeaker (lecture demonstrations)",
+      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "University of California, Santa Barbara, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS111 Operating Systems Principles, Lecture 16 (virtual memory)",
       "url": "https://web.stanford.edu/class/archive/cs/cs111/cs111.1266/lectures/16/Lecture16.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -76562,6 +77004,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -76685,6 +77128,22 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.1 Microphone",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -77185,6 +77644,21 @@
       "url_status": null
     },
     {
+      "title": "17.5 Sound Interference and Resonance: Standing Waves in Air Columns, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax (Rice University)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "14.1 Speed of Sound, Frequency, and Wavelength (Physics)",
       "url": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -77242,6 +77716,7 @@
       "cited_by": [
         "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -77257,6 +77732,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -77376,21 +77852,6 @@
       "url": "https://van.physics.illinois.edu/ask/listing/2277",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
       "publisher": "University of Illinois Urbana-Champaign, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "68.54 Loudspeaker (lecture demonstrations)",
-      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of California, Santa Barbara, Department of Physics",
       "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
@@ -77682,22 +78143,6 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "IT: Information, 4.2.1 Microphone",
-      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University (OpenLearn)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -78148,6 +78593,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -78196,7 +78642,8 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -78282,6 +78729,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -78649,6 +79097,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -78710,6 +79159,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
       ],
@@ -78741,7 +79191,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -79545,6 +79996,21 @@
       "url_status": null
     },
     {
+      "title": "68.54 Loudspeaker (lecture demonstrations)",
+      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "University of California, Santa Barbara, Department of Physics",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS111 Operating Systems Principles, Lecture 16 (virtual memory)",
       "url": "https://web.stanford.edu/class/archive/cs/cs111/cs111.1266/lectures/16/Lecture16.pdf",
       "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -79585,6 +80051,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -79799,6 +80266,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "IT: Information, 4.2.1 Microphone",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "The Open University (OpenLearn)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -80444,6 +80927,21 @@
       "url_status": null
     },
     {
+      "title": "17.5 Sound Interference and Resonance: Standing Waves in Air Columns, College Physics 2e",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
+      "publisher": "OpenStax (Rice University)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "2.5 Motion Equations for Constant Acceleration in One Dimension, College Physics 2e",
       "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
@@ -80561,6 +81059,7 @@
       "cited_by": [
         "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -80591,6 +81090,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
@@ -80805,21 +81305,6 @@
       "license": null,
       "cited_by": [
         "builders-lab"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "68.54 Loudspeaker (lecture demonstrations)",
-      "url": "https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/68.54.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "University of California, Santa Barbara, Department of Physics",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -81548,22 +82033,6 @@
       "url_status": null
     },
     {
-      "title": "IT: Information, 4.2.1 Microphone",
-      "url": "https://www.open.edu/openlearn/science-maths-technology/it-information/content-section-4.2.1",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
-      "publisher": "The Open University (OpenLearn)",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Why study electromagnetism? (door chime)",
       "url": "https://www.pa.uky.edu/sciworks/emmod/em/elemy.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-machine-g3-g5.",
@@ -81908,6 +82377,22 @@
       "url_status": null
     },
     {
+      "title": "Your Heart & Circulatory System",
+      "url": "https://kidshealth.org/en/kids/heart.html",
+      "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Nemours KidsHealth",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Your Muscles",
       "url": "https://kidshealth.org/en/kids/muscles.html",
       "description": "Cited 9 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -81936,22 +82421,6 @@
         "body-lab-g3-5",
         "body-lab-k2",
         "tomorrow-trail-k1"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Your Heart & Circulatory System",
-      "url": "https://kidshealth.org/en/kids/heart.html",
-      "description": "Cited 8 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "Nemours KidsHealth",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5",
-        "body-lab-k2"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -82085,6 +82554,21 @@
       "url_status": null
     },
     {
+      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "description": "Cited 4 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "NIH NHLBI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Neuroscience for Kids: Touch Experiments",
       "url": "https://faculty.washington.edu/chudler/chtouch.html",
       "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
@@ -82143,21 +82627,6 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "How the Heart Works: How Blood Flows through the Heart; How the Heart Beats",
-      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
-      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5.",
-      "publisher": "NIH NHLBI",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -82251,6 +82720,23 @@
       "cited_by": [
         "body-lab-g3-5",
         "body-lab-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse",
+      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5",
+        "cells-systems-g6-8",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -82435,8 +82921,8 @@
       "url_status": null
     },
     {
-      "title": "Pulse",
-      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "title": "Pulse Oximetry",
+      "url": "https://medlineplus.gov/lab-tests/pulse-oximetry/",
       "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
       "publisher": "MedlinePlus (U.S. National Library of Medicine)",
       "kind": "government",
@@ -82444,9 +82930,22 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "body-lab-g3-5",
-        "cells-systems-g6-8",
-        "inside-the-machine-g3-g5"
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Abay, T. Y. and Kyriacou, P. A. (2018), Photoplethysmography for blood volumes and oxygenation changes during intermittent vascular occlusions, Journal of Clinical Monitoring and Computing 32(3)",
+      "url": "https://openaccess.city.ac.uk/id/eprint/17521/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "City, University of London (City Research Online)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -82708,6 +83207,36 @@
       "cited_by": [
         "body-lab-g3-5",
         "science-launch-g4"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry (Patient Information Series)",
+      "url": "https://www.thoracic.org/patients/patient-resources/resources/pulse-oximetry.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "American Thoracic Society",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Pulse Oximetry",
+      "url": "https://www.yalemedicine.org/conditions/pulse-oximetry",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Yale Medicine (Yale School of Medicine)",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "body-lab-g3-5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -84512,7 +85041,7 @@
     {
       "title": "PS2.A: Forces and Motion, MS-PS2 DCI arrangement",
       "url": "https://www.nextgenscience.org/dci-arrangement/ms-ps2-motion-and-stability-forces-and-interactions",
-      "description": "Cited 19 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "description": "Cited 20 time(s) in the SOURCES.md of: robots-and-drones-g6-8, sports-physics-g6-8.",
       "publisher": "NGSS (Next Generation Science Standards)",
       "kind": "standards_body",
       "frameworks": [
@@ -84521,6 +85050,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -84546,7 +85076,7 @@
     {
       "title": "MS-ETS1 Engineering Design (DCI arrangement)",
       "url": "https://www.nextgenscience.org/dci-arrangement/ms-ets1-engineering-design",
-      "description": "Cited 9 time(s) in the SOURCES.md of: cells-systems-g6-8, earth-space-g6-8, matter-lab-g6-8, sports-physics-g6-8.",
+      "description": "Cited 10 time(s) in the SOURCES.md of: cells-systems-g6-8, earth-space-g6-8, matter-lab-g6-8, robots-and-drones-g6-8, sports-physics-g6-8.",
       "publisher": "NGSS Lead States, nextgenscience.org",
       "kind": "standards_body",
       "frameworks": [
@@ -84558,6 +85088,7 @@
         "cells-systems-g6-8",
         "earth-space-g6-8",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -84702,6 +85233,32 @@
       "url_status": null
     },
     {
+      "title": "CSTA K-12 Computer Science Standards, Revised 2017 (all levels, with descriptive statements)",
+      "url": "https://csteachers.org/wp-content/uploads/2025/03/2017-csta-k12-computer-science-standards-al.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "Computer Science Teachers Association",
+      "kind": "standards_body",
+      "frameworks": [
+        "CSTA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
+        "intro-cs-g9-10",
+        "python-g11-12",
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "ITF Rules of Tennis 2026, Appendix I: The Ball",
       "url": "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
@@ -84751,6 +85308,23 @@
       "url_status": null
     },
     {
+      "title": "Motion Sensors Explainer",
+      "url": "https://www.w3.org/TR/motion-sensors/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "2.1: Matter, Mass, and Volume (CK-12 Introductory Chemistry)",
       "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12",
       "description": "Cited 71 time(s) in the SOURCES.md of: matter-lab-g6-8.",
@@ -84768,7 +85342,7 @@
     {
       "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
       "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
-      "description": "Cited 44 time(s) in the SOURCES.md of: matter-lab-g6-8, sports-physics-g6-8.",
+      "description": "Cited 45 time(s) in the SOURCES.md of: matter-lab-g6-8, robots-and-drones-g6-8, sports-physics-g6-8.",
       "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
       "kind": "education_org",
       "frameworks": [],
@@ -84777,6 +85351,7 @@
       "cited_by": [
         "inside-the-machine-g3-g5",
         "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
         "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -85839,6 +86414,22 @@
       "url_status": null
     },
     {
+      "title": "Advanced Air Mobility: The Science Behind Quadcopters, Reader Student Guide",
+      "url": "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: robots-and-drones-g6-8, sports-physics-g6-8.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "Generally not copyrighted (NASA Media Usage Guidelines)",
+      "cited_by": [
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "JetStream: Global Atmospheric Circulations",
       "url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
       "description": "Cited 2 time(s) in the SOURCES.md of: weather-lab-g6-8.",
@@ -86016,6 +86607,22 @@
       "license": null,
       "cited_by": [
         "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Exploring Robotics, Unit D: Sensing and Decision Making (CISC 1003 lecture notes)",
+      "url": "http://www.sci.brooklyn.cuny.edu/~dzhu/cisc1003/lecD-VR.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "Brooklyn College, City University of New York, Department of Computer and Information Science",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -87019,6 +87626,21 @@
       "url_status": null
     },
     {
+      "title": "openstax.org",
+      "url": "https://openstax.org/books/physics/pages/4-4-newtons-third-law-of-motion",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "7.2 Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity, Physics (high school)",
       "url": "https://openstax.org/books/physics/pages/7-2-newtons-law-of-universal-gravitation-and-einsteins-theory-of-general-relativity",
       "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
@@ -87274,6 +87896,21 @@
       "url_status": null
     },
     {
+      "title": "s3vi.ndc.nasa.gov",
+      "url": "https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/III.4.3.1_Space_Vehicle_Control_Systems.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Climate (Learning Zone, Earth as a System)",
       "url": "https://scied.ucar.edu/learning-zone/how-climate-works/climate",
       "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
@@ -87434,6 +88071,36 @@
       "license": null,
       "cited_by": [
         "earth-space-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "science.nasa.gov",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "science.nasa.gov",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -87893,6 +88560,111 @@
       "url_status": null
     },
     {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/educational_users",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/getting_started/b4ufly",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/getting_started/register_drone",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/getting_started/remote_id",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/recreational_flyers",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/resources/community_engagement/no_drone_zone",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Refrigerator Thermometers: Cold Facts about Food Safety (\"keep its temperature at 40 °F or below\"; \"the freezer should be at 0 °F\"; \"appliance thermometer\")",
       "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
       "description": "Cited 1 time(s) in the SOURCES.md of: matter-lab-g6-8.",
@@ -88000,6 +88772,21 @@
       "url_status": null
     },
     {
+      "title": "grc.nasa.gov",
+      "url": "https://www.grc.nasa.gov/www/k-12/BGP/sound.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Gas Density, Beginner's Guide to Aeronautics",
       "url": "https://www.grc.nasa.gov/www/k-12/airplane/fluden.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: matter-lab-g6-8.",
@@ -88030,6 +88817,36 @@
       "url_status": null
     },
     {
+      "title": "grc.nasa.gov",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/torque.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "jpl.nasa.gov",
+      "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "How to Do a Science Fair Project",
       "url": "https://www.jpl.nasa.gov/edu/teach/activity/how-to-do-a-science-fair-project/",
       "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
@@ -88042,6 +88859,36 @@
         "builders-lab",
         "everyday-machines",
         "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "jpl.nasa.gov",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/ingenuity/landing/mission/spacecraft/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "nasa.gov",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-robotics-grades-5-8/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "Generally not copyrighted (NASA Media Usage Guidelines)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -89224,6 +90071,21 @@
       "url_status": null
     },
     {
+      "title": "www1.grc.nasa.gov",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propeller-thrust/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Rocket Thrust, Beginner's Guide to Aeronautics",
       "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-thrust/",
       "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
@@ -89239,344 +90101,34 @@
       "url_status": null
     },
     {
-      "title": "Understanding Space, Chapter 4.3.1: Space Vehicle Control Systems",
-      "url": "https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/III.4.3.1_Space_Vehicle_Control_Systems.pdf",
-      "description": "Open-loop versus closed-loop (feedback) control; in a thermostat the thermometer is the sensor, the thermostat the controller, the furnace the actuator. Week 4. Do not reuse its 20 C (75 F) example: 20 C is 68 F.",
-      "publisher": "NASA Small Spacecraft Systems Virtual Institute (S3VI) knowledge base",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Ingenuity Landing Press Kit: Mission Spacecraft",
-      "url": "https://www.jpl.nasa.gov/news/press_kits/ingenuity/landing/mission/spacecraft/",
-      "description": "Ingenuity: about 1.8 kg on Earth; four carbon-fiber blades in two 1.2 m counter-rotating rotors at about 2,400 rpm; a downward navigation camera; flights of up to 90 s and about 5 m up. Weeks 8 and 9.",
-      "publisher": "NASA Jet Propulsion Laboratory",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Ingenuity Mars Helicopter",
-      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
-      "description": "First powered, controlled flight on another planet (April 19, 2021); 72 flights; last flight Jan. 18, 2024. Week 9.",
-      "publisher": "NASA Science",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Advanced Air Mobility: The Science Behind Quadcopters, Reader Student Guide",
-      "url": "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf",
-      "description": "Propellers push air down and the air pushes the drone up (Newton's third law); total lift is the sum of four propellers; tilting the lift moves the drone sideways; two propellers spin clockwise and two counterclockwise so their torques cancel, and speeding one pair turns (yaws) the drone; the worked 4 N quadcopter rules. Weeks 7 and 8.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "What is Lift?",
+      "title": "www1.grc.nasa.gov",
       "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-lift/",
-      "description": "Lift opposes weight; it comes from a solid turning a moving flow of air (Newton's third law); no motion, no lift. Week 7.",
-      "publisher": "NASA Glenn Research Center",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
+      "license": null,
+      "cited_by": [
         "robots-and-drones-g6-8"
-      ]
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
     },
     {
-      "title": "What is Thrust?",
+      "title": "www1.grc.nasa.gov",
       "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-thrust/",
-      "description": "Thrust is a mechanical force made by accelerating a mass of air or gas; it is a vector with size and direction. Week 7.",
-      "publisher": "NASA Glenn Research Center",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
+      "license": null,
+      "cited_by": [
         "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Propeller Thrust",
-      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propeller-thrust/",
-      "description": "The engine turns the propeller, which does work on the air, so pressure changes abruptly across the propeller disk; blades are twisted from hub to tip. Week 7 (qualitative only at this level).",
-      "publisher": "NASA Glenn Research Center",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Torque (Moment)",
-      "url": "https://www.grc.nasa.gov/www/k-12/airplane/torque.html",
-      "description": "Torque is the product of a force and its perpendicular distance to the pivot (or center of gravity); a torque produces rotation the way a force produces translation. Week 8.",
-      "publisher": "NASA Glenn Research Center",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Speed of Sound",
-      "url": "https://www.grc.nasa.gov/www/k-12/BGP/sound.html",
-      "description": "On a standard sea-level day sound travels about 1,100 feet per second (761 mph); speed depends on temperature. Week 3 (ultrasonic distance sensor).",
-      "publisher": "NASA Glenn Research Center",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "4.4 Newton's Third Law of Motion, Physics (high school)",
-      "url": "https://openstax.org/books/physics/pages/4-4-newtons-third-law-of-motion",
-      "description": "Every force has an equal and opposite partner force on the other object. Week 7.",
-      "publisher": "OpenStax (Rice University) and Texas Education Agency",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "CC BY-NC-SA 4.0 (page footer, checked 2026-10-27; adapt with credit per D307 in a marked block)",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "10.6 Torque, University Physics Volume 1",
-      "url": "https://openstax.org/books/university-physics-volume-1/pages/10-6-torque",
-      "description": "Torque grows with the force and with the lever arm. Week 8 (teacher background; the lesson stays qualitative).",
-      "publisher": "OpenStax (Rice University)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "CC BY-NC-SA 4.0 (page footer, checked 2026-10-27; adapt with credit per D307 in a marked block)",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "MS-PS2-1 Motion and Stability: Forces and Interactions",
-      "url": "https://www.nextgenscience.org/pe/ms-ps2-1-motion-and-stability-forces-and-interactions",
-      "description": "Performance expectation: apply Newton's third law to design a solution to a problem involving the motion of two colliding objects. Weeks 7 and 11.",
-      "publisher": "NGSS (Achieve)",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
       ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "MS-ETS1-4 Engineering Design",
-      "url": "https://www.nextgenscience.org/pe/ms-ets1-4-engineering-design",
-      "description": "Performance expectation: develop a model to generate data for iterative testing and modification of a design. Weeks 5 and 11.",
-      "publisher": "NGSS (Achieve)",
-      "kind": "standards_body",
-      "frameworks": [
-        "NGSS"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Recreational Flyers & Community-Based Organizations",
-      "url": "https://www.faa.gov/uas/recreational_flyers",
-      "description": "Recreational rules under 49 USC 44809: fly only for fun; follow a recognized CBO's safety guidelines; keep the drone in visual line of sight; at or below 400 feet in Class G airspace; authorization in controlled airspace; pass TRUST; register and mark if required; Remote ID. Week 10.",
-      "publisher": "Federal Aviation Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "The Recreational UAS Safety Test (TRUST)",
-      "url": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates",
-      "description": "Recreational flyers must pass TRUST before flying; the online test is free through FAA-approved administrators; answers are correctable to 100 percent; keep the certificate. Week 10.",
-      "publisher": "Federal Aviation Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "How to Register Your Drone",
-      "url": "https://www.faa.gov/uas/getting_started/register_drone",
-      "description": "All drones must be registered except those 0.55 lb (250 g) or less flown under the recreational exception; the registrant must be 13 or older, so a younger owner needs someone 13 or older to register. Week 10.",
-      "publisher": "Federal Aviation Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Remote Identification of Drones",
-      "url": "https://www.faa.gov/uas/getting_started/remote_id",
-      "description": "Remote ID broadcasts a drone's identification and location; required for drones that must be registered; FRIAs. Week 10.",
-      "publisher": "Federal Aviation Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "B4UFLY",
-      "url": "https://www.faa.gov/uas/getting_started/b4ufly",
-      "description": "The FAA's B4UFLY service shows recreational flyers where they can and cannot fly. Week 10.",
-      "publisher": "Federal Aviation Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Educational Users",
-      "url": "https://www.faa.gov/uas/educational_users",
-      "description": "How drones flown for school are regulated (44809 or Part 107); schools below college level must be chartered by a recognized CBO to fly under 44809; schools can request a FRIA. Week 10 grown-up note.",
-      "publisher": "Federal Aviation Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "No Drone Zone",
-      "url": "https://www.faa.gov/uas/resources/community_engagement/no_drone_zone",
-      "description": "No Drone Zones, restricted airspace, local takeoff and landing limits, and Temporary Flight Restrictions (for example major sporting events). Week 10.",
-      "publisher": "Federal Aviation Administration",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Safety (AMA safety handbook)",
-      "url": "https://www.modelaircraft.org/safety",
-      "description": "The AMA safety handbook; the AMA is an FAA-recognized community-based organization and administers TRUST. Week 10 grown-up note.",
-      "publisher": "Academy of Model Aeronautics",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "link_only",
-      "license": "All rights reserved",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
+      "origin": "course SOURCES.md",
+      "url_status": null
     }
   ],
   "6th_8th_coding_cs": [
@@ -89593,6 +90145,23 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Motion Sensors Explainer",
+      "url": "https://www.w3.org/TR/motion-sensors/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8, robots-and-drones-g6-8.",
+      "publisher": "W3C",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -89641,6 +90210,71 @@
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5",
         "intro-cs-g9-10"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CSTA K-12 Computer Science Standards, Revised 2017 (all levels, with descriptive statements)",
+      "url": "https://csteachers.org/wp-content/uploads/2025/03/2017-csta-k12-computer-science-standards-al.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "Computer Science Teachers Association",
+      "kind": "standards_body",
+      "frameworks": [
+        "CSTA"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ai-and-you-g9-12",
+        "code-crew-g1",
+        "code-crew-g2",
+        "code-crew-g3",
+        "code-crew-k",
+        "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
+        "intro-cs-g9-10",
+        "python-g11-12",
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "MS-ETS1 Engineering Design (DCI arrangement)",
+      "url": "https://www.nextgenscience.org/dci-arrangement/ms-ets1-engineering-design",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "NGSS Lead States, nextgenscience.org",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "PS2.A: Forces and Motion, MS-PS2 DCI arrangement",
+      "url": "https://www.nextgenscience.org/dci-arrangement/ms-ps2-motion-and-stability-forces-and-interactions",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "NGSS (Next Generation Science Standards)",
+      "kind": "standards_body",
+      "frameworks": [
+        "NGSS"
+      ],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -89721,22 +90355,6 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Motion Sensors Explainer",
-      "url": "https://www.w3.org/TR/motion-sensors/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
-      "publisher": "W3C",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-gadget-g6-8",
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -90330,6 +90948,22 @@
       "url_status": null
     },
     {
+      "title": "Exploring Robotics, Unit D: Sensing and Decision Making (CISC 1003 lecture notes)",
+      "url": "http://www.sci.brooklyn.cuny.edu/~dzhu/cisc1003/lecD-VR.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "Brooklyn College, City University of New York, Department of Computer and Information Science",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "How Does a Computer Store Images? (JES help)",
       "url": "https://cs.gordon.edu/courses/cps121/JES/auxHelp/Pictures_Images.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-explorers-g6-8.",
@@ -90633,6 +91267,21 @@
       "url_status": null
     },
     {
+      "title": "openstax.org",
+      "url": "https://openstax.org/books/physics/pages/4-4-newtons-third-law-of-motion",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Lecture 3: Transistors and Logic Gates (CS/ECE 252)",
       "url": "https://pages.cs.wisc.edu/~markhill/cs252/Fall2013/lectures/lec03_digital_logic.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
@@ -90643,6 +91292,24 @@
       "license": null,
       "cited_by": [
         "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
+      "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "inside-the-machine-g3-g5",
+        "matter-lab-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -90708,6 +91375,21 @@
       "url_status": null
     },
     {
+      "title": "s3vi.ndc.nasa.gov",
+      "url": "https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/III.4.3.1_Space_Vehicle_Control_Systems.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Introduction to the Electromagnetic Spectrum",
       "url": "https://science.nasa.gov/ems/01_intro/",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
@@ -90752,6 +91434,36 @@
         "code-crew-g1",
         "code-crew-k",
         "inside-the-gadget-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "science.nasa.gov",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "science.nasa.gov",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -90899,6 +91611,111 @@
       "url_status": null
     },
     {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/educational_users",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/getting_started/b4ufly",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/getting_started/register_drone",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/getting_started/remote_id",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/recreational_flyers",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "faa.gov",
+      "url": "https://www.faa.gov/uas/resources/community_engagement/no_drone_zone",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Wireless Devices and Health Concerns",
       "url": "https://www.fcc.gov/consumers/guides/wireless-devices-and-health-concerns",
       "description": "Cited 1 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
@@ -90926,6 +91743,97 @@
         "inside-the-gadget-g6-8",
         "inside-the-machine-g1-g2",
         "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "grc.nasa.gov",
+      "url": "https://www.grc.nasa.gov/www/k-12/BGP/sound.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "grc.nasa.gov",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/torque.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "jpl.nasa.gov",
+      "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "jpl.nasa.gov",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/ingenuity/landing/mission/spacecraft/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "nasa.gov",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-robotics-grades-5-8/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "Generally not copyrighted (NASA Media Usage Guidelines)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Advanced Air Mobility: The Science Behind Quadcopters, Reader Student Guide",
+      "url": "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "Generally not copyrighted (NASA Media Usage Guidelines)",
+      "cited_by": [
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -91025,145 +91933,49 @@
       "url_status": null
     },
     {
-      "title": "CSTA K-12 Computer Science Standards, Revised 2017 (all levels, with descriptive statements)",
-      "url": "https://csteachers.org/wp-content/uploads/2025/03/2017-csta-k12-computer-science-standards-al.pdf",
-      "description": "Level 2 text for 2-CS-01 to 2-CS-03 (devices, hardware and software that collect and exchange data, troubleshooting) and 2-AP-10 to 2-AP-17 (algorithms, control structures, decomposition, testing). Every week.",
-      "publisher": "Computer Science Teachers Association",
-      "kind": "standards_body",
-      "frameworks": [
-        "CSTA"
-      ],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "ai-and-you-g9-12",
-        "code-crew-g1",
-        "code-crew-g2",
-        "code-crew-g3",
-        "code-crew-k",
-        "data-society-g9-12",
-        "intro-cs-g9-10",
-        "python-g11-12"
-      ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "What Is Robotics? (Grades 5-8)",
-      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-robotics-grades-5-8/",
-      "description": "Robots are machines that do jobs; some work by themselves (autonomous), others need a person; rovers follow commands sent from Earth. Week 1.",
-      "publisher": "NASA",
+      "title": "www1.grc.nasa.gov",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propeller-thrust/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
       "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Exploring Robotics, Unit D: Sensing and Decision Making (CISC 1003 lecture)",
-      "url": "http://www.sci.brooklyn.cuny.edu/~dzhu/cisc1003/lecD-VR.pdf",
-      "description": "Sensor types (touch, light, infrared, ultrasonic); ultrasonic distance comes from time of flight; sensors give signals that a program turns into decisions. Weeks 2 and 3.",
-      "publisher": "Brooklyn College, City University of New York",
-      "kind": "university",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "inside-the-machine-g3-g5"
+        "robots-and-drones-g6-8"
       ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
+      "origin": "course SOURCES.md",
+      "url_status": null
     },
     {
-      "title": "Mars 2020 Perseverance rover components",
-      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
-      "description": "The rover's Inertial Measurement Unit gives 3-axis motion data and tilt; six Hazard Avoidance Cameras spot rocks, trenches and dunes. Weeks 2 and 6. (Opened as mars.nasa.gov/mars2020/spacecraft/rover/autonav/, which redirects here.)",
-      "publisher": "NASA Science",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Understanding Space, Chapter 4.3.1: Space Vehicle Control Systems",
-      "url": "https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/III.4.3.1_Space_Vehicle_Control_Systems.pdf",
-      "description": "Open-loop versus closed-loop (feedback) control; in a thermostat the thermometer is the sensor, the thermostat the controller, the furnace the actuator. Week 4. Do not reuse its 20 C (75 F) example: 20 C is 68 F.",
-      "publisher": "NASA Small Spacecraft Systems Virtual Institute (S3VI) knowledge base",
+      "title": "www1.grc.nasa.gov",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-lift/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
+      "cited_by": [
         "robots-and-drones-g6-8"
-      ]
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
     },
     {
-      "title": "Ingenuity Landing Press Kit: Mission Spacecraft",
-      "url": "https://www.jpl.nasa.gov/news/press_kits/ingenuity/landing/mission/spacecraft/",
-      "description": "Ingenuity: about 1.8 kg on Earth; four carbon-fiber blades in two 1.2 m counter-rotating rotors at about 2,400 rpm; a downward navigation camera; flights of up to 90 s and about 5 m up. Weeks 8 and 9.",
-      "publisher": "NASA Jet Propulsion Laboratory",
+      "title": "www1.grc.nasa.gov",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-thrust/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
+      "license": null,
+      "cited_by": [
         "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Advanced Air Mobility: The Science Behind Quadcopters, Reader Student Guide",
-      "url": "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf",
-      "description": "Propellers push air down and the air pushes the drone up (Newton's third law); total lift is the sum of four propellers; tilting the lift moves the drone sideways; two propellers spin clockwise and two counterclockwise so their torques cancel, and speeding one pair turns (yaws) the drone; the worked 4 N quadcopter rules. Weeks 7 and 8.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
-    },
-    {
-      "title": "Speed of Sound",
-      "url": "https://www.grc.nasa.gov/www/k-12/BGP/sound.html",
-      "description": "On a standard sea-level day sound travels about 1,100 feet per second (761 mph); speed depends on temperature. Week 3 (ultrasonic distance sensor).",
-      "publisher": "NASA Glenn Research Center",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "robots-and-drones-g6-8"
-      ]
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
     }
   ],
   "6th_8th_ai_literacy": [
@@ -91745,8 +92557,10 @@
         "code-crew-g3",
         "code-crew-k",
         "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
         "intro-cs-g9-10",
-        "python-g11-12"
+        "python-g11-12",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -91878,7 +92692,7 @@
     {
       "title": "CSTA K-12 Computer Science Standards, Revised 2017 (all levels, with descriptive statements)",
       "url": "https://csteachers.org/wp-content/uploads/2025/03/2017-csta-k12-computer-science-standards-al.pdf",
-      "description": "Cited 4 time(s) in the SOURCES.md of: ai-and-you-g9-12, data-society-g9-12, intro-cs-g9-10, python-g11-12.",
+      "description": "Cited 5 time(s) in the SOURCES.md of: ai-and-you-g9-12, data-society-g9-12, how-the-internet-reaches-you-g9-12, intro-cs-g9-10, python-g11-12.",
       "publisher": "Computer Science Teachers Association",
       "kind": "standards_body",
       "frameworks": [
@@ -91893,8 +92707,10 @@
         "code-crew-g3",
         "code-crew-k",
         "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
         "intro-cs-g9-10",
-        "python-g11-12"
+        "python-g11-12",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -92051,6 +92867,204 @@
       "url_status": null
     },
     {
+      "title": "iana.org",
+      "url": "https://www.iana.org/domains/root/servers",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "iana.org",
+      "url": "https://www.iana.org/numbers",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "What Does ICANN Do?",
+      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "ICANN",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc1034.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc1918.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc4271.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc768.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc791.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc8200.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc8446.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://www.rfc-editor.org/rfc/rfc9111.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "RFC 9293 Transmission Control Protocol (TCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "IETF (RFC Editor)",
+      "kind": "standards_body",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CS231n: Deep Learning for Computer Vision, Neural Networks Part 1: Setting up the Architecture",
       "url": "https://cs231n.github.io/neural-networks-1/",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
@@ -92061,6 +93075,66 @@
       "license": null,
       "cited_by": [
         "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "csrc.nist.gov",
+      "url": "https://csrc.nist.gov/pubs/fips/197/final",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "docs.fcc.gov",
+      "url": "https://docs.fcc.gov",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "docs.fcc.gov",
+      "url": "https://docs.fcc.gov/public/attachments/DOC-363945A1.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "docs.fcc.gov",
+      "url": "https://docs.fcc.gov/public/attachments/FCC-20-51A1.txt",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -92549,6 +93623,21 @@
       "url_status": null
     },
     {
+      "title": "earthobservatory.nasa.gov",
+      "url": "https://earthobservatory.nasa.gov/features/OrbitsCatalog",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Introduction to Parallel Computing Tutorial",
       "url": "https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
@@ -92609,6 +93698,21 @@
       "url_status": null
     },
     {
+      "title": "nvlpubs.nist.gov",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1 (January 2023)",
       "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
@@ -92647,6 +93751,37 @@
       "url_status": null
     },
     {
+      "title": "pages.nist.gov",
+      "url": "https://pages.nist.gov/800-63-4/sp800-63b.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CODATA Value: speed of light in vacuum",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "NIST",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "CSTA K-12 Computer Science Standards (revised 2017)",
       "url": "https://portal.ct.gov/-/media/sde/cte/csta-k12-computer-science-standards-revised-2017.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: intro-cs-g9-10.",
@@ -92671,6 +93806,22 @@
       "url_status": null
     },
     {
+      "title": "Anatomy of an Electromagnetic Wave",
+      "url": "https://science.nasa.gov/ems/02_anatomy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
+        "science-launch-g4"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "ASCAC Subcommittee for the Top Ten Exascale Research Challenges, report (February 10, 2014)",
       "url": "https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/20140210/Top10reportFEB14.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
@@ -92681,6 +93832,40 @@
       "license": null,
       "cited_by": [
         "ai-and-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 Networking",
+      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "CS101 The Internet",
+      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -92731,6 +93916,82 @@
       "url_status": null
     },
     {
+      "title": "cisa.gov",
+      "url": "https://www.cisa.gov/MFA",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "cisa.gov",
+      "url": "https://www.cisa.gov/news-events/news/understanding-denial-service-attacks",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Recognize and Report Phishing",
+      "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "CISA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "computerhistory.org",
+      "url": "https://www.computerhistory.org/internethistory/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "museum_library",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "cs.princeton.edu",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall24/cos109/18wireless.pdf",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers (December 20, 2024)",
       "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
       "description": "Cited 1 time(s) in the SOURCES.md of: ai-and-you-g9-12.",
@@ -92746,6 +94007,36 @@
       "url_status": null
     },
     {
+      "title": "fcc.gov",
+      "url": "https://www.fcc.gov/consumers/guides/broadband-speed-guide",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "fcc.gov",
+      "url": "https://www.fcc.gov/document/fcc-opens-6-ghz-band-wi-fi-and-other-unlicensed-uses-0",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "1.3.5.1. Measures of Location (NIST/SEMATECH e-Handbook of Statistical Methods)",
       "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
       "description": "Cited 1 time(s) in the SOURCES.md of: data-society-g9-12.",
@@ -92756,6 +94047,21 @@
       "license": null,
       "cited_by": [
         "data-society-g9-12"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "nist.gov",
+      "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": null,
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "how-the-internet-reaches-you-g9-12"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -92778,469 +94084,20 @@
       "url_status": null
     },
     {
-      "title": "RFC 791: Internet Protocol",
-      "url": "https://www.rfc-editor.org/rfc/rfc791.html",
-      "description": "IPv4: every packet carries a source and a destination address; addresses are four octets (32 bits); routers forward datagrams hop by hop. Weeks 2 and 3.",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 8200: Internet Protocol, Version 6 (IPv6) Specification",
-      "url": "https://www.rfc-editor.org/rfc/rfc8200.html",
-      "description": "IPv6 grows the address from 32 bits to 128 bits. Week 3 (address space, scalability).",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 1918: Address Allocation for Private Internets",
-      "url": "https://www.rfc-editor.org/rfc/rfc1918.html",
-      "description": "The three private address blocks (10/8, 172.16/12, 192.168/16) used inside home and school networks. Week 3.",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 9293: Transmission Control Protocol (TCP)",
-      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
-      "description": "TCP gives reliable, ordered delivery using sequence numbers, acknowledgments and retransmission, and opens a connection with a three-way handshake. Week 4.",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 768: User Datagram Protocol",
-      "url": "https://www.rfc-editor.org/rfc/rfc768.html",
-      "description": "UDP sends messages \"with a minimum of protocol mechanism\"; delivery and ordering are not guaranteed. Week 4 (TCP versus UDP tradeoff).",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 4271: A Border Gateway Protocol 4 (BGP-4)",
-      "url": "https://www.rfc-editor.org/rfc/rfc4271.html",
-      "description": "BGP is the inter-Autonomous System routing protocol that networks use to exchange reachability. Week 6 (how ISPs connect).",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 1034: Domain Names, Concepts and Facilities",
-      "url": "https://www.rfc-editor.org/rfc/rfc1034.html",
-      "description": "DNS is a hierarchical, distributed name space; resolvers ask name servers and cache answers. Week 1 and week 5.",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 9110: HTTP Semantics",
-      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
-      "description": "Requests, methods (GET), status codes (200, 404) and the http and https URI schemes. Week 1 and week 9.",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 9111: HTTP Caching",
-      "url": "https://www.rfc-editor.org/rfc/rfc9111.html",
-      "description": "Caches store responses and reuse them to cut latency and load. Week 11 (scalability).",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "RFC 8446: The Transport Layer Security (TLS) Protocol Version 1.3",
-      "url": "https://www.rfc-editor.org/rfc/rfc8446.html",
-      "description": "TLS lets client and server talk \"in a way that is designed to prevent eavesdropping, tampering, and message forgery\"; the handshake authenticates the server and agrees on keys. Week 9 (HTTPS).",
-      "publisher": "IETF (RFC Editor)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "IETF Trust and the document authors (RFC copyright notice); text may be quoted with credit, code components under the Revised BSD License",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Root Servers",
-      "url": "https://www.iana.org/domains/root/servers",
-      "description": "The DNS root zone is served by 13 named authorities (a to m.root-servers.net), each run on many servers, hundreds in all, in many countries. Week 5.",
-      "publisher": "IANA (Internet Assigned Numbers Authority)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Number Resources",
-      "url": "https://www.iana.org/numbers",
-      "description": "IANA allocates pools of unallocated IP addresses to the Regional Internet Registries (RIRs) and also manages Autonomous System Numbers. Weeks 3 and 6.",
-      "publisher": "IANA (Internet Assigned Numbers Authority)",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "What Does ICANN Do?",
-      "url": "https://www.icann.org/resources/pages/what-2012-02-25-en",
-      "description": "Internet addresses must be unique; ICANN coordinates these unique identifiers worldwide. Week 5.",
-      "publisher": "ICANN",
-      "kind": "standards_body",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "CS101 Networking (Introduction)",
-      "url": "https://web.stanford.edu/class/cs101/network-1-introduction.html",
-      "description": "Bandwidth in bits per second (100 megabits, 1 gigabit); bits on a wire travel at about 2/3 the speed of light. Weeks 2 and 7.",
-      "publisher": "Stanford University, CS101",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "CS101 The Internet",
-      "url": "https://web.stanford.edu/class/cs101/network-2-internet.html",
-      "description": "The Internet runs on the free, open, vendor-neutral TCP/IP standards; packets cross many routers (hop counts from Stanford). Weeks 2, 3 and 6.",
-      "publisher": "Stanford University, CS101",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
       "title": "Submarine Cables",
       "url": "https://www.noaa.gov/submarine-cables",
-      "description": "\"Over 95 percent of international data and voice transfers\" go through seafloor fiber optic cables, not satellites; cable treaties date from 1884. Week 7.",
-      "publisher": "NOAA Office of General Counsel",
+      "description": "Cited 1 time(s) in the SOURCES.md of: how-the-internet-reaches-you-g9-12.",
+      "publisher": "NOAA",
       "kind": "government",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "how-the-internet-reaches-you-g9-12",
         "inside-the-machine-g1-g2"
       ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Catalog of Earth Satellite Orbits",
-      "url": "https://earthobservatory.nasa.gov/features/OrbitsCatalog",
-      "description": "Low, medium and high Earth orbit; geosynchronous orbit is 42,164 km from Earth's center (about 36,000 km up); semi-synchronous about 20,200 km up. Week 8 (satellite latency). The URL now redirects to science.nasa.gov.",
-      "publisher": "NASA Earth Observatory",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "CODATA Value: speed of light in vacuum",
-      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
-      "description": "c = 299 792 458 m/s (exact). The constant behind every latency figure (fiber, cable, satellite). Weeks 7 and 8.",
-      "publisher": "NIST Physical Measurement Laboratory",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Broadband Speed Guide",
-      "url": "https://www.fcc.gov/consumers/guides/broadband-speed-guide",
-      "description": "Minimum download speeds in Mbps per activity (browsing 1, HD video 5 to 8, 4K video 25); the FCC calls them rough guidelines. Week 6 (ISPs and the last mile).",
-      "publisher": "Federal Communications Commission",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "FCC Opens 6 GHz Band to Wi-Fi and Other Unlicensed Uses (FCC-20-51)",
-      "url": "https://www.fcc.gov/document/fcc-opens-6-ghz-band-wi-fi-and-other-unlicensed-uses-0",
-      "description": "The 5.925 to 7.125 GHz band is open to unlicensed devices such as Wi-Fi (Report and Order, April 2020). Week 8 (Wi-Fi and cellular radio).",
-      "publisher": "Federal Communications Commission",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "NIST Special Publication 800-63B, Authentication and Authenticator Management",
-      "url": "https://pages.nist.gov/800-63-4/sp800-63b.html",
-      "description": "Authentication assurance levels; AAL2 needs two distinct factors; phishing-resistant authenticators. Week 10.",
-      "publisher": "NIST",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Phishing (Small Business Cybersecurity Corner)",
-      "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing",
-      "description": "Phishing uses convincing messages to trick people into opening harmful links or giving up credentials; warning signs such as urgency. Week 10.",
-      "publisher": "NIST",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "FIPS 197, Advanced Encryption Standard (AES)",
-      "url": "https://csrc.nist.gov/pubs/fips/197/final",
-      "description": "AES-128, AES-192 and AES-256 each encrypt 128-bit blocks; the number is the key length in bits. Week 9.",
-      "publisher": "NIST Computer Security Resource Center",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Cybersecurity Framework",
-      "url": "https://www.nist.gov/cyberframework",
-      "description": "The NIST Cybersecurity Framework (CSF 2.0) organizes security work into functions (Govern, Identify, Protect, Detect, Respond, Recover). Week 12 (security recommendations).",
-      "publisher": "NIST",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Understanding Denial-of-Service Attacks",
-      "url": "https://www.cisa.gov/news-events/news/understanding-denial-service-attacks",
-      "description": "DoS floods a system with illegitimate traffic; DDoS uses many devices (botnets); symptoms and responses. Weeks 10 and 11 (3A-NI-05).",
-      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "More than a Password (multifactor authentication)",
-      "url": "https://www.cisa.gov/MFA",
-      "description": "MFA uses two or more of something you know, have or are; phishing-resistant MFA is strongest. Weeks 10 and 12 (3A-NI-06, 3A-NI-07).",
-      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Recognize and Report Phishing",
-      "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
-      "description": "Signs of phishing (urgent language, requests for personal information, suspicious links) and what to do. Week 10.",
-      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "inside-the-machine-g3-g5"
-      ],
-      "origin": "planned course design",
-      "url_status": "403 to scripted checks on 2026-10-27 (site blocks automated checks); opened in a browser fetch the same day",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
-    },
-    {
-      "title": "Internet History",
-      "url": "https://www.computerhistory.org/internethistory/",
-      "description": "Timeline from ARPA and the ARPANET to the Internet. Week 1 (why the Internet is built from packets). Text and images © Computer History Museum.",
-      "publisher": "Computer History Museum",
-      "kind": "museum_library",
-      "frameworks": [],
-      "reuse": "link_only",
-      "license": "All rights reserved (© Computer History Museum)",
-      "cited_by": [],
-      "origin": "planned course design",
-      "url_status": "200 on 2026-10-27",
-      "planned_for": [
-        "how-the-internet-reaches-you-g9-12"
-      ]
+      "origin": "course SOURCES.md",
+      "url_status": null
     }
   ],
   "9th_12th_ai_literacy": [
@@ -93284,8 +94141,10 @@
         "code-crew-g3",
         "code-crew-k",
         "data-society-g9-12",
+        "how-the-internet-reaches-you-g9-12",
         "intro-cs-g9-10",
-        "python-g11-12"
+        "python-g11-12",
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -94140,7 +94999,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/body-lab-g3-5/SOURCES.md",
-      "cited_pages": 62,
+      "cited_pages": 66,
       "top_hosts": [
         "kidshealth.org",
         "nextgenscience.org",
@@ -94148,8 +95007,8 @@
         "training.seer.cancer.gov",
         "nidcd.nih.gov",
         "nei.nih.gov",
-        "faculty.washington.edu",
-        "cdc.gov"
+        "medlineplus.gov",
+        "faculty.washington.edu"
       ],
       "review_hosts": [],
       "flags": []
@@ -94980,6 +95839,40 @@
       "review_hosts": [],
       "flags": []
     },
+    "how-the-internet-reaches-you-g9-12": {
+      "title": "How the Internet Reaches You Grades 9 to 12",
+      "imprint": "rocket-and-raven",
+      "series": "code-crew",
+      "grade_band": "G9-12",
+      "subject": "coding",
+      "keys": [
+        "9th_12th_coding_cs"
+      ],
+      "standards": {
+        "csta": [
+          "3A-CS-02",
+          "3A-NI-04",
+          "3A-NI-05",
+          "3A-NI-06",
+          "3A-NI-07",
+          "3A-NI-08"
+        ]
+      },
+      "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/how-the-internet-reaches-you-g9-12/SOURCES.md",
+      "cited_pages": 34,
+      "top_hosts": [
+        "rfc-editor.org",
+        "docs.fcc.gov",
+        "cisa.gov",
+        "web.stanford.edu",
+        "iana.org",
+        "fcc.gov",
+        "csteachers.org",
+        "computerhistory.org"
+      ],
+      "review_hosts": [],
+      "flags": []
+    },
     "inside-the-gadget-g6-8": {
       "title": "Inside the Gadget Grades 6 to 8",
       "imprint": "rocket-and-raven",
@@ -95078,7 +95971,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/inside-the-machine-g3-g5/SOURCES.md",
-      "cited_pages": 118,
+      "cited_pages": 119,
       "top_hosts": [
         "web.stanford.edu",
         "portal.ct.gov",
@@ -95783,6 +96676,51 @@
       "review_hosts": [],
       "flags": []
     },
+    "robots-and-drones-g6-8": {
+      "title": "Robots and Drones Grades 6 to 8",
+      "imprint": "rocket-and-raven",
+      "series": "code-crew",
+      "grade_band": "G6-8",
+      "subject": "coding",
+      "keys": [
+        "6th_8th_coding_cs",
+        "6th_8th_science"
+      ],
+      "standards": {
+        "csta": [
+          "2-AP-10",
+          "2-AP-11",
+          "2-AP-12",
+          "2-AP-13",
+          "2-AP-17",
+          "2-CS-01",
+          "2-CS-02",
+          "2-CS-03"
+        ],
+        "ngss": [
+          "MS-ETS1-1",
+          "MS-ETS1-2",
+          "MS-ETS1-3",
+          "MS-ETS1-4",
+          "MS-PS2-1",
+          "MS-PS2-2"
+        ]
+      },
+      "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/robots-and-drones-g6-8/SOURCES.md",
+      "cited_pages": 26,
+      "top_hosts": [
+        "faa.gov",
+        "www1.grc.nasa.gov",
+        "nasa.gov",
+        "science.nasa.gov",
+        "grc.nasa.gov",
+        "jpl.nasa.gov",
+        "nextgenscience.org",
+        "csteachers.org"
+      ],
+      "review_hosts": [],
+      "flags": []
+    },
     "science-launch-g1": {
       "title": "Science Launch Grade 1",
       "imprint": "rocket-and-raven",
@@ -96048,7 +96986,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/sports-physics-g6-8/SOURCES.md",
-      "cited_pages": 33,
+      "cited_pages": 34,
       "top_hosts": [
         "phys.libretexts.org",
         "openstax.org",
@@ -97097,34 +98035,5 @@
       "checked": "2026-10-12"
     }
   ],
-  "_planned_courses": {
-    "how-the-internet-reaches-you-g9-12": {
-      "title": "How the Internet Reaches You",
-      "release": "2027-01-12",
-      "keys": [
-        "9th_12th_coding_cs"
-      ],
-      "design": "/mnt/project-files/releases/how-the-internet-reaches-you-g9-12/design.md",
-      "sources_listed": 28,
-      "new_entries": {
-        "9th_12th_coding_cs": 28
-      },
-      "review_hosts": []
-    },
-    "robots-and-drones-g6-8": {
-      "title": "Robots and Drones",
-      "release": "2027-02-09",
-      "keys": [
-        "6th_8th_coding_cs",
-        "6th_8th_science"
-      ],
-      "design": "/mnt/project-files/releases/robots-and-drones-g6-8/design.md",
-      "sources_listed": 26,
-      "new_entries": {
-        "6th_8th_coding_cs": 8,
-        "6th_8th_science": 21
-      },
-      "review_hosts": []
-    }
-  }
+  "_planned_courses": {}
 }

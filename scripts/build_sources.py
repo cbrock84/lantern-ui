@@ -106,7 +106,9 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'nzase.org.nz': 'education_org',               # New Zealand Association of Science Educators
               'ico.org.uk': 'government',                    # UK Information Commissioner's Office
               'sciencebuddies.org': 'education_org',         # Science Buddies, nonprofit science education
-              'modelaircraft.org': 'education_org'}          # Academy of Model Aeronautics, FAA-recognized community-based organization (drone safety)
+              'modelaircraft.org': 'education_org',          # Academy of Model Aeronautics, FAA-recognized community-based organization (drone safety)
+              'cs231n.github.io': 'university',              # Stanford CS231n course notes (Stanford's course site, hosted on GitHub Pages)
+              'docs.nvidia.com': 'education_org'}            # NVIDIA CUDA Programming Guide: the chip designer's technical reference, cited only for how a GPU is organized (like docs.oracle.com)
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 

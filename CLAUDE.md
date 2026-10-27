@@ -37,6 +37,10 @@ original from June 2026 is kept verbatim in `standards/sources-v1-2026-06.json`)
   `SOURCES.md`) in the same change, after opening the page. Prefer standards
   bodies, then government and museums, then universities, then education
   organizations.
+- For a course that is designed but not built yet, list each opened source in
+  `standards/planned-sources.json` under the course's slug; the build adds it
+  to the course's keys (origin "planned course design") until the course is
+  live and its `SOURCES.md` takes over.
 - Copy or adapt outside material only when its `_open_resources` entry says
   `reuse`, with the credit its license asks for (D307 covers NonCommercial).
 - `_media` lists every photo, sim or story a course reuses, with its credit and

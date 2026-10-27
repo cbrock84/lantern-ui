@@ -6,7 +6,9 @@ Usage: python3 scripts/build_sources.py ../rocket-and-raven-press [v1-status.txt
 
 v1 entries are kept exactly (title, url, description) and gain new fields.
 New keys and entries come only from pages a live course already cites in its
-SOURCES.md, or from standards/source-catalog.md. Nothing is invented.
+SOURCES.md, from standards/source-catalog.md, or from
+standards/planned-sources.json (pages opened for a course that is designed but
+not built yet). Nothing is invented.
 """
 import collections, datetime, glob, json, os, re, sys
 from urllib.parse import urlparse
@@ -73,7 +75,9 @@ STANDARDS_HOSTS = {'thecorestandards.org', 'corestandards.org', 'nextgenscience.
                    'nsta.org', 'shapeamerica.org', 'eclkc.ohs.acf.hhs.gov', 'nationalacademies.org',
                    # Technical standards and specification bodies (Code Crew, Inside the Machine).
                    'w3.org', 'whatwg.org', 'unicode.org', 'rfc-editor.org', 'icann.org', 'usb.org',
-                   'ecma-international.org'}
+                   'ecma-international.org',
+                   # IANA: the DNS root zone and the IP address and AS number registries (How the Internet Reaches You).
+                   'iana.org'}
 MUSEUM_HOSTS = ('si.edu', 'exploratorium.edu', 'metmuseum.org', 'nybg.org', 'fi.edu', 'cmog.org', 'cdm.org',
                 'kohlchildrensmuseum.org', 'lawrencehallofscience.org', 'missouribotanicalgarden.org',
                 'samnoblemuseum.ou.edu', 'loc.gov', 'invent.org', 'rhs.org.uk', 'ncsm.city.nagoya.jp',
@@ -101,7 +105,8 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'fao.org': 'government',                       # Food and Agriculture Organization of the United Nations (intergovernmental)
               'nzase.org.nz': 'education_org',               # New Zealand Association of Science Educators
               'ico.org.uk': 'government',                    # UK Information Commissioner's Office
-              'sciencebuddies.org': 'education_org'}         # Science Buddies, nonprofit science education
+              'sciencebuddies.org': 'education_org',         # Science Buddies, nonprofit science education
+              'modelaircraft.org': 'education_org'}          # Academy of Model Aeronautics, FAA-recognized community-based organization (drone safety)
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 
@@ -278,7 +283,8 @@ def main():
             'reuse': 'fact_source (check facts, write our own text) | reuse (license lets us adapt; see _open_resources) | link_only | avoid',
             'license': 'License when checked; null means not checked, so treat as fact_source only.',
             'cited_by': 'Course slugs whose SOURCES.md cites this exact URL.',
-            'origin': 'v1 | course SOURCES.md | source-catalog.md',
+            'origin': 'v1 | course SOURCES.md | source-catalog.md | planned course design (standards/planned-sources.json)',
+            'planned_for': 'Planned-course entries only: the release ids (course slugs) whose design relies on this page before the course has a SOURCES.md.',
             'url_status': 'Result of the last link check.'},
         'rules': [
             'Base every course fact, standard code and activity on a source in this file. If a needed source is missing, add it here first (with its publisher and kind) in the same change.',
@@ -286,6 +292,7 @@ def main():
             'Copy or adapt material only when reuse is "reuse" and follow the license in _open_resources; otherwise write original text.',
             'Prefer standards_body, then government and museum_library, then university, then education_org. A "review" source needs a better one before new content relies on it.',
             'Never fabricate a source or URL. Open every URL before citing it.',
+            'Entries with origin "planned course design" come from standards/planned-sources.json: pages opened for a designed course before it has a SOURCES.md. Add a planned source there (after opening it); the build lists it under its keys until the course goes live.',
             '_media lists every photo, sim or story a course reuses, with its credit and license. Add a reused item to the course SOURCES.md (table columns: where, facts, title, credit, URL) and rebuild.'],
     }}
 
@@ -415,6 +422,38 @@ def main():
                     'publisher': p, 'kind': kind(u), 'frameworks': frameworks_for(u), 'reuse': 'fact_source',
                     'license': None, 'cited_by': sorted(url_courses[u]), 'origin': 'course SOURCES.md', 'url_status': None})
 
+    # Sources opened for courses that are designed but not built yet
+    # (standards/planned-sources.json). Each goes into its keys until the
+    # course is live; then the course's SOURCES.md is the record and its
+    # planned list is dropped. A URL a key already lists is not repeated.
+    planned_courses = {}
+    planned_path = os.path.join(ROOT, 'standards', 'planned-sources.json')
+    planned = json.load(open(planned_path, encoding='utf-8')).get('courses', {}) if os.path.exists(planned_path) else {}
+    for slug, pc in planned.items():
+        if slug in courses:
+            print(f'planned course {slug} is live; its planned sources are no longer merged')
+            continue
+        counts = collections.Counter()
+        for src in pc['sources']:
+            for k in src.get('keys') or pc['keys']:
+                entries = out.setdefault(k, [])
+                same = next((e for e in entries if e['url'] == src['url']), None)
+                if same:
+                    if same.get('origin') == 'planned course design' and slug not in same['planned_for']:
+                        same['planned_for'] = sorted(same['planned_for'] + [slug])
+                    continue
+                entries.append({
+                    'title': src['title'], 'url': src['url'], 'description': src['description'],
+                    'publisher': src.get('publisher'), 'kind': kind(src['url']), 'frameworks': frameworks_for(src['url']),
+                    'reuse': src.get('reuse') or 'fact_source', 'license': src.get('license'),
+                    'cited_by': sorted(url_courses.get(src['url'], [])), 'origin': 'planned course design',
+                    'url_status': src.get('url_status'), 'planned_for': [slug]})
+                counts[k] += 1
+        planned_courses[slug] = {'title': pc.get('title'), 'release': pc.get('release'), 'keys': pc['keys'],
+                                 'design': pc.get('design'), 'sources_listed': len(pc['sources']),
+                                 'new_entries': dict(sorted(counts.items())),
+                                 'review_hosts': sorted({host(s['url']) for s in pc['sources'] if kind(s['url']) == 'review'})}
+
     # Standards check: each code family a course uses must be defined by a
     # source in one of its keys.
     fams = {'csta': 'CSTA', 'ccss': 'CCSS', 'ngss': 'NGSS'}
@@ -452,6 +491,7 @@ def main():
                       'cited_by': sorted(url_courses[u])})
     out['_courses'] = courses
     out['_open_resources'] = catalog
+    out['_planned_courses'] = planned_courses
     out['_media'] = media
     # Order: _meta, grade keys in grade then subject order, _courses, _open_resources.
     def order(k):
@@ -471,6 +511,8 @@ def main():
     keys = [k for k in out if not k.startswith('_')]
     print(f'{len(keys)} keys, {sum(len(out[k]) for k in keys)} entries, {len(courses)} courses, {len(catalog)} catalog rows')
     print('flagged courses:', sum(1 for c in courses.values() if c['flags']))
+    for slug, pc in planned_courses.items():
+        print(f"planned {slug}: {pc['sources_listed']} sources, new entries {pc['new_entries']}, review hosts {pc['review_hosts'] or 'none'}")
 
 if __name__ == '__main__':
     main()

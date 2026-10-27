@@ -27,7 +27,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D355 | CSEdWeek countdown posts, Dec 1-11 | (A) schedule as drafted / (B) custom daily graphics / (C) skip | Drafts in /mnt/project-files/releases/csedweek-countdown/drafts.md |
 
 ## Log
 
@@ -2190,8 +2189,9 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D355: CSEdWeek countdown posts
 - **Question:** How should the Dec 1-11 CSEdWeek countdown run? D339 (C) covers it as a template post, but this session could not schedule it overnight.
 - **Options:** (A) Schedule as drafted: one free Code Crew or AI Explorers lesson a day at 10:00 ET on IG, FB and Pinterest, with course covers and #codingforkids #csedweek added. (B) Same posts, with made-to-order daily graphics. (C) Skip the countdown.
-- **Choice:** Waiting on Chris. Recommended: (A).
-- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
+- **Choice:** (A). D339 (C), Chris's standing approval for template posts, names the CSEdWeek countdown, so no separate card was needed.
+- **Date:** 2026-10-27. **Decided by:** owner (D339 C). **Status:** Done.
+- **Progress:** All 33 posts scheduled in Metricool on 2026-10-27: Dec 1-11 at 10:00 ET, one each on Instagram, Facebook and Pinterest (board "Free Online Courses for Kids"). Every activity link and cover image returned 200 that day.
 - **Links:** /mnt/project-files/releases/csedweek-countdown/drafts.md
 
 ### D356: How the Dec 22 figures are released
@@ -2264,3 +2264,9 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A). MedlinePlus is also cited. No course is flagged.
 - **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** scripts/build_sources.py, rocket-and-raven-press #148
+
+### D366: Pinterest board for the "How does it work?" figures
+- **Question:** Should the weekly figure pins move to a new "How Things Work for Kids" board?
+- **Options:** (A) Keep pinning to the existing "Free Online Courses for Kids" board. (B) Create the new board and move future pins to it.
+- **Choice:** (A). The figure series and the CSEdWeek countdown already pin to the existing board, so nothing waits on a new one. The session tried to create the board: both Make Pinterest connections return 401 and Zapier has no Pinterest account, so (B) would need Chris to reconnect Pinterest first.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.

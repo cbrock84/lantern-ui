@@ -59,7 +59,8 @@ SERIES_SUBJECTS = {
     'reading-writing': ['reading_ela', 'writing'], 'tomorrow-trail': ['reading_ela', 'math', 'science'],
 }
 SLUG_SUBJECTS = {'data-society-g9-12': ['coding_cs', 'math'], 'inside-the-machine-g1-g2': ['engineering_technology', 'coding_cs'],
-                 'inside-the-machine-g3-g5': ['engineering_technology', 'coding_cs']}
+                 'inside-the-machine-g3-g5': ['engineering_technology', 'coding_cs'],
+                 'robots-and-drones-g6-8': ['coding_cs', 'science']}
 
 def course_subjects(slug, meta):
     if slug in SLUG_SUBJECTS:
@@ -108,7 +109,9 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'sciencebuddies.org': 'education_org',         # Science Buddies, nonprofit science education
               'modelaircraft.org': 'education_org',          # Academy of Model Aeronautics, FAA-recognized community-based organization (drone safety)
               'cs231n.github.io': 'university',              # Stanford CS231n course notes (Stanford's course site, hosted on GitHub Pages)
-              'docs.nvidia.com': 'education_org'}            # NVIDIA CUDA Programming Guide: the chip designer's technical reference, cited only for how a GPU is organized (like docs.oracle.com)
+              'docs.nvidia.com': 'education_org',            # NVIDIA CUDA Programming Guide: the chip designer's technical reference, cited only for how a GPU is organized (like docs.oracle.com)
+              'yalemedicine.org': 'university',              # Yale Medicine, the clinical practice of the Yale School of Medicine (pulse oximetry figure)
+              'thoracic.org': 'education_org'}               # American Thoracic Society, medical society patient education series (pulse oximetry figure)
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 

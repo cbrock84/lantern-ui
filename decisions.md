@@ -2193,3 +2193,74 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** Waiting on Chris. Recommended: (A).
 - **Date:** 2026-10-27. **Decided by:** owner. **Status:** Open.
 - **Links:** /mnt/project-files/releases/csedweek-countdown/drafts.md
+
+### D356: How the Dec 22 figures are released
+- **Question:** How do the four Dec 22 stepped figures go public?
+- **Options:** (A) Date-gate each figure in releases.json so it appears on its release date, as dated courses do. (B) Publish right away, before its course week. (C) Hold the pack in a branch.
+- **Choice:** (A). Each figure sits in the one course week whose facts it shows. A test enforces this. The cube figure cites CCSS only, because no NGSS code is traced to its facts.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #148
+
+### D357: Invented numbers in labs
+- **Question:** How do labs use numbers that no source gives?
+- **Options:** (A) Label each one as an example value, so no unsourced number reads as fact. (B) Use only numbers from sources, which leaves too few for the labs.
+- **Choice:** (A). This applies to the Dec 22 figures, How the Internet Reaches You 9-12 and Robots and Drones 6-8.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #148, #149, #150
+
+### D358: Interim art for the Jan and Feb courses
+- **Question:** What art do How the Internet Reaches You 9-12 and Robots and Drones 6-8 use?
+- **Options:** (A) Reuse existing heroes and covers (Data and Society for the internet course, Sports Physics for robots), with alt text that doubles as the art brief. (B) Generate new art with paid credits. (C) Ship with no art, which breaks the cards.
+- **Choice:** (A). Same approach as D352.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Decided.
+- **Progress:** Final art is due before 2027-01-12 (internet) and 2027-02-09 (robots).
+- **Links:** rocket-and-raven-press #149, #150
+
+### D359: Sources for How the Internet Reaches You 9-12
+- **Question:** Which sources back the Wi-Fi, cellular and radio-speed lessons?
+- **Options:** (A) Princeton COS 109 notes and the FCC 6 GHz order for Wi-Fi and cellular, and the NASA electromagnetic spectrum page (S31) for radio speed. (B) Vendor pages and a physics textbook.
+- **Choice:** (A). University and government sources. Vendor pages are brand-named and not on the list.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #149, standards/sources.json
+
+### D360: Unsourced claims left out of How the Internet Reaches You 9-12
+- **Question:** What happens to two claims no listed source covers: "use UDP for live audio" and "put devices on a guest network"?
+- **Options:** (A) Pose UDP for live audio as a design question, and drop the guest network tip. Week 12 teaches MFA, passwords, updates and backups instead. (B) State both as facts with no source.
+- **Choice:** (A).
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #149
+
+### D361: Week 4 lost-card lab timeout
+- **Question:** The week 4 lab could never finish when card 12 was lost (Codex finding). How is it fixed?
+- **Options:** (A) Add a timeout-and-resend rule: no new ACK within 10 seconds means resend the card the last ACK asked for. This matches how TCP recovers a lost last segment. (B) Restrict lost cards to 1-11.
+- **Choice:** (A). The Saturday partner game has the same rule.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #149
+
+### D362: Robots and Drones 6-8 shape
+- **Question:** Which series and rank is Robots and Drones 6-8 in?
+- **Options:** (A) Code Crew at mission-commander rank, like Inside the Gadget 6-8. (B) A science series.
+- **Choice:** (A). The course is 10 weeks and releases 2027-02-09. Every day is 10.3 minutes or more. The course keys are coding_cs and science.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #150, D349
+
+### D363: Robots and Drones labs
+- **Question:** Which hands-on labs teach lift and echoes?
+- **Options:** (A) NASA JPL's "Make a Paper Mars Helicopter" (new source S26), dropped by a grown-up and never from stairs, plus a walking-echo model kids can measure by hand. (B) A fan demo and clap timing. The fan demo has no source and uses a motor, and claps are too fast to time.
+- **Choice:** (A). D347 still holds: the course never asks anyone to fly a drone.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #150
+
+### D364: Robots and Drones facts
+- **Question:** Which figures do the lessons give for sound speed and Ingenuity?
+- **Options:** (A) 343 m/s at 20 °C from OpenStax (S8). Give Ingenuity's Earth weight of 1.8 kg and 2,400 rpm, and leave out "0.68 kg on Mars", because mass doesn't change between planets. (B) Convert NASA's 1,100 ft/s, and keep the Mars mass line.
+- **Choice:** (A). SOURCES.md also gained rows F75-F77, and the MS-PS2-2 weeks were corrected to 7 and 8, so every line traces to a source.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** rocket-and-raven-press #150
+
+### D365: Medical sites for the pulse oximeter figure
+- **Question:** How are Yale Medicine and the American Thoracic Society, cited by the Dec 22 pulse oximeter figure, classified in sources.json?
+- **Options:** (A) yalemedicine.org as a university (the Yale School of Medicine's clinical practice), and thoracic.org as an education organization (a medical society's patient education series). Facts only, no copying. (B) Replace both with MedlinePlus only.
+- **Choice:** (A). MedlinePlus is also cited. No course is flagged.
+- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
+- **Links:** scripts/build_sources.py, rocket-and-raven-press #148

@@ -1923,13 +1923,13 @@ Every entry has these fields:
 - **Options:** Not asked; Claude default while Chris was away.
 - **Choice:** Six shorts, every line verbatim from the Tomorrow Trail course: greet (week 1 day 4), basket (week 2 day 3), sounds (week 2 days 1 and 4), leaves (week 5 day 4), puzzle (week 7 day 2), log (week 11 day 2). Voices are Workers AI Deepgram Aura-2 (the lesson-audio model): Chris the Coyote aries, Ferris apollo, Hazel cora, Rosie ophelia, Bennie mars, Oliver draco, Riley atlas. Until Cloudflare access works, the renders use local placeholder voices with the same timing pipeline.
 - **Date:** 2026-10-21. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** Lines and a recording workflow are in rocket-and-raven-press #143 (draft, do not merge). Recording is blocked: the CLOUDFLARE_API_TOKEN secret returns 401 on Workers AI; it needs Account > Workers AI > Edit. Six 16:9 shorts were delivered with placeholder voices on 2026-10-21 (/mnt/project-files/blender-pilots/). After Chris updated the token (2026-10-21), the secret's token verifies as active on the Chris Brock LLC account but Workers AI still returns 401, so the voices are still blocked. Nothing is posted.
+- **Progress:** Lines, recording workflow and the 42 recorded voice files are in rocket-and-raven-press #143 (draft, do not merge). Chris fixed the Cloudflare token on 2026-10-27; all 42 lines were recorded with Aura-2 the same day and the six 16:9 shorts were re-rendered with them and matching lip-sync (/mnt/project-files/blender-pilots/tomorrow-trail-<short>-cf-16x9.mp4). Nothing is posted.
 - **Links:** /mnt/project-files/blender-pilots/README.md, rocket-and-raven-press #143.
 
 ### D367: Full-body character animation: Higgsfield AI video or Blender (asked on the card as D330)
 - **Question:** For full-body Tomorrow Trail character motion, buy Higgsfield credits for AI image-to-video clips, or stay with Blender cut-out rigs?
-- **Options:** (1) Higgsfield credits for AI full-body video. (2) Blender only: cut-out rigs, walk cycles and physics, no credits.
-- **Choice:** (2) Blender only.
+- **Options:** (A) Higgsfield credits for AI full-body video. (B) Blender only: cut-out rigs, walk cycles and physics, no credits.
+- **Choice:** (B) Blender only.
 - **Date:** 2026-10-21. **Decided by:** owner (Chris, "d330 - 2 (blender only)"). **Status:** Decided.
 - **Progress:** No credits bought. The six Tomorrow Trail shorts (D366) are Blender cut-outs; further shorts continue the same way.
 

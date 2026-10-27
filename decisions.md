@@ -2296,7 +2296,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Done.
 - **Links:** scripts/build_sources.py, rocket-and-raven-press #148
 
-### D366: Pinterest board for the "How does it work?" figures
+### D368: Pinterest board for the "How does it work?" figures
 - **Question:** Should the weekly figure pins move to a new "How Things Work for Kids" board?
 - **Options:** (A) Keep pinning to the existing "Free Online Courses for Kids" board. (B) Create the new board and move future pins to it.
 - **Choice:** (A). The figure series and the CSEdWeek countdown already pin to the existing board, so nothing waits on a new one. The session tried to create the board: both Make Pinterest connections return 401 and Zapier has no Pinterest account, so (B) would need Chris to reconnect Pinterest first.

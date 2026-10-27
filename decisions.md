@@ -11,7 +11,8 @@ collide, so a lower number can be logged after a higher one.
 Every entry has these fields:
 
 - **Question**: what was being decided.
-- **Options**: the choices offered. "Not recorded" means the decision predates
+- **Options**: the choices offered, lettered (A), (B), (C), (D) since D343.
+  Older entries keep their numbers. "Not recorded" means the decision predates
   this log and the rejected options were not written down at the time.
 - **Choice**: what was chosen.
 - **Date**.
@@ -2100,3 +2101,10 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** lanternlearn.com/releases ("Coming soon" in the nav), with a subscribable /releases.ics feed. A daily Release day workflow publishes future-dated posts and calendar entries on their date.
 - **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Decided.
 - **Links:** lanternlearn-site #72.
+
+### D343: Letter decision options
+- **Question:** How should decision options be labeled?
+- **Options:** Asked for directly by Chris (2026-10-27: "Also stick to lettering decision choices, not numbers").
+- **Choice:** Letters (A, B, C, D), never numbers, in every decision card, routine prompt, runbook and `decisions.md` entry from now on. Older entries keep their numbers.
+- **Date:** 2026-10-27. **Decided by:** owner. **Status:** Done.
+- **Progress:** Added to `CLAUDE.md`, the release runbook and the three release scheduled tasks.

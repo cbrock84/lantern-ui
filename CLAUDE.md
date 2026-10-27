@@ -11,6 +11,8 @@ decision log (`decisions.md`), the roadmap (`roadmap.md`), content standards
    (the AskUserQuestion tool), never as an open-ended question buried in prose.
    Put the recommended option first and label it "(Recommended)". Give each
    option a one-line description of its consequence. Ask up to four at a time.
+   Label options with letters (A, B, C, D), never numbers, in cards, prompts,
+   runbooks and `decisions.md` (D343, Chris, 2026-10-27).
 2. Number each decision `D<n>`, continuing from the highest number in
    `decisions.md`, and put the number in the question text (e.g. "D16: ...").
 3. Before asking, check `decisions.md` for an earlier decision on the same topic.

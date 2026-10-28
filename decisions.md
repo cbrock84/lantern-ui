@@ -30,6 +30,14 @@ Every entry has these fields:
 | D370 | Content Signals: allow AI training on our pages? | (A) ai-train=no (B) ai-train=yes | Card sent 2026-10-27; live on A |
 | D373 | Agent sign-in: auth.md only, or build OAuth? | (A) auth.md, no OAuth (B) build OAuth | Card sent 2026-10-27; live on A |
 | D374 | Build a public read-only MCP/A2A course-catalog server? | (A) not now (B) MCP server (C) MCP + A2A | Card sent 2026-10-27; on A |
+| D375 | How should Little Alchemy 2 be used in courses? | (A) own figure (B) link (C) both (D) skip | Card sent 2026-10-28; no course change until answered |
+| D376 | How should Orb.Farm be used in courses? | (A) link, credited (B) host adapted MIT copy (C) own figure (D) skip | Card sent 2026-10-28; no course change until answered |
+| D377 | How should Slow Roads be used in courses? | (A) link, Ratios W2 (B) link, CS model weeks (C) both (D) skip | Card sent 2026-10-28; no course change until answered |
+| D378 | How should Incredibox be used? | (A) park for music course (B) link demo (C) own loop figure (D) skip | Card sent 2026-10-28; no course change until answered |
+| D379 | How should Townscaper be used in courses? | (A) own tile figure (B) link free version (C) both (D) skip | Card sent 2026-10-28; no course change until answered |
+| D380 | How should Drive & Listen be used? | (A) own map figure (B) link 9-12/adult (C) link with parent note (D) skip | Card sent 2026-10-28; no course change until answered |
+| D381 | How should Neal.fun pages be used in courses? | (A) link 5 pages (B) link all, 6-12 (C) own figures (D) skip | Card sent 2026-10-28; no course change until answered |
+| D382 | How should Solar System Scope be used in courses? | (A) CC BY textures in our figures (B) link (C) both (D) skip | Card sent 2026-10-28; no course change until answered |
 
 ## Log
 
@@ -2349,3 +2357,67 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A), as the default while the card is open.
 - **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
 - **Links:** docs/aeo-agent-readiness.md.
+
+### D375: Little Alchemy 2 (littlealchemy2.com)
+- **Question:** How should Little Alchemy 2 be used in courses?
+- **Options:** (A) Our own combine-and-check figure with real reactions for Matter Lab 6-8 W7 and Science Launch G5 W4 (Recommended). (B) Link the web game in those weeks with a "game vs. real chemistry" prompt. (C) Both. (D) Skip for now.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: Web game: no ad hosts seen, no account. Android app lists ads and in-app purchases. No terms or license posted.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".
+
+### D376: Orb.Farm (orb.farm)
+- **Question:** How should Orb.Farm be used in courses?
+- **Options:** (A) Link as a credited activity in Science Launch G5 W8 Food Webs and Grow It 3-5 W10 (Recommended). (B) Host an adapted copy of the MIT-licensed code; the owner decides the license use and art credits. (C) Our own pond food-web figure inspired by it. (D) Skip for now.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: No ads, no account. Source repo MaxBittker/orb.farm is MIT.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".
+
+### D377: Slow Roads (slowroads.io)
+- **Question:** How should Slow Roads be used in courses?
+- **Options:** (A) Link in Ratios and Data 6-8 W2 as a speed, distance and time activity (Recommended). (B) Link in Data and Society 9-12 W10 and Intro CS 9-10 W10 as a procedural-generation example. (C) Both. (D) Skip for now.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: No ads, no account. Page states CC BY-NC-ND 4.0. Links to a paid Steam version and a Discord server.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".
+
+### D378: Incredibox (incredibox.com)
+- **Question:** How should Incredibox be used?
+- **Options:** (A) Park in the roadmap for a future music course (Recommended). (B) Link the free demo now in Science Launch G4 W6 with "don't share your mix" guidance. (C) Our own beat-loop figure for Code Crew loop weeks. (D) Skip.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: Free demo, no ad hosts seen. Saved mixes are public with votes. Paid ad-free schools version. No music course exists.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".
+
+### D379: Townscaper
+- **Question:** How should Townscaper be used in courses?
+- **Options:** (A) Our own neighbor-rules tile figure for Intro CS 9-10 W2 and Geometry and Measurement 6-8 W2 (Recommended). (B) Link the official free browser version (rawfury.com/playtownscaper) as an optional design activity. (C) Both. (D) Skip for now.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: townscaper.com is a dead page. Free browser version: small grid, no saving, buy links. Paid game.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".
+
+### D380: Drive & Listen (driveandlisten.app)
+- **Question:** How should Drive & Listen be used?
+- **Options:** (A) Our own trip-around-the-world map figure from listed sources, no live radio (Recommended). (B) Link for grades 9-12 and adults from How the Internet Reaches You, with an ads and live-radio warning. (C) Link in Weather Lab 6-8 W10 with a parent note. (D) Skip for now.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: Google ad hosts loaded. Live, unfiltered local radio. Embedded YouTube driving videos. No terms posted.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".
+
+### D381: Neal.fun
+- **Question:** How should Neal.fun pages be used in courses?
+- **Options:** (A) Link Size of Space, Size of Life, The Deep Sea, Constellation Draw and Draw a Perfect Circle in the mapped weeks, with a parent note on the 13+ policy (Recommended). (B) Link all listed pages, including Infinite Craft, Spend Bill Gates' Money and Sandboxels, for grades 6-12 only. (C) Our own scale and circle figures, no links. (D) Skip for now.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: Privacy policy: service does not address anyone under 13; names Google AdSense. No ad hosts loaded on 9 pages tested. Accounts only for Infinite Craft.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".
+
+### D382: Solar System Scope (solarsystemscope.com)
+- **Question:** How should Solar System Scope be used in courses?
+- **Options:** (A) Use its CC BY 4.0 planet textures in our own Earth and Space 6-8 and Astronomy Year figures, credited; the owner confirms the license use (Recommended). (B) Link the 3D model with an ads note for parents. (C) Both. (D) Skip for now.
+- **Choice:** None yet; waiting on the owner. No default applied, and no course content changes until answered.
+- **Date:** 2026-10-28. **Decided by:** owner (pending). **Status:** Open.
+- **Progress:** Facts checked 2026-10-27/28: Google ad hosts loaded. Textures page states CC BY 4.0.
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses".

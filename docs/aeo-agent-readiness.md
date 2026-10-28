@@ -45,8 +45,8 @@ Scan: `POST https://isitagentready.com/api/scan` with
   `search` and `ai-input` (contentsignals.org).
 - **Done:** `Content-Signal: search=yes, ai-input=yes, ai-train=no` under
   `User-agent: *` on both sites. Search and AI answers may use, quote and link
-  our pages; we ask not to be used for model training (D370, Claude default,
-  card sent). On learn.lanternlearn.com, when the admin indexing switch is
+  our pages; we ask not to be used for model training (D370, Chris chose A
+  on 2026-10-28). On learn.lanternlearn.com, when the admin indexing switch is
   off, robots.txt sends `search=no, ai-input=no, ai-train=no` with the
   blanket `Disallow: /`.
 - **Where:** `lanternlearn-site/public/robots.txt`,
@@ -102,22 +102,22 @@ Scan: `POST https://isitagentready.com/api/scan` with
 
 ## 6. OAuth/OIDC discovery and 7. OAuth Protected Resource Metadata
 
-- **Not applicable (D373 A, card sent):** the platform has magic-link
+- **Not applicable (D373 A, Chris 2026-10-28):** the platform has magic-link
   sign-in for parents and teachers, no OAuth or OIDC server and no protected
   API for agents. Publishing `/.well-known/openid-configuration`,
   `/.well-known/oauth-authorization-server` or
   `/.well-known/oauth-protected-resource` would describe servers that do not
-  exist. Option B (build OAuth so agents can act for a parent) is on the D373
-  card; it is a large, COPPA-sensitive build.
+  exist. Option B (build OAuth so agents can act for a parent) was declined; it
+  would be a large, COPPA-sensitive build.
 
 ## 8. A2A Agent Card, 10. MCP Server Card and 13. DNS-AID
 
-- **Not applicable for now (D374 A, card sent):** there is no A2A agent or
+- **Not applicable for now (D374 A, Chris 2026-10-28):** there is no A2A agent or
   MCP server, so no card can honestly be published. DNS-AID records
   (`_mcp._agents`, `_a2a._agents`) must point at real agent endpoints, so they
   wait too. DNSSEC is also off for lanternlearn.com (no DS record at the
   registry, checked 2026-10-27); DNS-AID wants signed zones.
-- **If D374 B or C is chosen:** build a read-only MCP server on
+- **If D374 is revisited (B or C):** build a read-only MCP server on
   learn.lanternlearn.com over the public catalog feed, publish
   `/.well-known/mcp/server-card.json`, then add
   `_mcp._agents.lanternlearn.com SVCB` and turn on DNSSEC (Cloudflare DNS

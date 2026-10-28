@@ -27,9 +27,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D370 | Content Signals: allow AI training on our pages? | (A) ai-train=no (B) ai-train=yes | Card sent 2026-10-27; live on A |
-| D373 | Agent sign-in: auth.md only, or build OAuth? | (A) auth.md, no OAuth (B) build OAuth | Card sent 2026-10-27; live on A |
-| D374 | Build a public read-only MCP/A2A course-catalog server? | (A) not now (B) MCP server (C) MCP + A2A | Card sent 2026-10-27; on A |
 | D375 | How should Little Alchemy 2 be used in courses? | (A) own figure (B) link (C) both (D) skip | Card sent 2026-10-28; no course change until answered |
 | D376 | How should Orb.Farm be used in courses? | (A) link, credited (B) host adapted MIT copy (C) own figure (D) skip | Card sent 2026-10-28; no course change until answered |
 | D377 | How should Slow Roads be used in courses? | (A) link, Ratios W2 (B) link, CS model weeks (C) both (D) skip | Card sent 2026-10-28; no course change until answered |
@@ -2324,8 +2321,8 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D370: Content Signals ai-train setting
 - **Question:** robots.txt Content Signals for lanternlearn.com and learn.lanternlearn.com. search=yes and ai-input=yes are set either way so AI answers can cite and link the courses. Allow AI training too?
 - **Options:** (A) ai-train=no (Recommended): AI companies are asked not to train models on the courses; citation and linking in AI answers is unaffected. (B) ai-train=yes: allows training too; more model exposure, but training sends no links or traffic and can't be undone for already-trained models.
-- **Choice:** (A), as the default while the card is open.
-- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
+- **Choice:** (A). Chris: "I accept all your recommendations" (2026-10-28).
+- **Date:** 2026-10-28. **Decided by:** Chris. **Status:** Done.
 - **Progress:** Live on A in both robots.txt files.
 - **Links:** lanternlearn-site #80, rocket-and-raven-press #152, docs/aeo-agent-readiness.md.
 
@@ -2346,16 +2343,16 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 ### D373: Agent sign-in (auth.md, OAuth/OIDC discovery, OAuth Protected Resource Metadata)
 - **Question:** The platform has magic-link sign-in for parents and teachers and no OAuth server; all content opens without sign-in. What to publish for agent sign-in?
 - **Options:** (A) An honest auth.md saying no sign-in or agent registration is needed or offered; skip OAuth discovery and protected-resource metadata (Recommended). (B) Build a real OAuth server so agents can act for a parent account: passes those checks, but a large security- and COPPA-sensitive build with no current use case.
-- **Choice:** (A), as the default while the card is open.
-- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
+- **Choice:** (A). Chris: "I accept all your recommendations" (2026-10-28).
+- **Date:** 2026-10-28. **Decided by:** Chris. **Status:** Done.
 - **Progress:** /auth.md live on both hosts. The authMd, oauthDiscovery and oauthProtectedResource scanner checks stay failing by design: they look for a registration endpoint or OAuth server, and there is none.
 - **Links:** lanternlearn-site #80, rocket-and-raven-press #152, docs/aeo-agent-readiness.md.
 
 ### D374: Public read-only MCP/A2A course-catalog server
 - **Question:** Build an agent server so the MCP Server Card, A2A Agent Card and DNS-AID items can be published honestly?
 - **Options:** (A) Not now (Recommended): document all three as not applicable; revisit if agent traffic to the catalog shows up. (B) Build a small read-only MCP server on learn.lanternlearn.com (search courses, get a course, list releases; no accounts, no kid data) and publish its server card and a DNS-AID record (needs DNSSEC turned on). (C) B plus an A2A agent and agent card.
-- **Choice:** (A), as the default while the card is open.
-- **Date:** 2026-10-27. **Decided by:** Claude (default). **Status:** Open.
+- **Choice:** (A). Chris: "I accept all your recommendations" (2026-10-28).
+- **Date:** 2026-10-28. **Decided by:** Chris. **Status:** Done.
 - **Links:** docs/aeo-agent-readiness.md.
 
 ### D375: Little Alchemy 2 (littlealchemy2.com)

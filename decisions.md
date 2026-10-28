@@ -2353,7 +2353,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Our own combine-and-check figure.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Built figure combine-check (press scripts/figures/combine-check.mjs): seven changes (ice, salt water, sawdust, baking soda and vinegar, rust, browning banana, bread), each with a physical or chemical verdict and its evidence, all from Matter Lab week 7 sources. Shown in Matter Lab 6-8 W7 Monday and Science Launch G5 W4 Tuesday; Science Launch G5 SOURCES.md gained the rows. Facts checked 2026-10-27/28: Web game: no ad hosts seen, no account. Android app lists ads and in-app purchases. No terms or license posted.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).
 
 ### D376: Orb.Farm (orb.farm)
 - **Question:** How should Orb.Farm be used in courses?
@@ -2361,7 +2361,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Link as a credited activity.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Grown-up notes in Science Launch G5 W8 Tuesday and Grow It 3-5 W10 Thursday name Orb.Farm by Max Bittker in words (no URL in lessons). Listed under Link only in standards/source-catalog.md; orb.farm classed outside_activity in build_sources.py. Facts checked 2026-10-27/28: No ads, no account. Source repo MaxBittker/orb.farm is MIT.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).
 
 ### D377: Slow Roads (slowroads.io)
 - **Question:** How should Slow Roads be used in courses?
@@ -2369,7 +2369,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Link in Ratios and Data 6-8 W2.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Grown-up note in Ratios and Data 6-8 W2 Friday: a timed drive, speedometer and odometer, distance = rate x time. Listed under Link only; slowroads.io classed outside_activity. Facts checked 2026-10-27/28: No ads, no account. Page states CC BY-NC-ND 4.0. Links to a paid Steam version and a Discord server.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).
 
 ### D378: Incredibox (incredibox.com)
 - **Question:** How should Incredibox be used?
@@ -2377,7 +2377,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Park in the roadmap for a future music course.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Added under "Parked for later" in roadmap.md. No course change. Facts checked 2026-10-27/28: Free demo, no ad hosts seen. Saved mixes are public with votes. Paid ad-free schools version. No music course exists.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).
 
 ### D379: Townscaper
 - **Question:** How should Townscaper be used in courses?
@@ -2385,7 +2385,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Our own neighbor-rules tile figure.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Built figure tile-rules: blocks read north, east, south and west (codes 1, 2, 4, 8) in AP CSP-style pseudocode, pick a piece, re-pick when a block is added, then the grid gets coordinates, area and perimeter. Shown in Intro CS 9-10 W2 Thursday and Geometry and Measurement 6-8 W2 Tuesday. No outside facts. Facts checked 2026-10-27/28: townscaper.com is a dead page. Free browser version: small grid, no saving, buy links. Paid game.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).
 
 ### D380: Drive & Listen (driveandlisten.app)
 - **Question:** How should Drive & Listen be used?
@@ -2393,7 +2393,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Our own trip-around-the-world map figure.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Built figure world-trip: nine stations (London, Cairo, Singapore, Tokyo, Sydney, Los Angeles, Denver, New York, Reykjavik) with 1991 to 2020 January and July normals from NOAA NCEI (WMO normals and U.S. normals), on a Natural Earth (public domain) land outline. No live radio. Shown in Weather Lab 6-8 W10 Thursday; new rows in its SOURCES.md; Natural Earth added under Reuse. Facts checked 2026-10-27/28: Google ad hosts loaded. Live, unfiltered local radio. Embedded YouTube driving videos. No terms posted.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).
 
 ### D381: Neal.fun
 - **Question:** How should Neal.fun pages be used in courses?
@@ -2401,7 +2401,7 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Link the five pages with a parent note on the 13+ policy.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Grown-up notes, each repeating the privacy policy's under-13 line: Size of Space (Earth and Space 6-8 W8 Saturday, Astronomy Year W5 Friday, Science Launch G5 W12 Tuesday), Size of Life (Cells and Systems 6-8 W1 Monday and W2 Tuesday), The Deep Sea (Science Launch G5 W10 Monday), Constellation Draw (Astronomy Year W6 Friday, W8 Monday), Draw a Perfect Circle (Geometry and Measurement 6-8 W7 Friday, Geometry 9-12 W8 Monday). Listed under Link only; neal.fun classed outside_activity. Facts checked 2026-10-27/28: Privacy policy: service does not address anyone under 13; names Google AdSense. No ad hosts loaded on 9 pages tested. Accounts only for Infinite Craft.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).
 
 ### D382: Solar System Scope (solarsystemscope.com)
 - **Question:** How should Solar System Scope be used in courses?
@@ -2409,4 +2409,4 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Choice:** (A) Use the CC BY 4.0 textures in our own figures, credited; the owner confirmed the license use.
 - **Date:** 2026-10-28. **Decided by:** owner (Chris, "I accept all your recommendations", relayed 2026-10-28). **Status:** Done.
 - **Progress:** Built figure planet-sizes: the eight planets to scale (NSSDC diameters) plus the Sun's edge and 11 Earths across Jupiter, each wrapped in a Solar System Scope texture (spheres rendered from the 2k maps, shaded, WebP), credited "Solar System Scope, CC BY 4.0" on the figure and in its credit line with the change noted. Shown in Earth and Space 6-8 W8 Wednesday and Astronomy Year W5 Thursday. Listed under Reuse; solarsystemscope.com in _media. Facts checked 2026-10-27/28: Google ad hosts loaded. Textures page states CC BY 4.0.
-- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; press PR and lantern-ui PR on branch claude/project-thread-tqdu0p (2026-10-28).
+- **Links:** Web toys review https://claude.ai/artifact/RTy8ToHADXFUG5f7J6B8aD; thread "Evaluate fun web toys for courses"; rocket-and-raven-press #153, lantern-ui #166 (2026-10-28).

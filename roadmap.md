@@ -48,6 +48,13 @@ update this file in the same change set as the decision that changes it.
   AI Explorers joins it. Science Launch, Body Lab, Backyard Explorer and
   Everyday Machines carry science.
 
+## Parked for later
+
+- **Music course:** none exists yet. When one is planned, look at Incredibox
+  (incredibox.com) first: free web demo with no ad hosts seen; saved mixes are
+  public with votes; a paid ad-free schools version exists (D378, checked
+  2026-10-27). Re-check its terms and kid-safety facts before linking it.
+
 ## Sources
 
 Expansion Course Study, 2026-10-10: https://claude.ai/artifact/7fUtRuv2AZZq8cCWyTJbaj

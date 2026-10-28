@@ -111,7 +111,14 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'cs231n.github.io': 'university',              # Stanford CS231n course notes (Stanford's course site, hosted on GitHub Pages)
               'docs.nvidia.com': 'education_org',            # NVIDIA CUDA Programming Guide: the chip designer's technical reference, cited only for how a GPU is organized (like docs.oracle.com)
               'yalemedicine.org': 'university',              # Yale Medicine, the clinical practice of the Yale School of Medicine (pulse oximetry figure)
-              'thoracic.org': 'education_org'}               # American Thoracic Society, medical society patient education series (pulse oximetry figure)
+              'thoracic.org': 'education_org',               # American Thoracic Society, medical society patient education series (pulse oximetry figure)
+              # Web toys review (D375-D382, 2026-10-28): sites a grown-up note names as optional
+              # activities, never fact sources, and open media reused in our own figures.
+              'orb.farm': 'outside_activity',                # Orb.Farm by Max Bittker (D376)
+              'slowroads.io': 'outside_activity',            # Slow Roads (D377)
+              'neal.fun': 'outside_activity',                # Neal Agarwal's interactives (D381)
+              'solarsystemscope.com': 'open_media',          # Solar System Scope planet textures, CC BY 4.0 (D382)
+              'naturalearthdata.com': 'open_media'}          # Natural Earth map data, public domain (D380 figure)
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 
@@ -283,7 +290,7 @@ def main():
         'entry_fields': {
             'title': 'Page title.', 'url': 'Page URL.', 'description': 'What the source is for.',
             'publisher': 'Who publishes it.',
-            'kind': 'standards_body | government | museum_library | university | education_org | review (not yet judged authoritative)',
+            'kind': 'standards_body | government | museum_library | university | education_org | open_media (maps or images reused under their license, never a fact source) | outside_activity (a site a grown-up note names as an optional activity, never a fact source) | review (not yet judged authoritative)',
             'frameworks': 'Standards frameworks it defines (CCSS-M, CCSS-ELA, NGSS, CSTA, AP, AI4K12, NAEYC DAP, NCSS C3).',
             'reuse': 'fact_source (check facts, write our own text) | reuse (license lets us adapt; see _open_resources) | link_only | avoid',
             'license': 'License when checked; null means not checked, so treat as fact_source only.',
@@ -481,6 +488,8 @@ def main():
         'storyweaver.org.in': None,
         'collections.si.edu': 'CC0 (Smithsonian Open Access items only). https://registry.opendata.aws/smithsonian-open-access/',
         'metmuseum.org': 'CC0 (Met Open Access items only). https://github.com/metmuseum/openaccess',
+        'solarsystemscope.com': None,
+        'naturalearthdata.com': None,
     }
     media = []
     for u in sorted(url_courses):

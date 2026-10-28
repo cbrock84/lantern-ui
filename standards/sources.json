@@ -1,11 +1,11 @@
 {
   "_meta": {
     "version": 2,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "description": "Lantern Learn's foundation source list. Every fact, standard and activity in a Lantern Learn, Rocket & Raven or Fox & Fern course is based on sources listed here (or added here before the content ships). Keys follow '{grade_id}_{subject_slug}'. Each key holds a list of sources. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice.",
     "history": [
       "v1 (2026-06): Chris Brock, prek-5th x 6 subjects, 3 entries each, {title,url,description}; kept verbatim in standards/sources-v1-2026-06.json.",
-      "v2 (2026-10-27): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
+      "v2 (2026-10-28): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
     ],
     "grade_ids": [
       "prek",
@@ -52,7 +52,7 @@
       "url": "Page URL.",
       "description": "What the source is for.",
       "publisher": "Who publishes it.",
-      "kind": "standards_body | government | museum_library | university | education_org | review (not yet judged authoritative)",
+      "kind": "standards_body | government | museum_library | university | education_org | open_media (maps or images reused under their license, never a fact source) | outside_activity (a site a grown-up note names as an optional activity, never a fact source) | review (not yet judged authoritative)",
       "frameworks": "Standards frameworks it defines (CCSS-M, CCSS-ELA, NGSS, CSTA, AP, AI4K12, NAEYC DAP, NCSS C3).",
       "reuse": "fact_source (check facts, write our own text) | reuse (license lets us adapt; see _open_resources) | link_only | avoid",
       "license": "License when checked; null means not checked, so treat as fact_source only.",
@@ -4147,6 +4147,26 @@
       "url_status": null
     },
     {
+      "title": "Sun: Facts",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
+        "science-launch-g1",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "spaceplace.nasa.gov",
       "url": "https://spaceplace.nasa.gov/constellations/en/",
       "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
@@ -5867,6 +5887,58 @@
       "url_status": null
     },
     {
+      "title": "neal.fun",
+      "url": "https://neal.fun/constellation-draw/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "How to Make a Thermometer (STEM activity)",
       "url": "https://nesdis.noaa.gov/s3/2023-02/thermometer%20activity%20web.pdf",
       "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-k.",
@@ -5998,6 +6070,24 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Planetary Fact Sheet, Metric",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA NSSDCA (Goddard)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "expressions-equations-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -6259,6 +6349,22 @@
       "url_status": null
     },
     {
+      "title": "Jupiter Facts",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "science.nasa.gov",
       "url": "https://science.nasa.gov/skywatching/faq/",
       "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
@@ -6359,26 +6465,6 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Sun: Facts",
-      "url": "https://science.nasa.gov/sun/facts/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "astronomy-year",
-        "code-crew-g2",
-        "code-crew-k",
-        "earth-space-g6-8",
-        "science-launch-g1",
-        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -7914,6 +8000,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Solar System Scope",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -14747,6 +14849,26 @@
       "url_status": null
     },
     {
+      "title": "Sun: Facts",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: astronomy-year, science-launch-g1.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
+        "science-launch-g1",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Squirrels and Other Sciurids of Missouri",
       "url": "https://sites.wustl.edu/monh/squirrels-and-other-sciurids-of-missouri/",
       "description": "Cited 3 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -15296,26 +15418,6 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Sun: Facts",
-      "url": "https://science.nasa.gov/sun/facts/",
-      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year, science-launch-g1.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "astronomy-year",
-        "code-crew-g2",
-        "code-crew-k",
-        "earth-space-g6-8",
-        "science-launch-g1",
-        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -16991,6 +17093,58 @@
       "url_status": null
     },
     {
+      "title": "neal.fun",
+      "url": "https://neal.fun/constellation-draw/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "NestWatch Code of Conduct",
       "url": "https://nestwatch.org/learn/how-to-nestwatch/code-of-conduct/",
       "description": "Cited 1 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -17107,6 +17261,24 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Planetary Fact Sheet, Metric",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA NSSDCA (Goddard)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "expressions-equations-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -17363,6 +17535,22 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Jupiter Facts",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -18940,6 +19128,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Solar System Scope",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -26196,6 +26400,26 @@
       "url_status": null
     },
     {
+      "title": "Sun: Facts",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
+        "science-launch-g1",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "spaceplace.nasa.gov",
       "url": "https://spaceplace.nasa.gov/constellations/en/",
       "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
@@ -27878,6 +28102,58 @@
       "url_status": null
     },
     {
+      "title": "neal.fun",
+      "url": "https://neal.fun/constellation-draw/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "NestWatch Code of Conduct",
       "url": "https://nestwatch.org/learn/how-to-nestwatch/code-of-conduct/",
       "description": "Cited 1 time(s) in the SOURCES.md of: backyard-explorer-k2.",
@@ -27994,6 +28270,24 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Planetary Fact Sheet, Metric",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA NSSDCA (Goddard)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "expressions-equations-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -28272,6 +28566,22 @@
       "url_status": null
     },
     {
+      "title": "Jupiter Facts",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "science.nasa.gov",
       "url": "https://science.nasa.gov/skywatching/faq/",
       "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
@@ -28372,26 +28682,6 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Sun: Facts",
-      "url": "https://science.nasa.gov/sun/facts/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "astronomy-year",
-        "code-crew-g2",
-        "code-crew-k",
-        "earth-space-g6-8",
-        "science-launch-g1",
-        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -29629,6 +29919,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Solar System Scope",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -37386,6 +37692,26 @@
       "url_status": null
     },
     {
+      "title": "Sun: Facts",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
+        "science-launch-g1",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "spaceplace.nasa.gov",
       "url": "https://spaceplace.nasa.gov/constellations/en/",
       "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
@@ -39634,6 +39960,58 @@
       "url_status": null
     },
     {
+      "title": "neal.fun",
+      "url": "https://neal.fun/constellation-draw/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "nightsky.jpl.nasa.gov",
       "url": "https://nightsky.jpl.nasa.gov/news/169/",
       "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
@@ -39705,6 +40083,24 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Planetary Fact Sheet, Metric",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA NSSDCA (Goddard)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "expressions-equations-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -39856,6 +40252,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Orb.Farm",
+      "url": "https://orb.farm/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
+      "publisher": "Max Bittker",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "grow-it-g3-5",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -40163,6 +40575,22 @@
       "url_status": null
     },
     {
+      "title": "Jupiter Facts",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Biome: Desert (Mission: Biomes)",
       "url": "https://science.nasa.gov/kids/earth/mission-biomes/biodesert/",
       "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-g3.",
@@ -40293,26 +40721,6 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Sun: Facts",
-      "url": "https://science.nasa.gov/sun/facts/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "astronomy-year",
-        "code-crew-g2",
-        "code-crew-k",
-        "earth-space-g6-8",
-        "science-launch-g1",
-        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -41424,7 +41832,8 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -42686,6 +43095,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Solar System Scope",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -48764,7 +49189,8 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -54059,6 +54485,26 @@
       "url_status": null
     },
     {
+      "title": "Sun: Facts",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
+        "science-launch-g1",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "spaceplace.nasa.gov",
       "url": "https://spaceplace.nasa.gov/constellations/en/",
       "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year.",
@@ -56244,6 +56690,58 @@
       "url_status": null
     },
     {
+      "title": "neal.fun",
+      "url": "https://neal.fun/constellation-draw/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "nightsky.jpl.nasa.gov",
       "url": "https://nightsky.jpl.nasa.gov/news/169/",
       "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
@@ -56330,6 +56828,24 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Planetary Fact Sheet, Metric",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA NSSDCA (Goddard)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "expressions-equations-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -56495,6 +57011,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Orb.Farm",
+      "url": "https://orb.farm/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
+      "publisher": "Max Bittker",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "grow-it-g3-5",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -56802,6 +57334,22 @@
       "url_status": null
     },
     {
+      "title": "Jupiter Facts",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What's the Difference Between Weather and Climate? (video page)",
       "url": "https://science.nasa.gov/kids/videos/video-whats-the-difference-between-weather-and-climate/",
       "description": "Cited 1 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -56932,26 +57480,6 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Sun: Facts",
-      "url": "https://science.nasa.gov/sun/facts/",
-      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "astronomy-year",
-        "code-crew-g2",
-        "code-crew-k",
-        "earth-space-g6-8",
-        "science-launch-g1",
-        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -58123,7 +58651,8 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -59282,6 +59811,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Solar System Scope",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -65343,7 +65888,8 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -69867,6 +70413,22 @@
       "url_status": null
     },
     {
+      "title": "2.1: Matter, Mass, and Volume (CK-12 Introductory Chemistry)",
+      "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12",
+      "description": "Cited 3 time(s) in the SOURCES.md of: science-launch-g5.",
+      "publisher": "LibreTexts Chemistry (CK-12 license)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "matter-lab-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "13. Propagation (Extension Gardener Handbook)",
       "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/13-propagation",
       "description": "Cited 3 time(s) in the SOURCES.md of: grow-it-g3-5.",
@@ -70048,6 +70610,26 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Sun: Facts",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "description": "Cited 3 time(s) in the SOURCES.md of: astronomy-year, science-launch-g5.",
+      "publisher": "NASA",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "code-crew-g2",
+        "code-crew-k",
+        "earth-space-g6-8",
+        "science-launch-g1",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -70660,6 +71242,43 @@
       "url_status": null
     },
     {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year, science-launch-g5.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year, science-launch-g5.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What should I do if I see a young bird fallen out of the nest?",
       "url": "https://nestwatch.org/learn/how-to-nestwatch/faqs/what-should-i-do-if-i-see-a-young-bird-fallen-out-of-the-nest/",
       "description": "Cited 2 time(s) in the SOURCES.md of: backyard-explorer-g3-5.",
@@ -70671,6 +71290,22 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Orb.Farm",
+      "url": "https://orb.farm/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: grow-it-g3-5, science-launch-g5.",
+      "publisher": "Max Bittker",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "grow-it-g3-5",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -70702,26 +71337,6 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "Sun: Facts",
-      "url": "https://science.nasa.gov/sun/facts/",
-      "description": "Cited 2 time(s) in the SOURCES.md of: astronomy-year, science-launch-g5.",
-      "publisher": "NASA",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "astronomy-year",
-        "code-crew-g2",
-        "code-crew-k",
-        "earth-space-g6-8",
-        "science-launch-g1",
-        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -70911,6 +71526,23 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Phases of Matter",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/state.html",
+      "description": "Cited 2 time(s) in the SOURCES.md of: bike-shop-g3-5, science-launch-g5.",
+      "publisher": "NASA Glenn Research Center",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "bike-shop-g3-5",
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -71568,6 +72200,38 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "1.3: Physical and Chemical Properties, Chemistry 2e (OpenStax)",
+      "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax",
+      "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-g5.",
+      "publisher": "Chemistry LibreTexts (OpenStax text)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "matter-lab-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Vinegar Cannon (UC Davis demonstrations)",
+      "url": "https://chem.libretexts.org/Courses/University_of_California_Davis/UCDemos/Vinegar_Cannon",
+      "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-g5.",
+      "publisher": "Chemistry LibreTexts, University of California, Davis",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -72804,6 +73468,36 @@
       "url_status": null
     },
     {
+      "title": "neal.fun",
+      "url": "https://neal.fun/constellation-draw/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "neal.fun",
+      "url": "https://neal.fun/deep-sea/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: science-launch-g5.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "nightsky.jpl.nasa.gov",
       "url": "https://nightsky.jpl.nasa.gov/news/169/",
       "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
@@ -72875,6 +73569,24 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Planetary Fact Sheet, Metric",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA NSSDCA (Goddard)",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "expressions-equations-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73313,6 +74025,22 @@
       "license": null,
       "cited_by": [
         "astronomy-year"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Jupiter Facts",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "NASA Science",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -74621,22 +75349,6 @@
       "url_status": null
     },
     {
-      "title": "Phases of Matter",
-      "url": "https://www.grc.nasa.gov/www/k-12/airplane/state.html",
-      "description": "Cited 1 time(s) in the SOURCES.md of: bike-shop-g3-5.",
-      "publisher": "NASA Glenn Research Center",
-      "kind": "government",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "bike-shop-g3-5",
-        "matter-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
       "title": "Winter Bees",
       "url": "https://www.huck.psu.edu/institutes-and-centers/insect-biodiversity-center/resources/art-imagery/winter-bees",
       "description": "Cited 1 time(s) in the SOURCES.md of: backyard-explorer-g3-5.",
@@ -75623,6 +76335,22 @@
       "license": null,
       "cited_by": [
         "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: astronomy-year.",
+      "publisher": "Solar System Scope",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -81606,7 +82334,8 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -84508,9 +85237,46 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "astronomy-year",
         "earth-space-g6-8",
         "expressions-equations-g6-8",
         "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "neal.fun",
+      "url": "https://neal.fun/perfect-circle/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: geometry-measurement-g6-8.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "geometry-g9-12",
+        "geometry-measurement-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: geometry-measurement-g6-8.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -84523,6 +85289,21 @@
       "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "ratios-data-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "slowroads.io",
+      "url": "https://slowroads.io/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: ratios-data-g6-8.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
       "license": null,
       "cited_by": [
         "ratios-data-g6-8"
@@ -85334,7 +86115,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -85382,6 +86164,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "astronomy-year",
         "earth-space-g6-8",
         "expressions-equations-g6-8",
         "sports-physics-g6-8"
@@ -85509,7 +86292,8 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -85539,7 +86323,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -85622,7 +86407,8 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
-        "matter-lab-g6-8"
+        "matter-lab-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -86122,6 +86908,26 @@
       "url_status": null
     },
     {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 2 time(s) in the SOURCES.md of: cells-systems-g6-8, earth-space-g6-8.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Earth Fact Sheet, Orbital parameters",
       "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: earth-space-g6-8.",
@@ -86425,6 +87231,21 @@
       "cited_by": [
         "robots-and-drones-g6-8",
         "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "1991 to 2020 U.S. Climate Normals, monthly, station file",
+      "url": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USW00094728.csv",
+      "description": "Cited 2 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "weather-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -87196,6 +88017,38 @@
       "license": null,
       "cited_by": [
         "cells-systems-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Life",
+      "url": "https://neal.fun/size-of-life/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: cells-systems-g6-8.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "cells-systems-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: earth-space-g6-8.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8",
+        "science-launch-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -88010,6 +88863,7 @@
       "reuse": "fact_source",
       "license": null,
       "cited_by": [
+        "astronomy-year",
         "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -88910,6 +89764,36 @@
       "url_status": null
     },
     {
+      "title": "110m Land; Terms of Use",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "Natural Earth",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "Public domain (\"All versions of Natural Earth raster + vector map data found on this website are in the public domain\")",
+      "cited_by": [
+        "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "110m Land; Terms of Use",
+      "url": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "Natural Earth",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "Public domain (\"All versions of Natural Earth raster + vector map data found on this website are in the public domain\")",
+      "cited_by": [
+        "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "1991 to 2020 U.S. Climate Normals, monthly, station file",
       "url": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USW00003017.csv",
       "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
@@ -88955,8 +89839,23 @@
       "url_status": null
     },
     {
-      "title": "1991 to 2020 U.S. Climate Normals, monthly, station file",
-      "url": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USW00094728.csv",
+      "title": "WMO Climate Normals for 1991 to 2020, composite file wmo_normals_9120_PRCP.csv",
+      "url": "https://www.ncei.noaa.gov/data/oceans/archive/arc0216/0253808/6.6/data/0-data/data-composite-primary-parameters/wmo_normals_9120_PRCP.csv",
+      "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "NOAA NCEI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "WMO Climate Normals for 1991 to 2020, composite file wmo_normals_9120_TAVG.csv",
+      "url": "https://www.ncei.noaa.gov/data/oceans/archive/arc0216/0253808/6.6/data/0-data/data-composite-primary-parameters/wmo_normals_9120_TAVG.csv",
       "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
       "publisher": "NOAA National Centers for Environmental Information",
       "kind": "government",
@@ -88980,6 +89879,21 @@
       "license": null,
       "cited_by": [
         "science-launch-g3",
+        "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "WMO Climate Normals",
+      "url": "https://www.ncei.noaa.gov/products/wmo-climate-normals",
+      "description": "Cited 1 time(s) in the SOURCES.md of: weather-lab-g6-8.",
+      "publisher": "NOAA NCEI",
+      "kind": "government",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "weather-lab-g6-8"
       ],
       "origin": "course SOURCES.md",
@@ -89554,6 +90468,22 @@
       "license": null,
       "cited_by": [
         "weather-lab-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: earth-space-g6-8.",
+      "publisher": "Solar System Scope",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
+        "earth-space-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -92628,6 +93558,42 @@
       "url_status": null
     },
     {
+      "title": "neal.fun",
+      "url": "https://neal.fun/perfect-circle/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: geometry-g9-12.",
+      "publisher": null,
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "geometry-g9-12",
+        "geometry-measurement-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "https://neal.fun/privacy-policy/",
+      "description": "Cited 1 time(s) in the SOURCES.md of: geometry-g9-12.",
+      "publisher": "Neal.fun",
+      "kind": "outside_activity",
+      "frameworks": [],
+      "reuse": "link_only",
+      "license": null,
+      "cited_by": [
+        "astronomy-year",
+        "cells-systems-g6-8",
+        "earth-space-g6-8",
+        "geometry-g9-12",
+        "geometry-measurement-g6-8",
+        "science-launch-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Combining Data – A General Overview",
       "url": "https://www.census.gov/about/what/admin-data.html",
       "description": "Cited 1 time(s) in the SOURCES.md of: data-society-g9-12.",
@@ -92718,7 +93684,7 @@
     {
       "title": "AP Computer Science Principles Course and Exam Description, Effective Fall 2023 (PDF metadata: modified 2025-12-05)",
       "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-course-and-exam-description.pdf",
-      "description": "Cited 2 time(s) in the SOURCES.md of: data-society-g9-12, intro-cs-g9-10.",
+      "description": "Cited 3 time(s) in the SOURCES.md of: data-society-g9-12, intro-cs-g9-10.",
       "publisher": "College Board",
       "kind": "standards_body",
       "frameworks": [
@@ -94842,7 +95808,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/astronomy-year/SOURCES.md",
-      "cited_pages": 49,
+      "cited_pages": 55,
       "top_hosts": [
         "science.nasa.gov",
         "spaceplace.nasa.gov",
@@ -94851,7 +95817,7 @@
         "nps.gov",
         "noirlab.edu",
         "images.nasa.gov",
-        "nasa.gov"
+        "neal.fun"
       ],
       "review_hosts": [],
       "flags": []
@@ -95118,12 +96084,13 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/cells-systems-g6-8/SOURCES.md",
-      "cited_pages": 50,
+      "cited_pages": 52,
       "top_hosts": [
         "openstax.org",
         "nextgenscience.org",
         "medlineplus.gov",
         "genome.gov",
+        "neal.fun",
         "nist.gov",
         "science.nasa.gov",
         "ars.usda.gov"
@@ -95456,7 +96423,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/earth-space-g6-8/SOURCES.md",
-      "cited_pages": 57,
+      "cited_pages": 60,
       "top_hosts": [
         "science.nasa.gov",
         "nextgenscience.org",
@@ -95617,9 +96584,10 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/geometry-g9-12/SOURCES.md",
-      "cited_pages": 7,
+      "cited_pages": 9,
       "top_hosts": [
-        "thecorestandards.org"
+        "thecorestandards.org",
+        "neal.fun"
       ],
       "review_hosts": [],
       "flags": []
@@ -95659,9 +96627,10 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/geometry-measurement-g6-8/SOURCES.md",
-      "cited_pages": 4,
+      "cited_pages": 6,
       "top_hosts": [
-        "thecorestandards.org"
+        "thecorestandards.org",
+        "neal.fun"
       ],
       "review_hosts": [],
       "flags": []
@@ -95695,7 +96664,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/grow-it-g3-5/SOURCES.md",
-      "cited_pages": 83,
+      "cited_pages": 84,
       "top_hosts": [
         "nextgenscience.org",
         "web.extension.illinois.edu",
@@ -96606,10 +97575,11 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/ratios-data-g6-8/SOURCES.md",
-      "cited_pages": 8,
+      "cited_pages": 9,
       "top_hosts": [
         "thecorestandards.org",
-        "openstax.org"
+        "openstax.org",
+        "slowroads.io"
       ],
       "review_hosts": [],
       "flags": []
@@ -96911,16 +97881,16 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/science-launch-g5/SOURCES.md",
-      "cited_pages": 49,
+      "cited_pages": 57,
       "top_hosts": [
         "nextgenscience.org",
         "acs.org",
         "science.nasa.gov",
+        "chem.libretexts.org",
         "nps.gov",
         "spaceplace.nasa.gov",
         "usgs.gov",
-        "scied.ucar.edu",
-        "wonders.physics.wisc.edu"
+        "neal.fun"
       ],
       "review_hosts": [],
       "flags": []
@@ -97155,14 +98125,14 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/weather-lab-g6-8/SOURCES.md",
-      "cited_pages": 131,
+      "cited_pages": 136,
       "top_hosts": [
         "noaa.gov",
         "weather.gov",
         "nextgenscience.org",
         "forecast.weather.gov",
-        "usgs.gov",
         "ncei.noaa.gov",
+        "usgs.gov",
         "oceanservice.noaa.gov",
         "climatekids.nasa.gov"
       ],
@@ -97321,6 +98291,34 @@
       "credit": "NASA/JPL-Caltech/SwRI/MSSS",
       "license": "NASA media guidelines: generally not subject to US copyright; credit NASA. https://www.nasa.gov/nasa-brand-center/images-and-media/",
       "cited_by": [
+        "earth-space-g6-8"
+      ]
+    },
+    {
+      "title": "110m Land; Terms of Use",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "credit": "Natural Earth",
+      "license": "Public domain (\"All versions of Natural Earth raster + vector map data found on this website are in the public domain\")",
+      "cited_by": [
+        "weather-lab-g6-8"
+      ]
+    },
+    {
+      "title": "110m Land; Terms of Use",
+      "url": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+      "credit": "Natural Earth",
+      "license": "Public domain (\"All versions of Natural Earth raster + vector map data found on this website are in the public domain\")",
+      "cited_by": [
+        "weather-lab-g6-8"
+      ]
+    },
+    {
+      "title": "Solar System Scope textures",
+      "url": "https://www.solarsystemscope.com/textures/",
+      "credit": "Solar System Scope",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "cited_by": [
+        "astronomy-year",
         "earth-space-g6-8"
       ]
     }
@@ -97516,6 +98514,30 @@
       "url": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website",
       "license_url": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website",
       "notes": "ESA logo and the Paxi mascot need written permission.",
+      "checked": "2026-10-12"
+    },
+    {
+      "title": "Solar System Scope textures (https://www.solarsystemscope.com/textures/)",
+      "owner": "Solar System Scope",
+      "license": "CC BY 4.0 (\"Distributed under Attribution 4.0 International license\")",
+      "reuse": "reuse",
+      "use": "Planet and Sun surface maps wrapped onto spheres in our own figures, credited \"Solar System Scope, CC BY 4.0\" with the change noted (D382)",
+      "fits": "Earth and Space, Astronomy Year",
+      "url": "https://www.solarsystemscope.com/textures/)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "notes": "Checked 2026-10-27. Maps marked \"fictional\" on the page (Ceres, Eris, Haumea, Makemake) are not real surfaces; do not use them as real. The site itself loads Google ads, so lessons do not link students to it.",
+      "checked": "2026-10-12"
+    },
+    {
+      "title": "Natural Earth (https://www.naturalearthdata.com/)",
+      "owner": "Natural Earth (Tom Patterson, Nathaniel Vaughn Kelso and contributors)",
+      "license": "Public domain (\"All versions of Natural Earth raster + vector map data found on this website are in the public domain\")",
+      "reuse": "reuse",
+      "use": "Map outlines in our own figures; we credit \"Natural Earth\"",
+      "fits": "Weather Lab (world-trip figure, D380)",
+      "url": "https://www.naturalearthdata.com/)",
+      "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "notes": "Checked 2026-10-27. Map data only, never a fact source.",
       "checked": "2026-10-12"
     },
     {
@@ -97924,6 +98946,42 @@
       "url": "https://www.splashlearn.com/",
       "license_url": null,
       "notes": "Accounts and paid upsells.",
+      "checked": "2026-10-12"
+    },
+    {
+      "title": "Orb.Farm",
+      "owner": "Max Bittker",
+      "license": null,
+      "reuse": "link_only",
+      "use": null,
+      "fits": "Science Launch G5 W8, Grow It 3-5 W10 (D376)",
+      "url": "https://orb.farm/",
+      "license_url": null,
+      "notes": "Checked 2026-10-27. Source code listed as MIT on GitHub (MaxBittker/orb.farm); its info page credits the daphnia art and a sky shader to other artists, whose license was not verified, so we link and never host a copy. Named in grown-up notes with credit.",
+      "checked": "2026-10-12"
+    },
+    {
+      "title": "Slow Roads",
+      "owner": "Anslo (topograph.io)",
+      "license": null,
+      "reuse": "link_only",
+      "use": null,
+      "fits": "Ratios and Data 6-8 W2 (D377)",
+      "url": "https://slowroads.io/",
+      "license_url": null,
+      "notes": "Checked 2026-10-27. States CC BY-NC-ND 4.0 and shows no ads. Has a speedometer and an odometer. Named in a grown-up note.",
+      "checked": "2026-10-12"
+    },
+    {
+      "title": "Neal.fun interactives: The Size of Space, The Size of Life, The Deep Sea, Constellation Draw, Draw a Perfect Circle",
+      "owner": "Neal Agarwal",
+      "license": null,
+      "reuse": "link_only",
+      "use": null,
+      "fits": "Earth and Space, Astronomy Year, Science Launch G5, Cells and Systems, Geometry and Measurement, Geometry (D381)",
+      "url": "https://neal.fun/",
+      "license_url": null,
+      "notes": "Checked 2026-10-27. Privacy policy (https://neal.fun/privacy-policy/) says the service is not directed at children under 13 and names Google AdSense; no ads loaded when checked. Each grown-up note says so and has a grown-up open the page.",
       "checked": "2026-10-12"
     },
     {

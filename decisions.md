@@ -2085,8 +2085,8 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Question:** Which idea from the first content-ideas report goes into production first?
 - **Options:** (1) The "How does it work?" weekly social series built from our 12 live stepped figures, plus an Hour of AI / CSEdWeek (Dec 7-11) blog post (Recommended). (2) The blog post only. (3) Scope an Inside the Gadget 6-8 course now. (4) Hold until after launch.
 - **Choice:** (1). On 2026-10-27 Chris asked to work through every idea in the report on a release schedule (D337), so all of them are now in the slate.
-- **Date:** 2026-10-26. **Decided by:** Claude (default). **Status:** Decided.
-- **Progress:** The figure series starts 2026-11-04 and the Hour of AI post is dated 2026-11-12 (/mnt/project-files/releases/backlog.md).
+- **Date:** 2026-10-26. **Decided by:** Claude (default). **Status:** Done (superseded by D338).
+- **Progress:** Superseded by the D338 release slate, which schedules everything this decision covered (noted 2026-10-29). The figure series starts 2026-11-04 and the Hour of AI post is dated 2026-11-12 (/mnt/project-files/releases/backlog.md).
 - **Links:** /mnt/project-files/content-ideas/2026-10-26.md.
 
 ### D337: Release cadence

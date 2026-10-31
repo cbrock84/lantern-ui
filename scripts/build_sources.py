@@ -118,7 +118,10 @@ HOST_KINDS = {'nestwatch.org': 'university',          # Cornell Lab of Ornitholo
               'slowroads.io': 'outside_activity',            # Slow Roads (D377)
               'neal.fun': 'outside_activity',                # Neal Agarwal's interactives (D381)
               'solarsystemscope.com': 'open_media',          # Solar System Scope planet textures, CC BY 4.0 (D382)
-              'naturalearthdata.com': 'open_media'}          # Natural Earth map data, public domain (D380 figure)
+              'naturalearthdata.com': 'open_media',          # Natural Earth map data, public domain (D380 figure)
+              # Hugging Face datasets cited by courses are open 3D models reused in figures: NVIDIA SimReady
+              # (CC BY 4.0) and CodePawl's web copy (CC BY 4.0), D384. Check each dataset's own license first.
+              'huggingface.co': 'open_media'}
 # Official project sources hosted on GitHub.
 URL_PREFIX_KINDS = {'https://raw.githubusercontent.com/python/cpython/': 'education_org'}
 
@@ -490,6 +493,7 @@ def main():
         'metmuseum.org': 'CC0 (Met Open Access items only). https://github.com/metmuseum/openaccess',
         'solarsystemscope.com': None,
         'naturalearthdata.com': None,
+        'huggingface.co': None,
     }
     media = []
     for u in sorted(url_courses):

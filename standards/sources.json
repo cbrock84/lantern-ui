@@ -87779,6 +87779,36 @@
       "url_status": null
     },
     {
+      "title": "huggingface.co",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "huggingface.co",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Total Lunar Eclipse & Blood Moon 2025 (GRC-2025-C-01605)",
       "url": "https://images.nasa.gov/details/GRC-2025-C-01605",
       "description": "Cited 1 time(s) in the SOURCES.md of: earth-space-g6-8.",
@@ -92046,6 +92076,36 @@
       "license": null,
       "cited_by": [
         "code-crew-g6-plus"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "huggingface.co",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "huggingface.co",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
+      "publisher": null,
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -97677,7 +97737,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/robots-and-drones-g6-8/SOURCES.md",
-      "cited_pages": 26,
+      "cited_pages": 28,
       "top_hosts": [
         "faa.gov",
         "www1.grc.nasa.gov",
@@ -97686,7 +97746,7 @@
         "grc.nasa.gov",
         "jpl.nasa.gov",
         "nextgenscience.org",
-        "csteachers.org"
+        "huggingface.co"
       ],
       "review_hosts": [],
       "flags": []
@@ -98178,6 +98238,24 @@
       ]
     },
     {
+      "title": "huggingface.co",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "credit": null,
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
+      "title": "huggingface.co",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "credit": null,
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "robots-and-drones-g6-8"
+      ]
+    },
+    {
       "title": "Total Lunar Eclipse & Blood Moon 2025 (GRC-2025-C-01605)",
       "url": "https://images.nasa.gov/details/GRC-2025-C-01605",
       "credit": "NASA/Jordan Cochran",
@@ -98538,6 +98616,18 @@
       "url": "https://www.naturalearthdata.com/)",
       "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
       "notes": "Checked 2026-10-27. Map data only, never a fact source.",
+      "checked": "2026-10-12"
+    },
+    {
+      "title": "NVIDIA SimReady Assets (https://huggingface.co/datasets/nvidia/simready-assets) and CodePawl's web copy SimReady GLB (https://huggingface.co/datasets/codepawl/simready-glb)",
+      "owner": "NVIDIA; web copy by CodePawl",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "reuse": "reuse",
+      "use": "3D models of real objects in our own figures, credited \"NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0\" with the change noted (D384)",
+      "fits": "Robots and Drones 6-8 (robot-arm-3d)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "notes": "Checked 2026-10-31. Models only, never a fact source: mass, density and joint limits in the files are simulation values. Before reusing a model, open its source folder and confirm its LICENSE.txt says CC BY 4.0. CodePawl's conversion scripts (github.com/codepawl/3d-builds) have no license: ideas only.",
       "checked": "2026-10-12"
     },
     {

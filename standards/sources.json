@@ -1,11 +1,11 @@
 {
   "_meta": {
     "version": 2,
-    "updated": "2026-10-28",
+    "updated": "2026-10-31",
     "description": "Lantern Learn's foundation source list. Every fact, standard and activity in a Lantern Learn, Rocket & Raven or Fox & Fern course is based on sources listed here (or added here before the content ships). Keys follow '{grade_id}_{subject_slug}'. Each key holds a list of sources. Pre-K has no Common Core alignment; those entries emphasize developmentally appropriate practice.",
     "history": [
       "v1 (2026-06): Chris Brock, prek-5th x 6 subjects, 3 entries each, {title,url,description}; kept verbatim in standards/sources-v1-2026-06.json.",
-      "v2 (2026-10-28): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
+      "v2 (2026-10-31): rebuilt by scripts/build_sources.py; v1 entries kept, grade ids 6th_8th, 9th_12th, adult and six subjects added from the live courses, new columns, _courses and _open_resources added."
     ],
     "grade_ids": [
       "prek",
@@ -86124,7 +86124,7 @@
     {
       "title": "17.2: Speed of Sound, Frequency, and Wavelength, College Physics 1e (OpenStax)",
       "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax",
-      "description": "Cited 45 time(s) in the SOURCES.md of: matter-lab-g6-8, robots-and-drones-g6-8, sports-physics-g6-8.",
+      "description": "Cited 46 time(s) in the SOURCES.md of: matter-lab-g6-8, robots-and-drones-g6-8, sports-physics-g6-8.",
       "publisher": "LibreTexts Physics (OpenStax, CC BY 4.0)",
       "kind": "education_org",
       "frameworks": [],

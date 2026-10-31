@@ -2431,6 +2431,6 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Question:** After the D384 robot-arm pilot, how many more SimReady 3D figures should we build?
 - **Options:** (A) Wave 1, six figures: fridge (Fox & Fern Kitchen 3-5), desktop computer (Inside the Gadget 6-8), pulse oximeter (Body Lab), small robot (Robots and Drones 6-8 week 1), car differential (Sports Physics 6-8), toaster (Everyday Machines), one PR each on a shared loader module (Recommended). (B) Two first (computer and small robot), then review. (C) Wait until the pilot has been live a while. (D) No more.
 - **Choice:** (A) Wave 1, six figures.
-- **Date:** 2026-10-31. **Decided by:** owner (Chris, "A"). **Status:** Decided.
-- **Progress:** Pilot approved and merged. Wave 1 in progress.
-- **Links:** Plan /mnt/project-files/content-ideas/2026-10-31-simready-figures-plan.md; D384.
+- **Date:** 2026-10-31. **Decided by:** owner (Chris, "A"). **Status:** Done.
+- **Progress:** 2026-10-31: all six built and merged on a shared loader (`scripts/figures3d/lib/simready.js`), each model's CC BY 4.0 LICENSE.txt checked and credited on the figure. Small robot, Robots and Drones 6-8 week 1 Friday (press #157, with the loader and the robot-arm refactor). Toaster, Everyday Machines week 10 Tuesday, and fridge, Everyday Machines week 8 Monday (press #158; the fridge went to Everyday Machines instead of Fox & Fern Kitchen 3-5 because Kitchen is held under D161). Desktop computer, Inside the Gadget 6-8 week 1 Monday, with a monitor, keyboard and mouse added as three more SimReady models (press #159). Pulse oximeter, Body Lab 3-5 week 4 Thursday, live now beside the dated pulse-sensor figure (press #160). Car differential, Sports Physics 6-8 week 1 Monday (press #161; new source MIT 2.972). sources.json rebuilt.
+- **Links:** Plan /mnt/project-files/content-ideas/2026-10-31-simready-figures-plan.md; D384; press #157, #158, #159, #160, #161.

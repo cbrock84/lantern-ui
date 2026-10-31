@@ -3987,6 +3987,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What Are Germs? (for Kids)",
       "url": "https://kidshealth.org/en/kids/germs.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-k2.",
@@ -4091,6 +4129,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "everyday-machines"
       ],
       "origin": "course SOURCES.md",
@@ -6088,21 +6141,6 @@
         "earth-space-g6-8",
         "expressions-equations-g6-8",
         "sports-physics-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -9484,6 +9522,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "The flashlight (Physics 222 course module)",
       "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
@@ -9509,6 +9585,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "everyday-machines"
       ],
       "origin": "course SOURCES.md",
@@ -9806,21 +9897,6 @@
       "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "The Ohio State University Libraries, digital collections",
       "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -15247,6 +15323,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What Are Germs? (for Kids)",
       "url": "https://kidshealth.org/en/kids/germs.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-k2.",
@@ -15367,6 +15481,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "everyday-machines"
       ],
       "origin": "course SOURCES.md",
@@ -17279,21 +17408,6 @@
         "earth-space-g6-8",
         "expressions-equations-g6-8",
         "sports-physics-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -21549,6 +21663,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "The flashlight (Physics 222 course module)",
       "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
@@ -21574,6 +21726,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "everyday-machines"
       ],
       "origin": "course SOURCES.md",
@@ -22197,21 +22364,6 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -26243,6 +26395,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "What Are Germs? (for Kids)",
       "url": "https://kidshealth.org/en/kids/germs.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: body-lab-k2.",
@@ -26363,6 +26553,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "everyday-machines"
       ],
       "origin": "course SOURCES.md",
@@ -28288,21 +28493,6 @@
         "earth-space-g6-8",
         "expressions-equations-g6-8",
         "sports-physics-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -32329,6 +32519,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "The flashlight (Physics 222 course module)",
       "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
@@ -32354,6 +32582,21 @@
       "license": null,
       "cited_by": [
         "bike-shop-g3-5",
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
         "everyday-machines"
       ],
       "origin": "course SOURCES.md",
@@ -32977,21 +33220,6 @@
       "license": null,
       "cited_by": [
         "inside-the-machine-g1-g2"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -36941,6 +37169,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5, everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5, everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Explore Gravity and Friction With Marble Runs",
       "url": "https://iowapbs.org/education/resources/page/7657/explore-gravity-and-friction-marble-runs",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5, builders-lab.",
@@ -37672,6 +37938,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -40101,21 +40382,6 @@
         "earth-space-g6-8",
         "expressions-equations-g6-8",
         "sports-physics-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -47469,11 +47735,64 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "The flashlight (Physics 222 course module)",
       "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
       "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -48490,21 +48809,6 @@
       "cited_by": [
         "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -50439,6 +50743,44 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -53787,6 +54129,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5, everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5, everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Explore Gravity and Friction With Marble Runs",
       "url": "https://iowapbs.org/education/resources/page/7657/explore-gravity-and-friction-marble-runs",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5, builders-lab.",
@@ -54449,6 +54829,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -56846,21 +57241,6 @@
         "earth-space-g6-8",
         "expressions-equations-g6-8",
         "sports-physics-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -64168,11 +64548,64 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "The flashlight (Physics 222 course module)",
       "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
       "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -65189,21 +65622,6 @@
       "cited_by": [
         "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -67138,6 +67556,44 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -70536,6 +70992,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5, everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 3 time(s) in the SOURCES.md of: body-lab-g3-5, everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Explore Gravity and Friction With Marble Runs",
       "url": "https://iowapbs.org/education/resources/page/7657/explore-gravity-and-friction-marble-runs",
       "description": "Cited 3 time(s) in the SOURCES.md of: bike-shop-g3-5, builders-lab.",
@@ -71290,6 +71784,21 @@
       "cited_by": [
         "backyard-explorer-g3-5",
         "backyard-explorer-k2"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -73602,21 +74111,6 @@
       "license": null,
       "cited_by": [
         "science-launch-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -80614,11 +81108,64 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "The flashlight (Physics 222 course module)",
       "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m3/The%20flahlight.html",
       "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
       "publisher": "University of Tennessee, Knoxville, Department of Physics and Astronomy",
       "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "everyday-machines"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "The clever science of toasters (background article PDF, 2025)",
+      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
+      "description": "Cited 2 time(s) in the SOURCES.md of: everyday-machines.",
+      "publisher": "New Zealand Association of Science Educators (NZASE)",
+      "kind": "education_org",
       "frameworks": [],
       "reuse": "fact_source",
       "license": null,
@@ -81635,21 +82182,6 @@
       "cited_by": [
         "inside-the-gadget-g6-8",
         "inside-the-machine-g3-g5"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "The clever science of toasters (background article PDF, 2025)",
-      "url": "https://nzase.org.nz/wp-content/uploads/2025/10/NZASE-Background-Article-Toaster.pdf",
-      "description": "Cited 1 time(s) in the SOURCES.md of: everyday-machines.",
-      "publisher": "New Zealand Association of Science Educators (NZASE)",
-      "kind": "education_org",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "everyday-machines"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -83584,6 +84116,44 @@
       "license": null,
       "cited_by": [
         "body-lab-g3-5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 1 time(s) in the SOURCES.md of: body-lab-g3-5.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -86908,6 +87478,44 @@
       "url_status": null
     },
     {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: robots-and-drones-g6-8, sports-physics-g6-8.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: robots-and-drones-g6-8, sports-physics-g6-8.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "Privacy Policy",
       "url": "https://neal.fun/privacy-policy/",
       "description": "Cited 2 time(s) in the SOURCES.md of: cells-systems-g6-8, earth-space-g6-8.",
@@ -87774,36 +88382,6 @@
       "license": null,
       "cited_by": [
         "weather-lab-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "huggingface.co",
-      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
-      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
-      "publisher": null,
-      "kind": "open_media",
-      "frameworks": [],
-      "reuse": "reuse",
-      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
-      "cited_by": [
-        "robots-and-drones-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "huggingface.co",
-      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
-      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
-      "publisher": null,
-      "kind": "open_media",
-      "frameworks": [],
-      "reuse": "reuse",
-      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
-      "cited_by": [
-        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -89109,6 +89687,21 @@
       "license": "Generally not copyrighted (NASA Media Usage Guidelines)",
       "cited_by": [
         "earth-space-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "2.972 How A Differential Works (student design report, Ali Pearlman)",
+      "url": "https://web.mit.edu/2.972/www/reports/differential/differential.html",
+      "description": "Cited 1 time(s) in the SOURCES.md of: sports-physics-g6-8.",
+      "publisher": "MIT, Department of Mechanical Engineering",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -91524,6 +92117,24 @@
       "url_status": null
     },
     {
+      "title": "CS101, Hardware",
+      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
+      "description": "Cited 4 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
+      "publisher": "Stanford University",
+      "kind": "university",
+      "frameworks": [],
+      "reuse": "fact_source",
+      "license": null,
+      "cited_by": [
+        "code-crew-g3",
+        "inside-the-gadget-g6-8",
+        "inside-the-machine-g1-g2",
+        "inside-the-machine-g3-g5"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
       "title": "string, Format Specification Mini-Language",
       "url": "https://docs.python.org/3/library/string.html",
       "description": "Cited 3 time(s) in the SOURCES.md of: code-crew-g6-plus.",
@@ -91634,24 +92245,6 @@
         "code-crew-g4",
         "code-crew-g5",
         "code-crew-g6-plus"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "CS101, Hardware",
-      "url": "https://web.stanford.edu/class/cs101/hardware-1.html",
-      "description": "Cited 3 time(s) in the SOURCES.md of: inside-the-gadget-g6-8.",
-      "publisher": "Stanford University",
-      "kind": "university",
-      "frameworks": [],
-      "reuse": "fact_source",
-      "license": null,
-      "cited_by": [
-        "code-crew-g3",
-        "inside-the-gadget-g6-8",
-        "inside-the-machine-g1-g2",
-        "inside-the-machine-g3-g5"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -91808,6 +92401,44 @@
       "license": null,
       "cited_by": [
         "code-crew-g6-plus"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8, robots-and-drones-g6-8.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
+      ],
+      "origin": "course SOURCES.md",
+      "url_status": null
+    },
+    {
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "description": "Cited 2 time(s) in the SOURCES.md of: inside-the-gadget-g6-8, robots-and-drones-g6-8.",
+      "publisher": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
+      "kind": "open_media",
+      "frameworks": [],
+      "reuse": "reuse",
+      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
+      "cited_by": [
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -92076,36 +92707,6 @@
       "license": null,
       "cited_by": [
         "code-crew-g6-plus"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "huggingface.co",
-      "url": "https://huggingface.co/datasets/codepawl/simready-glb",
-      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
-      "publisher": null,
-      "kind": "open_media",
-      "frameworks": [],
-      "reuse": "reuse",
-      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
-      "cited_by": [
-        "robots-and-drones-g6-8"
-      ],
-      "origin": "course SOURCES.md",
-      "url_status": null
-    },
-    {
-      "title": "huggingface.co",
-      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
-      "description": "Cited 1 time(s) in the SOURCES.md of: robots-and-drones-g6-8.",
-      "publisher": null,
-      "kind": "open_media",
-      "frameworks": [],
-      "reuse": "reuse",
-      "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
-      "cited_by": [
-        "robots-and-drones-g6-8"
       ],
       "origin": "course SOURCES.md",
       "url_status": null
@@ -96025,7 +96626,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/body-lab-g3-5/SOURCES.md",
-      "cited_pages": 66,
+      "cited_pages": 68,
       "top_hosts": [
         "kidshealth.org",
         "nextgenscience.org",
@@ -96531,7 +97132,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/everyday-machines/SOURCES.md",
-      "cited_pages": 65,
+      "cited_pages": 67,
       "top_hosts": [
         "nextgenscience.org",
         "spdf.gsfc.nasa.gov",
@@ -96924,7 +97525,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/inside-the-gadget-g6-8/SOURCES.md",
-      "cited_pages": 39,
+      "cited_pages": 41,
       "top_hosts": [
         "web.stanford.edu",
         "nist.gov",
@@ -98016,7 +98617,7 @@
         ]
       },
       "sources_md": "rocket-and-raven-press/scripts/course-gen/courses/sports-physics-g6-8/SOURCES.md",
-      "cited_pages": 34,
+      "cited_pages": 37,
       "top_hosts": [
         "phys.libretexts.org",
         "openstax.org",
@@ -98238,21 +98839,29 @@
       ]
     },
     {
-      "title": "huggingface.co",
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
       "url": "https://huggingface.co/datasets/codepawl/simready-glb",
-      "credit": null,
+      "credit": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
       "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
       "cited_by": [
-        "robots-and-drones-g6-8"
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ]
     },
     {
-      "title": "huggingface.co",
+      "title": "SimReady Assets: oximeter_pulse_a01 (3D model); SimReady GLB (web copy)",
       "url": "https://huggingface.co/datasets/nvidia/simready-assets",
-      "credit": null,
+      "credit": "Model by NVIDIA SimReady, CC BY 4.0; web copy by CodePawl, CC BY 4.0; changed by adding a finger, light, sensor and screen, pressing the power button and cutting the clip in half",
       "license": "CC BY 4.0 (each asset folder holds the full license in .metadata/LICENSE.txt; the web copy's card says CC BY 4.0 and asks to credit NVIDIA and link the source)",
       "cited_by": [
-        "robots-and-drones-g6-8"
+        "body-lab-g3-5",
+        "everyday-machines",
+        "inside-the-gadget-g6-8",
+        "robots-and-drones-g6-8",
+        "sports-physics-g6-8"
       ]
     },
     {

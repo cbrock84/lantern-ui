@@ -27,7 +27,6 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
-| D385 | After the D384 robot-arm pilot, how many more SimReady 3D figures? | (A) Wave 1, six figures (Recommended); (B) two first; (C) wait; (D) no more | Plan: /mnt/project-files/content-ideas/2026-10-31-simready-figures-plan.md. Waiting on Chris's verdict on the pilot. |
 
 ## Log
 
@@ -2424,6 +2423,14 @@ D1 to D322. Full log, spec and ranked list: `standards/colorfigures-spec.md`.
 - **Question:** How should Lantern Learn use the NVIDIA SimReady 3D models (2,595 models, CC BY 4.0, made web-ready by CodePawl's SimReady GLB copy), found in an X post by @anxuanng?
 - **Options:** (A) Pilot one figure: the robot arm (14 joints) for Robots and Drones 6-8 week 4 (Actuators and Feedback) on the figures3d pipeline, credited CC BY with a sources.json _media entry, lesson facts only from the course's sources (Recommended). (B) Catalog only: add both datasets to sources.json and build nothing yet. (C) Social only: turntable Reels of real objects for the "How does it work?" series. (D) Skip.
 - **Choice:** (A) Pilot the robot-arm figure, then plan many more if it looks good.
-- **Date:** 2026-10-31. **Decided by:** owner (Chris, "Let's pilot A and then plan for many more if it looks good"). **Status:** Decided.
-- **Progress:** Built `robot-arm-3d` (page 667 KB; the 5 MB model loads after it from public/figures/models): six joint sliders with the model's own limits, Reach the target (always reachable), and a feedback-loop controller (measure the gap, pick the best single joint move, repeat). Shown in Robots and Drones 6-8 W4 Thursday with F02 and F35. NVIDIA SimReady and CodePawl's copy added to source-catalog.md and sources.json _media (open_media, never a fact source). Next: a plan for more SimReady figures.
+- **Date:** 2026-10-31. **Decided by:** owner (Chris, "Let's pilot A and then plan for many more if it looks good"). **Status:** Done.
+- **Progress:** Built `robot-arm-3d` (page 667 KB; the 5 MB model loads after it from public/figures/models): six joint sliders with the model's own limits, Reach the target (always reachable), and a feedback-loop controller (measure the gap, pick the best single joint move, repeat). Shown in Robots and Drones 6-8 W4 Thursday with F02 and F35. NVIDIA SimReady and CodePawl's copy added to source-catalog.md and sources.json _media (open_media, never a fact source). Plan for more figures written; Chris approved wave 1 (D385).
 - **Links:** rocket-and-raven-press PR (robot-arm-3d); Review /mnt/project-files/content-ideas/2026-10-31-simready-glb-review.md; preview https://claude.ai/artifact/ChBYrdgiSw4JATr5uQg557; thread "Review X post for borrowable tools".
+
+### D385: SimReady wave 1
+- **Question:** After the D384 robot-arm pilot, how many more SimReady 3D figures should we build?
+- **Options:** (A) Wave 1, six figures: fridge (Fox & Fern Kitchen 3-5), desktop computer (Inside the Gadget 6-8), pulse oximeter (Body Lab), small robot (Robots and Drones 6-8 week 1), car differential (Sports Physics 6-8), toaster (Everyday Machines), one PR each on a shared loader module (Recommended). (B) Two first (computer and small robot), then review. (C) Wait until the pilot has been live a while. (D) No more.
+- **Choice:** (A) Wave 1, six figures.
+- **Date:** 2026-10-31. **Decided by:** owner (Chris, "A"). **Status:** Decided.
+- **Progress:** Pilot approved and merged. Wave 1 in progress.
+- **Links:** Plan /mnt/project-files/content-ideas/2026-10-31-simready-figures-plan.md; D384.

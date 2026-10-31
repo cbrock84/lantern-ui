@@ -27,6 +27,7 @@ Every entry has these fields:
 
 | ID | Question | Options | Notes |
 | --- | --- | --- | --- |
+| D385 | After the D384 robot-arm pilot, how many more SimReady 3D figures? | (A) Wave 1, six figures (Recommended); (B) two first; (C) wait; (D) no more | Plan: /mnt/project-files/content-ideas/2026-10-31-simready-figures-plan.md. Waiting on Chris's verdict on the pilot. |
 
 ## Log
 
